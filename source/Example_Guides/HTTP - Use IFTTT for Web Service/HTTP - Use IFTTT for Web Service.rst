@@ -128,25 +128,25 @@ will receive a message from “LINE Notify” on your Mobile devices or PC.
 |image16.png| |image17.png| |image18.png| |image19.png| |image20.png|
 |image21.png| |image22.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
-.. |image06.png| image:: ../../../_static/_Other_Guides/image06.png
-.. |image07.png| image:: ../../../_static/_Other_Guides/image07.png
-.. |image08.jpeg| image:: ../../../_static/_Other_Guides/image08.jpeg
-.. |image09.png| image:: ../../../_static/_Other_Guides/image09.png
-.. |image10.png| image:: ../../../_static/_Other_Guides/image10.png
-.. |image11.png| image:: ../../../_static/_Other_Guides/image11.png
-.. |image12.png| image:: ../../../_static/_Other_Guides/image12.png
-.. |image13.png| image:: ../../../_static/_Other_Guides/image13.png
-.. |image14.png| image:: ../../../_static/_Other_Guides/image14.png
-.. |image15.png| image:: ../../../_static/_Other_Guides/image15.png
-.. |image16.png| image:: ../../../_static/_Other_Guides/image16.png
-.. |image17.png| image:: ../../../_static/_Other_Guides/image17.png
-.. |image18.png| image:: ../../../_static/_Other_Guides/image18.png
-.. |image19.png| image:: ../../../_static/_Other_Guides/image19.png
-.. |image20.png| image:: ../../../_static/_Other_Guides/image20.png
-.. |image21.png| image:: ../../../_static/_Other_Guides/image21.png
-.. |image22.png| image:: ../../../_static/_Other_Guides/image22.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Use%20IFTTT%20for%20Web%20Service/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Use%20IFTTT%20for%20Web%20Service/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Use%20IFTTT%20for%20Web%20Service/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Use%20IFTTT%20for%20Web%20Service/image04.png
+.. |image05.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Use%20IFTTT%20for%20Web%20Service/image05.png
+.. |image06.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Use%20IFTTT%20for%20Web%20Service/image06.png
+.. |image07.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Use%20IFTTT%20for%20Web%20Service/image07.png
+.. |image08.jpeg| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Use%20IFTTT%20for%20Web%20Service/image08.jpeg
+.. |image09.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Use%20IFTTT%20for%20Web%20Service/image09.png
+.. |image10.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Use%20IFTTT%20for%20Web%20Service/image10.png
+.. |image11.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Use%20IFTTT%20for%20Web%20Service/image11.png
+.. |image12.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Use%20IFTTT%20for%20Web%20Service/image12.png
+.. |image13.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Use%20IFTTT%20for%20Web%20Service/image13.png
+.. |image14.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Use%20IFTTT%20for%20Web%20Service/image14.png
+.. |image15.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Use%20IFTTT%20for%20Web%20Service/image15.png
+.. |image16.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Use%20IFTTT%20for%20Web%20Service/image16.png
+.. |image17.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Use%20IFTTT%20for%20Web%20Service/image17.png
+.. |image18.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Use%20IFTTT%20for%20Web%20Service/image18.png
+.. |image19.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Use%20IFTTT%20for%20Web%20Service/image19.png
+.. |image20.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Use%20IFTTT%20for%20Web%20Service/image20.png
+.. |image21.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Use%20IFTTT%20for%20Web%20Service/image21.png
+.. |image22.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Use%20IFTTT%20for%20Web%20Service/image22.png

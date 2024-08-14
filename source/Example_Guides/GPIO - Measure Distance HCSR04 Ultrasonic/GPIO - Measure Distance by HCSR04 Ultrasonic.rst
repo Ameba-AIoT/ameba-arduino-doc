@@ -68,8 +68,8 @@ distance = duration / 58;
 
 |image01.png| |image02.png| |image03.png| |image04.png| |image05.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_GPIO%20-%20Measure%20Distance%20HCSR04%20Ultrasonic/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_GPIO%20-%20Measure%20Distance%20HCSR04%20Ultrasonic/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_GPIO%20-%20Measure%20Distance%20HCSR04%20Ultrasonic/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_GPIO%20-%20Measure%20Distance%20HCSR04%20Ultrasonic/image04.png
+.. |image05.png| image:: ../../../_static/_Example_Guides/_GPIO%20-%20Measure%20Distance%20HCSR04%20Ultrasonic/image05.png

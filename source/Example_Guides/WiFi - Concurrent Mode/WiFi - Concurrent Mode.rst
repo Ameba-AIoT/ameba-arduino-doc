@@ -51,9 +51,9 @@ with WiFi module. Therefore, #include is not needed.
 |image01.png| |image02.png| |image03.png| |image04.png| |image05.png|
 |image06.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
-.. |image06.png| image:: ../../../_static/_Other_Guides/image06.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Concurrent%20Mode/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Concurrent%20Mode/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Concurrent%20Mode/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Concurrent%20Mode/image04.png
+.. |image05.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Concurrent%20Mode/image05.png
+.. |image06.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Concurrent%20Mode/image06.png

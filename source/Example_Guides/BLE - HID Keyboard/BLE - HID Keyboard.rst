@@ -41,7 +41,7 @@ repeatedly.
 
 |image01.png| |image02.png| |image03.png| |image04.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20HID%20Keyboard/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20HID%20Keyboard/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20HID%20Keyboard/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20HID%20Keyboard/image04.png

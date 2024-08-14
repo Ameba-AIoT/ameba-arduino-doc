@@ -71,15 +71,15 @@ control the playback.
 |image06.png| |image07.png| |image08.png| |image09.png| |image10.png|
 |image11.png| |image12.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
-.. |image06.png| image:: ../../../_static/_Other_Guides/image06.png
-.. |image07.png| image:: ../../../_static/_Other_Guides/image07.png
-.. |image08.png| image:: ../../../_static/_Other_Guides/image08.png
-.. |image09.png| image:: ../../../_static/_Other_Guides/image09.png
-.. |image10.png| image:: ../../../_static/_Other_Guides/image10.png
-.. |image11.png| image:: ../../../_static/_Other_Guides/image11.png
-.. |image12.png| image:: ../../../_static/_Other_Guides/image12.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTP%20Audio%20Stream/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTP%20Audio%20Stream/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTP%20Audio%20Stream/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTP%20Audio%20Stream/image04.png
+.. |image05.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTP%20Audio%20Stream/image05.png
+.. |image06.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTP%20Audio%20Stream/image06.png
+.. |image07.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTP%20Audio%20Stream/image07.png
+.. |image08.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTP%20Audio%20Stream/image08.png
+.. |image09.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTP%20Audio%20Stream/image09.png
+.. |image10.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTP%20Audio%20Stream/image10.png
+.. |image11.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTP%20Audio%20Stream/image11.png
+.. |image12.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTP%20Audio%20Stream/image12.png

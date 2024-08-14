@@ -38,5 +38,5 @@ to make. Another array, noteDurations, contains the length of each tone,
 
 |image01.png| |image02.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_PWM%20-%20Buzzer%20Play%20Melody/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_PWM%20-%20Buzzer%20Play%20Melody/image02.png

@@ -28,6 +28,6 @@ client.
 
 |image01.png| |image02.png| |image03.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20SSL%20Client%20for%20HTTPS%20Communication/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20SSL%20Client%20for%20HTTPS%20Communication/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20SSL%20Client%20for%20HTTPS%20Communication/image03.png

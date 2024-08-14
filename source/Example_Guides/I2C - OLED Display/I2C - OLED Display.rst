@@ -49,10 +49,10 @@ https://github.com/adafruit/Adafruit-GFX-Library/tree/master
 |image01.png| |image02.jpeg| |image03.png| |image04.jpeg| |image05.jpeg|
 |image06.png| |image07.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.jpeg| image:: ../../../_static/_Other_Guides/image02.jpeg
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.jpeg| image:: ../../../_static/_Other_Guides/image04.jpeg
-.. |image05.jpeg| image:: ../../../_static/_Other_Guides/image05.jpeg
-.. |image06.png| image:: ../../../_static/_Other_Guides/image06.png
-.. |image07.png| image:: ../../../_static/_Other_Guides/image07.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_I2C%20-%20OLED%20Display/image01.png
+.. |image02.jpeg| image:: ../../../_static/_Example_Guides/_I2C%20-%20OLED%20Display/image02.jpeg
+.. |image03.png| image:: ../../../_static/_Example_Guides/_I2C%20-%20OLED%20Display/image03.png
+.. |image04.jpeg| image:: ../../../_static/_Example_Guides/_I2C%20-%20OLED%20Display/image04.jpeg
+.. |image05.jpeg| image:: ../../../_static/_Example_Guides/_I2C%20-%20OLED%20Display/image05.jpeg
+.. |image06.png| image:: ../../../_static/_Example_Guides/_I2C%20-%20OLED%20Display/image06.png
+.. |image07.png| image:: ../../../_static/_Example_Guides/_I2C%20-%20OLED%20Display/image07.png

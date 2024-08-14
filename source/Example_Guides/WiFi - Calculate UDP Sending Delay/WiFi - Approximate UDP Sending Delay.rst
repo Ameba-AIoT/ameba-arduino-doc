@@ -43,6 +43,6 @@ delay and print out the result.
 
 |image01.png| |image02.png| |image03.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Calculate%20UDP%20Sending%20Delay/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Calculate%20UDP%20Sending%20Delay/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Calculate%20UDP%20Sending%20Delay/image03.png

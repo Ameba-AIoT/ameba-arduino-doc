@@ -51,6 +51,6 @@ are formatted the same way as the shown in the example code. Set
 
 |image01.png| |image02.png| |image03.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_MQTT%20-%20Set%20up%20Client%20TLS/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_MQTT%20-%20Set%20up%20Client%20TLS/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_MQTT%20-%20Set%20up%20Client%20TLS/image03.png

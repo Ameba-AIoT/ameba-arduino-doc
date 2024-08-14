@@ -36,6 +36,6 @@ https://github.com/ElectronicCats/mpu6050
 
 |image01.png| |image02.png| |image03.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_I2C%20-%20MPU6050_DMP6_ImuData_for_ROS/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_I2C%20-%20MPU6050_DMP6_ImuData_for_ROS/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_I2C%20-%20MPU6050_DMP6_ImuData_for_ROS/image03.png

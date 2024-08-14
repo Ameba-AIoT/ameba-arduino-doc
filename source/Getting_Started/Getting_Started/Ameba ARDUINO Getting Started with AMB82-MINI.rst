@@ -160,17 +160,17 @@ Facebook Group English: https://www.facebook.com/groups/amebaioten .
 |image06.png| |image07.png| |image08.png| |image09.png| |image10.png|
 |image11.png| |image12.png| |image13.png| |image14.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
-.. |image06.png| image:: ../../../_static/_Other_Guides/image06.png
-.. |image07.png| image:: ../../../_static/_Other_Guides/image07.png
-.. |image08.png| image:: ../../../_static/_Other_Guides/image08.png
-.. |image09.png| image:: ../../../_static/_Other_Guides/image09.png
-.. |image10.png| image:: ../../../_static/_Other_Guides/image10.png
-.. |image11.png| image:: ../../../_static/_Other_Guides/image11.png
-.. |image12.png| image:: ../../../_static/_Other_Guides/image12.png
-.. |image13.png| image:: ../../../_static/_Other_Guides/image13.png
-.. |image14.png| image:: ../../../_static/_Other_Guides/image14.png
+.. |image01.png| image:: ../../../_static/_Getting_Started/_Getting_Started/image01.png
+.. |image02.png| image:: ../../../_static/_Getting_Started/_Getting_Started/image02.png
+.. |image03.png| image:: ../../../_static/_Getting_Started/_Getting_Started/image03.png
+.. |image04.png| image:: ../../../_static/_Getting_Started/_Getting_Started/image04.png
+.. |image05.png| image:: ../../../_static/_Getting_Started/_Getting_Started/image05.png
+.. |image06.png| image:: ../../../_static/_Getting_Started/_Getting_Started/image06.png
+.. |image07.png| image:: ../../../_static/_Getting_Started/_Getting_Started/image07.png
+.. |image08.png| image:: ../../../_static/_Getting_Started/_Getting_Started/image08.png
+.. |image09.png| image:: ../../../_static/_Getting_Started/_Getting_Started/image09.png
+.. |image10.png| image:: ../../../_static/_Getting_Started/_Getting_Started/image10.png
+.. |image11.png| image:: ../../../_static/_Getting_Started/_Getting_Started/image11.png
+.. |image12.png| image:: ../../../_static/_Getting_Started/_Getting_Started/image12.png
+.. |image13.png| image:: ../../../_static/_Getting_Started/_Getting_Started/image13.png
+.. |image14.png| image:: ../../../_static/_Getting_Started/_Getting_Started/image14.png

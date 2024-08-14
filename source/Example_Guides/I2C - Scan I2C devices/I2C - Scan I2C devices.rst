@@ -34,6 +34,6 @@ https://playground.arduino.cc/Main/I2cScanner/
 
 |image01.png| |image02.png| |image03.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_I2C%20-%20Scan%20I2C%20devices/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_I2C%20-%20Scan%20I2C%20devices/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_I2C%20-%20Scan%20I2C%20devices/image03.png

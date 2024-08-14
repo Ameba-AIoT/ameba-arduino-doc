@@ -29,5 +29,5 @@ at https://www.amebaiot.com/en/amebapro2-scrfd-convert-to-onnx/.
 
 |image01.png| |image02.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
+.. |image01.png| image:: ../../../_static/_Other_Guides/_Online%20AI%20Model%20Conversion/image01.png
+.. |image02.png| image:: ../../../_static/_Other_Guides/_Online%20AI%20Model%20Conversion/image02.png

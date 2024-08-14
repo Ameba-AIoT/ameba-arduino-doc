@@ -82,13 +82,13 @@ https://www.cprogramming.com/snippets/source-code/word-wrap-in-c
 |image01.png| |image02.jpeg| |image03.png| |image04.jpeg| |image05.jpeg|
 |image06.png| |image07.png| |image08.png| |image09.png| |image10.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.jpeg| image:: ../../../_static/_Other_Guides/image02.jpeg
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.jpeg| image:: ../../../_static/_Other_Guides/image04.jpeg
-.. |image05.jpeg| image:: ../../../_static/_Other_Guides/image05.jpeg
-.. |image06.png| image:: ../../../_static/_Other_Guides/image06.png
-.. |image07.png| image:: ../../../_static/_Other_Guides/image07.png
-.. |image08.png| image:: ../../../_static/_Other_Guides/image08.png
-.. |image09.png| image:: ../../../_static/_Other_Guides/image09.png
-.. |image10.png| image:: ../../../_static/_Other_Guides/image10.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_E-Paper%20-%207.5-inch%20e-Book%20with%20MicroSD%20card/image01.png
+.. |image02.jpeg| image:: ../../../_static/_Example_Guides/_E-Paper%20-%207.5-inch%20e-Book%20with%20MicroSD%20card/image02.jpeg
+.. |image03.png| image:: ../../../_static/_Example_Guides/_E-Paper%20-%207.5-inch%20e-Book%20with%20MicroSD%20card/image03.png
+.. |image04.jpeg| image:: ../../../_static/_Example_Guides/_E-Paper%20-%207.5-inch%20e-Book%20with%20MicroSD%20card/image04.jpeg
+.. |image05.jpeg| image:: ../../../_static/_Example_Guides/_E-Paper%20-%207.5-inch%20e-Book%20with%20MicroSD%20card/image05.jpeg
+.. |image06.png| image:: ../../../_static/_Example_Guides/_E-Paper%20-%207.5-inch%20e-Book%20with%20MicroSD%20card/image06.png
+.. |image07.png| image:: ../../../_static/_Example_Guides/_E-Paper%20-%207.5-inch%20e-Book%20with%20MicroSD%20card/image07.png
+.. |image08.png| image:: ../../../_static/_Example_Guides/_E-Paper%20-%207.5-inch%20e-Book%20with%20MicroSD%20card/image08.png
+.. |image09.png| image:: ../../../_static/_Example_Guides/_E-Paper%20-%207.5-inch%20e-Book%20with%20MicroSD%20card/image09.png
+.. |image10.png| image:: ../../../_static/_Example_Guides/_E-Paper%20-%207.5-inch%20e-Book%20with%20MicroSD%20card/image10.png

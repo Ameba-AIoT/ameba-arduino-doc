@@ -66,8 +66,8 @@ https://www.arduino.cc/en/Reference/WiFIClientStop
 
 |image01.png| |image02.png| |image03.png| |image04.png| |image05.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Simple%20TCP%20Server/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Simple%20TCP%20Server/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Simple%20TCP%20Server/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Simple%20TCP%20Server/image04.png
+.. |image05.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Simple%20TCP%20Server/image05.png

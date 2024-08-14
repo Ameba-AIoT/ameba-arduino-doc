@@ -58,9 +58,9 @@ Ameba issues a request to DHT to read the latest data.
 |image01.png| |image02.png| |image03.png| |image04.png| |image05.png|
 |image06.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
-.. |image06.png| image:: ../../../_static/_Other_Guides/image06.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_GPIO%20-%20Measure%20Temperature%20and%20Humidity%20DHT%20Tester/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_GPIO%20-%20Measure%20Temperature%20and%20Humidity%20DHT%20Tester/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_GPIO%20-%20Measure%20Temperature%20and%20Humidity%20DHT%20Tester/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_GPIO%20-%20Measure%20Temperature%20and%20Humidity%20DHT%20Tester/image04.png
+.. |image05.png| image:: ../../../_static/_Example_Guides/_GPIO%20-%20Measure%20Temperature%20and%20Humidity%20DHT%20Tester/image05.png
+.. |image06.png| image:: ../../../_static/_Example_Guides/_GPIO%20-%20Measure%20Temperature%20and%20Humidity%20DHT%20Tester/image06.png

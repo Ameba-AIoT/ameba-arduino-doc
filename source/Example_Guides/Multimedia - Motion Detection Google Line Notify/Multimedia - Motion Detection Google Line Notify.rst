@@ -140,17 +140,17 @@ https://github.com/fustyles/Arduino/tree/master/ESP32-CAM_GoogleDrive_Linenotify
 |image06.png| |image07.png| |image08.png| |image09.png| |image10.png|
 |image11.png| |image12.png| |image13.png| |image14.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
-.. |image06.png| image:: ../../../_static/_Other_Guides/image06.png
-.. |image07.png| image:: ../../../_static/_Other_Guides/image07.png
-.. |image08.png| image:: ../../../_static/_Other_Guides/image08.png
-.. |image09.png| image:: ../../../_static/_Other_Guides/image09.png
-.. |image10.png| image:: ../../../_static/_Other_Guides/image10.png
-.. |image11.png| image:: ../../../_static/_Other_Guides/image11.png
-.. |image12.png| image:: ../../../_static/_Other_Guides/image12.png
-.. |image13.png| image:: ../../../_static/_Other_Guides/image13.png
-.. |image14.png| image:: ../../../_static/_Other_Guides/image14.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Motion%20Detection%20Google%20Line%20Notify/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Motion%20Detection%20Google%20Line%20Notify/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Motion%20Detection%20Google%20Line%20Notify/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Motion%20Detection%20Google%20Line%20Notify/image04.png
+.. |image05.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Motion%20Detection%20Google%20Line%20Notify/image05.png
+.. |image06.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Motion%20Detection%20Google%20Line%20Notify/image06.png
+.. |image07.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Motion%20Detection%20Google%20Line%20Notify/image07.png
+.. |image08.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Motion%20Detection%20Google%20Line%20Notify/image08.png
+.. |image09.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Motion%20Detection%20Google%20Line%20Notify/image09.png
+.. |image10.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Motion%20Detection%20Google%20Line%20Notify/image10.png
+.. |image11.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Motion%20Detection%20Google%20Line%20Notify/image11.png
+.. |image12.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Motion%20Detection%20Google%20Line%20Notify/image12.png
+.. |image13.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Motion%20Detection%20Google%20Line%20Notify/image13.png
+.. |image14.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Motion%20Detection%20Google%20Line%20Notify/image14.png

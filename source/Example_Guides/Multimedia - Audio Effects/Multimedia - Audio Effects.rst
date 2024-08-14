@@ -64,8 +64,8 @@ level, and 30 representing -30 dBFS the softest level.
 
 |image01.png| |image02.png| |image03.png| |image04.png| |image05.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Audio%20Effects/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Audio%20Effects/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Audio%20Effects/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Audio%20Effects/image04.png
+.. |image05.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Audio%20Effects/image05.png

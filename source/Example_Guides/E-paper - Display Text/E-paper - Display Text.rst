@@ -66,13 +66,13 @@ https://github.com/waveshare/e-Paper
 |image01.png| |image02.png| |image03.png| |image04.jpeg| |image05.jpeg|
 |image06.png| |image07.png| |image08.jpeg| |image09.png| |image10.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.jpeg| image:: ../../../_static/_Other_Guides/image04.jpeg
-.. |image05.jpeg| image:: ../../../_static/_Other_Guides/image05.jpeg
-.. |image06.png| image:: ../../../_static/_Other_Guides/image06.png
-.. |image07.png| image:: ../../../_static/_Other_Guides/image07.png
-.. |image08.jpeg| image:: ../../../_static/_Other_Guides/image08.jpeg
-.. |image09.png| image:: ../../../_static/_Other_Guides/image09.png
-.. |image10.png| image:: ../../../_static/_Other_Guides/image10.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20Text/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20Text/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20Text/image03.png
+.. |image04.jpeg| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20Text/image04.jpeg
+.. |image05.jpeg| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20Text/image05.jpeg
+.. |image06.png| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20Text/image06.png
+.. |image07.png| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20Text/image07.png
+.. |image08.jpeg| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20Text/image08.jpeg
+.. |image09.png| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20Text/image09.png
+.. |image10.png| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20Text/image10.png

@@ -70,7 +70,7 @@ NA
 
 |image01.png| |image02.png| |image03.png| |image04.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_PowerMode%20-%20Deep%20Sleep%20Mode/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_PowerMode%20-%20Deep%20Sleep%20Mode/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_PowerMode%20-%20Deep%20Sleep%20Mode/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_PowerMode%20-%20Deep%20Sleep%20Mode/image04.png

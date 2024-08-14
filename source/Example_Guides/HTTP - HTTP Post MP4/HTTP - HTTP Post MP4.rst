@@ -49,7 +49,7 @@ Windows have not been supported yet.
 
 |image01.png| |image02.png| |image03.png| |image04.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20HTTP%20Post%20MP4/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20HTTP%20Post%20MP4/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20HTTP%20Post%20MP4/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20HTTP%20Post%20MP4/image04.png

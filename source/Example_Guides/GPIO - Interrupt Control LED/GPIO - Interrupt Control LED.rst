@@ -64,6 +64,6 @@ an interrupt, and change the status of the LED.
 
 |image01.png| |image02.png| |image03.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_GPIO%20-%20Interrupt%20Control%20LED/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_GPIO%20-%20Interrupt%20Control%20LED/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_GPIO%20-%20Interrupt%20Control%20LED/image03.png

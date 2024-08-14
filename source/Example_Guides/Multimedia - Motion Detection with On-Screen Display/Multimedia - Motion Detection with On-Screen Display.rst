@@ -67,10 +67,10 @@ uncommenting the highlighted code below.
 |image01.png| |image02.png| |image03.png| |image04.png| |image05.png|
 |image06.png| |image07.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
-.. |image06.png| image:: ../../../_static/_Other_Guides/image06.png
-.. |image07.png| image:: ../../../_static/_Other_Guides/image07.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Motion%20Detection%20with%20On-Screen%20Display/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Motion%20Detection%20with%20On-Screen%20Display/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Motion%20Detection%20with%20On-Screen%20Display/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Motion%20Detection%20with%20On-Screen%20Display/image04.png
+.. |image05.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Motion%20Detection%20with%20On-Screen%20Display/image05.png
+.. |image06.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Motion%20Detection%20with%20On-Screen%20Display/image06.png
+.. |image07.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Motion%20Detection%20with%20On-Screen%20Display/image07.png

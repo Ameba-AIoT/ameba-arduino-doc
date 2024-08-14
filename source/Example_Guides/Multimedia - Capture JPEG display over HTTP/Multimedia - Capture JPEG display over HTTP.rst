@@ -49,7 +49,7 @@ work best.
 
 |image01.png| |image02.png| |image03.png| |image04.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Capture%20JPEG%20display%20over%20HTTP/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Capture%20JPEG%20display%20over%20HTTP/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Capture%20JPEG%20display%20over%20HTTP/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Capture%20JPEG%20display%20over%20HTTP/image04.png

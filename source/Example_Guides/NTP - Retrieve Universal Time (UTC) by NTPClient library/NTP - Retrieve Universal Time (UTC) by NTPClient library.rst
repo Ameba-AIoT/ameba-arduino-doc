@@ -47,6 +47,6 @@ timeClient.getFormattedTime();
 
 |image01.png| |image02.png| |image03.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_NTP%20-%20Retrieve%20Universal%20Time%20(UTC)%20by%20NTPClient%20library/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_NTP%20-%20Retrieve%20Universal%20Time%20(UTC)%20by%20NTPClient%20library/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_NTP%20-%20Retrieve%20Universal%20Time%20(UTC)%20by%20NTPClient%20library/image03.png

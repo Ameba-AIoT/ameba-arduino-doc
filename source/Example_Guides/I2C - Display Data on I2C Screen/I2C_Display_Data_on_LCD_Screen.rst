@@ -56,8 +56,8 @@ use lcd.print() to output string on the screen.
 
 |image01.png| |image02.png| |image03.jpeg| |image04.jpeg| |image05.jpeg|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.jpeg| image:: ../../../_static/_Other_Guides/image03.jpeg
-.. |image04.jpeg| image:: ../../../_static/_Other_Guides/image04.jpeg
-.. |image05.jpeg| image:: ../../../_static/_Other_Guides/image05.jpeg
+.. |image01.png| image:: ../../../_static/_Example_Guides/_I2C%20-%20Display%20Data%20on%20I2C%20Screen/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_I2C%20-%20Display%20Data%20on%20I2C%20Screen/image02.png
+.. |image03.jpeg| image:: ../../../_static/_Example_Guides/_I2C%20-%20Display%20Data%20on%20I2C%20Screen/image03.jpeg
+.. |image04.jpeg| image:: ../../../_static/_Example_Guides/_I2C%20-%20Display%20Data%20on%20I2C%20Screen/image04.jpeg
+.. |image05.jpeg| image:: ../../../_static/_Example_Guides/_I2C%20-%20Display%20Data%20on%20I2C%20Screen/image05.jpeg

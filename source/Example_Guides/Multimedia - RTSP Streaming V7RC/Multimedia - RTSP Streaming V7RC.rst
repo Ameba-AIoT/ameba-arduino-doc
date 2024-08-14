@@ -70,10 +70,10 @@ quality:
 |image01.png| |image02.jpeg| |image03.png| |image04.jpeg| |image05.png|
 |image06.png| |image07.jpeg|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.jpeg| image:: ../../../_static/_Other_Guides/image02.jpeg
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.jpeg| image:: ../../../_static/_Other_Guides/image04.jpeg
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
-.. |image06.png| image:: ../../../_static/_Other_Guides/image06.png
-.. |image07.jpeg| image:: ../../../_static/_Other_Guides/image07.jpeg
+.. |image01.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTSP%20Streaming%20V7RC/image01.png
+.. |image02.jpeg| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTSP%20Streaming%20V7RC/image02.jpeg
+.. |image03.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTSP%20Streaming%20V7RC/image03.png
+.. |image04.jpeg| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTSP%20Streaming%20V7RC/image04.jpeg
+.. |image05.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTSP%20Streaming%20V7RC/image05.png
+.. |image06.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTSP%20Streaming%20V7RC/image06.png
+.. |image07.jpeg| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTSP%20Streaming%20V7RC/image07.jpeg

@@ -59,10 +59,10 @@ Ameba Bluetooth device.
 |image01.png| |image02.png| |image03.jpeg| |image04.png| |image05.png|
 |image06.png| |image07.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.jpeg| image:: ../../../_static/_Other_Guides/image03.jpeg
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
-.. |image06.png| image:: ../../../_static/_Other_Guides/image06.png
-.. |image07.png| image:: ../../../_static/_Other_Guides/image07.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20WiFi%20Config%20Service/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20WiFi%20Config%20Service/image02.png
+.. |image03.jpeg| image:: ../../../_static/_Example_Guides/_BLE%20-%20WiFi%20Config%20Service/image03.jpeg
+.. |image04.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20WiFi%20Config%20Service/image04.png
+.. |image05.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20WiFi%20Config%20Service/image05.png
+.. |image06.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20WiFi%20Config%20Service/image06.png
+.. |image07.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20WiFi%20Config%20Service/image07.png

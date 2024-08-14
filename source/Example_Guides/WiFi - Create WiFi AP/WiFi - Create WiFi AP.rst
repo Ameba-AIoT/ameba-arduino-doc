@@ -42,9 +42,9 @@ station connects to Ameba AP in security mode:
 |image01.png| |image02.png| |image03.png| |image04.png| |image05.png|
 |image06.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
-.. |image06.png| image:: ../../../_static/_Other_Guides/image06.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Create%20WiFi%20AP/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Create%20WiFi%20AP/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Create%20WiFi%20AP/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Create%20WiFi%20AP/image04.png
+.. |image05.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Create%20WiFi%20AP/image05.png
+.. |image06.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Create%20WiFi%20AP/image06.png

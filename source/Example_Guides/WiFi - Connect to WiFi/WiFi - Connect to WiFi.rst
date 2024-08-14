@@ -106,11 +106,11 @@ with WiFi module. Therefore, #include is not needed.
 |image01.png| |image02.png| |image03.png| |image04.png| |image05.png|
 |image06.png| |image07.png| |image08.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
-.. |image06.png| image:: ../../../_static/_Other_Guides/image06.png
-.. |image07.png| image:: ../../../_static/_Other_Guides/image07.png
-.. |image08.png| image:: ../../../_static/_Other_Guides/image08.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Connect%20to%20WiFi/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Connect%20to%20WiFi/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Connect%20to%20WiFi/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Connect%20to%20WiFi/image04.png
+.. |image05.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Connect%20to%20WiFi/image05.png
+.. |image06.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Connect%20to%20WiFi/image06.png
+.. |image07.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Connect%20to%20WiFi/image07.png
+.. |image08.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Connect%20to%20WiFi/image08.png

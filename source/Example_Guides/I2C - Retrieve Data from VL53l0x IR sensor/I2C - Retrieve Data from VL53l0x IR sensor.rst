@@ -43,6 +43,6 @@ https://github.com/pololu/vl53l0x-arduino
 
 |image01.png| |image02.png| |image03.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_I2C%20-%20Retrieve%20Data%20from%20VL53l0x%20IR%20sensor/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_I2C%20-%20Retrieve%20Data%20from%20VL53l0x%20IR%20sensor/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_I2C%20-%20Retrieve%20Data%20from%20VL53l0x%20IR%20sensor/image03.png

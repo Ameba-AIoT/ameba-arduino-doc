@@ -41,7 +41,7 @@ log on the Serial Monitor.
 
 |image01.png| |image02.png| |image03.png| |image04.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_QR%20Code%20Scanner%20-%20Scan%20QR%20Code%20And%20Read%20Result%20String/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_QR%20Code%20Scanner%20-%20Scan%20QR%20Code%20And%20Read%20Result%20String/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_QR%20Code%20Scanner%20-%20Scan%20QR%20Code%20And%20Read%20Result%20String/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_QR%20Code%20Scanner%20-%20Scan%20QR%20Code%20And%20Read%20Result%20String/image04.png

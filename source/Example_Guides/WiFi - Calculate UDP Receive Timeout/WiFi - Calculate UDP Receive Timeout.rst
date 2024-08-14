@@ -43,6 +43,6 @@ observe the timeout value converge to a minimum value.
 
 |image01.png| |image02.png| |image03.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Calculate%20UDP%20Receive%20Timeout/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Calculate%20UDP%20Receive%20Timeout/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Calculate%20UDP%20Receive%20Timeout/image03.png

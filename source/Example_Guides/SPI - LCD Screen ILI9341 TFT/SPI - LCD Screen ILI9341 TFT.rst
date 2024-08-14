@@ -122,10 +122,10 @@ rotates 90 degrees, the width becomes 320 and the height becomes 240.
 |image01.png| |image02.jpeg| |image03.png| |image04.png| |image05.png|
 |image06.png| |image07.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.jpeg| image:: ../../../_static/_Other_Guides/image02.jpeg
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
-.. |image06.png| image:: ../../../_static/_Other_Guides/image06.png
-.. |image07.png| image:: ../../../_static/_Other_Guides/image07.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_SPI%20-%20LCD%20Screen%20ILI9341%20TFT/image01.png
+.. |image02.jpeg| image:: ../../../_static/_Example_Guides/_SPI%20-%20LCD%20Screen%20ILI9341%20TFT/image02.jpeg
+.. |image03.png| image:: ../../../_static/_Example_Guides/_SPI%20-%20LCD%20Screen%20ILI9341%20TFT/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_SPI%20-%20LCD%20Screen%20ILI9341%20TFT/image04.png
+.. |image05.png| image:: ../../../_static/_Example_Guides/_SPI%20-%20LCD%20Screen%20ILI9341%20TFT/image05.png
+.. |image06.png| image:: ../../../_static/_Example_Guides/_SPI%20-%20LCD%20Screen%20ILI9341%20TFT/image06.png
+.. |image07.png| image:: ../../../_static/_Example_Guides/_SPI%20-%20LCD%20Screen%20ILI9341%20TFT/image07.png

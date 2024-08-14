@@ -41,4 +41,4 @@ myservo.write(pos);
 
 |image01.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_PWM%20-%20Servo%20Control/image01.png

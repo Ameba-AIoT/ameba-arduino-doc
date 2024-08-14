@@ -57,7 +57,7 @@ https://www.arduino.cc/en/Reference/WiFIClientStop
 
 |image01.png| |image02.png| |image03.png| |image04.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_Wifi%20-%20Simple%20Http%20Server%20to%20Control%20LED/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_Wifi%20-%20Simple%20Http%20Server%20to%20Control%20LED/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_Wifi%20-%20Simple%20Http%20Server%20to%20Control%20LED/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_Wifi%20-%20Simple%20Http%20Server%20to%20Control%20LED/image04.png

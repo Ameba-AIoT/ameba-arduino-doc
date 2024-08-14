@@ -74,7 +74,7 @@ queued: https://www.arduino.cc/en/Reference/WireEndTransmission
 
 |image01.png| |image02.png| |image03.png| |image04.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_I2C%20-%20Master%20Send%20Data%20to%20Arduino%20UNO/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_I2C%20-%20Master%20Send%20Data%20to%20Arduino%20UNO/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_I2C%20-%20Master%20Send%20Data%20to%20Arduino%20UNO/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_I2C%20-%20Master%20Send%20Data%20to%20Arduino%20UNO/image04.png

@@ -64,8 +64,8 @@ for execution after “barks”.
 
 |image01.png| |image02.png| |image03.png| |image04.png| |image05.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_Watchdog%20-%20Simple%20WDT/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_Watchdog%20-%20Simple%20WDT/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_Watchdog%20-%20Simple%20WDT/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_Watchdog%20-%20Simple%20WDT/image04.png
+.. |image05.png| image:: ../../../_static/_Example_Guides/_Watchdog%20-%20Simple%20WDT/image05.png

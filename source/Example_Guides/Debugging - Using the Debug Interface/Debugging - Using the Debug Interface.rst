@@ -61,12 +61,12 @@ over, step into, step out, restart, stop).
 |image01.jpeg| |image02.png| |image03.png| |image04.png| |image05.png|
 |image06.png| |image07.png| |image08.png| |image09.png|
 
-.. |image01.jpeg| image:: ../../../_static/_Other_Guides/image01.jpeg
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
-.. |image06.png| image:: ../../../_static/_Other_Guides/image06.png
-.. |image07.png| image:: ../../../_static/_Other_Guides/image07.png
-.. |image08.png| image:: ../../../_static/_Other_Guides/image08.png
-.. |image09.png| image:: ../../../_static/_Other_Guides/image09.png
+.. |image01.jpeg| image:: ../../../_static/_Example_Guides/_Debugging%20-%20Using%20the%20Debug%20Interface/image01.jpeg
+.. |image02.png| image:: ../../../_static/_Example_Guides/_Debugging%20-%20Using%20the%20Debug%20Interface/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_Debugging%20-%20Using%20the%20Debug%20Interface/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_Debugging%20-%20Using%20the%20Debug%20Interface/image04.png
+.. |image05.png| image:: ../../../_static/_Example_Guides/_Debugging%20-%20Using%20the%20Debug%20Interface/image05.png
+.. |image06.png| image:: ../../../_static/_Example_Guides/_Debugging%20-%20Using%20the%20Debug%20Interface/image06.png
+.. |image07.png| image:: ../../../_static/_Example_Guides/_Debugging%20-%20Using%20the%20Debug%20Interface/image07.png
+.. |image08.png| image:: ../../../_static/_Example_Guides/_Debugging%20-%20Using%20the%20Debug%20Interface/image08.png
+.. |image09.png| image:: ../../../_static/_Example_Guides/_Debugging%20-%20Using%20the%20Debug%20Interface/image09.png

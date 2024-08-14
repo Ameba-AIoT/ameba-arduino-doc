@@ -86,8 +86,8 @@ addService() registers the battery service to the Bluetooth stack.
 
 |image01.png| |image02.png| |image03.png| |image04.png| |image05.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20BLE%20Battery%20Service/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20BLE%20Battery%20Service/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20BLE%20Battery%20Service/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20BLE%20Battery%20Service/image04.png
+.. |image05.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20BLE%20Battery%20Service/image05.png

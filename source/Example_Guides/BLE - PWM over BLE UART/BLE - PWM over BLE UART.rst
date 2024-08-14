@@ -58,9 +58,9 @@ message and printed to the serial terminal.
 |image01.png| |image02.png| |image03.png| |image04.png| |image05.png|
 |image06.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
-.. |image06.png| image:: ../../../_static/_Other_Guides/image06.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20PWM%20over%20BLE%20UART/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20PWM%20over%20BLE%20UART/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20PWM%20over%20BLE%20UART/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20PWM%20over%20BLE%20UART/image04.png
+.. |image05.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20PWM%20over%20BLE%20UART/image05.png
+.. |image06.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20PWM%20over%20BLE%20UART/image06.png

@@ -53,7 +53,7 @@ https://github.com/ElectronicCats/mpu6050
 
 |image01.png| |image02.png| |image03.png| |image04.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_I2C%20-%20MPU6050_DMP6/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_I2C%20-%20MPU6050_DMP6/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_I2C%20-%20MPU6050_DMP6/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_I2C%20-%20MPU6050_DMP6/image04.png

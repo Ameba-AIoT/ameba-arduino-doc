@@ -44,5 +44,5 @@ is not needed.
 
 |image01.png| |image02.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Scan%20Networks/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Scan%20Networks/image02.png

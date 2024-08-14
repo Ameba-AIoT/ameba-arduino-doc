@@ -50,4 +50,4 @@ modified time after images are saved to the SD Card.
 
 |image01.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20Capture%20JPEG%20save%20to%20SD%20Card/image01.png

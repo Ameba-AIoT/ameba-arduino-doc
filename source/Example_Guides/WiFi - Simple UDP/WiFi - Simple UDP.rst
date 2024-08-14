@@ -53,7 +53,7 @@ https://www.arduino.cc/en/Reference/WiFiUDPEndPacket
 
 |image01.png| |image02.png| |image03.png| |image04.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Simple%20UDP/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Simple%20UDP/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Simple%20UDP/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Simple%20UDP/image04.png

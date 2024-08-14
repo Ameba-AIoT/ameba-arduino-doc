@@ -41,6 +41,6 @@ Use http.get() to send a GET request to the website.
 
 |image01.png| |image02.png| |image03.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Retrieve%20HTTP%20webs/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Retrieve%20HTTP%20webs/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20Retrieve%20HTTP%20webs/image03.png

@@ -67,8 +67,8 @@ detecting speech.
 
 |image01.png| |image02.png| |image03.png| |image04.png| |image05.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_Neural%20Network%20-%20Audio%20Classification/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_Neural%20Network%20-%20Audio%20Classification/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_Neural%20Network%20-%20Audio%20Classification/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_Neural%20Network%20-%20Audio%20Classification/image04.png
+.. |image05.png| image:: ../../../_static/_Example_Guides/_Neural%20Network%20-%20Audio%20Classification/image05.png

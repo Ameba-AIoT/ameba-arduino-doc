@@ -77,18 +77,18 @@ uncommenting the highlighted code below.
 |image06.png| |image07.png| |image08.png| |image09.png| |image10.png|
 |image11.png| |image12.png| |image13.png| |image14.png| |image15.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
-.. |image06.png| image:: ../../../_static/_Other_Guides/image06.png
-.. |image07.png| image:: ../../../_static/_Other_Guides/image07.png
-.. |image08.png| image:: ../../../_static/_Other_Guides/image08.png
-.. |image09.png| image:: ../../../_static/_Other_Guides/image09.png
-.. |image10.png| image:: ../../../_static/_Other_Guides/image10.png
-.. |image11.png| image:: ../../../_static/_Other_Guides/image11.png
-.. |image12.png| image:: ../../../_static/_Other_Guides/image12.png
-.. |image13.png| image:: ../../../_static/_Other_Guides/image13.png
-.. |image14.png| image:: ../../../_static/_Other_Guides/image14.png
-.. |image15.png| image:: ../../../_static/_Other_Guides/image15.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTSP%20Streaming/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTSP%20Streaming/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTSP%20Streaming/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTSP%20Streaming/image04.png
+.. |image05.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTSP%20Streaming/image05.png
+.. |image06.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTSP%20Streaming/image06.png
+.. |image07.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTSP%20Streaming/image07.png
+.. |image08.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTSP%20Streaming/image08.png
+.. |image09.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTSP%20Streaming/image09.png
+.. |image10.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTSP%20Streaming/image10.png
+.. |image11.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTSP%20Streaming/image11.png
+.. |image12.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTSP%20Streaming/image12.png
+.. |image13.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTSP%20Streaming/image13.png
+.. |image14.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTSP%20Streaming/image14.png
+.. |image15.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20RTSP%20Streaming/image15.png

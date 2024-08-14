@@ -24,5 +24,5 @@ Matched!” showing in this figure below.
 
 |image01.png| |image02.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_RTC%20-%20Simple%20RTC%20Alarm/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_RTC%20-%20Simple%20RTC%20Alarm/image02.png

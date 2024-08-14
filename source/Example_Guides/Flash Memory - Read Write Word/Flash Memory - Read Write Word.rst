@@ -35,4 +35,4 @@ address of flash memory.
 
 |image01.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_Flash%20Memory%20-%20Read%20Write%20Word/image01.png

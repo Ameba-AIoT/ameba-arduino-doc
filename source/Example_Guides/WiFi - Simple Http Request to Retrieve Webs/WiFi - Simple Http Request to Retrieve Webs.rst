@@ -41,6 +41,6 @@ https://www.arduino.cc/en/Reference/WiFIClientStop
 
 |image01.png| |image02.png| |image03.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Simple%20Http%20Request%20to%20Retrieve%20Webs/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Simple%20Http%20Request%20to%20Retrieve%20Webs/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Simple%20Http%20Request%20to%20Retrieve%20Webs/image03.png

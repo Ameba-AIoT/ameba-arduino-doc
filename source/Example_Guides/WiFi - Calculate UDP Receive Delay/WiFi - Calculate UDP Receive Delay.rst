@@ -41,5 +41,5 @@ packets to be sent.
 
 |image01.png| |image02.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Calculate%20UDP%20Receive%20Delay/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_WiFi%20-%20Calculate%20UDP%20Receive%20Delay/image02.png

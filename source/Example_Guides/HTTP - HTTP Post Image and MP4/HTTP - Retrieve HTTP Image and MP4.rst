@@ -35,5 +35,5 @@ file will be saved at the location where this script is being run at.
 
 |image01.png| |image02.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20HTTP%20Post%20Image%20and%20MP4/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_HTTP%20-%20HTTP%20Post%20Image%20and%20MP4/image02.png

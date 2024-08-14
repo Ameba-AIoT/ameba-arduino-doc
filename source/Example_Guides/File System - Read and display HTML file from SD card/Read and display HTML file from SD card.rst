@@ -35,7 +35,7 @@ will be displayed.
 
 |image01.png| |image02.png| |image03.png| |image04.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_File%20System%20-%20Read%20and%20display%20HTML%20file%20from%20SD%20card/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_File%20System%20-%20Read%20and%20display%20HTML%20file%20from%20SD%20card/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_File%20System%20-%20Read%20and%20display%20HTML%20file%20from%20SD%20card/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_File%20System%20-%20Read%20and%20display%20HTML%20file%20from%20SD%20card/image04.png

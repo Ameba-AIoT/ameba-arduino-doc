@@ -68,10 +68,10 @@ SnapshotTaken{counter}.jpg and saved to SD card.
 |image01.png| |image02.png| |image03.png| |image04.jpeg| |image05.jpeg|
 |image06.jpeg| |image07.jpeg|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.jpeg| image:: ../../../_static/_Other_Guides/image04.jpeg
-.. |image05.jpeg| image:: ../../../_static/_Other_Guides/image05.jpeg
-.. |image06.jpeg| image:: ../../../_static/_Other_Guides/image06.jpeg
-.. |image07.jpeg| image:: ../../../_static/_Other_Guides/image07.jpeg
+.. |image01.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20Door%20Unlock%20Over%20BLE%20Uart/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20Door%20Unlock%20Over%20BLE%20Uart/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20Door%20Unlock%20Over%20BLE%20Uart/image03.png
+.. |image04.jpeg| image:: ../../../_static/_Example_Guides/_BLE%20-%20Door%20Unlock%20Over%20BLE%20Uart/image04.jpeg
+.. |image05.jpeg| image:: ../../../_static/_Example_Guides/_BLE%20-%20Door%20Unlock%20Over%20BLE%20Uart/image05.jpeg
+.. |image06.jpeg| image:: ../../../_static/_Example_Guides/_BLE%20-%20Door%20Unlock%20Over%20BLE%20Uart/image06.jpeg
+.. |image07.jpeg| image:: ../../../_static/_Example_Guides/_BLE%20-%20Door%20Unlock%20Over%20BLE%20Uart/image07.jpeg

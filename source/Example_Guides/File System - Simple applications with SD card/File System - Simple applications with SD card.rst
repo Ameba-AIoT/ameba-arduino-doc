@@ -87,12 +87,12 @@ the contents are as expected.
 |image01.png| |image02.png| |image03.png| |image04.png| |image05.png|
 |image06.png| |image07.png| |image08.png| |image09.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
-.. |image06.png| image:: ../../../_static/_Other_Guides/image06.png
-.. |image07.png| image:: ../../../_static/_Other_Guides/image07.png
-.. |image08.png| image:: ../../../_static/_Other_Guides/image08.png
-.. |image09.png| image:: ../../../_static/_Other_Guides/image09.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_File%20System%20-%20Simple%20applications%20with%20SD%20card/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_File%20System%20-%20Simple%20applications%20with%20SD%20card/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_File%20System%20-%20Simple%20applications%20with%20SD%20card/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_File%20System%20-%20Simple%20applications%20with%20SD%20card/image04.png
+.. |image05.png| image:: ../../../_static/_Example_Guides/_File%20System%20-%20Simple%20applications%20with%20SD%20card/image05.png
+.. |image06.png| image:: ../../../_static/_Example_Guides/_File%20System%20-%20Simple%20applications%20with%20SD%20card/image06.png
+.. |image07.png| image:: ../../../_static/_Example_Guides/_File%20System%20-%20Simple%20applications%20with%20SD%20card/image07.png
+.. |image08.png| image:: ../../../_static/_Example_Guides/_File%20System%20-%20Simple%20applications%20with%20SD%20card/image08.png
+.. |image09.png| image:: ../../../_static/_Example_Guides/_File%20System%20-%20Simple%20applications%20with%20SD%20card/image09.png

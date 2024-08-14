@@ -91,13 +91,13 @@ https://eugeniopace.org/qrcode/arduino/eink/2019/07/01/qrcode-on-arduino.html
 |image01.png| |image02.jpeg| |image03.png| |image04.png| |image05.jpeg|
 |image06.png| |image07.png| |image08.jpeg| |image09.png| |image10.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.jpeg| image:: ../../../_static/_Other_Guides/image02.jpeg
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.jpeg| image:: ../../../_static/_Other_Guides/image05.jpeg
-.. |image06.png| image:: ../../../_static/_Other_Guides/image06.png
-.. |image07.png| image:: ../../../_static/_Other_Guides/image07.png
-.. |image08.jpeg| image:: ../../../_static/_Other_Guides/image08.jpeg
-.. |image09.png| image:: ../../../_static/_Other_Guides/image09.png
-.. |image10.png| image:: ../../../_static/_Other_Guides/image10.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20Images/image01.png
+.. |image02.jpeg| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20Images/image02.jpeg
+.. |image03.png| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20Images/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20Images/image04.png
+.. |image05.jpeg| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20Images/image05.jpeg
+.. |image06.png| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20Images/image06.png
+.. |image07.png| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20Images/image07.png
+.. |image08.jpeg| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20Images/image08.jpeg
+.. |image09.png| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20Images/image09.png
+.. |image10.png| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20Images/image10.png

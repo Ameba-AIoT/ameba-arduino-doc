@@ -190,16 +190,16 @@ uncommenting the highlighted code below.
 |image06.png| |image07.png| |image08.png| |image09.png| |image10.png|
 |image11.png| |image12.png| |image13.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
-.. |image06.png| image:: ../../../_static/_Other_Guides/image06.png
-.. |image07.png| image:: ../../../_static/_Other_Guides/image07.png
-.. |image08.png| image:: ../../../_static/_Other_Guides/image08.png
-.. |image09.png| image:: ../../../_static/_Other_Guides/image09.png
-.. |image10.png| image:: ../../../_static/_Other_Guides/image10.png
-.. |image11.png| image:: ../../../_static/_Other_Guides/image11.png
-.. |image12.png| image:: ../../../_static/_Other_Guides/image12.png
-.. |image13.png| image:: ../../../_static/_Other_Guides/image13.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20ISP%20Control/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20ISP%20Control/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20ISP%20Control/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20ISP%20Control/image04.png
+.. |image05.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20ISP%20Control/image05.png
+.. |image06.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20ISP%20Control/image06.png
+.. |image07.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20ISP%20Control/image07.png
+.. |image08.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20ISP%20Control/image08.png
+.. |image09.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20ISP%20Control/image09.png
+.. |image10.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20ISP%20Control/image10.png
+.. |image11.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20ISP%20Control/image11.png
+.. |image12.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20ISP%20Control/image12.png
+.. |image13.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20ISP%20Control/image13.png

@@ -61,11 +61,11 @@ NA
 |image01.png| |image02.png| |image03.png| |image04.png| |image05.png|
 |image06.png| |image07.png| |image08.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.png| image:: ../../../_static/_Other_Guides/image04.png
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
-.. |image06.png| image:: ../../../_static/_Other_Guides/image06.png
-.. |image07.png| image:: ../../../_static/_Other_Guides/image07.png
-.. |image08.png| image:: ../../../_static/_Other_Guides/image08.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20MP4%20Recording/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20MP4%20Recording/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20MP4%20Recording/image03.png
+.. |image04.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20MP4%20Recording/image04.png
+.. |image05.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20MP4%20Recording/image05.png
+.. |image06.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20MP4%20Recording/image06.png
+.. |image07.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20MP4%20Recording/image07.png
+.. |image08.png| image:: ../../../_static/_Example_Guides/_Multimedia%20-%20MP4%20Recording/image08.png

@@ -54,5 +54,5 @@ process will stop, and will be ready to be started again.
 
 |image01.png| |image02.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20Scan/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20Scan/image02.png

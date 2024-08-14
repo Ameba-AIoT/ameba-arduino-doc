@@ -62,5 +62,5 @@ connected device.
 
 |image01.png| |image02.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20Battery%20Client/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20Battery%20Client/image02.png

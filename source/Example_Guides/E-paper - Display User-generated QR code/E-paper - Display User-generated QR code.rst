@@ -77,12 +77,12 @@ https://github.com/ricmoo/QRCode#data-capacities
 |image01.png| |image02.png| |image03.png| |image04.jpeg| |image05.png|
 |image06.png| |image07.png| |image08.png| |image09.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
-.. |image04.jpeg| image:: ../../../_static/_Other_Guides/image04.jpeg
-.. |image05.png| image:: ../../../_static/_Other_Guides/image05.png
-.. |image06.png| image:: ../../../_static/_Other_Guides/image06.png
-.. |image07.png| image:: ../../../_static/_Other_Guides/image07.png
-.. |image08.png| image:: ../../../_static/_Other_Guides/image08.png
-.. |image09.png| image:: ../../../_static/_Other_Guides/image09.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20User-generated%20QR%20code/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20User-generated%20QR%20code/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20User-generated%20QR%20code/image03.png
+.. |image04.jpeg| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20User-generated%20QR%20code/image04.jpeg
+.. |image05.png| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20User-generated%20QR%20code/image05.png
+.. |image06.png| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20User-generated%20QR%20code/image06.png
+.. |image07.png| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20User-generated%20QR%20code/image07.png
+.. |image08.png| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20User-generated%20QR%20code/image08.png
+.. |image09.png| image:: ../../../_static/_Example_Guides/_E-paper%20-%20Display%20User-generated%20QR%20code/image09.png

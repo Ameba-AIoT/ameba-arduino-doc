@@ -45,6 +45,6 @@ button input functions.
 
 |image01.png| |image02.png| |image03.png|
 
-.. |image01.png| image:: ../../../_static/_Other_Guides/image01.png
-.. |image02.png| image:: ../../../_static/_Other_Guides/image02.png
-.. |image03.png| image:: ../../../_static/_Other_Guides/image03.png
+.. |image01.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20HID%20Mouse/image01.png
+.. |image02.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20HID%20Mouse/image02.png
+.. |image03.png| image:: ../../../_static/_Example_Guides/_BLE%20-%20HID%20Mouse/image03.png
