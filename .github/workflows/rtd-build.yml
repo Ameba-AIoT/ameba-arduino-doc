@@ -9,7 +9,7 @@ on:
       - main  # Replace with your default branch
 
 jobs:
-  build-docs:
+  build-:
     runs-on: ubuntu-latest
 
     steps:
@@ -28,10 +28,9 @@ jobs:
 
       - name: Build documentation
         run: |
-          cd docs
           make html  # Build the HTML documentation
 
       - name: Trigger Read the Docs build
         run: |
-          curl -X POST -d "" https://readthedocs.org/api/v3/projects/ameba-arduino-pro2-doc/versions/latest/build/ \
+          curl -X POST -d "" https://readthe.org/api/v3/projects/ameba-arduino-pro2-doc/versions/latest/build/ \
           -H "Authorization: token ${{ secrets.RTD_API_TOKEN }}"
