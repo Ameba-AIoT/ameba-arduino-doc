@@ -1,7 +1,7 @@
-Realtek AmebaPro2 Arduino Getting Started
+Getting Started
 ==================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
-   Getting_Started
+   Getting_Started/Getting_Started

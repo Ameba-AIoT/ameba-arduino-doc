@@ -1,23 +1,72 @@
-Realtek AmebaPro2 Arduino API Documents
+API Documents
 ==================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
-   Analog
-   BLE
-   FileSystem
-   FlashMemory
-   GPIO
-   Gtimer
-   Multimedia
-   NeuralNetwork
-   NTPClient
-   PowerMode
-   RTC
-   SPI
-   USB
-   Video
-   Watchdog
-   WiFi
-   Wire
+   Analog/Class AmebaServo
+   BLE/Class BLEAddr
+   BLE/Class BLEAdvert
+   BLE/Class BLEAdvertData
+   BLE/Class BLEBeacon
+   BLE/Class BLECharacteristic
+   BLE/Class BLEClient
+   BLE/Class BLEConnect
+   BLE/Class BLEDevice
+   BLE/Class BLEHIDDevice
+   BLE/Class BLEHIDGamepad
+   BLE/Class BLEHIDKeyboard
+   BLE/Class BLEHIDMouse
+   BLE/Class BLERemoteCharacteristic
+   BLE/Class BLERemoteDescriptor
+   BLE/Class BLERemoteService
+   BLE/Class BLEScan
+   BLE/Class BLESecurity
+   BLE/Class BLEService
+   BLE/Class BLEUUID
+   BLE/Class BLEWifiConfigService
+   FileSystem/Class AmebaFatFS
+   FileSystem/Class File
+   FlashMemory/Class FlashMemoryClass
+   GPIO/Class DHT
+   GPIO/Class InterruptLock
+   Gtimer/Class GTimerClass
+   Multimedia/Class AudioDecoder
+   Multimedia/Class AudioEncoder
+   Multimedia/Class AudioStream
+   Multimedia/Class MotionDetection
+   Multimedia/Class MP4Recording
+   Multimedia/Class RTP
+   Multimedia/Class RTSP
+   Multimedia/Class StreamIO
+   Multimedia/Class VideoStream
+   Multimedia/Class VideoStreamOverlay
+   NeuralNetwork/Class Audio Classification
+   NeuralNetwork/Class FaceDetection
+   NeuralNetwork/Class FaceDetectionRecognition
+   NeuralNetwork/Class Image Classification
+   NeuralNetwork/Class ModelSelection
+   NeuralNetwork/Class ObjectDetection
+   NTPClient/Readme
+   PowerMode/Class PMClass
+   RTC/Class RTCClass
+   SPI/Class AmebaILI9341
+   SPI/Class SPISettings
+   USB/Class UVCD
+   Video/Class AudioDecoder
+   Video/Class AudioEncoder
+   Video/Class AudioStream
+   Video/Class MotionDetection
+   Video/Class MP4Recording
+   Video/Class RTP
+   Video/Class RTSP
+   Video/Class StreamIO
+   Video/Class VideoStream
+   Video/Class VideoStreamOverlay
+   Watchdog/Class WDT
+   WiFi/Class WiFi
+   WiFi/Class WiFiClient
+   WiFi/Class WiFiServer
+   WiFi/Class WiFiSSLClient
+   WiFi/Class WiFiUdp
+   Wire/Class TwoWire

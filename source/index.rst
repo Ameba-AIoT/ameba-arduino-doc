@@ -8,7 +8,7 @@ Welcome to AmebaPro2 Arduino Documentation!
 
 .. toctree::
    :caption: Documentation list
-   :maxdepth: 3
+   :maxdepth: 4
 
    Getting_Started/index
    API_Documents/index
