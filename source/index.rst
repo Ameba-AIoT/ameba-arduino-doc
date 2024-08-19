@@ -4,15 +4,13 @@
    contain the root `toctree` directive.
 
 Welcome to AmebaPro2 Arduino Documentation!
-=====================================
+===========================================
 
 .. toctree::
    :caption: Documentation list
-   :maxdepth: 4
+   :maxdepth: 3
 
    Getting_Started/index
-   API_Documents/index
-   Example_Guides/index
    Other_Guides/index
 
 Indices and tables

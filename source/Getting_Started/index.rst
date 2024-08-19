@@ -1,7 +1,7 @@
 Getting Started
-==================================
+===============
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-   Getting_Started/Getting_Started
+   Getting Started with AMB82-mini
