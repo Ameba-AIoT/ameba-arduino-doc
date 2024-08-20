@@ -48,11 +48,11 @@ Please refer to AMB82 MobileFaceNet Convert To ONNX at https://www.amebaiot.com/
 
 Please refer to AMB82 SCRFD Convert To ONNX at https://www.amebaiot.com/amebapro2-scrfd-convert-to-onnx
 
-.. |image01| image:: ../../_static/Other_guides/AI_Related_Guides/Online_AI_Model_Conversion_Guide/image01.png
+.. |image01| image:: ../../_static/Other_Guides/AI_Related_Guides/Online_AI_Model_Conversion_Guide/image01.png
    :width:  1072 px
    :height:  188 px
    :scale: 80%
-.. |image02| image:: ../../_static/Other_guides/AI_Related_Guides/Online_AI_Model_Conversion_Guide/image02.png
+.. |image02| image:: ../../_static/Other_Guides/AI_Related_Guides/Online_AI_Model_Conversion_Guide/image02.png
    :width:  1041 px
    :height:  170 px
    :scale: 80%
