@@ -30,7 +30,7 @@ jobs:
         run: |
           make html  # Build the HTML documentation
 
-      - name: Trigger Read the Docs build
-        run: |
-          curl -X POST -d "" https://readthe.org/api/v2/projects/ameba-arduino-pro2-doc/versions/latest/build/ \
-          -H "Authorization: token ${{ secrets.RTD_API_TOKEN }}"
+#      - name: Trigger Read the Docs build
+#        run: |
+#          curl -X POST -d "" https://readthe.org/api/v2/projects/ameba-arduino-pro2-doc/versions/latest/build/ \
+#          -H "Authorization: token ${{ secrets.RTD_API_TOKEN }}"

@@ -87,7 +87,7 @@ CODEC_G711_PCMU, CODEC_G711_PCMA
 
 | **Example Code**
 | SingleVideoWithAudio
-  (https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/SingleVideoWithAudio/SingleVideoWithAudio.ino\ `) <>`__
+  (https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/SingleVideoWithAudio/SingleVideoWithAudio.ino)
 
 | **Notes and Warnings**
 | “RTSP.h” must be included to use the class function.

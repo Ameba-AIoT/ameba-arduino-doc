@@ -74,7 +74,7 @@ RTP::begin
 | **Example Code**
 | RTPAudioStream
 
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTPAudioStream/RTPAudioStream.ino\ `) <>`__
+(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTPAudioStream/RTPAudioStream.ino)
 
 | **Notes and Warnings**
 | “RTP.h” must be included to use the class function.

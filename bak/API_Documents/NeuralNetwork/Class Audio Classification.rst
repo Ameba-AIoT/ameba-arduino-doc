@@ -37,7 +37,7 @@ class AudioClassificationResult
 NNAudioClassification Class 
 ============================
 
-.. _description-1:
+
 
 Description
 -----------
@@ -45,14 +45,14 @@ Description
 A class used to configure, run, and retrieve results of an audio
 classification neural network model.
 
-.. _syntax-1:
+
 
 Syntax
 ------
 
 class NNAudioClassification
 
-.. _members-1:
+
 
 **Members**
 -----------

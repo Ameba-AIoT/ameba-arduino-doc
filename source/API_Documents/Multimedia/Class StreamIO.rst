@@ -70,7 +70,7 @@ Members
 StreamIO::StreamIO
 ------------------
 
-.. _description-1:
+
 
 Description
 -----------
@@ -80,7 +80,7 @@ video, audio) to data stream consumers (e.g., RTSP, MP4 recording). Can
 be configured to duplicate a single data stream to multiple consumers,
 or to combine several data streams into a single consumer.
 
-.. _syntax-1:
+
 
 Syntax
 ------
@@ -217,7 +217,7 @@ module: data stream producer module
 
 | **Example Code**
 | Example: RecordMP4/SingleVideoWithAudio
-  (https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino\ `) <>`__
+  (https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino)
 
 | **Notes and Warnings**
 | When used on a multi-input StreamIO class, this has the same effect as
@@ -243,7 +243,7 @@ module: data stream producer module
 
 | **Example Code**
 | Example: RecordMP4/SingleVideoWithAudio
-  (https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino\ `) <>`__
+  (https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino)
 
 | **Notes and Warnings**
 | When used on a single-input StreamIO class, this has the same effect
@@ -295,7 +295,7 @@ module: data stream producer module
 
 | **Example Code**
 | Example: RecordMP4/SingleVideoWithAudio
-  (https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino\ `) <>`__
+  (https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino)
 
 | **Notes and Warnings**
 | When used on a single-input StreamIO class, this has the same effect
@@ -321,7 +321,7 @@ module: data stream consumer module
 
 | **Example Code**
 | Example: RecordMP4/SingleVideoWithAudio
-  (https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino\ `) <>`__
+  (https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino)
 
 | **Notes and Warnings**
 | When used on a multi-output StreamIO class, this has the same effect
@@ -347,7 +347,7 @@ module: data stream consumer module
 
 | **Example Code**
 | Example: RecordMP4/SingleVideoWithAudio
-  (https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino\ `) <>`__
+  (https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino)
 
 | **Notes and Warnings**
 | When used on a single-output StreamIO class, this has the same effect

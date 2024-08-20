@@ -55,7 +55,7 @@ class ObjectDetectionResult
 NNObjectDetection Class 
 ========================
 
-.. _description-1:
+
 
 Description
 -----------
@@ -63,14 +63,14 @@ Description
 A class used to configure, run, and retrieve results of an object
 detection neural network model.
 
-.. _syntax-1:
+
 
 Syntax
 ------
 
 class NNObjectDetection
 
-.. _members-1:
+
 
 **Members**
 -----------

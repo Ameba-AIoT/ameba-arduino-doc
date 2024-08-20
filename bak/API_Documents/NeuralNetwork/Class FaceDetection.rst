@@ -57,7 +57,7 @@ class FaceDetectionResult
 NNFaceDetection Class 
 ======================
 
-.. _description-1:
+
 
 Description
 -----------
@@ -65,14 +65,14 @@ Description
 A class used to configure, run, and retrieve results of a face detection
 neural network model.
 
-.. _syntax-1:
+
 
 Syntax
 ------
 
 class NNFaceDetection
 
-.. _members-1:
+
 
 **Members**
 -----------
