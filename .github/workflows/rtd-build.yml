@@ -32,5 +32,5 @@ jobs:
 
       - name: Trigger Read the Docs build
         run: |
-          curl -X POST -d "" https://readthe.org/api/v3/projects/ameba-arduino-pro2-doc/versions/latest/build/ \
+          curl -X POST -d "" https://readthe.org/api/v2/projects/ameba-arduino-pro2-doc/versions/latest/build/ \
           -H "Authorization: token ${{ secrets.RTD_API_TOKEN }}"

@@ -2,7 +2,6 @@ Other Guides
 ============
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
-   Customized AI Model Installation Guide
-   Online AI Model Conversion Guide
+   AI_Related_Guides/index

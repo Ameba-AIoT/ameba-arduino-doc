@@ -1,35 +1,22 @@
-Ameba ARDUINO Getting Started
-=============================
+Ameba ARDUINO with AMB82-mini (RTL8735B)
+========================================
 
 .. contents::
   :local:
   :depth: 2
 
-Ameba ARDUINO Getting Started with AMB82-mini (RTL8735B)
---------------------------------------------------------
-
 Introduction
+------------
 
-Ameba is an easy-to-program platform for developing all kinds of IoT
-applications. AMB82 MINI is equipped with various peripheral interfaces,
-including WiFi, BLE, GPIO INT, I2C, UART, SPI, PWM, ADC. Through these
-interfaces, AMB82 MINI can connect with electronic components such as
-LED, switches, manometer, hygrometer, PM2.5 dust sensors, …etc. Besides,
-AMB82 MINI has 3 key features, Audio codec, Video codec and NN (build in
-NPU for AIoT). The collected data can be uploaded via WiFi and be
-utilized by applications on smart devices to realize IoT implementation.
+Ameba is an easy-to-program platform for developing all kinds of IoT applications. AMB82 MINI is equipped with various peripheral interfaces, including WiFi, BLE, GPIO INT, I2C, UART, SPI, PWM, ADC. Through these interfaces, AMB82 MINI can connect with electronic components such as LED, switches, manometer, hygrometer, PM2.5 dust sensors, …etc. Besides, AMB82 MINI has 3 key features, Audio codec, Video codec and NN (build in NPU for AIoT). The collected data can be uploaded via WiFi and be utilized by applications on smart devices to realize IoT implementation.
 
-AMB82 mini is connected to the open-source world by one of the widest
-development environments, Arduino. For more information, HDK, SDK, API
-documents, Example Guides and so on, refer to the following Ameba
-Arduino SDK page https://www.amebaiot.com/en/ameba-arduino-summary/.
+AMB82 mini is connected to the open-source world by one of the widest development environments, Arduino. For more information, HDK, SDK, API documents, Example Guides and so on, refer to [Ameba Arduino SDK page](https://www.amebaiot.com/en/ameba-arduino-summary/).
 
 |image01|
 
-| AMB82 MINI uses Micro USB to supply power, which is common in many
-  smart devices.
-| Please refer to the following figure and table for the pin diagram and
-  functions.
+AMB82 MINI uses Micro USB to supply power, which is common in many smart devices.
+
+Please refer to the following figure and table for the pin diagram and functions.
 
 |image02|
 
@@ -100,79 +87,66 @@ Arduino SDK page https://www.amebaiot.com/en/ameba-arduino-summary/.
 +--------+----------+----------+---------+---------+------------+-----------+-----------+----------+---------------+
 
 Set up developing environment
+-----------------------------
 
 Step 1. OS environment
+~~~~~~~~~~~~~~~~~~~~~~
 
-AMB82 MINI board currently supports Windows OS 64-bits (Windows 10 and
-above), Linux OS (Ubuntu22 and above) and MacOS (Intel and Apple
-Silicon). To have the best experiences, please use the latest version of
-OS.
+AMB82 MINI board currently supports Windows OS 64-bits (Windows 10 and above), Linux OS (Ubuntu22 and above) and MacOS (Intel and Apple Silicon). To have the best experiences, please use the latest version of OS.
 
-For any Linux OS (Ubuntu) related issues, refer to
-https://forum.amebaiot.com/t/ubuntu-linux-environment/2259.
+For any Linux OS (Ubuntu) related issues, refer to https://forum.amebaiot.com/t/ubuntu-linux-environment/2259.
 
-For any macOS related issues, refer to
-https://forum.amebaiot.com/t/macos-environment/2260.
+For any macOS related issues, refer to https://forum.amebaiot.com/t/macos-environment/2260.
 
 Step 2. Installing the Driver
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 First, connect AMB82 MINI to the computer via Micro USB:
 
 |image03|
 
-| If this is the first time connects board to computer, the USB driver
-  for board will be automatic installed.
-| If you have driver issue of connect board to computer please go
-  to http://www.wch-ic.com/downloads/CH341SER_ZIP.html for USB driver.
-| Check the COM port number in Device Manager of computer:
+If this is the first time connects board to computer, the USB driver for board will be automatic installed.
+
+If you have driver issue of connect board to computer please go to http://www.wch-ic.com/downloads/CH341SER_ZIP.html for USB driver.
+
+Check the COM port number in Device Manager of computer:
 
 |image04|
 
 Step 3. Set up Arduino IDE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-| From version 1.6.5, Arduino IDE supports third-party hardware.
-  Therefore, we can use Arduino IDE to develop applications, and the
-  Arduino basic examples are supported. Arduino IDE can be downloaded in
-  the Arduino website:
-| https://www.arduino.cc/en/Main/Software
+From version 1.6.5, Arduino IDE supports third-party hardware. Therefore, we can use Arduino IDE to develop applications, and the Arduino basic examples are supported. Arduino IDE can be downloaded in the Arduino website: https://www.arduino.cc/en/Main/Software
 
-When the installation is finished, open Arduino IDE. To set up correctly
-in Arduino IDE, go to “File” -> “Preferences”
+When the installation is finished, open Arduino IDE. To set up correctly in Arduino IDE, go to “File” -> “Preferences”
 
 |image05|
 
-| And paste the following URL into “Additional Boards Manager URLs”
-  field:
-| https://github.com/ambiot/ambpro2_arduino/raw/main/Arduino_package/package_realtek.com_amebapro2_index.json
+And paste the following URL into “Additional Boards Manager URLs” field: https://github.com/ambiot/ambpro2_arduino/raw/main/Arduino_package/package_realtek.com_amebapro2_index.json
 
 Next, go to “Tools” -> “Board” -> “Boards Manager”:
 
 |image06|
 
-The “Boards Manager” requires about 10~20 seconds to refresh all
-hardware files (if the network is in bad condition, it may take longer).
-Every time the new hardware is connected, we need to reopen the Board
-Manager. Find “Realtek Ameba Boards” in the list, click “Install”, then
-the Arduino IDE starts to download required files.
+The “Boards Manager” requires about 10~20 seconds to refresh all hardware files (if the network is in bad condition, it may take longer).
+
+Every time the new hardware is connected, we need to reopen the Board Manager. Find “Realtek Ameba Boards” in the list, click “Install”, then the Arduino IDE starts to download required files.
 
 |image07|
 
-After the installation tool running successfully, you may open Arduino
-IDE and proceed to “tools” -> “Board“ -> “Boards Manager…”. Try to find
-“Realtek Ameba Boards” in the list, click “Install”, then the Arduino
-IDE starts to download required files.
+After the installation tool running successfully, you may open Arduino IDE and proceed to “tools” -> “Board“ -> “Boards Manager…”. Try to find “Realtek Ameba Boards” in the list, click “Install”, then the Arduino IDE starts to download required files.
 
-Finally, we select board in “tools” -> “Board” -> “AmebaPro2 ARM
-(32-bits) Boards” -> “AMB82-MINI”
+Finally, we select board in “tools” -> “Board” -> “AmebaPro2 ARM (32-bits) Boards” -> “AMB82-MINI”
 
 |image08|
 
 Try the First Example
+---------------------
 
 Step 1. Selection Ameba Modes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-There are many different Modes for user to select for different settings
-of compile and upload. Please refer to the following picture and table.
+There are many different Modes for user to select for different settings of compile and upload. Please refer to the following picture and table.
 
 |image09|
 
@@ -203,129 +177,122 @@ of compile and upload. Please refer to the following picture and table.
 +----------------------------------+------------------------------------------+-------------+
 
 Step 2. Compile
+~~~~~~~~~~~~~~~
 
-| Arduino IDE provides many built-in examples, which can be compiled,
-  uploaded, and run directly on the boards. Here, we take the “Blink”
-  example as the first try.
-| Open “File” -> “Examples” -> “01.Basics” -> “Blink”:
+Arduino IDE provides many built-in examples, which can be compiled, uploaded, and run directly on the boards. Here, we take the “Blink” example as the first try.
+
+Open “File” -> “Examples” -> “01.Basics” -> “Blink”:
 
 |image10|
 
 Arduino IDE opens a new window with the complete sample code.
 
-Next, we compile the sample code directly; click “Sketch” ->
-“Verify/Compile”
+Next, we compile the sample code directly; click “Sketch” -> “Verify/Compile”
 
-Arduino IDE prints the compiling messages in the bottom area of the IDE
-window. When the compilation is finished, you will get the message as
-following.
+Arduino IDE prints the compiling messages in the bottom area of the IDE window. When the compilation is finished, you will get the message as following.
 
 |image11|
 
 Afterwards, we will upload the compiled code to board.
 
 Step 3. Upload
+~~~~~~~~~~~~~~
 
-Please make sure board is connected to computer, then click “Sketch” ->
-“Upload”.
+Please make sure board is connected to computer, then click “Sketch” -> “Upload”.
 
-The Arduino IDE will compile first then upload. Users are required to
-enter the upload mode of the board. To enter upload mode, first press
-and hold the UART_DOWNLOAD button, then press and release the RESET
-button, lastly release the UART_DOWNLOAD button.
+The Arduino IDE will compile first then upload. Users are required to enter the upload mode of the board. To enter upload mode, first press and hold the UART_DOWNLOAD button, then press and release the RESET button, lastly release the UART_DOWNLOAD button.
 
-Additionally, if the board has the hardware updates and enabled “Auto
-Flash Mode”, please ignore above instruction.
+Additionally, if the board has the hardware updates and enabled “Auto Flash Mode”, please ignore above instruction.
 
 |image12|
 
-It is optional for users to check if the board entered the upload mode.
-Open serial monitor/terminal and check the following information,.
+It is optional for users to check if the board entered the upload mode. Open serial monitor/terminal and check the following information,.
 
 |image13|
 
 When upload completed, the “Done uploading” message is printed.
 
-Step 2. Run the Blink example
+Step 4. Run the Blink example
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-| In each example, Arduino not only provides sample code, but also
-  detailed documentation, including wiring diagram, sample code
-  explanation, technical details, …etc. Please refer the detailed
-  information of the Blink example:
-| https://www.arduino.cc/en/Tutorial/Blink
+In each example, Arduino not only provides sample code, but also detailed documentation, including wiring diagram, sample code explanation, technical details, …etc. Please refer the detailed information of the Blink example: https://www.arduino.cc/en/Tutorial/Blink
 
 In short, this example makes on-board LED blinks.
 
 |image14|
 
 Video Tutorials and Demos
+-------------------------
 
 YouTube Channel:
 
--  AMB82 Mini - Getting Started: https://youtu.be/_rLiih5RkXY .
+- AMB82 Mini: Start Here!: https://youtube.com/playlist?list=PLEQfNjOZQRyP1dyegDVYqgw53_AORspMK&feature=shared
 
--  AMB82 Mini tutorials list:
-   https://youtube.com/playlist?list=PLEQfNjOZQRyPnmXCuRqE1f5au2HT4E9CP
-   .
+- AMB82 Mini Tutorials: https://youtube.com/playlist?list=PLEQfNjOZQRyPnmXCuRqE1f5au2HT4E9CP&feature=shared
 
--  AMB82 Mini - 入門教學: https://youtu.be/-jQDpDFX2ao .
+- AMB82 Mini 教程: https://youtube.com/playlist?list=PLEQfNjOZQRyOxXFV7X_2fIcnd_J6VBmyM&feature=shared
 
--  AMB82 Mini 教程 list:
-   https://youtube.com/playlist?list=PLEQfNjOZQRyOxXFV7X_2fIcnd_J6VBmyM
-   .
+- AMB82 mini Maker Projects: https://youtube.com/playlist?list=PLEQfNjOZQRyPWhySw16ZgBOPWnzLWDAjz&feature=shared
 
-BiliBili Channel: https://space.bilibili.com/457777430 .
+BiliBili Channel: https://space.bilibili.com/457777430
 
 Useful Links
+------------
 
-Ameba Arduino SDK page:
-https://www.amebaiot.com/en/ameba-arduino-summary/ .
+Ameba Arduino SDK page: https://www.amebaiot.com/en/ameba-arduino-summary/
+
+Forum: https://forum.amebaiot.com/
 
 FAQ: https://forum.amebaiot.com/t/welcome-to-ameba-faq/1748
 
-Forum: https://forum.amebaiot.com/ .
+Facebook Group Chinese: https://www.facebook.com/groups/AmebaIoT
 
-Facebook Group Chinese: https://www.facebook.com/groups/AmebaIoT .
+Facebook Group English: https://www.facebook.com/groups/amebaioten
 
-Facebook Group English: https://www.facebook.com/groups/amebaioten .
 
 .. |image01| image:: ../_static/Getting_Started/Getting_Started_with_AMB82-mini/image01.png
-   :width: 6.26806in
-   :height: 4.24028in
+   :width:  2000 px
+   :height:  1353 px
+   :scale: 40%
 .. |image02| image:: ../_static/Getting_Started/Getting_Started_with_AMB82-mini/image02.png
+   :width:  4765 px
+   :height:  1498 px
+   :scale: 20%
 .. |image03| image:: ../_static/Getting_Started/Getting_Started_with_AMB82-mini/image03.png
-   :width: 6.26806in
-   :height: 6.12222in
+   :width:  687 px
+   :height:  671 px
 .. |image04| image:: ../_static/Getting_Started/Getting_Started_with_AMB82-mini/image04.png
-   :width: 6.26806in
-   :height: 4.56432in
+   :width:  602 px
+   :height:  438 px
 .. |image05| image:: ../_static/Getting_Started/Getting_Started_with_AMB82-mini/image05.png
-   :width: 4.97917in
-   :height: 6.11458in
+   :width:  478 px
+   :height:  587 px
 .. |image06| image:: ../_static/Getting_Started/Getting_Started_with_AMB82-mini/image06.png
-   :width: 6.26806in
-   :height: 8.11042in
+   :width:  660 px
+   :height:  854 px
 .. |image07| image:: ../_static/Getting_Started/Getting_Started_with_AMB82-mini/image07.png
-   :width: 6.26806in
-   :height: 3.50486in
+   :width:  778 px
+   :height:  435 px
 .. |image08| image:: ../_static/Getting_Started/Getting_Started_with_AMB82-mini/image08.png
-   :width: 6.26806in
-   :height: 4.86528in
+   :width:  773 px
+   :height:  600 px
 .. |image09| image:: ../_static/Getting_Started/Getting_Started_with_AMB82-mini/image09.png
-   :width: 5.38542in
-   :height: 6.65257in
+   :width:  476 px
+   :height:  588 px
 .. |image10| image:: ../_static/Getting_Started/Getting_Started_with_AMB82-mini/image10.png
-   :width: 5.78125in
-   :height: 6.30208in
+   :width:  555 px
+   :height:  605 px
 .. |image11| image:: ../_static/Getting_Started/Getting_Started_with_AMB82-mini/image11.png
-   :width: 6.26806in
-   :height: 0.65556in
+   :width:  669 px
+   :height:  70 px
 .. |image12| image:: ../_static/Getting_Started/Getting_Started_with_AMB82-mini/image12.png
-   :width: 6.26806in
-   :height: 4.57222in
+   :width:  1040 px
+   :height:  758 px
+   :scale: 80%
 .. |image13| image:: ../_static/Getting_Started/Getting_Started_with_AMB82-mini/image13.png
-   :width: 6.26806in
-   :height: 2.69375in
+   :width:  854 px
+   :height:  367 px
+   :scale: 80%
 .. |image14| image:: ../_static/Getting_Started/Getting_Started_with_AMB82-mini/image14.png
-   :width: 4.19792in
-   :height: 6.9375in
+   :width:  403 px
+   :height:  666 px

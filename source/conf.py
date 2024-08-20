@@ -9,7 +9,7 @@
 project = 'AmebaPro2\'s Arduino Documentation'
 copyright = '2024 Realtek Semiconductor Corp. All rights reserved'
 author = 'REALTEK SG'
-release = 'v0.1'
+release = 'v1.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
