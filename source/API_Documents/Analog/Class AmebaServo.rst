@@ -16,9 +16,9 @@ A class used for controlling servo motors connected to Ameba boards.
 **Syntax**
 ~~~~~~~~~~
 
-```
-class AmebaServo
-```
+.. code-block:: c++
+
+    class AmebaServo
 
 **Members**
 ~~~~~~~~~~~
@@ -61,19 +61,19 @@ Attach a PWM pin to control servo on Ameba boards. Minimum and maximum pulse wid
 **Syntax**
 ~~~~~~~~~~
 
-```
-uint8_t attach(int pin);
-uint8_t attach(int pin, int min, int max);
-```
+.. code-block:: c++
+
+    uint8_t attach(int pin);
+    uint8_t attach(int pin, int min, int max);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
 pin: A PWM pin that is one of the Ameba boards' PWM pins.
 
-min: Minimum pulse width to be set for PWM. By default, the min is 544us.
+min: Minimum pulse width to be set for PWM. Default value is 544us.
 
-max: Maximum pulse width to be set for PWM. By default, the max is 2400us.
+max: Maximum pulse width to be set for PWM. Default value is 2400us.
 
 **Returns**
 ~~~~~~~~~~~
@@ -82,14 +82,12 @@ max: Maximum pulse width to be set for PWM. By default, the max is 2400us.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: [ServoSweep](https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Analog/examples/ServoSweep/ServoSweep.ino)
+Example: `ServoSweep <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Analog/examples/ServoSweep/ServoSweep.ino>`_
+
 
 The code demonstrates a servo motor sweeping from 0 - 180 - 0 degrees, in 1-degree intervals.
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“AmebaServo.h” must be included to use the class function.
+.. note :: “AmebaServo.h” must be included to use the class function.
 
 **AmebaServo::detach**
 ----------------------
@@ -102,9 +100,9 @@ Detach the servo by disabling the PWM pin previously set in attach().
 **Syntax**
 ~~~~~~~~~~
 
-```
-void detach(void);
-```
+.. code-block:: c++
+
+    void detach(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -121,10 +119,7 @@ NA
 
 NA
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“AmebaServo.h” must be included to use the class function.
+.. note :: “AmebaServo.h” must be included to use the class function.
 
 **AmebaServo::write**
 ---------------------
@@ -137,14 +132,16 @@ Write an integer value to control servo. The value is between 0 - 180 degrees.
 **Syntax**
 ~~~~~~~~~~
 
-```
-void write(int value);
-```
+.. code-block:: c++
+
+    void write(int value);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-value: An integer value that should be between 0 - 180. If the value is < 0, it will be taken as 0 and if the value >180, it will be taken as 180.
+value: An integer value.
+
+- 0 to 180 (If the value is < 0, it will be taken as 0 and if the value >180, it will be taken as 180)
 
 **Returns**
 ~~~~~~~~~~~
@@ -153,12 +150,9 @@ NA
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
-Example: [ServoSweep](https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Analog/examples/ServoSweep/ServoSweep.ino)
+Example: `ServoSweep <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Analog/examples/ServoSweep/ServoSweep.ino>`_
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“AmebaServo.h” must be included to use the class function.
+.. note :: “AmebaServo.h” must be included to use the class function.
 
 **AmebaServo::writeMicroseconds**
 ---------------------------------
@@ -171,14 +165,16 @@ Write a value to control servo. The value is between 544 - 2400us that represent
 **Syntax**
 ~~~~~~~~~~
 
-```
-void writeMicroseconds(int value);
-```
+.. code-block:: c++
+
+    void writeMicroseconds(int value);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-value: An integer value that should be between 544 - 2400us as pulse width. If the value is < 544us, it will be taken as 544us and if the value > 2400us, it will be taken as 2400us.
+value: An integer value (us) as pulse width.
+
+- 544 to 2400 (If the value is < 544, it will be taken as 544 and if the value > 2400, it will be taken as 2400)
 
 **Returns**
 ~~~~~~~~~~~
@@ -190,10 +186,7 @@ NA
 
 NA
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“AmebaServo.h” must be included to use the class function.
+.. note :: “AmebaServo.h” must be included to use the class function.
 
 **AmebaServo::read**
 --------------------
@@ -206,9 +199,9 @@ The function reads the value from servo and returns current pulse width as an an
 **Syntax**
 ~~~~~~~~~~
 
-```
-int read(void);
-```
+.. code-block:: c++
+
+    int read(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -225,10 +218,7 @@ This function returns integer value that represents pulse width between 0 - 180 
 
 NA
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“AmebaServo.h” must be included to use the class function.
+.. note :: “AmebaServo.h” must be included to use the class function.
 
 **AmebaServo::readMicroseconds**
 --------------------------------
@@ -241,9 +231,9 @@ The function reads and returns the pulse width of the current servo in microseco
 **Syntax**
 ~~~~~~~~~~
 
-```
-int readMicroseconds(void);
-```
+.. code-block:: c++
+
+    int readMicroseconds(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -260,10 +250,7 @@ This function returns an integer value that represents pulse width in microsecon
 
 NA
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“AmebaServo.h” must be included to use the class function.
+.. note :: “AmebaServo.h” must be included to use the class function.
 
 **AmebaServo::attached**
 ------------------------
@@ -276,9 +263,9 @@ Check if the servo PWM pin is attached successfully.
 **Syntax**
 ~~~~~~~~~~
 
-```
-bool attached(void);
-```
+.. code-block:: c++
+
+    bool attached(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -292,8 +279,6 @@ This function returns 1 if the servo has been attached, else it returns 0.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
-Example: [ServoSweep](https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Analog/examples/ServoSweep/ServoSweep.ino)
+Example: `ServoSweep <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Analog/examples/ServoSweep/ServoSweep.ino>`_
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-“AmebaServo.h” must be included to use the class function.
+.. note :: “AmebaServo.h” must be included to use the class function.

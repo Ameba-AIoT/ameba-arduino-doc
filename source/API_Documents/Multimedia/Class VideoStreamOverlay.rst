@@ -1,523 +1,448 @@
-VideoStreamOverlay Class 
-=========================
-
-Description
------------
-
-VideoStreamOverlay also known as On-Screen Display (OSD) that allows
-contents such as texts and shapes to be displayed on video streams.
-VideoStreamOverlay class is used to draw on video streams.
-
-Syntax
-------
-
 Class VideoStreamOverlay
+========================
 
-Members
--------
+.. contents::
+  :local:
+  :depth: 2
 
-**Public Constructors**
+**VideoStreamOverlay Class**
+----------------------------
 
-+------------------------------------+---------------------------------+
-| VideoStreamOverlay::               | Constructs a VideoStreamOverlay |
-| VideoStreamOverlay                 | object.                         |
-+====================================+=================================+
-+------------------------------------+---------------------------------+
+**Description**
+~~~~~~~~~~~~~~~
 
-**Public Methods**
+VideoStreamOverlay also known as On-Screen Display (OSD) that allows contents such as texts and shapes to be displayed on video streams. VideoStreamOverlay class is used to draw on video streams.
 
-+-------------------------------------+--------------------------------+
-| VideoStreamOverlay::configVideo     | Configure input video stream   |
-|                                     | parameters.                    |
-+=====================================+================================+
-| VideoStreamOverlay:: configTextSize | Configure text width and       |
-|                                     | height shown on OSD\ **.**     |
-+-------------------------------------+--------------------------------+
-| VideoStreamOverlay:: createBitmap   | Create bitmap on video         |
-|                                     | streams.                       |
-+-------------------------------------+--------------------------------+
-| VideoStreamOverlay::begin           | Enable OSD and start drawing   |
-|                                     | on top of video streams.       |
-+-------------------------------------+--------------------------------+
-| VideoStreamOverlay::end             | Stop OSD drawing on all video  |
-|                                     | streams.                       |
-+-------------------------------------+--------------------------------+
-| VideoStreamOverlay::endChannel      | Stop OSD drawing on specified  |
-|                                     | video stream.                  |
-+-------------------------------------+--------------------------------+
-| VideoStreamOverlay::getTextHeight   | Get current configuration of   |
-|                                     | OSD text height.               |
-+-------------------------------------+--------------------------------+
-| VideoStreamOverlay::getTextWidth    | Get current configuration of   |
-|                                     | OSD text width.                |
-+-------------------------------------+--------------------------------+
-| VideoStreamOverlay::color           | Convert ARGB color values into |
-|                                     | a format compatible for OSD    |
-|                                     | use.                           |
-+-------------------------------------+--------------------------------+
-| VideoStreamOverlay::drawLine        | Draw a line in OSD frame       |
-|                                     | buffer.                        |
-+-------------------------------------+--------------------------------+
-| VideoStreamOverlay::drawPoint       | Draw a point in OSD frame      |
-|                                     | buffer.                        |
-+-------------------------------------+--------------------------------+
-| VideoStreamOverlay::drawRect        | Draw a rectangle on OSD frame  |
-|                                     | buffer.                        |
-+-------------------------------------+--------------------------------+
-| VideoStreamOverlay::drawText        | Draw text on OSD frame buffer. |
-+-------------------------------------+--------------------------------+
-| VideoStreamOverlay::update          | Update OSD and display         |
-|                                     | drawings on video streams.     |
-+-------------------------------------+--------------------------------+
-|                                     |                                |
-+-------------------------------------+--------------------------------+
+**Syntax**
+~~~~~~~~~~
 
-VideoStreamOverlay::configVideo
-===============================
+.. code-block:: c++
 
+    class VideoStreamOverlay
 
+**Members**
+~~~~~~~~~~~
 
-Description
------------
++----------------------------------------+---------------------------------+
+| **Public Constructors**                                                  |
++========================================+=================================+
+| VideoStreamOverlay::VideoStreamOverlay | Constructs a VideoStreamOverlay |
+|                                        | object.                         |
++----------------------------------------+---------------------------------+
+| **Public Methods**                                                       |
++----------------------------------------+---------------------------------+
+| VideoStreamOverlay::configVideo        | Configure input video stream    |
+|                                        | parameters.                     |
++----------------------------------------+---------------------------------+
+| VideoStreamOverlay:: configTextSize    | Configure text width and height |
+|                                        | shown on OSD.                   |
++----------------------------------------+---------------------------------+
+| VideoStreamOverlay:: createBitmap      | Create bitmap on video streams. |
++----------------------------------------+---------------------------------+
+| VideoStreamOverlay::begin              | Enable OSD and start drawing on |
+|                                        | top of video streams.           |
++----------------------------------------+---------------------------------+
+| VideoStreamOverlay::end                | Stop OSD drawing on all video   |
+|                                        | streams.                        |
++----------------------------------------+---------------------------------+
+| VideoStreamOverlay::endChannel         | Stop OSD drawing on specified   |
+|                                        | video stream.                   |
++----------------------------------------+---------------------------------+
+| VideoStreamOverlay::getTextHeight      | Get current configuration of    |
+|                                        | OSD text height.                |
++----------------------------------------+---------------------------------+
+| VideoStreamOverlay::getTextWidth       | Get current configuration of    |
+|                                        | OSD text width.                 |
++----------------------------------------+---------------------------------+
+| VideoStreamOverlay::color              | Convert ARGB color values into  |
+|                                        | a format compatible for OSD     |
+|                                        | use.                            |
++----------------------------------------+---------------------------------+
+| VideoStreamOverlay::drawLine           | Draw a line in OSD frame        |
+|                                        | buffer.                         |
++----------------------------------------+---------------------------------+
+| VideoStreamOverlay::drawPoint          | Draw a point in OSD frame       |
+|                                        | buffer.                         |
++----------------------------------------+---------------------------------+
+| VideoStreamOverlay::drawRect           | Draw a rectangle on OSD frame   |
+|                                        | buffer.                         |
++----------------------------------------+---------------------------------+
+| VideoStreamOverlay::drawText           | Draw text on OSD frame buffer.  |
++----------------------------------------+---------------------------------+
+| VideoStreamOverlay::update             | Update OSD and display drawings |
+|                                        | on video streams.               |
++----------------------------------------+---------------------------------+
+
+**VideoStreamOverlay::configVideo**
+-----------------------------------
+
+**Description**
+~~~~~~~~~~~~~~~
 
 Configure input video stream parameters.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void configVideo(int ch, VideoSetting& config);
 
-void configVideo(int ch, VideoSetting& config);
+**Parameters**
+~~~~~~~~~~~~~~
 
-Paramet\ **er**\ s
-~~~~~~~~~~~~~~~~~~
+ch: Channel to configure.
 
-ch: Channel to configure (Valid value: 0,1,2)
+- 0
 
-config: VideoSetting object
+- 1
 
-Return\ **s**
-~~~~~~~~~~~~~
+- 2
 
-NA
+config: VideoSetting object.
 
-Example **Cod**\ e
-~~~~~~~~~~~~~~~~~~
-
-LoopPostProcessing
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino)
-
-Notes and Warnings
-~~~~~~~~~~~~~~~~~~
-
-Note that OSD only supports channel 0, 1 and 2. “VideoStreamOverlay.h”
-must be included to use the class function.
-
-VideoStreamOverlay::configTextSize
-==================================
-
-
-
-Description
------------
-
-Configure text width and height shown on OSD\ **.**
-
-
-
-Syntax
-------
-
-void configTextSize(int ch, int text_width, int text_height);
-
-
-
-Parameters
-----------
-
-ch: Channel to configure (Valid value: 0,1,2)
-
-text_width: Text width in pixels. Default text width is 16.
-
-text_height: Text height in pixels. Default height width is 32.
-
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-Example Code
-------------
+.. note :: OSD only supports channel 0, 1 and 2. “VideoStreamOverlay.h” must be included to use the class function.
+
+**VideoStreamOverlay::configTextSize**
+--------------------------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+Configure text width and height shown on OSD.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    void configTextSize(int ch, int text_width, int text_height);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+ch: Channel to configure.
+
+- 0
+
+- 1
+
+- 2
+
+text_width: Text width in pixels. (Default value is 16)
+
+text_height: Text height in pixels (Default value is 32)
+
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+NA
 
-Notes and Warnings
-------------------
+.. note :: “VideoStreamOverlay.h” must be included to use the class function. Text size should be configured before OSD is started using begin().
 
-“VideoStreamOverlay.h” must be included to use the class function. Text
-size should be configured before OSD is started using begin().
+**VideoStreamOverlay::createBitmap**
+------------------------------------
 
-VideoStreamOverlay::createBitmap
-================================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Create bitmap on video streams.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void createBitmap (int ch, int idx = 0);
 
-void createBitmap (int ch, int idx = 0);
+**Parameters**
+~~~~~~~~~~~~~~
 
+ch: Channel to configure.
 
+- 0
 
-Parameters
-----------
+- 1
 
-ch: Channel to configure (Valid value: 0,1,2)
+- 2
 
-idx: Layer index of OSD. The default value is 0. (Valid value: 0 to 5)
+idx: Layer index of OSD.
 
+- 0 to 5 (Default value is 0)
 
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStreamOverlay.h” must be included to use the class function.
 
-LoopPostProcessing
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino)
+**VideoStreamOverlay::begin**
+-----------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStreamOverlay.h” must be included to use the class function.
-
-VideoStreamOverlay::begin
-=========================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Enable OSD and start drawing on top of video streams.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void begin(void);
 
-void begin(void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStreamOverlay.h” must be included to use the class function.
 
-LoopPostProcessing
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino)
+**VideoStreamOverlay::end**
+---------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStreamOverlay.h” must be included to use the class function.
-
-VideoStreamOverlay::end
-=======================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Stop OSD drawing on all video streams.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void end(void);
 
-void end(void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
-
-
-Example Code
-------------
+**Example Code**
+~~~~~~~~~~~~~~~~
 
 NA
 
+.. note :: “VideoStreamOverlay.h” must be included to use the class function.
 
+**VideoStreamOverlay::endChannel**
+----------------------------------
 
-Notes and Warnings
-------------------
-
-“VideoStreamOverlay.h” must be included to use the class function.
-
-VideoStreamOverlay::endChannel
-==============================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Stop OSD drawing on specified video stream.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void endChannel(int ch);
 
-void endChannel(int ch);
+**Parameters**
+~~~~~~~~~~~~~~
 
+ch: Channel to stop.
 
+- 0
 
-Parameters
-----------
+- 1
 
-ch: Channel to stop. (Valid value: 0,1,2)
+- 2
 
-
-
-Returns
--------
-
-NA
-
-
-
-Example Code
-------------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+NA
 
-Notes and Warnings
-------------------
+.. note :: “VideoStreamOverlay.h” must be included to use the class function.
 
-“VideoStreamOverlay.h” must be included to use the class function.
+**VideoStreamOverlay::getTextHeight**
+-------------------------------------
 
-VideoStreamOverlay::getTextHeight
-=================================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Get current configuration of OSD text height.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    int getTextHeight(int ch);
 
-int getTextHeight(int ch);
+**Parameters**
+~~~~~~~~~~~~~~
 
+ch: Channel to get the OSD text’s height.
 
+- 0
 
-Parameters
-----------
+- 1
 
-ch: Channel to get the OSD text’s height. (Valid value: 0,1,2)
+- 2
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 This function returns the OSD text’s height on selected channel.
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStreamOverlay.h” must be included to use the class function.
 
-RTSPFaceDetection
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino)
+**VideoStreamOverlay::getTextWidth**
+------------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStreamOverlay.h” must be included to use the class function.
-
-VideoStreamOverlay::getTextWidth
-================================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Get current configuration of OSD text width.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    int getTextWidth(int ch);
 
-int getTextWidth(int ch);
+**Parameters**
+~~~~~~~~~~~~~~
 
+ch: Channel to get the OSD text’s width.
 
+- 0
 
-Parameters
-----------
+- 1
 
-ch: Channel to get the OSD text’s width. (Valid value: 0,1,2)
+- 2
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 This function returns the OSD text’s width on the selected channel.
 
-
-
-Example Code
-------------
+**Example Code**
+~~~~~~~~~~~~~~~~
 
 NA
 
+.. note :: “VideoStreamOverlay.h” must be included to use the class function.
 
+**VideoStreamOverlay::color**
+-----------------------------
 
-Notes and Warnings
-------------------
-
-“VideoStreamOverlay.h” must be included to use the class function.
-
-VideoStreamOverlay::color
-=========================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Convert ARGB color values into a format compatible for OSD use.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    uint32_t color(uint8_t red, uint8_t green, uint8_t blue, uint8_t alpha = 0xff);
 
-uint32_t color(uint8_t red, uint8_t green, uint8_t blue, uint8_t alpha =
-0xff);
+**Parameters**
+~~~~~~~~~~~~~~
 
+red: Intensity level of red color expressed as an 8-bit unsigned integer.
 
+- 0 to 255
 
-Parameters
-----------
+green: Intensity level of green color expressed as an 8-bit unsigned integer.
+- 0 to 255
 
-red: Intensity level of red color expressed as an 8-bit unsigned integer
-from 0 to 255.
+blue: Intensity level of blue color expressed as an 8-bit unsigned integer.
+- 0 to 255
 
-green: Intensity level of green color expressed as an 8-bit unsigned
-integer from 0 to 255.
-
-blue: Intensity level of blue color expressed as an 8-bit unsigned
-integer from 0 to 255.
-
-alpha: Transparency of color expressed as an 8-bit unsigned integer from
-0 to 255. Default value of 255. This value is optional.
-
-
+alpha: Transparency of color expressed as an 8-bit unsigned integer.
+- 0 to 255 (Default value is 255. This value is optional)
 
 Returns
 ~~~~~~~
 
 This function returns the ARGB value in a format compatible for OSD use.
 
-
-
-Example Code
-------------
+**Example Code**
+~~~~~~~~~~~~~~~~
 
 NA
 
+.. note :: “VideoStreamOverlay.h” must be included to use the class function.
 
+**VideoStreamOverlay::drawLine**
+--------------------------------
 
-Notes and Warnings
-------------------
-
-“VideoStreamOverlay.h” must be included to use the class function.
-
-VideoStreamOverlay::drawLine
-============================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Draw a line in OSD frame buffer.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void drawLine(int ch, int xmin, int ymin, int xmax, int ymax, int line_width, uint32_t color, int idx = 0);
 
-void drawLine(int ch, int xmin, int ymin, int xmax, int ymax, int
-line_width, uint32_t color, int idx = 0);
+**Parameters**
+~~~~~~~~~~~~~~
 
+ch: Channel to draw on.
 
+- 0
 
-Parameters
-----------
+- 1
 
-ch: Channel to draw on. (Valid value: 0,1,2)
+- 2
 
 xmin: x coordinate of the top left corner.
 
@@ -531,55 +456,47 @@ line_width: Width of a line.
 
 color: Color of the line.
 
-idx: Layer index of OSD. The default value is 0. (Valid value: 0 to 5)
+idx: Layer index of OSD.
 
+- 0 to 5 (Default value is 0)
 
-
-Returns
--------
-
-NA
-
-
-
-Example Code
-------------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+NA
 
-Notes and Warnings
-------------------
+.. note :: VideoStreamOverlay::update() needs to be called for drawings to be shown on the video streams. “VideoStreamOverlay.h” must be included to use the class function.
 
-VideoStreamOverlay::update() needs to be called for drawings to be shown
-on the video streams. “VideoStreamOverlay.h” must be included to use the
-class function.
+**VideoStreamOverlay::drawPoint**
+---------------------------------
 
-VideoStreamOverlay::drawPoint
-=============================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Draw a point in OSD frame buffer.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void VideoStreamOverlay::drawPoint(int ch, int xmin, int ymin, int point_width, uint32_t color, int idx = 0);
 
-void VideoStreamOverlay::drawPoint(int ch, int xmin, int ymin, int
-point_width, uint32_t color, int idx = 0);
+**Parameters**
+~~~~~~~~~~~~~~
 
+ch: Channel to draw on.
 
+- 0
 
-Parameters
-----------
+- 1
 
-ch: Channel to draw on. (Valid value: 0,1,2)
+- 2
 
 xmin: x coordinate of the point
 
@@ -589,58 +506,48 @@ point_width: size of the point.
 
 color: Color of the point.
 
-[STRIKEOUT:idx: Block index of OSD]
+idx: Layer index of OSD.
 
-idx: Layer index of OSD. The default value is 0. (Valid value: 0 to 5)
+- 0 to 5 (Default value is 0)
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
 
 
-Example Code
-------------
+.. note :: VideoStreamOverlay::update() needs to be called for drawings to be shown on the video streams. “VideoStreamOverlay.h” must be included to use the class function.
 
-RTSPFaceDetection
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino)
+**VideoStreamOverlay::drawRect**
+--------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-VideoStreamOverlay::update() needs to be called for drawings to be shown
-on the video streams. “VideoStreamOverlay.h” must be included to use the
-class function.
-
-VideoStreamOverlay::drawRect
-============================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Draw a rectangle on OSD frame buffer.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void drawRect(int ch, int xmin, int ymin, int xmax, int ymax, int line_width, uint32_t color, int idx = 0);
 
-void drawRect(int ch, int xmin, int ymin, int xmax, int ymax, int
-line_width, uint32_t color, int idx = 0);
+**Parameters**
+~~~~~~~~~~~~~~
 
+ch: Channel to draw rectangle on.
 
+- 0
 
-Parameters
-----------
+- 1
 
-ch: Channel to draw rectangle on. (Valid value: 0,1,2)
+- 2
 
 xmin: x coordinate of the top left corner.
 
@@ -654,136 +561,109 @@ line_width: Width of a rectangle's border.
 
 color: Color of the rectangle.
 
-idx: Layer index of OSD. The default value is 0. (Valid value: 0 to 5)
+idx: Layer index of OSD.
 
+- 0 to 5 (Default value is 0)
 
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-Example Code
-------------
+.. note :: VideoStreamOverlay::update() needs to be called for drawings to be shown on the video streams. “VideoStreamOverlay.h” must be included to use the class function.
 
-Example: LoopPostProcessing
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino)
+**VideoStreamOverlay::drawText**
+--------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-VideoStreamOverlay::update() needs to be called for drawings to be shown
-on the video streams. “VideoStreamOverlay.h” must be included to use the
-class function.
-
-VideoStreamOverlay::drawText
-============================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Draw text on OSD frame buffer.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void drawText(int ch, int xmin, int ymin, const char *text_string, uint32_t color, int idx = 0);
 
-void drawText(int ch, int xmin, int ymin, const char \*text_string,
-uint32_t color, int idx = 0);
+**Parameters**
+~~~~~~~~~~~~~~
 
+ch: Channel to draw text on.
 
+- 0
 
-Parameters
-----------
+- 1
 
-ch: Channel to draw text on. (Valid value: 0,1,2)
+- 2
 
 xmin: x coordinate of top left corner of text box.
 
 ymin: y coordinate of top left corner of text box.
 
-text_string: pointer to a character array containing the text to be
-displayed.
+text_string: pointer to a character array containing the text to be displayed.
 
 color: Color of the text.
 
-idx: Layer index of OSD. The default value is 0. (Valid value: 0 to 5)
+idx: Layer index of OSD.
 
+- 0 to 5 (Default value is 0)
 
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-Example Code
-------------
+.. note :: VideoStreamOverlay::update() needs to be called for drawings to be shown on the video streams. “VideoStreamOverlay.h” must be included to use the class function.
 
-Example: LoopPostProcessing
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino)
+**VideoStreamOverlay::update**
+------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-VideoStreamOverlay::update() needs to be called for drawings to be shown
-on the video streams. “VideoStreamOverlay.h” must be included to use the
-class function.
-
-VideoStreamOverlay::update
-==========================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Update OSD and display drawings on video streams.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void update(int ch, int idx = 0);
 
-void update(int ch, int idx = 0);
+**Parameters**
+~~~~~~~~~~~~~~
 
+ch: Channel to display drawings.
 
+- 0
 
-Parameters
-----------
+- 1
 
-ch: Channel to display drawings. (Valid value: 0,1,2)
+- 2
 
-idx: Layer index of OSD. The default value is 0. (Valid value: 0 to 5)
+idx: Layer index of OSD.
+- 0 to 5 (Default value is 0)
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-Example Code
-------------
-
-Example: LoopPostProcessing
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino)
-
-
-
-Notes and Warnings
-------------------
-
-“VideoStreamOverlay.h” must be included to use the class function.
+.. note :: “VideoStreamOverlay.h” must be included to use the class function.

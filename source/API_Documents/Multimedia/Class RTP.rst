@@ -1,33 +1,37 @@
-RTP Class 
-==========
+Class RTP
+=========
 
-Description
------------
+.. contents::
+  :local:
+  :depth: 2
 
-A class used to receive an audio data stream over a network using the
-Real-time Transport Protocol (RTP). This allows streaming of an audio
-stream from a computer to the development board.
+**RTP Class**
+-------------
 
-Syntax
-------
+**Description**
+~~~~~~~~~~~~~~~
 
-class RTP
+A class used to receive an audio data stream over a network using the Real-time Transport Protocol (RTP). This allows streaming of an audio stream from a computer to the development board.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    class RTP
 
 **Members**
------------
-
-**Public Constructors**
+~~~~~~~~~~~
 
 +---------------------------+------------------------------------------+
-| RTP::RTP                  | Constructs a RTP object.                 |
+| **Public Constructors**                                              |
 +===========================+==========================================+
+| RTP::RTP                  | Constructs a RTP object.                 |
 +---------------------------+------------------------------------------+
-
-**Public Methods**
-
+| **Public Methods**                                                   |
 +---------------------------+------------------------------------------+
 | RTP::configPort           | Configure RTP network port.              |
-+===========================+==========================================+
++---------------------------+------------------------------------------+
 | RTP::begin                | Start RTP streaming.                     |
 +---------------------------+------------------------------------------+
 | RTP::end                  | Stop RTP streaming.                      |
@@ -35,88 +39,132 @@ class RTP
 | RTP::getPort              | Get RTP network port value.              |
 +---------------------------+------------------------------------------+
 
-RTP::configPort
-===============
+**RTP::configPort**
+-------------------
 
-| **Description**
-| Configure RTP network port.
+**Description**
+~~~~~~~~~~~~~~~
 
-| **Syntax**
-| void configPort(uint16_t port);
+Configure RTP network port.
 
-| **Parameters**
-| port: Desired network port for RTP. Default value of 5004.
+**Syntax**
+~~~~~~~~~~
 
-| **Returns**
-| NA
+.. code-block:: c++
 
-| **Example Code**
-| NA
+    void configPort(uint16_t port);
 
-| **Notes and Warnings**
-| “RTP.h” must be included to use the class function.
+**Parameters**
+~~~~~~~~~~~~~~
 
-RTP::begin
-==========
+port: Desired network port for RTP.
 
-| **Description**
-| Start RTP streaming.
+- 5004 (Default value)
 
-| **Syntax**
-| void begin(void);
+**Returns**
+~~~~~~~~~~~
 
-| **Parameters**
-| NA
+NA
 
-| **Returns**
-| NA
+**Example Code**
+~~~~~~~~~~~~~~~~
 
-| **Example Code**
-| RTPAudioStream
+NA
 
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTPAudioStream/RTPAudioStream.ino)
+.. note :: “RTP.h” must be included to use the class function.
 
-| **Notes and Warnings**
-| “RTP.h” must be included to use the class function.
+**RTP::begin**
+--------------
 
-RTP::end
-========
+**Description**
+~~~~~~~~~~~~~~~
 
-| **Description**
-| Stop RTP streaming.
+Start RTP streaming.
 
-| **Syntax**
-| void end(void);
+**Syntax**
+~~~~~~~~~~
 
-| **Parameters**
-| NA
+.. code-block:: c++
 
-| **Returns**
-| NA
+    void begin(void);
 
-| **Example Code**
-| NA
+**Parameters**
+~~~~~~~~~~~~~~
 
-| **Notes and Warnings**
-| “RTP.h” must be included to use the class function.
+NA
 
-RTP::getPort
-============
+**Returns**
+~~~~~~~~~~~
 
-| **Description**
-| Get RTP stream network port.
+NA
 
-| **Syntax**
-| int getPort(void);
+**Example Code**
+~~~~~~~~~~~~~~~~
 
-| **Parameters**
-| NA
+Example: `Audio/RTPAudioStream <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTPAudioStream/RTPAudioStream.ino>`_
 
-| **Returns**
-| This function returns the port number as an integer.
+.. note :: “RTP.h” must be included to use the class function.
 
-| **Example Code**
-| NA
+**RTP::end**
+------------
 
-| **Notes and Warnings**
-| “RTP.h” must be included to use the class function.
+**Description**
+~~~~~~~~~~~~~~~
+
+Stop RTP streaming.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    void end(void);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+NA
+
+**Returns**
+~~~~~~~~~~~
+
+NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
+
+.. note :: “RTP.h” must be included to use the class function.
+
+**RTP::getPort**
+----------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+Get RTP stream network port.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    int getPort(void);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+NA
+
+**Returns**
+~~~~~~~~~~~
+
+This function returns the port number as an integer.
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
+
+.. note :: “RTP.h” must be included to use the class function.

@@ -16,9 +16,9 @@ A class used to encode an audio data stream using AAC (Advanced Audio Codec) sta
 **Syntax**
 ~~~~~~~~~~
 
-```
-class AAC
-```
+.. code-block:: c++
+
+    class AAC
 
 **Members**
 ~~~~~~~~~~~
@@ -49,9 +49,9 @@ Configure AAC module by setting up audio configuration parameters.
 **Syntax**
 ~~~~~~~~~~
 
-```
-void configAudio(AudioSetting& config);
-```
+.. code-block:: c++
+
+    void configAudio(AudioSetting& config);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -66,12 +66,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: [RTSPAudioStream](https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTSPAudioStream/RTSPAudioStream.ino)
+Example: `Audio/RTSPAudioStream <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTSPAudioStream/RTSPAudioStream.ino>`_
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“AudioEncoder.h” must be included to use the class function.
+.. note :: “AudioEncoder.h” must be included to use the class function.
 
 **AAC::begin**
 --------------
@@ -84,9 +81,9 @@ Start AAC audio encoder.
 **Syntax**
 ~~~~~~~~~~
 
-```
-void begin(void);
-```
+.. code-block:: c++
+
+    void begin(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -101,12 +98,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: [RTSPAudioStream](https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTSPAudioStream/RTSPAudioStream.ino)
+Example: `Audio/RTSPAudioStream <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTSPAudioStream/RTSPAudioStream.ino>`_
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“AudioEncoder.h” must be included to use the class function.
+.. note :: “AudioEncoder.h” must be included to use the class function.
 
 **AAC::end**
 ------------
@@ -119,9 +113,9 @@ Stop AAC audio encoder.
 **Syntax**
 ~~~~~~~~~~
 
-```
-void end(void);
-```
+.. code-block:: c++
+
+    void end(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -138,10 +132,7 @@ NA
 
 NA
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“AudioEncoder.h” must be included to use the class function.
+.. note :: “AudioEncoder.h” must be included to use the class function.
 
 
 **G711E Class**
@@ -155,9 +146,9 @@ A class used to encode an audio data stream using ITU-T G.711 standard.
 **Syntax**
 ~~~~~~~~~~
 
-```
-class G711E
-```
+.. code-block:: c++
+
+    class G711E
 
 **Members**
 ~~~~~~~~~~~
@@ -191,9 +182,9 @@ Configure G711E module by setting up audio configuration parameters.
 **Syntax**
 ~~~~~~~~~~
 
-```
-void configAudio(AudioSetting& config);
-```
+.. code-block:: c++
+
+    void configAudio(AudioSetting& config);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -208,12 +199,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: [RTPAudioStream](https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTPAudioStream/RTPAudioStream.ino)
+Example: `Audio/RTPAudioStream <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTPAudioStream/RTPAudioStream.ino>`_
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“AudioEncoder.h” must be included to use the class function. The G711E audio encoder will only work when the audio sample rate is configured as 8kHz or 16kHz.
+.. note :: “AudioEncoder.h” must be included to use the class function. The G711E audio encoder will only work when the audio sample rate is configured as 8kHz or 16kHz.
 
 **G711E::configCodec**
 ----------------------
@@ -226,9 +214,9 @@ Configure G711E module companding algorithm.
 **Syntax**
 ~~~~~~~~~~
 
-```
-void configCodec(Audio_Codec_T codec);
-```
+.. code-block:: c++
+
+    void configCodec(Audio_Codec_T codec);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -247,12 +235,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: [RTPAudioStream](https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTPAudioStream/RTPAudioStream.ino)
+Example: `Audio/RTPAudioStream <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTPAudioStream/RTPAudioStream.ino>`_
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“AudioEncoder.h” must be included to use the class function. The G711E audio encoder will only work when the audio sample rate is configured as 8kHz or 16kHz.
+.. note :: “AudioEncoder.h” must be included to use the class function. The G711E audio encoder will only work when the audio sample rate is configured as 8kHz or 16kHz.
 
 **G711E::begin**
 ----------------
@@ -265,9 +250,9 @@ Start G711E audio encoder.
 **Syntax**
 ~~~~~~~~~~
 
-```
-void begin(void);
-```
+.. code-block:: c++
+
+    void begin(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -282,12 +267,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: [RTPAudioStream](https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTPAudioStream/RTPAudioStream.ino)
+Example: `Audio/RTPAudioStream <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTPAudioStream/RTPAudioStream.ino>`_
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“AudioEncoder.h” must be included to use the class function.
+.. note :: “AudioEncoder.h” must be included to use the class function.
 
 **G711E::end**
 --------------
@@ -300,9 +282,9 @@ Stop G711E audio encoder.
 **Syntax**
 ~~~~~~~~~~
 
-```
-void end(void);
-```
+.. code-block:: c++
+
+    void end(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -319,7 +301,4 @@ NA
 
 NA
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“AudioEncoder.h” must be included to use the class function.
+.. note :: “AudioEncoder.h” must be included to use the class function.

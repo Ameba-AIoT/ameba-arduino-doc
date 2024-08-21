@@ -16,9 +16,9 @@ A class used to record video and audio data streams into a MP4 file on the SD ca
 **Syntax**
 ~~~~~~~~~~
 
-```
-class MP4Recording
-```
+.. code-block:: c++
+
+    class MP4Recording
 
 **Members**
 ~~~~~~~~~~~
@@ -81,9 +81,9 @@ Initialize MP4Recording video stream parameters.
 **Syntax**
 ~~~~~~~~~~
 
-```
-void configVideo(VideoSetting& config);
-```
+.. code-block:: c++
+
+    void configVideo(VideoSetting& config);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -98,12 +98,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: [SingleVideoWithAudio](https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino)
+Example: `RecordMP4/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“MP4Recording.h” must be included to use the class function.
+.. note :: “MP4Recording.h” must be included to use the class function.
 
 **MP4Recording::configAudio**
 -----------------------------
@@ -116,14 +113,14 @@ Initialize MP4Recording audio stream parameters.
 **Syntax**
 ~~~~~~~~~~
 
-```
-void configAudio(AudioSetting& config, Audio_Codec_T codec);
-```
+.. code-block:: c++
+
+    void configAudio(AudioSetting& config, Audio_Codec_T codec);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-config: AudioSetting object containing desired audio configuration
+config: AudioSetting object containing desired audio configuration.
 
 codec: Codec format of Audio stream input.
 
@@ -141,12 +138,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: [SingleVideoWithAudio](https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino)
+Example: `RecordMP4/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“MP4Recording.h” must be included to use the class function.
+.. note :: “MP4Recording.h” must be included to use the class function.
 
 **MP4Recording::begin**
 -----------------------
@@ -159,9 +153,9 @@ Start MP4 recording to SD card.
 **Syntax**
 ~~~~~~~~~~
 
-```
-void begin(void);
-```
+.. code-block:: c++
+
+    void begin(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -176,12 +170,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: [SingleVideoWithAudio](https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino)
+Example: `RecordMP4/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“MP4Recording.h” must be included to use the class function.
+.. note :: “MP4Recording.h” must be included to use the class function.
 
 **MP4Recording::end**
 ---------------------
@@ -194,9 +185,9 @@ Stop MP4 recording to SD card.
 **Syntax**
 ~~~~~~~~~~
 
-```
-void end(void);
-```
+.. code-block:: c++
+
+    void end(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -213,10 +204,7 @@ NA
 
 NA
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“MP4Recording.h” must be included to use the class function.
+.. note :: “MP4Recording.h” must be included to use the class function.
 
 **MP4Recording::setRecordingFileName**
 --------------------------------------
@@ -229,10 +217,10 @@ Set base file name of recorded MP4 files.
 **Syntax**
 ~~~~~~~~~~
 
-```
-void setRecordingFileName(const char\* filename);
-void setRecordingFileName(String filename);
-```
+.. code-block:: c++
+
+    void setRecordingFileName(const char* filename);
+    void setRecordingFileName(String filename);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -247,12 +235,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: [SingleVideoWithAudio](https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino)
+Example: `RecordMP4/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-Filename can be up to 127 characters long.
+.. note :: Filename can be up to 127 characters long.
 
 “MP4Recording.h” must be included to use the class function.
 
@@ -267,9 +252,9 @@ Set per-file MP4 recording duration.
 **Syntax**
 ~~~~~~~~~~
 
-```
-void setRecordingDuration(uint32_t secs);
-```
+.. code-block:: c++
+
+    void setRecordingDuration(uint32_t secs);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -284,12 +269,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: [SingleVideoWithAudio](https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino)
+Example: `RecordMP4/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“MP4Recording.h” must be included to use the class function.
+.. note :: “MP4Recording.h” must be included to use the class function.
 
 **MP4Recording::setRecordingFileCount**
 ---------------------------------------
@@ -302,9 +284,9 @@ Set total number of MP4 files to record.
 **Syntax**
 ~~~~~~~~~~
 
-```
-void setRecordingFileCount(uint32_t count);
-```
+.. code-block:: c++
+
+    void setRecordingFileCount(uint32_t count);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -319,12 +301,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: [SingleVideoWithAudio](https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino)
+Example: `RecordMP4/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-If configured to record more than 1 file, a number will be appended to the end of the base file name.
+.. note :: If configured to record more than 1 file, a number will be appended to the end of the base file name.
 
 “MP4Recording.h” must be included to use the class function.
 
@@ -339,9 +318,9 @@ Enable loop recording mode for continuous recording.
 **Syntax**
 ~~~~~~~~~~
 
-```
-void setLoopRecording(int enable);
-```
+.. code-block:: c++
+
+    void setLoopRecording(int enable);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -358,10 +337,7 @@ NA
 
 NA
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-Enabling loop recording will overwrite the oldest previously recorded MP4 file when the total number of MP4 files to record has been reached.
+.. note :: Enabling loop recording will overwrite the oldest previously recorded MP4 file when the total number of MP4 files to record has been reached.
 
 “MP4Recording.h” must be included to use the class function.
 
@@ -376,9 +352,9 @@ Enable recording video data and audio data.
 **Syntax**
 ~~~~~~~~~~
 
-```
-void setRecordingDataType(uint8_t type);
-```
+.. code-block:: c++
+
+    void setRecordingDataType(uint8_t type);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -399,13 +375,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: [VideoOnly](https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/VideoOnly/VideoOnly.ino)
+Example: `RecordMP4/VideoOnly <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/VideoOnly/VideoOnly.ino>`_
 
-
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“MP4Recording.h” must be included to use the class function.
+.. note :: “MP4Recording.h” must be included to use the class function.
 
 **MP4Recording::getRecordingFileName**
 --------------------------------------
@@ -418,9 +390,9 @@ Get currently configured base file name of recording MP4 files.
 **Syntax**
 ~~~~~~~~~~
 
-```
-String getRecordingFileName(void);
-```
+.. code-block:: c++
+
+    String getRecordingFileName(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -437,10 +409,7 @@ A String class object containing the currently configured MP4 base file name.
 
 NA
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“MP4Recording.h” must be included to use the class function.
+.. note :: “MP4Recording.h” must be included to use the class function.
 
 **MP4Recording::getRecordingDuration**
 --------------------------------------
@@ -453,9 +422,9 @@ Get currently configured per-file MP4 recording duration.
 **Syntax**
 ~~~~~~~~~~
 
-```
-uint32_t getRecordingDuration(void);
-```
+.. code-block:: c++
+
+    uint32_t getRecordingDuration(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -472,10 +441,7 @@ Currently configured per-file recording duration, expressed in seconds.
 
 NA
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“MP4Recording.h” must be included to use the class function.
+.. note :: “MP4Recording.h” must be included to use the class function.
 
 **MP4Recording::getRecordingFileCount**
 ---------------------------------------
@@ -488,9 +454,9 @@ Get currently configured total number of MP4 files to record.
 **Syntax**
 ~~~~~~~~~~
 
-```
-uint32_t getRecordingFileCount(void);
-```
+.. code-block:: c++
+
+    uint32_t getRecordingFileCount(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -507,10 +473,7 @@ Currently configured total number of MP4 files to record.
 
 NA
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“MP4Recording.h” must be included to use the class function.
+.. note :: “MP4Recording.h” must be included to use the class function.
 
 **MP4Recording::getRecordingState**
 -----------------------------------
@@ -523,9 +486,9 @@ Get current MP4 recording state.
 **Syntax**
 ~~~~~~~~~~
 
-```
-uint8_t getRecordingState(void);
-```
+.. code-block:: c++
+
+    uint8_t getRecordingState(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -542,10 +505,7 @@ TRUE if MP4 is currently recording, FALSE if MP4 recording has stopped.
 
 NA
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“MP4Recording.h” must be included to use the class function.
+.. note :: “MP4Recording.h” must be included to use the class function.
 
 **MP4Recording::printInfo**
 ---------------------------
@@ -558,9 +518,9 @@ Print out current configuration of MP4 recording.
 **Syntax**
 ~~~~~~~~~~
 
-```
-void printInfo(void);
-```
+.. code-block:: c++
+
+    void printInfo(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -575,9 +535,6 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: [SingleVideoWithAudio](https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino)
+Example: `RecordMP4/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-**Notes and Warnings**
-~~~~~~~~~~~~~~~~~~~~~~
-
-“MP4Recording.h” must be included to use the class function.
+.. note :: “MP4Recording.h” must be included to use the class function.

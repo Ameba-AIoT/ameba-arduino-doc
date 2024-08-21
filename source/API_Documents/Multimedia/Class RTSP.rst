@@ -1,34 +1,38 @@
-RTSP Class 
-===========
+Class RTSP
+==========
 
-Description
------------
+.. contents::
+  :local:
+  :depth: 2
 
-A class used to send audio and video data streams over a network using
-the Real Time Streaming Protocol (RTSP). This allows viewing of a video
-stream on a computer using media players.
+**RTSP Class**
+--------------
 
-Syntax
-------
+**Description**
+~~~~~~~~~~~~~~~
 
-class RTSP
+A class used to send audio and video data streams over a network using the Real Time Streaming Protocol (RTSP). This allows viewing of a video stream on a computer using media players.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    class RTSP
 
 **Members**
------------
-
-**Public Constructors**
+~~~~~~~~~~~
 
 +---------------------------+------------------------------------------+
-| RTSP::RTSP                | Constructs a RTSP object.                |
+| **Public Constructors**                                              |
 +===========================+==========================================+
+| RTSP::RTSP                | Constructs a RTSP object.                |
 +---------------------------+------------------------------------------+
-
-**Public Methods**
-
+| **Public Methods**                                                   |
 +---------------------------+------------------------------------------+
 | RTSP::configVideo         | Configure RTSP module by setting up RTSP |
 |                           | video parameters.                        |
-+===========================+==========================================+
++---------------------------+------------------------------------------+
 | RTSP::configAudio         | Configure RTSP module by setting up RTSP |
 |                           | audio parameters.                        |
 +---------------------------+------------------------------------------+
@@ -40,142 +44,198 @@ class RTSP
 +---------------------------+------------------------------------------+
 | RTSP:: printInfo          | Print out current configuration of RTSP. |
 +---------------------------+------------------------------------------+
-|                           |                                          |
-+---------------------------+------------------------------------------+
 
-RTSP::configVideo
-=================
+**RTSP::configVideo**
+---------------------
 
 **Description**
+~~~~~~~~~~~~~~~
 
 Configure RTSP module by setting up RTSP video parameters.
 
-| **Syntax**
-| void configVideo(VideoSetting& config);
+**Syntax**
+~~~~~~~~~~
 
-| **Parameters**
-| config: VideoSetting object
+.. code-block:: c++
 
-| **Returns**
-| NA
+    void configVideo(VideoSetting& config);
 
-| **Example Code**
-| VideoOnly
+**Parameters**
+~~~~~~~~~~~~~~
 
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino)
+config: VideoSetting object
 
-| **Notes and Warnings**
-| “RTSP.h” must be included to use the class function.
+**Returns**
+~~~~~~~~~~~
 
-RTSP::configAudio
-=================
+NA
 
-| **Description**
-| Configure RTSP module by setting up RTSP audio parameters.
+*Example Code**
+~~~~~~~~~~~~~~~
 
-| **Syntax**
-| void configAudio(AudioSetting& config, Audio_Codec_T codec);
+Example: `StreamRTSP/VideoOnly <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
 
-| **Parameters**
-| config: AudioSetting object containing desired audio configuration
+.. note :: “RTSP.h” must be included to use the class function.
+
+**RTSP::configAudio**
+---------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+Configure RTSP module by setting up RTSP audio parameters.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    void configAudio(AudioSetting& config, Audio_Codec_T codec);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+config: AudioSetting object containing desired audio configuration
 
 codec: Codec format of Audio stream input. Valid values: CODEC_AAC,
 CODEC_G711_PCMU, CODEC_G711_PCMA
 
-| **Returns**
-| NA
+**Returns**
+~~~~~~~~~~~
 
-| **Example Code**
-| SingleVideoWithAudio
-  (https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/SingleVideoWithAudio/SingleVideoWithAudio.ino)
+NA
 
-| **Notes and Warnings**
-| “RTSP.h” must be included to use the class function.
+**Example Code**
+~~~~~~~~~~~~~~~~
 
-RTSP::begin
-===========
+Example: `StreamRTSP/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-| **Description**
-| Start RTSP streaming.
+.. note :: “RTSP.h” must be included to use the class function.
 
-| **Syntax**
-| void begin(void);
+**RTSP::begin**
+---------------
 
-| **Parameters**
-| NA
+**Description**
+~~~~~~~~~~~~~~~
 
-| **Returns**
-| NA
+Start RTSP streaming.
 
-| **Example Code**
-| VideoOnly
+**Syntax**
+~~~~~~~~~~
 
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino)
+.. code-block:: c++
 
-| **Notes and Warnings**
-| “RTSP.h” must be included to use the class function.
+    void begin(void);
 
-RTSP::end
-=========
+**Parameters**
+~~~~~~~~~~~~~~
 
-| **Description**
-| Stop RTSP streaming.
+NA
 
-| **Syntax**
-| void end(void);
+**Returns**
+~~~~~~~~~~~
 
-| **Parameters**
-| NA
+NA
 
-| **Returns**
-| NA
+**Example Code**
+~~~~~~~~~~~~~~~~
 
-| **Example Code**
-| NA
+Example: `StreamRTSP/VideoOnly <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
 
-| **Notes and Warnings**
-| “RTSP.h” must be included to use the class function.
+.. note :: “RTSP.h” must be included to use the class function.
 
-RTSP::getPort
-=============
+**RTSP::end**
+-------------
 
-| **Description**
-| Get RTSP stream network port.
+**Description**
+~~~~~~~~~~~~~~~
 
-| **Syntax**
-| int getPort(void);
+Stop RTSP streaming.
 
-| **Parameters**
-| NA
+**Syntax**
+~~~~~~~~~~
 
-| **Returns**
-| This function returns the port number as an integer.
+.. code-block:: c++
 
-| **Example Code**
-| NA
+    void end(void);
 
-| **Notes and Warnings**
-| “RTSP.h” must be included to use the class function.
+**Parameters**
+~~~~~~~~~~~~~~
 
-RTSP::printInfo
-===============
+NA
 
-| **Description**
-| Print out current configuration of RTSP.
+**Returns**
+~~~~~~~~~~~
 
-| **Syntax**
-| void printInfo(void);
+NA
 
-| **Parameters**
-| NA
+**Example Code**
+~~~~~~~~~~~~~~~~
 
-| **Returns**
-| NA
+NA
 
-| **Example Code**
-| VideoOnly
+.. note :: “RTSP.h” must be included to use the class function.
 
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino)
+**RTSP::getPort**
+-----------------
 
-| **Notes and Warnings**
-| “RTSP.h” must be included to use the class function.
+**Description**
+~~~~~~~~~~~~~~~
+
+Get RTSP stream network port.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    int getPort(void);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+NA
+
+**Returns**
+~~~~~~~~~~~
+
+This function returns the port number as an integer.
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
+
+.. note :: “RTSP.h” must be included to use the class function.
+
+**RTSP::printInfo**
+-------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+Print out current configuration of RTSP.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    void printInfo(void);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+NA
+
+**Returns**
+~~~~~~~~~~~
+
+NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+Example: `StreamRTSP/VideoOnly <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
+
+.. note :: “RTSP.h” must be included to use the class function.

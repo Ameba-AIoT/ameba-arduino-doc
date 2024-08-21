@@ -1,1798 +1,1339 @@
-CameraSetting Class
-===================
+Class VideoStream
+=================
 
-Description
------------
+.. contents::
+  :local:
+  :depth: 2
+
+**CameraSetting Class**
+-----------------------
+
+**Description**
+~~~~~~~~~~~~~~~
 
 A class used to configure parameters for the camera sensor.
 
-Syntax
-------
+**Syntax**
+~~~~~~~~~~
 
-class CameraSetting
+.. code-block:: c++
 
-Members
--------
+    class CameraSetting
 
-+----------------------------+-----------------------------------------+
-|  Public                    |                                         |
-|    Constructors            |                                         |
-|                            |                                         |
-| :name: public-constructors |                                         |
-+============================+=========================================+
-| Ca                         | Constructs a CameraSetting object and   |
-| meraSetting::CameraSetting | set the parameters needed for camera    |
-|                            | sensor.                                 |
-+----------------------------+-----------------------------------------+
+**Members**
+~~~~~~~~~~~
 
-**Public Methods**
++---------------------------------+----------------------------------------+
+| **Public Constructors**                                                  |
++=================================+========================================+
+| CameraSetting::CameraSetting    | Constructs a CameraSetting object and  |
+|                                 | set the parameters needed for camera   |
+|                                 | sensor.                                |
++---------------------------------+----------------------------------------+
+| **Public Methods**                                                       |
++---------------------------------+----------------------------------------+
+| CameraSetting::setBrightness    | Set the brightness value of the image. |
++---------------------------------+----------------------------------------+
+| CameraSetting::getBrightness    | Get the current brightness value.      |
++---------------------------------+----------------------------------------+
+| CameraSetting::setContrast      | Set the contrast value of the image.   |
++---------------------------------+----------------------------------------+
+| CameraSetting::getContrast      | Get the current contrast value.        |
++---------------------------------+----------------------------------------+
+| CameraSetting::setSaturation    | Set the saturation value of the image. |
++---------------------------------+----------------------------------------+
+| CameraSetting::getSaturation    | Get the current saturation value.      |
++---------------------------------+----------------------------------------+
+| CameraSetting::setSharpness     | Set the sharpness value of the image.  |
++---------------------------------+----------------------------------------+
+| CameraSetting::getSharpness     | Get the current sharpness value.       |
++---------------------------------+----------------------------------------+
+| CameraSetting::setLDC           | Enable or Disable Lens Distortion      |
+|                                 | Correction (LDC).                      |
++---------------------------------+----------------------------------------+
+| CameraSetting::getLDC           | Get the current LDC value.             |
++---------------------------------+----------------------------------------+
+| CameraSetting::setWDR           | Enable or Disable WDR mode.            |
++---------------------------------+----------------------------------------+
+| CameraSetting::getWDR           | Get current WDR mode.                  |
++---------------------------------+----------------------------------------+
+| CameraSetting::setWDRLevel      | Set WDR level.                         |
++---------------------------------+----------------------------------------+
+| CameraSetting::getWDRLevel      | Get current WDR level.                 |
++---------------------------------+----------------------------------------+
+| CameraSetting::setExposureMode  | Set Exposure mode in Auto or Manual    |
+|                                 | mode.                                  |
++---------------------------------+----------------------------------------+
+| CameraSetting::getExposureMode  | Get current exposure mode.             |
++---------------------------------+----------------------------------------+
+| CameraSetting::setExposureTime  | Set exposure time.                     |
++---------------------------------+----------------------------------------+
+| CameraSetting::getExposureTime  | Get current exposure time.             |
++---------------------------------+----------------------------------------+
+| CameraSetting::setAEGain        | Set exposure gain value.               |
++---------------------------------+----------------------------------------+
+| CameraSetting::getAEGain        | Get current exposure gain value.       |
++---------------------------------+----------------------------------------+
+| CameraSetting::setPowerLineFreq | Enable or Disable Power Line Frequency |
+|                                 | (Anti-flicker mode).                   |
++---------------------------------+----------------------------------------+
+| CameraSetting::getPowerLineFreq | Get current Power Line Frequency.      |
++---------------------------------+----------------------------------------+
+| CameraSetting::setAWB           | Set White Balance mode in Auto or      |
+|                                 | Manual mode.                           |
++---------------------------------+----------------------------------------+
+| CameraSetting::getAWB           | Get current White Balance mode.        |
++---------------------------------+----------------------------------------+
+| CameraSetting::getWBTemp        | Get current White Balance Temperature. |
++---------------------------------+----------------------------------------+
+| CameraSetting::setRedBalance    | Set red balance value.                 |
++---------------------------------+----------------------------------------+
+| CameraSetting::getRedBalance    | Get red balance value.                 |
++---------------------------------+----------------------------------------+
+| CameraSetting::setBlueBalance   | Set blue balance value.                |
++---------------------------------+----------------------------------------+
+| CameraSetting::getBlueBalance   | Get blue balance value.                |
++---------------------------------+----------------------------------------+
+| CameraSetting::setGrayMode      | Set Gray mode.                         |
++---------------------------------+----------------------------------------+
+| CameraSetting::getGrayMode      | Get current mode, gray or color.       |
++---------------------------------+----------------------------------------+
+| CameraSetting::setDayNightMode  | Set Day or Night mode.                 |
++---------------------------------+----------------------------------------+
+| CameraSetting::getDayNightMode  | Get current mode, day, or night.       |
++---------------------------------+----------------------------------------+
+| CameraSetting::reset            | Reset all the values to default value. |
++---------------------------------+----------------------------------------+
 
-+-------------------------------+--------------------------------------+
-| CameraSetting::setBrightness  | Set the brightness value of the      |
-|                               | image.                               |
-+===============================+======================================+
-| CameraSetting::getBrightness  | Get the current brightness value.    |
-+-------------------------------+--------------------------------------+
-| CameraSetting::setContrast    | Set the contrast value of the image. |
-+-------------------------------+--------------------------------------+
-| CameraSetting::getContrast    | Get the current contrast value.      |
-+-------------------------------+--------------------------------------+
-| CameraSetting::setSaturation  | Set the saturation value of the      |
-|                               | image.                               |
-+-------------------------------+--------------------------------------+
-| CameraSetting::getSaturation  | Get the current saturation value.    |
-+-------------------------------+--------------------------------------+
-| CameraSetting::setSharpness   | Set the sharpness value of the       |
-|                               | image.                               |
-+-------------------------------+--------------------------------------+
-| CameraSetting::getSharpness   | Get the current sharpness value.     |
-+-------------------------------+--------------------------------------+
-| CameraSetting::setLDC         | Enable or Disable Lens Distortion    |
-|                               | Correction (LDC).                    |
-+-------------------------------+--------------------------------------+
-| CameraSetting::getLDC         | Get the current LDC value.           |
-+-------------------------------+--------------------------------------+
-| CameraSetting::setWDR         | Enable or Disable WDR mode.          |
-+-------------------------------+--------------------------------------+
-| CameraSetting::getWDR         | Get current WDR mode.                |
-+-------------------------------+--------------------------------------+
-| CameraSetting::setWDRLevel    | Set WDR level.                       |
-+-------------------------------+--------------------------------------+
-| CameraSetting::getWDRLevel    | Get current WDR level.               |
-+-------------------------------+--------------------------------------+
-| C                             | Set Exposure mode in Auto or Manual  |
-| ameraSetting::setExposureMode | mode.                                |
-+-------------------------------+--------------------------------------+
-| C                             | Get current exposure mode.           |
-| ameraSetting::getExposureMode |                                      |
-+-------------------------------+--------------------------------------+
-| C                             | Set exposure time.                   |
-| ameraSetting::setExposureTime |                                      |
-+-------------------------------+--------------------------------------+
-| C                             | Get current exposure time.           |
-| ameraSetting::getExposureTime |                                      |
-+-------------------------------+--------------------------------------+
-| CameraSetting::setAEGain      | Set exposure gain value.             |
-+-------------------------------+--------------------------------------+
-| CameraSetting::getAEGain      | Get current exposure gain value.     |
-+-------------------------------+--------------------------------------+
-| Ca                            | Enable or Disable Power Line         |
-| meraSetting::setPowerLineFreq | Frequency (Anti-flicker mode).       |
-+-------------------------------+--------------------------------------+
-| Ca                            | Get current Power Line Frequency.    |
-| meraSetting::getPowerLineFreq |                                      |
-+-------------------------------+--------------------------------------+
-| CameraSetting::setAWB         | Set White Balance mode in Auto or    |
-|                               | Manual mode.                         |
-+-------------------------------+--------------------------------------+
-| CameraSetting::getAWB         | Get current White Balance mode.      |
-+-------------------------------+--------------------------------------+
-| CameraSetting::getWBTemp      | Get current White Balance            |
-|                               | Temperature.                         |
-+-------------------------------+--------------------------------------+
-| CameraSetting::setRedBalance  | Set red balance value.               |
-+-------------------------------+--------------------------------------+
-| CameraSetting::getRedBalance  | Get red balance value.               |
-+-------------------------------+--------------------------------------+
-| CameraSetting::setBlueBalance | Set blue balance value.              |
-+-------------------------------+--------------------------------------+
-| CameraSetting::getBlueBalance | Get blue balance value.              |
-+-------------------------------+--------------------------------------+
-| CameraSetting::setGrayMode    | Set Gray mode.                       |
-+-------------------------------+--------------------------------------+
-| CameraSetting::getGrayMode    | Get current mode, gray or color.     |
-+-------------------------------+--------------------------------------+
-| C                             | Set Day or Night mode.               |
-| ameraSetting::setDayNightMode |                                      |
-+-------------------------------+--------------------------------------+
-| C                             | Get current mode, day, or night.     |
-| ameraSetting::getDayNightMode |                                      |
-+-------------------------------+--------------------------------------+
-| CameraSetting::reset          | Reset all the values to default      |
-|                               | value.                               |
-+-------------------------------+--------------------------------------+
+**CameraSetting::setBrightness**
+--------------------------------
 
-+----------------------------+-----------------------------------------+
-+----------------------------+-----------------------------------------+
-
-CameraSetting::setBrightness 
-=============================
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Set the brightness value of the image.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void setBrightness (int value);
 
-void setBrightness (int value);
+**Parameters**
+~~~~~~~~~~~~~~
 
-Parameters
-----------
+value: Preferred brightness value.
 
-value: Preferred brightness value. Valid values range from -64 to 64.
-Default value: 0.
+- -64 to 64 (Default value is 0)
 
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
-Example Code
-------------
+**Example Code**
+~~~~~~~~~~~~~~~~
 
-ImageTuning
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino)
+Example: `ISPControl/ImageTuning <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
 
-Notes and Warnings
-------------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-“VideoStream.h” must be included to use the class function.
+**CameraSetting::getBrightness**
+--------------------------------
 
-CameraSetting::getBrightness
-============================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Get the current brightness value.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void setBrightness (void);
 
-void setBrightness (void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/ImageTuning <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-ImageTuning
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino)
+**CameraSetting::setContrast**
+------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::setContrast 
-===========================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Set the contrast value of the image.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void setContrast (int value);
 
-void setContrast (int value);
+**Parameters**
+~~~~~~~~~~~~~~
 
+value: Preferred contrast value.
 
+- 0 to 100 (Default value is 50)
 
-Parameters
-----------
-
-value: Preferred contrast value. Valid values range from 0 to 100.
-Default value: 50.
-
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/ImageTuning <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-ImageTuning
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino)
+**CameraSetting::getContrast**
+------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::getContrast 
-===========================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Get the current contrast value.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void getContrast (void);
 
-void getContrast (void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/ImageTuning <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-ImageTuning
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino)
+**CameraSetting::setSaturation**
+--------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::setSaturation
-============================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Set the saturation value of the image.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void setSaturation (int value);
 
-void setSaturation (int value);
+**Parameters**
+~~~~~~~~~~~~~~
 
+value: Preferred saturation value.
 
+- 0 to 100 (Default value is 50)
 
-Parameters
-----------
-
-value: Preferred saturation value. Valid values range from 0 to 100.
-Default value: 50.
-
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/ImageTuning <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-ImageTuning
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino)
+**CameraSetting::getSaturation**
+--------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::getSaturation 
-=============================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Get the current saturation value.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void getSaturation (void);
 
-void getSaturation (void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/ImageTuning <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-ImageTuning
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino)
+**CameraSetting::setSharpness**
+-------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::setSharpness 
-============================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Set the sharpness value of the image.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void setSharpness (int value);
 
-void setSharpness (int value);
+**Parameters**
+~~~~~~~~~~~~~~
 
+value: Preferred sharpness value.
 
+- 0 to 100 (Default value is 50)
 
-Parameters
-----------
-
-value: Preferred sharpness value. Valid values range from 0 to 100.
-Default value: 50.
-
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/ImageTuning <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-ImageTuning
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino)
+**CameraSetting::getSharpness**
+-------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::getSharpness 
-============================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Get the current sharpness value.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void getSharpness (void);
 
-void getSharpness (void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/ImageTuning <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-ImageTuning
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino)
+**CameraSetting::setLDC**
+-------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::setLDC 
-======================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Enable or Disable Lens Distortion Correction (LDC).
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void setLDC (int enable);
 
-void setLDC (int enable);
+**Parameters**
+~~~~~~~~~~~~~~
 
+enable: Enable or Disable LDC.
 
+- 0 (Disabled. Default value)
 
-Parameters
-----------
+- 1 (Enabled)
 
-enable: Enable or Disable LDC. Valid values: 0 (Disabled) and
-1(Enabled). Default value: 0 (Disabled).
-
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/ImageTuning <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-ImageTuning
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino)
+**CameraSetting::getLDC**
+-------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::getLDC 
-======================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Get the current LDC value.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void getLDC (void);
 
-void getLDC (void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/ImageTuning <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-ImageTuning
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino)
+**CameraSetting::setWDR**
+-------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::setWDR 
-======================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Enable or Disable WDR mode.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void setWDR (int enable);
 
-void setWDR (int enable);
+**Parameters**
+~~~~~~~~~~~~~~
 
+enable: Preferred WDR mode. If WDR mode is enabled, Manual or Auto mode can be chosen. 
 
+- 0 (Disabled. Default value)
 
-Parameters
-----------
+- 1 (Manual)
 
-enable: Preferred WDR mode. If WDR mode is enabled, Manual or Auto mode
-can be chosen. Valid values: 0 (Disabled), 1 (Manual) and 2 (Auto).
-Default value: 0 (Disabled).
+- 2 (Auto)
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/WideDynamicRange <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WideDynamicRange/WideDynamicRange.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-WideDynamicRange
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WideDynamicRange/WideDynamicRange.ino)
+**CameraSetting::getWDR**
+-------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::getWDR 
-======================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Get current WDR mode.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void getWDR (void);
 
-void getWDR (void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/WideDynamicRange <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WideDynamicRange/WideDynamicRange.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-WideDynamicRange
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WideDynamicRange/WideDynamicRange.ino)
+**CameraSetting::setWDRLevel**
+------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::setWDRLevel 
-===========================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Set WDR level.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void setWDRLevel (int value);
 
-void setWDRLevel (int value);
+**Parameters**
+~~~~~~~~~~~~~~
 
+value: Preferred WDR level.
 
+- 50 - 100 (Default value is 50)
 
-Parameters
-----------
-
-value: Preferred WDR level. Valid values range from 50 -100. Default
-value: 50.
-
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/WideDynamicRange <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WideDynamicRange/WideDynamicRange.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function. WDR level can only be modified, and changes can be seen on image if WDR mode is set to manual mode before calling setWDRLevel() function.
 
-WideDynamicRange
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WideDynamicRange/WideDynamicRange.ino)
+**CameraSetting::getWDRLevel**
+------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-WDR level can only be modified, and changes can be seen on image if WDR
-mode is set to manual mode before calling setWDRLevel() function.
-
-CameraSetting::getWDRLevel
-==========================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Get current WDR level.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void getWDRLevel (void);
 
-void getWDRLevel (void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/WideDynamicRange <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WideDynamicRange/WideDynamicRange.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-WideDynamicRange
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WideDynamicRange/WideDynamicRange.ino)
+**CameraSetting::setExposureMode**
+----------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::setExposureMode
-==============================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Set Exposure mode in Auto or Manual mode.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void setExposureMode (int enable);
 
-void setExposureMode (int enable);
+**Parameters**
+~~~~~~~~~~~~~~
 
+enable: Enable exposure mode in Manual or Auto mode.
 
+- 0 (Manual)
 
-Parameters
-----------
+- 1 (Auto. Default value)
 
-enable: Enable exposure mode in Manual or Auto mode. Valid values: 0
-(Manual), 1 (Auto). Default value: 1 (Auto).
-
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/Exposure <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-Exposure
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino)
+**CameraSetting::getExposureMode**
+----------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::getExposureMode
-==============================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Get current exposure mode.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void getExposureMode (void);
 
-void getExposureMode (void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/Exposure <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-Exposure
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino)
+**CameraSetting::setExposureTime**
+----------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::setExposureTime
-==============================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Set exposure time.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void setExposureTime (int time);
 
-void setExposureTime (int time);
+**Parameters**
+~~~~~~~~~~~~~~
 
+time: Preferred exposure time in us.
 
+- time <= 33333
 
-Parameters
-----------
-
-time: Preferred exposure time. Valid value must be less than or equal to
-33333us.
-
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/Exposure <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-Exposure
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino)
+**CameraSetting::getExposureTime**
+----------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::getExposureTime
-==============================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Get current exposure time.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void getExposureTime (void);
 
-void getExposureTime (void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/Exposure <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-Exposure
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino)
+**CameraSetting::setAEGain**
+----------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::setAEGain
-========================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Set exposure gain value.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void setAEGain (int value);
 
-void setAEGain (int value);
+**Parameters**
+~~~~~~~~~~~~~~
 
+value: Preferred exposure gain.
 
+- 256 to 32768
 
-Parameters
-----------
-
-value: Preferred exposure gain. Valid values between 256 to 32768.
-
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/Exposure <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function. AE gain can only be modified, and changes can be seen on image if Exposure mode is set to manual mode before calling setAEGain() function.
 
-Exposure
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino)
+**CameraSetting::getAEGain**
+----------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-AE gain can only be modified, and changes can be seen on image if
-Exposure mode is set to manual mode before calling setAEGain() function.
-
-CameraSetting::getAEGain 
-=========================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Get current exposure gain value.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void getAEGain (void);
 
-void getAEGain (void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/Exposure <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-Exposure
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino)
+**CameraSetting::setPowerLineFreq**
+-----------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::setPowerLineFreq 
-================================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Enable or Disable Power Line Frequency (Anti-flicker mode).
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void setPowerLineFreq (int enable);
 
-void setPowerLineFreq (int enable);
+**Parameters**
+~~~~~~~~~~~~~~
 
+enable: Enable or disable power line frequency. If power line frequency is enabled, power line frequency can be set as auto or choose from different frequencies (50Hz, 60Hz).
 
+- 0 (Disable)
 
-Parameters
-----------
+- 1 (50Hz)
 
-enable: Enable or disable power line frequency. If power line frequency
-is enabled, power line frequency can be set as auto or choose from
-different frequencies (50Hz, 60Hz). Valid values: 0 (Disable), 1 (50Hz),
-2: (60Hz), 3 (Auto). Default value: 3 (Auto).
+- 2 (60Hz)
 
+- 3 (Auto. Default value)
 
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/Exposure <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-Exposure
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino)
+**CameraSetting::getPowerLineFreq**
+-----------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::getPowerLineFreq 
-================================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Get current Power Line Frequency.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void getPowerLineFreq (void);
 
-void getPowerLineFreq (void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/Exposure <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-Exposure
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino)
+**CameraSetting::setAWB**
+-------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::setAWB 
-======================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Set White Balance mode in Auto or Manual mode.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void setAWB (int enable);
 
-void setAWB (int enable);
+**Parameters**
+~~~~~~~~~~~~~~
 
+enable: Enable white balance mode in Manual or Auto mode.
 
+- 0 (Manual Temperature)
 
-Parameters
-----------
+- 1 (Auto. Default value)
 
-enable: Enable white balance mode in Manual or Auto mode. Valid value: 0
-(Manual Temperature), 1 (Auto). Default value: 1 (Auto).
-
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/WhiteBalance <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-WhiteBalance
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino)
+**CameraSetting::getAWB**
+-------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::getAWB 
-======================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Get current White Balance mode.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void getAWB (void);
 
-void getAWB (void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/WhiteBalance <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-WhiteBalance
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino)
+**CameraSetting::getWBTemp**
+----------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::getWBTemp 
-=========================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Get current White Balance Temperature.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void getWBTemp (void);
 
-void getWBTemp (void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/WhiteBalance <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-WhiteBalance
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino)
+**CameraSetting::setRedBalance**
+--------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::setRedBalance 
-=============================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Set red balance value.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void setRedBalance (int value);
 
-void setRedBalance (int value);
+**Parameters**
+~~~~~~~~~~~~~~
 
+value: Preferred red balance value based on 256.
 
+- 256 to 2047
 
-Parameters
-----------
-
-value: Preferred red balance value based on 256. Valid value ranges from
-256 to 2047.
-
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/WhiteBalance <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function. Red Balance value can only be modified, and changes can be seen on image if white balance mode is set to manual mode before calling setRedBalance() function.
 
-WhiteBalance
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino)
+**CameraSetting::getRedBalance**
+--------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-Red Balance value can only be modified, and changes can be seen on image
-if white balance mode is set to manual mode before calling setRedBalance
-() function.
-
-CameraSetting::getRedBalance
-============================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Get current red balance value.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void getRedBalance (void);
 
-void getRedBalance (void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/WhiteBalance <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-WhiteBalance
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino)
+**CameraSetting::setBlueBalance**
+---------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::setBlueBalance 
-==============================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Set blue balance value.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void setBlueBalance (int value);
 
-void setBlueBalance (int value);
+**Parameters**
+~~~~~~~~~~~~~~
 
+value: Preferred blue balance value based on 256.
 
+- 256 to 2047
 
-Parameters
-----------
-
-value: Preferred blue balance value based on 256. Valid value ranges
-from 256 to 2047.
-
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/WhiteBalance <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function. Blue Balance value can only be modified, and changes can be seen on image if white balance mode is set to manual mode before calling setBlueBalance() function.
 
-WhiteBalance
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino)
+**CameraSetting::getBlueBalance**
+---------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-Blue Balance value can only be modified, and changes can be seen on
-image if white balance mode is set to manual mode before calling
-setBlueBalance() function.
-
-CameraSetting::getBlueBalance 
-==============================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Get current blue balance value.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void getBlueBalance (void);
 
-void getBlueBalance (void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/WhiteBalance <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-WhiteBalance
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino)
+**CameraSetting::setGrayMode**
+------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::setGrayMode 
-===========================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Set Gray mode.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void setGrayMode (int enable);
 
-void setGrayMode (int enable);
+**Parameters**
+~~~~~~~~~~~~~~
 
+enable: Enable gray mode.
 
+- 0 (Color mode. Default value)
 
-Parameters
-----------
+- 1 (Gray mode)
 
-enable: Enable gray mode. Valid value: 0 (Color mode), 1 (Gray mode).
-Default value: 0 (Color mode).
-
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/Mode <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Mode/Mode.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-Mode
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Mode/Mode.ino)
+**CameraSetting::getGrayMode**
+------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::getGrayMode 
-===========================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Get current mode, gray or color.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void getGrayMode (void);
 
-void getGrayMode (void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/Mode <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Mode/Mode.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-Mode
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Mode/Mode.ino)
+**CameraSetting::setDayNightMode**
+----------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::setDayNightMode 
-===============================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Set Day or Night mode.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void setDayNightMode (int enable);
 
-void setDayNightMode (int enable);
+**Parameters**
+~~~~~~~~~~~~~~
 
+enable: Enable day or night mode.
 
+- 0 (Day mode. Default value)
 
-Parameters
-----------
+- 1 (Night mode)
 
-enable: Enable day or night mode. Valid value: 0 (Day mode), 1 (Night
-mode). Default value: 0 (Day mode).
-
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/Mode <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Mode/Mode.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-Mode
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Mode/Mode.ino)
+**CameraSetting::getDayNightMode**
+----------------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::getDayNightMode 
-===============================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Get current mode, day or night.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void getDayNightMode (void);
 
-void getDayNightMode (void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/Mode <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Mode/Mode.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-Mode
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Mode/Mode.ino)
+**CameraSetting::reset**
+------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-CameraSetting::reset 
-=====================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Reset all the values to default value.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void reset (void);
 
-void reset (void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `ISPControl/Mode <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Mode/Mode.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-Mode
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Mode/Mode.ino)
+VideoSetting Class**
+----------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-VideoSetting Class
-==================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 A class used to configure parameters for video streams.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    class VideoSetting
 
-class VideoSetting
+**Members**
+~~~~~~~~~~~
 
++------------------------------+-----------------------------------------+
+| **Public Constructors**                                                |
++------------------------------+-----------------------------------------+
+| VideoSetting::VideoSetting   | Constructs a VideoSetting object and    |
+|                              | set the parameters needed for video     |
+|                              | streams.                                |
++------------------------------+-----------------------------------------+
+| **Public Methods**                                                     |
++------------------------------+-----------------------------------------+
+| VideoSetting::setBitrate     | Configure bitrate for H264 and H265     |
+|                              | video encoder.                          |
++------------------------------+-----------------------------------------+
+| VideoSetting::setJpegQuality | Configure quality level for JPEG        |
+|                              | snapshots.                              |
++------------------------------+-----------------------------------------+
+| VideoSetting::setRotation    | Configure orientation for H264, H265    |
+|                              | video and JPEG encoders.                |
++------------------------------+-----------------------------------------+
+| VideoSetting::width          | Get current configured video stream     |
+|                              | width.                                  |
++------------------------------+-----------------------------------------+
+| VideoSetting::height         | Get current configured video stream     |
+|                              | height.                                 |
++------------------------------+-----------------------------------------+
+| VideoSetting::fps            | Get current configured video stream fps |
+|                              | (frame per second).                     |
++------------------------------+-----------------------------------------+
 
+**VideoSetting::VideoSetting**
+------------------------------
 
-Members
--------
+**Description**
+~~~~~~~~~~~~~~~
 
-**Public Constructors**
+Constructs a VideoSetting object and sets the parameters needed for video streams, such as resolution, frame rate per second (fps), bit rate per second (bps), encoder type.
 
-+----------------------------+-----------------------------------------+
-| VideoSetting::VideoSetting | Constructs a VideoSetting object and    |
-|                            | set the parameters needed for video     |
-|                            | streams.                                |
-+============================+=========================================+
-+----------------------------+-----------------------------------------+
+**Syntax**
+~~~~~~~~~~
 
-**Public Methods**
+.. code-block:: c++
 
-+----------------------------+-----------------------------------------+
-| VideoSetting::setBitrate   | Configure bitrate for H264 and H265     |
-|                            | video encoder.                          |
-+============================+=========================================+
-| Vi                         | Configure quality level for JPEG        |
-| deoSetting::setJpegQuality | snapshots.                              |
-+----------------------------+-----------------------------------------+
-| VideoSetting::setRotation  | Configure orientation for H264, H265    |
-|                            | video and JPEG encoders.                |
-+----------------------------+-----------------------------------------+
-| VideoSetting::width        | Get current configured video stream     |
-|                            | width.                                  |
-+----------------------------+-----------------------------------------+
-| VideoSetting::height       | Get current configured video stream     |
-|                            | height.                                 |
-+----------------------------+-----------------------------------------+
-| VideoSetting::fps          | Get current configured video stream fps |
-|                            | (frame per second).                     |
-+----------------------------+-----------------------------------------+
+    VideoSetting(uint8_t preset);
+    VideoSetting(uint8_t resolution, uint8_t fps, uint8_t encoder, uint8_t snapshot);
+    VideoSetting(uint16_t w, uint16_t h, uint8_t fps, uint8_t encoder, uint8_t snapshot);
 
-VideoSetting::VideoSetting 
-===========================
+**Parameters**
+~~~~~~~~~~~~~~
 
+preset: Select one out of 3 preset video stream settings.
 
+- 0 (Default value)
 
-Description
------------
+- 1
 
-Constructs a VideoSetting object and sets the parameters needed for
-video streams, such as resolution, frame rate per second (fps), bit rate
-per second (bps), encoder type.
+- 2
 
+resolution: Video resolution.
 
+- VIDEO_HD
 
-Syntax
-------
-
-VideoSetting(uint8_t preset);
-
-VideoSetting(uint8_t resolution, uint8_t fps, uint8_t encoder, uint8_t
-snapshot);
-
-VideoSetting(uint16_t w, uint16_t h, uint8_t fps, uint8_t encoder,
-uint8_t snapshot);
-
-
-
-Parameters
-----------
-
-preset: Select one out of 3 preset video stream settings. Default
-preset: 0.
-
-resolution: Video resolution (Valid value: VIDEO_HD, VIDEO_FHD)
+- VIDEO_FHD
 
 fps: Frame rate in frames per second.
 
-encoder: Video encoder format to use. (Valid value: VIDEO_HEVC,
-VIDEO_H264, VIDEO_JPEG)
+encoder: Video encoder format to use.
+
+- VIDEO_HEVC
+
+- VIDEO_H264
+
+- VIDEO_JPEG
 
 snapshot: Enable or disable snapshot function.
 
@@ -1800,385 +1341,271 @@ w: Width in pixels.
 
 h: Height in pixels.
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `StreamRTSP/VideoOnly <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
 
-Example Code
-------------
+.. note ::
 
-VideoOnly
+    “VideoStream.h” must be included to use the class function.
 
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino)
+    Preset configurations:
 
+    **Preset 0:**
+    resolution: VIDEO_FHD
+    fps: 30
+    bps: 2 * 1024 * 1024
+    encoder: VIDEO_H264
+    snapshot: 0
 
+    **Preset 1:**
+    resolution: VIDEO_HD
+    fps: 30
+    bps: 2 * 1024 * 1024
+    encoder: VIDEO_H264
+    snapshot: 0
 
-Notes and Warnings
-------------------
+    **Preset 2:**
+    resolution: VIDEO_FHD
+    fps: 30
+    bps: 2 * 1024 * 1024
+    encoder: VIDEO_JPEG
+    snapshot: 0
 
-“VideoStream.h” must be included to use the class function.
+**VideoSetting::setBitrate**
+----------------------------
 
-Preset configurations:
-
-**Preset 0:**
-
-resolution: VIDEO_FHD
-
-fps: 30
-
-bps: 2*1024*1024
-
-encoder: VIDEO_H264
-
-snapshot: 0
-
-**Preset 1:**
-
-resolution: VIDEO_HD
-
-fps: 30
-
-bps: 2*1024*1024
-
-encoder: VIDEO_H264
-
-snapshot: 0
-
-**Preset 2:**
-
-resolution: VIDEO_FHD
-
-fps: 30
-
-bps: 2*1024*1024
-
-encoder: VIDEO_JPEG
-
-snapshot: 0
-
-VideoSetting::setBitrate
-========================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Configure bitrate for H264 and H265 video encoder.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void setBitrate(uint32_t bitrate);
 
-void setBitrate(uint32_t bitrate);
+**Parameters**
+~~~~~~~~~~~~~~
 
+bitrate: desired video encoder bitrate. Values range from 1Mbps (1024 * 1024) to 50Mbps (50 * 1024 * 1024).
 
+- 1 to 50 (Default value is 4Mbps)
 
-Parameters
-----------
-
-bitrate: desired video encoder bitrate. Valid values range from 1Mbps
-(1024 \* 1024) to 50Mbps (50 \* 1024 \* 1024). Default value of 4Mbps.
-
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `StreamRTSP/VideoOnly <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function. The default value of 4Mbps is a suitable balance of video quality and file size. For RTSP streaming, it is recommended that the bitrate is lowered to 2Mbps to account for possible network congestion.
 
-VideoOnly
+**VideoSetting::setJpegQuality**
+--------------------------------
 
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino)
-
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function. The default
-value of 4Mbps is a suitable balance of video quality and file size. For
-RTSP streaming, it is recommended that the bitrate is lowered to 2Mbps
-to account for possible network congestion.
-
-VideoSetting::setJpegQuality
-============================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Configure quality level for JPEG snapshots.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void setJpegQuality(uint8_t quality);
 
-void setJpegQuality(uint8_t quality);
+**Parameters**
+~~~~~~~~~~~~~~
 
+quality: desired JPEG image quality level. 
 
+- 1 to 9 (Worst to best. Default value is 5)
 
-Parameters
-----------
-
-quality: desired JPEG image quality level. Valid values range from 1
-(worst) to 9 (best). Default value of 5.
-
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
-
-
-Example Code
-------------
+**Example Code**
+~~~~~~~~~~~~~~~~
 
 NA
 
+.. note :: “VideoStream.h” must be included to use the class function. A lower quality results in a reduced file size, while a quality level of 9 may result in large file sizes without a significant improvements in image quality.
 
+**VideoSetting::setRotation**
+-----------------------------
 
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function. A lower
-quality results in a reduced file size, while a quality level of 9 may
-result in large file sizes without a significant improvements in image
-quality.
-
-VideoSetting::setRotation
-=========================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Configure orientation for H264, H265 video and JPEG encoders.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void setRotation(int angle);
 
-void setRotation(int angle);
+**Parameters**
+~~~~~~~~~~~~~~
 
+angle: desired rotation angle represented by numerical values.
 
+- 0 (No rotation. Default value)
 
-Parameters
-----------
+- 1 (90 degree to right)
 
-angle: desired rotation angle represented by numerical values. Valid
-values: 0, 1, 2, 3. Default value of 0.
+- 2 (90 degree to left)
 
-0: No rotation
+- 3 (180 degree)
 
-1: 90 degree to right
-
-2. 90 degree to left
-
-3: 180 degree
-
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
-
-
-Example Code
-------------
+**Example Code**
+~~~~~~~~~~~~~~~~
 
 NA
 
+.. note :: “VideoStream.h” must be included to use the class function.
 
+**VideoSetting::width**
+-----------------------
 
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-VideoSetting::width
-===================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Get current configured video stream width.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    uint16_t width(void);
 
-uint16_t width(void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 This function returns the current configured video stream width.
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-LoopPostProcessing
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino
+**VideoSetting::height**
+------------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-VideoSetting::height
-====================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Get current configured video stream height.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    uint16_t height(void);
 
-uint16_t height(void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 This function returns the current configured video stream height.
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-LoopPostProcessing
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino
+**VideoSetting::fps**
+---------------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-VideoSetting::fps
-=================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Get current configured video stream fps (frame per second).
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    uint16_t fps(void);
 
-uint16_t fps(void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 This function returns the current configured video stream fps.
 
-
-
-Example Code
-------------
+**Example Code**
+~~~~~~~~~~~~~~~~
 
 NA
 
+.. note :: “VideoStream.h” must be included to use the class function.
 
+**Video Class**
+---------------
 
-Notes and Warnings
-------------------
+**Description**
+~~~~~~~~~~~~~~~
 
-“VideoStream.h” must be included to use the class function.
+A class used to configure and initialize the camera to generate video data streams.
 
-Video Class
-===========
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
+    class Video
 
-Description
------------
+**Members**
+~~~~~~~~~~~
 
-A class used to configure and initialize the camera to generate video
-data streams.
-
-
-
-Syntax
-------
-
-class Video
-
-**Public Constructors**
-
++----------------------------+-----------------------------------------+
+| **Public Constructors**                                              |
 +----------------------------+-----------------------------------------+
 | Video::Video               | Construct a Video object.               |
-+============================+=========================================+
 +----------------------------+-----------------------------------------+
-
-**Public Methods**
-
+| **Public Methods**                                                   |
 +----------------------------+-----------------------------------------+
 | Video::configVideoChannel  | Configure video stream channel.         |
 +----------------------------+-----------------------------------------+
@@ -2210,404 +1637,287 @@ class Video
 |                            | video channels.                         |
 +----------------------------+-----------------------------------------+
 
-Video::configVideoChannel
-=========================
+**Video::configVideoChannel**
+-----------------------------
 
+**Description**
+~~~~~~~~~~~~~~~
 
+Configure video stream channel parameters using VideoSetting class object.
 
-Description
------------
+**Syntax**
+~~~~~~~~~~
 
-Configure video stream channel parameters using VideoSetting class object. 
----------------------------------------------------------------------------
+.. code-block:: c++
 
+    void configVideoChannel(int ch, VideoSetting& config);
 
+**Parameters**
+~~~~~~~~~~~~~~
 
-Syntax
-------
+ch: Channel to configure.
 
-void configVideoChannel(int ch, VideoSetting& config);
+- 0
 
+- 1
 
+- 2
 
-Parameters
-----------
+config: VideoSetting object.
 
-ch: Channel to configure (Valid value: 0,1,2)
-
-config: VideoSetting object
-
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `StreamRTSP/VideoOnly <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-VideoOnly
-
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino)
-
-
-
-Notes and Warnings
+**Video::camInit**
 ------------------
 
-“VideoStream.h” must be included to use the class function.
-
-Video::camInit
-==============
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Initialize camera sensor using configuration from CameraSetting object.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void cameraInit(CameraSetting& config);
 
-void cameraInit(CameraSetting& config);
+**Parameters**
+~~~~~~~~~~~~~~
 
+config: CameraSetting object.
 
-
-Parameters
-----------
-
-config: CameraSetting object
-
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
-
-
-Example Code
-------------
+**Example Code**
+~~~~~~~~~~~~~~~~
 
 NA
 
+.. note :: “VideoStream.h” must be included to use the class function.
 
+**Video::camDeinit**
+--------------------
 
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-Video::camDeinit
-================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Deinitialize camera sensor.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void cameraDeinit(void);
 
-void cameraDeinit(void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
-
-
-Example Code
-------------
+**Example Code**
+~~~~~~~~~~~~~~~~
 
 NA
 
+.. note :: “VideoStream.h” must be included to use the class function.
 
+**Video::videoInit**
+--------------------
 
-Notes and Warnings
-------------------
+**Description**
+~~~~~~~~~~~~~~~
 
-“VideoStream.h” must be included to use the class function.
+Initialization of video streams from camera using existing configurations.
 
-Video::videoInit
-================
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
+    void videoInit(void);
 
-Description
------------
-
-Initialization of video streams from camera using existing
-configurations.
-
-
-
-Syntax
-------
-
-void videoInit(void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `StreamRTSP/VideoOnly <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-VideoOnly
+**Video::videoDeinit**
+----------------------
 
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino)
-
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-Video::videoDeinit
-==================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Deinitialization of all video streams.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void videoDeinit(void);
 
-void videoDeinit(void);
+**Parameters**
+~~~~~~~~~~~~~~
+
+NA
+
+**Returns**
+~~~~~~~~~~~
+
+NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
+
+.. note :: “VideoStream.h” must be included to use the class function.
+
+**Video::channelBegin**
 -----------------------
 
-
-
-Parameters
-----------
-
-NA
-
-
-
-Returns
--------
-
-NA
-
-
-
-Example Code
-------------
-
-NA
-
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-Video::channelBegin
-===================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Start video streaming on a specific channel.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void channelBegin(int ch);
 
-void channelBegin(int ch);
-
-
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 ch: channel to start streaming. Default channel is 0.
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `StreamRTSP/VideoOnly <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-VideoOnly
+**Video::channelEnd**
+---------------------
 
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino)
-
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-Video::channelEnd
-=================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Stop video streaming on a specific channel.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void channelEnd(int ch);
 
-void channelEnd(int ch);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 ch: channel to stop streaming. Default channel is 0.
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
-
-
-Example Code
-------------
+**Example Code**
+~~~~~~~~~~~~~~~~
 
 NA
 
+.. note :: “VideoStream.h” must be included to use the class function.
 
+**Video::getStream**
+--------------------
 
-Notes and Warnings
-------------------
+**Description**
+~~~~~~~~~~~~~~~
 
-“VideoStream.h” must be included to use the class function.
+Get video data stream to provide as an input for other data stream consumers.
 
-Video::getStream
-================
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
+    MMFModule getStream(int ch);
 
-Description
------------
-
-Get video data stream to provide as an input for other data stream
-consumers.
-
-
-
-Syntax
-------
-
-MMFModule getStream(int ch);
-----------------------------
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 ch: channel to get data stream of. Default channel is 0.
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 This function returns the video data stream.
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `StreamRTSP/VideoOnly <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-VideoOnly
+**Video::getImage**
+-------------------
 
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino)
-
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-Video::getImage
-===============
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Take a snapshot.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void getImage(int ch, uint32_t* addr, uint32_t* len);
 
-void getImage(int ch, uint32_t\* addr, uint32_t\* len);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 ch: Video stream channel to take a snapshot from.
 
@@ -2615,116 +1925,78 @@ addr: A pointer to a 32-bit unsigned integer to store the image address.
 
 len: A pointer to a 32-bit unsigned integer to store the image length.
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `CaptureJPEG/HTTPDisplayJPEG <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/CaptureJPEG/HTTPDisplayJPEG/HTTPDisplayJPEG.ino>`_
 
-Example Code
-------------
+.. note :: “VideoStream.h” must be included to use the class function.
 
-HTTPDisplayJPEG
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/CaptureJPEG/HTTPDisplayJPEG/HTTPDisplayJPEG.ino
+**Video::setFPS**
+-----------------
 
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-Video::setFPS 
-==============
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Set camera video max FPS.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void setFPS(int fps);
 
-void setFPS(int fps);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 fps: max frame rate in frames per second for camera.
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
-
-
-Example Code
-------------
+**Example Code**
+~~~~~~~~~~~~~~~~
 
 NA
 
+.. note :: “VideoStream.h” must be included to use the class function.
 
+**Video::printInfo**
+--------------------
 
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
-
-Video::printInfo
-================
-
-
-
-Description
------------
+**Description**
+~~~~~~~~~~~~~~~
 
 Print out current configuration of video channels.
 
+**Syntax**
+~~~~~~~~~~
 
+.. code-block:: c++
 
-Syntax
-------
+    void printInfo(void);
 
-void printInfo(void);
-
-
-
-Parameters
-----------
+**Parameters**
+~~~~~~~~~~~~~~
 
 NA
 
-
-
-Returns
--------
+**Returns**
+~~~~~~~~~~~
 
 NA
 
+**Example Code**
+~~~~~~~~~~~~~~~~
 
+Example: `StreamRTSP/VideoOnly <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
 
-Example Code
-------------
-
-VideoOnly
-
-(https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino)
-
-
-
-Notes and Warnings
-------------------
-
-“VideoStream.h” must be included to use the class function.
+.. note :: “VideoStream.h” must be included to use the class function.
