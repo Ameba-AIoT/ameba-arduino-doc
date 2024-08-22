@@ -1245,7 +1245,7 @@ Example: `ISPControl/Mode <https://github.com/ambiot/ambpro2_arduino/blob/dev/Ar
 
 .. note :: “VideoStream.h” must be included to use the class function.
 
-VideoSetting Class**
+**VideoSetting Class**
 ----------------------
 
 **Description**

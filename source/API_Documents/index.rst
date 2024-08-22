@@ -5,5 +5,8 @@ API Documents
    :maxdepth: 2
 
    Analog/index
+   FlashMemory/index
    Multimedia/index
    NTPClient/index
+   USB/index
+   Watchdog/index
