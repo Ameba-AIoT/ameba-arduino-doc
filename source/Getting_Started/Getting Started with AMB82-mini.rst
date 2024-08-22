@@ -10,7 +10,7 @@ Introduction
 
 Ameba is an easy-to-program platform for developing all kinds of IoT applications. AMB82 MINI is equipped with various peripheral interfaces, including WiFi, BLE, GPIO INT, I2C, UART, SPI, PWM, ADC. Through these interfaces, AMB82 MINI can connect with electronic components such as LED, switches, manometer, hygrometer, PM2.5 dust sensors, …etc. Besides, AMB82 MINI has 3 key features, Audio codec, Video codec and NN (build in NPU for AIoT). The collected data can be uploaded via WiFi and be utilized by applications on smart devices to realize IoT implementation.
 
-AMB82 mini is connected to the open-source world by one of the widest development environments, Arduino. For more information, HDK, SDK, API documents, Example Guides and so on, refer to [Ameba Arduino SDK page](https://www.amebaiot.com/en/ameba-arduino-summary/).
+AMB82 mini is connected to the open-source world by one of the widest development environments, Arduino. For more information, HDK, SDK, API documents, Example Guides and so on, refer to `Ameba Arduino SDK page <https://www.amebaiot.com/en/ameba-arduino-summary/>`_
 
 |image01|
 
@@ -226,28 +226,28 @@ Video Tutorials and Demos
 
 YouTube Channel:
 
-- AMB82 Mini: Start Here!: https://youtube.com/playlist?list=PLEQfNjOZQRyP1dyegDVYqgw53_AORspMK&feature=shared
+- `AMB82 Mini: Start Here! <https://youtube.com/playlist?list=PLEQfNjOZQRyP1dyegDVYqgw53_AORspMK&feature=shared>`_
 
-- AMB82 Mini Tutorials: https://youtube.com/playlist?list=PLEQfNjOZQRyPnmXCuRqE1f5au2HT4E9CP&feature=shared
+- `AMB82 Mini Tutorials <https://youtube.com/playlist?list=PLEQfNjOZQRyPnmXCuRqE1f5au2HT4E9CP&feature=shared>`_
 
-- AMB82 Mini 教程: https://youtube.com/playlist?list=PLEQfNjOZQRyOxXFV7X_2fIcnd_J6VBmyM&feature=shared
+- `AMB82 Mini 教程 <https://youtube.com/playlist?list=PLEQfNjOZQRyOxXFV7X_2fIcnd_J6VBmyM&feature=shared>`_
 
-- AMB82 mini Maker Projects: https://youtube.com/playlist?list=PLEQfNjOZQRyPWhySw16ZgBOPWnzLWDAjz&feature=shared
+- `AMB82 mini Maker Projects <https://youtube.com/playlist?list=PLEQfNjOZQRyPWhySw16ZgBOPWnzLWDAjz&feature=shared>`_
 
-BiliBili Channel: https://space.bilibili.com/457777430
+- `BiliBili Channel <https://space.bilibili.com/457777430>`_
 
 Useful Links
 ------------
 
-Ameba Arduino SDK page: https://www.amebaiot.com/en/ameba-arduino-summary/
+- `Ameba Arduino SDK page <https://www.amebaiot.com/en/ameba-arduino-summary/>`_
 
-Forum: https://forum.amebaiot.com/
+- `Forum <https://forum.amebaiot.com/>`_
 
-FAQ: https://forum.amebaiot.com/t/welcome-to-ameba-faq/1748
+- `FAQ <https://forum.amebaiot.com/t/welcome-to-ameba-faq/1748>`_
 
-Facebook Group Chinese: https://www.facebook.com/groups/AmebaIoT
+- `Facebook Group Chinese <https://www.facebook.com/groups/AmebaIoT>`_
 
-Facebook Group English: https://www.facebook.com/groups/amebaioten
+- `Facebook Group English <https://www.facebook.com/groups/amebaioten>`_
 
 
 .. |image01| image:: ../_static/Getting_Started/Getting_Started_with_AMB82-mini/image01.png
@@ -257,7 +257,7 @@ Facebook Group English: https://www.facebook.com/groups/amebaioten
 .. |image02| image:: ../_static/Getting_Started/Getting_Started_with_AMB82-mini/image02.png
    :width:  4765 px
    :height:  1498 px
-   :scale: 20%
+   :scale: 10%
 .. |image03| image:: ../_static/Getting_Started/Getting_Started_with_AMB82-mini/image03.png
    :width:  687 px
    :height:  671 px
@@ -292,7 +292,6 @@ Facebook Group English: https://www.facebook.com/groups/amebaioten
 .. |image13| image:: ../_static/Getting_Started/Getting_Started_with_AMB82-mini/image13.png
    :width:  854 px
    :height:  367 px
-   :scale: 80%
 .. |image14| image:: ../_static/Getting_Started/Getting_Started_with_AMB82-mini/image14.png
    :width:  403 px
    :height:  666 px

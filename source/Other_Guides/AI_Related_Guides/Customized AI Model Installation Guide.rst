@@ -96,6 +96,7 @@ You can change to your preferred .nb file names in SD_Model.cpp by navigating to
 
 |image05|
 
+
 .. |image01| image:: ../../_static/Other_Guides/AI_Related_Guides/Customized_AI_Model_Installation_Guide/image01.png
    :width:  719 px
    :height:  553 px
@@ -106,11 +107,9 @@ You can change to your preferred .nb file names in SD_Model.cpp by navigating to
 .. |image03| image:: ../../_static/Other_Guides/AI_Related_Guides/Customized_AI_Model_Installation_Guide/image03.png
    :width:  858 px
    :height:  545 px
-   :scale: 80%
 .. |image04| image:: ../../_static/Other_Guides/AI_Related_Guides/Customized_AI_Model_Installation_Guide/image04.png
    :width:  858 px
    :height:  943 px
-   :scale: 80%
 .. |image05| image:: ../../_static/Other_Guides/AI_Related_Guides/Customized_AI_Model_Installation_Guide/image05.png
    :width:  478 px
    :height:  583 px

@@ -10,13 +10,19 @@ Welcome to AmebaPro2 Arduino Documentation!
    :caption: Documentation list
    :maxdepth: 2
 
-   API_Documents/index
    Getting_Started/index
+   Example_Guides/index
+   API_Documents/index
 
 .. toctree::
    :maxdepth: 3
 
    Other_Guides/index
+
+SDK Source Code
+================
+
+* `ambpro2_arduino <https://github.com/ambiot/ambpro2_arduino>`_
 
 Indices and tables
 ==================
