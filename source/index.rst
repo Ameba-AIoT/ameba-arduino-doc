@@ -20,9 +20,16 @@ Welcome to AmebaPro2 Arduino Documentation!
    Other_Guides/index
 
 SDK Source Code
-================
+===============
 
 * `ambpro2_arduino <https://github.com/ambiot/ambpro2_arduino>`_
+
+FAQ and Forum
+=============
+
+* `Ameba IoT FAQ <https://forum.amebaiot.com/c/faq/48>`_
+
+* `Ameba IoT Forum <https://forum.amebaiot.com/>`_
 
 Indices and tables
 ==================

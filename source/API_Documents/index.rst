@@ -10,3 +10,4 @@ API Documents
    NTPClient/index
    USB/index
    Watchdog/index
+   Wire/index
