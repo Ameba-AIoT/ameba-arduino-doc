@@ -6,5 +6,6 @@ Example Guides
 
    Basic/index
    Flash Memory/index
+   OTA/index
    USB/index
    Watchdog/index
