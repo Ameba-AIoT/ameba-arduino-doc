@@ -149,8 +149,8 @@ A class used to configure, run, and retrieve results of an audio classification 
 | NNAudioClassification::getResult            | Get audio classification results           |
 +---------------------------------------------+--------------------------------------------+
 
-NNAudioClassification::configAudio
-----------------------------------
+**NNAudioClassification::configAudio**
+--------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -181,8 +181,8 @@ Example: `AudioClassification <https://github.com/ambiot/ambpro2_arduino/blob/de
 
 .. note :: “NNAudioClassification.h” must be included to use the class function.
 
-NNAudioClassification::begin
-----------------------------
+**NNAudioClassification::begin**
+--------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -212,8 +212,8 @@ Example: `AudioClassification <https://github.com/ambiot/ambpro2_arduino/blob/de
 
 .. note :: “NNAudioClassification.h” must be included to use the class function.
 
-NNAudioClassification::end
---------------------------
+**NNAudioClassification::end**
+------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -243,8 +243,8 @@ NA
 
 .. note :: “NNAudioClassification.h” must be included to use the class function.
 
-NNAudioClassification::setResultCallback
-----------------------------------------
+**NNAudioClassification::setResultCallback**
+--------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -274,8 +274,8 @@ Example: `AudioClassification <https://github.com/ambiot/ambpro2_arduino/blob/de
 
 .. note :: “NNAudioClassification.h” must be included to use the class function. The callback function will be called with the latest results once per iteration.
 
-NNAudioClassification::getResultCount
--------------------------------------
+**NNAudioClassification::getResultCount**
+-----------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -305,8 +305,8 @@ Example: `AudioClassification <https://github.com/ambiot/ambpro2_arduino/blob/de
 
 .. note :: “NNAudioClassification.h” must be included to use the class function.
 
-NNAudioClassification::getResult
---------------------------------
+**NNAudioClassification::getResult**
+------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~

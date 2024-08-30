@@ -46,8 +46,8 @@ A class used to represent and retrieve data related to objects recognized by an 
 | ObjectDetectionResult::yMax   | Get y coordinate of the bottom right corner of the bounding box containing the recognized object.  |
 +-------------------------------+----------------------------------------------------------------------------------------------------+
 
-ObjectDetectionResult::type
----------------------------
+**ObjectDetectionResult::type**
+-------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -77,8 +77,8 @@ Example: `ObjectDetectionCallback <https://github.com/ambiot/ambpro2_arduino/blo
 
 .. note :: “NNObjectDetection.h” must be included to use the class function. Object categories can be obtained from the “ObjectClassList.h” file (https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/ObjectDetectionCallback/ObjectClassList.h).
 
-ObjectDetectionResult::name
----------------------------
+**ObjectDetectionResult::name**
+-------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -108,8 +108,8 @@ Example: `ObjectDetectionCallback <https://github.com/ambiot/ambpro2_arduino/blo
 
 .. note :: “NNObjectDetection.h” must be included to use the class function. Object categories can be obtained from the “ObjectClassList.h” file (https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/ObjectDetectionCallback/ObjectClassList.h).
 
-ObjectDetectionResult::score
-----------------------------
+**ObjectDetectionResult::score**
+--------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -139,8 +139,8 @@ Example: `ObjectDetectionCallback <https://github.com/ambiot/ambpro2_arduino/blo
 
 .. note :: “NNObjectDetection.h” must be included to use the class function. 
 
-ObjectDetectionResult::xMin
----------------------------
+**ObjectDetectionResult::xMin**
+-------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -170,8 +170,8 @@ Example: `ObjectDetectionCallback <https://github.com/ambiot/ambpro2_arduino/blo
 
 .. note :: “NNObjectDetection.h” must be included to use the class function. Object categories can be obtained from the “ObjectClassList.h” file (https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/ObjectDetectionCallback/ObjectClassList.h).
 
-ObjectDetectionResult::xMax
----------------------------
+**ObjectDetectionResult::xMax**
+-------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -201,8 +201,8 @@ Example: `ObjectDetectionCallback <https://github.com/ambiot/ambpro2_arduino/blo
 
 .. note :: “NNObjectDetection.h” must be included to use the class function. Object categories can be obtained from the “ObjectClassList.h” file (https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/ObjectDetectionCallback/ObjectClassList.h).
 
-ObjectDetectionResult::yMin
----------------------------
+**ObjectDetectionResult::yMin**
+-------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -232,8 +232,8 @@ Example: `ObjectDetectionCallback <https://github.com/ambiot/ambpro2_arduino/blo
 
 .. note :: “NNObjectDetection.h” must be included to use the class function. Object categories can be obtained from the “ObjectClassList.h” file (https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/ObjectDetectionCallback/ObjectClassList.h).
 
-ObjectDetectionResult::yMax
----------------------------
+**ObjectDetectionResult::yMax**
+-------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -306,8 +306,8 @@ A class used to configure, run, and retrieve results of an object detection neur
 | NNObjectDetection::getResult                  | Get object detection results.                                      |
 +-----------------------------------------------+--------------------------------------------------------------------+
 
-NNObjectDetection::configVideo
-------------------------------
+**NNObjectDetection::configVideo**
+----------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -337,8 +337,8 @@ Example: `ObjectDetectionCallback <https://github.com/ambiot/ambpro2_arduino/blo
 
 .. note :: “NNObjectDetection.h” must be included to use the class function. The object detection model requires that the input video stream uses the RGB format, which is only available on video stream channel 3. The input video stream needs to be configured before object detection can begin.
 
-NNObjectDetection::configRegionOfInterest
------------------------------------------
+**NNObjectDetection::configRegionOfInterest**
+---------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -371,8 +371,8 @@ Example: `ObjectDetectionCallback <https://github.com/ambiot/ambpro2_arduino/blo
 
 .. note :: “NNObjectDetection.h” must be included to use the class function.
 
-NNObjectDetection::configThreshold
-----------------------------------
+**NNObjectDetection::configThreshold**
+--------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -403,8 +403,8 @@ NA
 
 .. note :: “NNObjectDetection.h” must be included to use the class function.
 
-NNObjectDetection::begin
-------------------------
+**NNObjectDetection::begin**
+----------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -434,8 +434,8 @@ Example: `ObjectDetectionCallback <https://github.com/ambiot/ambpro2_arduino/blo
 
 .. note :: “NNObjectDetection.h” must be included to use the class function.
 
-NNObjectDetection::end
------------------------------------------
+**NNObjectDetection::end**
+--------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -465,8 +465,8 @@ NA
 
 .. note :: “NNObjectDetection.h” must be included to use the class function.
 
-NNObjectDetection::setResultCallback
-------------------------------------
+**NNObjectDetection::setResultCallback**
+----------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -496,8 +496,8 @@ Example: `ObjectDetectionCallback <https://github.com/ambiot/ambpro2_arduino/blo
 
 .. note :: “NNObjectDetection.h” must be included to use the class function. The callback function will be called with the latest results once per iteration.
 
-NNObjectDetection::getResultCount
----------------------------------
+**NNObjectDetection::getResultCount**
+-------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -528,8 +528,8 @@ Example: `ObjectDetectionCallback <https://github.com/ambiot/ambpro2_arduino/blo
 .. note :: “NNObjectDetection.h” must be included to use the class function.
 
 
-NNObjectDetection::getResult
-----------------------------
+**NNObjectDetection::getResult**
+--------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~

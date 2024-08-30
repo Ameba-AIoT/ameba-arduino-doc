@@ -33,8 +33,8 @@ A class used to select Neural Network (NN) task and models.
 | NNModelSelection::modelSelect                  | Select NN task and models.                                        |
 +------------------------------------------------+-------------------------------------------------------------------+
 
-NNModelSelection::modelSelect
------------------------------
+**NNModelSelection::modelSelect**
+---------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~

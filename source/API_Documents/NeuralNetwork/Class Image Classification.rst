@@ -48,8 +48,8 @@ A class used to configure, run, and retrieve results of an image classification 
 | NNImageClassification::score                   | Get the probability of the class with the highest likelihood      |
 +------------------------------------------------+-------------------------------------------------------------------+
 
-NNImageClassification::configInputImageColor
---------------------------------------------
+**NNImageClassification::configInputImageColor**
+------------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -79,8 +79,8 @@ Example: `RTSPImageClassification <https://github.com/ambiot/ambpro2_arduino/blo
 
 .. note :: NNImageClassification.h” must be included to use the class function.
 
-NNImageClassification::configVideo
-----------------------------------
+**NNImageClassification::configVideo**
+--------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -110,8 +110,8 @@ Example: `RTSPImageClassification <https://github.com/ambiot/ambpro2_arduino/blo
 
 .. note :: NNImageClassification.h” must be included to use the class function.
 
-NNImageClassification::configRegionOfInterest
----------------------------------------------
+**NNImageClassification::configRegionOfInterest**
+-------------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -144,8 +144,8 @@ NA
 
 .. note :: NNImageClassification.h” must be included to use the class function.
 
-NNImageClassification::begin
-----------------------------
+**NNImageClassification::begin**
+--------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -175,8 +175,8 @@ Example: `RTSPImageClassification <https://github.com/ambiot/ambpro2_arduino/blo
 
 .. note :: NNImageClassification.h” must be included to use the class function.
 
-NNImageClassification::end
---------------------------
+**NNImageClassification::end**
+------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -206,8 +206,8 @@ NA
 
 .. note :: NNImageClassification.h” must be included to use the class function.
 
-NNImageClassification::setResultCallback
-----------------------------------------
+**NNImageClassification::setResultCallback**
+--------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -237,8 +237,8 @@ Example: `RTSPImageClassification <https://github.com/ambiot/ambpro2_arduino/blo
 
 .. note :: NNImageClassification.h” must be included to use the class function.
 
-NNImageClassification::classID
-------------------------------
+**NNImageClassification::classID**
+----------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -268,8 +268,8 @@ Example: `RTSPImageClassification <https://github.com/ambiot/ambpro2_arduino/blo
 
 .. note :: NNImageClassification.h” must be included to use the class function.
 
-NNImageClassification::score
-----------------------------
+**NNImageClassification::score**
+--------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~

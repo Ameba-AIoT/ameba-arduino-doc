@@ -359,8 +359,8 @@ A class used to configure, run, and retrieve results of a face detection neural 
 | NNFaceDetection::getResult                     | Get face detection results                                   |
 +------------------------------------------------+--------------------------------------------------------------+
 
-NNFaceDetection::configVideo
-----------------------------
+**NNFaceDetection::configVideo**
+--------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -390,8 +390,8 @@ Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/
 
 .. note :: “NNFaceDetection.h” must be included to use the class function.
 
-NNFaceDetection::configFaceRecogCascadedMode
---------------------------------------------
+**NNFaceDetection::configFaceRecogCascadedMode**
+------------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -421,8 +421,8 @@ Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/de
 
 .. note :: “NNFaceDetection.h” must be included to use the class function.
 
-NNFaceDetection::begin
-----------------------
+**NNFaceDetection::begin**
+--------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -452,8 +452,8 @@ Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/
 
 .. note :: “NNFaceDetection.h” must be included to use the class function.
 
-NNFaceDetection::end
---------------------
+**NNFaceDetection::end**
+------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -483,8 +483,8 @@ NA
 
 .. note :: “NNFaceDetection.h” must be included to use the class function.
 
-NNFaceDetection::setResultCallback
-----------------------------------
+**NNFaceDetection::setResultCallback**
+--------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -514,8 +514,8 @@ Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/
 
 .. note :: “NNFaceDetection.h” must be included to use the class function.
 
-NNFaceDetection::getResultCount
--------------------------------
+**NNFaceDetection::getResultCount**
+-----------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -545,8 +545,8 @@ Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/
 
 .. note :: “NNFaceDetection.h” must be included to use the class function.
 
-NNFaceDetection::getResult
---------------------------
+**NNFaceDetection::getResult**
+------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
