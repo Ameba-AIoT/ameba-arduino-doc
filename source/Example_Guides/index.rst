@@ -9,5 +9,6 @@ Example Guides
    Multimedia/index
    QR Code Scanner/index
    Neural Network/index
+   OTA/index
    USB/index
    Watchdog/index
