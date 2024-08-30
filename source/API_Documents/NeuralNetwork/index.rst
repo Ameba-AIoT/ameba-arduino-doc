@@ -8,5 +8,5 @@ NeuralNetwork
    Class FaceDetection
    Class FaceDetectionRecognition
    Class Image Classification
-   Class ModelSelection
+   Class NNModelSelection
    Class ObjectDetection
