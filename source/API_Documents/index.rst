@@ -11,4 +11,5 @@ API Documents
    NTPClient/index
    USB/index
    Watchdog/index
+   WiFi/index
    Wire/index

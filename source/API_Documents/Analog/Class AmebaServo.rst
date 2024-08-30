@@ -77,13 +77,13 @@ max: Maximum pulse width to be set for PWM. Default value is 2400us.
 
 **Returns**
 ~~~~~~~~~~~
+
 0
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 Example: `ServoSweep <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Analog/examples/ServoSweep/ServoSweep.ino>`_
-
 
 The code demonstrates a servo motor sweeping from 0 - 180 - 0 degrees, in 1-degree intervals.
 
@@ -150,6 +150,7 @@ NA
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
+
 Example: `ServoSweep <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Analog/examples/ServoSweep/ServoSweep.ino>`_
 
 .. note :: “AmebaServo.h” must be included to use the class function.
