@@ -1,9 +1,10 @@
 E-Paper
-=========
+=======
 
 .. toctree::
    :maxdepth: 1
 
+   7.5-inch e-Book with MicroSD card
    Display Images
    Display Text
-   7.5-inch e-Book with MicroSD card
+   Display User-generated QR code
