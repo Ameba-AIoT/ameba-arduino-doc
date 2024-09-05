@@ -5,6 +5,7 @@ Example Guides
    :maxdepth: 2
 
    Basic/index
+   E-Paper/index
    Flash Memory/index
    GPIO/index
    GTimer/index
