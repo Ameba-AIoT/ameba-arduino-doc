@@ -83,30 +83,30 @@ Code Reference
 | [4] A simple library for generating QR codes in C, optimized for processing and memory-constrained systems: 
 | https://github.com/ricmoo/QRCode#data-capacities
 
-.. |image01| image:: ../../_static/Example_Guides/E-paper/Display_User-generated_QR_code/image01.png 
+.. |image01| image:: ../../_static/Example_Guides/E-Paper/Display_User-generated_QR_code/image01.png 
    :width: 1006 px
    :height: 499 px
-.. |image02| image:: ../../_static/Example_Guides/E-paper/Display_User-generated_QR_code/image02.png
+.. |image02| image:: ../../_static/Example_Guides/E-Paper/Display_User-generated_QR_code/image02.png
    :width: 971 px
    :height: 443 px
-.. |image03| image:: ../../_static/Example_Guides/E-paper/Display_User-generated_QR_code/image03.png
+.. |image03| image:: ../../_static/Example_Guides/E-Paper/Display_User-generated_QR_code/image03.png
    :width: 955 px
    :height: 552 px
-.. |image04| image:: ../../_static/Example_Guides/E-paper/Display_User-generated_QR_code/image04.png
+.. |image04| image:: ../../_static/Example_Guides/E-Paper/Display_User-generated_QR_code/image04.png
    :width: 1015 px
    :height: 688 px
-.. |image05| image:: ../../_static/Example_Guides/E-paper/Display_User-generated_QR_code/image05.png
+.. |image05| image:: ../../_static/Example_Guides/E-Paper/Display_User-generated_QR_code/image05.png
    :width: 768 px
    :height: 832 px
-.. |image06| image:: ../../_static/Example_Guides/E-paper/Display_User-generated_QR_code/image06.png
+.. |image06| image:: ../../_static/Example_Guides/E-Paper/Display_User-generated_QR_code/image06.png
    :width: 738 px
    :height: 832 px
-.. |image07| image:: ../../_static/Example_Guides/E-paper/Display_User-generated_QR_code/image07.png
+.. |image07| image:: ../../_static/Example_Guides/E-Paper/Display_User-generated_QR_code/image07.png
    :width: 768 px
    :height: 832 px
-.. |image08| image:: ../../_static/Example_Guides/E-paper/Display_User-generated_QR_code/image08.png
+.. |image08| image:: ../../_static/Example_Guides/E-Paper/Display_User-generated_QR_code/image08.png
    :width: 738 px
    :height: 832 px
-.. |image09| image:: ../../_static/Example_Guides/E-paper/Display_User-generated_QR_code/image09.png
+.. |image09| image:: ../../_static/Example_Guides/E-Paper/Display_User-generated_QR_code/image09.png
    :width: 833 px
    :height: 625 px
