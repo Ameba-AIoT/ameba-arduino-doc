@@ -10,6 +10,8 @@ API Documents
    NeuralNetwork/index
    NTPClient/index
    OTA/index
+   PowerMode/index
+   RTC/index
    USB/index
    Watchdog/index
    WiFi/index
