@@ -8,14 +8,15 @@ Example Guides
    Flash Memory/index
    GPIO/index
    GTimer/index
+   HTTP/index
    MQTT/index
    Multimedia/index
-   QR Code Scanner/index
    Neural Network/index
    NTP/index
    OTA/index
    PowerMode/index
    PWM/index
+   QR Code Scanner/index
    RTC/index
    SPI/index
    USB/index

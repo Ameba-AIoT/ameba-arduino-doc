@@ -9,6 +9,7 @@ API Documents
    Multimedia/index
    NeuralNetwork/index
    NTPClient/index
+   OTA/index
    USB/index
    Watchdog/index
    WiFi/index
