@@ -15,6 +15,6 @@ AmebaPro2 Arduino Documentation
    Other_Guides/index
 
 SDK Source Code
-===============
+---------------
 
 * `ambpro2_arduino <https://github.com/ambiot/ambpro2_arduino>`_

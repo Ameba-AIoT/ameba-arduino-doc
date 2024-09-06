@@ -3,11 +3,10 @@ Welcome to Ameba Arduino Documentation!
 
 .. toctree::
    :caption: Board list
-   :maxdepth: 2
+   :maxdepth: 1
 
    amebapro2/index
    amebad/index
-
 
 FAQ and Forum
 =============

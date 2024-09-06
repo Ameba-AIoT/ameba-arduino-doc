@@ -8,6 +8,6 @@ AmebaD Arduino Documentation
    Example_Guides/index
 
 SDK Source Code
-===============
+---------------
 
 * `ambd_arduino <https://github.com/ambiot/ambd_arduino>`_
