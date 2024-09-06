@@ -39,7 +39,6 @@ Code Reference
 | https://www.arduino.cc/en/Reference/NoTone
 | In the sample code, we initiate a melody array, which stores the tones to make. Another array, noteDurations, contains the length of each tone, 4 represents quarter note (equals to 3000ms/4 = 750ms, and plus an extra 30% time pause), 8 represents eighth note.
 
-
 .. |image01| image:: ../../../_static/amebapro2/Example_Guides/PWM/Buzzer_Play_Melody/image01.png
    :width:  710 px
    :height:  184 px

@@ -59,7 +59,6 @@ On top of that, when there’s motion detected, the green LED will light up and 
 
 |image10|
 
-
 .. |image01| image:: ../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_Masking_with_MP4_Recording/image01.png
    :width:  782 px
    :height: 549 px

@@ -29,7 +29,6 @@ A class used to contain audio configuration parameters for the audio codec.
 | AudioSetting::AudioSetting | Constructs an AudioSetting object.      |
 +----------------------------+-----------------------------------------+
 
-
 **Audio Class**
 ---------------
 

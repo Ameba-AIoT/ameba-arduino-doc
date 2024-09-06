@@ -164,7 +164,6 @@ boards connect to MQTT broker before the MQTT Explorer.
 
 |image13|
 
-
 .. |image01| image:: ../../../_static/amebapro2/Example_Guides/MQTT/Set_up_Client/image01.png
    :width:  940 px
    :height:  617 px

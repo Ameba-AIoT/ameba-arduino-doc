@@ -527,7 +527,6 @@ Example: `ObjectDetectionCallback <https://github.com/ambiot/ambpro2_arduino/blo
 
 .. note :: “NNObjectDetection.h” must be included to use the class function.
 
-
 **NNObjectDetection::getResult**
 --------------------------------
 

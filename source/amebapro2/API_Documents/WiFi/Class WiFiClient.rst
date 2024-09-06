@@ -84,7 +84,6 @@ A class of WiFi Client implementation for Ameba.
 |                              |                                       |
 +------------------------------+---------------------------------------+
 
-
 **WiFiClient::WiFiClient**
 --------------------------
 
@@ -118,7 +117,6 @@ NA
 Example: `WiFiWebClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiWebClient/WiFiWebClient.ino>`_
 
 .. note :: “WiFiClient.h” must be included to use the class function.
-
 
 **WiFiClient::connect**
 -----------------------
@@ -157,7 +155,6 @@ Example: `WiFiWebClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino
 
 .. note :: “WiFiClient.h” must be included to use the class function.
 
-
 **WiFiClient::write**
 ---------------------
 
@@ -194,7 +191,6 @@ NA
 
 .. note :: “WiFiClient.h” must be included to use the class function.
 
-
 **WiFiClient::available**
 -------------------------
 
@@ -227,7 +223,6 @@ there are available data, else returns 0.
 Example: `WiFiWebClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiWebClient/WiFiWebClient.ino>`_
 
 .. note :: “WiFiClient.h” must be included to use the class function.
-
 
 **WiFiClient::read**
 --------------------
@@ -298,7 +293,6 @@ Example: `WiFiWebClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino
 
 .. note :: “WiFiClient.h” must be included to use the class function.
 
-
 **WiFiClient::peek**
 --------------------
 
@@ -363,7 +357,6 @@ NA
 
 .. note :: “WiFiClient.h” must be included to use the class function.
 
-
 **WiFiClient::stop**
 --------------------
 
@@ -427,7 +420,6 @@ This function returns “1” if connected, returns “0” if not connected.
 Example: `WiFiWebClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiWebClient/WiFiWebClient.ino>`_
 
 .. note :: “WiFiClient.h” must be included to use the class function.
-
 
 **WiFiClient::setRecvTimeout**
 ------------------------------

@@ -56,7 +56,6 @@ A class used to represent and retrieve data related to faces detected by a face 
 
 Get name of detected result.
 
-
 **Syntax**
 ~~~~~~~~~~
 
@@ -111,9 +110,7 @@ An integer ranging from 0 to 100 representing the confidence of the detected fac
 
 Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
 
-
 .. note :: “NNFaceDetection.h” must be included to use the class function.
-
 
 **FaceDetectionResult::xMin**
 -----------------------------
@@ -144,7 +141,6 @@ A float ranging from 0.00 to 1.00, with 0.00 indicating the left edge of the inp
 ~~~~~~~~~~~~~~~~
 
 Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
-
 
 .. note :: “NNFaceDetection.h” must be included to use the class function.
 
@@ -178,7 +174,6 @@ A float ranging from 0.00 to 1.00, with 0.00 indicating the left edge of the inp
 
 Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
 
-
 .. note :: “NNFaceDetection.h” must be included to use the class function.
 
 **FaceDetectionResult::yMin**
@@ -211,7 +206,6 @@ A float ranging from 0.00 to 1.00, with 0.00 indicating the top edge of the inpu
 
 Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
 
-
 .. note :: “NNFaceDetection.h” must be included to use the class function.
 
 **FaceDetectionResult::yMax**
@@ -243,7 +237,6 @@ A float ranging from 0.00 to 1.00, with 0.00 indicating the top edge of the inpu
 ~~~~~~~~~~~~~~~~
 
 Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
-
 
 .. note :: “NNFaceDetection.h” must be included to use the class function.
 

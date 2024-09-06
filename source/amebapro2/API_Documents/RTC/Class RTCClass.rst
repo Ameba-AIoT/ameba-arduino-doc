@@ -52,7 +52,6 @@ Class RTC
 | RTCClass::DisableAlarm            | Disable the RTC alarm.            |
 +-----------------------------------+-----------------------------------+
 
-
 **RTCClass::Init**
 ------------------
 

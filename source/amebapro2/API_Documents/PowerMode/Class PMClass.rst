@@ -5,7 +5,6 @@ Class PMClass
   :local:
   :depth: 2
 
-
 **PMClass Class**
 -----------------
 
@@ -38,7 +37,6 @@ A class used for PowerMode control.
 +-----------------------------------+-----------------------------------+
 | PMClass::start                    | Start the PowerMode of device.    |
 +-----------------------------------+-----------------------------------+
-
 
 **PMClass::begin**
 ~~~~~~~~~~~~~~~~~~

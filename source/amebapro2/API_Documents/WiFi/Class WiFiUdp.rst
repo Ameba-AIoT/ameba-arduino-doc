@@ -74,7 +74,6 @@ A class used for managing WiFi UDP implementation for Ameba.
 | WiFiUDP::setRecvTimeout             | Set receiving timeout                         |
 +-------------------------------------+-----------------------------------------------+
 
-
 **WiFiUDP::WiFiUDP**
 --------------------
 
@@ -105,11 +104,9 @@ NA
 
 Example: `WiFiUdpSendReceiveString <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiUdpSendReceiveString/WiFiUdpSendReceiveString.ino>`_
 
-
 .. note :: This constructor does not take in any parameter, thus use another
   method to set up the IP address and port number. “WiFiUdp.h” must be
   included to use the class function.
-
 
 **WiFiUDP::begin**
 ------------------
@@ -142,9 +139,7 @@ sockets available to use.
 
 Example: `WiFiUdpSendReceiveString <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiUdpSendReceiveString/WiFiUdpSendReceiveString.ino>`_
 
-
 .. note :: “WiFiUdp.h” must be included to use the class function.
-
 
 **WiFiUDP::stop**
 -----------------
@@ -177,7 +172,6 @@ NA
 NA
 
 .. note :: “WiFiUdp.h” must be included to use the class function.
-
 
 **WiFiUDP::beginPacket**
 ------------------------
@@ -216,9 +210,7 @@ problem with the given IP address or port.
 
 Example: `WiFiUdpSendReceiveString <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiUdpSendReceiveString/WiFiUdpSendReceiveString.ino>`_
 
-
 .. note :: “WiFiUdp.h” must be included to use the class function.
-
 
 **WiFiUDP::endPacket**
 -----------------------
@@ -251,9 +243,7 @@ This function returns “1” if packet was sent successfully, else returns
 
 Example: `WiFiUdpSendReceiveString <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiUdpSendReceiveString/WiFiUdpSendReceiveString.ino>`_
 
-
 .. note :: “WiFiUdp.h” must be included to use the class function.
-
 
 **WiFiUDP::write**
 ------------------
@@ -294,7 +284,6 @@ Example: `WiFiUdpSendReceiveString <https://github.com/ambiot/ambd_arduino/blob/
   endPacket() is called. “WiFiUdp.h” must be included to use the class
   function.
 
-
 **WiFiUDP::writeImmediately**
 -----------------------------
 
@@ -329,7 +318,6 @@ NA
 
 .. note :: “WiFiUdp.h” must be included to use the class function.
 
-
 **WiFiUDP::parsePacket**
 ------------------------
 
@@ -362,7 +350,6 @@ packet, will return "0” if WiFiUDP.parsePacket() hasn't been called yet.
 Example: `WiFiUdpSendReceiveString <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiUdpSendReceiveString/WiFiUdpSendReceiveString.ino>`_
 
 .. note :: “WiFiUdp.h” must be included to use the class function.
-
 
 **WiFiUDP::available**
 -----------------------
@@ -400,7 +387,6 @@ NA
   WiFiUDP.parsePacket(). “WiFiUdp.h” must be included to use the class
   function.
 
-
 **WiFiUDP::read**
 -----------------
 
@@ -435,11 +421,9 @@ This function returns the size of the buffer or returns -1 if no buffer is avail
 
 Example: `WiFiUdpSendReceiveString <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiUdpSendReceiveString/WiFiUdpSendReceiveString.ino>`_
 
-
 .. note :: This function can only be successfully called after
   WiFiUDP.parsePacket(). “WiFiUdp.h” must be included to use the class
   function.
-
 
 **WiFiUDP::peek**
 -----------------
@@ -505,7 +489,6 @@ NA
 
 .. note :: “WiFiUdp.h” must be included to use the class function.
 
-
 **WiFiUDP::remoteIP**
 ---------------------
 
@@ -538,7 +521,6 @@ Example: `WiFiUdpSendReceiveString <https://github.com/ambiot/ambd_arduino/blob/
 
 .. note :: This function must be called after WiFiUDP.parsePacket(). “WiFiUdp.h” must be included to use the class function.
 
-
 **WiFiUDP::remotePort**
 -----------------------
 
@@ -570,7 +552,6 @@ This function returns the port of the remote connection.
 Example: `WiFiUdpSendReceiveString <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiUdpSendReceiveString/WiFiUdpSendReceiveString.ino>`_
 
 .. note :: This function must be called after WiFiUDP.parsePacket(). “WiFiUdp.h” must be included to use the class function.
-
 
 **WiFiUDP::setRecvTimeout**
 ---------------------------

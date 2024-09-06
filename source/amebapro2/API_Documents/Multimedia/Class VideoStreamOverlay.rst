@@ -520,7 +520,6 @@ NA
 
 Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
 
-
 .. note :: VideoStreamOverlay::update() needs to be called for drawings to be shown on the video streams. “VideoStreamOverlay.h” must be included to use the class function.
 
 **VideoStreamOverlay::drawRect**

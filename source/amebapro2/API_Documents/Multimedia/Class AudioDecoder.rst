@@ -134,7 +134,6 @@ NA
 
 .. note :: “AudioDecoder.h” must be included to use the class function.
 
-
 **G711D Class**
 ---------------
 

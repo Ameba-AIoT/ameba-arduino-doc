@@ -168,7 +168,6 @@ Thread 1: For the purpose of connectivity check, the OTA state is sent to the se
       Serial.println("[OTA] Failed to create keep-alive connectivity thread.");
   }
 
-
 Thread 2: To listen for the OTA begin signal from server, once “start_ota” signal is received, AMB82 Mini will request for the firmware to be downloaded via OTA.
 
 .. code-block:: c++

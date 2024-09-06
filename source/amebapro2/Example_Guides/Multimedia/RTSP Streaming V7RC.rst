@@ -58,30 +58,30 @@ Code Reference
 | VideoSetting config(VIDEO_HD, CAM_FPS, VIDEO_H264, 0); // 1280x720
 | VideoSetting config(VIDEO_D1, CAM_FPS, VIDEO_H264, 0); // 720x480
 
-.. |image01| image:: ../../_static/Example_Guides/Multimedia/RTSP_Streaming_V7RC/image01.png
+.. |image01| image:: ../../../_static/amebapro2/Example_Guides/Multimedia/RTSP_Streaming_V7RC/image01.png
    :width:  613 px
    :height: 521 px
 
-.. |image02| image:: ../../_static/Example_Guides/Multimedia/RTSP_Streaming_V7RC/image02.png
+.. |image02| image:: ../../../_static/amebapro2/Example_Guides/Multimedia/RTSP_Streaming_V7RC/image02.png
    :width:  820 px
    :height: 116 px
 
-.. |image03| image:: ../../_static/Example_Guides/Multimedia/RTSP_Streaming_V7RC/image03.png
+.. |image03| image:: ../../../_static/amebapro2/Example_Guides/Multimedia/RTSP_Streaming_V7RC/image03.png
    :width:  562 px
    :height: 357 px
 
-.. |image04| image:: ../../_static/Example_Guides/Multimedia/RTSP_Streaming_V7RC/image04.png
+.. |image04| image:: ../../../_static/amebapro2/Example_Guides/Multimedia/RTSP_Streaming_V7RC/image04.png
    :width:  1218 px
    :height:  563 px
 
-.. |image05| image:: ../../_static/Example_Guides/Multimedia/RTSP_Streaming_V7RC/image05.png
+.. |image05| image:: ../../../_static/amebapro2/Example_Guides/Multimedia/RTSP_Streaming_V7RC/image05.png
    :width:  1218 px
    :height:  563 px
 
-.. |image06| image:: ../../_static/Example_Guides/Multimedia/RTSP_Streaming_V7RC/image06.png
+.. |image06| image:: ../../../_static/amebapro2/Example_Guides/Multimedia/RTSP_Streaming_V7RC/image06.png
    :width:  1218 px
    :height:  563 px
 
-.. |image07| image:: ../../_static/Example_Guides/Multimedia/RTSP_Streaming_V7RC/image07.png
+.. |image07| image:: ../../../_static/amebapro2/Example_Guides/Multimedia/RTSP_Streaming_V7RC/image07.png
    :width:  1218 px
    :height:  563 px

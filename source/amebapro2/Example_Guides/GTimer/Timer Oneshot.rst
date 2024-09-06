@@ -17,7 +17,6 @@ In this example, we will use 4 One-Time GTimer, and pass user data to each timer
 
 Open the example “File” -> “Examples” -> “AmebaGTimer” -> “TimerOneshot”. Compile and upload to Ameba, and press reset. Then you can see the 4 timer log printed to the serial monitor in series.
 
-
 Code Reference
 --------------
 

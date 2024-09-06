@@ -58,7 +58,6 @@ A class for Wi-Fi Secure Socket Layer Client implementation for Ameba.
 | WiFiSSLClient::setPreSharedKey        | Set the Pre Shared Key (PSK) to use for authentication.              |
 +---------------------------------------+----------------------------------------------------------------------+
 
-
 **WiFiSSLClient::WiFiSSLClient**
 --------------------------------
 
@@ -92,7 +91,6 @@ NA
 Example: `WiFiSSLClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiSSLClient/WiFiSSLClient.ino>`_
 
 .. note :: “WiFiSSLClient.h” must be included to use the class function.
-
 
 **WiFiSSLClient::connect**
 --------------------------
@@ -187,7 +185,6 @@ NA
 
 .. note :: “WiFiSSLClient.h” must be included to use the class function.
 
-
 **WiFiSSLClient::available**
 ----------------------------
 
@@ -218,7 +215,6 @@ This function returns “1” and number of bytes available for reading if there
 Example: `WiFiSSLClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiSSLClient/WiFiSSLClient.ino>`_
 
 .. note :: “WiFiSSLClient.h” must be included to use the class function.
-
 
 **WiFiSSLClient::read**
 -----------------------
@@ -256,7 +252,6 @@ Example: `WiFiSSLClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino
 
 .. note :: “WiFiSSLClient.h” must be included to use the class function.
 
-
 **WiFiSSLClient::peek**
 -----------------------
 
@@ -289,7 +284,6 @@ NA
 
 .. note :: “WiFiSSLClient.h” must be included to use the class function.
 
-
 **WiFiSSLClient::flush**
 ------------------------
 
@@ -319,9 +313,7 @@ NA
 ~~~~~~~~~~~~~~~~
 NA
 
-
 .. note :: “WiFiSSLClient.h” must be included to use the class function.
-
 
 **WiFiSSLClient::stop**
 -----------------------
@@ -355,7 +347,6 @@ Example: `WiFiSSLClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino
 
 .. note :: “WiFiSSLClient.h” must be included to use the class function.
 
-
 **WiFiSSLClient::connected**
 ----------------------------
 
@@ -386,7 +377,6 @@ The function returns “1” if the SSLClient socket is connected, else returns 
 Example: `WiFiSSLClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiSSLClient/WiFiSSLClient.ino>`_
 
 .. note :: “WiFiSSLClient.h” must be included to use the class function.
-
 
 **WiFiSSLClient::setRootCA**
 ----------------------------
@@ -419,7 +409,6 @@ NA
 NA
 
 .. note :: “WiFiSSLClient.h” must be included to use the class function.
-
 
 **WiFiSSLClient::setClientCertificate**
 ---------------------------------------
@@ -454,7 +443,6 @@ NA
 
 .. note :: “WiFiSSLClient.h” must be included to use the class function.
 
-
 **WiFiSSLClient::setRecvTimeout**
 ---------------------------------
 
@@ -486,7 +474,6 @@ The function returns “0”.
 NA
 
 .. note :: “WiFiSSLClient.h” must be included to use the class function.
-
 
 **WiFiSSLClient::setPreSharedKey**
 ----------------------------------

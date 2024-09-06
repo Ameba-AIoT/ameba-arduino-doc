@@ -40,7 +40,6 @@ Code Reference
 --------------
 The code can be modified to use the G.711 audio codec (PCMU/PCMA) instead of the default AAC. The G.711 audio codec is optimized for human speech and can maintain the clarity and understandability of spoken speech while reducing the data bandwidth needed.
 
-
 .. |image01| image:: ../../../_static/amebapro2/Example_Guides/Multimedia/RTSP_Audio_Stream/image01.png
    :width:  960 px
    :height:  1040 px

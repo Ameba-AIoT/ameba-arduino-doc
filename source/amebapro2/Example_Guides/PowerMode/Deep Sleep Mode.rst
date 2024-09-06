@@ -36,7 +36,6 @@ The module and board power consumption report under Deep Sleep mode are listed i
 | RTC        | 41.08                                                   |
 +------------+---------------------------------------------------------+
 
-
 **AMB82 MINI board Power Consumption**
 
 +------------+----------------------------+----------------------------+

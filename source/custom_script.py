@@ -27,7 +27,7 @@ def get_folder_paths(folder_path, mode):
                 folder_paths.append(item)
     return folder_paths
 
-def copy_folder(src_folder, target_folder):
+def copy_folder_bak(src_folder, target_folder):
     """
     Copy a folder and its contents to a target location.
 
@@ -50,6 +50,41 @@ def copy_folder(src_folder, target_folder):
     target_path = os.path.join(target_folder, os.path.basename(src_folder))
     shutil.copytree(src_folder, target_path)
     print(f"Copied folder: {src_folder} -> {target_path}")
+
+def copy_folder(src_folder, target_folder):
+    """
+    Copy the contents of a folder into an existing target folder.
+
+    Args:
+        src_folder (str): Path to the source folder.
+        target_folder (str): Path to the target folder.
+
+    Returns:
+        None
+    """
+    # Check if source folder exists
+    if not os.path.exists(src_folder):
+        raise FileNotFoundError(f"Source folder '{src_folder}' not found.")
+
+    # Check if target folder exists, create it if not
+    if not os.path.exists(target_folder):
+        os.makedirs(target_folder)
+
+    # Iterate over all items in the source folder
+    for item in os.listdir(src_folder):
+        src_item = os.path.join(src_folder, item)
+        target_item = os.path.join(target_folder, item)
+
+        # If it's a directory, copy it recursively
+        if os.path.isdir(src_item):
+            if os.path.exists(target_item):
+                # If the target subdirectory already exists, merge contents
+                shutil.copytree(src_item, target_item, dirs_exist_ok=True)
+            else:
+                shutil.copytree(src_item, target_item)
+        # If it's a file, copy it directly
+        else:
+            shutil.copy2(src_item, target_item)
 
 def search_files(file_path, search_term):
     """
@@ -158,9 +193,14 @@ if __name__ == "__main__":
     ###    new_path = os.path.join(current_path, item)
     ###    common_list[i] = new_path
 
+#    for board in board_list:
+#        for item in common_list:
+#            print(item)
+#            print(board)
+#            copy_folder(item, board)
+
     for board in board_list:
-        for item in common_list:
-            copy_folder(item, board)
+        copy_folder('./_common', board)
 
     for board in board_list:
         for root, dirs, files in os.walk(board):

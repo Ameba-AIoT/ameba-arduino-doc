@@ -36,7 +36,6 @@ A class used to represent and retrieve data related to audio recognized by an au
 | AudioClassificationResult::score     | Get confidence score of recognized audio |
 +--------------------------------------+------------------------------------------+
 
-
 **AudioClassificationResult::classID**
 --------------------------------------
 
@@ -44,7 +43,6 @@ A class used to represent and retrieve data related to audio recognized by an au
 ~~~~~~~~~~~~~~~
 
 Get class ID of recognized audio.
-
 
 **Syntax**
 ~~~~~~~~~~
@@ -68,10 +66,8 @@ NA
 
 Example: `AudioClassification <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/AudioClassification/AudioClassification.ino>`_
 
-
 .. note :: “NNAudioClassification.h” must be included to use the class function. Object categories can be obtained from the “AudioClassList.h” file. 
   (https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/AudioClassification/AudioClassList.h)
-
 
 **AudioClassificationResult::score**
 ------------------------------------
@@ -80,7 +76,6 @@ Example: `AudioClassification <https://github.com/ambiot/ambpro2_arduino/blob/de
 ~~~~~~~~~~~~~~~
 
 Get confidence score of recognized audio classes.
-
 
 **Syntax**
 ~~~~~~~~~~
@@ -106,7 +101,6 @@ Example: `AudioClassification <https://github.com/ambiot/ambpro2_arduino/blob/de
 
 .. note :: “NNAudioClassification.h” must be included to use the class function. Object categories can be obtained from the “AudioClassList.h” file. 
   (https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/AudioClassification/AudioClassList.h)
-
 
 **NNAudioClassification Class**
 -------------------------------

@@ -38,7 +38,6 @@ Disconnect power from the Ameba Pro 2 board, remove the SD card and connect it t
 
 The SDCardSaveJPEGWithNTPClient and SDCardSaveJPEGTimelapseWithNTPClient examples are incorporated with NTPClient to be able to set the last modified time after images are saved to the SD Card.
 
-
 .. |image01| image:: ../../../_static/amebapro2/Example_Guides/Multimedia/Capture_JPEG_save_to_SD_Card/image01.png
    :width:  768 px
    :height: 832 px

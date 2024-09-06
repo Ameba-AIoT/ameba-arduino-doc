@@ -96,7 +96,6 @@ You can change to your preferred .nb file names in SD_Model.cpp by navigating to
 
 |image05|
 
-
 .. |image01| image:: ../../../_static/amebapro2/Other_Guides/AI_Related_Guides/Customized_AI_Model_Installation_Guide/image01.png
    :width:  719 px
    :height:  553 px

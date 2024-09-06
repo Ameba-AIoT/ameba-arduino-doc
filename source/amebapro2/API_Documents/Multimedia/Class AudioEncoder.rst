@@ -134,7 +134,6 @@ NA
 
 .. note :: “AudioEncoder.h” must be included to use the class function.
 
-
 **G711E Class**
 ---------------
 

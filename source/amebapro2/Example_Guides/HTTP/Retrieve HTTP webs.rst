@@ -46,7 +46,6 @@ Code Reference
 
 Use http.get() to send a GET request to the website.
 
-
 .. |image01| image:: ../../../_static/amebapro2/Example_Guides/HTTP/Retrieve_HTTP_webs/image01.png
    :width: 602 px
    :height: 833 px

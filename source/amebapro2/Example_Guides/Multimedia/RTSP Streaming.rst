@@ -49,8 +49,6 @@ Next, click “Play” to start RTSP streaming. The video stream from the camera
 
 |image07|
 
-
-
 You may also view detailed information about the video stream in “Tools” -> “Codec Information”.
 
 +-----------------------------------+--------------------------------------------------------------------+

@@ -42,7 +42,6 @@ A class used to represent and retrieve data related to faces recognized by a fac
 | FaceRecognitionResult::yMax            | Get y coordinate of the bottom right corner of the bounding box containing the recognized face.   |
 +----------------------------------------+---------------------------------------------------------------------------------------------------+
 
-
 **FaceRecognitionResult::name**
 -------------------------------
 
@@ -104,7 +103,6 @@ A float ranging from 0.00 to 1.00, with 0.00 indicating the left edge of the inp
 Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
 
 .. note :: “NNFaceRecognition.h” must be included to use the class function.
-
 
 **FaceRecognitionResult::yMin**
 -------------------------------
@@ -578,7 +576,6 @@ Get face recognition results.
 ~~~~~~~~~~~~~~
 
 index: index of specific face recognition result to retrieve.
-
 
 **Returns**
 ~~~~~~~~~~~

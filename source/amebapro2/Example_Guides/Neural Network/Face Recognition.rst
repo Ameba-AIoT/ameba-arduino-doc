@@ -93,7 +93,6 @@ You may adjust the video bitrate based on your WiFi network quality, by uncommen
 
 |image09|
 
-
 .. |image01| image:: ../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Face_Recognition/image01.png
    :width:  960 px
    :height:  1040 px

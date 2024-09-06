@@ -54,7 +54,6 @@ A class of WiFi server implementation for Ameba.
 |                            |                                             |
 +----------------------------+---------------------------------------------+
 
-
 **WiFiServer::WiFiServer**
 --------------------------
 
@@ -87,7 +86,6 @@ Example: `SimpleServerWiFi <https://github.com/ambiot/ambd_arduino/blob/dev/Ardu
 
 .. note :: “WiFiServer.h” must be included to use the class function.
 
-
 **WiFiServer::available**
 -------------------------
 
@@ -119,7 +117,6 @@ This function returns a client object; if no Client has data available for readi
 Example: `SimpleServerWiFi <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleServerWiFi/SimpleServerWiFi.ino>`_
 
 .. note :: “WiFiServer.h” must be included to use the class function.
-
 
 **WiFiServer::begin**
 ---------------------
