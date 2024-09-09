@@ -249,7 +249,6 @@ Useful Links
 
 - `Facebook Group English <https://www.facebook.com/groups/amebaioten>`_
 
-
 .. |image01| image:: ../../_static/amebapro2/Getting_Started/Getting_Started_with_AMB82-mini/image01.png
    :width:  2000 px
    :height:  1353 px

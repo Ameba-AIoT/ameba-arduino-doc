@@ -1,5 +1,5 @@
-AmebaD Arduino Documentation
-============================
+AmebaD Arduino
+==============
 
 .. toctree::
    :caption: Category list

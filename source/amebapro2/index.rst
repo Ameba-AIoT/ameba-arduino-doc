@@ -1,5 +1,5 @@
-AmebaPro2 Arduino Documentation
-===============================
+AmebaPro2 Arduino
+=================
 
 .. toctree::
    :caption: Category list
