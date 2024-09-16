@@ -44,7 +44,7 @@ A class for Wi-Fi Secure Socket Layer Client implementation for Ameba.
 +-------------------------------------+----------------------------------------------------------------------+
 | WiFiSSLClient::flush                | Clear all the bytes that have been written to the client but not     |
 |                                     | yet read.                                                            |
-+------------------------------------+----------------------------------------------------------------------+
++-------------------------------------+----------------------------------------------------------------------+
 | WiFiSSLClient::stop                 | Disconnect from the server.                                          |
 +-------------------------------------+----------------------------------------------------------------------+
 | WiFiSSLClient::connected            | Check if SSL client is connected.                                    |
