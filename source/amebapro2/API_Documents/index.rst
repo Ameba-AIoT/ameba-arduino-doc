@@ -5,7 +5,10 @@ API Documents
    :maxdepth: 2
 
    Analog/index
+   FileSystem/index
    FlashMemory/index
+   GPIO/index
+   Gtimer/index
    Multimedia/index
    NeuralNetwork/index
    NTPClient/index

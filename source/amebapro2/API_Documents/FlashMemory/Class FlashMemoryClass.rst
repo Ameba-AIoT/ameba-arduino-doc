@@ -24,12 +24,12 @@ A class for Flash memory API.
 ~~~~~~~~~~~
 
 +------------------------------------+----------------------------------+
-| **Public Constructors**            |                                  |
+| **Public Constructors**                                               |
 +====================================+==================================+
 | FlashMemoryClass::FlashMemoryClass | Constructs a FlashMemoryClass    |
 |                                    | object                           |
 +------------------------------------+----------------------------------+
-| **Public Methods**                 |                                  |
+| **Public Methods**                                                    |
 +------------------------------------+----------------------------------+
 | FlashMemoryClass::begin            | Initialize/Re-initialize the     |
 |                                    | base address and size            |
@@ -94,9 +94,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ReadWriteWord <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/FlashMemory/examples/ReadWriteWord/ReadWriteWord.ino>`_
+Example: `ReadWriteWord <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/FlashMemory/examples/ReadWriteWord/ReadWriteWord.ino>`_
 
-.. note :: “FlashMemory.h” must be included to use the class function.
+.. note :: "FlashMemory.h" must be included to use the class function.
 
 **FlashMemoryClass::begin**
 ---------------------------
@@ -128,9 +128,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ReadWriteWord <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/FlashMemory/examples/ReadWriteWord/ReadWriteWord.ino>`_
+Example: `ReadWriteWord <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/FlashMemory/examples/ReadWriteWord/ReadWriteWord.ino>`_
 
-.. note :: “FlashMemory.h” must be included to use the class function.
+.. note :: "FlashMemory.h" must be included to use the class function.
 
 **FlashMemoryClass::end**
 
@@ -161,7 +161,7 @@ NA
 
 NA
 
-.. note :: “FlashMemory.h” must be included to use the class function.
+.. note :: "FlashMemory.h" must be included to use the class function.
 
 **FlashMemoryClass::read**
 --------------------------
@@ -169,7 +169,7 @@ NA
 **Description**
 ~~~~~~~~~~~~~~~
 
-Read from the flash memory and copy into a buffer. All modification of the contents will be done in the buffer before updating the flash memory. The default length of the buf is buf_size with 0x3000. Update buf and buf_size by function “begin()”. Indicate the starting address by “offset”.
+Read from the flash memory and copy into a buffer. All modification of the contents will be done in the buffer before updating the flash memory. The default length of the buf is buf_size with 0x3000. Update buf and buf_size by function "begin()". Indicate the starting address by "offset".
 
 **Syntax**
 ~~~~~~~~~~
@@ -191,16 +191,16 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ReadWriteStream <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/FlashMemory/examples/ReadWriteStream/ReadWriteStream.ino>`_
+Example: `ReadWriteStream <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/FlashMemory/examples/ReadWriteStream/ReadWriteStream.ino>`_
 
-.. note :: “FlashMemory.h” must be included to use the class function.
+.. note :: "FlashMemory.h" must be included to use the class function.
 
 **FlashMemoryClass::write**
 
 **Description**
 ~~~~~~~~~~~~~~~
 
-Write buf back to flash memory. Indicate the starting address by “offset”. The default length of the buf is buf_size with 0x3000. Update buf and buf_size by function “begin()”
+Write buf back to flash memory. Indicate the starting address by "offset". The default length of the buf is buf_size with 0x3000. Update buf and buf_size by function "begin()"
 
 **Syntax**
 ~~~~~~~~~~
@@ -222,9 +222,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ReadWriteStream <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/FlashMemory/examples/ReadWriteStream/ReadWriteStream.ino>`_
+Example: `ReadWriteStream <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/FlashMemory/examples/ReadWriteStream/ReadWriteStream.ino>`_
 
-.. note :: “FlashMemory.h” must be included to use the class function.
+.. note :: "FlashMemory.h" must be included to use the class function.
 
 **FlashMemoryClass::readWord**
 ------------------------------
@@ -249,14 +249,14 @@ offset: offset to the base address.
 **Returns**
 ~~~~~~~~~~~
 
-This function returns the 4 bytes read data. The return type is “unsigned int”.
+This function returns the 4 bytes read data. The return type is "unsigned int".
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ReadWriteWord <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/FlashMemory/examples/ReadWriteWord/ReadWriteWord.ino>`_
+Example: `ReadWriteWord <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/FlashMemory/examples/ReadWriteWord/ReadWriteWord.ino>`_
 
-.. note :: “FlashMemory.h” must be included to use the class function.
+.. note :: "FlashMemory.h" must be included to use the class function.
 
 **FlashMemoryClass::writeWord**
 -------------------------------
@@ -288,9 +288,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ReadWriteWord <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/FlashMemory/examples/ReadWriteWord/ReadWriteWord.ino>`_
+Example: `ReadWriteWord <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/FlashMemory/examples/ReadWriteWord/ReadWriteWord.ino>`_
 
-.. note :: “FlashMemory.h” must be included to use the class function.
+.. note :: "FlashMemory.h" must be included to use the class function.
 
 **FlashMemoryClass::eraseSector**
 ---------------------------------
@@ -322,7 +322,7 @@ NA
 
 NA
 
-.. note :: “FlashMemory.h” must be included to use the class function.
+.. note :: "FlashMemory.h" must be included to use the class function.
 
 **FlashMemoryClass::eraseWord**
 -------------------------------
@@ -354,7 +354,7 @@ NA
 
 NA
 
-.. note :: “FlashMemory.h” must be included to use the class function.
+.. note :: "FlashMemory.h" must be included to use the class function.
 
 **FlashMemoryClass::buf_size**
 ------------------------------
@@ -384,9 +384,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ReadWriteWord <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/FlashMemory/examples/ReadWriteWord/ReadWriteWord.ino>`_
+Example: `ReadWriteWord <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/FlashMemory/examples/ReadWriteWord/ReadWriteWord.ino>`_
 
-.. note :: “FlashMemory.h” must be included to use the class function.
+.. note :: "FlashMemory.h" must be included to use the class function.
 
 **FlashMemoryClass::buf**
 -------------------------
@@ -416,6 +416,6 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ReadWriteWord <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/FlashMemory/examples/ReadWriteWord/ReadWriteWord.ino>`_
+Example: `ReadWriteWord <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/FlashMemory/examples/ReadWriteWord/ReadWriteWord.ino>`_
 
-.. note :: “FlashMemory.h” must be included to use the class function.
+.. note :: "FlashMemory.h" must be included to use the class function.

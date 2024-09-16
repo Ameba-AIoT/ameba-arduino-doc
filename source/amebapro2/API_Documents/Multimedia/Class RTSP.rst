@@ -73,9 +73,9 @@ NA
 *Example Code**
 ~~~~~~~~~~~~~~~
 
-Example: `StreamRTSP/VideoOnly <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
+Example: `StreamRTSP/VideoOnly <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
 
-.. note :: “RTSP.h” must be included to use the class function.
+.. note :: "RTSP.h" must be included to use the class function.
 
 **RTSP::configAudio**
 ---------------------
@@ -108,9 +108,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `StreamRTSP/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
+Example: `StreamRTSP/SingleVideoWithAudio <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-.. note :: “RTSP.h” must be included to use the class function.
+.. note :: "RTSP.h" must be included to use the class function.
 
 **RTSP::begin**
 ---------------
@@ -140,9 +140,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `StreamRTSP/VideoOnly <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
+Example: `StreamRTSP/VideoOnly <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
 
-.. note :: “RTSP.h” must be included to use the class function.
+.. note :: "RTSP.h" must be included to use the class function.
 
 **RTSP::end**
 -------------
@@ -174,7 +174,7 @@ NA
 
 NA
 
-.. note :: “RTSP.h” must be included to use the class function.
+.. note :: "RTSP.h" must be included to use the class function.
 
 **RTSP::getPort**
 -----------------
@@ -206,7 +206,7 @@ This function returns the port number as an integer.
 
 NA
 
-.. note :: “RTSP.h” must be included to use the class function.
+.. note :: "RTSP.h" must be included to use the class function.
 
 **RTSP::printInfo**
 -------------------
@@ -236,6 +236,6 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `StreamRTSP/VideoOnly <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
+Example: `StreamRTSP/VideoOnly <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
 
-.. note :: “RTSP.h” must be included to use the class function.
+.. note :: "RTSP.h" must be included to use the class function.

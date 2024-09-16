@@ -18,7 +18,7 @@ A class used to represent and retrieve data related to faces detected by a face 
 
 .. code-block:: c++
 
-  class FaceDetectionResult
+    class FaceDetectionResult
 
 **Members**
 ~~~~~~~~~~~
@@ -26,26 +26,26 @@ A class used to represent and retrieve data related to faces detected by a face 
 +--------------------------------------+-----------------------------------------------------------------------------------------------+
 | **Public Constructors**                                                                                                              |
 +======================================+===============================================================================================+
-| FaceDetectionResult::                | Constructs a FaceDetectionResult                                                              |
-| FaceDetectionResult                  | object                                                                                        |
+| FaceDetectionResult::                | Constructs a FaceDetectionResult object.                                                      |
+| FaceDetectionResult                  |                                                                                               |
 +--------------------------------------+-----------------------------------------------------------------------------------------------+
 | **Public Methods**                                                                                                                   |
 +--------------------------------------+-----------------------------------------------------------------------------------------------+
-| FaceDetectionResult::name            | Get name of detected result                                                                   |
+| FaceDetectionResult::name            | Get name of detected result.                                                                  |
 +--------------------------------------+-----------------------------------------------------------------------------------------------+
-| FaceDetectionResult::score           | Get confidence score of detected face                                                         |
+| FaceDetectionResult::score           | Get confidence score of detected face.                                                        |
 +--------------------------------------+-----------------------------------------------------------------------------------------------+
-| FaceDetectionResult::xMin            | Get x coordinate of the top left corner of the bounding box containing the detected face      |
+| FaceDetectionResult::xMin            | Get x coordinate of the top left corner of the bounding box containing the detected face.     |
 +--------------------------------------+-----------------------------------------------------------------------------------------------+
-| FaceDetectionResult::xMax            | Get x coordinate of the bottom right corner of the bounding box containing the detected face  |
+| FaceDetectionResult::xMax            | Get x coordinate of the bottom right corner of the bounding box containing the detected face. |
 +--------------------------------------+-----------------------------------------------------------------------------------------------+
-| FaceDetectionResult::yMin            | Get y coordinate of the top left corner of the bounding box containing the detected face      |
+| FaceDetectionResult::yMin            | Get y coordinate of the top left corner of the bounding box containing the detected face.     |
 +--------------------------------------+-----------------------------------------------------------------------------------------------+
-| FaceDetectionResult::yMax            | Get y coordinate of the bottom right corner of the bounding box containing the detected face  |
+| FaceDetectionResult::yMax            | Get y coordinate of the bottom right corner of the bounding box containing the detected face. |
 +--------------------------------------+-----------------------------------------------------------------------------------------------+
-| FaceDetectionResult::xFeature        | Get x coordinate of a feature point on the detected face                                      |
+| FaceDetectionResult::xFeature        | Get x coordinate of a feature point on the detected face.                                     |
 +--------------------------------------+-----------------------------------------------------------------------------------------------+
-| FaceDetectionResult::yFeature        | Get y coordinate of a feature point on the detected face                                      |
+| FaceDetectionResult::yFeature        | Get y coordinate of a feature point on the detected face.                                     |
 +--------------------------------------+-----------------------------------------------------------------------------------------------+
 
 **FaceDetectionResult::name**
@@ -71,14 +71,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-A pointer to a character array containing the category name. For face detection, the category name is “Face”.
+A pointer to a character array containing the category name. For face detection, the category name is "Face".
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
+Example: `RTSPFaceDetection <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
 
-.. note :: “NNFaceDetection.h” must be included to use the class function.
+.. note :: "NNFaceDetection.h" must be included to use the class function.
 
 **FaceDetectionResult::score**
 ------------------------------
@@ -108,9 +108,9 @@ An integer ranging from 0 to 100 representing the confidence of the detected fac
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
+Example: `RTSPFaceDetection <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
 
-.. note :: “NNFaceDetection.h” must be included to use the class function.
+.. note :: "NNFaceDetection.h" must be included to use the class function.
 
 **FaceDetectionResult::xMin**
 -----------------------------
@@ -140,9 +140,9 @@ A float ranging from 0.00 to 1.00, with 0.00 indicating the left edge of the inp
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
+Example: `RTSPFaceDetection <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
 
-.. note :: “NNFaceDetection.h” must be included to use the class function.
+.. note :: "NNFaceDetection.h" must be included to use the class function.
 
 **FaceDetectionResult::xMax**
 -----------------------------
@@ -172,9 +172,9 @@ A float ranging from 0.00 to 1.00, with 0.00 indicating the left edge of the inp
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
+Example: `RTSPFaceDetection <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
 
-.. note :: “NNFaceDetection.h” must be included to use the class function.
+.. note :: "NNFaceDetection.h" must be included to use the class function.
 
 **FaceDetectionResult::yMin**
 -----------------------------
@@ -204,9 +204,9 @@ A float ranging from 0.00 to 1.00, with 0.00 indicating the top edge of the inpu
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
+Example: `RTSPFaceDetection <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
 
-.. note :: “NNFaceDetection.h” must be included to use the class function.
+.. note :: "NNFaceDetection.h" must be included to use the class function.
 
 **FaceDetectionResult::yMax**
 -----------------------------
@@ -236,9 +236,9 @@ A float ranging from 0.00 to 1.00, with 0.00 indicating the top edge of the inpu
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
+Example: `RTSPFaceDetection <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
 
-.. note :: “NNFaceDetection.h” must be included to use the class function.
+.. note :: "NNFaceDetection.h" must be included to use the class function.
 
 **FaceDetectionResult::xFeature**
 ---------------------------------
@@ -258,12 +258,17 @@ Get x coordinate of a feature point on the detected face.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-| index: index number of face feature point. Feature points:
-| 0 - right eye
-| 1 - left eye
-| 2 - nose
-| 3 - right mouth corner
-| 4 - left mouth corner
+index: index number of face feature point
+
+- 0 (right eye)
+
+- 1 (left eye)
+
+- 2 (nose)
+
+- 3 (right mouth corner)
+
+- 4 (left mouth corner)
 
 **Returns**
 ~~~~~~~~~~~
@@ -273,9 +278,9 @@ A float ranging from 0.00 to 1.00, with 0.00 indicating the left edge of the inp
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
+Example: `RTSPFaceDetection <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
 
-.. note :: “NNFaceDetection.h” must be included to use the class function.
+.. note :: "NNFaceDetection.h" must be included to use the class function.
 
 **FaceDetectionResult::yFeature**
 ---------------------------------
@@ -295,12 +300,17 @@ Get y coordinate of a feature point on the detected face.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-| index: index number of face feature point. Feature points:
-| 0 - right eye
-| 1 - left eye
-| 2 - nose
-| 3 - right mouth corner
-| 4 - left mouth corner
+index: index number of face feature point.
+
+- 0 (right eye)
+
+- 1 (left eye)
+
+- 2 (nose)
+
+- 3 (right mouth corner)
+
+- 4 (left mouth corner)
 
 **Returns**
 ~~~~~~~~~~~
@@ -310,9 +320,9 @@ A float ranging from 0.00 to 1.00, with 0.00 indicating the left edge of the inp
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
+Example: `RTSPFaceDetection <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
 
-.. note :: “NNFaceDetection.h” must be included to use the class function.
+.. note :: "NNFaceDetection.h" must be included to use the class function.
 
 **NNFaceDetection Class**
 -------------------------
@@ -323,10 +333,11 @@ A class used to configure, run, and retrieve results of a face detection neural 
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
-  
-  class NNFaceDetection
-  
+
+    class NNFaceDetection
+
 **Members**
 ~~~~~~~~~~~
 
@@ -339,17 +350,17 @@ A class used to configure, run, and retrieve results of a face detection neural 
 +------------------------------------------------+--------------------------------------------------------------+
 | NNFaceDetection::configVideo                   | Configure input video stream parameters.                     |
 +------------------------------------------------+--------------------------------------------------------------+
-| NNFaceDetection::configFaceRecogCascadedMode   | Configure for running face recognition after face detection  |
+| NNFaceDetection::configFaceRecogCascadedMode   | Configure for running face recognition after face detection. |
 +------------------------------------------------+--------------------------------------------------------------+
-| NNFaceDetection::begin                         | Start face detection process on input video                  |
+| NNFaceDetection::begin                         | Start face detection process on input video.                 |
 +------------------------------------------------+--------------------------------------------------------------+
-| NNFaceDetection::end                           | Stop face detection process on input video                   |
+| NNFaceDetection::end                           | Stop face detection process on input video.                  |
 +------------------------------------------------+--------------------------------------------------------------+
-| NNFaceDetection::setResultCallback             | Set a callback function to receive face detection results    |
+| NNFaceDetection::setResultCallback             | Set a callback function to receive face detection results.   |
 +------------------------------------------------+--------------------------------------------------------------+
 | NNFaceDetection::getResultCount                | Get number of face detection results.                        |
 +------------------------------------------------+--------------------------------------------------------------+
-| NNFaceDetection::getResult                     | Get face detection results                                   |
+| NNFaceDetection::getResult                     | Get face detection results.                                  |
 +------------------------------------------------+--------------------------------------------------------------+
 
 **NNFaceDetection::configVideo**
@@ -362,9 +373,10 @@ Configure input video stream parameters.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  void configVideo(VideoSetting& config);
+    void configVideo(VideoSetting& config);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -379,9 +391,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
+Example: `RTSPFaceDetection <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
 
-.. note :: “NNFaceDetection.h” must be included to use the class function.
+.. note :: "NNFaceDetection.h" must be included to use the class function.
 
 **NNFaceDetection::configFaceRecogCascadedMode**
 ------------------------------------------------
@@ -393,9 +405,10 @@ Configure for running face recognition after face detection.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  void configFaceRecogCascadedMode(uint8_t enable);
+    void configFaceRecogCascadedMode(uint8_t enable);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -410,9 +423,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
+Example: `RTSPFaceRecognition <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
 
-.. note :: “NNFaceDetection.h” must be included to use the class function.
+.. note :: "NNFaceDetection.h" must be included to use the class function.
 
 **NNFaceDetection::begin**
 --------------------------
@@ -424,9 +437,10 @@ Start face detection process on input video.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  void begin(void);
+    void begin(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -441,9 +455,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
+Example: `RTSPFaceDetection <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
 
-.. note :: “NNFaceDetection.h” must be included to use the class function.
+.. note :: "NNFaceDetection.h" must be included to use the class function.
 
 **NNFaceDetection::end**
 ------------------------
@@ -455,9 +469,10 @@ Stop face detection process on input video.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  void end(void);
+    void end(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -474,7 +489,7 @@ NA
 
 NA
 
-.. note :: “NNFaceDetection.h” must be included to use the class function.
+.. note :: "NNFaceDetection.h" must be included to use the class function.
 
 **NNFaceDetection::setResultCallback**
 --------------------------------------
@@ -486,9 +501,10 @@ Set a callback function to receive face detection results.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  void setResultCallback(void (*fd_callback)(std::vector));
+    void setResultCallback(void (*fd_callback)(std::vector));
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -503,9 +519,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
+Example: `RTSPFaceDetection <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
 
-.. note :: “NNFaceDetection.h” must be included to use the class function.
+.. note :: "NNFaceDetection.h" must be included to use the class function.
 
 **NNFaceDetection::getResultCount**
 -----------------------------------
@@ -517,10 +533,11 @@ Get number of face detection results.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  uint16_t getResultCount(void);
-  
+    uint16_t getResultCount(void);
+
 **Parameters**
 ~~~~~~~~~~~~~~
 
@@ -534,9 +551,9 @@ The number of detected faces in the most recent set of results, as an unsigned i
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
+Example: `RTSPFaceDetection <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
 
-.. note :: “NNFaceDetection.h” must be included to use the class function.
+.. note :: "NNFaceDetection.h" must be included to use the class function.
 
 **NNFaceDetection::getResult**
 ------------------------------
@@ -548,6 +565,7 @@ Get face detection results.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
     FaceDetectionResult getResult(uint16_t index);
@@ -568,6 +586,6 @@ If an index is specified, the function returns the specific detected face contai
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
+Example: `RTSPFaceDetection <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
 
-.. note :: “NNFaceDetection.h” must be included to use the class function.
+.. note :: "NNFaceDetection.h" must be included to use the class function.

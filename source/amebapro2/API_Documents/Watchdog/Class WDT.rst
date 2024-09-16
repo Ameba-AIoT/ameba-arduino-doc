@@ -24,13 +24,11 @@ A class used for initializing, starting, stopping watchdog timer.
 ~~~~~~~~~~~
 
 +-----------------------------------+-----------------------------------+
-| **Public Constructors**           |                                   |
+| **Public Constructors**                                               |
 +===================================+===================================+
 | WDT::WDT                          | Constructs an WDT object.         |
 +-----------------------------------+-----------------------------------+
-|                                   |                                   |
-+-----------------------------------+-----------------------------------+
-| **Public Methods**                |                                   |
+| **Public Methods**                                                    |
 +-----------------------------------+-----------------------------------+
 | WDT::init                         | Initialize the watchdog,          |
 |                                   | including time setting, and mode  |
@@ -78,9 +76,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `SimpleWDT <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Watchdog/examples/SimpleWDT/SimpleWDT.ino>`_
+Example: `SimpleWDT <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Watchdog/examples/SimpleWDT/SimpleWDT.ino>`_
 
-.. note :: “WDT.h” must be included to use the class function.
+.. note :: "WDT.h" must be included to use the class function.
 
 **WDT::start**
 --------------
@@ -110,9 +108,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `SimpleWDT <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Watchdog/examples/SimpleWDT/SimpleWDT.ino>`_
+Example: `SimpleWDT <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Watchdog/examples/SimpleWDT/SimpleWDT.ino>`_
 
-.. note :: “WDT.h” must be included to use the class function.
+.. note :: "WDT.h" must be included to use the class function.
 
 **WDT::stop**
 -------------
@@ -142,9 +140,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `SimpleWDT <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Watchdog/examples/SimpleWDT/SimpleWDT.ino>`_
+Example: `SimpleWDT <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Watchdog/examples/SimpleWDT/SimpleWDT.ino>`_
 
-.. note :: “WDT.h” must be included to use the class function.
+.. note :: "WDT.h" must be included to use the class function.
 
 **WDT::refresh**
 ----------------
@@ -174,9 +172,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `SimpleWDT <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Watchdog/examples/SimpleWDT/SimpleWDT.ino>`_
+Example: `SimpleWDT <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Watchdog/examples/SimpleWDT/SimpleWDT.ino>`_
 
-.. note :: “WDT.h” must be included to use the class function.
+.. note :: "WDT.h" must be included to use the class function.
 
 **WDT::init_irq**
 -----------------
@@ -208,6 +206,6 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `SimpleWDT <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Watchdog/examples/SimpleWDT/SimpleWDT.ino>`_
+Example: `SimpleWDT <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Watchdog/examples/SimpleWDT/SimpleWDT.ino>`_
 
-.. note :: “WDT.h” must be included to use the class function.
+.. note :: "WDT.h" must be included to use the class function.

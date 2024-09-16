@@ -18,7 +18,7 @@ A class used to configure, run, and retrieve results of an image classification 
 
 .. code-block:: c++
 
-  class NNImageClassification
+    class NNImageClassification
 
 **Members**
 ~~~~~~~~~~~
@@ -26,8 +26,7 @@ A class used to configure, run, and retrieve results of an image classification 
 +------------------------------------------------+-------------------------------------------------------------------+
 | **Public Constructors**                                                                                            |
 +================================================+===================================================================+
-| NNImageClassification::                        | Constructs an NNImageClassification object                        |
-| NNImageClassification                          |                                                                   |
+| NNImageClassification::NNImageClassification   | Constructs an NNImageClassification object                        |
 +------------------------------------------------+-------------------------------------------------------------------+
 | **Public Methods**                                                                                                 |
 +------------------------------------------------+-------------------------------------------------------------------+
@@ -58,14 +57,19 @@ Configure input image color used during model training process.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  void configInputImageColor(int color);
+    void configInputImageColor(int color);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-color: Color of images used for model training (0: Grayscale, 1: RGB)
+color: Color of images used for model training.
+
+- 0 (Grayscale)
+
+- 1 (RGB)
 
 **Returns**
 ~~~~~~~~~~~
@@ -75,9 +79,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPImageClassification <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPImageClassification/RTSPImageClassification.ino>`_
+Example: `RTSPImageClassification <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPImageClassification/RTSPImageClassification.ino>`_
 
-.. note :: NNImageClassification.h” must be included to use the class function.
+.. note :: NNImageClassification.h" must be included to use the class function.
 
 **NNImageClassification::configVideo**
 --------------------------------------
@@ -89,9 +93,10 @@ Configure input video stream parameters.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  void configVideo(VideoSetting &config);
+    void configVideo(VideoSetting &config);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -106,9 +111,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPImageClassification <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPImageClassification/RTSPImageClassification.ino>`_
+Example: `RTSPImageClassification <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPImageClassification/RTSPImageClassification.ino>`_
 
-.. note :: NNImageClassification.h” must be included to use the class function.
+.. note :: NNImageClassification.h" must be included to use the class function.
 
 **NNImageClassification::configRegionOfInterest**
 -------------------------------------------------
@@ -120,17 +125,21 @@ Configure image classification region of interest.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  void configRegionOfInterest(int xmin, int xmax, int ymin, int ymax);
+    void configRegionOfInterest(int xmin, int xmax, int ymin, int ymax);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-| xmin: left boundary of region of interest, expressed in units of pixel.
-| xmax: right boundary of region of interest, expressed in units of pixel.
-| ymin: top boundary of region of interest, expressed in units of pixel.
-| ymax: bottom boundary of region of interest, expressed in units of pixel.
+xmin: left boundary of region of interest, expressed in units of pixel.
+
+xmax: right boundary of region of interest, expressed in units of pixel.
+
+ymin: top boundary of region of interest, expressed in units of pixel.
+
+ymax: bottom boundary of region of interest, expressed in units of pixel.
 
 **Returns**
 ~~~~~~~~~~~
@@ -142,7 +151,7 @@ NA
 
 NA
 
-.. note :: NNImageClassification.h” must be included to use the class function.
+.. note :: NNImageClassification.h" must be included to use the class function.
 
 **NNImageClassification::begin**
 --------------------------------
@@ -154,9 +163,10 @@ Start image classification process on input video.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  void begin (void);
+    void begin (void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -171,9 +181,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPImageClassification <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPImageClassification/RTSPImageClassification.ino>`_
+Example: `RTSPImageClassification <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPImageClassification/RTSPImageClassification.ino>`_
 
-.. note :: NNImageClassification.h” must be included to use the class function.
+.. note :: NNImageClassification.h" must be included to use the class function.
 
 **NNImageClassification::end**
 ------------------------------
@@ -185,9 +195,10 @@ Stop image classification process on input video.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  void end (void);
+    void end (void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -204,7 +215,7 @@ NA
 
 NA
 
-.. note :: NNImageClassification.h” must be included to use the class function.
+.. note :: NNImageClassification.h" must be included to use the class function.
 
 **NNImageClassification::setResultCallback**
 --------------------------------------------
@@ -216,9 +227,10 @@ Set a user callback function.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  void setResultCallback(void (*ic_callback)(void));
+    void setResultCallback(void (*ic_callback)(void));
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -233,9 +245,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPImageClassification <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPImageClassification/RTSPImageClassification.ino>`_
+Example: `RTSPImageClassification <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPImageClassification/RTSPImageClassification.ino>`_
 
-.. note :: NNImageClassification.h” must be included to use the class function.
+.. note :: NNImageClassification.h" must be included to use the class function.
 
 **NNImageClassification::classID**
 ----------------------------------
@@ -247,9 +259,10 @@ Get the class ID of class with highest probability.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  int classID(void);
+    int classID(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -264,9 +277,9 @@ An integer representing the class ID of class with highest probability.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPImageClassification <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPImageClassification/RTSPImageClassification.ino>`_
+Example: `RTSPImageClassification <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPImageClassification/RTSPImageClassification.ino>`_
 
-.. note :: NNImageClassification.h” must be included to use the class function.
+.. note :: NNImageClassification.h" must be included to use the class function.
 
 **NNImageClassification::score**
 --------------------------------
@@ -278,9 +291,10 @@ Get the probability of the class with the highest likelihood.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  int score(void);
+    int score(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -295,7 +309,6 @@ A floating-point number between 0 and 1 representing the probability of the clas
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPImageClassification <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPImageClassification/RTSPImageClassification.ino>`_
+Example: `RTSPImageClassification <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPImageClassification/RTSPImageClassification.ino>`_
 
-.. note :: NNImageClassification.h” must be included to use the class function.
-
+.. note :: NNImageClassification.h" must be included to use the class function.

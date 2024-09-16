@@ -71,7 +71,7 @@ NA
 
 NA
 
-.. note :: “RTP.h” must be included to use the class function.
+.. note :: "RTP.h" must be included to use the class function.
 
 **RTP::begin**
 --------------
@@ -101,9 +101,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Audio/RTPAudioStream <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTPAudioStream/RTPAudioStream.ino>`_
+Example: `Audio/RTPAudioStream <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTPAudioStream/RTPAudioStream.ino>`_
 
-.. note :: “RTP.h” must be included to use the class function.
+.. note :: "RTP.h" must be included to use the class function.
 
 **RTP::end**
 ------------
@@ -135,7 +135,7 @@ NA
 
 NA
 
-.. note :: “RTP.h” must be included to use the class function.
+.. note :: "RTP.h" must be included to use the class function.
 
 **RTP::getPort**
 ----------------
@@ -167,4 +167,4 @@ This function returns the port number as an integer.
 
 NA
 
-.. note :: “RTP.h” must be included to use the class function.
+.. note :: "RTP.h" must be included to use the class function.

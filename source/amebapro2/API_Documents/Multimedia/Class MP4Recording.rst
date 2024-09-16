@@ -98,9 +98,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RecordMP4/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
+Example: `RecordMP4/SingleVideoWithAudio <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-.. note :: “MP4Recording.h” must be included to use the class function.
+.. note :: "MP4Recording.h" must be included to use the class function.
 
 **MP4Recording::configAudio**
 -----------------------------
@@ -138,9 +138,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RecordMP4/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
+Example: `RecordMP4/SingleVideoWithAudio <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-.. note :: “MP4Recording.h” must be included to use the class function.
+.. note :: "MP4Recording.h" must be included to use the class function.
 
 **MP4Recording::begin**
 -----------------------
@@ -170,9 +170,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RecordMP4/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
+Example: `RecordMP4/SingleVideoWithAudio <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-.. note :: “MP4Recording.h” must be included to use the class function.
+.. note :: "MP4Recording.h" must be included to use the class function.
 
 **MP4Recording::end**
 ---------------------
@@ -204,7 +204,7 @@ NA
 
 NA
 
-.. note :: “MP4Recording.h” must be included to use the class function.
+.. note :: "MP4Recording.h" must be included to use the class function.
 
 **MP4Recording::setRecordingFileName**
 --------------------------------------
@@ -235,11 +235,11 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RecordMP4/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
+Example: `RecordMP4/SingleVideoWithAudio <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
 .. note :: Filename can be up to 127 characters long.
 
-“MP4Recording.h” must be included to use the class function.
+"MP4Recording.h" must be included to use the class function.
 
 **MP4Recording::setRecordingDuration**
 --------------------------------------
@@ -269,9 +269,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RecordMP4/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
+Example: `RecordMP4/SingleVideoWithAudio <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-.. note :: “MP4Recording.h” must be included to use the class function.
+.. note :: "MP4Recording.h" must be included to use the class function.
 
 **MP4Recording::setRecordingFileCount**
 ---------------------------------------
@@ -301,11 +301,11 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RecordMP4/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
+Example: `RecordMP4/SingleVideoWithAudio <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
 .. note :: If configured to record more than 1 file, a number will be appended to the end of the base file name.
 
-“MP4Recording.h” must be included to use the class function.
+"MP4Recording.h" must be included to use the class function.
 
 **MP4Recording::setLoopRecording**
 ----------------------------------
@@ -339,7 +339,7 @@ NA
 
 .. note :: Enabling loop recording will overwrite the oldest previously recorded MP4 file when the total number of MP4 files to record has been reached.
 
-“MP4Recording.h” must be included to use the class function.
+"MP4Recording.h" must be included to use the class function.
 
 **MP4Recording::setRecordingDataType**
 --------------------------------------
@@ -375,9 +375,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RecordMP4/VideoOnly <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/VideoOnly/VideoOnly.ino>`_
+Example: `RecordMP4/VideoOnly <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/VideoOnly/VideoOnly.ino>`_
 
-.. note :: “MP4Recording.h” must be included to use the class function.
+.. note :: "MP4Recording.h" must be included to use the class function.
 
 **MP4Recording::getRecordingFileName**
 --------------------------------------
@@ -409,7 +409,7 @@ A String class object containing the currently configured MP4 base file name.
 
 NA
 
-.. note :: “MP4Recording.h” must be included to use the class function.
+.. note :: "MP4Recording.h" must be included to use the class function.
 
 **MP4Recording::getRecordingDuration**
 --------------------------------------
@@ -441,7 +441,7 @@ Currently configured per-file recording duration, expressed in seconds.
 
 NA
 
-.. note :: “MP4Recording.h” must be included to use the class function.
+.. note :: "MP4Recording.h" must be included to use the class function.
 
 **MP4Recording::getRecordingFileCount**
 ---------------------------------------
@@ -473,7 +473,7 @@ Currently configured total number of MP4 files to record.
 
 NA
 
-.. note :: “MP4Recording.h” must be included to use the class function.
+.. note :: "MP4Recording.h" must be included to use the class function.
 
 **MP4Recording::getRecordingState**
 -----------------------------------
@@ -505,7 +505,7 @@ TRUE if MP4 is currently recording, FALSE if MP4 recording has stopped.
 
 NA
 
-.. note :: “MP4Recording.h” must be included to use the class function.
+.. note :: "MP4Recording.h" must be included to use the class function.
 
 **MP4Recording::printInfo**
 ---------------------------
@@ -535,6 +535,6 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RecordMP4/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
+Example: `RecordMP4/SingleVideoWithAudio <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-.. note :: “MP4Recording.h” must be included to use the class function.
+.. note :: "MP4Recording.h" must be included to use the class function.

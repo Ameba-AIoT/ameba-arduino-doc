@@ -109,9 +109,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
+Example: `MotionDetection/LoopPostProcessing <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-.. note :: OSD only supports channel 0, 1 and 2. “VideoStreamOverlay.h” must be included to use the class function.
+.. note :: OSD only supports channel 0, 1 and 2. "VideoStreamOverlay.h" must be included to use the class function.
 
 **VideoStreamOverlay::configTextSize**
 --------------------------------------
@@ -153,7 +153,7 @@ NA
 
 NA
 
-.. note :: “VideoStreamOverlay.h” must be included to use the class function. Text size should be configured before OSD is started using begin().
+.. note :: "VideoStreamOverlay.h" must be included to use the class function. Text size should be configured before OSD is started using begin().
 
 **VideoStreamOverlay::createBitmap**
 ------------------------------------
@@ -193,9 +193,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
+Example: `MotionDetection/LoopPostProcessing <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-.. note :: “VideoStreamOverlay.h” must be included to use the class function.
+.. note :: "VideoStreamOverlay.h" must be included to use the class function.
 
 **VideoStreamOverlay::begin**
 -----------------------------
@@ -225,9 +225,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
+Example: `MotionDetection/LoopPostProcessing <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-.. note :: “VideoStreamOverlay.h” must be included to use the class function.
+.. note :: "VideoStreamOverlay.h" must be included to use the class function.
 
 **VideoStreamOverlay::end**
 ---------------------------
@@ -259,7 +259,7 @@ NA
 
 NA
 
-.. note :: “VideoStreamOverlay.h” must be included to use the class function.
+.. note :: "VideoStreamOverlay.h" must be included to use the class function.
 
 **VideoStreamOverlay::endChannel**
 ----------------------------------
@@ -297,7 +297,7 @@ NA
 
 NA
 
-.. note :: “VideoStreamOverlay.h” must be included to use the class function.
+.. note :: "VideoStreamOverlay.h" must be included to use the class function.
 
 **VideoStreamOverlay::getTextHeight**
 -------------------------------------
@@ -317,7 +317,7 @@ Get current configuration of OSD text height.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-ch: Channel to get the OSD text’s height.
+ch: Channel to get the OSD text's height.
 
 - 0
 
@@ -328,14 +328,14 @@ ch: Channel to get the OSD text’s height.
 **Returns**
 ~~~~~~~~~~~
 
-This function returns the OSD text’s height on selected channel.
+This function returns the OSD text's height on selected channel.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
+Example: `RTSPFaceDetection <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
 
-.. note :: “VideoStreamOverlay.h” must be included to use the class function.
+.. note :: "VideoStreamOverlay.h" must be included to use the class function.
 
 **VideoStreamOverlay::getTextWidth**
 ------------------------------------
@@ -355,7 +355,7 @@ Get current configuration of OSD text width.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-ch: Channel to get the OSD text’s width.
+ch: Channel to get the OSD text's width.
 
 - 0
 
@@ -366,14 +366,14 @@ ch: Channel to get the OSD text’s width.
 **Returns**
 ~~~~~~~~~~~
 
-This function returns the OSD text’s width on the selected channel.
+This function returns the OSD text's width on the selected channel.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “VideoStreamOverlay.h” must be included to use the class function.
+.. note :: "VideoStreamOverlay.h" must be included to use the class function.
 
 **VideoStreamOverlay::color**
 -----------------------------
@@ -416,7 +416,7 @@ This function returns the ARGB value in a format compatible for OSD use.
 
 NA
 
-.. note :: “VideoStreamOverlay.h” must be included to use the class function.
+.. note :: "VideoStreamOverlay.h" must be included to use the class function.
 
 **VideoStreamOverlay::drawLine**
 --------------------------------
@@ -470,7 +470,7 @@ NA
 
 NA
 
-.. note :: VideoStreamOverlay::update() needs to be called for drawings to be shown on the video streams. “VideoStreamOverlay.h” must be included to use the class function.
+.. note :: VideoStreamOverlay::update() needs to be called for drawings to be shown on the video streams. "VideoStreamOverlay.h" must be included to use the class function.
 
 **VideoStreamOverlay::drawPoint**
 ---------------------------------
@@ -518,9 +518,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceDetection <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
+Example: `RTSPFaceDetection <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceDetection/RTSPFaceDetection.ino>`_
 
-.. note :: VideoStreamOverlay::update() needs to be called for drawings to be shown on the video streams. “VideoStreamOverlay.h” must be included to use the class function.
+.. note :: VideoStreamOverlay::update() needs to be called for drawings to be shown on the video streams. "VideoStreamOverlay.h" must be included to use the class function.
 
 **VideoStreamOverlay::drawRect**
 --------------------------------
@@ -572,9 +572,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
+Example: `MotionDetection/LoopPostProcessing <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-.. note :: VideoStreamOverlay::update() needs to be called for drawings to be shown on the video streams. “VideoStreamOverlay.h” must be included to use the class function.
+.. note :: VideoStreamOverlay::update() needs to be called for drawings to be shown on the video streams. "VideoStreamOverlay.h" must be included to use the class function.
 
 **VideoStreamOverlay::drawText**
 --------------------------------
@@ -622,9 +622,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
+Example: `MotionDetection/LoopPostProcessing <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-.. note :: VideoStreamOverlay::update() needs to be called for drawings to be shown on the video streams. “VideoStreamOverlay.h” must be included to use the class function.
+.. note :: VideoStreamOverlay::update() needs to be called for drawings to be shown on the video streams. "VideoStreamOverlay.h" must be included to use the class function.
 
 **VideoStreamOverlay::update**
 ------------------------------
@@ -653,6 +653,7 @@ ch: Channel to display drawings.
 - 2
 
 idx: Layer index of OSD.
+
 - 0 to 5 (Default value is 0)
 
 **Returns**
@@ -663,6 +664,6 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
+Example: `MotionDetection/LoopPostProcessing <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-.. note :: “VideoStreamOverlay.h” must be included to use the class function.
+.. note :: "VideoStreamOverlay.h" must be included to use the class function.

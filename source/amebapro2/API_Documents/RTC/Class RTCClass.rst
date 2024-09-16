@@ -1,5 +1,5 @@
 Class RTC
-==========
+=========
 
 .. contents::
   :local:
@@ -10,7 +10,8 @@ Class RTC
 
 **Description**
 ~~~~~~~~~~~~~~~
-| A class used for initializing, starting, stopping, and setting alarm with RTC.
+
+A class used for initializing, starting, stopping, and setting alarm with RTC.
 
 **Syntax**
 ~~~~~~~~~~
@@ -23,11 +24,11 @@ Class RTC
 ~~~~~~~~~~~
 
 +-----------------------------------+-----------------------------------+
-| **Public Constructors**           |                                   |
+| **Public Constructors**                                               |
 +===================================+===================================+
 | RTCClass:: RTCClass               | Constructs an RTC object.         |
 +-----------------------------------+-----------------------------------+
-| **Public Methods**                |                                   |
+| **Public Methods**                                                    |
 +-----------------------------------+-----------------------------------+
 | RTCClass::Init                    | Initializes the RTC device,       |
 |                                   | include clock, RTC registers and  |
@@ -80,9 +81,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Simple_RTC <https://github.com/ambiot/ambpro2_arduino/tree/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC/Simple_RTC.ino>`_, `Simple_RTC_Alarm <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC_Alarm/Simple_RTC_Alarm.ino>`_
+Example: `Simple_RTC <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC/Simple_RTC.ino>`_, `Simple_RTC_Alarm <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC_Alarm/Simple_RTC_Alarm.ino>`_
 
-.. note :: "rtc.h” must be included to use the class function.
+.. note :: "rtc.h" must be included to use the class function.
 
 **RTCClass::DeInit**
 --------------------
@@ -112,9 +113,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Simple_RTC <https://github.com/ambiot/ambpro2_arduino/tree/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC/Simple_RTC.ino>`_, `Simple_RTC_Alarm <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC_Alarm/Simple_RTC_Alarm.ino>`_
+Example: `Simple_RTC <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC/Simple_RTC.ino>`_, `Simple_RTC_Alarm <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC_Alarm/Simple_RTC_Alarm.ino>`_
 
-.. note :: “rtc.h” must be included to use the class function.
+.. note :: "rtc.h" must be included to use the class function.
 
 **RTCClass::Write**
 -------------------
@@ -144,9 +145,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Simple_RTC <https://github.com/ambiot/ambpro2_arduino/tree/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC/Simple_RTC.ino>`_, `Simple_RTC_Alarm <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC_Alarm/Simple_RTC_Alarm.ino>`_
+Example: `Simple_RTC <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC/Simple_RTC.ino>`_, `Simple_RTC_Alarm <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC_Alarm/Simple_RTC_Alarm.ino>`_
 
-.. note :: “rtc.h” must be included to use the class function.
+.. note :: "rtc.h" must be included to use the class function.
 
 **RTCClass::Read**
 ------------------
@@ -158,6 +159,7 @@ Get current timestamp in seconds from RTC.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
     long long Read(void);
@@ -175,9 +177,9 @@ The current timestamp in seconds which is calculated from 1970.1.100:00:00.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Simple_RTC <https://github.com/ambiot/ambpro2_arduino/tree/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC/Simple_RTC.ino>`_, `Simple_RTC_Alarm <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC_Alarm/Simple_RTC_Alarm.ino>`_
+Example: `Simple_RTC <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC/Simple_RTC.ino>`_, `Simple_RTC_Alarm <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC_Alarm/Simple_RTC_Alarm.ino>`_
 
-.. note :: “rtc.h” must be included to use the class function.
+.. note :: "rtc.h" must be included to use the class function.
 
 **RTCClass::Wait**
 ------------------
@@ -207,9 +209,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Simple_RTC <https://github.com/ambiot/ambpro2_arduino/tree/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC/Simple_RTC.ino>`_, `Simple_RTC_Alarm <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC_Alarm/Simple_RTC_Alarm.ino>`_
+Example: `Simple_RTC <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC/Simple_RTC.ino>`_, `Simple_RTC_Alarm <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC_Alarm/Simple_RTC_Alarm.ino>`_
 
-.. note :: “rtc.h” must be included to use the class function.
+.. note :: "rtc.h" must be included to use the class function.
 
 **RTCClass::SetEpoch**
 ----------------------
@@ -227,17 +229,29 @@ long long SetEpoch(int year, int month, int day, int hour, int min, int sec);
 **Parameters**
 ~~~~~~~~~~~~~~
 
-year: Input time in year. Start from 1900.
+year: Input time in year.
 
-month: Input time in month. 0 to 11
+- Start from 1900
 
-day: Input time unit in day. 1 to 31.
+month: Input time in month.
 
-hour: Input time unit in hour. 0 to 23.
+- 0 to 11
 
-min: Input time unit in min. 0 to 59.
+day: Input time unit in day.
 
-sec: Input time unit in sec. 0 to 59.
+- 1 to 31
+
+hour: Input time unit in hour.
+
+- 0 to 23
+
+min: Input time unit in min.
+
+- 0 to 59
+
+sec: Input time unit in sec.
+
+- 0 to 59
 
 **Returns**
 ~~~~~~~~~~~
@@ -247,9 +261,9 @@ The epoch time of the input date.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Simple_RTC <https://github.com/ambiot/ambpro2_arduino/tree/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC/Simple_RTC.ino>`_, `Simple_RTC_Alarm <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC_Alarm/Simple_RTC_Alarm.ino>`_
+Example: `Simple_RTC <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC/Simple_RTC.ino>`_, `Simple_RTC_Alarm <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC_Alarm/Simple_RTC_Alarm.ino>`_
 
-.. note :: “rtc.h” must be included to use the class function.
+.. note :: "rtc.h" must be included to use the class function.
 
 **RTCClass::EnableAlarm**
 -------------------------
@@ -269,13 +283,21 @@ Enable the RTC alarm.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-day: Alarm time unit in day. 1 to 31.
+day: Alarm time unit in day.
 
-hour: Alarm time unit in hour. 0 to 23.
+- 1 to 31
 
-min: Alarm time unit in min. 0 to 59.
+hour: Alarm time unit in hour.
 
-sec: Alarm time unit in sec. 0 to 59.
+- 0 to 23
+
+min: Alarm time unit in min.
+
+- 0 to 59
+
+sec: Alarm time unit in sec.
+
+- 0 to 59
 
 rtc_handler: the callback function for rtc alarm interrupt.
 
@@ -287,9 +309,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Simple_RTC <https://github.com/ambiot/ambpro2_arduino/tree/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC/Simple_RTC.ino>`_, `Simple_RTC_Alarm <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC_Alarm/Simple_RTC_Alarm.ino>`_
+Example: `Simple_RTC <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC/Simple_RTC.ino>`_, `Simple_RTC_Alarm <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC_Alarm/Simple_RTC_Alarm.ino>`_
 
-.. note :: “rtc.h” must be included to use the class function.
+.. note :: "rtc.h" must be included to use the class function.
 
 **RTCClass::DisableAlarm**
 --------------------------
@@ -319,6 +341,6 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Simple_RTC <https://github.com/ambiot/ambpro2_arduino/tree/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC/Simple_RTC.ino>`_, `Simple_RTC_Alarm <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC_Alarm/Simple_RTC_Alarm.ino>`_
+Example: `Simple_RTC <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC/Simple_RTC.ino>`_, `Simple_RTC_Alarm <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/RTC/examples/Simple_RTC_Alarm/Simple_RTC_Alarm.ino>`_
 
-.. note :: “rtc.h” must be included to use the class function.
+.. note :: "rtc.h" must be included to use the class function.

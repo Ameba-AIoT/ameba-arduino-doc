@@ -122,9 +122,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Audio/LoopbackTest <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/LoopbackTest/LoopbackTest.ino>`_
+Example: `Audio/LoopbackTest <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/LoopbackTest/LoopbackTest.ino>`_
 
-.. note :: “AudioStream.h” must be included to use the class function.
+.. note :: "AudioStream.h" must be included to use the class function.
 
 **Audio::configMicAEC**
 -----------------------
@@ -158,9 +158,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Audio/EchoCancellation <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/EchoCancellation/EchoCancellation.ino>`_
+Example: `Audio/EchoCancellation <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/EchoCancellation/EchoCancellation.ino>`_
 
-.. note :: “AudioStream.h” must be included to use the class function. The algorithm will only work when the audio sample rate is configured as 8kHz or 16kHz. The Acoustic Echo Cancellation algorithm is intended to prevent the microphone audio input from picking up sounds produced by the speaker audio output.
+.. note :: "AudioStream.h" must be included to use the class function. The algorithm will only work when the audio sample rate is configured as 8kHz or 16kHz. The Acoustic Echo Cancellation algorithm is intended to prevent the microphone audio input from picking up sounds produced by the speaker audio output.
 
 **Audio::configMicAEC**
 -----------------------
@@ -194,9 +194,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Audio/AudioEffect <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/AudioEffect/AudioEffect.ino>`_
+Example: `Audio/AudioEffect <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/AudioEffect/AudioEffect.ino>`_
 
-.. note :: “AudioStream.h” must be included to use the class function. The algorithm will only work when the audio sample rate is configured as 8kHz or 16kHz.
+.. note :: "AudioStream.h" must be included to use the class function. The algorithm will only work when the audio sample rate is configured as 8kHz or 16kHz.
 
 **Audio::configMicNS**
 ----------------------
@@ -230,9 +230,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Audio/AudioEffect <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/AudioEffect/AudioEffect.ino>`_
+Example: `Audio/AudioEffect <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/AudioEffect/AudioEffect.ino>`_
 
-.. note :: “AudioStream.h” must be included to use the class function. The algorithm will only work when the audio sample rate is configured as 8kHz or 16kHz.
+.. note :: "AudioStream.h" must be included to use the class function. The algorithm will only work when the audio sample rate is configured as 8kHz or 16kHz.
 
 **Audio::configSpkAGC**
 -----------------------
@@ -266,9 +266,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Audio/AudioEffect <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/AudioEffect/AudioEffect.ino>`_
+Example: `Audio/AudioEffect <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/AudioEffect/AudioEffect.ino>`_
 
-.. note :: “AudioStream.h” must be included to use the class function. The algorithm will only work when the audio sample rate is configured as 8kHz or 16kHz.
+.. note :: "AudioStream.h" must be included to use the class function. The algorithm will only work when the audio sample rate is configured as 8kHz or 16kHz.
 
 **Audio::configSpkNS**
 ----------------------
@@ -302,9 +302,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Audio/AudioEffect <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/AudioEffect/AudioEffect.ino>`_
+Example: `Audio/AudioEffect <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/AudioEffect/AudioEffect.ino>`_
 
-.. note :: “AudioStream.h” must be included to use the class function. The algorithm will only work when the audio sample rate is configured as 8kHz or 16kHz.
+.. note :: "AudioStream.h" must be included to use the class function. The algorithm will only work when the audio sample rate is configured as 8kHz or 16kHz.
 
 **Audio::begin**
 ----------------
@@ -334,9 +334,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Audio/LoopbackTest <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/LoopbackTest/LoopbackTest.ino>`_
+Example: `Audio/LoopbackTest <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/LoopbackTest/LoopbackTest.ino>`_
 
-.. note :: “AudioStream.h” must be included to use the class function.
+.. note :: "AudioStream.h" must be included to use the class function.
 
 **Audio::end**
 --------------
@@ -368,7 +368,7 @@ NA
 
 NA
 
-.. note :: “AudioStream.h” must be included to use the class function.
+.. note :: "AudioStream.h" must be included to use the class function.
 
 **Audio::setAMicBoost**
 -----------------------
@@ -400,9 +400,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Audio/AudioEffect <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/AudioEffect/AudioEffect.ino>`_
+Example: `Audio/AudioEffect <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/AudioEffect/AudioEffect.ino>`_
 
-.. note :: “AudioStream.h” must be included to use the class function.
+.. note :: "AudioStream.h" must be included to use the class function.
 
 **Audio::setDMicBoost**
 -----------------------
@@ -434,9 +434,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Audio/AudioEffect <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/AudioEffect/AudioEffect.ino>`_
+Example: `Audio/AudioEffect <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/AudioEffect/AudioEffect.ino>`_
 
-.. note :: “AudioStream.h” must be included to use the class function.
+.. note :: "AudioStream.h" must be included to use the class function.
 
 **Audio::setMicGain**
 ---------------------
@@ -468,9 +468,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Audio/AudioVolumeAdjust <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/AudioVolumeAdjust/AudioVolumeAdjust.ino>`_
+Example: `Audio/AudioVolumeAdjust <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/AudioVolumeAdjust/AudioVolumeAdjust.ino>`_
 
-.. note :: “AudioStream.h” must be included to use the class function.
+.. note :: "AudioStream.h" must be included to use the class function.
 
 **Audio::setSpkGain**
 ---------------------
@@ -502,9 +502,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Audio/AudioVolumeAdjust <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/AudioVolumeAdjust/AudioVolumeAdjust.ino>`_
+Example: `Audio/AudioVolumeAdjust <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/AudioVolumeAdjust/AudioVolumeAdjust.ino>`_
 
-.. note :: “AudioStream.h” must be included to use the class function.
+.. note :: "AudioStream.h" must be included to use the class function.
 
 **Audio::muteMic**
 ------------------
@@ -536,7 +536,7 @@ NA
 
 NA
 
-.. note :: “AudioStream.h” must be included to use the class function.
+.. note :: "AudioStream.h" must be included to use the class function.
 
 **Audio::muteSpk**
 ------------------
@@ -568,7 +568,7 @@ NA
 
 NA
 
-.. note :: “AudioStream.h” must be included to use the class function.
+.. note :: "AudioStream.h" must be included to use the class function.
 
 **Audio::printInfo**
 --------------------
@@ -598,6 +598,6 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `StreamRTSP/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
+Example: `StreamRTSP/SingleVideoWithAudio <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-.. note :: “AudioStream.h” must be included to use the class function.
+.. note :: "AudioStream.h" must be included to use the class function.

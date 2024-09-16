@@ -100,9 +100,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `StreamRTSP/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
+Example: `StreamRTSP/SingleVideoWithAudio <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-.. note :: “StreamIO.h” must be included to use the class function.
+.. note :: "StreamIO.h" must be included to use the class function.
 
 **StreamIO::begin**
 -------------------
@@ -132,9 +132,9 @@ Function returns 0 for success, -1 for fail to start the data streaming task.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RecordMP4/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
+Example: `RecordMP4/SingleVideoWithAudio <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-.. note :: This function should only be called after configuration of input and output data streams. “StreamIO.h” must be included to use the class function.
+.. note :: This function should only be called after configuration of input and output data streams. "StreamIO.h" must be included to use the class function.
 
 **StreamIO::end**
 -----------------
@@ -166,7 +166,7 @@ NA
 
 NA
 
-.. note :: “StreamIO.h” must be included to use the class function.
+.. note :: "StreamIO.h" must be included to use the class function.
 
 **StreamIO::pause**
 -------------------
@@ -198,7 +198,7 @@ NA
 
 NA
 
-.. note :: “StreamIO.h” must be included to use the class function.
+.. note :: "StreamIO.h" must be included to use the class function.
 
 **StreamIO::resume**
 --------------------
@@ -230,7 +230,7 @@ NA
 
 NA
 
-.. note :: “StreamIO.h” must be included to use the class function.
+.. note :: "StreamIO.h" must be included to use the class function.
 
 **StreamIO::registerInput**
 ---------------------------
@@ -260,9 +260,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RecordMP4/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
+Example: `RecordMP4/SingleVideoWithAudio <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-.. note :: When used on a multi-input StreamIO class, this has the same effect as calling registerInput1. “StreamIO.h” must be included to use the class function.
+.. note :: When used on a multi-input StreamIO class, this has the same effect as calling registerInput1. "StreamIO.h" must be included to use the class function.
 
 **StreamIO::registerInput1**
 ----------------------------
@@ -292,9 +292,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RecordMP4/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
+Example: `RecordMP4/SingleVideoWithAudio <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-.. note :: When used on a single-input StreamIO class, this has the same effect as calling registerInput. “StreamIO.h” must be included to use the class function.
+.. note :: When used on a single-input StreamIO class, this has the same effect as calling registerInput. "StreamIO.h" must be included to use the class function.
 
 **StreamIO::registerInput2**
 ----------------------------
@@ -324,9 +324,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RecordMP4/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
+Example: `RecordMP4/SingleVideoWithAudio <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-.. note :: When used on a single-input StreamIO class, this has the same effect as calling registerInput. “StreamIO.h” must be included to use the class function.
+.. note :: When used on a single-input StreamIO class, this has the same effect as calling registerInput. "StreamIO.h" must be included to use the class function.
 
 **StreamIO::registerInput3**
 ----------------------------
@@ -356,9 +356,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RecordMP4/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
+Example: `RecordMP4/SingleVideoWithAudio <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-.. note :: When used on a single-input StreamIO class, this has the same effect as calling registerInput. “StreamIO.h” must be included to use the class function.
+.. note :: When used on a single-input StreamIO class, this has the same effect as calling registerInput. "StreamIO.h" must be included to use the class function.
 
 **StreamIO::registerOutput**
 ----------------------------
@@ -388,9 +388,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RecordMP4/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
+Example: `RecordMP4/SingleVideoWithAudio <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-.. note :: When used on a multi-output StreamIO class, this has the same effect as calling registerOutput1. “StreamIO.h” must be included to use the class function.
+.. note :: When used on a multi-output StreamIO class, this has the same effect as calling registerOutput1. "StreamIO.h" must be included to use the class function.
 
 **StreamIO::registerOutput1**
 -----------------------------
@@ -420,9 +420,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RecordMP4/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
+Example: `RecordMP4/SingleVideoWithAudio <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-.. note :: When used on a single-output StreamIO class, this has the same effect as calling registerOutput. “StreamIO.h” must be included to use the class function.
+.. note :: When used on a single-output StreamIO class, this has the same effect as calling registerOutput. "StreamIO.h" must be included to use the class function.
 
 **StreamIO::registerOutput2**
 -----------------------------
@@ -452,9 +452,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RecordMP4/SingleVideoWithAudio <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
+Example: `RecordMP4/SingleVideoWithAudio <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/RecordMP4/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
 
-.. note :: When used on a single-output StreamIO class, this has the same effect as calling registerOutput. “StreamIO.h” must be included to use the class function.
+.. note :: When used on a single-output StreamIO class, this has the same effect as calling registerOutput. "StreamIO.h" must be included to use the class function.
 
 **StreamIO::setStackSize**
 --------------------------
@@ -486,7 +486,7 @@ NA
 
 NA
 
-.. note :: “StreamIO.h” must be included to use the class function.
+.. note :: "StreamIO.h" must be included to use the class function.
 
 **StreamIO::setTaskPriority**
 -----------------------------
@@ -518,4 +518,4 @@ NA
 
 NA
 
-.. note :: “StreamIO.h” must be included to use the class function.
+.. note :: "StreamIO.h" must be included to use the class function.

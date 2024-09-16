@@ -18,7 +18,7 @@ A class of WiFi Client implementation for Ameba.
 
 .. code-block:: c++
 
-  class WiFiClient
+    class WiFiClient
 
 **Members**
 ~~~~~~~~~~~
@@ -29,29 +29,19 @@ A class of WiFi Client implementation for Ameba.
 | WiFiClient::WiFiClient       | Constructs a WiFiClient instance that |
 |                              | connects to the specified IP address  |
 |                              | and port.                             |
-|                              |                                       |
 +------------------------------+---------------------------------------+
 | **Public Methods**                                                   |
 +------------------------------+---------------------------------------+
-| WiFiClient::connect          | Connect to the IP address and port    |
-|                              |                                       |
-|                              |                                       |
-|                              |                                       |
+| WiFiClient::connect          | Connect to the IP address and port.   |
 +------------------------------+---------------------------------------+
 | WiFiClient::write            | Write data (single byte) to the       |
-|                              | server                                |
-|                              |                                       |
-|                              |                                       |
+|                              | server.                               |
 +------------------------------+---------------------------------------+
 | WiFiClient::available        | Get the number of bytes available for |
-|                              | reading                               |
-|                              |                                       |
-|                              |                                       |
+|                              | reading.                              |
 +------------------------------+---------------------------------------+
 | WiFiClient::read             | Read the incoming byte from the       |
-|                              | server                                |
-|                              |                                       |
-|                              |                                       |
+|                              | server.                               |
 +------------------------------+---------------------------------------+
 | WiFiClient::recv             | Read the received byte from the       |
 |                              | server that the client is connected   |
@@ -59,29 +49,19 @@ A class of WiFi Client implementation for Ameba.
 +------------------------------+---------------------------------------+
 | WiFiClient::peek             | Get the next byte from the current    |
 |                              | packet without moving on to the next  |
-|                              | byte                                  |
-|                              |                                       |
+|                              | byte.                                 |
 +------------------------------+---------------------------------------+
 | WiFiClient::flush            | Clear all the bytes that have been    |
 |                              | written to the client but not yet     |
-|                              | read                                  |
-|                              |                                       |
+|                              | read.                                 |
 +------------------------------+---------------------------------------+
-| WiFiClient::stop             | Disconnect from the server            |
-|                              |                                       |
-|                              |                                       |
-|                              |                                       |
+| WiFiClient::stop             | Disconnect from the server.           |
 +------------------------------+---------------------------------------+
-| WiFiClient::connected        | Check if client is connected          |
-|                              |                                       |
-|                              |                                       |
-|                              |                                       |
+| WiFiClient::connected        | Check if client is connected.         |
 +------------------------------+---------------------------------------+
 | WiFiClient::setRecvTimeout   | Set the amount of time the client     |
 |                              | will wait for new data to arrive each |
 |                              | time WiFiClient::read() is called.    |
-|                              |                                       |
-|                              |                                       |
 +------------------------------+---------------------------------------+
 
 **WiFiClient::WiFiClient**
@@ -97,9 +77,8 @@ Constructs a WiFiClient instance that connects to a specified IP address and por
 
 .. code-block:: c++
 
-  WiFiClient(void);
-
-  WiFiClient(uint8_t sock);
+    WiFiClient(void);
+    WiFiClient(uint8_t sock);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -114,9 +93,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `WiFiWebClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiWebClient/WiFiWebClient.ino>`_
+Example: `SimpleHttpRequest <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleHttpRequest/SimpleHttpRequest.ino>`_
 
-.. note :: “WiFiClient.h” must be included to use the class function.
+.. note :: "WiFiClient.h" must be included to use the class function.
 
 **WiFiClient::connect**
 -----------------------
@@ -131,29 +110,30 @@ Connect to the IP address and port.
 
 .. code-block:: c++
 
-  int connect(const char *host, uint16_t port);
-
-  int connect(IPAddress ip, uint16_t port);
+    int connect(const char *host, uint16_t port);
+    int connect(IPAddress ip, uint16_t port);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-ip: IP address that the client will connect to
-host: Host name that the client will connect to
-port: the port that the client will connect to
+ip: IP address that the client will connect to.
+
+host: Host name that the client will connect to.
+
+port: the port that the client will connect to.
 
 **Returns**
 ~~~~~~~~~~~
 
-This function returns “1” if the connection is successful, else returns
-“0”.
+This function returns "1" if the connection is successful, else returns
+"0".
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `WiFiWebClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiWebClient/WiFiWebClient.ino>`_
+Example: `SimpleHttpRequest <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleHttpRequest/SimpleHttpRequest.ino>`_
 
-.. note :: “WiFiClient.h” must be included to use the class function.
+.. note :: "WiFiClient.h" must be included to use the class function.
 
 **WiFiClient::write**
 ---------------------
@@ -168,8 +148,8 @@ Write data (single byte) to the server that the client is connected to.
 
 .. code-block:: c++
 
-  size_t write(uint8_t b);
-  size_t write(const uint8_t *buf, size_t size);
+    size_t write(uint8_t b);
+    size_t write(const uint8_t *buf, size_t size);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -181,7 +161,7 @@ size: the size of the buffer
 **Returns**
 ~~~~~~~~~~~
 
-This function returns the byte/ character that will be written to the
+This function returns the byte / character that will be written to the
 server or the size of the buffer.
 
 **Example Code**
@@ -189,7 +169,7 @@ server or the size of the buffer.
 
 NA
 
-.. note :: “WiFiClient.h” must be included to use the class function.
+.. note :: "WiFiClient.h" must be included to use the class function.
 
 **WiFiClient::available**
 -------------------------
@@ -204,7 +184,7 @@ Get the number of bytes available for reading.
 
 .. code-block:: c++
 
-  int available(void);
+    int available(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -214,21 +194,21 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns 1 and number of bytes available for reading if
-there are available data, else returns 0.
+This function returns 1 and number of bytes available for reading if there are available data, else returns 0.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `WiFiWebClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiWebClient/WiFiWebClient.ino>`_
+Example: `SimpleHttpRequest <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleHttpRequest/SimpleHttpRequest.ino>`_
 
-.. note :: “WiFiClient.h” must be included to use the class function.
+.. note :: "WiFiClient.h" must be included to use the class function.
 
 **WiFiClient::read**
 --------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
+
 Read the incoming byte from the server that the client is connected to.
 
 **Syntax**
@@ -236,16 +216,15 @@ Read the incoming byte from the server that the client is connected to.
 
 .. code-block:: c++
 
-  int read(void);
-
-  int read(uint8_t *buf, size_t size);
-
-  int read(char *buf, size_t size);
+    int read(void);
+    int read(uint8_t *buf, size_t size);
+    int read(char *buf, size_t size);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
 buf: buffer to hold incoming byte
+
 size: maximum size of the buffer
 
 **Returns**
@@ -256,9 +235,9 @@ This function returns the size of the buffer or returns -1 if no buffer is avail
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `WiFiWebClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiWebClient/WiFiWebClient.ino>`_
+Example: `SimpleHttpRequest <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleHttpRequest/SimpleHttpRequest.ino>`_
 
-.. note :: “WiFiClient.h” must be included to use the class function.
+.. note :: "WiFiClient.h" must be included to use the class function.
 
 **WiFiClient::recv**
 --------------------
@@ -273,12 +252,13 @@ Read the received byte from the server that the client is connected to.
 
 .. code-block:: c++
 
-  int recv (uint8_t *buf, size_t size);
+    int recv (uint8_t *buf, size_t size);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
 buf: buffer to hold received byte
+
 size: maximum size of the buffer
 
 **Returns**
@@ -289,9 +269,9 @@ This function returns 1 and number of bytes received or returns -1 if no data is
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `WiFiWebClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiWebClient/WiFiWebClient.ino>`_
+Example: `SimpleHttpRequest <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleHttpRequest/SimpleHttpRequest.ino>`_
 
-.. note :: “WiFiClient.h” must be included to use the class function.
+.. note :: "WiFiClient.h" must be included to use the class function.
 
 **WiFiClient::peek**
 --------------------
@@ -306,7 +286,7 @@ Get the next byte from the current packet without moving on to the next byte.
 
 .. code-block:: c++
 
-  int peek(void);
+    int peek(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -323,7 +303,7 @@ This function returns the next byte or character, else returns -1 if none is ava
 
 NA
 
-.. note :: “WiFiClient.h” must be included to use the class function.
+.. note :: "WiFiClient.h" must be included to use the class function.
 
 **WiFiClient::flush**
 ---------------------
@@ -338,7 +318,7 @@ Clear all the bytes that have been written to the client but not yet read.
 
 .. code-block:: c++
 
-  void flush(void);
+    void flush(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -355,7 +335,7 @@ NA
 
 NA
 
-.. note :: “WiFiClient.h” must be included to use the class function.
+.. note :: "WiFiClient.h" must be included to use the class function.
 
 **WiFiClient::stop**
 --------------------
@@ -370,7 +350,7 @@ Disconnect from the server.
 
 .. code-block:: c++
 
-  void stop(void);
+    void stop(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -385,9 +365,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `WiFiWebClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiWebClient/WiFiWebClient.ino>`_
+Example: `SimpleHttpRequest <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleHttpRequest/SimpleHttpRequest.ino>`_
 
-.. note :: “WiFiClient.h” must be included to use the class function.
+.. note :: "WiFiClient.h" must be included to use the class function.
 
 **WiFiClient::connected**
 -------------------------
@@ -402,7 +382,7 @@ Check if client is connected.
 
 .. code-block:: c++
 
-  virtual uint8_t connected(void);
+    virtual uint8_t connected(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -412,14 +392,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns “1” if connected, returns “0” if not connected.
+This function returns "1" if connected, returns "0" if not connected.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `WiFiWebClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiWebClient/WiFiWebClient.ino>`_
+Example: `SimpleHttpRequest <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleHttpRequest/SimpleHttpRequest.ino>`_
 
-.. note :: “WiFiClient.h” must be included to use the class function.
+.. note :: "WiFiClient.h" must be included to use the class function.
 
 **WiFiClient::setRecvTimeout**
 ------------------------------
@@ -434,7 +414,7 @@ Set the amount of time the client will wait for new data to arrive each time WiF
 
 .. code-block:: c++
 
-  int setRecvTimeout(int timeout);
+    int setRecvTimeout(int timeout);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -444,11 +424,11 @@ timeout: timeout in seconds
 **Returns**
 ~~~~~~~~~~~
 
-This function returns “0” if client is not connected.
+This function returns "0" if client is not connected.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “WiFiClient.h” must be included to use the class function.
+.. note :: "WiFiClient.h" must be included to use the class function.

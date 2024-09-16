@@ -24,13 +24,13 @@ A class for USB UVC device API.
 ~~~~~~~~~~~
 
 +-----------------------------------+----------------------------------+
-| **Public Constructors**           |                                  |
+| **Public Constructors**                                              |
 +===================================+==================================+
 | UVCD::UVCD                        | Constructs a UVCD object.        |
 |                                   | Initialize/Re-initialize of      |
 |                                   | using USB UVC device.            |
 +-----------------------------------+----------------------------------+
-| **Public Methods**                |                                  |
+| **Public Methods**                                                   |
 +-----------------------------------+----------------------------------+
 | UVCD::configVideo                 | Start config video of using USB  |
 |                                   | UVC device.                      |
@@ -68,9 +68,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `UVC Device <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/UVC_Device/UVC_Device.ino>`_
+Example: `UVC_Device <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/USB/examples/UVC_Device/UVC_Device.ino>`_
 
-.. note :: “UVCD.h”, "StreamIO.h" and "VideoStream.h" must be included to use the class function.
+.. note :: "UVCD.h", "StreamIO.h" and "VideoStream.h" must be included to use the class function.
 
 **UVCD::configVideo**
 ---------------------
@@ -100,9 +100,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `UVC Device <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/UVC_Device/UVC_Device.ino>`_
+Example: `UVC_Device <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/USB/examples/UVC_Device/UVC_Device.ino>`_
 
-.. note :: “UVCD.h”, "StreamIO.h" and "VideoStream.h" must be included to use the class function.
+.. note :: "UVCD.h", "StreamIO.h" and "VideoStream.h" must be included to use the class function.
 
 **UVCD::begin**
 ---------------
@@ -136,6 +136,6 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `UVC Device <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/UVC_Device/UVC_Device.ino>`_
+Example: `UVC_Device <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/USB/examples/UVC_Device/UVC_Device.ino>`_
 
-.. note :: “UVCD.h”, "StreamIO.h" and "VideoStream.h" must be included to use the class function.
+.. note :: "UVCD.h", "StreamIO.h" and "VideoStream.h" must be included to use the class function.

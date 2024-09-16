@@ -13,6 +13,7 @@ API Documents
    Multimedia/index
    NeuralNetwork/index
    NTPClient/index
+   OTA/index
    PowerMode/index
    RTC/index
    SPI/index

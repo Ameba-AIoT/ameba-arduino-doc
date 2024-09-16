@@ -76,9 +76,9 @@ A float ranging from 0.00 to 1.00, with 0.00 indicating the left edge of the inp
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
+Example: `MotionDetection/LoopPostProcessing <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-.. note :: “MotionDetection.h” must be included to use the class function.
+.. note :: "MotionDetection.h" must be included to use the class function.
 
 **MotionDetectionResult::xMax**
 -------------------------------
@@ -108,9 +108,9 @@ A float ranging from 0.00 to 1.00, with 0.00 indicating the left edge of the inp
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
+Example: `MotionDetection/LoopPostProcessing <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-.. note :: “MotionDetection.h” must be included to use the class function.
+.. note :: "MotionDetection.h" must be included to use the class function.
 
 **MotionDetectionResult::yMin**
 -------------------------------
@@ -140,9 +140,9 @@ A float ranging from 0.00 to 1.00, with 0.00 indicating the left edge of the inp
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
+Example: `MotionDetection/LoopPostProcessing <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-.. note :: “MotionDetection.h” must be included to use the class function.
+.. note :: "MotionDetection.h" must be included to use the class function.
 
 **MotionDetectionResult::yMax**
 -------------------------------
@@ -172,9 +172,9 @@ A float ranging from 0.00 to 1.00, with 0.00 indicating the left edge of the inp
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
+Example: `MotionDetection/LoopPostProcessing <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-.. note :: “MotionDetection.h” must be included to use the class function.
+.. note :: "MotionDetection.h" must be included to use the class function.
 
 **MotionDetection Class**
 -------------------------
@@ -276,9 +276,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
+Example: `MotionDetection/LoopPostProcessing <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-.. note :: “MotionDetection.h” must be included to use the class function.
+.. note :: "MotionDetection.h" must be included to use the class function.
 
 **MotionDetection::configResolution**
 -------------------------------------
@@ -318,7 +318,7 @@ NA
 
 NA
 
-.. note :: “MotionDetection.h” must be included to use the class function.
+.. note :: "MotionDetection.h" must be included to use the class function.
 
 **MotionDetection::configVideo**
 --------------------------------
@@ -348,9 +348,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
+Example: `MotionDetection/LoopPostProcessing <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-.. note :: “MotionDetection.h” must be included to use the class function. For motion detection, the input video stream uses the RGB format, which is only available on video stream channel 3.
+.. note :: "MotionDetection.h" must be included to use the class function. For motion detection, the input video stream uses the RGB format, which is only available on video stream channel 3.
 
 **MotionDetection::begin**
 --------------------------
@@ -380,9 +380,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
+Example: `MotionDetection/LoopPostProcessing <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-.. note :: “MotionDetection.h” must be included to use the class function.
+.. note :: "MotionDetection.h" must be included to use the class function.
 
 **MotionDetection::end**
 ------------------------
@@ -414,7 +414,7 @@ NA
 
 NA
 
-.. note :: “MotionDetection.h” must be included to use the class function.
+.. note :: "MotionDetection.h" must be included to use the class function.
 
 **MotionDetection::setTriggerBlockCount**
 -----------------------------------------
@@ -446,7 +446,7 @@ NA
 
 NA
 
-.. note :: “MotionDetection.h” must be included to use the class function.
+.. note :: "MotionDetection.h" must be included to use the class function.
 
 **MotionDetection::setDetectionMask**
 -------------------------------------
@@ -482,7 +482,7 @@ NA
 
 NA
 
-.. note :: “MotionDetection.h” must be included to use the class function.
+.. note :: "MotionDetection.h" must be included to use the class function.
 
 **MotionDetection::getResult**
 ------------------------------
@@ -515,9 +515,9 @@ If there is an index specified, the function returns the specific detected motio
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
+Example: `MotionDetection/LoopPostProcessing <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-.. note :: “MotionDetection.h” must be included to use the class function.
+.. note :: "MotionDetection.h" must be included to use the class function.
 
 **MotionDetection::setResultCallback**
 --------------------------------------
@@ -547,9 +547,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MotionDetection/CallbackPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/CallbackPostProcessing/CallbackPostProcessing.ino>`_
+Example: `MotionDetection/CallbackPostProcessing <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/CallbackPostProcessing/CallbackPostProcessing.ino>`_
 
-.. note :: “MotionDetection.h” must be included to use the class function.
+.. note :: "MotionDetection.h" must be included to use the class function.
 
 **MotionDetection::getResultCount**
 -----------------------------------
@@ -579,9 +579,9 @@ The number of detected motions in the most recent set of results, as an unsigned
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MotionDetection/CallbackPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/CallbackPostProcessing/CallbackPostProcessing.ino>`_
+Example: `MotionDetection/CallbackPostProcessing <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/CallbackPostProcessing/CallbackPostProcessing.ino>`_
 
-.. note :: “MotionDetection.h” must be included to use the class function.
+.. note :: "MotionDetection.h" must be included to use the class function.
 
 **MotionDetection::rows**
 -------------------------
@@ -613,7 +613,7 @@ The number of rows in the motion detection grid, expressed as an unsigned intege
 
 NA
 
-.. note :: “MotionDetection.h” must be included to use the class function.
+.. note :: "MotionDetection.h" must be included to use the class function.
 
 **MotionDetection::cols**
 -------------------------
@@ -645,4 +645,4 @@ The number of cols in the motion detection grid, expressed as an unsigned intege
 
 NA
 
-.. note :: “MotionDetection.h” must be included to use the class function.
+.. note :: "MotionDetection.h" must be included to use the class function.

@@ -83,11 +83,11 @@ max: Maximum pulse width to be set for PWM. Default value is 2400us.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ServoSweep <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Analog/examples/ServoSweep/ServoSweep.ino>`_
+Example: `PWM_ServoControl <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Analog/examples/PWM_ServoControl/PWM_ServoControl.ino>`_
 
 The code demonstrates a servo motor sweeping from 0 - 180 - 0 degrees, in 1-degree intervals.
 
-.. note :: “AmebaServo.h” must be included to use the class function.
+.. note :: "AmebaServo.h" must be included to use the class function.
 
 **AmebaServo::detach**
 ----------------------
@@ -119,7 +119,7 @@ NA
 
 NA
 
-.. note :: “AmebaServo.h” must be included to use the class function.
+.. note :: "AmebaServo.h" must be included to use the class function.
 
 **AmebaServo::write**
 ---------------------
@@ -151,9 +151,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ServoSweep <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Analog/examples/ServoSweep/ServoSweep.ino>`_
+Example: `PWM_ServoControl <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Analog/examples/PWM_ServoControl/PWM_ServoControl.ino>`_
 
-.. note :: “AmebaServo.h” must be included to use the class function.
+.. note :: "AmebaServo.h" must be included to use the class function.
 
 **AmebaServo::writeMicroseconds**
 ---------------------------------
@@ -187,7 +187,7 @@ NA
 
 NA
 
-.. note :: “AmebaServo.h” must be included to use the class function.
+.. note :: "AmebaServo.h" must be included to use the class function.
 
 **AmebaServo::read**
 --------------------
@@ -219,7 +219,7 @@ This function returns integer value that represents pulse width between 0 - 180 
 
 NA
 
-.. note :: “AmebaServo.h” must be included to use the class function.
+.. note :: "AmebaServo.h" must be included to use the class function.
 
 **AmebaServo::readMicroseconds**
 --------------------------------
@@ -251,7 +251,7 @@ This function returns an integer value that represents pulse width in microsecon
 
 NA
 
-.. note :: “AmebaServo.h” must be included to use the class function.
+.. note :: "AmebaServo.h" must be included to use the class function.
 
 **AmebaServo::attached**
 ------------------------
@@ -280,6 +280,7 @@ This function returns 1 if the servo has been attached, else it returns 0.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
-Example: `ServoSweep <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Analog/examples/ServoSweep/ServoSweep.ino>`_
 
-.. note :: “AmebaServo.h” must be included to use the class function.
+Example: `PWM_ServoControl <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Analog/examples/PWM_ServoControl/PWM_ServoControl.ino>`_
+
+.. note :: "AmebaServo.h" must be included to use the class function.

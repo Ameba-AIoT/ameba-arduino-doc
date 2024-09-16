@@ -135,9 +135,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/ImageTuning <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
+Example: `ISPControl/ImageTuning <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::getBrightness**
 --------------------------------
@@ -167,9 +167,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/ImageTuning <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
+Example: `ISPControl/ImageTuning <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::setContrast**
 ------------------------------
@@ -201,9 +201,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/ImageTuning <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
+Example: `ISPControl/ImageTuning <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::getContrast**
 ------------------------------
@@ -233,9 +233,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/ImageTuning <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
+Example: `ISPControl/ImageTuning <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::setSaturation**
 --------------------------------
@@ -267,9 +267,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/ImageTuning <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
+Example: `ISPControl/ImageTuning <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::getSaturation**
 --------------------------------
@@ -299,9 +299,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/ImageTuning <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
+Example: `ISPControl/ImageTuning <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::setSharpness**
 -------------------------------
@@ -333,9 +333,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/ImageTuning <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
+Example: `ISPControl/ImageTuning <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::getSharpness**
 -------------------------------
@@ -365,9 +365,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/ImageTuning <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
+Example: `ISPControl/ImageTuning <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::setLDC**
 -------------------------
@@ -401,9 +401,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/ImageTuning <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
+Example: `ISPControl/ImageTuning <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::getLDC**
 -------------------------
@@ -433,9 +433,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/ImageTuning <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
+Example: `ISPControl/ImageTuning <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/ImageTuning/ImageTuning.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::setWDR**
 -------------------------
@@ -471,9 +471,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/WideDynamicRange <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WideDynamicRange/WideDynamicRange.ino>`_
+Example: `ISPControl/WideDynamicRange <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WideDynamicRange/WideDynamicRange.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::getWDR**
 -------------------------
@@ -503,9 +503,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/WideDynamicRange <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WideDynamicRange/WideDynamicRange.ino>`_
+Example: `ISPControl/WideDynamicRange <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WideDynamicRange/WideDynamicRange.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::setWDRLevel**
 ------------------------------
@@ -537,9 +537,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/WideDynamicRange <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WideDynamicRange/WideDynamicRange.ino>`_
+Example: `ISPControl/WideDynamicRange <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WideDynamicRange/WideDynamicRange.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function. WDR level can only be modified, and changes can be seen on image if WDR mode is set to manual mode before calling setWDRLevel() function.
+.. note :: "VideoStream.h" must be included to use the class function. WDR level can only be modified, and changes can be seen on image if WDR mode is set to manual mode before calling setWDRLevel() function.
 
 **CameraSetting::getWDRLevel**
 ------------------------------
@@ -569,9 +569,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/WideDynamicRange <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WideDynamicRange/WideDynamicRange.ino>`_
+Example: `ISPControl/WideDynamicRange <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WideDynamicRange/WideDynamicRange.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::setExposureMode**
 ----------------------------------
@@ -605,9 +605,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/Exposure <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
+Example: `ISPControl/Exposure <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::getExposureMode**
 ----------------------------------
@@ -637,9 +637,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/Exposure <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
+Example: `ISPControl/Exposure <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::setExposureTime**
 ----------------------------------
@@ -671,9 +671,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/Exposure <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
+Example: `ISPControl/Exposure <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::getExposureTime**
 ----------------------------------
@@ -703,9 +703,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/Exposure <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
+Example: `ISPControl/Exposure <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::setAEGain**
 ----------------------------
@@ -737,9 +737,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/Exposure <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
+Example: `ISPControl/Exposure <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function. AE gain can only be modified, and changes can be seen on image if Exposure mode is set to manual mode before calling setAEGain() function.
+.. note :: "VideoStream.h" must be included to use the class function. AE gain can only be modified, and changes can be seen on image if Exposure mode is set to manual mode before calling setAEGain() function.
 
 **CameraSetting::getAEGain**
 ----------------------------
@@ -769,9 +769,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/Exposure <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
+Example: `ISPControl/Exposure <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::setPowerLineFreq**
 -----------------------------------
@@ -809,9 +809,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/Exposure <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
+Example: `ISPControl/Exposure <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::getPowerLineFreq**
 -----------------------------------
@@ -841,9 +841,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/Exposure <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
+Example: `ISPControl/Exposure <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Exposure/Exposure.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::setAWB**
 -------------------------
@@ -877,9 +877,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/WhiteBalance <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino>`_
+Example: `ISPControl/WhiteBalance <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::getAWB**
 -------------------------
@@ -909,9 +909,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/WhiteBalance <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino>`_
+Example: `ISPControl/WhiteBalance <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::getWBTemp**
 ----------------------------
@@ -941,9 +941,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/WhiteBalance <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino>`_
+Example: `ISPControl/WhiteBalance <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::setRedBalance**
 --------------------------------
@@ -975,9 +975,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/WhiteBalance <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino>`_
+Example: `ISPControl/WhiteBalance <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function. Red Balance value can only be modified, and changes can be seen on image if white balance mode is set to manual mode before calling setRedBalance() function.
+.. note :: "VideoStream.h" must be included to use the class function. Red Balance value can only be modified, and changes can be seen on image if white balance mode is set to manual mode before calling setRedBalance() function.
 
 **CameraSetting::getRedBalance**
 --------------------------------
@@ -1007,9 +1007,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/WhiteBalance <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino>`_
+Example: `ISPControl/WhiteBalance <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::setBlueBalance**
 ---------------------------------
@@ -1041,9 +1041,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/WhiteBalance <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino>`_
+Example: `ISPControl/WhiteBalance <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function. Blue Balance value can only be modified, and changes can be seen on image if white balance mode is set to manual mode before calling setBlueBalance() function.
+.. note :: "VideoStream.h" must be included to use the class function. Blue Balance value can only be modified, and changes can be seen on image if white balance mode is set to manual mode before calling setBlueBalance() function.
 
 **CameraSetting::getBlueBalance**
 ---------------------------------
@@ -1073,9 +1073,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/WhiteBalance <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino>`_
+Example: `ISPControl/WhiteBalance <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/WhiteBalance/WhiteBalance.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::setGrayMode**
 ------------------------------
@@ -1109,9 +1109,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/Mode <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Mode/Mode.ino>`_
+Example: `ISPControl/Mode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Mode/Mode.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::getGrayMode**
 ------------------------------
@@ -1141,9 +1141,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/Mode <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Mode/Mode.ino>`_
+Example: `ISPControl/Mode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Mode/Mode.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::setDayNightMode**
 ----------------------------------
@@ -1177,9 +1177,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/Mode <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Mode/Mode.ino>`_
+Example: `ISPControl/Mode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Mode/Mode.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::getDayNightMode**
 ----------------------------------
@@ -1209,9 +1209,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/Mode <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Mode/Mode.ino>`_
+Example: `ISPControl/Mode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Mode/Mode.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **CameraSetting::reset**
 ------------------------
@@ -1241,9 +1241,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ISPControl/Mode <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Mode/Mode.ino>`_
+Example: `ISPControl/Mode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Mode/Mode.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **VideoSetting Class**
 ----------------------
@@ -1349,11 +1349,11 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `StreamRTSP/VideoOnly <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
+Example: `StreamRTSP/VideoOnly <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
 
 .. note ::
 
-    “VideoStream.h” must be included to use the class function.
+    "VideoStream.h" must be included to use the class function.
 
     Preset configurations:
 
@@ -1408,9 +1408,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `StreamRTSP/VideoOnly <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
+Example: `StreamRTSP/VideoOnly <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function. The default value of 4Mbps is a suitable balance of video quality and file size. For RTSP streaming, it is recommended that the bitrate is lowered to 2Mbps to account for possible network congestion.
+.. note :: "VideoStream.h" must be included to use the class function. The default value of 4Mbps is a suitable balance of video quality and file size. For RTSP streaming, it is recommended that the bitrate is lowered to 2Mbps to account for possible network congestion.
 
 **VideoSetting::setJpegQuality**
 --------------------------------
@@ -1444,7 +1444,7 @@ NA
 
 NA
 
-.. note :: “VideoStream.h” must be included to use the class function. A lower quality results in a reduced file size, while a quality level of 9 may result in large file sizes without a significant improvements in image quality.
+.. note :: "VideoStream.h" must be included to use the class function. A lower quality results in a reduced file size, while a quality level of 9 may result in large file sizes without a significant improvements in image quality.
 
 **VideoSetting::setRotation**
 -----------------------------
@@ -1484,7 +1484,7 @@ NA
 
 NA
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **VideoSetting::width**
 -----------------------
@@ -1514,9 +1514,9 @@ This function returns the current configured video stream width.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
+Example: `MotionDetection/LoopPostProcessing <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **VideoSetting::height**
 ------------------------
@@ -1546,9 +1546,9 @@ This function returns the current configured video stream height.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MotionDetection/LoopPostProcessing <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
+Example: `MotionDetection/LoopPostProcessing <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/MotionDetection/LoopPostProcessing/LoopPostProcessing.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **VideoSetting::fps**
 ---------------------
@@ -1580,7 +1580,7 @@ This function returns the current configured video stream fps.
 
 NA
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **Video Class**
 ---------------
@@ -1673,9 +1673,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `StreamRTSP/VideoOnly <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
+Example: `StreamRTSP/VideoOnly <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **Video::camInit**
 ------------------
@@ -1707,7 +1707,7 @@ NA
 
 NA
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **Video::camDeinit**
 --------------------
@@ -1739,7 +1739,7 @@ NA
 
 NA
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **Video::videoInit**
 --------------------
@@ -1769,9 +1769,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `StreamRTSP/VideoOnly <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
+Example: `StreamRTSP/VideoOnly <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **Video::videoDeinit**
 ----------------------
@@ -1803,7 +1803,7 @@ NA
 
 NA
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **Video::channelBegin**
 -----------------------
@@ -1833,9 +1833,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `StreamRTSP/VideoOnly <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
+Example: `StreamRTSP/VideoOnly <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **Video::channelEnd**
 ---------------------
@@ -1867,7 +1867,7 @@ NA
 
 NA
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **Video::getStream**
 --------------------
@@ -1897,9 +1897,9 @@ This function returns the video data stream.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `StreamRTSP/VideoOnly <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
+Example: `StreamRTSP/VideoOnly <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **Video::getImage**
 -------------------
@@ -1933,9 +1933,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `CaptureJPEG/HTTPDisplayJPEG <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/CaptureJPEG/HTTPDisplayJPEG/HTTPDisplayJPEG.ino>`_
+Example: `CaptureJPEG/HTTPDisplayJPEG <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/CaptureJPEG/HTTPDisplayJPEG/HTTPDisplayJPEG.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **Video::setFPS**
 -----------------
@@ -1967,7 +1967,7 @@ NA
 
 NA
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.
 
 **Video::printInfo**
 --------------------
@@ -1997,6 +1997,6 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `StreamRTSP/VideoOnly <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
+Example: `StreamRTSP/VideoOnly <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/VideoOnly/VideoOnly.ino>`_
 
-.. note :: “VideoStream.h” must be included to use the class function.
+.. note :: "VideoStream.h" must be included to use the class function.

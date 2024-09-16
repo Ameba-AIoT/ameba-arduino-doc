@@ -66,9 +66,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Audio/RTSPAudioStream <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTSPAudioStream/RTSPAudioStream.ino>`_
+Example: `Audio/RTSPAudioStream <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTSPAudioStream/RTSPAudioStream.ino>`_
 
-.. note :: “AudioEncoder.h” must be included to use the class function.
+.. note :: "AudioEncoder.h" must be included to use the class function.
 
 **AAC::begin**
 --------------
@@ -98,9 +98,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Audio/RTSPAudioStream <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTSPAudioStream/RTSPAudioStream.ino>`_
+Example: `Audio/RTSPAudioStream <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTSPAudioStream/RTSPAudioStream.ino>`_
 
-.. note :: “AudioEncoder.h” must be included to use the class function.
+.. note :: "AudioEncoder.h" must be included to use the class function.
 
 **AAC::end**
 ------------
@@ -132,7 +132,7 @@ NA
 
 NA
 
-.. note :: “AudioEncoder.h” must be included to use the class function.
+.. note :: "AudioEncoder.h" must be included to use the class function.
 
 **G711E Class**
 ---------------
@@ -198,9 +198,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Audio/RTPAudioStream <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTPAudioStream/RTPAudioStream.ino>`_
+Example: `Audio/RTPAudioStream <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTPAudioStream/RTPAudioStream.ino>`_
 
-.. note :: “AudioEncoder.h” must be included to use the class function. The G711E audio encoder will only work when the audio sample rate is configured as 8kHz or 16kHz.
+.. note :: "AudioEncoder.h" must be included to use the class function. The G711E audio encoder will only work when the audio sample rate is configured as 8kHz or 16kHz.
 
 **G711E::configCodec**
 ----------------------
@@ -234,9 +234,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Audio/RTPAudioStream <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTPAudioStream/RTPAudioStream.ino>`_
+Example: `Audio/RTPAudioStream <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTPAudioStream/RTPAudioStream.ino>`_
 
-.. note :: “AudioEncoder.h” must be included to use the class function. The G711E audio encoder will only work when the audio sample rate is configured as 8kHz or 16kHz.
+.. note :: "AudioEncoder.h" must be included to use the class function. The G711E audio encoder will only work when the audio sample rate is configured as 8kHz or 16kHz.
 
 **G711E::begin**
 ----------------
@@ -266,9 +266,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Audio/RTPAudioStream <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTPAudioStream/RTPAudioStream.ino>`_
+Example: `Audio/RTPAudioStream <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/RTPAudioStream/RTPAudioStream.ino>`_
 
-.. note :: “AudioEncoder.h” must be included to use the class function.
+.. note :: "AudioEncoder.h" must be included to use the class function.
 
 **G711E::end**
 --------------
@@ -300,4 +300,4 @@ NA
 
 NA
 
-.. note :: “AudioEncoder.h” must be included to use the class function.
+.. note :: "AudioEncoder.h" must be included to use the class function.

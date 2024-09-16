@@ -22,13 +22,11 @@ NA
 ~~~~~~~~~~~
 
 +-----------------------------------+----------------------------------+
-| **Public Constructors**           |                                  |
+| **Public Constructors**                                              |
 +===================================+==================================+
-| NA                                | NA                               |
-|                                   |                                  |
-|                                   |                                  |
+| NA                                |                                  |
 +-----------------------------------+----------------------------------+
-| **Public Methods**                |                                  |
+| **Public Methods**                                                   |
 +-----------------------------------+----------------------------------+
 | start_OTA_threads                 | To begin threading tasks for OTA |
 |                                   | firmware update.                 |
@@ -62,6 +60,6 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `OTA <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/OTA/examples/OTA/OTA.ino>`_
+Example: `OTA <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/OTA/examples/OTA/OTA.ino>`_
 
 .. note :: “ota_thread.h” must be included to use the function.

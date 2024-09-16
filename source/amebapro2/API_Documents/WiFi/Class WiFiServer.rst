@@ -18,7 +18,7 @@ A class of WiFi server implementation for Ameba.
 
 .. code-block:: c++
 
-  class WiFiServer
+    class WiFiServer
 
 **Members**
 ~~~~~~~~~~~
@@ -29,29 +29,17 @@ A class of WiFi server implementation for Ameba.
 | WiFiServer::WiFiServer     | Constructs a WiFiServer object and creates  |
 |                            | a server that listens for incoming          |
 |                            | connections on the specified port.          |
-|                            |                                             |
-|                            |                                             |
-|                            |                                             |
 +----------------------------+---------------------------------------------+
 | **Public Methods**                                                       |
 +----------------------------+---------------------------------------------+
 | WiFiServer::available      | Gets a client that is connected to the      |
 |                            | server and has data available for reading.  |
-|                            |                                             |
-|                            |                                             |
-|                            |                                             |
 +----------------------------+---------------------------------------------+
 | WiFiServer::begin          | Server start listening for incoming         |
 |                            | connections.                                |
-|                            |                                             |
-|                            |                                             |
-|                            |                                             |
 +----------------------------+---------------------------------------------+
 | WiFiServer::write          | Write data to all the clients connected to  |
 |                            | a server.                                   |
-|                            |                                             |
-|                            |                                             |
-|                            |                                             |
 +----------------------------+---------------------------------------------+
 
 **WiFiServer::WiFiServer**
@@ -67,7 +55,7 @@ Constructs a WiFiServer object and creates a server that listens for incoming co
 
 .. code-block:: c++
 
-  WiFiServer (uint16_t port);
+    WiFiServer (uint16_t port);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -82,9 +70,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `SimpleServerWiFi <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleServerWiFi/SimpleServerWiFi.ino>`_
+Example: `SimpleTCPServer.ino <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleTCPServer/SimpleTCPServer.ino>`_
 
-.. note :: “WiFiServer.h” must be included to use the class function.
+.. note :: "WiFiServer.h" must be included to use the class function.
 
 **WiFiServer::available**
 -------------------------
@@ -99,12 +87,12 @@ Gets a client that is connected to the server and has data available for reading
 
 .. code-block:: c++
 
-  WiFiClient available(uint8_t *status = NULL);
+    WiFiClient available(uint8_t *status = NULL);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-status: Wi-Fi availability status. Default value: NULL
+status: Wi-Fi availability status. Default value is NULL.
 
 **Returns**
 ~~~~~~~~~~~
@@ -114,9 +102,9 @@ This function returns a client object; if no Client has data available for readi
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `SimpleServerWiFi <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleServerWiFi/SimpleServerWiFi.ino>`_
+Example: `SimpleTCPServer.ino <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleTCPServer/SimpleTCPServer.ino>`_
 
-.. note :: “WiFiServer.h” must be included to use the class function.
+.. note :: "WiFiServer.h" must be included to use the class function.
 
 **WiFiServer::begin**
 ---------------------
@@ -131,7 +119,7 @@ Server start listening for incoming connections.
 
 .. code-block:: c++
 
-  void begin(void);
+    void begin(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -146,9 +134,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `SimpleServerWiFi <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleServerWiFi/SimpleServerWiFi.ino>`_
+Example: `SimpleTCPServer.ino <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleTCPServer/SimpleTCPServer.ino>`_
 
-.. note :: “WiFiServer.h” must be included to use the class function.
+.. note :: "WiFiServer.h" must be included to use the class function.
 
 **WiFiServer::connected**
 -------------------------
@@ -156,14 +144,14 @@ Example: `SimpleServerWiFi <https://github.com/ambiot/ambd_arduino/blob/dev/Ardu
 **Description**
 ~~~~~~~~~~~~~~~
 
-Check if server is still connected
+Check if server is still connected.
 
 **Syntax**
 ~~~~~~~~~~
 
 .. code-block:: c++
 
-  uint8_t connected();
+    uint8_t connected();
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -180,7 +168,7 @@ This function returns "1" if connected, returns "0" if not connected.
 
 NA
 
-.. note :: “WiFiServer.h” must be included to use the class function.
+.. note :: "WiFiServer.h" must be included to use the class function.
 
 **WiFiServer::write**
 ---------------------
@@ -195,14 +183,16 @@ Write data to all the clients connected to a server.
 
 .. code-block:: c++
 
-  virtual size_t write(uint8_t b);
+    virtual size_t write(uint8_t b);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-b: byte to be written
-buf: data buffer
-size: size of the data buffer
+b: byte to be written.
+
+buf: data buffer.
+
+size: size of the data buffer.
 
 **Returns**
 ~~~~~~~~~~~
@@ -212,6 +202,6 @@ This function returns the number of bytes written. It is not necessary to read t
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `SimpleServerWiFi <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleServerWiFi/SimpleServerWiFi.ino>`_
+Example: `SimpleTCPServer.ino <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleTCPServer/SimpleTCPServer.ino>`_
 
-.. note :: “WiFiServer.h” must be included to use the class function.
+.. note :: "WiFiServer.h" must be included to use the class function.

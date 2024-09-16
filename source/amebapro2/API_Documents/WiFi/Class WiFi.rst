@@ -24,13 +24,13 @@ A class of WiFi and network implementation for Ameba.
 ~~~~~~~~~~~
 
 +-----------------------------+------------------------------------------+
-| **Public Constructors**     |                                          |
+| **Public Constructors**                                                |
 +=============================+==========================================+
 | WiFiClass::WiFiClass        | Constructs a WiFiClass object and        |
 |                             | initializes the Wi-Fi libraries and      |
 |                             | network settings                         |
 +-----------------------------+------------------------------------------+
-| **Public Methods**          |                                          |
+| **Public Methods**                                                     |
 +-----------------------------+------------------------------------------+
 | WiFiClass::firmwareVersion  | Get firmware version                     |
 +-----------------------------+------------------------------------------+
@@ -124,7 +124,7 @@ NA
 
 NA
 
-.. note :: An instance of WiFiClass is created as WiFi inside WiFi.h and is extern for direct use. “WiFi.h” must be included to use the class function.
+.. note :: An instance of WiFiClass is created as WiFi inside WiFi.h and is extern for direct use. "WiFi.h" must be included to use the class function.
 
 **WiFiClass::firmwareVersion**
 ------------------------------
@@ -149,14 +149,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns WiFi firmware version, default “1.0.0”.
+This function returns WiFi firmware version, default "1.0.0".
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ConnectWithWiFi/ConnectWithWPA <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ConnectWithWiFi/ConnectWithWPA/ConnectWithWPA.ino>`_
+Example: `ConnectToWiFi/WPA_Security <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ConnectToWiFi/WPA_Security/WPA_Security.ino>`_
 
-.. note :: “WiFi.h” must be included to use the class function.
+.. note :: "WiFi.h" must be included to use the class function.
 
 **WiFiClass::begin**
 --------------------
@@ -198,9 +198,9 @@ This function returns the Wi-Fi status.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ConnectWithWiFi/ConnectWithWPA <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ConnectWithWiFi/ConnectWithWPA/ConnectWithWPA.ino>`_
+Example: `ConnectToWiFi/WPA_Security <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ConnectToWiFi/WPA_Security/WPA_Security.ino>`_
 
-.. note :: “WiFi.h” must be included to use the class function.
+.. note :: "WiFi.h" must be included to use the class function.
 
 **WiFiClass::enableConcurrent**
 -------------------------------
@@ -230,9 +230,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Concurrent Mode <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ConcurrentMode/ConcurrentMode.ino>`_
+Example: `ConcurrentMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ConcurrentMode/ConcurrentMode.ino>`_
 
-.. note :: “WiFi.h” must be included to use the class function.
+.. note :: "WiFi.h" must be included to use the class function.
 
 **WiFiClass::config**
 ---------------------
@@ -273,7 +273,7 @@ NA
 
 NA
 
-.. note :: This will disable the DHCP client when connecting to a network and will require the network accepts a static IP. The configured IP addresses will also apply to AP mode, but the DHCP server will not be disabled in AP mode. “WiFi.h” must be included to use the class function.
+.. note :: This will disable the DHCP client when connecting to a network and will require the network accepts a static IP. The configured IP addresses will also apply to AP mode, but the DHCP server will not be disabled in AP mode. "WiFi.h" must be included to use the class function.
 
 **WiFiClass::setDNS**
 ---------------------
@@ -308,7 +308,7 @@ NA
 
 NA
 
-.. note :: “WiFi.h” must be included to use the class function.
+.. note :: "WiFi.h" must be included to use the class function.
 
 **WiFiClass::disconnect**
 -------------------------
@@ -333,14 +333,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns an integer value of 6, corresponding to “WL_DISCONNECTED” in the ‘wl_status_t’ enumeration, that represents the WiFi disconnected state.
+This function returns an integer value of 6, corresponding to "WL_DISCONNECTED" in the 'wl_status_t' enumeration, that represents the WiFi disconnected state.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “WiFi.h” must be included to use the class function. ‘wl_status_t’ enumeration consists of the following Wi-Fi status, WL_NO_SHIELD, WL_IDLE_STATUS, WL_NO_SSID_AVAIL, WL_SCAN_COMPLETED, WL_CONNECTED, WL_CONNECT_FAILED, WL_CONNECTION_LOST, WL_DISCONNECTED.
+.. note :: "WiFi.h" must be included to use the class function. 'wl_status_t' enumeration consists of the following Wi-Fi status, WL_NO_SHIELD, WL_IDLE_STATUS, WL_NO_SSID_AVAIL, WL_SCAN_COMPLETED, WL_CONNECTED, WL_CONNECT_FAILED, WL_CONNECTION_LOST, WL_DISCONNECTED.
 
 **WiFiClass::macAddress**
 -------------------------
@@ -370,9 +370,9 @@ This function returns uint8_t array containing the macAddress with length WL_MAC
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ConnectWithWiFi/ConnectWithWPA <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ConnectWithWiFi/ConnectWithWPA/ConnectWithWPA.ino>`_
+Example: `ConnectToWiFi/WPA_Security <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ConnectToWiFi/WPA_Security/WPA_Security.ino>`_
 
-.. note :: “WiFi.h” must be included to use the class function.
+.. note :: "WiFi.h" must be included to use the class function.
 
 **WiFiClass::localIP**
 ----------------------
@@ -402,9 +402,9 @@ This function returns the IP address of the interface.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ConnectWithWiFi/ConnectWithWPA <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ConnectWithWiFi/ConnectWithWPA/ConnectWithWPA.ino>`_
+Example: `ConnectToWiFi/WPA_Security <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ConnectToWiFi/WPA_Security/WPA_Security.ino>`_
 
-.. note :: “WiFi.h” must be included to use the class function.
+.. note :: "WiFi.h" must be included to use the class function.
 
 **WiFiClass::subnetMask**
 -------------------------
@@ -434,9 +434,9 @@ This function returns subnet mask address of the interface.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ConnectNoEncryption <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ConnectWithWiFi/ConnectNoEncryption/ConnectNoEncryption.ino>`_
+Example: `ConnectToWiFi/NoEncryption <https://github.com/Ameba-AIoT/ameba-arduino-pro2/tree/dev/Arduino_package/hardware/libraries/WiFi/examples/ConnectToWiFi/NoEncryption>`_
 
-.. note :: “WiFi.h” must be included to use the class function.
+.. note :: "WiFi.h" must be included to use the class function.
 
 **WiFiClass::gatewayIP**
 ------------------------
@@ -466,9 +466,9 @@ This function returns the gateway IP address of interface.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ConnectNoEncryption <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ConnectWithWiFi/ConnectNoEncryption/ConnectNoEncryption.ino>`_
+Example: `ConnectToWiFi/NoEncryption <https://github.com/Ameba-AIoT/ameba-arduino-pro2/tree/dev/Arduino_package/hardware/libraries/WiFi/examples/ConnectToWiFi/NoEncryption>`_
 
-.. note :: “WiFi.h” must be included to use the class function.\ **
+.. note :: "WiFi.h" must be included to use the class function.
 
 **WiFiClass::SSID**
 -------------------
@@ -498,11 +498,12 @@ This function returns current SSID associate with the network.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ConnectWithWiFi/ConnectWithWPA <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ConnectWithWiFi/ConnectWithWPA/ConnectWithWPA.ino>`_
+Example: `ConnectToWiFi/WPA_Security <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ConnectToWiFi/WPA_Security/WPA_Security.ino>`_
 
-.. note :: “WiFi.h” must be included to use the class function.
+.. note :: "WiFi.h" must be included to use the class function.
 
 **WiFiClass::BSSID**
+--------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -529,9 +530,9 @@ This function returns the uint8_t array storing BSSID with length WL_MAC_ADDR_LE
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ConnectWithWiFi/ConnectWithWPA <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ConnectWithWiFi/ConnectWithWPA/ConnectWithWPA.ino>`_
+Example: `ConnectToWiFi/WPA_Security <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ConnectToWiFi/WPA_Security/WPA_Security.ino>`_
 
-.. note :: “WiFi.h” must be included to use the class function.
+.. note :: "WiFi.h" must be included to use the class function.
 
 **WiFiClass::RSSI**
 -------------------
@@ -561,9 +562,9 @@ This function returns the current RSSI as a 32-bit signed value.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ConnectWithWiFi/ConnectWithWPA <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ConnectWithWiFi/ConnectWithWPA/ConnectWithWPA.ino>`_
+Example: `ConnectToWiFi/WPA_Security <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ConnectToWiFi/WPA_Security/WPA_Security.ino>`_
 
-.. note :: “WiFi.h” must be included to use the class function.
+.. note :: "WiFi.h" must be included to use the class function.
 
 **WiFiClass::encryptionType**
 -----------------------------
@@ -588,14 +589,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns an integer value corresponding to the current encryption type of the Wi-Fi connection in the ‘wl_enc_type’ enumeration.
+This function returns an integer value corresponding to the current encryption type of the Wi-Fi connection in the 'wl_enc_type' enumeration.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ConnectWithWiFi/ConnectWithWPA <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ConnectWithWiFi/ConnectWithWPA/ConnectWithWPA.ino>`_
+Example: `ConnectToWiFi/WPA_Security <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ConnectToWiFi/WPA_Security/WPA_Security.ino>`_
 
-.. note :: “WiFi.h” must be included to use the class function. ‘wl_enc_type’ enumeration consists of the following encryption type - ENC_TYPE_WEP, ENC_TYPE_WPA, ENC_TYPE_WPA3, ENC_TYPE_WPA2, ENC_TYPE_NONE and ENC_TYPE_AUTO.
+.. note :: "WiFi.h" must be included to use the class function. 'wl_enc_type' enumeration consists of the following encryption type - ENC_TYPE_WEP, ENC_TYPE_WPA, ENC_TYPE_WPA3, ENC_TYPE_WPA2, ENC_TYPE_NONE and ENC_TYPE_AUTO.
 
 **WiFiClass::scanNetworks**
 ---------------------------
@@ -626,9 +627,9 @@ This function returns the number of discovered networks as an 8-bit integer.
 ~~~~~~~~~~~~~~~~
 
 Example: `ScanNetworks
-<https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ScanNetworks/ScanNetworks.ino>`_
+<https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ScanNetworks/ScanNetworks.ino>`_
 
-.. note :: “WiFi.h” must be included to use the class function.
+.. note :: "WiFi.h" must be included to use the class function.
 
 **WiFiClass::SSID**
 -------------------
@@ -648,9 +649,7 @@ Get the SSID (Service Set Identifier) discovered during the network scan.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-networkItem: specify the network item that retrieves the information.
-
-required. Network item indicates the index of scanNetwork result that stored in the network scan list array arranging in RSSI descending order.
+networkItem: Specify the network item that retrieves the information required. Network item indicates the index of scanNetwork result that stored in the network scan list array arranging in RSSI descending order.
 
 **Returns**
 ~~~~~~~~~~~
@@ -661,9 +660,9 @@ This function returns the SSID string of the specified network item on the netwo
 ~~~~~~~~~~~~~~~~
 
 Example: `ScanNetworks
-<https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ScanNetworks/ScanNetworks.ino>`_
+<https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ScanNetworks/ScanNetworks.ino>`_
 
-.. note :: “WiFi.h” must be included to use the class function.
+.. note :: "WiFi.h" must be included to use the class function.
 
 **WiFiClass::encryptionType**
 -----------------------------
@@ -683,20 +682,20 @@ Get the encryption type of the networks discovered from scanNetworks.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-networkItem: specify the network item that retrieves the information required. Network item indicates the index of scanNetwork result that stored in the network scan list array arranging in RSSI descending order.
+networkItem: Specify the network item that retrieves the information required. Network item indicates the index of scanNetwork result that stored in the network scan list array arranging in RSSI descending order.
 
 **Returns**
 ~~~~~~~~~~~
 
-This function returns an integer value corresponding to the current Wi-Fi encryption type of the specified item on the network scanned list in the ‘wl_enc_type’ enumeration.
+This function returns an integer value corresponding to the current Wi-Fi encryption type of the specified item on the network scanned list in the 'wl_enc_type' enumeration.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 Example: `ScanNetworks
-<https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ScanNetworks/ScanNetworks.ino>`_
+<https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ScanNetworks/ScanNetworks.ino>`_
 
-.. note :: “WiFi.h” must be included to use the class function. ‘wl_enc_type’ enumeration consists of the following encryption type - ENC_TYPE_WEP, ENC_TYPE_WPA, ENC_TYPE_WPA3, ENC_TYPE_WPA2, ENC_TYPE_NONE and ENC_TYPE_AUTO.
+.. note :: "WiFi.h" must be included to use the class function. 'wl_enc_type' enumeration consists of the following encryption type - ENC_TYPE_WEP, ENC_TYPE_WPA, ENC_TYPE_WPA3, ENC_TYPE_WPA2, ENC_TYPE_NONE and ENC_TYPE_AUTO.
 
 **WiFiClass::encryptionTypeEx**
 -------------------------------
@@ -727,9 +726,9 @@ This function returns security and encryption type of the specified item on the 
 ~~~~~~~~~~~~~~~~
 
 Example: `ScanNetworks
-<https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ScanNetworks/ScanNetworks.ino>`_
+<https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ScanNetworks/ScanNetworks.ino>`_
 
-.. note :: “WiFi.h” must be included to use the class function.
+.. note :: "WiFi.h" must be included to use the class function.
 
 **WiFiClass::RSSI**
 -------------------
@@ -760,9 +759,9 @@ This function returns the signed value of RSSI of the specified item on the netw
 ~~~~~~~~~~~~~~~~
 
 Example: `ScanNetworks
-<https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ScanNetworks/ScanNetworks.ino>`_
+<https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ScanNetworks/ScanNetworks.ino>`_
 
-.. note :: “WiFi.h” must be included to use the class function.
+.. note :: "WiFi.h" must be included to use the class function.
 
 **WiFiClass::status**
 ---------------------
@@ -787,14 +786,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns an integer value of 3 corresponding to “WL_CONNECTED” in the ‘wl_status_t’ enumeration, if Wi-Fi is connected. Else returns integer value of 6, corresponding to “WL_DISCONNECTED” in the ‘wl_status_t’ enumeration, that represents the WiFi disconnected state.
+This function returns an integer value of 3 corresponding to "WL_CONNECTED" in the 'wl_status_t' enumeration, if Wi-Fi is connected. Else returns integer value of 6, corresponding to "WL_DISCONNECTED" in the 'wl_status_t' enumeration, that represents the WiFi disconnected state.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ConnectWithWiFi/ConnectWithWPA <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ConnectWithWiFi/ConnectWithWPA/ConnectWithWPA.ino>`_
+Example: `ConnectToWiFi/WPA_Security <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/ConnectToWiFi/WPA_Security/WPA_Security.ino>`_
 
-.. note :: “WiFi.h” must be included to use the class function. ‘wl_status_t’ enumeration consists of the following Wi-Fi status, WL_NO_SHIELD, WL_IDLE_STATUS, WL_NO_SSID_AVAIL, WL_SCAN_COMPLETED, WL_CONNECTED, WL_CONNECT_FAILED, WL_CONNECTION_LOST, WL_DISCONNECTED.
+.. note :: "WiFi.h" must be included to use the class function. 'wl_status_t' enumeration consists of the following Wi-Fi status, WL_NO_SHIELD, WL_IDLE_STATUS, WL_NO_SSID_AVAIL, WL_SCAN_COMPLETED, WL_CONNECTED, WL_CONNECT_FAILED, WL_CONNECTION_LOST, WL_DISCONNECTED.
 
 **WiFiClass::hostByName**
 -------------------------
@@ -821,14 +820,14 @@ aResult: IPAddress structure to store the returned IP address
 **Returns**
 ~~~~~~~~~~~
 
-The function returns “WL_SUCCESS” if a host name was successfully converted to an IPv4 address, else, it will return as “WL_FAILURE”.
+The function returns "WL_SUCCESS" if a host name was successfully converted to an IPv4 address, else, it will return as "WL_FAILURE".
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “WiFi.h” must be included to use the class function.
+.. note :: "WiFi.h" must be included to use the class function.
 
 **WiFiClass::apbegin**
 ----------------------
@@ -851,9 +850,9 @@ Set to Wi-Fi AP (Access Point) mode.
 
 ssid: SSID of the AP network
 
-channel: AP’s channel (Default value is 1)
+channel: AP's channel (Default value is 1)
 
-password: AP’s password
+password: AP's password
 
 hidden_ssid: hidden SSID value (Default value is 0)
 
@@ -865,9 +864,9 @@ This function returns the status of AP.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `WiFiAPMode <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiAPMode/WiFiAPMode.ino>`_
+Example: `CreateWiFiAP <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/CreateWiFiAP/CreateWiFiAP.ino>`_
 
-.. note :: “WiFi.h” must be included to use the class function.
+.. note :: "WiFi.h" must be included to use the class function.
 
 **WiFiClass::disablePowerSave**
 -------------------------------
@@ -892,14 +891,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns “0” if PowerSave disable successfully, else “-1” if error occurs.
+This function returns "0" if PowerSave disable successfully, else "-1" if error occurs.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “WiFi.h” must be included to use the class function.
+.. note :: "WiFi.h" must be included to use the class function.
 
 **WiFiClass:: setHostname**
 ---------------------------

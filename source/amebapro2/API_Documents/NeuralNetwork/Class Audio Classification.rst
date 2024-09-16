@@ -18,23 +18,23 @@ A class used to represent and retrieve data related to audio recognized by an au
 
 .. code-block:: c++
 
-  class AudioClassificationResult
+    class AudioClassificationResult
 
 **Members**
 ~~~~~~~~~~~
 
-+--------------------------------------+------------------------------------------+
++-------------------------------------+-------------------------------------------+
 | **Public Constructors**                                                         |
-+======================================+==========================================+
-| AudioClassificationResult::          | Constructs an AudioClassificationResult  |
-| AudioClassificationResult            | object                                   |
-+--------------------------------------+------------------------------------------+
++=====================================+===========================================+
+| AudioClassificationResult::         | Constructs an AudioClassificationResult   |
+| AudioClassificationResult           | object.                                   |
++-------------------------------------+-------------------------------------------+
 | **Public Methods**                                                              |
-+--------------------------------------+------------------------------------------+
-| AudioClassificationResult::classID   | Get class ID of recognized audio         |
-+--------------------------------------+------------------------------------------+
-| AudioClassificationResult::score     | Get confidence score of recognized audio |
-+--------------------------------------+------------------------------------------+
++-------------------------------------+-------------------------------------------+
+| AudioClassificationResult::classID  | Get class ID of recognized audio.         |
++-------------------------------------+-------------------------------------------+
+| AudioClassificationResult::score    | Get confidence score of recognized audio. |
++-------------------------------------+-------------------------------------------+
 
 **AudioClassificationResult::classID**
 --------------------------------------
@@ -64,10 +64,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `AudioClassification <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/AudioClassification/AudioClassification.ino>`_
+Example: `AudioClassification <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/AudioClassification/AudioClassification.ino>`_
 
-.. note :: “NNAudioClassification.h” must be included to use the class function. Object categories can be obtained from the “AudioClassList.h” file. 
-  (https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/AudioClassification/AudioClassList.h)
+.. note :: "NNAudioClassification.h" must be included to use the class function. Object categories can be obtained from the "AudioClassList.h" file.
 
 **AudioClassificationResult::score**
 ------------------------------------
@@ -97,10 +96,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `AudioClassification <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/AudioClassification/AudioClassification.ino>`_
+Example: `AudioClassification <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/AudioClassification/AudioClassification.ino>`_
 
-.. note :: “NNAudioClassification.h” must be included to use the class function. Object categories can be obtained from the “AudioClassList.h” file. 
-  (https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/AudioClassification/AudioClassList.h)
+.. note :: "NNAudioClassification.h" must be included to use the class function. Object categories can be obtained from the "AudioClassList.h" file.
 
 **NNAudioClassification Class**
 -------------------------------
@@ -112,9 +110,9 @@ A class used to configure, run, and retrieve results of an audio classification 
 **Syntax**
 ~~~~~~~~~~
 .. code-block:: c++
-  
-  class NNAudioClassification
-  
+
+    class NNAudioClassification
+
 **Members**
 ~~~~~~~~~~~
 
@@ -154,14 +152,14 @@ Configure input audio stream parameters.
 ~~~~~~~~~~
 .. code-block:: c++
 
-  void configAudio(AudioSetting& config, uint16_t bitDepth = 16);
+    void configAudio(AudioSetting& config, uint16_t bitDepth = 16);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
 config: AudioSetting class object containing desired audio configuration.
 
-bitDepth: number of bits of information in each audio sample. (Default: 16 bits)
+bitDepth: number of bits of information in each audio sample. (Default value is 16)
 
 **Returns**
 ~~~~~~~~~~~
@@ -171,9 +169,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `AudioClassification <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/AudioClassification/AudioClassification.ino>`_
+Example: `AudioClassification <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/AudioClassification/AudioClassification.ino>`_
 
-.. note :: “NNAudioClassification.h” must be included to use the class function.
+.. note :: "NNAudioClassification.h" must be included to use the class function.
 
 **NNAudioClassification::begin**
 --------------------------------
@@ -187,7 +185,7 @@ Start audio classification process on input audio.
 ~~~~~~~~~~
 .. code-block:: c++
 
-  void begin(void);
+    void begin(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -202,9 +200,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `AudioClassification <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/AudioClassification/AudioClassification.ino>`_
+Example: `AudioClassification <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/AudioClassification/AudioClassification.ino>`_
 
-.. note :: “NNAudioClassification.h” must be included to use the class function.
+.. note :: "NNAudioClassification.h" must be included to use the class function.
 
 **NNAudioClassification::end**
 ------------------------------
@@ -218,7 +216,7 @@ Stop audio classification process on input audio.
 ~~~~~~~~~~
 .. code-block:: c++
 
-  void end(void);
+    void end(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -235,7 +233,7 @@ NA
 
 NA
 
-.. note :: “NNAudioClassification.h” must be included to use the class function.
+.. note :: "NNAudioClassification.h" must be included to use the class function.
 
 **NNAudioClassification::setResultCallback**
 --------------------------------------------
@@ -249,7 +247,7 @@ Set a callback function to receive audio classification results.
 ~~~~~~~~~~
 .. code-block:: c++
 
-  void setResultCallback(void (*ac_callback)(std::vector));
+    void setResultCallback(void (*ac_callback)(std::vector));
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -264,9 +262,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `AudioClassification <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/AudioClassification/AudioClassification.ino>`_
+Example: `AudioClassification <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/AudioClassification/AudioClassification.ino>`_
 
-.. note :: “NNAudioClassification.h” must be included to use the class function. The callback function will be called with the latest results once per iteration.
+.. note :: "NNAudioClassification.h" must be included to use the class function. The callback function will be called with the latest results once per iteration.
 
 **NNAudioClassification::getResultCount**
 -----------------------------------------
@@ -280,7 +278,7 @@ Get number of audio classification results.
 ~~~~~~~~~~
 .. code-block:: c++
 
-  uint16_t getResultCount(void);
+    uint16_t getResultCount(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -295,9 +293,9 @@ The number of recognized audio classes in the most recent set of results, as an 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `AudioClassification <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/AudioClassification/AudioClassification.ino>`_
+Example: `AudioClassification <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/AudioClassification/AudioClassification.ino>`_
 
-.. note :: “NNAudioClassification.h” must be included to use the class function.
+.. note :: "NNAudioClassification.h" must be included to use the class function.
 
 **NNAudioClassification::getResult**
 ------------------------------------
@@ -311,13 +309,13 @@ Get audio classification results.
 ~~~~~~~~~~
 .. code-block:: c++
 
-  AudioClassificationResult getResult(uint16_t index);
-  std::vector getResult(void);
+    AudioClassificationResult getResult(uint16_t index);
+    std::vector getResult(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-index: index of specific audio classification result to retrieve
+index: index of specific audio classification result to retrieve.
 
 **Returns**
 ~~~~~~~~~~~
@@ -329,6 +327,6 @@ If an index is specified, the function returns the specific recognized audio cla
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `AudioClassification <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/AudioClassification/AudioClassification.ino>`_
+Example: `AudioClassification <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/AudioClassification/AudioClassification.ino>`_
 
-.. note :: “NNAudioClassification.h” must be included to use the class function.
+.. note :: "NNAudioClassification.h" must be included to use the class function.

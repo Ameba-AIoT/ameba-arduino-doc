@@ -92,9 +92,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MasterWriter <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterWriter/MasterWriter.ino>`_
+Example: `MasterSendData <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterSendData/MasterSendData.ino>`_
 
-.. note :: “Wire.h” must be included to use the class function.
+.. note :: "Wire.h" must be included to use the class function.
 
 **TwoWire::begin**
 ------------------
@@ -128,9 +128,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MasterWriter <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterWriter/MasterWriter.ino>`_
+Example: `MasterSendData <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterSendData/MasterSendData.ino>`_
 
-.. note :: “Wire.h” must be included to use the class function. When configured as I2C slave, begin() will also configure and enable I2C interrupt and attach user callback to be used in the I2C interrupt service routine.
+.. note :: "Wire.h" must be included to use the class function. When configured as I2C slave, begin() will also configure and enable I2C interrupt and attach user callback to be used in the I2C interrupt service routine.
 
 **TwoWire::end**
 ----------------
@@ -160,9 +160,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MasterWriter <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterWriter/MasterWriter.ino>`_
+Example: `MasterSendData <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterSendData/MasterSendData.ino>`_
 
-.. note :: “Wire.h” must be included to use the class function.
+.. note :: "Wire.h" must be included to use the class function.
 
 **TwoWire::setClock**
 ---------------------
@@ -192,9 +192,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MasterWriter <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterWriter/MasterWriter.ino>`_
+Example: `MasterSendData <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterSendData/MasterSendData.ino>`_
 
-.. note :: “Wire.h” must be included to use the class function.
+.. note :: "Wire.h" must be included to use the class function.
 
 **TwoWire::beginTransmission**
 ------------------------------
@@ -225,9 +225,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MasterWriter <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterWriter/MasterWriter.ino>`_
+Example: `MasterSendData <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterSendData/MasterSendData.ino>`_
 
-.. note :: “Wire.h” must be included to use the class function.
+.. note :: "Wire.h" must be included to use the class function.
 
 **TwoWire::endTransmission**
 ----------------------------
@@ -262,9 +262,9 @@ This function returns 0 if successful, else returns 1 indicating error.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MasterWriter <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterWriter/MasterWriter.ino>`_
+Example: `MasterSendData <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterSendData/MasterSendData.ino>`_
 
-.. note :: Originally, ‘endTransmission’ was an f(void) function. It has been modified to take one parameter indicating whether a STOP should be performed on the bus. Calling endTransmission(false) allows a sketch to perform a repeated start. If the input parameter is void, this provides backward compatibility with the original definition, and expected behavior, of endTransmission. “Wire.h” must be included to use the class function.
+.. note :: Originally, 'endTransmission' was an f(void) function. It has been modified to take one parameter indicating whether a STOP should be performed on the bus. Calling endTransmission(false) allows a sketch to perform a repeated start. If the input parameter is void, this provides backward compatibility with the original definition, and expected behavior, of endTransmission. "Wire.h" must be included to use the class function.
 
 .. warning:: Nothing in the library keeps track of whether the bus tenure has been properly ended with a STOP. It is very possible to leave the bus in a hung state if no call to endTransmission(true) is made. Some I2C devices will behave oddly if they do not see a STOP.
 
@@ -307,9 +307,9 @@ This function returns the length of data received as an int if successful, else 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MasterReader <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterReader/MasterReader.ino>`_
+Example: `MasterReceiveData <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterReceiveData/MasterReceiveData.ino>`_
 
-.. note :: “Wire.h” must be included to use the class function.
+.. note :: "Wire.h" must be included to use the class function.
 
 **TwoWire::write**
 ------------------
@@ -352,9 +352,9 @@ Returns the number of bytes to be transmitted. (Reading this number is optional)
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MasterWriter <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterWriter/MasterWriter.ino>`_
+Example: `MasterSendData <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterSendData/MasterSendData.ino>`_
 
-.. note :: “Wire.h” must be included to use the class function.
+.. note :: "Wire.h" must be included to use the class function.
 
 **TwoWire::available**
 ----------------------
@@ -384,9 +384,9 @@ This function returns the number of bytes available for reading.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MasterReader <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterReader/MasterReader.ino>`_
+Example: `MasterReceiveData <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterReceiveData/MasterReceiveData.ino>`_
 
-.. note :: This function should be called on a controller device after a call to requestFrom() or on a peripheral inside the onReceive() handler. available() inherits from the Stream utility class. “Wire.h” must be included to use the class function.
+.. note :: This function should be called on a controller device after a call to requestFrom() or on a peripheral inside the onReceive() handler. available() inherits from the Stream utility class. "Wire.h" must be included to use the class function.
 
 **TwoWire::read**
 -----------------
@@ -416,9 +416,9 @@ This function returns the next data in byte read from receiver buffer.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MasterReader <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterReader/MasterReader.ino>`_
+Example: `MasterReceiveData <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterReceiveData/MasterReceiveData.ino>`_
 
-.. note :: “Wire.h” must be included to use the class function.
+.. note :: "Wire.h" must be included to use the class function.
 
 **TwoWire::peek**
 -----------------
@@ -443,14 +443,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns the current data read from receiver buffer. Otherwise, “-1”.
+This function returns the current data read from receiver buffer. Otherwise, "-1".
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `MasterReader <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterReader/MasterReader.ino>`_
+Example: `MasterReceiveData <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterReceiveData/MasterReceiveData.ino>`_
 
-.. note :: “Wire.h” must be included to use the class function.
+.. note :: "Wire.h" must be included to use the class function.
 
 **TwoWire::flush**
 ------------------
@@ -482,7 +482,7 @@ NA
 
 NA
 
-.. note :: “Wire.h” must be included to use the class function.
+.. note :: "Wire.h" must be included to use the class function.
 
 **TwoWire::onReceive**
 ----------------------
@@ -512,9 +512,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `SlaveReader <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Wire/examples/SlaveReader/SlaveReader.ino>`_
+NA
 
-.. note :: “Wire.h” must be included to use the class function.
+.. note :: "Wire.h" must be included to use the class function.
 
 **TwoWire::onRequest**
 ----------------------
@@ -544,9 +544,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `SlaveWriter <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Wire/examples/SlaveWriter/SlaveWriter.ino>`_
+NA
 
-.. note :: “Wire.h” must be included to use the class function.
+.. note :: "Wire.h" must be included to use the class function.
 
 **TwoWire::slaveWrite**
 -----------------------
@@ -582,4 +582,4 @@ This function returns true if successful, else returns false.
 
 NA
 
-.. note :: “Wire.h” must be included to use the class function. This function can only be called if the device is in slave mode and after user has registered a requestEvent using onRequest().
+.. note :: "Wire.h" must be included to use the class function. This function can only be called if the device is in slave mode and after user has registered a requestEvent using onRequest().

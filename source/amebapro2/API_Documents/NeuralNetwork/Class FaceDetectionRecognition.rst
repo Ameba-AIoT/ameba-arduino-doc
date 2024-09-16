@@ -18,7 +18,7 @@ A class used to represent and retrieve data related to faces recognized by a fac
 
 .. code-block:: c++
 
-  class FaceRecognitionResult
+    class FaceRecognitionResult
 
 **Members**
 ~~~~~~~~~~~
@@ -52,9 +52,10 @@ Get name of recognized face.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  const char* name(void);
+    const char* name(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -69,9 +70,9 @@ A pointer to a character array containing the name of the recognized face.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
+Example: `RTSPFaceRecognition <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
 
-.. note :: “NNFaceRecognition.h” must be included to use the class function.
+.. note :: "NNFaceRecognition.h" must be included to use the class function.
 
 **FaceRecognitionResult::xMin**
 -------------------------------
@@ -83,9 +84,10 @@ Get x coordinate of the top left corner of the bounding box containing the recog
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  float xMin(void);
+    float xMin(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -100,9 +102,9 @@ A float ranging from 0.00 to 1.00, with 0.00 indicating the left edge of the inp
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
+Example: `RTSPFaceRecognition <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
 
-.. note :: “NNFaceRecognition.h” must be included to use the class function.
+.. note :: "NNFaceRecognition.h" must be included to use the class function.
 
 **FaceRecognitionResult::yMin**
 -------------------------------
@@ -114,9 +116,10 @@ Get y coordinate of the top left corner of the bounding box containing the recog
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  float yMin(void);
+    float yMin(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -131,9 +134,9 @@ A float ranging from 0.00 to 1.00, with 0.00 indicating the top edge of the inpu
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
+Example: `RTSPFaceRecognition <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
 
-.. note :: “NNFaceRecognition.h” must be included to use the class function.
+.. note :: "NNFaceRecognition.h" must be included to use the class function.
 
 **FaceRecognitionResult::xMax**
 -------------------------------
@@ -145,9 +148,10 @@ Get x coordinate of the bottom right corner of the bounding box containing the r
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  float xMax(void);
+    float xMax(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -162,9 +166,9 @@ A float ranging from 0.00 to 1.00, with 0.00 indicating the left edge of the inp
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
+Example: `RTSPFaceRecognition <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
 
-.. note :: “NNFaceRecognition.h” must be included to use the class function.
+.. note :: "NNFaceRecognition.h" must be included to use the class function.
 
 **FaceRecognitionResult::yMax**
 -------------------------------
@@ -176,9 +180,10 @@ Get y coordinate of the bottom right corner of the bounding box containing the r
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  float yMax(void);
+    float yMax(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -193,9 +198,9 @@ A float ranging from 0.00 to 1.00, with 0.00 indicating the top edge of the inpu
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
+Example: `RTSPFaceRecognition <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
 
-.. note :: “NNFaceRecognition.h” must be included to use the class function.
+.. note :: "NNFaceRecognition.h" must be included to use the class function.
 
 **NNFaceDetectionRecognition Class**
 ------------------------------------
@@ -210,7 +215,7 @@ A class used to configure, run, and retrieve results of a face recognition neura
 
 .. code-block:: c++
 
-  class NNFaceDetectionRecognition
+    class NNFaceDetectionRecognition
 
 **Members**
 ~~~~~~~~~~~
@@ -256,9 +261,10 @@ Start face recognition process on input video.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  void begin(void);
+    void begin(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -273,9 +279,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
+Example: `RTSPFaceRecognition <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
 
-.. note :: “NNFaceRecognition.h” must be included to use the class function.
+.. note :: "NNFaceRecognition.h" must be included to use the class function.
 
 **NNFaceDetectionRecognition::end**
 -----------------------------------
@@ -287,9 +293,10 @@ Stop face recognition process on input video.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  void end(void);
+    void end(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -306,7 +313,7 @@ NA
 
 NA
 
-.. note :: “NNFaceRecognition.h” must be included to use the class function.
+.. note :: "NNFaceRecognition.h" must be included to use the class function.
 
 **NNFaceDetectionRecognition::registerFace**
 --------------------------------------------
@@ -318,6 +325,7 @@ Register a detected face and assign it a name.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
     void registerFace(String name);
@@ -336,9 +344,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
+Example: `RTSPFaceRecognition <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
 
-.. note :: “NNFaceRecognition.h” must be included to use the class function.
+.. note :: "NNFaceRecognition.h" must be included to use the class function.
 
 **NNFaceDetectionRecognition::exitRegisterMode**
 ------------------------------------------------
@@ -350,9 +358,10 @@ Exit face registration mode.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  void exitRegisterMode(void);
+    void exitRegisterMode(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -367,9 +376,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
+Example: `RTSPFaceRecognition <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
 
-.. note :: “NNFaceRecognition.h” must be included to use the class function.
+.. note :: "NNFaceRecognition.h" must be included to use the class function.
 
 **NNFaceDetectionRecognition::resetRegisteredFace**
 ---------------------------------------------------
@@ -381,9 +390,10 @@ Reset all previously registered faces.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  void resetRegisteredFace(void);
+    void resetRegisteredFace(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -398,9 +408,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
+Example: `RTSPFaceRecognition <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
 
-.. note :: “NNFaceRecognition.h” must be included to use the class function.
+.. note :: "NNFaceRecognition.h" must be included to use the class function.
 
 **NNFaceDetectionRecognition::backupRegisteredFace**
 ----------------------------------------------------
@@ -412,9 +422,10 @@ Save currently registered faces to flash.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  void backupRegisteredFace(void);
+    void backupRegisteredFace(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -429,9 +440,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
+Example: `RTSPFaceRecognition <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
 
-.. note :: “NNFaceRecognition.h” must be included to use the class function.
+.. note :: "NNFaceRecognition.h" must be included to use the class function.
 
 **NNFaceDetectionRecognition::restoreRegisteredFace**
 -----------------------------------------------------
@@ -443,9 +454,10 @@ Load registered faces from flash.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  void restoreRegisteredFace(void);
+    void restoreRegisteredFace(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -460,9 +472,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
+Example: `RTSPFaceRecognition <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
 
-.. note :: “NNFaceRecognition.h” must be included to use the class function.
+.. note :: "NNFaceRecognition.h" must be included to use the class function.
 
 **NNFaceDetectionRecognition::setThreshold**
 --------------------------------------------
@@ -474,14 +486,17 @@ Set minimum threshold for face recognition confidence level.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  void setThreshold(uint8_t threshold);
+    void setThreshold(uint8_t threshold);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-threshold: Face recognition confidence threshold, expressed as an unsigned integer ranging from 0 to 100. Default value of 1.
+threshold: Face recognition confidence threshold as an unsigned integer.
+
+- 0 to 100 (Default value is 1)
 
 **Returns**
 ~~~~~~~~~~~
@@ -493,7 +508,7 @@ NA
 
 NA
 
-.. note :: “NNFaceRecognition.h” must be included to use the class function. A higher threshold results in a stricter face recognition process. For example increasing the threshold may cause recognition to fail if the face is turned sideways. The default value of 1 has been tested to minimize false positives, while maximizing the conditions for recognizing a registered face.
+.. note :: "NNFaceRecognition.h" must be included to use the class function. A higher threshold results in a stricter face recognition process. For example increasing the threshold may cause recognition to fail if the face is turned sideways. The default value of 1 has been tested to minimize false positives, while maximizing the conditions for recognizing a registered face.
 
 **NNFaceDetectionRecognition::setResultCallback**
 -------------------------------------------------
@@ -505,9 +520,10 @@ Set a callback function to receive face recognition results.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  void setResultCallback(void (*fr_callback)(std::vector));
+    void setResultCallback(void (*fr_callback)(std::vector));
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -522,9 +538,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
+Example: `RTSPFaceRecognition <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
 
-.. note :: “NNFaceRecognition.h” must be included to use the class function. The callback function will be called with the latest results once per iteration.
+.. note :: "NNFaceRecognition.h" must be included to use the class function. The callback function will be called with the latest results once per iteration.
 
 **NNFaceDetectionRecognition::getResultCount**
 ----------------------------------------------
@@ -536,9 +552,10 @@ Get number of face recognition results.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
-  uint16_t getResultCount(void);
+    uint16_t getResultCount(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -553,9 +570,9 @@ The number of recognized faces in the most recent set of results, as an unsigned
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
+Example: `RTSPFaceRecognition <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
 
-.. note :: “NNFaceRecognition.h” must be included to use the class function.
+.. note :: "NNFaceRecognition.h" must be included to use the class function.
 
 **NNFaceDetectionRecognition::getResult**
 -----------------------------------------
@@ -567,6 +584,7 @@ Get face recognition results.
 
 **Syntax**
 ~~~~~~~~~~
+
 .. code-block:: c++
 
     FaceRecognitionResult getResult(uint16_t index);
@@ -587,6 +605,6 @@ If an index is specified, the function returns the specific recognized face cont
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
+Example: `RTSPFaceRecognition <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPFaceRecognition/RTSPFaceRecognition.ino>`_
 
-.. note :: “NNFaceRecognition.h” must be included to use the class function.
+.. note :: "NNFaceRecognition.h" must be included to use the class function.

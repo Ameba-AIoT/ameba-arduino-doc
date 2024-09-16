@@ -24,11 +24,11 @@ A class used for PowerMode control.
 ~~~~~~~~~~~
 
 +-----------------------------------+-----------------------------------+
-| **Public Constructors**           |                                   |
+| **Public Constructors**                                               |
 +===================================+===================================+
 | PMClass::PMClass                  | Constructs an PMClass object.     |
 +-----------------------------------+-----------------------------------+
-| **Public Methods**                |                                   |
+| **Public Methods**                                                    |
 +-----------------------------------+-----------------------------------+
 | PMClass::begin                    | Initializes the PowerMode         |
 |                                   | settings for device, include type |
@@ -56,33 +56,37 @@ Initializes the PowerMode settings for device, include type of the mode, wake up
 **Parameters**
 ~~~~~~~~~~~~~~
 
-sleep_mode: Power Mode selection. Deepsleep mode: DEEPSLEEP_MODE; Standby mode: STANDBY_MODE
+sleep_mode: Power Mode selection. 
 
-wakeup_source: Wake up source selection. AON timer, AON GPIO, RTC, PON GPIO, UART/Serial1, and Gtimer0 set by 0 to 5.
+- Deepsleep mode: DEEPSLEEP_MODE; Standby mode: STANDBY_MODE
 
-wakeup_setting: Settings for different wakeup sources and default is 0.
+wakeup_source: Wake up source selection. 
 
-For AON time, it is a pointer to an array that stores clock(1:4MHz; 0:100kHz) and duration(by seconds).
+- AON timer, AON GPIO, RTC, PON GPIO, UART/Serial1, and Gtimer0 (0 to 5).
 
-For AON GPIO, it is pin number 21 or 22.
+wakeup_setting: Settings for different wakeup sources. Default value is 0.
 
-For RTC, it is a pointer to an array that stores time duration as day, hour, min and sec(0, 0:0:0, to 365, 23:59:59).
+- For AON time, it is a pointer to an array that stores clock(1:4MHz; 0:100kHz) and duration(by seconds).
 
-For PON GPIO, it is pin number 0 to 11.
+- For AON GPIO, it is pin number 21 or 22.
 
-For Gtimer0, it is time duration in seconds. (start from 1s)
+- For RTC, it is a pointer to an array that stores time duration as day, hour, min and sec(0, 0:0:0, to 365, 23:59:59).
+
+- For PON GPIO, it is pin number 0 to 11.
+
+- For Gtimer0, it is time duration in seconds. (start from 1s)
 
 **Returns**
 ~~~~~~~~~~~
 
-| NA
+NA
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `DeepSleepMode <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/DeepSleepMode/DeepSleepMode.ino>`_, `StandbyMode <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/StandbyMode/StandbyMode.ino>`_
+Example: `DeepSleepMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/DeepSleepMode/DeepSleepMode.ino>`_, `StandbyMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/StandbyMode/StandbyMode.ino>`_
 
-.. note :: “PowerMode.h” must be included to use the class function.
+.. note :: "PowerMode.h" must be included to use the class function.
 
 **PMClass::start**
 ------------------
@@ -98,24 +102,36 @@ Start the PowerMode of device.
 .. code-block:: c++
 
     void start(void);
-
     void start(int year, int month, int day, int hour, int min, int sec);
 
 **Parameters**
 ~~~~~~~~~~~~~~
+
 Optional when wake up source is RTC. Default start time is 1970.1.100:00:00.
 
-year: Start time by year. Starts from 1900.
+year: Start time by year. 
 
-month: Start time by month. 0 to 11.
+- Starts from 1900
 
-day: Start time by day. 1 to 365.
+month: Start time by month.
 
-hour: Start time by hour. 0 to 23.
+- 0 to 11
 
-min: Start time by min. 0 to 59.
+day: Start time by day.
 
-sec: Start time by sec. 0 to 59.
+- 1 to 365
+
+hour: Start time by hour
+
+- 0 to 23
+
+min: Start time by min.
+
+- 0 to 59
+
+sec: Start time by sec.
+
+- 0 to 59
 
 **Returns**
 ~~~~~~~~~~~
@@ -125,6 +141,6 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `DeepSleepMode <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/DeepSleepMode/DeepSleepMode.ino>`_, `StandbyMode <https://github.com/ambiot/ambpro2_arduino/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/StandbyMode/StandbyMode.ino>`_
+Example: `DeepSleepMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/DeepSleepMode/DeepSleepMode.ino>`_, `StandbyMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/StandbyMode/StandbyMode.ino>`_
 
-.. note :: “PowerMode.h” must be included to use the class function.
+.. note :: "PowerMode.h" must be included to use the class function.
