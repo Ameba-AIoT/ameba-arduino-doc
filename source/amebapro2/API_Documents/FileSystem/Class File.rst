@@ -26,35 +26,35 @@ A class for data manipulation of files in a file system.
 +---------------------------+------------------------------------------+
 | **Public Constructors**                                              |
 +===========================+==========================================+
-| File::File                | Constructs a File object                 |
+| File::File                | Constructs a File object.                |
 +---------------------------+------------------------------------------+
 | **Public Methods**                                                   |
 +---------------------------+------------------------------------------+
-| File::open                | Open a file from the filesystem          |
-+===========================+==========================================+
-| File::close               | Close a previously opened file           |
+| File::open                | Open a file from the filesystem.         |
 +---------------------------+------------------------------------------+
-| File::write               | Write data to the currently open file    |
+| File::close               | Close a previously opened file.          |
 +---------------------------+------------------------------------------+
-| File::read                | Read data from the currently open file   |
+| File::write               | Write data to the currently open file.   |
++---------------------------+------------------------------------------+
+| File::read                | Read data from the currently open file.  |
 +---------------------------+------------------------------------------+
 | File::peek                | Peek at the next data byte from the      |
-|                           | currently open file                      |
+|                           | currently open file.                     |
 +---------------------------+------------------------------------------+
 | File::available           | Check number of bytes remaining till end |
-|                           | of file                                  |
+|                           | of file.                                 |
 +---------------------------+------------------------------------------+
-| File::flush               | Flush cached data                        |
+| File::flush               | Flush cached data.                       |
 +---------------------------+------------------------------------------+
-| File::seek                | Move read write pointer                  |
+| File::seek                | Move read write pointer.                 |
 +---------------------------+------------------------------------------+
-| File::position            | Get current read write pointer           |
+| File::position            | Get current read write pointer.          |
 +---------------------------+------------------------------------------+
-| File::size                | Get file size                            |
+| File::size                | Get file size.                           |
 +---------------------------+------------------------------------------+
-| File::isOpen              | Check if a file is currently open        |
+| File::isOpen              | Check if a file is currently open.       |
 +---------------------------+------------------------------------------+
-| File::name                | Get currently open file name             |
+| File::name                | Get currently open file name.            |
 +---------------------------+------------------------------------------+
 
 **File::File**
