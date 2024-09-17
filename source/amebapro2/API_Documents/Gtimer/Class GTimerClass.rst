@@ -119,6 +119,7 @@ Example: `TimerOneshot <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/de
 .. note :: "GTimer.h" must be included to use the class function.
 
 **GtimerCass::reload**
+----------------------
 
 **Description**
 ~~~~~~~~~~~~~~~

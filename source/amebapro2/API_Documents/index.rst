@@ -2,7 +2,7 @@ API Documents
 =============
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    Analog/index
    FileSystem/index

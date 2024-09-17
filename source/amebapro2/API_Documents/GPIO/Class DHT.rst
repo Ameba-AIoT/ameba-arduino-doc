@@ -9,11 +9,16 @@ Class DHT
 -------------
 
 **Description**
+~~~~~~~~~~~~~~~
 
 A class to use DHT temperature and humidity sensors.
 
 **Syntax**
-class DHT
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    class DHT
 
 **Members**
 ~~~~~~~~~~~
@@ -133,6 +138,7 @@ Read temperature (Fahrenheit or Celsius) from the DHT sensor in selected scale.
 
 **Parameters**
 ~~~~~~~~~~~~~~
+
 S: Scale for temperature. Default value is False (Refer to function declaration in DHT.h)
 
 - True (Fahrenheit)
