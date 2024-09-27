@@ -56,12 +56,12 @@ Code Reference
 | [1] VL53L0X library and examples by Pololu:
 | https://github.com/pololu/vl53l0x-arduino
 
-.. |image01| image:: ../../../_static/amebapro2/Example_Guides/I2C/Retrieve_Data_from_VL53L0X_IR_sensor/image01.png
+.. |image01| image:: ../../../_static/amebapro2/Example_Guides/I2C/Retrieve_Data_from_VL53l0x_IR_sensor/image01.png
    :width: 629 px
    :height: 697 px
-.. |image02| image:: ../../../_static/amebapro2/Example_Guides/I2C/Retrieve_Data_from_VL53L0X_IR_sensor/image02.png
+.. |image02| image:: ../../../_static/amebapro2/Example_Guides/I2C/Retrieve_Data_from_VL53l0x_IR_sensor/image02.png
    :width: 710 px
    :height: 821 px
-.. |image03| image:: ../../../_static/amebapro2/Example_Guides/I2C/Retrieve_Data_from_VL53L0X_IR_sensor/image03.png
+.. |image03| image:: ../../../_static/amebapro2/Example_Guides/I2C/Retrieve_Data_from_VL53l0x_IR_sensor/image03.png
    :width: 840 px
    :height: 340 px
