@@ -49,13 +49,13 @@ Code Reference
 | [1] MPU6050 library and examples by ElectronicCats:
 | https://github.com/ElectronicCats/mpu6050
 
-.. |image01| image:: ../../../_static/amebapro2/Example_Guides/I2C/MPU6050_DMP6_Imu_Data_for_ROS/image01.png
+.. |image01| image:: ../../../_static/amebapro2/Example_Guides/I2C/MPU6050_DMP6_IMU_Data_for_ROS/image01.png
    :width: 1186 px
    :height: 860 px
    :scale: 70%
-.. |image02| image:: ../../../_static/amebapro2/Example_Guides/I2C/MPU6050_DMP6_Imu_Data_for_ROS/image02.png
+.. |image02| image:: ../../../_static/amebapro2/Example_Guides/I2C/MPU6050_DMP6_IMU_Data_for_ROS/image02.png
    :width: 602 px
    :height: 606 px
-.. |image03| image:: ../../../_static/amebapro2/Example_Guides/I2C/MPU6050_DMP6_Imu_Data_for_ROS/image03.png
+.. |image03| image:: ../../../_static/amebapro2/Example_Guides/I2C/MPU6050_DMP6_IMU_Data_for_ROS/image03.png
    :width: 546 px
    :height: 284 px
