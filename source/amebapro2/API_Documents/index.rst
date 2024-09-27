@@ -15,6 +15,7 @@ API Documents
    OTA/index
    PowerMode/index
    RTC/index
+   SPI/index
    USB/index
    Watchdog/index
    WiFi/index
