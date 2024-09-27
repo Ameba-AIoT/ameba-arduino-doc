@@ -2,11 +2,8 @@ name: Build Documentation
 
 on:
   push:
-    branches:
-      - main  # Replace with your default branch
   pull_request:
-    branches:
-      - main  # Replace with your default branch
+  workflow_dispatch:
 
 jobs:
   build-:
