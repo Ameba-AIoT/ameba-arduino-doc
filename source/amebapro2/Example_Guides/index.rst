@@ -10,6 +10,7 @@ Example Guides
    GPIO/index
    GTimer/index
    HTTP/index
+   I2C/index
    MQTT/index
    Multimedia/index
    Neural Network/index
