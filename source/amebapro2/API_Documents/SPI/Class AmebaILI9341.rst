@@ -18,7 +18,7 @@ A class to use ILI9341 TFT SPI display driver on Ameba.
 
 .. code-block:: c++
 
-  class AmebaILI9341
+    class AmebaILI9341
 
 **Members**
 ~~~~~~~~~~~
@@ -49,7 +49,7 @@ A class to use ILI9341 TFT SPI display driver on Ameba.
 |                               | display on the screen.                    |
 +-------------------------------+-------------------------------------------+
 | AmebaILI9341::drawPixel       | Draw a pixel by coordinates on the        |
-|                               | screen.                                   |
+|                               | screen                                    |
 +-------------------------------+-------------------------------------------+
 | AmebaILI9341::drawChar        | Draw a character in the frame buffer but  |
 |                               | does not refresh.                         |
@@ -60,7 +60,7 @@ A class to use ILI9341 TFT SPI display driver on Ameba.
 |                               | the screen.                               |
 +-------------------------------+-------------------------------------------+
 | AmebaILI9341::drawCircle      | Draw a circle shape and display on the    |
-|                               | screen.                                   |
+|                               | screen                                    |
 +-------------------------------+-------------------------------------------+
 | AmebaILI9341::write           | Display a character and display on the    |
 |                               | screen                                    |
@@ -94,16 +94,16 @@ The main class constructor when using AmebaILI9341 SPI display modules.
 
 .. code-block:: c++
 
-  AmebaILI9341(int csPin, int dcPin, int resetPin);
-  
+    AmebaILI9341(int csPin, int dcPin, int resetPin);
+
 **Parameters**
 ~~~~~~~~~~~~~~
 
-csPin: the Chip Select pin in AmebaD development board
+csPin: the Chip Select pin
 
-dcPin: the Data Command pin in AmebaD development board
+dcPin: the Data Command pin
 
-resetPin: the Reset pin in AmebaD development board
+resetPin: the Reset pin
 
 **Returns**
 ~~~~~~~~~~~
@@ -113,9 +113,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ILI9341_TFT_LCD_PM2.5 <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SPI/examples/ILI9341_TFT_LCD_PM2.5/ILI9341_TFT_LCD_PM2.5.ino>`_
+Example: `LCD_Screen_ILI9341_TFT <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/SPI/examples/LCD_Screen_ILI9341_TFT/LCD_Screen_ILI9341_TFT.ino>`_
 
-.. note :: “AmebaILI9341.h” must be included to use the class function.
+.. note :: "AmebaILI9341.h" must be included to use the class function.
 
 **AmebaILI9341::begin**
 -----------------------
@@ -130,7 +130,7 @@ Initialize hardware SPI, configure SPI DC and Reset pin mapping and SPI screen h
 
 .. code-block:: c++
 
-  void begin(void);
+    void begin(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -145,9 +145,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ILI9341_TFT_LCD_PM2.5 <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SPI/examples/ILI9341_TFT_LCD_PM2.5/ILI9341_TFT_LCD_PM2.5.ino>`_
+Example: `LCD_Screen_ILI9341_TFT <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/SPI/examples/LCD_Screen_ILI9341_TFT/LCD_Screen_ILI9341_TFT.ino>`_
 
-.. note :: “AmebaILI9341.h” must be included to use the class function. This method is required to run first before other operations on the display.
+.. note :: "AmebaILI9341.h" must be included to use the class function. This method is required to run first before other operations on the display.
 
 **AmebaILI9341::setAddress**
 ----------------------------
@@ -162,7 +162,7 @@ Initialize image size and positioning on the display
 
 .. code-block:: c++
 
-  void setAddress(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1);
+    void setAddress(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -185,7 +185,7 @@ NA
 
 NA
 
-.. note :: Do not use this to set the cursor, use “setCursor” method instead. “AmebaILI9341.h” must be included to use the class function.
+.. note :: Do not use this to set the cursor, use "setCursor" method instead. "AmebaILI9341.h" must be included to use the class function.
 
 **AmebaILI9341::writecommand**
 ------------------------------
@@ -200,7 +200,7 @@ Write a SPI command to the hardware peripheral
 
 .. code-block:: c++
 
-  void writecommand(uint8_t command);
+    void writecommand(uint8_t command);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -216,7 +216,7 @@ NA
 ~~~~~~~~~~~~~~~~
 NA
 
-.. note :: “AmebaILI9341.h” must be included to use the class function.
+.. note :: "AmebaILI9341.h" must be included to use the class function.
 
 **AmebaILI9341::writedata**
 ---------------------------
@@ -231,7 +231,7 @@ Write a SPI data to the hardware peripheral
 
 .. code-block:: c++
 
-  void writedata(uint8_t data);
+    void writedata(uint8_t data);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -248,7 +248,7 @@ NA
 
 NA
 
-.. note :: Only use this method to write 1 byte at a time. “AmebaILI9341.h” must be included to use the class function.
+.. note :: Only use this method to write 1 byte at a time. "AmebaILI9341.h" must be included to use the class function.
 
 **AmebaILI9341::setRotation**
 -----------------------------
@@ -256,7 +256,7 @@ NA
 **Description**
 ~~~~~~~~~~~~~~~
 
-Setting screen orientation, “0” for no rotation, “1” for 90 degrees rotation, “2” for 180 degrees rotation, “3” for 270 degrees rotation.
+Setting screen orientation, "0" for no rotation, "1" for 90 degrees rotation, "2" for 180 degrees rotation, "3" for 270 degrees rotation.
 
 **Syntax**
 ~~~~~~~~~~
@@ -268,7 +268,7 @@ Setting screen orientation, “0” for no rotation, “1” for 90 degrees rota
 **Parameters**
 ~~~~~~~~~~~~~~
 
-m: select desired screen orientation, expressing it as an integer. (Defualt: 0)
+m: select desired screen orientation, expressing it as an integer. Defualt value is "0".
 
 **Returns**
 ~~~~~~~~~~~
@@ -278,10 +278,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ILI9341_TFT_LCD_PM2.5 <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SPI/examples/ILI9341_TFT_LCD_PM2.5/ILI9341_TFT_LCD_PM2.5.ino>`_
+Example: `LCD_Screen_ILI9341_TFT <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/SPI/examples/LCD_Screen_ILI9341_TFT/LCD_Screen_ILI9341_TFT.ino>`_
 
-.. note :: Although “0” for no rotation, “1” for 90 degrees rotation, “2” for 180 degrees rotation, “3” for 270 degrees rotation, if m is more than 3, for example, m = 4: there will be no rotation, m= 5: 90 degrees rotation and so on.
-  “AmebaILI9341.h” must be included to use the class function.
+.. note :: Although "0" for no rotation, "1" for 90 degrees rotation, "2" for 180 degrees rotation, "3" for 270 degrees rotation, if m is more than 3, for example, m = 4 : there will be no rotation, m = 5 : 90 degrees rotation and so on. "AmebaILI9341.h" must be included to use the class function.
 
 **AmebaILI9341::fillScreen**
 ----------------------------
@@ -296,7 +295,7 @@ Fill the entire screen with a single color
 
 .. code-block:: c++
 
-  void fillScreen(uint16_t color);
+    void fillScreen(uint16_t color);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -312,8 +311,7 @@ NA
 
 NA
 
-.. note :: Refer to "AmebaILI9341.h" for available colors. 
-  "AmebaILI9341.h" must be included to use the class function.
+.. note :: Refer to "AmebaILI9341.h" for available colors. "AmebaILI9341.h" must be included to use the class function.
 
 **AmebaILI9341::clr**
 ---------------------
@@ -328,7 +326,7 @@ Clear the screen.
 
 .. code-block:: c++
 
-  void clr (void);
+    void clr (void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -343,12 +341,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ILI9341_TFT_LCD_PM2.5 <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SPI/examples/ILI9341_TFT_LCD_PM2.5/ILI9341_TFT_LCD_PM2.5.ino>`_
+Example: `LCD_Screen_ILI9341_TFT <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/SPI/examples/LCD_Screen_ILI9341_TFT/LCD_Screen_ILI9341_TFT.ino>`_
 
-.. note :: Background color can be changed by calling setBackground(). Refer to
-  "AmebaILI9341.h" for available colors of setBackground() function input
-  parameter. "AmebaILI9341.h" must be included to use the class
-  function.
+.. note :: Background color can be changed by calling setBackground(). Refer to "AmebaILI9341.h" for available colors of setBackground() function input parameter. "AmebaILI9341.h" must be included to use the class function.
 
 **AmebaILI9341::fillRectangle**
 -------------------------------
@@ -363,7 +358,7 @@ Fill a rectangle shape with color and display on the screen.
 
 .. code-block:: c++
 
-  void fillRectangle(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);
+    void fillRectangle(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -386,10 +381,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ILI9341_TFT_LCD_PM2.5 <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SPI/examples/ILI9341_TFT_LCD_PM2.5/ILI9341_TFT_LCD_PM2.5.ino>`_
+Example: `LCD_Screen_ILI9341_TFT <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/SPI/examples/LCD_Screen_ILI9341_TFT/LCD_Screen_ILI9341_TFT.ino>`_
 
-.. note :: Refer to "AmebaILI9341.h" for available colors. 
-  "AmebaILI9341.h" must be included to use the class function.
+.. note :: Refer to "AmebaILI9341.h" for available colors. "AmebaILI9341.h" must be included to use the class function.
 
 **AmebaILI9341::drawPixel**
 ---------------------------
@@ -404,7 +398,7 @@ Draw a single pixel by coordinates on the screen.
 
 .. code-block:: c++
 
-  void drawPixel(int16_t x, int16_t y, uint16_t color);
+    void drawPixel(int16_t x, int16_t y, uint16_t color);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -425,8 +419,7 @@ NA
 
 NA
 
-.. note :: Refer to "AmebaILI9341.h" for available colors. 
-  "AmebaILI9341.h" must be included to use the class function.
+.. note :: Refer to "AmebaILI9341.h" for available colors. "AmebaILI9341.h" must be included to use the class function.
 
 **AmebaILI9341::drawChar**
 --------------------------
@@ -441,9 +434,8 @@ Draw a character in the frame buffer but does not refresh.
 
 .. code-block:: c++
 
-  void AmebaILI9341::drawChar(unsigned char c);
-
-  void AmebaILI9341::drawChar(int16_t x, int16_t y, unsigned char c, uint16_t _fontcolor, uint16_t _background, uint8_t _fontsize);
+    void AmebaILI9341::drawChar(unsigned char c);
+    void AmebaILI9341::drawChar(int16_t x, int16_t y, unsigned char c, uint16_t _fontcolor, uint16_t _background, uint8_t _fontsize);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -470,8 +462,7 @@ NA
 
 NA
 
-.. note :: This method only stores the string of character in a buffer frame. The Print/Println method have to be called in order to display a string of character on the serial monitor. Refer to "AmebaILI9341.h" for available colors. 
-  "AmebaILI9341.h" must be included to use the class function.
+.. note :: This method only stores the string of character in a buffer frame. The Print/Println method have to be called in order to display a string of character on the serial monitor. Refer to "AmebaILI9341.h" for available colors. "AmebaILI9341.h" must be included to use the class function.
 
 **AmebaILI9341::drawLine**
 --------------------------
@@ -486,9 +477,8 @@ Draw a line and display on the screen.
 
 .. code-block:: c++
 
-  void drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color);
-
-  void drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1);
+    void drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color);
+    void drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -513,8 +503,7 @@ NA
 
 NA
 
-.. note :: Refer to "AmebaILI9341.h" for available colors. 
-  "AmebaILI9341.h" must be included to use the class function.
+.. note :: Refer to "AmebaILI9341.h" for available colors. "AmebaILI9341.h" must be included to use the class function.
 
 **AmebaILI9341::drawRectangle**
 -------------------------------
@@ -529,9 +518,8 @@ Draw a rectangular shape and display on the screen.
 
 .. code-block:: c++
 
-  void drawRectangle(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);
-
-  void drawRectangle(int16_t x, int16_t y, int16_t w, int16_t h);
+    void drawRectangle(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);
+    void drawRectangle(int16_t x, int16_t y, int16_t w, int16_t h);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -556,8 +544,7 @@ NA
 
 NA
 
-.. note :: Refer to AmebaILI9341.h for available colors. 
-  "AmebaILI9341.h" must be included to use the class function.
+.. note :: Refer to AmebaILI9341.h for available colors. "AmebaILI9341.h" must be included to use the class function.
 
 **AmebaILI9341::drawCircle**
 ----------------------------
@@ -572,9 +559,8 @@ Draw a circle shape and display on the screen.
 
 .. code-block:: c++
 
-  void drawCircle(int16_t x0, int16_t y0, int16_t r, uint16_t color);
-
-  void drawCircle(int16_t x0, int16_t y0, int16_t r);
+    void drawCircle(int16_t x0, int16_t y0, int16_t r, uint16_t color);
+    void drawCircle(int16_t x0, int16_t y0, int16_t r);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -597,8 +583,7 @@ NA
 
 NA
 
-.. note :: Refer to AmebaILI9341.h for available colors. 
-  "AmebaILI9341.h" must be included to use the class function.
+.. note :: Refer to AmebaILI9341.h for available colors. "AmebaILI9341.h" must be included to use the class function.
 
 **AmebaILI9341::write**
 -----------------------
@@ -613,7 +598,7 @@ Display a character and display on the screen.
 
 .. code-block:: c++
 
-  virtual size_t write(uint8_t);
+    virtual size_t write(uint8_t);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -630,8 +615,7 @@ This function returns the number of bytes written.
 
 NA
 
-.. note :: This an inherited method from Print class and is seldom used.
-  "AmebaILI9341.h" must be included to use the class function.
+.. note :: This an inherited method from Print class and is seldom used. "AmebaILI9341.h" must be included to use the class function.
 
 **AmebaILI9341::getWidth**
 --------------------------
@@ -646,7 +630,7 @@ Get the width of the image.
 
 .. code-block:: c++
 
-  int16_t getWidth(void);
+    int16_t getWidth(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -663,8 +647,7 @@ This function returns the width of the image.
 
 NA
 
-.. note :: The width is defined in” AmebaILI9341.h”. 
-  "AmebaILI9341.h" must be included to use the class function.
+.. note :: The width is defined in" AmebaILI9341.h". "AmebaILI9341.h" must be included to use the class function.
 
 **AmebaILI9341::getHeight**
 ---------------------------
@@ -679,7 +662,7 @@ Get the height of the image.
 
 .. code-block:: c++
 
-  int16_t getHeight(void);
+    int16_t getHeight(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -696,8 +679,7 @@ This function returns the height of the image.
 
 NA
 
-.. note :: The height is defined in” AmebaILI9341.h”. 
-  "AmebaILI9341.h" must be included to use the class function.
+.. note :: The height is defined in" AmebaILI9341.h". "AmebaILI9341.h" must be included to use the class function.
 
 **AmebaILI9341::setCursor**
 ---------------------------
@@ -712,7 +694,7 @@ Set the cursor to a specific position on the screen.
 
 .. code-block:: c++
 
-  void setCursor(int16_t x, int16_t y);
+    void setCursor(int16_t x, int16_t y);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -729,7 +711,7 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ILI9341_TFT_LCD_PM2.5 <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SPI/examples/ILI9341_TFT_LCD_PM2.5/ILI9341_TFT_LCD_PM2.5.ino>`_
+Example: `LCD_Screen_ILI9341_TFT <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/SPI/examples/LCD_Screen_ILI9341_TFT/LCD_Screen_ILI9341_TFT.ino>`_
 
 .. note :: "AmebaILI9341.h" must be included to use the class function.
 
@@ -746,7 +728,7 @@ Set foreground color.
 
 .. code-block:: c++
 
-  void setForeground(uint16_t color);
+    void setForeground(uint16_t color);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -761,10 +743,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ILI9341_TFT_LCD_PM2.5 <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SPI/examples/ILI9341_TFT_LCD_PM2.5/ILI9341_TFT_LCD_PM2.5.ino>`_
+Example: `LCD_Screen_ILI9341_TFT <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/SPI/examples/LCD_Screen_ILI9341_TFT/LCD_Screen_ILI9341_TFT.ino>`_
 
-.. note :: testText() function, to set foreground colors for different font sizes. Refer to AmebaILI9341.h for available colors. 
-  “AmebaILI9341.h” must be included to use the class function.
+.. note :: testText() function, to set foreground colors for different font sizes. Refer to AmebaILI9341.h for available colors. "AmebaILI9341.h" must be included to use the class function.
 
 **AmebaILI9341::setBackground**
 -------------------------------
@@ -779,7 +760,7 @@ Set background color.
 
 .. code-block:: c++
 
-  void setBackground(uint16_t color);
+    void setBackground(uint16_t color);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -794,10 +775,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ILI9341_TFT_LCD_PM2.5 <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SPI/examples/ILI9341_TFT_LCD_PM2.5/ILI9341_TFT_LCD_PM2.5.ino>`_
+Example: `LCD_Screen_ILI9341_TFT <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/SPI/examples/LCD_Screen_ILI9341_TFT/LCD_Screen_ILI9341_TFT.ino>`_
 
-.. note :: Refer to AmebaILI9341.h for available colors. 
-  “AmebaILI9341.h” must be included to use the class function.
+.. note :: Refer to AmebaILI9341.h for available colors. "AmebaILI9341.h" must be included to use the class function.
 
 **AmebaILI9341::setFontSize**
 -----------------------------
@@ -812,7 +792,7 @@ Set the font size of the characters to be printed on the screen.
 
 .. code-block:: c++
 
-  void AmebaILI9341::setFontSize(uint8_t size)
+    void AmebaILI9341::setFontSize(uint8_t size)
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -827,9 +807,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `ILI9341_TFT_LCD_PM2.5 <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SPI/examples/ILI9341_TFT_LCD_PM2.5/ILI9341_TFT_LCD_PM2.5.ino>`_
+Example: `LCD_Screen_ILI9341_TFT <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/SPI/examples/LCD_Screen_ILI9341_TFT/LCD_Screen_ILI9341_TFT.ino>`_
 
-.. note :: “AmebaILI9341.h” must be included to use the class function.
+.. note :: "AmebaILI9341.h" must be included to use the class function.
 
 **AmebaILI9341::reset**
 -----------------------
@@ -844,7 +824,7 @@ Reset the SPI display module using the Reset pin.
 
 .. code-block:: c++
 
-  void reset(void);
+    void reset(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -861,4 +841,4 @@ NA
 
 NA
 
-.. note :: “AmebaILI9341.h” must be included to use the class function.
+.. note :: "AmebaILI9341.h" must be included to use the class function.
