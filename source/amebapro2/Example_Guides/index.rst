@@ -5,6 +5,7 @@ Example Guides
    :maxdepth: 2
 
    Basic/index
+   BLE/index
    E-Paper/index
    Flash Memory/index
    GPIO/index
@@ -23,3 +24,4 @@ Example Guides
    SPI/index
    USB/index
    Watchdog/index
+   WiFi/index
