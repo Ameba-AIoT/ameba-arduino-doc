@@ -88,15 +88,15 @@ Code Reference
   connected to.
 | https://www.arduino.cc/en/Reference/WiFIClientStop
 
-.. |image01| image:: ../../../_static/amebapro2/Example_Guides/Wifi/Simple_Http_Server_to_Control_LED/image01.png
+.. |image01| image:: ../../../_static/amebapro2/Example_Guides/WiFi/Simple_Http_Server_to_Control_LED/image01.png
    :width: 602 px
    :height: 720 px
-.. |image02| image:: ../../../_static/amebapro2/Example_Guides/Wifi/Simple_Http_Server_to_Control_LED/image02.png
+.. |image02| image:: ../../../_static/amebapro2/Example_Guides/WiFi/Simple_Http_Server_to_Control_LED/image02.png
    :width: 696 px
    :height: 365 px
-.. |image03| image:: ../../../_static/amebapro2/Example_Guides/Wifi/Simple_Http_Server_to_Control_LED/image03.png
+.. |image03| image:: ../../../_static/amebapro2/Example_Guides/WiFi/Simple_Http_Server_to_Control_LED/image03.png
    :width: 853 px
    :height: 366 px
-.. |image04| image:: ../../../_static/amebapro2/Example_Guides/Wifi/Simple_Http_Server_to_Control_LED/image04.png
+.. |image04| image:: ../../../_static/amebapro2/Example_Guides/WiFi/Simple_Http_Server_to_Control_LED/image04.png
    :width: 668 px
    :height: 278 px
