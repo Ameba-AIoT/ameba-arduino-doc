@@ -7,6 +7,7 @@ Example Guides
    Basic/index
    BLE/index
    E-Paper/index
+   File System/index
    Flash Memory/index
    GPIO/index
    GTimer/index
