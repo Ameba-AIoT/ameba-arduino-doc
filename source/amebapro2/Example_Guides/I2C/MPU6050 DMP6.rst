@@ -16,7 +16,7 @@ Example
 -------
 
 Introduction
-------------
+~~~~~~~~~~~~
 
 This example will demonstrate getting the data from MPU6050 with DMP6.
 MPU6050 is equipped with a Digital Motion Processor (DMP) to handle the
@@ -33,14 +33,14 @@ For MPU6050_DMP6.ino, the DMP library version is 2.0. For
 MPU6050_DMP6_using_DMP_V6v12.ino, the DMP library version is 6.12.
 
 Procedure
----------
+~~~~~~~~~
 
 Connect the MPU6050 to I2C_SDA and I2C_SCL of the board as shown in the
 diagram below.
 
 |image01|
 
-Open the example in “File” -> “Examples” -> “AmebaWire” -> “MPU6050”-> “MPU6050_DMP6” OR “MPU6050_DMP6_using_DMP_V6v12”
+Open the example in "File" -> "Examples" -> "AmebaWire" -> "MPU6050"-> "MPU6050_DMP6" OR "MPU6050_DMP6_using_DMP_V6v12"
 
 |image02|
 

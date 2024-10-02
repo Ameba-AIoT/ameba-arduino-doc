@@ -16,18 +16,18 @@ Example
 -------
 
 Introduction
-------------
+~~~~~~~~~~~~
 
 This example will demonstrate getting the raw data from MPU6050.
 
 Procedure
----------
+~~~~~~~~~
 
 Connect the MPU6050 to I2C_SDA and I2C_SCL of the board as shown in the diagram below.
 
 |image01|
 
-Open the example in “File” -> “Examples” -> “AmebaWire” -> “MPU6050”-> “MPU6050_raw”.
+Open the example in "File" -> "Examples" -> "AmebaWire" -> "MPU6050"-> "MPU6050_raw".
 
 |image02|
 

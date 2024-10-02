@@ -16,7 +16,7 @@ Example
 -------
 
 Introduction
-------------
+~~~~~~~~~~~~
 
 Normally there are many pins on an LCD display, as shown below.
 
@@ -26,15 +26,15 @@ An LCD display can be equipped with an additional processing chip to process the
 using the I2C interface.
 
 Procedure
----------
+~~~~~~~~~
 
 **AMB82 Mini** wiring diagram:
 
 |image02|
 
-| Open the example in “File” -> “Examples” -> “AmebaWire” -> “LCD_HelloWorld”.
+| Open the example in "File" -> "Examples" -> "AmebaWire" -> "LCD_HelloWorld".
 | Compile and upload to Ameba, then press the reset button.
-| You can now see “Hello World” in the first line, and “Ameba” in the second line displayed on the LCD screen.
+| You can now see "Hello World" in the first line, and "Ameba" in the second line displayed on the LCD screen.
 
 |image03|
 
@@ -42,7 +42,7 @@ After 8 seconds, you can input to the Serial Monitor the string you would like t
 
 |image04|
 
-For example, we enter “123456789” and press “Send”:
+For example, we enter "123456789" and press "Send":
 
 |image05|
 

@@ -16,20 +16,20 @@ Example
 -------
 
 Introduction
-------------
+~~~~~~~~~~~~
 
 The example will showcase texts, shapes, and bitmap images on an OLED
 display using the I2C communication protocol alongside Adafruit
 libraries.
 
 Procedure
----------
+~~~~~~~~~
 
 Connect the 0.96-inch OLED display to I2C_SDA and I2C_SCL of the board.
 
 |image01|
 
-Open the example in “File” -> “Examples” -> “AmebaWire” -> “OLED_SSD1306”.
+Open the example in "File" -> "Examples" -> "AmebaWire" -> "OLED_SSD1306".
 
 |image02|
 
@@ -37,9 +37,9 @@ For this example, we will be using 0x3D as the address.
 
 |image03|
 
-If the address doesn’t work for you, you can run I2CScanner to find the
-OLED address by navigating to “File” -> “Examples” -> “AmebaWire” ->
-“I2CScanner”.
+If the address doesn't work for you, you can run I2CScanner to find the
+OLED address by navigating to "File" -> "Examples" -> "AmebaWire" ->
+"I2CScanner".
 
 |image04|
 
