@@ -16,7 +16,7 @@ Example
 -------
 
 Introduction
-------------
+~~~~~~~~~~~~
 
 This example will illustrate how to retrieve the value of VL53L0X IR
 sensor and pass it to the AMB82-Mini board. VL53L0X Distance Sensor is a
@@ -29,17 +29,17 @@ has pretty low power consumption.
 | 2) Single.ino
 
 Procedure
----------
+~~~~~~~~~
 
 Connect the VL53L0X IR sensor to I2C_SDA and I2C_SCL of the board as shown in the diagram below.
 
 |image01|
 
-Open the example in “File” -> “Examples” -> “AmebaWire” -> “VL53L0X” -> “Continuous” OR “Single”.
+Open the example in "File" -> "Examples" -> "AmebaWire" -> "VL53L0X" -> "Continuous" OR "Single".
 
 |image02|
 
-You will choose “Single” if you want to get single-shot range
+You will choose "Single" if you want to get single-shot range
 measurements from the VL53L0X sensor. The sensor can be optionally be
 configured with different ranging profiles to get better performance for
 a certain application.

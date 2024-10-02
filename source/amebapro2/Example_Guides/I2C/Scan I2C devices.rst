@@ -5,7 +5,6 @@ Scan I2C devices
   :local:
   :depth: 2
 
-
 Materials
 ---------
 
@@ -17,17 +16,17 @@ Example
 -------
 
 Introduction
-------------
+~~~~~~~~~~~~
 
 The example will scan the I2C bus for devices that is connected to Ameba. When a device is found, it will be shown on the serial monitor
 with the address of the device.
 
 Procedure
----------
+~~~~~~~~~
 
 Connect any I2C device to I2C_SDA and I2C_SCL of the board.
 
-Open the example in “File” -> “Examples” -> “AmebaWire” -> “I2C_Scanner”.
+Open the example in "File" -> "Examples" -> "AmebaWire" -> "I2C_Scanner".
 
 |image01|
 
