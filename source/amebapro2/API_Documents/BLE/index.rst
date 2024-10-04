@@ -24,4 +24,3 @@ BLE
    Class BLEService
    Class BLEUUID
    Class BLEWifiConfigService
-   
