@@ -5,6 +5,7 @@ API Documents
    :maxdepth: 1
 
    Analog/index
+   BLE/index
    FileSystem/index
    FlashMemory/index
    GPIO/index
