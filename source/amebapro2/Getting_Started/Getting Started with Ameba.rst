@@ -150,31 +150,59 @@ There are many different Modes for user to select for different settings of comp
 
 |image09|
 
-+----------------------------------+------------------------------------------+-------------+
-| **Mode Name**                    | **Usage**                                | **Remarks** |
-+==================================+==========================================+=============+
-| \* Erase All Flash Memory (16MB) | -  Erase only. Erase entire flash.       |             |
-|                                  |                                          |             |
-|                                  | -  Erase then Upload. Erase entire flash |             |
-|                                  |    then upload the current application.  |             |
-|                                  |                                          |             |
-|                                  | -  Disable. Disable this option.         |             |
-+----------------------------------+------------------------------------------+-------------+
-| \* Auto Flash Mode               | -  Enable. Avoid manual process when     |             |
-|                                  |    uploading.                            |             |
-|                                  |                                          |             |
-|                                  | -  Disable. Disable this option.         |             |
-+----------------------------------+------------------------------------------+-------------+
-| \* Standard Lib                  | -  Arduino_STD_PRINTF. Choose the        |             |
-|                                  |    standard library function for compile |             |
-|                                  |    and upload.                           |             |
-|                                  |                                          |             |
-|                                  | -  Disable. No standard library          |             |
-|                                  |    function.                             |             |
-+----------------------------------+------------------------------------------+-------------+
-| \* Upload Speed                  | -  Different upload baud rate to select. |             |
-|                                  |    The default is 2000000.               |             |
-+----------------------------------+------------------------------------------+-------------+
++----------------------------------+---------------------------------------------+-------------+
+| **Mode Name**                    | **Usage**                                   | **Remarks** |
++==================================+=============================================+=============+
+| \* Auto Flash Mode               | - Disable. Manual process to enter flash    |             |
+|                                  |   mode.                                     |             |
+|                                  |                                             |             |
+|                                  | - Enable. Auto process to enter flash mode. |             |
++----------------------------------+---------------------------------------------+-------------+
+| \* Camera Options                | - JFX37. Use the camera sensor JFX37.       |             |
+|                                  |                                             |             |
+|                                  | - GC5035. Use the camera sensor GC5035.     |             |
+|                                  |                                             |             |
+|                                  | - JFX53. Use the camera sensor JFX53.       |             |
+|                                  |                                             |             |
+|                                  | - IMX327. Use the camera sensor IMX327.     |             |
+|                                  |                                             |             |
+|                                  | - PS5268. Use the camera sensor PS5268.     |             |
++----------------------------------+---------------------------------------------+-------------+
+| \* Erase All Flash Memory (16MB) | - Disable. No erash flash process.          |             |
+|                                  |                                             |             |
+|                                  | - Erase only. Erase entire flash.           |             |
+|                                  |                                             |             |
+|                                  | - Erase then Upload. Erase entire flash     |             |
+|                                  |   then upload the current application.      |             |
++----------------------------------+---------------------------------------------+-------------+
+| \* Camera FCS Mode               | - Disable. No Camera FCS mode process.      |             |
+|                                  |                                             |             |
+|                                  | - Enable. Enable Camera FCS mode, if the    |             |
+|                                  |   camera sensor has FCS mode.               |             |
++----------------------------------+---------------------------------------------+-------------+
+| \* NN Model Load From            | - Flash. Load the Neural Network AI model   |             |
+|                                  |   from flash memory.                        |             |
+|                                  |                                             |             |
+|                                  | - SD Card. Load the Neural Network AI model |             |
+|                                  |   from SD card memory. Total size of the    |             |
+|                                  |   models depend on the total size of the SD |             |
+|                                  |   card.                                     |             |
++----------------------------------+---------------------------------------------+-------------+
+| \* OTA Mode                      | - Disable. No OTA mode process.             |             |
+|                                  |                                             |             |
+|                                  | - Enable. Enable OTA mode.                  |             |
++----------------------------------+---------------------------------------------+-------------+
+| \* Standard Lib                  | - Arduino_STD_PRINTF. Choose the standard   |             |
+|                                  |   library function for compile and upload.  |             |
+|                                  |                                             |             |
+|                                  | - Disable. No standard library function.    |             |
++----------------------------------+---------------------------------------------+-------------+
+| \* Upload Speed                  | - 2000000. Upload baud rate set as 2000000. |             |
+|                                  |                                             |             |
+|                                  | - 1000000. Upload baud rate set as 1000000. |             |
+|                                  |                                             |             |
+|                                  | - 230400. Upload baud rate set as 230400.   |             |
++----------------------------------+---------------------------------------------+-------------+
 
 Step 2. Compile
 ~~~~~~~~~~~~~~~
@@ -276,8 +304,8 @@ Useful Links
    :width:  773 px
    :height:  600 px
 .. |image09| image:: ../../_static/amebapro2/Getting_Started/Getting_Started_with_AMB82-mini/image09.png
-   :width:  476 px
-   :height:  588 px
+   :width:  442 px
+   :height:  602 px
 .. |image10| image:: ../../_static/amebapro2/Getting_Started/Getting_Started_with_AMB82-mini/image10.png
    :width:  555 px
    :height:  605 px
