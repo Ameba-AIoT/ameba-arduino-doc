@@ -24,13 +24,13 @@ A class used for creating and managing BLE bonding security parameters.
 ~~~~~~~~~~~
 
 +------------------------------------+---------------------------------+
-| **Public Constructors**            |                                 |
+| **Public Constructors**                                              |
 +====================================+=================================+
 | No public constructor is available as this class is intended to be a |
 | singleton class. You can get a pointer to this class using           |
 | BLEDevice::configSecurity                                            |
 +------------------------------------+---------------------------------+
-| **Public Methods**                 |                                 |
+| **Public Methods**                                                   |
 +------------------------------------+---------------------------------+
 | BLESecurity::setPairable           | Enable pairing and bonding after|
 |                                    | BLE connection                  |
@@ -90,9 +90,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEHIDMouse <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDMouse/BLEHIDMouse.ino>`_ 
+Example: `BLEHIDMouse <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDMouse/BLEHIDMouse.ino>`_
 
-.. note :: “BLESecurity.h” must be included to use the class function.
+.. note :: "BLESecurity.h" must be included to use the class function.
 
 **BLESecurity::setAuthFlags**
 -----------------------------
@@ -113,8 +113,6 @@ Set BLE bonding security requirements.
 ~~~~~~~~~~~~~~
 
 authFlags: desired BLE bonding security requirements.
-
-Valid values:
 
 -  GAP_AUTHEN_BIT_NONE
 
@@ -138,9 +136,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEHIDMouse <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDMouse/BLEHIDMouse.ino>`_ 
+Example: `BLEHIDMouse <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDMouse/BLEHIDMouse.ino>`_
 
-.. note :: “BLESecurity.h” must be included to use the class function.
+.. note :: "BLESecurity.h" must be included to use the class function.
 
 **BLESecurity::setIOCapability**
 --------------------------------
@@ -160,9 +158,7 @@ Set BLE device input and output capabilities.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-ioCap: desired device input output capabilities.
-
-Valid values:
+ioCap: desired device input output capabilities. Default value is GAP_IO_CAP_NO_INPUT_NO_OUTPUT.
 
 -  GAP_IO_CAP_NO_INPUT_NO_OUTPUT
 
@@ -174,10 +170,6 @@ Valid values:
 
 -  GAP_IO_CAP_KEYBOARD_DISPLAY
 
-Default values:
-
--  GAP_IO_CAP_NO_INPUT_NO_OUTPUT
-
 **Returns**
 ~~~~~~~~~~~
 
@@ -188,10 +180,7 @@ NA
 
 NA
 
-.. note :: The IO capabilities of the peripheral and central device will determine
-    which bonding authentication method is used.
-
-    “BLESecurity.h” must be included to use the class function.
+.. note :: The IO capabilities of the peripheral and central device will determine which bonding authentication method is used. "BLESecurity.h" must be included to use the class function.
 
 **BLESecurity::setSecReqEnable**
 --------------------------------
@@ -211,9 +200,7 @@ Enable sending SMP security request when BLE connected.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-secReq: TRUE to enable, FALSE to disable.
-
-Default value: FALSE
+secReq: TRUE to enable, FALSE to disable. Default value is FALSE.
 
 **Returns**
 ~~~~~~~~~~~
@@ -225,7 +212,7 @@ NA
 
 NA
 
-.. note :: “BLESecurity.h” must be included to use the class function.
+.. note :: "BLESecurity.h" must be included to use the class function.
 
 **BLESecurity::setSecReqFlags**
 -------------------------------
@@ -245,9 +232,7 @@ Set security request requirements.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-secReqFlags: desired security requirements.
-
-Valid values:
+secReqFlags: desired security requirements. Default value is GAP_AUTHEN_BIT_NONE.
 
 -  GAP_AUTHEN_BIT_NONE
 
@@ -261,10 +246,6 @@ Valid values:
 
 -  GAP_AUTHEN_BIT_FORCE_BONDING_FLAG
 
-Default value:
-
--  GAP_AUTHEN_BIT_NONE
-
 **Returns**
 ~~~~~~~~~~~
 
@@ -275,7 +256,7 @@ NA
 
 NA
 
-.. note :: “BLESecurity.h” must be included to use the class function.
+.. note :: "BLESecurity.h" must be included to use the class function.
 
 **BLESecurity::setStaticPin**
 -----------------------------
@@ -295,7 +276,9 @@ Configure device to use static pin input for BLE bonding.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-pin: BLE bonding static pin. Valid values are 6-digit integers ranging from 000000 to 999999.
+pin: BLE bonding static pin. Valid values are 6-digit integers.
+
+- 000000 to 999999.
 
 **Returns**
 ~~~~~~~~~~~
@@ -307,12 +290,7 @@ NA
 
 NA
 
-.. note :: Using a static pin will enable BLE bonding and pairing, set the IO
-    capability to GAP_IO_CAP_DISPLAY_ONLY and set the bonding security
-    requirements flags to (GAP_AUTHEN_BIT_BONDING_FLAG \|
-    GAP_AUTHEN_BIT_MITM_FLAG \| GAP_AUTHEN_BIT_SC_FLAG). 
-    
-    “BLESecurity.h” must be included to use the class function.
+.. note :: Using a static pin will enable BLE bonding and pairing, set the IO capability to GAP_IO_CAP_DISPLAY_ONLY and set the bonding security requirements flags to (GAP_AUTHEN_BIT_BONDING_FLAG | GAP_AUTHEN_BIT_MITM_FLAG | GAP_AUTHEN_BIT_SC_FLAG). "BLESecurity.h" must be included to use the class function.
 
 **BLESecurity::setPasskeyDisplayCallback**
 ------------------------------------------
@@ -332,11 +310,11 @@ Set a user callback function for passkey display during BLE bonding.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-fCallback: A user callback function that returns void and takes two arguments
+fCallback: A user callback function that returns void and takes two arguments.
 
-conn_id: connection ID of connecting device
+conn_id: connection ID of connecting device.
 
-passkey: bonding passkey to display to user to confirm connection
+passkey: bonding passkey to display to user to confirm connection.
 
 **Returns**
 ~~~~~~~~~~~
@@ -348,7 +326,7 @@ NA
 
 NA
 
-.. note :: “BLESecurity.h” must be included to use the class function.
+.. note :: "BLESecurity.h" must be included to use the class function.
 
 **BLESecurity::setPasskeyInputCallback**
 ----------------------------------------
@@ -368,10 +346,9 @@ Set a user callback function for passkey input during BLE bonding.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-fCallback: A user callback function that takes no arguments and returns
-the bonding passkey entered by the user
+fCallback: A user callback function that takes no arguments and returns the bonding passkey entered by the user.
 
-conn_id: connection ID of connecting device
+conn_id: connection ID of connecting device.
 
 **Returns**
 ~~~~~~~~~~~
@@ -383,9 +360,10 @@ NA
 
 NA
 
-.. note :: “BLESecurity.h” must be included to use the class function.
+.. note :: "BLESecurity.h" must be included to use the class function.
 
 **BLESecurity::setNumericComparisonCallback**
+---------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -402,12 +380,11 @@ Set a user callback function for numeric comparison during BLE bonding.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-fCallback: A user callback function that takes two arguments and returns
-a Boolean to indicate user approval for the numeric comparison
+fCallback: A user callback function that takes two arguments and returns a Boolean to indicate user approval for the numeric comparison.
 
-conn_id: connection ID of connecting device
+conn_id: connection ID of connecting device.
 
-passkey: bonding passkey to display to user to confirm connection
+passkey: bonding passkey to display to user to confirm connection.
 
 **Returns**
 ~~~~~~~~~~~
@@ -419,4 +396,4 @@ NA
 
 NA
 
-.. note :: “BLESecurity.h” must be included to use the class function.
+.. note :: "BLESecurity.h" must be included to use the class function.

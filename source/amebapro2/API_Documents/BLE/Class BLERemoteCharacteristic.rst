@@ -18,19 +18,19 @@ A class used for managing BLE GATT characteristics on connected remote devices.
 
 .. code-block:: c++
 
-  class BLERemoteCharacteristic
+    class BLERemoteCharacteristic
 
 **Members**
 ~~~~~~~~~~~
 
 +------------------------------------+---------------------------------+
-| **Public Constructors**            |                                 |
+| **Public Constructors**                                              |
 +====================================+=================================+
 | No public constructor is available for this class. You can get a     |
 | pointer to an instance of this class using                           |
 | BLERemoteService::getCharacteristic().                               |
-+------------------------------------+---------------------------------+ 
-| **Public Methods**                 |                                 |
++------------------------------------+---------------------------------+
+| **Public Methods**                                                   |
 +------------------------------------+---------------------------------+
 | BLERemoteCharacteristic::          | Get a descriptor with the       |
 | getDescriptor                      | specified UUID on the           |
@@ -76,34 +76,34 @@ A class used for managing BLE GATT characteristics on connected remote devices.
 |                                    | integer                         |
 +------------------------------------+---------------------------------+
 | BLERemoteCharacteristic::          | Write data to the               |
-| writeString                        | characteristic as a String      | 
+| writeString                        | characteristic as a String      |
 |                                    | object or character array       |
 +------------------------------------+---------------------------------+
 | BLERemoteCharacteristic::writeData8| Write data to the               |
-|                                    | characteristic as an unsigned   | 
+|                                    | characteristic as an unsigned   |
 |                                    | 8-bit integer                   |
 +------------------------------------+---------------------------------+
 | BLERemoteCharacteristic::          | Write data to the               |
-| writeData16                        | characteristic as an unsigned   | 
+| writeData16                        | characteristic as an unsigned   |
 |                                    | 16-bit integer                  |
 +------------------------------------+---------------------------------+
 | BLERemoteCharacteristic::          | Write data to the               |
-| writeData32                        | characteristic as an unsigned   | 
+| writeData32                        | characteristic as an unsigned   |
 |                                    | 32-bit integer                  |
 +------------------------------------+---------------------------------+
 | BLERemoteCharacteristic::setData   | Write data to the remote device |
 |                                    | characteristic                  |
 +------------------------------------+---------------------------------+
 | BLERemoteCharacteristic::getData   | Get the characteristic data     |
-|                                    | from the remote device and read | 
-|                                    | the data in the buffer          | 
+|                                    | from the remote device and read |
+|                                    | the data in the buffer          |
 +------------------------------------+---------------------------------+
 | BLERemoteCharacteristic::          | Enable notification or          |
-| enableNotifyIndicate               | indication for the              | 
-|                                    | characteristic                  |                                 
+| enableNotifyIndicate               | indication for the              |
+|                                    | characteristic                  |
 +------------------------------------+---------------------------------+
 | BLERemoteCharacteristic::          | Disable notification and        |
-| disableNotifyIndicate              | indication for the              | 
+| disableNotifyIndicate              | indication for the              |
 |                                    | characteristic                  |
 +------------------------------------+---------------------------------+
 | BLERemoteCharacteristic::          | Set a user function as a        |
@@ -123,27 +123,25 @@ Get a descriptor with the specified UUID on the remote device.
 
 .. code-block:: c++
 
-  BLERemoteDescriptor* getDescriptor(const char* uuid);
-  BLERemoteDescriptor* getDescriptor(BLEUUID uuid);
+    BLERemoteDescriptor* getDescriptor(const char* uuid);
+    BLERemoteDescriptor* getDescriptor(BLEUUID uuid);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-uuid: the desired descriptor UUID, expressed as a character array or a BLEUUID object
+uuid: the desired descriptor UUID, expressed as a character array or a BLEUUID object.
 
 **Returns**
 ~~~~~~~~~~~
 
-This function returns the found descriptor as a BLERemoteDescriptor
-object pointer, otherwise nullptr is returned if a descriptor with the UUID is not found.
+This function returns the found descriptor as a BLERemoteDescriptor object pointer, otherwise nullptr is returned if a descriptor with the UUID is not found.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “BLERemoteCharacteristic.h” must be included to use the class
-  function.
+.. note :: "BLERemoteCharacteristic.h" must be included to use the class function.
 
 **BLERemoteCharacteristic::getUUID**
 ------------------------------------
@@ -158,7 +156,7 @@ Get the characteristic UUID.
 
 .. code-block:: c++
 
-  BLEUUID getUUID(void);
+    BLEUUID getUUID(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -175,8 +173,7 @@ The function returns the characteristic UUID as a BLEUUID class object.
 
 NA
 
-.. note :: “BLERemoteCharacteristic.h” must be included to use the class
-  function.
+.. note :: "BLERemoteCharacteristic.h" must be included to use the class function.
 
 **BLERemoteCharacteristic::setBufferLen**
 -----------------------------------------
@@ -191,12 +188,12 @@ Set the size of the internal data buffer of the characteristic.
 
 .. code-block:: c++
 
-  void setBufferLen(uint16_t max_len);
+    void setBufferLen(uint16_t max_len);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-max_len: the size in bytes to resize the internal buffer to
+max_len: the size in bytes to resize the internal buffer to.
 
 **Returns**
 ~~~~~~~~~~~
@@ -206,11 +203,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEUartClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartClient/BLEUartClient.ino>`_ 
+Example: `BLEUartClient <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartClient/BLEUartClient.ino>`_
 
-.. note :: Characteristic data buffer has a default size of 20 bytes and can be
-  increased up to 230 bytes. “BLERemoteCharacteristic.h” must be
-  included to use the class function.
+.. note :: Characteristic data buffer has a default size of 20 bytes and can be increased up to 230 bytes. "BLERemoteCharacteristic.h" must be included to use the class function.
 
 **BLERemoteCharacteristic::getBufferLen**
 -----------------------------------------
@@ -225,7 +220,7 @@ Get the current size of the characteristic internal buffer.
 
 .. code-block:: c++
 
-  uint16_t getBufferLen(void);
+    uint16_t getBufferLen(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -242,9 +237,7 @@ This function returns the current internal buffer size that is set.
 
 NA
 
-.. note :: “BLERemoteCharacteristic.h” must be included to use the class
-  function.
-
+.. note :: "BLERemoteCharacteristic.h" must be included to use the clas function.
 
 **BLERemoteCharacteristic::canRead**
 ------------------------------------
@@ -259,7 +252,7 @@ Determine if characteristic has read property enabled.
 
 .. code-block:: c++
 
-  bool canRead(void);
+    bool canRead(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -276,8 +269,7 @@ This function returns TRUE if the read property for the characteristic is enable
 
 NA
 
-.. note :: “BLERemoteCharacteristic.h” must be included to use the class
-  function.
+.. note :: "BLERemoteCharacteristic.h" must be included to use the class function.
 
 
 **BLERemoteCharacteristic::canWrite**
@@ -293,7 +285,7 @@ Determine if characteristic has write property enabled.
 
 .. code-block:: c++
 
-  bool canWrite(void);
+    bool canWrite(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -310,8 +302,7 @@ This function returns TRUE if the write property or the write no response proper
 
 NA
 
-.. note :: “BLERemoteCharacteristic.h” must be included to use the class
-  function.
+.. note :: "BLERemoteCharacteristic.h" must be included to use the class function.
 
 **BLERemoteCharacteristic::canNotify**
 --------------------------------------
@@ -326,7 +317,7 @@ Determine if characteristic has notify property enabled.
 
 .. code-block:: c++
 
-  bool canNotify(void);
+    bool canNotify(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -343,8 +334,7 @@ The function returns TRUE if the notify property for the characteristic is enabl
 
 NA
 
-.. note :: “BLERemoteCharacteristic.h” must be included to use the class
-  function.
+.. note :: "BLERemoteCharacteristic.h" must be included to use the class function.
 
 **BLERemoteCharacteristic::canIndicate**
 ----------------------------------------
@@ -359,7 +349,7 @@ Determine if characteristic has indicate property enabled.
 
 .. code-block:: c++
 
-  bool canIndicate(void);
+    bool canIndicate(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -376,8 +366,7 @@ The function returns TRUE if the indicate property for the characteristic is ena
 
 NA
 
-.. note :: “BLERemoteCharacteristic.h” must be included to use the class
-  function.
+.. note :: "BLERemoteCharacteristic.h" must be included to use the class function.
 
 **BLERemoteCharacteristic::getProperties**
 ------------------------------------------
@@ -392,7 +381,7 @@ Get the characteristic properties.
 
 .. code-block:: c++
 
-  uint16_t getProperties(void);
+    uint16_t getProperties(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -409,8 +398,7 @@ The function returns the characteristic properties.
 
 NA
 
-.. note :: “BLERemoteCharacteristic.h” must be included to use the class
-  function.
+.. note :: "BLERemoteCharacteristic.h" must be included to use the class function.
 
 **BLERemoteCharacteristic::readString**
 ---------------------------------------
@@ -418,15 +406,14 @@ NA
 **Description**
 ~~~~~~~~~~~~~~~
 
-Request for characteristic data from the remote device and read the
-data in the buffer, expressed as a String class object.
+Request for characteristic data from the remote device and read the data in the buffer, expressed as a String class object.
 
 **Syntax**
 ~~~~~~~~~~
 
 .. code-block:: c++
 
-  String readString(void);
+    String readString(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -436,16 +423,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-The function returns the data in the characteristic data buffer
-expressed as a String class object.
+The function returns the data in the characteristic data buffer expressed as a String class object.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEUartClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartClient/BLEUartClient.ino>`_ 
+Example: `BLEUartClient <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartClient/BLEUartClient.ino>`_
 
-.. note :: “BLERemoteCharacteristic.h” must be included to use the class
-  function.
+.. note :: "BLERemoteCharacteristic.h" must be included to use the class function.
 
 **BLERemoteCharacteristic::readData8**
 --------------------------------------
@@ -453,15 +438,14 @@ Example: `BLEUartClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino
 **Description**
 ~~~~~~~~~~~~~~~
 
-Request for characteristic data from the remote device and read the
-data in the buffer, expressed as an unsigned 8-bit integer.
+Request for characteristic data from the remote device and read the data in the buffer, expressed as an unsigned 8-bit integer.
 
 **Syntax**
 ~~~~~~~~~~
 
 .. code-block:: c++
 
-  uint8_t readData8(void);
+    uint8_t readData8(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -476,10 +460,9 @@ This function returns the data in the characteristic data buffer expressed as a 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBatteryClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryClient/BLEBatteryClient.ino>`_ 
+Example: `BLEBatteryClient <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryClient/BLEBatteryClient.ino>`_
 
-.. note :: “BLERemoteCharacteristic.h” must be included to use the class
-  function.
+.. note :: "BLERemoteCharacteristic.h" must be included to use the class function.
 
 **BLERemoteCharacteristic::readData16**
 ---------------------------------------
@@ -487,15 +470,14 @@ Example: `BLEBatteryClient <https://github.com/ambiot/ambd_arduino/blob/dev/Ardu
 **Description**
 ~~~~~~~~~~~~~~~
 
-Request for characteristic data from the remote device and read the
-data in the buffer, expressed as an unsigned 16-bit integer.
+Request for characteristic data from the remote device and read the data in the buffer, expressed as an unsigned 16-bit integer.
 
 **Syntax**
 ~~~~~~~~~~
 
 .. code-block:: c++
 
-  uint16_t readData16(void);
+    uint16_t readData16(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -505,16 +487,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns the data in the characteristic data buffer
-expressed as a uint16_t value.
+This function returns the data in the characteristic data buffer expressed as a uint16_t value.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “BLERemoteCharacteristic.h” must be included to use the class
-  function.
+.. note :: "BLERemoteCharacteristic.h" must be included to use the class function.
 
 **BLERemoteCharacteristic::readData32**
 ---------------------------------------
@@ -522,15 +502,14 @@ NA
 **Description**
 ~~~~~~~~~~~~~~~
 
-Request for characteristic data from the remote device and read the
-data in the buffer, expressed as an unsigned 32-bit integer.
+Request for characteristic data from the remote device and read the data in the buffer, expressed as an unsigned 32-bit integer.
 
 **Syntax**
 ~~~~~~~~~~
 
 .. code-block:: c++
 
-  uint32_t readData32(void);
+    uint32_t readData32(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -547,8 +526,7 @@ This function returns the data in the characteristic data buffer expressed as a 
 
 NA
 
-.. note :: “BLERemoteCharacteristic.h” must be included to use the class
-  function.
+.. note :: "BLERemoteCharacteristic.h" must be included to use the class function.
 
 **BLERemoteCharacteristic::writeString**
 ----------------------------------------
@@ -563,8 +541,8 @@ Write data to the remote device characteristic as a String object or character a
 
 .. code-block:: c++
 
-  bool writeString(String str);
-  bool writeString(const char* str);
+    bool writeString(String str);
+    bool writeString(const char* str);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -581,8 +559,7 @@ This function returns TRUE if writing data to the remote device characteristic i
 
 NA
 
-.. note :: “BLERemoteCharacteristic.h” must be included to use the class
-  function.
+.. note :: "BLERemoteCharacteristic.h" must be included to use the class function.
 
 **BLERemoteCharacteristic::writeData8**
 ---------------------------------------
@@ -597,7 +574,7 @@ Write data to the remote device characteristic as an unsigned 8-bit integer.
 
 .. code-block:: c++
 
-  bool writeData8(uint8_t num);
+    bool writeData8(uint8_t num);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -614,7 +591,7 @@ This function returns TRUE if writing data to the remote device characteristic i
 
 NA
 
-.. note :: “BLERemoteCharacteristic.h” must be included to use the class function.
+.. note :: "BLERemoteCharacteristic.h" must be included to use the class function.
 
 **BLERemoteCharacteristic::writeData16**
 ----------------------------------------
@@ -629,7 +606,7 @@ Write data to the remote device characteristic as an unsigned 16-bit integer.
 
 .. code-block:: c++
 
-  bool writeData16(uint16_t num);
+    bool writeData16(uint16_t num);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -646,7 +623,7 @@ This function returns TRUE if writing data to the remote device characteristic i
 
 NA
 
-.. note :: “BLERemoteCharacteristic.h” must be included to use the class function.
+.. note :: "BLERemoteCharacteristic.h" must be included to use the class function.
 
 **BLERemoteCharacteristic::writeData32**
 ----------------------------------------
@@ -661,8 +638,8 @@ Write data to the remote device characteristic as a 32-bit integer.
 
 .. code-block:: c++
 
-  bool writeData32(uint32_t num);
-  bool writeData32(int num);
+    bool writeData32(uint32_t num);
+    bool writeData32(int num);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -679,9 +656,10 @@ This function returns TRUE if writing data to the remote device characteristic i
 
 NA
 
-.. note :: “BLERemoteCharacteristic.h” must be included to use the class function.
+.. note :: "BLERemoteCharacteristic.h" must be included to use the class function.
 
 **BLERemoteCharacteristic::setData**
+------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -693,14 +671,14 @@ Write data to the remote device characteristic.
 
 .. code-block:: c++
 
-  bool setData(uint8_t* data, uint16_t datalen);
+    bool setData(uint8_t* data, uint16_t datalen);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-data: pointer to byte array containing desired data
+data: pointer to byte array containing desired data.
 
-datalen: number of bytes of data to write
+datalen: number of bytes of data to write.
 
 **Returns**
 ~~~~~~~~~~~
@@ -712,7 +690,7 @@ This function returns TRUE if writing data to the remote device characteristic i
 
 NA
 
-.. note ::“BLERemoteCharacteristic.h” must be included to use the class function.
+.. note ::"BLERemoteCharacteristic.h" must be included to use the class function.
 
 **BLERemoteCharacteristic::getData**
 ------------------------------------
@@ -727,14 +705,14 @@ Get the characteristic data from the remote device and read the data in the buff
 
 .. code-block:: c++
 
-  uint16_t getData (uint8_t* data, uint16_t datalen);
+    uint16_t getData (uint8_t* data, uint16_t datalen);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-data: pointer to byte array to save data read from buffer
+data: pointer to byte array to save data read from buffer.
 
-datalen: number of bytes of data to read
+datalen: number of bytes of data to read.
 
 **Returns**
 ~~~~~~~~~~~
@@ -746,12 +724,7 @@ This function returns the number of bytes read.
 
 NA
 
-.. note :: If the data buffer contains less data than requested, it will only
-  read the available number of bytes of data.
-  
-  “BLERemoteCharacteristic.h” must be included to use the class
-  function.
-
+.. note :: If the data buffer contains less data than requested, it will only read the available number of bytes of data. "BLERemoteCharacteristic.h" must be included to use the class function.
 
 **BLERemoteCharacteristic::enableNotifyIndicate**
 -------------------------------------------------
@@ -766,12 +739,16 @@ Enable the remote device to send notifications or indications for the characteri
 
 .. code-block:: c++
 
-  void enableNotifyIndicate(bool notify);
+    void enableNotifyIndicate(bool notify);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-notify: TRUE to enable notifications, FALSE to enable indications. Default value: “1” - True.
+notify: Enable notifications or indications. Default value is TRUE.
+
+- TRUE (enable notifications)
+
+- FALSE (enable indications)
 
 **Returns**
 ~~~~~~~~~~~
@@ -781,9 +758,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEUartClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartClient/BLEUartClient.ino>`_ 
+Example: `BLEUartClient <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartClient/BLEUartClient.ino>`_
 
-.. note :: “BLERemoteCharacteristic.h” must be included to use the class function.
+.. note :: "BLERemoteCharacteristic.h" must be included to use the class function.
 
 **BLERemoteCharacteristic::disableNotifyIndicate**
 --------------------------------------------------
@@ -798,7 +775,7 @@ Disable receiving notifications and indications for the characteristic from the 
 
 .. code-block:: c++
 
-  void disableNotifyIndicate(void);
+    void disableNotifyIndicate(void);
 
 **Parameters**
 
@@ -814,8 +791,7 @@ NA
 
 NA
 
-.. note :: “BLERemoteCharacteristic.h” must be included to use the class
-  function.
+.. note :: "BLERemoteCharacteristic.h" must be included to use the class function.
 
 **BLERemoteCharacteristic::setNotifyCallback**
 ----------------------------------------------
@@ -830,7 +806,7 @@ Set a user function to be called when the characteristic receives a notification
 
 .. code-block:: c++
 
-  void setNotifyCallback(void (*fCallback) (BLERemoteCharacteristic* chr, uint8_t* data, uint16_t length));
+    void setNotifyCallback(void (*fCallback) (BLERemoteCharacteristic* chr, uint8_t* data, uint16_t length));
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -851,6 +827,6 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEUartClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartClient/BLEUartClient.ino>`_ 
+Example: `BLEUartClient <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartClient/BLEUartClient.ino>`_
 
-.. note :: “BLERemoteCharacteristic.h” must be included to use the class function.
+.. note :: "BLERemoteCharacteristic.h" must be included to use the class function.

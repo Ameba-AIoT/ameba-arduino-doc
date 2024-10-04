@@ -22,13 +22,14 @@ A class used for creating and managing BLE GATT characteristics.
 
 **Members**
 ~~~~~~~~~~~
+
 +-------------------------------------------+----------------------------------+
-| **Public Constructors**                   |                                  |
+| **Public Constructors**                                                      |
 +===========================================+==================================+
 | BLECharacteristic::BLECharacteristic      | Constructs a BLECharacteristic   |
 |                                           | object                           |
 +-------------------------------------------+----------------------------------+
-| **Public Methods**                        |                                  |
+| **Public Methods**                                                           |
 +-------------------------------------------+----------------------------------+
 | BLECharacteristic::setUUID                | Set the UUID of the              |
 |                                           | characteristic.                  |
@@ -158,7 +159,6 @@ Constructs a BLECharacteristic object.
 .. code-block:: c++
 
     BLECharacteristic::BLECharacteristic(BLEUUID uuid);
-
     BLECharacteristic::BLECharacteristic(const char* uuid);
 
 **Parameters**
@@ -174,9 +174,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEUartService <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartService/BLEUartService.ino>`_
+Example: `BLEUartService <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartService/BLEUartService.ino>`_
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::setUUID**
 ------------------------------
@@ -208,7 +208,7 @@ NA
 
 NA
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::getUUID**
 ------------------------------
@@ -240,10 +240,10 @@ The function returns the UUID of the characteristic in a BLEUUID class object.
 
 NA
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::setBufferLen**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -270,12 +270,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEUartService <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartService/BLEUartService.ino>`_
+Example: `BLEUartService <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartService/BLEUartService.ino>`_
 
-.. note :: Characteristic data buffer has a default size of 20 bytes and can be
-    increased up to 230 bytes.
-
-    “BLECharacteristic.h” must be included to use the class function.
+.. note :: Characteristic data buffer has a default size of 20 bytes and can be increased up to 230 bytes. "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::getBufferLen**
 -----------------------------------
@@ -307,7 +304,7 @@ The function returns the currently set internal buffer size.
 
 NA
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::setReadProperty**
 --------------------------------------
@@ -327,8 +324,11 @@ Set the Read property value of the characteristic.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-value: To allow connected devices to read characteristic's data. Valid
-values: true or false.
+value: To allow connected devices to read characteristic's data.
+
+- true.
+
+- false.
 
 **Returns**
 ~~~~~~~~~~~
@@ -338,9 +338,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBatteryService <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryService/BLEBatteryService.ino>`_
+Example: `BLEBatteryService <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryService/BLEBatteryService.ino>`_
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::setWriteProperty**
 ---------------------------------------
@@ -360,7 +360,11 @@ Set the Write property value of the characteristic.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-value: To allow connected devices to write characteristic data. Valid values: true or false.
+value: To allow connected devices to write characteristic data.
+
+- true.
+
+- false.
 
 **Returns**
 ~~~~~~~~~~~
@@ -370,12 +374,13 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEUartService <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartService/BLEUartService.ino>`_
+Example: `BLEUartService <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartService/BLEUartService.ino>`_
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::setWriteNRProperty**
 -----------------------------------------
+
 **Description**
 ~~~~~~~~~~~~~~~
 
@@ -391,7 +396,11 @@ Set the write without response property value of the characteristic.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-value: To allow connected devices to write characteristic data with no response. Valid values: true or false.
+value: To allow connected devices to write characteristic data with no response.
+
+- true.
+
+- false.
 
 **Returns**
 ~~~~~~~~~~~
@@ -403,7 +412,7 @@ NA
 
 NA
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.\ **
+.. note :: "BLECharacteristic.h" must be included to use the class function.\ **
 
 **BLECharacteristic::setNotifyProperty**
 ----------------------------------------
@@ -423,8 +432,11 @@ Set the Notify property of the characteristic.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-value: To allow connected devices to receive characteristic data
-notification messages. Valid values: true or false.
+value: To allow connected devices to receive characteristic data notification messages.
+
+- true.
+
+- false.
 
 **Returns**
 ~~~~~~~~~~~
@@ -434,12 +446,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEUartService <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartService/BLEUartService.ino>`_
+Example: `BLEUartService <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartService/BLEUartService.ino>`_
 
-.. note :: Enabling this property will add a CCCD descriptor to the 
-    characteristic.
-    
-    “BLECharacteristic.h” must be included to use the class function.
+.. note :: Enabling this property will add a CCCD descriptor to the characteristic. "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::setIndicateProperty**
 ------------------------------------------
@@ -459,8 +468,11 @@ Set the Indicate property value of characteristic.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-value: To allow connected devices to receive characteristic data
-indication messages. Valid values: true or false.
+value: To allow connected devices to receive characteristic data indication messages.
+
+- true.
+
+- false.
 
 **Returns**
 ~~~~~~~~~~~
@@ -472,10 +484,7 @@ NA
 
 NA
 
-.. note :: Enabling this property will add a CCCD descriptor to the 
-    characteristic.
-    
-    “BLECharacteristic.h” must be included to use the class function.
+.. note :: Enabling this property will add a CCCD descriptor to the characteristic. "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::setProperties**
 ------------------------------------
@@ -495,7 +504,7 @@ Set the characteristic properties.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-value: desired characteristic properties. Default value: 0x00 (no properties)
+value: desired characteristic properties. Default value is 0x00 (no properties)
 
 **Returns**
 ~~~~~~~~~~~
@@ -507,7 +516,7 @@ NA
 
 NA
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::getProperties**
 ------------------------------------
@@ -539,7 +548,7 @@ This function returns the currently set characteristic properties expressed as a
 
 NA
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::setReadPermissions**
 -----------------------------------------
@@ -557,7 +566,7 @@ void setReadPermissions(uint32_t value);
 **Parameters**
 ~~~~~~~~~~~~~~
 
-value: desired characteristic read permissions. Valid values:
+value: desired characteristic read permissions.
 
 -  GATT_PERM_READ
 
@@ -577,12 +586,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEUartService <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartService/BLEUartService.ino>`_
+Example: `BLEUartService <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartService/BLEUartService.ino>`_
 
-.. note :: If no permissions are set, the default permission is 
-    GATT_PERM_NONE
-    
-    “BLECharacteristic.h” must be included to use the class function.
+.. note :: If no permissions are set, the default permission is GATT_PERM_NONE. "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::setWritePermissions**
 ------------------------------------------
@@ -600,7 +606,7 @@ void setWritePermissions(uint32_t value);
 **Parameters**
 ~~~~~~~~~~~~~~
 
-value: desired characteristic write permissions. Valid values:
+value: desired characteristic write permissions.
 
 -  GATT_PERM_WRITE
 
@@ -620,12 +626,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEUartService <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartService/BLEUartService.ino>`_
+Example: `BLEUartService <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartService/BLEUartService.ino>`_
 
-.. note :: If no permissions are set, the default permission is 
-    GATT_PERM_NONE
-    
-    “BLECharacteristic.h” must be included to use the class function.
+.. note :: If no permissions are set, the default permission is GATT_PERM_NONE. "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::setPermissions**
 -------------------------------------
@@ -645,7 +648,7 @@ Set the characteristic permissions.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-value: desired characteristic permissions. Valid values:
+value: desired characteristic permissions.
 
 -  GATT_PERM_READ
 
@@ -677,10 +680,7 @@ NA
 
 NA
 
-.. note :: If no permissions are set, the default permission is 
-    GATT_PERM_NONE
-    
-    “BLECharacteristic.h” must be included to use the class function.
+.. note :: If no permissions are set, the default permission is GATT_PERM_NONE. "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::getPermissions**
 -------------------------------------
@@ -705,17 +705,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns the characteristic permissions that are previously
-set using the setReadPermissions, setWritePermissions and setPermissions
-functions.
+This function returns the characteristic permissions that are previously set using the setReadPermissions, setWritePermissions and setPermissions functions.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
-
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::readString**
 ---------------------------------
@@ -743,12 +740,9 @@ The function returns the data in the characteristic internal buffer as a String 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEUartService <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartService/BLEUartService.ino>`_
+Example: `BLEUartService <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartService/BLEUartService.ino>`_
 
-.. note :: Non-ASCII data may result in unexpected 
-    characters in the string.
-    
-    “BLECharacteristic.h” must be included to use the class function.
+.. note :: Non-ASCII data may result in unexpected characters in the string. "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::readData8**
 --------------------------------
@@ -780,7 +774,7 @@ This function returns the data in the characteristic internal buffer expressed a
 
 NA
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::readData16**
 ---------------------------------
@@ -805,15 +799,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns the data in the characteristic internal buffer
-expressed as a uint16_t value.
+This function returns the data in the characteristic internal buffer expressed as a uint16_t value.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::readData32**
 ---------------------------------
@@ -845,7 +838,7 @@ This function returns the data in the characteristic internal buffer expressed a
 
 NA
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::writeString**
 ----------------------------------
@@ -861,7 +854,6 @@ Write data to the characteristic data buffer as a String object or character arr
 .. code-block:: c++
 
     bool writeString(String str);
-
     bool writeString(const char* str);
 
 **Parameters**
@@ -877,9 +869,9 @@ This function returns TRUE if write data is successful.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEUartService <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartService/BLEUartService.ino>`_
+Example: `BLEUartService <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartService/BLEUartService.ino>`_
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::writeData8**
 ---------------------------------
@@ -909,9 +901,9 @@ This function returns TRUE if write data is successful.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBatteryService <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryService/BLEBatteryService.ino>`_
+Example: `BLEBatteryService <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryService/BLEBatteryService.ino>`_
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::writeData16**
 ----------------------------------
@@ -943,7 +935,7 @@ This function returns TRUE if write data is successful.
 
 NA
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::writeData32**
 ----------------------------------
@@ -951,8 +943,7 @@ NA
 **Description**
 ~~~~~~~~~~~~~~~
 
-Write data to the characteristic data buffer as an unsigned 32-bit
-integer.
+Write data to the characteristic data buffer as an unsigned 32-bit integer.
 
 **Syntax**
 ~~~~~~~~~~
@@ -960,7 +951,6 @@ integer.
 .. code-block:: C++
 
     bool writeData32(uint32_t num);
-
     bool writeData32(int num);
 
 **Parameters**
@@ -978,7 +968,7 @@ This function returns TRUE if write data is successful.
 
 NA
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::setData**
 ------------------------------
@@ -998,9 +988,9 @@ Write data to the characteristic data buffer.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-data: pointer to byte array containing desired data
+data: pointer to byte array containing desired data.
 
-datalen: number of bytes of data to write
+datalen: number of bytes of data to write.
 
 **Returns**
 ~~~~~~~~~~~
@@ -1012,7 +1002,7 @@ This function returns TRUE if write data is successful.
 
 NA
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::getData**
 ------------------------------
@@ -1032,9 +1022,9 @@ Read data from the characteristic data buffer.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-data: pointer to byte array containing saved data from data buffer
+data: pointer to byte array containing saved data from data buffer.
 
-datalen: number of bytes of data to be read
+datalen: number of bytes of data to be read.
 
 **Returns**
 ~~~~~~~~~~~
@@ -1046,12 +1036,10 @@ This function returns the number of bytes read.
 
 NA
 
-.. note :: If the data buffer contains less data than requested, it will only read
-    the available number of bytes of data.
-
-    “BLECharacteristic.h” must be included to use the class function.
+.. note :: If the data buffer contains less data than requested, it will only read the available number of bytes of data. "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::getDataBuff**
+----------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -1080,7 +1068,7 @@ This function returns a pointer to the uint8_t array used as the characteristic 
 
 NA
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::getDataLen**
 ---------------------------------
@@ -1112,7 +1100,7 @@ This function returns the length of the last written data (in bytes) in the inte
 
 NA
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::notify**
 -----------------------------
@@ -1141,9 +1129,9 @@ NA
 
 **Example Code**
 
-Example: `BLEUartService <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartService/BLEUartService.ino>`_
+Example: `BLEUartService <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartService/BLEUartService.ino>`_
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::indicate**
 -------------------------------
@@ -1172,7 +1160,7 @@ NA
 
 NA
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::setUserDescriptor**
 ----------------------------------------
@@ -1204,7 +1192,7 @@ NA
 
 NA
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::setFormatDescriptor**
 ------------------------------------------
@@ -1224,19 +1212,13 @@ Add a data format descriptor attribute (UUID 0x2904) to the characteristic.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-format: refer to
-https://www.bluetooth.com/specifications/assigned-numbers/format-types/
-for the valid values and associated format types.
+format: refer to https://www.bluetooth.com/specifications/assigned-numbers/format-types/ for the valid values and associated format types.
 
-exponent: base-10 exponent to be applied to characteristic data value
+exponent: base-10 exponent to be applied to characteristic data value.
 
-unit: refer to
-https://btprodspecificationrefs.blob.core.windows.net/assigned-values/16-bit%20UUID%20Numbers%20Document.pdf
-for the valid values and associated units.
+unit: refer to https://btprodspecificationrefs.blob.core.windows.net/assigned-values/16-bit%20UUID%20Numbers%20Document.pdf for the valid values and associated units.
 
-description: refer to
-https://www.bluetooth.com/specifications/assigned-numbers/gatt-namespace-descriptors/
-for the valid values and associated descriptors.
+description: refer to https://www.bluetooth.com/specifications/assigned-numbers/gatt-namespace-descriptors/ for the valid values and associated descriptors.
 
 **Returns**
 ~~~~~~~~~~~
@@ -1248,7 +1230,7 @@ NA
 
 NA
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::setReportRefDescriptor**
 ---------------------------------------------
@@ -1270,7 +1252,13 @@ Add a HID report reference descriptor attribute (UUID 0x2908) to the characteris
 
 id: HID report reference ID
 
-type: HID report type. 0x01 for input report, 0x02 for output report, 0x03 for feature report.
+type: HID report type.
+
+- 0x01 (input report)
+
+- 0x02 (output report)
+
+- 0x03 (feature report)
 
 **Returns**
 ~~~~~~~~~~~
@@ -1282,11 +1270,7 @@ NA
 
 NA
 
-.. note :: HID report reference ID should begin at 1. Some HID host systems may
-    consider an ID of 0 as invalid.
-
-    “BLECharacteristic.h” must be included to use the class function.
-
+.. note :: HID report reference ID should begin at 1. Some HID host systems may consider an ID of 0 as invalid. "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::getReportRefID**
 -------------------------------------
@@ -1317,8 +1301,7 @@ This function returns the report reference ID previously set using the setReport
 
 NA
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
-
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::getReportRefType**
 ---------------------------------------
@@ -1343,16 +1326,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns the report reference type previously set using the
-setReportRefDescriptor function.
+This function returns the report reference type previously set using the setReportRefDescriptor function.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
-
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::setReadCallback**
 --------------------------------------
@@ -1360,8 +1341,7 @@ NA
 **Description**
 ~~~~~~~~~~~~~~~
 
-Set a user function to be called when the characteristic data is read by
-a connected device.
+Set a user function to be called when the characteristic data is read by a connected device.
 
 **Syntax**
 ~~~~~~~~~~
@@ -1373,12 +1353,11 @@ a connected device.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-fCallback: A user callback function that returns void and takes two
-arguments.
+fCallback: A user callback function that returns void and takes two arguments.
 
-chr: pointer to BLECharacteristic object containing data read
+chr: pointer to BLECharacteristic object containing data read.
 
-conn_id: connection ID of connected device that read characteristic data
+conn_id: connection ID of connected device that read characteristic data.
 
 **Returns**
 ~~~~~~~~~~~
@@ -1388,9 +1367,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBatteryService <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryService/BLEBatteryService.ino>`_
+Example: `BLEBatteryService <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryService/BLEBatteryService.ino>`_
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::setWriteCallback**
 ---------------------------------------
@@ -1410,13 +1389,11 @@ Set a user function to be called when the characteristic data is written by a co
 **Parameters**
 ~~~~~~~~~~~~~~
 
-fCallback: A user callback function that returns void and takes two
-arguments.
+fCallback: A user callback function that returns void and takes two arguments.
 
 chr: pointer to BLECharacteristic object containing written data.
 
-conn_id: connection ID of connected device that wrote characteristic
-data.
+conn_id: connection ID of connected device that wrote characteristic data.
 
 **Returns**
 ~~~~~~~~~~~
@@ -1426,9 +1403,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEUartService <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartService/BLEUartService.ino>`_
+Example: `BLEUartService <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartService/BLEUartService.ino>`_
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.
 
 **BLECharacteristic::setCCCDCallback**
 --------------------------------------
@@ -1436,8 +1413,7 @@ Example: `BLEUartService <https://github.com/ambiot/ambd_arduino/blob/dev/Arduin
 **Description**
 ~~~~~~~~~~~~~~~
 
-Set a user function to be called when a connected device modifies the
-characteristic CCCD to enable or disable notifications or indications.
+Set a user function to be called when a connected device modifies the characteristic CCCD to enable or disable notifications or indications.
 
 **Syntax**
 ~~~~~~~~~~
@@ -1449,16 +1425,13 @@ characteristic CCCD to enable or disable notifications or indications.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-fCallback: A user callback function that returns void and takes two
-arguments.
+fCallback: A user callback function that returns void and takes two arguments.
 
 chr: pointer to BLECharacteristic object containing written data.
 
-conn_id: connection ID of connected device that wrote characteristic
-data.
+conn_id: connection ID of connected device that wrote characteristic data.
 
-ccc_bits: the new CCCD data bits after modification by the connected
-device
+ccc_bits: the new CCCD data bits after modification by the connected device.
 
 **Returns**
 ~~~~~~~~~~~
@@ -1467,6 +1440,6 @@ NA
 
 **Example Code**
 
-Example: `BLEUartService <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartService/BLEUartService.ino>`_
+Example: `BLEUartService <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartService/BLEUartService.ino>`_
 
-.. note :: “BLECharacteristic.h” must be included to use the class function.
+.. note :: "BLECharacteristic.h" must be included to use the class function.

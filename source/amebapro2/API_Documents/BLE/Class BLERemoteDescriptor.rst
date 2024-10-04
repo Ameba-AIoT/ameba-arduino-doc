@@ -24,13 +24,13 @@ A class used for managing BLE GATT descriptors on connected remote devices.
 ~~~~~~~~~~~
 
 +------------------------------------+---------------------------------+
-| **Public Constructors**            |                                 |
+| **Public Constructors**                                              |
 +====================================+=================================+
 | No public constructor is available for this class. You can get a     |
 | pointer to an instance of this class using                           |
-| BLERemoteCharacteristic::getDescriptor().                            |
+| BLERemoteCharacteristic::getDescriptor()                             |
 +------------------------------------+---------------------------------+
-| **Public Methods**                 |                                 |
+| **Public Methods**                                                   |
 +------------------------------------+---------------------------------+
 | BLERemoteDescriptor::getUUID       | Get the descriptor UUID         |
 +------------------------------------+---------------------------------+
@@ -65,7 +65,7 @@ A class used for managing BLE GATT descriptors on connected remote devices.
 | BLERemoteDescriptor::writeData32   | Write data to the descriptor    |
 |                                    | as an unsigned 32-bit integer   |
 +------------------------------------+---------------------------------+
-| BLERemoteDescriptor::setData       | Write data to the descriptor.   |
+| BLERemoteDescriptor::setData       | Write data to the descriptor    |
 +------------------------------------+---------------------------------+
 | BLERemoteDescriptor::getData       | Get data from the descriptor    |
 +------------------------------------+---------------------------------+
@@ -100,7 +100,7 @@ This function returns the descriptor UUID as a BLEUUID class object.
 
 NA
 
-.. note :: “BLERemoteDescriptor.h” must be included to use the class function.
+.. note :: "BLERemoteDescriptor.h" must be included to use the class function.
 
 **BLERemoteDescriptor::setBufferLen**
 -------------------------------------
@@ -132,10 +132,7 @@ NA
 
 NA
 
-.. note :: Descriptor data buffer has a default size of 20 bytes and can be
-    increased up to 230 bytes. 
-    
-    “BLERemoteDescriptor.h” must be included to use the class function.
+.. note :: Descriptor data buffer has a default size of 20 bytes and can be increased up to 230 bytes. "BLERemoteDescriptor.h" must be included to use the class function.
 
 **BLERemoteDescriptor::getBufferLen**
 -------------------------------------
@@ -167,7 +164,7 @@ This function returns the current internal buffer size that is set.
 
 NA
 
-.. note :: “BLERemoteDescriptor.h” must be included to use the class function.
+.. note :: "BLERemoteDescriptor.h" must be included to use the class function.
 
 **BLERemoteDescriptor::readString**
 -----------------------------------
@@ -175,8 +172,7 @@ NA
 **Description**
 ~~~~~~~~~~~~~~~
 
-Request for descriptor data from the remote device and read the data in
-the buffer, expressed as a String class object.
+Request for descriptor data from the remote device and read the data in the buffer, expressed as a String class object.
 
 **Syntax**
 ~~~~~~~~~~
@@ -200,7 +196,7 @@ The function returns the data in the descriptor buffer expressed as a String cla
 
 NA
 
-.. note :: “BLERemoteDescriptor.h” must be included to use the class function.
+.. note :: "BLERemoteDescriptor.h" must be included to use the class function.
 
 **BLERemoteDescriptor::readData8**
 ----------------------------------
@@ -208,8 +204,7 @@ NA
 **Description**
 ~~~~~~~~~~~~~~~
 
-Request for descriptor data from the remote device and read the data in
-the buffer, expressed as an unsigned 8-bit integer.
+Request for descriptor data from the remote device and read the data in the buffer, expressed as an unsigned 8-bit integer.
 
 **Syntax**
 ~~~~~~~~~~
@@ -233,7 +228,7 @@ The function returns the data in the descriptor buffer expressed as a uint8_t va
 
 NA
 
-.. note :: “BLERemoteDescriptor.h” must be included to use the class function.
+.. note :: "BLERemoteDescriptor.h" must be included to use the class function.
 
 **BLERemoteDescriptor::readData16**
 -----------------------------------
@@ -241,8 +236,7 @@ NA
 **Description**
 ~~~~~~~~~~~~~~~
 
-Request for descriptor data from the remote device and read the data in
-the buffer, expressed as an unsigned 16-bit integer.
+Request for descriptor data from the remote device and read the data in the buffer, expressed as an unsigned 16-bit integer.
 
 **Syntax**
 ~~~~~~~~~~
@@ -266,7 +260,7 @@ The function returns the data in the descriptor buffer expressed as a uint16_t v
 
 NA
 
-.. note :: “BLERemoteDescriptor.h” must be included to use the class function.
+.. note :: "BLERemoteDescriptor.h" must be included to use the class function.
 
 **BLERemoteDescriptor::readData32**
 -----------------------------------
@@ -274,8 +268,7 @@ NA
 **Description**
 ~~~~~~~~~~~~~~~
 
-Request for descriptor data from the remote device and read the data in
-the buffer, expressed as an unsigned 32-bit integer.
+Request for descriptor data from the remote device and read the data in the buffer, expressed as an unsigned 32-bit integer.
 
 **Syntax**
 ~~~~~~~~~~
@@ -292,15 +285,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-The function returns the data in the descriptor buffer expressed as a
-uint32_t value.
+The function returns the data in the descriptor buffer expressed as a uint32_t value.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “BLERemoteDescriptor.h” must be included to use the class function.
+.. note :: "BLERemoteDescriptor.h" must be included to use the class function.
 
 **BLERemoteDescriptor::writeString**
 ------------------------------------
@@ -316,27 +308,24 @@ Write data to the remote device descriptor as a String object or character array
 .. code-block:: c++
 
     bool writeString(String str);
-
     bool writeString(const char* str);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-str: the data to write to the remote descriptor, expressed as a String
-class object or a char array.
+str: the data to write to the remote descriptor, expressed as a String class object or a char array.
 
 **Returns**
 ~~~~~~~~~~~
 
-This function returns TRUE if writing data to remote device descriptor
-is successful.
+This function returns TRUE if writing data to remote device descriptor is successful.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “BLERemoteDescriptor.h” must be included to use the class function.
+.. note :: "BLERemoteDescriptor.h" must be included to use the class function.
 
 **BLERemoteDescriptor::writeData8**
 -----------------------------------
@@ -361,15 +350,14 @@ num: the data to write to the descriptor buffer expressed as an unsigned 8-bit i
 **Returns**
 ~~~~~~~~~~~
 
-This function returns TRUE if writing data to remote device descriptor
-is successful.
+This function returns TRUE if writing data to remote device descriptor is successful.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “BLERemoteDescriptor.h” must be included to use the class function.
+.. note :: "BLERemoteDescriptor.h" must be included to use the class function.
 
 **BLERemoteDescriptor::writeData16**
 ------------------------------------
@@ -377,8 +365,7 @@ NA
 **Description**
 ~~~~~~~~~~~~~~~
 
-Write data to the remote device descriptor as an unsigned 16-bit
-integer.
+Write data to the remote device descriptor as an unsigned 16-bit integer.
 
 **Syntax**
 ~~~~~~~~~~
@@ -390,21 +377,19 @@ integer.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-num: the data to write to the descriptor buffer expressed as an unsigned
-16-bit integer.
+num: the data to write to the descriptor buffer expressed as an unsigned 16-bit integer.
 
 **Returns**
 ~~~~~~~~~~~
 
-This function returns TRUE if writing data to remote device descriptor
-is successful.
+This function returns TRUE if writing data to remote device descriptor is successful.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “BLERemoteDescriptor.h” must be included to use the class function.
+.. note :: "BLERemoteDescriptor.h" must be included to use the class function.
 
 **BLERemoteDescriptor::writeData32**
 ------------------------------------
@@ -420,7 +405,6 @@ Write data to the remote device descriptor as a 32-bit integer.
 .. code-block:: c++
 
     bool writeData32(uint32_t num);
-
     bool writeData32(int num);
 
 **Parameters**
@@ -438,7 +422,7 @@ This function returns TRUE if writing data to remote device descriptor is succes
 
 NA
 
-.. note :: “BLERemoteDescriptor.h” must be included to use the class function.
+.. note :: "BLERemoteDescriptor.h" must be included to use the class function.
 
 **BLERemoteDescriptor::setData**
 --------------------------------
@@ -458,9 +442,9 @@ Write data to the descriptor.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-data: pointer to byte array containing desired data to write
+data: pointer to byte array containing desired data to write.
 
-datalen: number of bytes of data to write
+datalen: number of bytes of data to write.
 
 **Returns**
 ~~~~~~~~~~~
@@ -472,7 +456,7 @@ This function returns TRUE if writing data to remote device descriptor is succes
 
 NA
 
-.. note :: “BLERemoteDescriptor.h” must be included to use the class function.
+.. note :: "BLERemoteDescriptor.h" must be included to use the class function.
 
 **BLERemoteDescriptor::getData**
 --------------------------------
@@ -492,9 +476,9 @@ Get the descriptor data from the remote device and read the data in the buffer.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-data: pointer to byte array to save data read from buffer
+data: pointer to byte array to save data read from buffer.
 
-datalen: number of bytes of data to read
+datalen: number of bytes of data to read.
 
 **Returns**
 ~~~~~~~~~~~
@@ -506,7 +490,4 @@ The function returns the number of bytes read.
 
 NA
 
-.. note :: If the data buffer contains less data than requested, it will only read
-    the available number of bytes of data. 
-    
-    “BLERemoteDescriptor.h” must be included to use the class function.
+.. note :: If the data buffer contains less data than requested, it will only read the available number of bytes of data. "BLERemoteDescriptor.h" must be included to use the class function.

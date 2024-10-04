@@ -18,18 +18,17 @@ A class used for creating and managing a BLE HID Mouse.
 
 .. code-block:: c++
 
-  class BLEHIDMouse
-
+    class BLEHIDMouse
 
 **Members**
 ~~~~~~~~~~~
 
 +----------------------------+-----------------------------------------+
-| **Public Constructors**    |                                         |
+| **Public Constructors**                                              |
 +============================+=========================================+
 | BLEHIDMouse::BLEHIDMouse   | Constructs a BLEHIDMouse object         |
 +----------------------------+-----------------------------------------+
-| **Public Methods**         |                                         |
+| **Public Methods**                                                   |
 +----------------------------+-----------------------------------------+
 | BLEHIDMouse::setReportID   | Set HID report ID for the HID Mouse     |
 +----------------------------+-----------------------------------------+
@@ -64,7 +63,7 @@ Constructs a BLEHIDMouse object.
 
 .. code-block:: c++ 
 
-  BLEHIDMouse(void);
+    BLEHIDMouse(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -78,12 +77,12 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEHIDMouse <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDMouse/BLEHIDMouse.ino>`_ 
+Example: `BLEHIDMouse <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDMouse/BLEHIDMouse.ino>`_
 
-.. note :: “BLEHIDMouse.h” must be included to use the class function.
-
+.. note :: "BLEHIDMouse.h" must be included to use the class function.
 
 **BLEHIDMouse::setReportID**
+----------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -95,7 +94,7 @@ Set HID report ID for the HID Mouse.
 
 .. code-block:: c++
 
-  void setReportID (uint8_t reportID);
+    void setReportID (uint8_t reportID);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -112,8 +111,7 @@ NA
 
 NA
 
-.. note :: “BLEHIDMouse.h” must be included to use the class function.
-
+.. note :: "BLEHIDMouse.h" must be included to use the class function.
 
 **BLEHIDMouse::mouseReport**
 ----------------------------
@@ -128,21 +126,31 @@ Send a HID Mouse report.
 
 .. code-block:: c++
 
-  void mouseReport (hid_mouse_report_t* report);
-  void mouseReport (uint8_t buttons, int8_t x, int8_t y, int8_t scroll);
+    void mouseReport (hid_mouse_report_t* report);
+    void mouseReport (uint8_t buttons, int8_t x, int8_t y, int8_t scroll);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-report: pointer to mouse report structure containing data on mouse inputs
+report: pointer to mouse report structure containing data on mouse inputs.
 
-buttons: bitmap indicating state of each button. 1 = pressed, 0 = released.
+buttons: bitmap indicating state of each button.
 
-x: mouse x-axis movement. Integer value from -127 to 127.
+- 1 (pressed)
 
-y: mouse y-axis movement. Integer value from -127 to 127.
+- 0 (released)
 
-scroll: mouse scroll wheel movement. Integer value from -127 to 127.
+x: mouse x-axis movement in integer.
+
+- -127 to 127.
+
+y: mouse y-axis movement in integer.
+
+- -127 to 127.
+
+scroll: mouse scroll wheel movement in integer.
+
+- -127 to 127.
 
 **Returns**
 ~~~~~~~~~~~
@@ -154,7 +162,7 @@ NA
 
 NA
 
-.. note :: “BLEHIDMouse.h” must be included to use the class function.
+.. note :: "BLEHIDMouse.h" must be included to use the class function.
 
 **BLEHIDMouse::mousePress**
 ---------------------------
@@ -169,12 +177,14 @@ Send a HID Mouse report indicating buttons pressed.
 
 .. code-block:: c++
 
-  void mousePress (uint8_t buttons);
+    void mousePress (uint8_t buttons);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-buttons: bitmap indicating buttons pressed. 1 = pressed.
+buttons: bitmap indicating buttons pressed.
+
+- 1 (pressed)
 
 **Returns**
 ~~~~~~~~~~~
@@ -184,9 +194,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEHIDMouse <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDMouse/BLEHIDMouse.ino>`_  
+Example: `BLEHIDMouse <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDMouse/BLEHIDMouse.ino>`_
 
-.. note :: “BLEHIDMouse.h” must be included to use the class function.
+.. note :: "BLEHIDMouse.h" must be included to use the class function.
 
 **BLEHIDMouse::mouseRelease**
 -----------------------------
@@ -201,12 +211,14 @@ Send a HID Mouse report indicating buttons released.
 
 .. code-block:: c++
 
-  void mouseRelease (uint8_t buttons);
+    void mouseRelease (uint8_t buttons);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-buttons: bitmap indicating buttons released. 1 = released.
+buttons: bitmap indicating buttons released.
+
+- 1 (pressed)
 
 **Returns**
 ~~~~~~~~~~~
@@ -216,10 +228,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEHIDMouse <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDMouse/BLEHIDMouse.ino>`_ 
+Example: `BLEHIDMouse <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDMouse/BLEHIDMouse.ino>`_
 
-.. note :: “BLEHIDMouse.h” must be included to use the class function.
-
+.. note :: "BLEHIDMouse.h" must be included to use the class function.
 
 **BLEHIDMouse::mouseReleaseAll**
 --------------------------------
@@ -234,7 +245,7 @@ Send a HID Mouse report indicating no buttons pressed.
 
 .. code-block:: c++
 
-  void mouseReleaseAll(void);
+    void mouseReleaseAll(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -251,7 +262,7 @@ NA
 
 NA
 
-.. note :: “BLEHIDMouse.h” must be included to use the class function.
+.. note :: "BLEHIDMouse.h" must be included to use the class function.
 
 **BLEHIDMouse::mouseMove**
 --------------------------
@@ -266,14 +277,18 @@ Send a HID Mouse report indicating mouse movement.
 
 .. code-block:: c++
 
-  void mouseMove (int8_t x, int8_t y);
+    void mouseMove (int8_t x, int8_t y);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-x: mouse x-axis movement. Integer value from -127 to 127.
+x: mouse x-axis movement in integer.
 
-y: mouse y-axis movement. Integer value from -127 to 127.
+- -127 to 127.
+
+y: mouse y-axis movement in integer.
+
+- -127 to 127.
 
 **Returns**
 ~~~~~~~~~~~
@@ -283,9 +298,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEHIDMouse <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDMouse/BLEHIDMouse.ino>`_ 
+Example: `BLEHIDMouse <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDMouse/BLEHIDMouse.ino>`_
 
-.. note :: “BLEHIDMouse.h” must be included to use the class function.
+.. note :: "BLEHIDMouse.h" must be included to use the class function.
 
 **BLEHIDMouse::mouseScroll**
 ----------------------------
@@ -305,7 +320,9 @@ Send a HID Mouse report indicating mouse scroll wheel movement.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-scroll: mouse scroll wheel movement. Integer value from -127 to 127.
+scroll: mouse scroll wheel movement in integer.
+
+- -127 to 127.
 
 **Returns**
 ~~~~~~~~~~~
@@ -315,6 +332,6 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEHIDMouse <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDMouse/BLEHIDMouse.ino>`_ 
+Example: `BLEHIDMouse <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDMouse/BLEHIDMouse.ino>`_
 
-.. note :: “BLEHIDMouse.h” must be included to use the class function.
+.. note :: "BLEHIDMouse.h" must be included to use the class function.

@@ -18,7 +18,7 @@ A class used for managing BLE advertising settings.
 
 .. code-block:: c++
 
-   class BLEAdvert
+    class BLEAdvert
 
 **Members**
 ~~~~~~~~~~~
@@ -28,7 +28,7 @@ A class used for managing BLE advertising settings.
 |                                 | singleton class. You can get a pointer to this class using           |
 |                                 | BLEDevice::configAdvert().                                           |
 +=================================+======================================================================+
-| **Public Methods**              |                                                                      |
+| **Public Methods**                                                                                     |
 +---------------------------------+----------------------------------------------------------------------+
 | BLEAdvert::updateAdvertParams   | Update the current BLE advertisement settings.                       |
 +---------------------------------+----------------------------------------------------------------------+
@@ -60,7 +60,7 @@ Update the current BLE advertisement settings.
 
 .. code-block:: c++
 
-   void updateAdvertParams(void);
+    void updateAdvertParams(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -74,12 +74,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEWifiConfig <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEWifiConfig/BLEWifiConfig.ino>`_ 
+Example: `BLEWifiConfig <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEWifiConfig/BLEWifiConfig.ino>`_
 
-.. note :: Please use the other class member functions to set the BLE advertising
-   parameters before using this function to update the advert data.
-   
-   “BLEAdvert.h” must be included to use the class function.
+.. note :: Please use the other class member functions to set the BLE advertising parameters before using this function to update the advert data. "BLEAdvert.h" must be included to use the class function.
 
 **BLEAdvert::startAdv**
 -----------------------
@@ -94,7 +91,7 @@ Start BLE advertising.
 
 .. code-block:: c++
 
-   void startAdv(void);
+    void startAdv(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -109,15 +106,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEWifiConfig <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEWifiConfig/BLEWifiConfig.ino>`_ 
+Example: `BLEWifiConfig <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEWifiConfig/BLEWifiConfig.ino>`_
 
-.. note :: This function gives you more control and flexibility over BLE
-   advertising parameters. This function should not be used to start the
-   BLE advertising process without first registering the necessary callback
-   and handler functions. Call BLEDevice::beginPeripheral() to register the
-   necessary functions and start advertising for the first time.
-   
-   “BLEAdvert.h” must be included to use the class function.
+.. note :: This function gives you more control and flexibility over BLE advertising parameters. This function should not be used to start the BLE advertising process without first registering the necessary callback and handler functions. Call BLEDevice::beginPeripheral() to register the necessary functions and start advertising for the first time."BLEAdvert.h" must be included to use the class function.
 
 **BLEAdvert::stopAdv**
 ----------------------
@@ -132,7 +123,7 @@ Stop BLE advertising.
 
 .. code-block:: c++
 
-   void stopAdv(void);
+    void stopAdv(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -147,14 +138,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEWifiConfig <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEWifiConfig/BLEWifiConfig.ino>`_ 
+Example: `BLEWifiConfig <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEWifiConfig/BLEWifiConfig.ino>`_
 
-.. note :: This function gives you more control and flexibility over BLE
-   advertising parameters. This function should not be used to directly
-   stop the BLE advertising process. Call BLEDevice::end() to stop
-   advertising and free up used resources.
-   
-   “BLEAdvert.h” must be included to use the class function.
+.. note :: This function gives you more control and flexibility over BLE advertising parameters. This function should not be used to directly stop the BLE advertising process. Call BLEDevice::end() to stop advertising and free up used resources. "BLEAdvert.h" must be included to use the class function.
 
 **BLEAdvert::setAdvType**
 -------------------------
@@ -169,18 +155,22 @@ Set the BLE advertising type.
 
 .. code-block:: c++
 
-   void setAdvType(uint8_t advType);
+    void setAdvType(uint8_t advType);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-advType: the desired advertisement type. Valid values:
+advType: the desired advertisement type.
 
--  0 = GAP_ADTYPE_ADV_IND : connectable undirected advertisement
--  1 = GAP_ADTYPE_ADV_HDC_DIRECT_IND : connectable high duty cycle directed advertisement
--  2 = GAP_ADTYPE_ADV_SCAN_IND : scannable undirected advertisement
--  3 = GAP_ADTYPE_ADV_NONCONN_IND : Non-connectable undirected advertisement
--  4 = GAP_ADTYPE_ADV_LDC_DIRECT_IND : connectable low duty cycle directed advertisement
+- GAP_ADTYPE_ADV_IND (0, connectable undirected advertisement)
+
+- GAP_ADTYPE_ADV_HDC_DIRECT_IND (1, connectable high duty cycle directed advertisement)
+
+- GAP_ADTYPE_ADV_SCAN_IND (2, scannable undirected advertisement)
+
+- GAP_ADTYPE_ADV_NONCONN_IND (3, Non-connectable undirected advertisement)
+
+- GAP_ADTYPE_ADV_LDC_DIRECT_IND (4, connectable low duty cycle directed advertisement)
 
 **Returns**
 ~~~~~~~~~~~
@@ -190,13 +180,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBeacon <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBeacon/BLEBeacon.ino>`_ 
+Example: `BLEBeacon <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBeacon/BLEBeacon.ino>`_
 
-.. note :: If connection requests should be allowed, call this function with
-   GAP_ADTYPE_ADV_IND. If all connection requests should be rejected, call
-   this function with GAP_ADTYPE_ADV_NONCONN_IND.
-   
-   “BLEAdvert.h” must be included to use the class function.
+.. note :: If connection requests should be allowed, call this function with GAP_ADTYPE_ADV_IND. If all connection requests should be rejected, call this function with GAP_ADTYPE_ADV_NONCONN_IND. "BLEAdvert.h" must be included to use the class function.
 
 **BLEAdvert::setMinInterval**
 -----------------------------
@@ -211,14 +197,14 @@ Set the minimum BLE advertising interval.
 
 .. code-block:: c++
 
-   void setMinInterval(uint16_t minInt_ms);
+    void setMinInterval(uint16_t minInt_ms);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-minInt_ms: the desired advertisement minimum interval, expressed in
-milliseconds. The valid values for the interval are from 20ms to
-10240ms.
+minInt_ms: the desired advertisement minimum interval, expressed in milliseconds.
+
+- 20 to 10240.
 
 **Returns**
 ~~~~~~~~~~~
@@ -230,11 +216,7 @@ NA
 
 NA
 
-.. note :: BLE advertisements will repeat with an interval between the set minimum
-   and maximum intervals. Set a shorter interval for the BLE device to be
-   discovered rapidly and set a longer interval to conserve power.
-   
-   “BLEAdvert.h” must be included to use the class function.
+.. note :: BLE advertisements will repeat with an interval between the set minimum and maximum intervals. Set a shorter interval for the BLE device to be discovered rapidly and set a longer interval to conserve power. "BLEAdvert.h" must be included to use the class function.
 
 **BLEAdvert::setMaxInterval**
 -----------------------------
@@ -249,14 +231,14 @@ Set the maximum BLE advertising interval.
 
 .. code-block:: c++
 
-   void setMaxInterval(uint16_t minInt_ms);
+    void setMaxInterval(uint16_t minInt_ms);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-minInt_ms: the desired advertisement maximum interval, expressed in
-milliseconds. The valid values for the interval are from 20ms to
-10240ms.
+minInt_ms: the desired advertisement maximum interval, expressed in milliseconds.
+
+- 20ms to 10240.
 
 **Returns**
 ~~~~~~~~~~~
@@ -268,11 +250,7 @@ NA
 
 NA
 
-.. note :: BLE advertisements will repeat with an interval between the set minimum
-   and maximum intervals. Set a shorter interval for the BLE device to be
-   discovered rapidly and set a longer interval to conserve power.
-   
-   “BLEAdvert.h” must be included to use the class function.
+.. note :: BLE advertisements will repeat with an interval between the set minimum and maximum intervals. Set a shorter interval for the BLE device to be discovered rapidly and set a longer interval to conserve power. "BLEAdvert.h" must be included to use the class function.
 
 **BLEAdvert::setAdvData**
 -------------------------
@@ -287,16 +265,17 @@ Set BLE advertising data.
 
 .. code-block:: c++
 
-   void setAdvData(BLEAdvertData adData);
-   void setAdvData(uint8_t* pData, uint8_t size);
+    void setAdvData(BLEAdvertData adData);
+    void setAdvData(uint8_t* pData, uint8_t size);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-adData: advertising data formatted in a BLEAdvertData class object
+adData: advertising data formatted in a BLEAdvertData class object.
+
 pData: pointer to a byte array containing the required advertising data.
-size: number of bytes the advertising data contains, maximum of 31
-bytes.
+
+size: number of bytes the advertising data contains, maximum of 31 bytes.
 
 **Returns**
 ~~~~~~~~~~~
@@ -306,9 +285,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEWifiConfig <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEWifiConfig/BLEWifiConfig.ino>`_ 
+Example: `BLEWifiConfig <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEWifiConfig/BLEWifiConfig.ino>`_
 
-.. note :: “BLEAdvert.h” must be included to use the class function.
+.. note :: "BLEAdvert.h" must be included to use the class function.
 
 **BLEAdvert::setScanRspData**
 -----------------------------
@@ -323,14 +302,16 @@ Set BLE scan response data.
 
 .. code-block:: c++
 
-   void setScanRspData(BLEAdvertData adData);
-   void setScanRspData(uint8_t* pData, uint8_t size);
+    void setScanRspData(BLEAdvertData adData);
+    void setScanRspData(uint8_t* pData, uint8_t size);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-adData: scan response data formatted in a BLEAdvertData class object
+adData: scan response data formatted in a BLEAdvertData class object.
+
 pData: pointer to a byte array containing the required scan response data.
+
 size: number of bytes the scan response data contains, maximum of 31 bytes.
 
 **Returns**
@@ -343,4 +324,4 @@ NA
 
 NA
 
-.. note :: “BLEAdvert.h” must be included to use the class function.
+.. note :: "BLEAdvert.h" must be included to use the class function.

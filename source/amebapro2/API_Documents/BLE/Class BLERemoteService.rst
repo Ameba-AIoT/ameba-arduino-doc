@@ -24,12 +24,12 @@ A class used for managing BLE GATT services on connected remote devices.
 ~~~~~~~~~~~
 
 +------------------------------------+---------------------------------+
-| **Public Constructors**            |                                 |
+| **Public Constructors**                                              |
 +====================================+=================================+
 | No public constructor is available for this class. You can get a     |
 | pointer to an instance of this class using BLEClient::getService().  |
 +------------------------------------+---------------------------------+
-| **Public Methods**                 |                                 |
+| **Public Methods**                                                   |
 +------------------------------------+---------------------------------+
 | BLERemoteService::getUUID          | Get the service UUID            |
 +------------------------------------+---------------------------------+
@@ -67,7 +67,7 @@ This function returns the service UUID as a BLEUUID class object.
 
 NA
 
-.. note :: “BLERemoteService.h” must be included to use the class function.
+.. note :: "BLERemoteService.h" must be included to use the class function.
 
 **BLERemoteService::getCharacteristic**
 ---------------------------------------
@@ -83,7 +83,6 @@ Get a characteristic with the specified UUID on the remote device.
 .. code-block:: c++
 
     BLERemoteCharacteristic* getCharacteristic (const char* uuid);
-
     BLERemoteCharacteristic* getCharacteristic (BLEUUID uuid);
 
 **Parameters**
@@ -94,13 +93,11 @@ uuid: the desired characteristic UUID, expressed as a character array or a BLEUU
 **Returns**
 ~~~~~~~~~~~
 
-The function returns the found characteristic as a
-BLERemoteCharacteristic object pointer, otherwise nullptr is returned if
-a characteristic with the UUID is not found.
+The function returns the found characteristic as a BLERemoteCharacteristic object pointer, otherwise nullptr is returned if a characteristic with the UUID is not found.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEUartClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartClient/BLEUartClient.ino>`_ 
+Example: `BLEUartClient <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartClient/BLEUartClient.ino>`_
 
-.. note :: BLERemoteService.h” must be included to use the class function.
+.. note :: BLERemoteService.h" must be included to use the class function.

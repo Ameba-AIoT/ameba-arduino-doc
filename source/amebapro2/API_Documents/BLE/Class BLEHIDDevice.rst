@@ -11,21 +11,20 @@ Class BLEHIDDevice
 **Description**
 ~~~~~~~~~~~~~~~
 
-A class used for creating and managing HID over GATT Profile (HOGP)
-services.
+A class used for creating and managing HID over GATT Profile (HOGP) services.
 
 **Syntax**
 ~~~~~~~~~~
 
 .. code-block:: c++
-    
+
     class BLEHIDDevice
 
 **Members**
 ~~~~~~~~~~~
 
 +------------------------------------+------------------------------------+
-| **Public Constructors**            |                                    |
+| **Public Constructors**                                                 |
 +====================================+====================================+
 | The public constructor should not be used as this class is intended to  |
 | be a singleton class. Access member functions using the object instance |
@@ -87,14 +86,12 @@ services.
 **Description**
 ~~~~~~~~~~~~~~~
 
-Initialize the HID Device profile by creating the required services and
-characteristics.
+Initialize the HID Device profile by creating the required services and characteristics.
 
 **Syntax**
 ~~~~~~~~~~
 
 .. code-block:: c++
-    
 
     void init(void);
 
@@ -111,12 +108,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEHIDGamepad <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDGamepad/BLEHIDGamepad.ino>`_
+Example: `BLEHIDGamepad <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDGamepad/BLEHIDGamepad.ino>`_
 
-.. note :: The HID Device object should be initialized before any HID reports can
-    be sent.
-
-    “BLEHIDDevice.h” must be included to use the class function.\ **
+.. note :: The HID Device object should be initialized before any HID reports can be sent. "BLEHIDDevice.h" must be included to use the class function.
 
 **BLEHIDDevice::setNumOutputReport**
 ------------------------------------
@@ -130,7 +124,7 @@ Set the number of HID output reports to be generated.
 ~~~~~~~~~~
 
 .. code-block:: c++
-    
+
     void setNumOutputReport (uint8_t numOutputReports);
 
 **Parameters**
@@ -148,11 +142,7 @@ NA
 
 NA
 
-.. note :: The number of output reports should be set before BLEHIDDevice init()
-    function is called.The default number of HID output report to be
-    generated is 1 if it is not set.
-
-    “BLEHIDDevice.h” must be included to use the class function.\ **
+.. note :: The number of output reports should be set before BLEHIDDevice init() function is called.The default number of HID output report to be generated is 1 if it is not set. "BLEHIDDevice.h" must be included to use the class function.
 
 **BLEHIDDevice::setNumInputReport**
 -----------------------------------
@@ -166,7 +156,6 @@ Set the number of HID input reports to be generated.
 ~~~~~~~~~~
 
 .. code-block:: c++
-    
 
     void setNumInputReport (uint8_t numInputReports);
 
@@ -185,11 +174,7 @@ NA
 
 NA
 
-.. note :: The number of input reports should be set before BLEHIDDevice init()
-    function is called.The default number of HID input report to be
-    generated is 3 if it is not set.
-
-    “BLEHIDDevice.h” must be included to use the class function.
+.. note :: The number of input reports should be set before BLEHIDDevice init() function is called.The default number of HID input report to be generated is 3 if it is not set. "BLEHIDDevice.h" must be included to use the class function.
 
 **BLEHIDDevice::setReportMap**
 ------------------------------
@@ -203,15 +188,15 @@ Set the HID report map characteristics with a HID report descriptor.
 ~~~~~~~~~~
 
 .. code-block:: c++
-    
+
     void setReportMap (uint8_t* report_map, uint16_t len);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-report_map: pointer to HID report descriptor
+report_map: pointer to HID report descriptor.
 
-len: HID report descriptor length in bytes
+len: HID report descriptor length in bytes.
 
 **Returns**
 ~~~~~~~~~~~
@@ -221,20 +206,17 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEHIDGamepad <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDGamepad/BLEHIDGamepad.ino>`_
+Example: `BLEHIDGamepad <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDGamepad/BLEHIDGamepad.ino>`_
 
-.. note :: The HID report map characteristic can only be configured after
-    BLEHIDDevice init() function is called.
+.. note ::
 
-    HID report descriptor is a hard coded array of bytes that describe the
-    device’s data packets. For example, how many packets the device
-    supports, how large are the packets and the purpose of each byte and bit
-    in the packets.
+    The HID report map characteristic can only be configured after BLEHIDDevice init() function is called.
 
-    For more information on HID report descriptor, refer to
-    https://eleccelerator.com/tutorial-about-usb-hid-report-descriptors/ .
+    HID report descriptor is a hard coded array of bytes that describe the device's data packets. For example, how many packets the device supports, how large are the packets and the purpose of each byte and bit in the packets.
 
-    “BLEHIDDevice.h” must be included to use the class function.
+    For more information on HID report descriptor, refer to https://eleccelerator.com/tutorial-about-usb-hid-report-descriptors/.
+
+    "BLEHIDDevice.h" must be included to use the class function.
 
 **BLEHIDDevice::inputReport**
 -----------------------------
@@ -248,19 +230,19 @@ Send a HID input report to connected device.
 ~~~~~~~~~~
 
 .. code-block:: c++
-    
+
     void inputReport (uint8_t reportID, uint8_t* data, uint16_t len, uint8_t conn_id);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-reportID: HID report ID of input report
+reportID: HID report ID of input report.
 
-data: pointer to the HID input report data to be sent
+data: pointer to the HID input report data to be sent.
 
-len: length of HID input report data in bytes
+len: length of HID input report data in bytes.
 
-conn_id: connection ID of device that the HID report will be sent to
+conn_id: connection ID of device that the HID report will be sent to.
 
 **Returns**
 ~~~~~~~~~~~
@@ -272,10 +254,7 @@ NA
 
 NA
 
-.. note :: HID input reports can only be sent after BLEHIDDevice init() function
-    has been called.
-
-    “BLEHIDDevice.h” must be included to use the class function.
+.. note :: HID input reports can only be sent after BLEHIDDevice init() function has been called. "BLEHIDDevice.h" must be included to use the class function.
 
 **BLEHIDDevice::setOutputReportCallback**
 -----------------------------------------
@@ -289,7 +268,7 @@ Set a user callback function for receiving HID output report data.
 ~~~~~~~~~~
 
 .. code-block:: c++
-    
+
     void setOutputReportCallback (uint8_t reportID, void (*fCallback) (BLECharacteristic* chr, uint8_t conn_id));
 
 **Parameters**
@@ -297,10 +276,9 @@ Set a user callback function for receiving HID output report data.
 
 reportID: HID report ID of output report
 
-chr: BLECharacteristic class object containing received HID output
-report data
+chr: BLECharacteristic class object containing received HID output report data.
 
-conn_id: connection ID of the device that send out HID report data
+conn_id: connection ID of the device that send out HID report data.
 
 **Returns**
 ~~~~~~~~~~~
@@ -312,10 +290,7 @@ NA
 
 NA
 
-.. note :: Setting a user callback function for output reports can only occur after
-    BLEHIDDevice init() function has been called.
-
-    “BLEHIDDevice.h” must be included to use the class function.
+.. note :: Setting a user callback function for output reports can only occur after BLEHIDDevice init() function has been called. "BLEHIDDevice.h" must be included to use the class function.
 
 **BLEHIDDevice::bootKeyboardReport**
 ------------------------------------
@@ -329,18 +304,17 @@ Send a HID boot keyboard input report to connected device.
 ~~~~~~~~~~
 
 .. code-block:: c++
-    
+
     void bootKeyboardReport (uint8_t* data, uint16_t len, uint8_t conn_id);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-data: pointer to the HID input report data to be sent
+data: pointer to the HID input report data to be sent.
 
-len: length of HID input report data in bytes
+len: length of HID input report data in bytes.
 
-conn_id: connection ID of device that the HID input report will be sent
-to.
+conn_id: connection ID of device that the HID input report will be sent to.
 
 **Returns**
 ~~~~~~~~~~~
@@ -352,11 +326,7 @@ NA
 
 NA
 
-.. note :: By default, the HID service Protocol Mode characteristic has boot mode
-    disabled. To send boot keyboard input reports, the Protocol Mode
-    characteristic needs to have boot mode enabled.
-
-    “BLEHIDDevice.h” must be included to use the class function.\ **
+.. note :: By default, the HID service Protocol Mode characteristic has boot mode disabled. To send boot keyboard input reports, the Protocol Mode characteristic needs to have boot mode enabled. "BLEHIDDevice.h" must be included to use the class function.
 
 **BLEHIDDevice::setHidInfo**
 ----------------------------
@@ -364,28 +334,23 @@ NA
 **Description**
 ~~~~~~~~~~~~~~~
 
-Set HID information such as HID class specification version, country
-code and flags for HID service.
+Set HID information such as HID class specification version, country code and flags for HID service.
 
 **Syntax**
 ~~~~~~~~~~
 
 .. code-block:: c++
-    
 
     void setHidInfo (uint16_t bcd, uint8_t country, uint8_t flags);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-bcd: 16-bit unsigned integer representing version number of base USB HID
-Specification implemented by HID Device
+bcd: 16-bit unsigned integer representing version number of base USB HID Specification implemented by HID Device.
 
-country: 8-bit integer identifying country HID Device hardware is
-localized for. Most hardware is not localized (value 0x00).
+country: 8-bit integer identifying country HID Device hardware is localized for. Most hardware is not localized (value 0x00).
 
-flags: Bit flags indicating remote-wake capability and advertising when
-bonded but not connected.
+flags: Bit flags indicating remote-wake capability and advertising when bonded but not connected.
 
 **Returns**
 ~~~~~~~~~~~
@@ -397,10 +362,7 @@ NA
 
 NA
 
-.. note :: For detailed information on the characteristic, refer to Bluetooth SIG
-    HID Service specifications.
-
-    “BLEHIDDevice.h” must be included to use the class function.
+.. note :: For detailed information on the characteristic, refer to Bluetooth SIG HID Service specifications. "BLEHIDDevice.h" must be included to use the class function.
 
 **BLEHIDDevice::setBattLevel**
 ------------------------------
@@ -414,13 +376,13 @@ Set battery level data of the Battery service.
 ~~~~~~~~~~
 
 .. code-block:: c++
-    
+
     void setBattLevel (uint8_t level);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-level: battery level expressed as % of full charge
+level: battery level expressed as % of full charge.
 
 **Returns**
 ~~~~~~~~~~~
@@ -432,10 +394,7 @@ NA
 
 NA
 
-.. note :: Battery level is set to 100% by default. For detailed information refer
-    to Bluetooth SIG Battery service specifications.
-
-    “BLEHIDDevice.h” must be included to use the class function.
+.. note :: Battery level is set to 100% by default. For detailed information refer to Bluetooth SIG Battery service specifications. "BLEHIDDevice.h" must be included to use the class function.
 
 **BLEHIDDevice::setPNPInfo**
 ----------------------------
@@ -449,23 +408,19 @@ Set PNP data of the Device Information service.
 ~~~~~~~~~~
 
 .. code-block:: c++
-    
+
     void setPNPInfo (uint8_t sig, uint16_t vid, uint16_t pid, uint16_t version);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-sig: The Vendor ID Source field designates which organization assigned
-the value used in the Vendor ID field value.
+sig: The Vendor ID Source field designates which organization assigned the value used in the Vendor ID field value.
 
-vid: The Vendor ID field is intended to uniquely identify the vendor of
-the device.
+vid: The Vendor ID field is intended to uniquely identify the vendor of the device.
 
-pid: The Product ID field is intended to distinguish between different
-products made by the vendor.
+pid: The Product ID field is intended to distinguish between different products made by the vendor.
 
-version: The Product Version field is a numeric expression identifying
-the device release number in Binary-Coded Decimal.
+version: The Product Version field is a numeric expression identifying the device release number in Binary-Coded Decimal.
 
 **Returns**
 ~~~~~~~~~~~
@@ -477,11 +432,7 @@ NA
 
 NA
 
-.. note :: By default, sig and vid are configured to indicate Realtek as the
-    vendor. For detailed information refer to Bluetooth SIG Device
-    Information service specifications.
-
-    “BLEHIDDevice.h” must be included to use the class function.
+.. note :: By default, sig and vid are configured to indicate Realtek as the vendor. For detailed information refer to Bluetooth SIG Device Information service specifications. "BLEHIDDevice.h" must be included to use the class function.
 
 **BLEHIDDevice::setManufacturerString**
 ---------------------------------------
@@ -495,7 +446,7 @@ Set manufacturer information of the Device Information service.
 ~~~~~~~~~~
 
 .. code-block:: c++
-    
+
     void setManufacturerString (const char* manufacturer);
 
 **Parameters**
@@ -513,10 +464,7 @@ NA
 
 NA
 
-.. note :: Manufacturer is set to “Realtek” by default. For detailed information
-    refer to Bluetooth SIG Device Information service specifications.
-
-    “BLEHIDDevice.h” must be included to use the class function.
+.. note :: Manufacturer is set to "Realtek" by default. For detailed information refer to Bluetooth SIG Device Information service specifications. "BLEHIDDevice.h" must be included to use the class function.
 
 **BLEHIDDevice::setModelString**
 --------------------------------
@@ -530,7 +478,7 @@ Set model information of the Device Information service.
 ~~~~~~~~~~
 
 .. code-block:: c++
-    
+
     void setModelString (const char* model);
 
 **Parameters**
@@ -548,10 +496,7 @@ NA
 
 NA
 
-.. note :: Model is set to “Ameba_BLE_HID” by default. For detailed information
-    refer to Bluetooth SIG Device Information service specifications.
-
-    “BLEHIDDevice.h” must be included to use the class function.\ **
+.. note :: Model is set to "Ameba_BLE_HID" by default. For detailed information refer to Bluetooth SIG Device Information service specifications. "BLEHIDDevice.h" must be included to use the class function.
 
 **BLEHIDDevice::hidService**
 ----------------------------
@@ -565,7 +510,7 @@ Get reference to HID service.
 ~~~~~~~~~~
 
 .. code-block:: c++
-    
+
     BLEService& hidService (void);
 
 **Parameters**
@@ -576,28 +521,28 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns a pointer to the BLEService class object for the
-HID service.
+This function returns a pointer to the BLEService class object for the HID service.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEHIDMouse <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDMouse/BLEHIDMouse.ino>`_
+Example: `BLEHIDMouse <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDMouse/BLEHIDMouse.ino>`_
 
-.. note :: “BLEHIDDevice.h” must be included to use the class function.
+.. note :: "BLEHIDDevice.h" must be included to use the class function.
 
 **BLEHIDDevice::devInfoService**
+--------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
 
-Get reference to Device Information service
+Get reference to Device Information service.
 
 **Syntax**
 ~~~~~~~~~~
 
 .. code-block:: c++
-    
+
     BLEService& devInfoService (void);
 
 **Parameters**
@@ -608,15 +553,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns a pointer to the BLEService class object for the
-Device Information service.
+This function returns a pointer to the BLEService class object for the Device Information service.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEHIDMouse <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDMouse/BLEHIDMouse.ino>`_
+Example: `BLEHIDMouse <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDMouse/BLEHIDMouse.ino>`_
 
-.. note :: “BLEHIDDevice.h” must be included to use the class function.\ **
+.. note :: "BLEHIDDevice.h" must be included to use the class function.
 
 **BLEHIDDevice::battService**
 -----------------------------
@@ -630,7 +574,7 @@ Get reference to Battery service.
 ~~~~~~~~~~
 
 .. code-block:: c++
-    
+
     BLEService& battService (void);
 
 **Parameters**
@@ -641,12 +585,11 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns a pointer to the BLEService class object for the
-Battery service.
+This function returns a pointer to the BLEService class object for the Battery service.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEHIDMouse <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDMouse/BLEHIDMouse.ino>`_
+Example: `BLEHIDMouse <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDMouse/BLEHIDMouse.ino>`_
 
-.. note :: “BLEHIDDevice.h” must be included to use the class function.
+.. note :: "BLEHIDDevice.h" must be included to use the class function.

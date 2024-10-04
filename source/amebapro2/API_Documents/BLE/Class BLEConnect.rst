@@ -24,13 +24,13 @@ A class used for managing BLE connection settings.
 ~~~~~~~~~~~
 
 +------------------------------------+------------------------------------+
-| **Public Constructors**            |                                    |
+| **Public Constructors**                                                 |
 +====================================+====================================+
 | No public constructor is available as this class is intended to be a    |
 | singleton class. You can get a pointer to this class using              |
 | BLEDevice::configConnection                                             |
 +------------------------------------+------------------------------------+
-| **Public Methods**                 |                                    |
+| **Public Methods**                                                      |
 +------------------------------------+------------------------------------+
 | BLEConnect::connect                | Scan and search for all accessible |
 |                                    | BLE devices, then select and       |
@@ -72,8 +72,7 @@ A class used for managing BLE connection settings.
 **Description**
 ~~~~~~~~~~~~~~~
 
-This class function is used to scan and search for all accessible BLE
-devices, then select and connect to one of them.
+This class function is used to scan and search for all accessible BLE devices, then select and connect to one of them.
 
 **Syntax**
 ~~~~~~~~~~
@@ -81,49 +80,40 @@ devices, then select and connect to one of them.
 .. code-block:: c++
 
     bool connect(char* btAddr, T_GAP_REMOTE_ADDR_TYPE destAddrType, uint16_t scanTimeout);
-
     bool connect(uint8_t (&btAddr)[6], T_GAP_REMOTE_ADDR_TYPE destAddrType, uint16_t scanTimeout);
-
     bool connect(BLEAdvertData targetDevice, uint16_t scanTimeout);
-
     bool connect(BLEAddr destAddr, T_GAP_REMOTE_ADDR_TYPE destAddrType, uint16_t scanTimeout);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-char* btAddr: pointer to the targeted BLE device's Bluetooth address
-expressed as a character string.
+char* btAddr: pointer to the targeted BLE device's Bluetooth address expressed as a character string.
 
-uint8_t (&btAddr): targeted BLE device's Bluetooth address contained in
-a 6-byte array.
+uint8_t (&btAddr): targeted BLE device's Bluetooth address contained in a 6-byte array.
 
-destAddr: targeted BLE device's Bluetooth address contained in BLEAddr
-class object.
+destAddr: targeted BLE device's Bluetooth address contained in BLEAddr class object.
 
 targetDevice: advertising data packet scanned from targeted BLE device.
 
-destAddrType: Bluetooth address type of targeted BLE device, Valid
-values:
+destAddrType: Bluetooth address type of targeted BLE device.
 
--  GAP_REMOTE_ADDR_LE_PUBLIC
+- GAP_REMOTE_ADDR_LE_PUBLIC
 
--  GAP_REMOTE_ADDR_LE_RANDOM
+- GAP_REMOTE_ADDR_LE_RANDOM
 
-scan timeout: duration in milliseconds for which to look for the
-targeted BLE device before giving up.
+scan timeout: duration in milliseconds for which to look for the targeted BLE device before giving up.
 
 **Returns**
 ~~~~~~~~~~~
 
-This function returns true if the connection is successful, otherwise
-false.
+This function returns true if the connection is successful, otherwise false.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBatteryClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryClient/BLEBatteryClient.ino>`_
+Example: `BLEBatteryClient <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryClient/BLEBatteryClient.ino>`_
 
-.. note :: “BLEConnect.h” must be included to use the class function.
+.. note :: "BLEConnect.h" must be included to use the class function.
 
 **BLEConnect::disconnect**
 --------------------------
@@ -143,22 +133,22 @@ Disconnect from targeted BLE device.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-connId: connection ID for target device. Default connection ID set to 0.
+connId: connection ID for target device. Default value is 0.
 
 **Returns**
 ~~~~~~~~~~~
 
-This function returns true if the operation is successful, otherwise
-false.
+This function returns true if the operation is successful, otherwise false.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “BLEConnect.h” must be included to use the class function.
+.. note :: "BLEConnect.h" must be included to use the class function.
 
 **BLEConnect::setScanInterval**
+-------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -175,7 +165,9 @@ Set the scan interval when searching for the targeted device.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-scanInt_ms: scan interval in milliseconds. Valid value: 3 to 10240.
+scanInt_ms: scan interval in milliseconds.
+
+- 3 to 10240.
 
 **Returns**
 ~~~~~~~~~~~
@@ -187,11 +179,7 @@ NA
 
 NA
 
-.. note :: Scan interval defines how often the scanning process is started. The
-    value set for scanInt_ms must be equal or larger than the value set for
-    scanWindow_ms. scanInt_ms value is defined in units of 625 microseconds.
-    
-    “BLEConnect.h” must be included to use the class function.
+.. note :: Scan interval defines how often the scanning process is started. The value set for scanInt_ms must be equal or larger than the value set for scanWindow_ms. scanInt_ms value is defined in units of 625 microseconds. "BLEConnect.h" must be included to use the class function.
 
 **BLEConnect::setScanWindow**
 -----------------------------
@@ -199,8 +187,7 @@ NA
 **Description**
 ~~~~~~~~~~~~~~~
 
-Set the BLE scan window when searching for the targeted device to
-connect to.
+Set the BLE scan window when searching for the targeted device to connect to.
 
 **Syntax**
 ~~~~~~~~~~
@@ -212,7 +199,9 @@ connect to.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-scanWindow_ms: scan window in milliseconds. Valid value: 3 to 10240.
+scanWindow_ms: scan window in milliseconds.
+
+- 3 to 10240.
 
 **Returns**
 ~~~~~~~~~~~
@@ -224,11 +213,7 @@ NA
 
 NA
 
-.. note :: BLE scan window defines how long each interval should be scanned for.
-    The value set for scanWindow_ms set must be equal or smaller than the
-    value set for scanInt_ms. scanWindow_ms value is defined in units of 625 microseconds.
-    
-    “BLEConnect.h” must be included to use the class function.
+.. note :: BLE scan window defines how long each interval should be scanned for. The value set for scanWindow_ms set must be equal or smaller than the value set for scanInt_ms. scanWindow_ms value is defined in units of 625 microseconds. "BLEConnect.h" must be included to use the class function.
 
 **BLEConnect::setConnInterval**
 -------------------------------
@@ -248,11 +233,13 @@ Set the BLE connection interval duration.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-min_ms: minimum acceptable connection interval in milliseconds. Valid
-value: 8 to 4000.
+min_ms: minimum acceptable connection interval in milliseconds.
 
-max_ms: maximum acceptable connection interval in milliseconds. Valid
-value: 8 to 4000.
+- 8 to 4000.
+
+max_ms: maximum acceptable connection interval in milliseconds.
+
+- 8 to 4000.
 
 **Returns**
 ~~~~~~~~~~~
@@ -264,12 +251,7 @@ NA
 
 NA
 
-.. note :: The BLE connection interval defines the period between successive
-    connection events between a connected central and peripheral device.
-    Even if there is no data to exchange, a connection event is required to
-    maintain the connection. max_ms should be larger than or equal to min_ms.
-    
-    “BLEConnect.h” must be included to use the class function.
+.. note :: The BLE connection interval defines the period between successive connection events between a connected central and peripheral device. Even if there is no data to exchange, a connection event is required to maintain the connection. max_ms should be larger than or equal to min_ms. "BLEConnect.h" must be included to use the class function.
 
 **BLEConnect::setConnLatency**
 ------------------------------
@@ -289,7 +271,9 @@ Set the BLE connection slave latency value.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-latency: Connection slave latency value. Valid value: 0 to 499.
+latency: Connection slave latency value.
+
+- 0 to 499.
 
 **Returns**
 ~~~~~~~~~~~
@@ -301,13 +285,10 @@ NA
 
 NA
 
-.. note :: The BLE connection slave latency defines the number of successive
-    connection events a connected peripheral device can ignore without being
-    considered as disconnected by the central device.
-    
-    “BLEConnect.h” must be included to use the class function.
+.. note :: The BLE connection slave latency defines the number of successive connection events a connected peripheral device can ignore without being considered as disconnected by the central device. "BLEConnect.h" must be included to use the class function.
 
 **BLEConnect::setConnTimeout**
+------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -326,7 +307,7 @@ Set the BLE connection timeout value.
 
 timeout_ms: connection timeout in milliseconds.
 
-Valid value: 100 to 32000.
+- 100 to 32000.
 
 **Returns**
 ~~~~~~~~~~~
@@ -338,12 +319,10 @@ NA
 
 NA
 
-.. note :: The BLE connection timeout defines the duration a peripheral or central
-    device must wait after a failed connection event to consider the connection broken.
-    
-    “BLEConnect.h” must be included to use the class function.
+.. note :: The BLE connection timeout defines the duration a peripheral or central device must wait after a failed connection event to consider the connection broken. "BLEConnect.h" must be included to use the class function.
 
 **BLEConnect::updateConnParams**
+--------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -372,11 +351,7 @@ NA
 
 NA
 
-.. note :: Update the connected device with new connection parameters such as
-    connection interval, slave latency and timeout values. The connected
-    device may reject the new values if it is unable to conform to them.
-    
-    “BLEConnect.h” must be included to use the class function.
+.. note :: Update the connected device with new connection parameters such as connection interval, slave latency and timeout values. The connected device may reject the new values if it is unable to conform to them. "BLEConnect.h" must be included to use the class function.
 
 **BLEConnect::getConnInfo**
 ---------------------------
@@ -396,10 +371,9 @@ Get connection information.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-connId: connection ID to device get connection information from
+connId: connection ID to device get connection information from.
 
-pConnInfo: pointer to T_GAP_CONN_INFO structure to store obtained
-connection information
+pConnInfo: pointer to T_GAP_CONN_INFO structure to store obtained connection information.
 
 **Returns**
 ~~~~~~~~~~~
@@ -411,7 +385,7 @@ This function returns true if the connection information is successfully obtaine
 
 NA
 
-.. note :: “BLEConnect.h” must be included to use the class function.
+.. note :: "BLEConnect.h" must be included to use the class function.
 
 **BLEConnect::getConnAddr**
 ---------------------------
@@ -431,25 +405,23 @@ Get the Bluetooth address for a certain connection.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-connId: connection ID of device to get Bluetooth address of
+connId: connection ID of device to get Bluetooth address of.
 
-addr: pointer to 6 byte array to store retrieved Bluetooth address
+addr: pointer to 6 byte array to store retrieved Bluetooth address.
 
-addrType: pointer to uint8_t variable to store retrieved Bluetooth
-address type
+addrType: pointer to uint8_t variable to store retrieved Bluetooth address type.
 
 **Returns**
 ~~~~~~~~~~~
 
-This function returns true if the connection address information is
-successfully obtained. Otherwise, false.
+This function returns true if the connection address information is successfully obtained. Otherwise, false.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “BLEConnect.h” must be included to use the class function.
+.. note :: "BLEConnect.h" must be included to use the class function.
 
 **BLEConnect::getConnId**
 -------------------------
@@ -465,37 +437,32 @@ Get the connection ID for a certain device.
 .. code-block:: c++
 
     int8_t getConnId(char* btAddr, uint8_t addrType);
-
     int8_t getConnId(uint8_t* btAddr, uint8_t addrType);
-
     int8_t getConnId(BLEAdvertData targetDevice);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-char* btAddr: targeted device Bluetooth address expressed as a
-character string.
+char* btAddr: targeted device Bluetooth address expressed as a character string.
 
-uint8_t* btAddr: pointer to a 6-byte array containing targeted device
-Bluetooth address.
+uint8_t* btAddr: pointer to a 6-byte array containing targeted device Bluetooth address.
 
 targetDevice: advertising data packet scanned from targeted device.
 
-addrType: Bluetooth address type of targeted device. Valid values:
+addrType: Bluetooth address type of targeted device.
 
--  GAP_REMOTE_ADDR_LE_PUBLIC
+- GAP_REMOTE_ADDR_LE_PUBLIC
 
--  GAP_REMOTE_ADDR_LE_RANDOM
+- GAP_REMOTE_ADDR_LE_RANDOM
 
 **Returns**
 ~~~~~~~~~~~
 
-This function returns the requested connection ID. Else, returns -1 if
-failed to obtain connection ID.
+This function returns the requested connection ID. Else, returns -1 if failed to obtain connection ID.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBatteryClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryClient/BLEBatteryClient.ino>`_
+Example: `BLEBatteryClient <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryClient/BLEBatteryClient.ino>`_
 
-.. note :: “BLEConnect.h” must be included to use the class function.
+.. note :: "BLEConnect.h" must be included to use the class function.

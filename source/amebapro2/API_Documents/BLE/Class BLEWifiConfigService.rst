@@ -25,12 +25,12 @@ the device
 ~~~~~~~~~~~
 
 +------------------------------------+---------------------------------+
-| **Public Constructors**            |                                 |
+| **Public Constructors**                                              |
 +====================================+=================================+
 | BLEWifiConfigService::             | Create an instance of the       |
 | BLEWifiConfigService               | BLEWifiConfigService object     |
 +------------------------------------+---------------------------------+
-| **Public Methods**                 |                                 |
+| **Public Methods**                                                   |
 +------------------------------------+---------------------------------+
 | BLEWifiConfigService::begin        | Start background thread to      |
 |                                    | process WiFi configuration      |
@@ -75,12 +75,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEWifiConfig <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEWifiConfig/BLEWifiConfig.ino>`_ 
+Example: `BLEWifiConfig <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEWifiConfig/BLEWifiConfig.ino>`_
 
-.. note :: Only one instance of this class / service should be 
-    created.
-    
-    “BLEWifiConfigService.h” must be included to use the class function.
+.. note :: Only one instance of this class / service should be created. "BLEWifiConfigService.h" must be included to use the class function.
 
 **BLEWifiConfigService::begin**
 -------------------------------
@@ -110,9 +107,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEWifiConfig <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEWifiConfig/BLEWifiConfig.ino>`_
+Example: `BLEWifiConfig <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEWifiConfig/BLEWifiConfig.ino>`_
 
-.. note :: “BLEWifiConfigService.h” must be included to use the class function.\ **
+.. note :: "BLEWifiConfigService.h" must be included to use the class function.
 
 **BLEWifiConfigService::end**
 -----------------------------
@@ -144,7 +141,7 @@ NA
 
 NA
 
-.. note :: “BLEWifiConfigService.h” must be included to use the class function.\ **
+.. note :: "BLEWifiConfigService.h" must be included to use the class function.
 
 **BLEWifiConfigService::addService**
 ------------------------------------
@@ -174,9 +171,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEWifiConfig <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEWifiConfig/BLEWifiConfig.ino>`_
+Example: `BLEWifiConfig <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEWifiConfig/BLEWifiConfig.ino>`_
 
-.. note :: “BLEWifiConfigService.h” must be included to use the class function.
+.. note :: "BLEWifiConfigService.h" must be included to use the class function.
 
 **BLEWifiConfigService::advData**
 ---------------------------------
@@ -201,18 +198,11 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns a BLEAdvertData object that contains the required
-advertising data fields for the WiFi configuration service to work.
+This function returns a BLEAdvertData object that contains the required advertising data fields for the WiFi configuration service to work.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEWifiConfig <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEWifiConfig/BLEWifiConfig.ino>`_
+Example: `BLEWifiConfig <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEWifiConfig/BLEWifiConfig.ino>`_
 
-.. note :: The advertisement data needs to be correctly formatted for the
-    corresponding smartphone app to recognise the device. WiFi configuration
-    service advertisement data requires the local BT address, and should be
-    called only after peripheral mode is started and may also require
-    stopping and restarting the advertising process.
-    
-    “BLEWifiConfigService.h” must be included to use the class function.
+.. note :: The advertisement data needs to be correctly formatted for the corresponding smartphone app to recognise the device. WiFi configuration service advertisement data requires the local BT address, and should be called only after peripheral mode is started and may also require stopping and restarting the advertising process. "BLEWifiConfigService.h" must be included to use the class function.

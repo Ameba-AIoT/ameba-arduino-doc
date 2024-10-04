@@ -26,12 +26,12 @@ A class used for creating and managing a BLE HID Keyboard.
 **Public Constructors**
 
 +------------------------------------+------------------------------------+
-| **Public Constructors**            |                                    |
+| **Public Constructors**                                                 |
 +====================================+====================================+
 | BLEHIDKeyboard::BLEHIDKeyboard     | Constructs a BLEHIDKeyboard        |
 |                                    | object                             |
 +------------------------------------+------------------------------------+
-| **Public Methods**                 |                                    |
+| **Public Methods**                                                      |
 +------------------------------------+------------------------------------+
 | BLEHIDKeyboard::setReportID        | Set HID report ID for the HID      |
 |                                    | Keyboard and HID consumer          |
@@ -93,9 +93,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEHIDKeyboard <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDKeyboard/BLEHIDKeyboard.ino>`_
+Example: `BLEHIDKeyboard <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDKeyboard/BLEHIDKeyboard.ino>`_
 
-.. note :: “BLEHIDKeyboard.h” must be included to use the class function.
+.. note :: "BLEHIDKeyboard.h" must be included to use the class function.
 
 **BLEHIDKeyboard::setReportID**
 
@@ -114,11 +114,9 @@ Set HID report ID for the HID Keyboard and HID consumer control.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-reportIDKeyboard: The report ID for the HID keyboard device,
-corresponding to the HID report descriptor.
+reportIDKeyboard: The report ID for the HID keyboard device, corresponding to the HID report descriptor.
 
-reportIDConsumer: The report ID for the HID consumer control device,
-corresponding to the HID report descriptor.
+reportIDConsumer: The report ID for the HID consumer control device, corresponding to the HID report descriptor.
 
 **Returns**
 ~~~~~~~~~~~
@@ -130,7 +128,7 @@ NA
 
 NA
 
-.. note :: “BLEHIDKeyboard.h” must be included to use the class function.
+.. note :: "BLEHIDKeyboard.h" must be included to use the class function.
 
 **BLEHIDKeyboard::consumerReport**
 ----------------------------------
@@ -162,7 +160,7 @@ NA
 
 NA
 
-.. note :: “BLEHIDKeyboard.h” must be included to use the class function.
+.. note :: "BLEHIDKeyboard.h" must be included to use the class function.
 
 **BLEHIDKeyboard::keyboardReport**
 ----------------------------------
@@ -178,7 +176,6 @@ Send a HID Keyboard report.
 .. code-block:: c++
 
     void keyboardReport (void);
-
     void keyboardReport (uint8_t modifiers, uint8_t keycode[6]);
 
 **Parameters**
@@ -198,7 +195,7 @@ NA
 
 NA
 
-.. note :: “BLEHIDKeyboard.h” must be included to use the class function.
+.. note :: "BLEHIDKeyboard.h" must be included to use the class function.
 
 **BLEHIDKeyboard::consumerPress**
 ---------------------------------
@@ -228,9 +225,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEHIDKeyboard <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDKeyboard/BLEHIDKeyboard.ino>`_ 
+Example: `BLEHIDKeyboard <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDKeyboard/BLEHIDKeyboard.ino>`_
 
-.. note :: “BLEHIDKeyboard.h” must be included to use the class function.
+.. note :: "BLEHIDKeyboard.h" must be included to use the class function.
 
 **BLEHIDKeyboard::consumerRelease**
 -----------------------------------
@@ -260,9 +257,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEHIDKeyboard <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDKeyboard/BLEHIDKeyboard.ino>`_
+Example: `BLEHIDKeyboard <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDKeyboard/BLEHIDKeyboard.ino>`_
 
-.. note :: “BLEHIDKeyboard.h” must be included to use the class function.
+.. note :: "BLEHIDKeyboard.h" must be included to use the class function.
 
 **BLEHIDKeyboard::keypress**
 ----------------------------
@@ -282,7 +279,9 @@ Send a HID Keyboard report indicating keys pressed.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-key: HID keycode for key pressed, value ranges from 0x00 to 0xE7.
+key: HID keycode for key pressed.
+
+- 0x00 to 0xE7.
 
 **Returns**
 ~~~~~~~~~~~
@@ -292,9 +291,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEHIDKeyboard <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDKeyboard/BLEHIDKeyboard.ino>`_
+Example: `BLEHIDKeyboard <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDKeyboard/BLEHIDKeyboard.ino>`_
 
-.. note :: “BLEHIDKeyboard.h” must be included to use the class function.
+.. note :: "BLEHIDKeyboard.h" must be included to use the class function.
 
 **BLEHIDKeyboard::keyRelease**
 ------------------------------
@@ -314,7 +313,9 @@ Send a HID Keyboard report indicating keys released.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-key: HID keycode for key pressed, value ranges from 0x00 to 0xE7.
+key: HID keycode for key pressed.
+
+- 0x00 to 0xE7.
 
 **Returns**
 ~~~~~~~~~~~
@@ -326,7 +327,7 @@ NA
 
 NA
 
-.. note :: “BLEHIDKeyboard.h” must be included to use the class function.
+.. note :: "BLEHIDKeyboard.h" must be included to use the class function.
 
 **BLEHIDKeyboard::keyReleaseAll**
 ---------------------------------
@@ -356,9 +357,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEHIDKeyboard <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDKeyboard/BLEHIDKeyboard.ino>`_
+Example: `BLEHIDKeyboard <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDKeyboard/BLEHIDKeyboard.ino>`_
 
-.. note :: “BLEHIDKeyboard.h” must be included to use the class function.
+.. note :: "BLEHIDKeyboard.h" must be included to use the class function.
 
 **BLEHIDKeyboard::keyCharPress**
 --------------------------------
@@ -366,8 +367,7 @@ Example: `BLEHIDKeyboard <https://github.com/ambiot/ambd_arduino/blob/dev/Arduin
 **Description**
 ~~~~~~~~~~~~~~~
 
-Send a HID Keyboard report indicating keys pressed to output a specific
-ASCII character.
+Send a HID Keyboard report indicating keys pressed to output a specific ASCII character.
 
 **Syntax**
 ~~~~~~~~~~
@@ -391,7 +391,7 @@ NA
 
 NA
 
-.. note :: “BLEHIDKeyboard.h” must be included to use the class function.
+.. note :: "BLEHIDKeyboard.h" must be included to use the class function.
 
 **BLEHIDKeyboard::keySequence**
 -------------------------------
@@ -399,8 +399,7 @@ NA
 **Description**
 ~~~~~~~~~~~~~~~
 
-Send a HID Keyboard report indicating keys pressed to output an ASCII
-string.
+Send a HID Keyboard report indicating keys pressed to output an ASCII string.
 
 **Syntax**
 ~~~~~~~~~~
@@ -408,17 +407,14 @@ string.
 .. code-block:: c++
 
     void keySequence (const char* str, uint16_t delayTime);
-
     void keySequence (String str, uint16_t delayTime);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-str: character string to output, expressed as a pointer to a character
-array or a String class object
+str: character string to output, expressed as a pointer to a character array or a String class object.
 
-delayTime: time delay between key press and release, in milliseconds.
-Default value of 5.
+delayTime: time delay between key press and release, in milliseconds. Default value is 5.
 
 **Returns**
 ~~~~~~~~~~~
@@ -428,6 +424,6 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEHIDKeyboard <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDKeyboard/BLEHIDKeyboard.ino>`_
+Example: `BLEHIDKeyboard <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDKeyboard/BLEHIDKeyboard.ino>`_
 
-.. note :: “BLEHIDKeyboard.h” must be included to use the class function.
+.. note :: "BLEHIDKeyboard.h" must be included to use the class function.

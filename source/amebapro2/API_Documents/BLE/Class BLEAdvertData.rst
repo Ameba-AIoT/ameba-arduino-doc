@@ -18,17 +18,17 @@ A class used for managing BLE advertising data.
 
 .. code-block:: c++
 
-   class BLEAdvertData
+    class BLEAdvertData
 
 **Members**
 ~~~~~~~~~~~
 
 +----------------------------------+------------------------------------+
-| **Public Constructors**          |                                    |
+| **Public Constructors**                                               |
 +==================================+====================================+
 | BLEAdvertData::BLEAdvertData     | Constructs a BLEAdvertData object  |
 +----------------------------------+------------------------------------+
-| **Public Methods**               |                                    |
+| **Public Methods**                                                    |
 +----------------------------------+------------------------------------+
 | BLEAdvertData::clear             | Clear all advertising data.        |
 +----------------------------------+------------------------------------+
@@ -121,7 +121,7 @@ Constructs a BLEAdvertData object.
 
 .. code-block:: c++
 
-   BLEAdvertData(void);
+    BLEAdvertData(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -138,12 +138,7 @@ NA
 
 NA
 
-.. note :: This class is used for managing BLE advertising data for two primary
-   uses. First is to assemble advertising data for broadcasting as
-   advertising packets. Second is to process and split up the advertising
-   data received from a scan into separate types.
-   
-   “BLEAdvertData.h” must be included to use the class function.
+.. note :: This class is used for managing BLE advertising data for two primary uses. First is to assemble advertising data for broadcasting as advertising packets. Second is to process and split up the advertising data received from a scan into separate types. "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::clear**
 ------------------------
@@ -158,7 +153,7 @@ Clear all advertising data.
 
 .. code-block:: c++
 
-   void clear(void);
+    void clear(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -175,7 +170,7 @@ NA
 
 NA
 
-.. note :: “BLEAdvertData.h” must be included to use the class function.
+.. note :: "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::addData**
 --------------------------
@@ -190,13 +185,14 @@ Add binary data to advertising data packet.
 
 .. code-block:: c++
 
-   void addData(const uint8_t* data, uint8_t size);
+    void addData(const uint8_t* data, uint8_t size);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-data: pointer to array containing desired advertising data
-size: number of bytes in the array
+data: pointer to array containing desired advertising data.
+
+size: number of bytes in the array.
 
 **Returns**
 ~~~~~~~~~~~
@@ -208,12 +204,7 @@ NA
 
 NA
 
-.. note :: This function is provided for flexibility in adding BLE advertising
-   data. Other functions should be used for adding advertising data, if
-   possible, as this function does not perform any checks on the validity
-   of the data.
-   
-   “BLEAdvertData.h” must be included to use the class function.
+.. note :: This function is provided for flexibility in adding BLE advertising data. Other functions should be used for adding advertising data, if possible, as this function does not perform any checks on the validity of the data. "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::addFlags**
 ---------------------------
@@ -228,25 +219,22 @@ Add flags to advertising data packet.
 
 .. code-block:: c++
 
-   uint8_t addFlags(uint8_t flags);
+    uint8_t addFlags(uint8_t flags);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-flags: desired flags to add to advertising data. Default value: (GAP_ADTYPE_FLAGS_LIMITED \| GAP_ADTYPE_FLAGS_BREDR_NOT_SUPPORTED)
+flags: desired flags to add to advertising data. Default value is (GAP_ADTYPE_FLAGS_LIMITED | GAP_ADTYPE_FLAGS_BREDR_NOT_SUPPORTED).
 
-Valid values:
--  GAP_ADTYPE_FLAGS_LIMITED: LE Limited Discoverable Mode.
+- GAP_ADTYPE_FLAGS_LIMITED (LE Limited Discoverable Mode
 
--  GAP_ADTYPE_FLAGS_GENERAL: LE General Discoverable Mode.
+- GAP_ADTYPE_FLAGS_GENERAL (LE General Discoverable Mode)
 
--  GAP_ADTYPE_FLAGS_BREDR_NOT_SUPPORTED: BR/EDR Not Supported.
+- GAP_ADTYPE_FLAGS_BREDR_NOT_SUPPORTED (BR/EDR Not Supported)
 
--  GAP_ADTYPE_FLAGS_SIMULTANEOUS_LE_BREDR_CONTROLLER: Simultaneous LE
-   and BR/EDR Controller Supported.
+- GAP_ADTYPE_FLAGS_SIMULTANEOUS_LE_BREDR_CONTROLLER (Simultaneous LE and BR/EDR Controller Supported)
 
--  GAP_ADTYPE_FLAGS_SIMULTANEOUS_LE_BREDR_HOST: Simultaneous LE and
-   BR/EDR Host Supported.
+- GAP_ADTYPE_FLAGS_SIMULTANEOUS_LE_BREDR_HOST (Simultaneous LE and BR/EDR Host Supported)
 
 **Returns**
 ~~~~~~~~~~~
@@ -256,9 +244,9 @@ This function returns the current total size of advertising data.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBatteryService <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryService/BLEBatteryService.ino>`_ 
+Example: `BLEBatteryService <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryService/BLEBatteryService.ino>`_
 
-.. note :: “BLEAdvertData.h” must be included to use the class function.
+.. note :: "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::addPartialServices**
 -------------------------------------
@@ -272,8 +260,8 @@ Add partial list of service UUIDs to advertising data packet.
 ~~~~~~~~~~
 
 .. code-block:: c++
-   
-   uint8_t addPartialServices(BLEUUID uuid);
+
+    uint8_t addPartialServices(BLEUUID uuid);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -290,7 +278,7 @@ This function returns the current total size of the advertising data.
 
 NA
 
-.. note :: “BLEAdvertData.h” must be included to use the class function.
+.. note :: "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData:: addCompleteServices**
 ---------------------------------------
@@ -305,14 +293,21 @@ Add complete list of service UUIDs to advertising data packet.
 
 .. code-block:: c++
 
-   uint8_t addCompleteServices(BLEUUID uuid);
-   uint8_t addCompleteServices(uint8_t uuidBitLength);
+    uint8_t addCompleteServices(BLEUUID uuid);
+    uint8_t addCompleteServices(uint8_t uuidBitLength);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
 uuid: the desired UUID contained in BLEUUID class object.
-uuidBitLength: UUID bit length for which a blank entry is to be added. Valid values: 16, 32, 128.
+
+uuidBitLength: UUID bit length for which a blank entry is to be added.
+
+- 16.
+
+- 32.
+
+- 128.
 
 **Returns**
 
@@ -320,13 +315,9 @@ This function returns the current total size of the advertising data.
 
 **Example Code**
 
-Example: `BLEBatteryService <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryService/BLEBatteryService.ino>`_ 
+Example: `BLEBatteryService <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryService/BLEBatteryService.ino>`_
 
-.. note :: uuidBitLength is used when a blank entry in the advertisement data is
-   required to be present. It is to indicate that no services with UUIDs of
-   a certain length are available.
-   
-   “BLEAdvertData.h” must be included to use the class function.
+.. note :: uuidBitLength is used when a blank entry in the advertisement data is required to be present. It is to indicate that no services with UUIDs of a certain length are available. "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::addAppearance**
 --------------------------------
@@ -341,7 +332,7 @@ Add device appearance to advertising data.
 
 .. code-block:: c++
 
-   uint8_t addAppearance(uint16_t appearance);
+    uint8_t addAppearance(uint16_t appearance);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -356,12 +347,9 @@ This function returns the current total size of the advertising data.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEHIDGamepad <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDGamepad/BLEHIDGamepad.ino>`_ 
+Example: `BLEHIDGamepad <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDGamepad/BLEHIDGamepad.ino>`_
 
-.. note :: Refer to “gap_le_types.h” or Bluetooth specifications for a full list of
-   device appearance values.
-   
-   “BLEAdvertData.h” must be included to use the class function.
+.. note :: Refer to "gap_le_types.h" or Bluetooth specifications for a full list of device appearance values. "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::addShortName**
 -------------------------------
@@ -376,7 +364,7 @@ Add shortened device name to advertising data packet.
 
 .. code-block:: c++
 
-   uint8_t addShortName(const char* str);
+    uint8_t addShortName(const char* str);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -393,7 +381,7 @@ This function returns the current total size of the advertising data.
 
 NA
 
-.. note :: “BLEAdvertData.h” must be included to use the class function.
+.. note :: "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::addCompleteName**
 ----------------------------------
@@ -408,7 +396,7 @@ Add complete device name to advertising data packet.
 
 .. code-block:: c++
 
-   uint8_t addCompleteName(const char* str);
+    uint8_t addCompleteName(const char* str);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -423,9 +411,9 @@ This function returns the current total size of the advertising data.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBatteryService <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryService/BLEBatteryService.ino>`_ 
+Example: `BLEBatteryService <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryService/BLEBatteryService.ino>`_
 
-.. note :: “BLEAdvertData.h” must be included to use the class function.
+.. note :: "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::parseScanInfo**
 --------------------------------
@@ -440,7 +428,7 @@ Parse advertising data packets received from a scan.
 
 .. code-block:: c++
 
-   void parseScanInfo(T_LE_CB_DATA *p_data);
+    void parseScanInfo(T_LE_CB_DATA *p_data);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -455,12 +443,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBatteryClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryClient/BLEBatteryClient.ino>`_ 
+Example: `BLEBatteryClient <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryClient/BLEBatteryClient.ino>`_
 
-.. note :: The information of the received data from advertising data can be
-   accessed using the member functions starting with “has” and “get”.
-   
-   “BLEAdvertData.h” must be included to use the class function.
+.. note :: The information of the received data from advertising data can be accessed using the member functions starting with "has" and "get". "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::hasFlags**
 ---------------------------
@@ -475,7 +460,7 @@ Check if received data includes advertising flags.
 
 .. code-block:: c++
 
-   bool hasFlags(void);
+    bool hasFlags(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -485,15 +470,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns true if flags are present in received advertising
-data.
+This function returns true if flags are present in received advertising data.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “BLEAdvertData.h” must be included to use the class function.
+.. note :: "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::hasUUID**
 --------------------------
@@ -508,7 +492,7 @@ Check if received data includes service UUIDs.
 
 .. code-block:: c++
 
-   bool hasUUID(void);
+    bool hasUUID(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -518,15 +502,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns true if service UUIDs are present in received
-advertising data.
+This function returns true if service UUIDs are present in received advertising data.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “BLEAdvertData.h” must be included to use the class function.
+.. note :: "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::hasName**
 --------------------------
@@ -541,7 +524,7 @@ Check if received data includes device name.
 
 .. code-block:: c++
 
-   bool hasName(void);
+    bool hasName(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -556,9 +539,9 @@ This function returns true if device name is present in received advertising dat
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBatteryClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryClient/BLEBatteryClient.ino>`_ 
+Example: `BLEBatteryClient <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryClient/BLEBatteryClient.ino>`_
 
-.. note :: “BLEAdvertData.h” must be included to use the class function.
+.. note :: "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::hasManufacturer**
 ----------------------------------
@@ -573,7 +556,7 @@ Check if received data includes manufacturer data.
 
 .. code-block:: c++
 
-   bool hasManufacturer(void);
+    bool hasManufacturer(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -590,7 +573,7 @@ This function returns true if manufacturer data is present in the received adver
 
 NA
 
-.. note :: “BLEAdvertData.h” must be included to use the class function.
+.. note :: "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::getAdvType**
 -----------------------------
@@ -605,7 +588,7 @@ Get advertising type of received data.
 
 .. code-block:: c++
 
-   T_GAP_ADV_EVT_TYPE getAdvType(void);
+    T_GAP_ADV_EVT_TYPE getAdvType(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -622,15 +605,21 @@ This function returns the advertising type of received advertising data.
 
 NA
 
-.. note :: Possible types: 
+.. note ::
 
-   - GAP_ADV_EVT_TYPE_UNDIRECTED
-   - GAP_ADV_EVT_TYPE_DIRECTED
-   - GAP_ADV_EVT_TYPE_SCANNABLE
-   - GAP_ADV_EVT_TYPE_NON_CONNECTABLE
-   - GAP_ADV_EVT_TYPE_SCAN_RSP
+    Possible types:
 
-   "BLEAdvertData.h" must be included to use the class function.
+    - GAP_ADV_EVT_TYPE_UNDIRECTED
+
+    - GAP_ADV_EVT_TYPE_DIRECTED
+
+    - GAP_ADV_EVT_TYPE_SCANNABLE
+
+    - GAP_ADV_EVT_TYPE_NON_CONNECTABLE
+
+    - GAP_ADV_EVT_TYPE_SCAN_RSP
+
+    "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::getAddrType**
 ------------------------------
@@ -645,7 +634,7 @@ Get Bluetooth address type of received data.
 
 .. code-block:: C++
 
-   T_GAP_REMOTE_ADDR_TYPE getAddrType(void);
+    T_GAP_REMOTE_ADDR_TYPE getAddrType(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -662,12 +651,15 @@ This function returns the Bluetooth address type of received data.
 
 NA
 
-.. note :: Possible types:
-    
-    -  GAP_REMOTE_ADDR_LE_PUBLIC
-    -  GAP_REMOTE_ADDR_LE_RANDOM
+.. note ::
 
-    “BLEAdvertData.h” must be included to use the class function.
+    Possible types:
+
+    - GAP_REMOTE_ADDR_LE_PUBLIC
+
+    - GAP_REMOTE_ADDR_LE_RANDOM
+
+    "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::getRSSI**
 --------------------------
@@ -682,7 +674,7 @@ Get received signal strength indicator (RSSI) of received data.
 
 .. code-block:: c++
 
-   Int8_t getRSSI(void);
+    Int8_t getRSSI(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -699,7 +691,7 @@ This function returns the received signal strength.
 
 NA
 
-.. note :: “BLEAdvertData.h” must be included to use the class function.
+.. note :: "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::getFlags**
 ---------------------------
@@ -714,7 +706,7 @@ Get advertising flags of received data.
 
 .. code-block:: c++
 
-   uint8_t getFlags(void);
+    uint8_t getFlags(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -724,15 +716,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns a single byte containing the advertising flags
-found in received advertising data.
+This function returns a single byte containing the advertising flags found in received advertising data.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “BLEAdvertData.h” must be included to use the class function.
+.. note :: "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::getServiceCount**
 ----------------------------------
@@ -747,7 +738,7 @@ Get the total number of advertised services in the received data.
 
 .. code-block:: c++
 
-   uint8_t getServiceCount(void);
+    uint8_t getServiceCount(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -757,15 +748,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns the number of advertised service UUIDs in received
-data.
+This function returns the number of advertised service UUIDs in received data.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBatteryClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryClient/BLEBatteryClient.ino>`_
+Example: `BLEBatteryClient <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryClient/BLEBatteryClient.ino>`_
 
-.. note :: “BLEAdvertData.h” must be included to use the class function.
+.. note :: "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::getServiceList**
 ---------------------------------
@@ -780,7 +770,7 @@ Get a list of advertised service UUIDs in received data.
 
 .. code-block:: c++
 
-   BLEUUID* getServiceList(void);
+    BLEUUID* getServiceList(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -790,15 +780,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns a pointer to a BLEUUID array containing all
-advertised service UUIDs.
+This function returns a pointer to a BLEUUID array containing all advertised service UUIDs.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBatteryClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryClient/BLEBatteryClient.ino>`_
+Example: `BLEBatteryClient <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryClient/BLEBatteryClient.ino>`_
 
-.. note :: “BLEAdvertData.h” must be included to use the class function.
+.. note :: "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::getName**
 --------------------------
@@ -813,7 +802,7 @@ Get advertised device name in received data.
 
 .. code-block:: c++
 
-   String getName(void);
+    String getName(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -823,15 +812,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns advertised device name contained in a String class
-object
+This function returns advertised device name contained in a String class object.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBatteryClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryClient/BLEBatteryClient.ino>`_
+Example: `BLEBatteryClient <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryClient/BLEBatteryClient.ino>`_
 
-.. note :: “BLEAdvertData.h” must be included to use the class function.
+.. note :: "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::getTxPower**
 -----------------------------
@@ -846,7 +834,7 @@ Get the advertised transmission power of the received data.
 
 .. code-block:: c++
 
-   int8_t getTxPower(void);
+    int8_t getTxPower(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -856,15 +844,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns advertised transmission power of the received
-data.
+This function returns advertised transmission power of the received data.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “BLEAdvertData.h” must be included to use the class function.
+.. note :: "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::getAppearance**
 --------------------------------
@@ -879,7 +866,7 @@ Get advertised device appearance in received data.
 
 .. code-block:: c++
 
-   uint16_t getAppearance(void);
+    uint16_t getAppearance(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -896,10 +883,7 @@ This function returns advertised device appearance of the received data.
 
 NA
 
-.. note :: Refer to “gap_le_types.h” or Bluetooth specifications for full list of device 
-   appearance values.
-   
-   “BLEAdvertData.h” must be included to use the class function.
+.. note :: Refer to "gap_le_types.h" or Bluetooth specifications for full list of device appearance values. "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::getManufacturer**
 ----------------------------------
@@ -914,7 +898,7 @@ Get advertised manufacturer in received data.
 
 .. code-block:: c++
 
-   uint16_t getManufacturer(void);
+    uint16_t getManufacturer(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -931,10 +915,7 @@ This function returns advertised manufacturer of the received data.
 
 NA
 
-..  note :: Refer to Bluetooth specifications for full list of 
-   manufacturer codes.
-   
-   “BLEAdvertData.h” must be included to use the class function.
+..  note :: Refer to Bluetooth specifications for full list of manufacturer codes. "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::getManufacturerDataLength**
 --------------------------------------------
@@ -949,7 +930,7 @@ Get length of manufacturer data in received data.
 
 .. code-block:: c++
 
-   uint8_t getManufacturerDataLength(void);
+    uint8_t getManufacturerDataLength(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -959,15 +940,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns the number of bytes of manufacturer data present
-in received advertising data.
+This function returns the number of bytes of manufacturer data present in received advertising data.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “BLEAdvertData.h” must be included to use the class function.
+.. note :: "BLEAdvertData.h" must be included to use the class function.
 
 **BLEAdvertData::getManufacturerData**
 --------------------------------------
@@ -982,7 +962,7 @@ Get manufacturer data in received data.
 
 .. code-block:: c++
 
-   uint8_t* getManufacturerData(void);
+    uint8_t* getManufacturerData(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -992,12 +972,11 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns a pointer to an array containing manufacturer
-data.
+This function returns a pointer to an array containing manufacturer data.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “BLEAdvertData.h” must be included to use the class function.
+.. note :: "BLEAdvertData.h" must be included to use the class function.

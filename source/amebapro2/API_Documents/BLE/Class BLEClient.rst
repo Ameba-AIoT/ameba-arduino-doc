@@ -11,8 +11,7 @@ Class BLEClient
 **Description**
 ~~~~~~~~~~~~~~~
 
-A class used for discovering and accessing BLE GATT services on a
-connected remote device.
+A class used for discovering and accessing BLE GATT services on a connected remote device.
 
 **Syntax**
 ~~~~~~~~~~
@@ -23,13 +22,14 @@ connected remote device.
 
 **Members**
 ~~~~~~~~~~~
+
 +------------------------------------+------------------------------------+
-| **Public Constructors**            |                                    |
+| **Public Constructors**                                                 |
 +====================================+====================================+
 | No public constructor is available for this class. You can get a pointer|
 | to an instance of this class using BLEDevice::addClient().              |
 +------------------------------------+------------------------------------+
-| **Public Methods**                 |                                    |
+| **Public Methods**                                                      |
 +------------------------------------+------------------------------------+
 | BLEClient::connected               | Check if the remote device         |
 |                                    | associated with the client is      |
@@ -88,7 +88,7 @@ This function returns TRUE if the remote device is connected.
 
 NA
 
-.. note :: “BLEClient.h” must be included to use the class function.
+.. note :: "BLEClient.h" must be included to use the class function.
 
 **BLEClient::discoverServices**
 -------------------------------
@@ -118,10 +118,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEUartClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartClient/BLEUartClient.ino>`_
+Example: `BLEUartClient <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartClient/BLEUartClient.ino>`_
 
-
-.. note :: “BLEClient.h” must be included to use the class function.
+.. note :: "BLEClient.h" must be included to use the class function.
 
 **BLEClient::discoveryDone**
 
@@ -145,20 +144,17 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns TRUE if the service discovery process has been
-completed successfully, FALSE if the service discovery process failed,
-is still in progress, or has yet to start.
+This function returns TRUE if the service discovery process has been completed successfully, FALSE if the service discovery process failed, is still in progress, or has yet to start.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEUartClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartClient/BLEUartClient.ino>`_
+Example: `BLEUartClient <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartClient/BLEUartClient.ino>`_
 
-**Notes and Warnings**
-
-.. note :: “BLEClient.h” must be included to use the class function.
+.. note :: "BLEClient.h" must be included to use the class function.
 
 **BLEClient::printServices**
+----------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -187,11 +183,10 @@ NA
 
 NA
 
-**Notes and Warnings**
-
-.. note :: “BLEClient.h” must be included to use the class function.
+.. note :: "BLEClient.h" must be included to use the class function.
 
 **BLEClient::getService**
+-------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -204,7 +199,6 @@ Get a service with the specified UUID on the remote device.
 .. code-block:: c++
 
     BLERemoteService* getService(const char* uuid);
-
     BLERemoteService* getService(BLEUUID uuid);
 
 **Parameters**
@@ -215,16 +209,14 @@ uuid: the desired service UUID, expressed as a character array or a BLEUUID obje
 **Returns**
 ~~~~~~~~~~~
 
-This function returns the discovered service as a BLERemoteService
-object pointer, otherwise nullptr is returned if a service with the UUID
-is not found.
+This function returns the discovered service as a BLERemoteService object pointer, otherwise nullptr is returned if a service with the UUID is not found.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEUartClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartClient/BLEUartClient.ino>`_
+Example: `BLEUartClient <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEUartClient/BLEUartClient.ino>`_
 
-.. note :: “BLEClient.h” must be included to use the class function.
+.. note :: "BLEClient.h" must be included to use the class function.
 
 **BLEClient::getConnId**
 ------------------------
@@ -256,7 +248,7 @@ This function returns the connection ID for the connected remote device.
 
 NA
 
-.. note :: “BLEClient.h” must be included to use the class function.
+.. note :: "BLEClient.h" must be included to use the class function.
 
 **BLEClient::getClientId**
 --------------------------
@@ -288,9 +280,7 @@ This function returns the BLEClient object's client ID.
 
 NA
 
-.. note :: The client ID is used when calling internal GATT client API.
-    
-    “BLEClient.h” must be included to use the class function.
+.. note :: The client ID is used when calling internal GATT client API. "BLEClient.h" must be included to use the class function.
 
 **BLEClient::setDisconnectCallback**
 ------------------------------------
@@ -298,8 +288,7 @@ NA
 **Description**
 ~~~~~~~~~~~~~~~
 
-Set a user function as a callback function when the remote device is
-disconnected.
+Set a user function as a callback function when the remote device is disconnected.
 
 **Syntax**
 ~~~~~~~~~~
@@ -311,11 +300,9 @@ disconnected.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-fCallback: A user callback function that returns void and takes one
-argument.
+fCallback: A user callback function that returns void and takes one argument.
 
-client: A pointer to the BLEClient object corresponding to the
-disconnected remote device
+client: A pointer to the BLEClient object corresponding to the disconnected remote device.
 
 **Returns**
 ~~~~~~~~~~~
@@ -327,8 +314,4 @@ NA
 
 NA
 
-.. note :: The user callback function will be called after the remote device has
-    disconnected, before the characteristics, services and client associated
-    with the remote device are deleted.
-    
-    “BLEClient.h” must be included to use the class function.
+.. note :: The user callback function will be called after the remote device has disconnected, before the characteristics, services and client associated with the remote device are deleted. "BLEClient.h" must be included to use the class function.

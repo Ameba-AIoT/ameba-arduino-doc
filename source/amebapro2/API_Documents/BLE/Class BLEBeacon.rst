@@ -24,11 +24,11 @@ A class used for managing iBeacon BLE advertising data.
 ~~~~~~~~~~~
 
 +------------------------------+-------------------------------------------+
-| **Public Constructors**      |                                           |
+| **Public Constructors**                                                  |
 +==============================+===========================================+
 | iBeacon::iBeacon             | Constructs an iBeacon object              |
 +------------------------------+-------------------------------------------+
-| **Public Methods**           |                                           |
+| **Public Methods**                                                       |
 +------------------------------+-------------------------------------------+
 | iBeacon::getManufacturerId   | Get current manufacturer ID value         |
 +------------------------------+-------------------------------------------+
@@ -78,11 +78,11 @@ A class used for managing altBeacon BLE advertising data.
 ~~~~~~~~~~~
 
 +------------------------------+---------------------------------------+
-| **Public Constructors**      |                                       |
+| **Public Constructors**                                              |
 +==============================+=======================================+
 | altBeacon::altBeacon         | Constructs an altBeacon object        |
 +------------------------------+---------------------------------------+
-| **Public Methods**           |                                       |
+| **Public Methods**                                                   |
 +------------------------------+---------------------------------------+
 | altBeacon::getManufacturerId | Get current manufacturer ID value     |
 +------------------------------+---------------------------------------+
@@ -149,7 +149,7 @@ NA
 
 NA
 
-.. note :: “BLEBeacon.h” must be included to use the class function.
+.. note :: "BLEBeacon.h" must be included to use the class function.
 
 **altBeacon::altBeacon**
 ------------------------
@@ -181,13 +181,10 @@ NA
 
 NA
 
-.. note :: “BLEBeacon.h” must be included to use the class function.
+.. note :: "BLEBeacon.h" must be included to use the class function.
 
-**iBeacon::getManufacturerId**
-------------------------------
-
-**altBeacon::getManufacturerId**
---------------------------------
+**iBeacon::getManufacturerId** / **altBeacon::getManufacturerId**
+-----------------------------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -209,24 +206,17 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-The function returns a 16-bit unsigned integer containing the current
-Company ID.
+The function returns a 16-bit unsigned integer containing the current Company ID.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: Refer to https://www.bluetooth.com/specifications/assigned-numbers/company-identifiers/
-    for the full list of assigned Bluetooth company identifiers.
-    
-    “BLEBeacon.h” must be included to use the class function.
+.. note :: Refer to https://www.bluetooth.com/specifications/assigned-numbers/company-identifiers/ for the full list of assigned Bluetooth company identifiers. "BLEBeacon.h" must be included to use the class function.
 
-**iBeacon::getUUID**
---------------------
-
-**altBeacon::getUUID**
-----------------------
+**iBeacon::getUUID** / **altBeacon::getUUID**
+---------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -242,6 +232,7 @@ Get the current UUID value.
 
 **Parameters**
 ~~~~~~~~~~~~~~
+
 UUID: Provide a pointer to a 16 elements uint8_t array containing current UUID.
 
 **Returns**
@@ -254,17 +245,10 @@ NA
 
 NA
 
-.. note :: UUID is a 128-bit number used to uniquely identify a beacon. It is
-    commonly expressed as a 32-character hexadecimal string. UUIDs can be
-    generated at https://www.uuidgenerator.net/.
-    
-    “BLEBeacon.h” must be included to use the class function.
+.. note :: UUID is a 128-bit number used to uniquely identify a beacon. It is commonly expressed as a 32-character hexadecimal string. UUIDs can be generated at https://www.uuidgenerator.net/. "BLEBeacon.h" must be included to use the class function.
 
-**iBeacon::getMajor**
----------------------
-
-**altBeacon::getMajor**
------------------------
+**iBeacon::getMajor** / **altBeacon::getMajor**
+-----------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -293,17 +277,10 @@ This function returns a 16-bit unsigned integer containing the current major val
 
 NA
 
-.. note :: Major and Minor are values used for customizing beacons. These can be
-    set to any value. Refer to https://developer.apple.com/ibeacon/ or
-    https://altbeacon.org/ for more information.
+.. note :: Major and Minor are values used for customizing beacons. These can be set to any value. Refer to https://developer.apple.com/ibeacon/ or https://altbeacon.org/ for more information. "BLEBeacon.h" must be included to use the class function.
 
-    “BLEBeacon.h” must be included to use the class function.
-
-**iBeacon::getMinor**
----------------------
-
-**altBeacon::getMinor**
------------------------
+**iBeacon::getMinor** - **altBeacon::getMinor**
+-----------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -332,17 +309,10 @@ This function returns a 16-bit unsigned integer containing the current minor val
 
 NA
 
-.. note :: Major and Minor are values used for customizing beacons. These can be
-    set to any value. Refer to https://developer.apple.com/ibeacon/ or
-    https://altbeacon.org/ for more information.
+.. note :: Major and Minor are values used for customizing beacons. These can be set to any value. Refer to https://developer.apple.com/ibeacon/ or https://altbeacon.org/ for more information. "BLEBeacon.h" must be included to use the class function.
 
-    “BLEBeacon.h” must be included to use the class function.
-
-**iBeacon::getRSSI**
---------------------
-
-**altBeacon::getRSSI**
-----------------------
+**iBeacon::getRSSI** / **altBeacon::getRSSI**
+---------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -370,18 +340,10 @@ This function returns an 8-bit signed integer containing the currently set RSSI 
 
 NA
 
-.. note :: The beacon RSSI value is the received signal strength at 1 meter. This
-    can be used to estimate the distance to the beacon. Refer to
-    https://developer.apple.com/ibeacon/ or https://altbeacon.org/ for more
-    information.
-    
-    “BLEBeacon.h” must be included to use the class function.
+.. note :: The beacon RSSI value is the received signal strength at 1 meter. This can be used to estimate the distance to the beacon. Refer to https://developer.apple.com/ibeacon/ or https://altbeacon.org/ for more information. "BLEBeacon.h" must be included to use the class function.
 
-**iBeacon::setManufacturerId**
-------------------------------
-
-**altBeacon::setManufacturerId**
---------------------------------
+**iBeacon::setManufacturerId** / **altBeacon::setManufacturerId**
+-----------------------------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -408,18 +370,12 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBeacon <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBeacon/BLEBeacon.ino>`_ 
+Example: `BLEBeacon <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBeacon/BLEBeacon.ino>`_
 
-.. note :: Refer to https://www.bluetooth.com/specifications/assigned-numbers/company-identifiers/
-    for the full list of assigned Bluetooth company identifiers.
+.. note :: Refer to https://www.bluetooth.com/specifications/assigned-numbers/company-identifiers/ for the full list of assigned Bluetooth company identifiers. "BLEBeacon.h" must be included to use the class function.
 
-    “BLEBeacon.h” must be included to use the class function.
-
-**iBeacon::setUUID**
---------------------
-
-**altBeacon::setUUID**
-----------------------
+**iBeacon::setUUID** / **altBeacon::setUUID**
+---------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -428,19 +384,18 @@ Set UUID value.
 
 **Syntax**
 ~~~~~~~~~~
- .. code-block:: c++
+
+.. code-block:: c++
 
     void setUUID(uint8_t* UUID);
-
     void setUUID(const char* UUID);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-uint8_t* UUID: Provide pointer to a 16 element uint8_t array containing
-the desired UUID
+uint8_t* UUID: Provide pointer to a 16 element uint8_t array containing the desired UUID.
 
-const char* UUID: desired UUID expressed as a character string
+const char* UUID: desired UUID expressed as a character string.
 
 **Returns**
 ~~~~~~~~~~~
@@ -450,19 +405,12 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBeacon <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBeacon/BLEBeacon.ino>`_ 
+Example: `BLEBeacon <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBeacon/BLEBeacon.ino>`_
 
-.. note :: UUID is a 128-bit number used to uniquely identify a beacon. It is
-    commonly expressed as a 32-character hexadecimal string. UUIDs can be
-    generated at https://www.uuidgenerator.net/.
+.. note :: UUID is a 128-bit number used to uniquely identify a beacon. It is commonly expressed as a 32-character hexadecimal string. UUIDs can be generated at https://www.uuidgenerator.net/. "BLEBeacon.h" must be included to use the class function.
 
-    “BLEBeacon.h” must be included to use the class function.
-
-**iBeacon::setMajor**
----------------------
-
-**altBeacon::setMajor**
------------------------
+**iBeacon::setMajor** / **altBeacon::setMajor**
+-----------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -489,19 +437,12 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBeacon <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBeacon/BLEBeacon.ino>`_ 
+Example: `BLEBeacon <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBeacon/BLEBeacon.ino>`_
 
-.. note :: Major and Minor are values used for customizing beacons. These can be
-    set to any value. Refer to https://developer.apple.com/ibeacon/ or
-    https://altbeacon.org/ for more information.
+.. note :: Major and Minor are values used for customizing beacons. These can be set to any value. Refer to https://developer.apple.com/ibeacon/ or https://altbeacon.org/ for more information. "BLEBeacon.h" must be included to use the class function.
 
-    “BLEBeacon.h” must be included to use the class function.
-
-**iBeacon::setMinor**
----------------------
-
-**altBeacon::setMinor**
------------------------
+**iBeacon::setMinor** / **altBeacon::setMinor**
+-----------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -528,19 +469,12 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBeacon <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBeacon/BLEBeacon.ino>`_ 
+Example: `BLEBeacon <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBeacon/BLEBeacon.ino>`_
 
-.. note :: Major and Minor are values used for customizing beacons. These can be
-    set to any value. Refer to https://developer.apple.com/ibeacon/ or
-    https://altbeacon.org/ for more information.
+.. note :: Major and Minor are values used for customizing beacons. These can be set to any value. Refer to https://developer.apple.com/ibeacon/ or https://altbeacon.org/ for more information. "BLEBeacon.h" must be included to use the class function.
 
-    “BLEBeacon.h” must be included to use the class function.
-
-**iBeacon::setRSSI**
---------------------
-
-**altBeacon::setRSSI**
-----------------------
+**iBeacon::setRSSI** / **altBeacon::setRSSI**
+---------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -567,19 +501,12 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBeacon <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBeacon/BLEBeacon.ino>`_ 
+Example: `BLEBeacon <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBeacon/BLEBeacon.ino>`_
 
-.. note :: The beacon RSSI value is the received signal strength at 1 meter. This
-    can be used to estimate the distance to the beacon. Refer to
-    https://developer.apple.com/ibeacon/ or https://altbeacon.org/ for more information.
+.. note :: The beacon RSSI value is the received signal strength at 1 meter. This can be used to estimate the distance to the beacon. Refer to https://developer.apple.com/ibeacon/ or https://altbeacon.org/ for more information. "BLEBeacon.h" must be included to use the class function.
 
-    “BLEBeacon.h” must be included to use the class function.
-
-**iBeacon::getAdvData**
------------------------
-
-**altBeacon::getAdvData**
--------------------------
+**iBeacon::getAdvData** / **altBeacon::getAdvData**
+---------------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -601,24 +528,17 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns a uint8_t pointer to the structure containing
-beacon advertising data.
+This function returns a uint8_t pointer to the structure containing beacon advertising data.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: Avoid changing the beacon data through the returned pointer, use the
-    member functions instead.
+.. note :: Avoid changing the beacon data through the returned pointer, use the member functions instead. "BLEBeacon.h" must be included to use the class function.
 
-    “BLEBeacon.h” must be included to use the class function.
-
-**iBeacon::getScanRsp**
------------------------
-
-**altBeacon::getScanRsp**
--------------------------
+**iBeacon::getScanRsp** / **altBeacon::getScanRsp**
+---------------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -640,18 +560,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns a uint8_t pointer to the structure containing
-beacon advertising scan response data.
+This function returns a uint8_t pointer to the structure containing beacon advertising scan response data.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: Avoid changing the beacon data through the returned pointer, use the
-    member functions instead.
-
-    “BLEBeacon.h” must be included to use the class function.
+.. note :: Avoid changing the beacon data through the returned pointer, use the member functions instead. "BLEBeacon.h" must be included to use the class function.
 
 **altBeacon::getRSVD**
 ----------------------
@@ -676,20 +592,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns an 8-bit unsigned integer containing the current
-Reserved value.
+This function returns an 8-bit unsigned integer containing the current Reserved value.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: Reserved for use by the manufacturer to implement special features. The
-    interpretation of this value is to be defined by the manufacturer and is
-    to be evaluated based on the MFG ID value. Refer to
-    https://altbeacon.org/ for more information.
-
-    “BLEBeacon.h” must be included to use the class function.
+.. note :: Reserved for use by the manufacturer to implement special features. The interpretation of this value is to be defined by the manufacturer and is to be evaluated based on the MFG ID value. Refer to https://altbeacon.org/ for more information. "BLEBeacon.h" must be included to use the class function.
 
 **altBeacon::setRSVD**
 ----------------------
@@ -720,9 +630,4 @@ NA
 ~~~~~~~~~~~~~~~~
 NA
 
-.. note :: Reserved for use by the manufacturer to implement special features. The
-    interpretation of this value is to be defined by the manufacturer and is
-    to be evaluated based on the MFG ID value. Refer to
-    https://altbeacon.org/ for more information.
-
-    “BLEBeacon.h” must be included to use the class function.
+.. note :: Reserved for use by the manufacturer to implement special features. The interpretation of this value is to be defined by the manufacturer and is to be evaluated based on the MFG ID value. Refer to https://altbeacon.org/ for more information. "BLEBeacon.h" must be included to use the class function.

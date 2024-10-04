@@ -24,13 +24,13 @@ A class used for general control and management of BLE functions.
 ~~~~~~~~~~~
 
 +------------------------------------+------------------------------------+
-| **Public Constructors**            |                                    |
+| **Public Constructors**                                                 |
 +====================================+====================================+
 | The public constructor should not be used as this class is intended to  |
 | be a singleton class. Access member functions using the object instance |
 | named BLE.                                                              |
 +------------------------------------+------------------------------------+
-| **Public Methods**                 |                                    |
+| **Public Methods**                                                      |
 +------------------------------------+------------------------------------+
 | BLEDevice:: init                   | Initialize resources that are      |
 |                                    | required for BLE to function       |
@@ -107,12 +107,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBatteryService <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryService/BLEBatteryService.ino>`_
+Example: `BLEBatteryService <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryService/BLEBatteryService.ino>`_
 
-.. note :: Call this member function first before using any other member functions
-    in the BLEDevice class.
-
-    “BLEDevice.h” must be included to use the class function.
+.. note :: Call this member function first before using any other member functions in the BLEDevice class. "BLEDevice.h" must be included to use the class function.
 
 **BLEDevice::deinit**
 ---------------------
@@ -144,10 +141,7 @@ NA
 
 NA
 
-.. note :: Call this member function last after all other BLE operations have been
-    terminated.
-
-    “BLEDevice.h” must be included to use the class function.
+.. note :: Call this member function last after all other BLE operations have been terminated. "BLEDevice.h" must be included to use the class function.
 
 **BLEDevice::connected**
 ------------------------
@@ -179,9 +173,7 @@ This function returns TRUE if BLE device is connected, otherwise false.
 
 NA
 
-.. note :: Peripheral mode should use connId = 0
-
-    “BLEDevice.h” must be included to use the class function.
+.. note :: Peripheral mode should use connId = 0. "BLEDevice.h" must be included to use the class function.
 
 **BLEDevice::setDeviceName**
 ----------------------------
@@ -189,9 +181,7 @@ NA
 **Description**
 ~~~~~~~~~~~~~~~
 
-Set the BLE Generic Access Profile (GAP) device name which will be
-visible after a connection is estabalished. The default device name is
-set as “AMEBA_BLE_DEV”.
+Set the BLE Generic Access Profile (GAP) device name which will be visible after a connection is estabalished. The default device name is set as "AMEBA_BLE_DEV".
 
 **Syntax**
 ~~~~~~~~~~
@@ -215,12 +205,7 @@ NA
 
 NA
 
-.. note :: The GAP device name has a maximum length of 39 characters. Other devices
-    can see this name after a BLE connection is established. This name is
-    separate and different from the device name sent in a BLE advertisement,
-    the names should be the same but are not required.
-
-    “BLEDevice.h” must be included to use the class function.
+.. note :: The GAP device name has a maximum length of 39 characters. Other devices can see this name after a BLE connection is established. This name is separate and different from the device name sent in a BLE advertisement, the names should be the same but are not required. "BLEDevice.h" must be included to use the class function.
 
 **BLEDevice::setDeviceAppearance**
 ----------------------------------
@@ -240,8 +225,7 @@ Set the BLE Generic Access Profile (GAP) device appearance.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-devAppearance: desired device appearance expressed as a 16-bit unsigned
-integer.
+devAppearance: desired device appearance expressed as a 16-bit unsigned integer.
 
 **Returns**
 ~~~~~~~~~~~
@@ -253,10 +237,7 @@ NA
 
 NA
 
-.. note :: Refer to Bluetooth SIG assigned device appearances at
-    https://www.bluetooth.com/specifications/gatt/characteristics/.
-
-    “BLEDevice.h” must be included to use the class function.
+.. note :: Refer to Bluetooth SIG assigned device appearances at https://www.bluetooth.com/specifications/gatt/characteristics/. "BLEDevice.h" must be included to use the class function.
 
 **BLEDevice::configAdvert**
 ---------------------------
@@ -281,18 +262,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns a pointer to a BLEAdvert class instance for
-configuring BLE advertising parameters.
+This function returns a pointer to a BLEAdvert class instance for configuring BLE advertising parameters.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBatteryService <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryService/BLEBatteryService.ino>`_
+Example: `BLEBatteryService <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryService/BLEBatteryService.ino>`_
 
-.. note :: Use this member function instead of creating a BLEAdvert class instance
-    manually.
-
-    “BLEDevice.h” must be included to use the class function.
+.. note :: Use this member function instead of creating a BLEAdvert class instance manually. "BLEDevice.h" must be included to use the class function.
 
 **BLEDevice::configScan**
 -------------------------
@@ -317,22 +294,17 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns a pointer to a BLEScan class instance for
-configuring BLE scanning parameters.
+This function returns a pointer to a BLEScan class instance for configuring BLE scanning parameters.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEScan <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEScan/BLEScan.ino>`_
+Example: `BLEScan <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEScan/BLEScan.ino>`_
 
-**Notes and Warnings**
-
-Use this member function instead of creating a BLEScan class instance
-manually.
-
-“BLEDevice.h” must be included to use the class function.
+.. note :: Use this member function instead of creating a BLEScan class instance manually. "BLEDevice.h" must be included to use the class function.
 
 **BLEDevice::configConnection**
+-------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -354,18 +326,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns a pointer to a BLEConnect class instance for
-configuring BLE connection parameters.
+This function returns a pointer to a BLEConnect class instance for configuring BLE connection parameters.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBatteryClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryClient/BLEBatteryClient.ino>`_
+Example: `BLEBatteryClient <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryClient/BLEBatteryClient.ino>`_
 
-.. note :: Use this member function instead of creating a BLEConnect class instance
-    manually.
-
-    “BLEDevice.h” must be included to use the class function.
+.. note :: Use this member function instead of creating a BLEConnect class instance manually. "BLEDevice.h" must be included to use the class function.
 
 **BLEDevice::configSecurity**
 -----------------------------
@@ -390,19 +358,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns a pointer to a BLESecurity class instance for
-configuring BLE bonding security parameters.
+This function returns a pointer to a BLESecurity class instance for configuring BLE bonding security parameters.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEHIDMouse <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDMouse/BLEHIDMouse.ino>`_
+Example: `BLEHIDMouse <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEHIDMouse/BLEHIDMouse.ino>`_
 
-.. note :: Use this member function instead of creating a BLESecurity class
-    instance manually.
-
-    “BLEDevice.h” must be included to use the class function.
-
+.. note :: Use this member function instead of creating a BLESecurity class instance manually "BLEDevice.h" must be included to use the class function.
 
 **BLEDevice::setScanCallback**
 ------------------------------
@@ -422,8 +385,7 @@ Set a callback function for processing BLE scan results.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-scanCB: a function that returns nothing and takes in a scan data pointer
-of type T_LE_CB_DATA\*
+scanCB: a function that returns nothing and takes in a scan data pointer of type T_LE_CB_DATA.
 
 **Returns**
 ~~~~~~~~~~~
@@ -433,12 +395,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEScan <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEScan/BLEScan.ino>`_
+Example: `BLEScan <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEScan/BLEScan.ino>`_
 
-.. note :: Use this member function to set a callback function that will be called
-    for each BLE device scan result found.
-
-    “BLEDevice.h” must be included to use the class function.
+.. note :: Use this member function to set a callback function that will be called for each BLE device scan result found. "BLEDevice.h" must be included to use the class function.
 
 **BLEDevice::beginCentral**
 ---------------------------
@@ -458,8 +417,7 @@ Start the BLE stack to operate as a central device.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-connCount: maximum number of allowed connected devices. If no argument
-is provided, default is maximum allowed connected devices for specific board.
+connCount: maximum number of allowed connected devices. If no argument is provided, default is maximum allowed connected devices for specific board.
 
 **Returns**
 ~~~~~~~~~~~
@@ -469,12 +427,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEScan <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEScan/BLEScan.ino>`_
+Example: `BLEScan <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEScan/BLEScan.ino>`_
 
-.. note :: Use this member function to start the device to operate as a central BLE
-    device, after other BLE parameters are set correctly.
-
-    “BLEDevice.h” must be included to use the class function.
+.. note :: Use this member function to start the device to operate as a central BLE device, after other BLE parameters are set correctly. "BLEDevice.h" must be included to use the class function.
 
 **BLEDevice::beginPeripheral**
 ------------------------------
@@ -504,12 +459,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBatteryService <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryService/BLEBatteryService.ino>`_
+Example: `BLEBatteryService <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryService/BLEBatteryService.ino>`_
 
-.. note :: Use this member function to start the device to operate as a peripheral
-    BLE device, after other BLE parameters are set correctly.
-
-    “BLEDevice.h” must be included to use the class function.
+.. note :: Use this member function to start the device to operate as a peripheral BLE device, after other BLE parameters are set correctly. "BLEDevice.h" must be included to use the class function.
 
 **BLEDevice:: end**
 -------------------
@@ -541,10 +493,7 @@ NA
 
 NA
 
-.. note :: Use this member function to stop the device operating in either BLE
-    peripheral mode or BLE central mode.
-
-    “BLEDevice.h” must be included to use the class function.
+.. note :: Use this member function to stop the device operating in either BLE peripheral mode or BLE central mode. "BLEDevice.h" must be included to use the class function.
 
 **BLEDevice::configServer**
 ---------------------------
@@ -564,7 +513,7 @@ Configure the BLE stack for services.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-maxServiceCount: Maximum number of services that will run on the device
+maxServiceCount: Maximum number of services that will run on the device.
 
 **Returns**
 ~~~~~~~~~~~
@@ -574,11 +523,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBatteryService <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryService/BLEBatteryService.ino>`_
+Example: `BLEBatteryService <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryService/BLEBatteryService.ino>`_
 
-.. note :: Use this member function before adding any service to the BLE stack.
-
-    “BLEDevice.h” must be included to use the class function.
+.. note :: Use this member function before adding any service to the BLE stack. "BLEDevice.h" must be included to use the class function.
 
 **BLEDevice::addService**
 -------------------------
@@ -598,8 +545,7 @@ Add a new service to the BLE stack.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-newService: the service to be added, defined using a BLEService class
-object.
+newService: the service to be added, defined using a BLEService class object.
 
 **Returns**
 ~~~~~~~~~~~
@@ -609,9 +555,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBatteryService <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryService/BLEBatteryService.ino>`_
+Example: `BLEBatteryService <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryService/BLEBatteryService.ino>`_
 
-.. note :: “BLEDevice.h” must be included to use the class function.
+.. note :: "BLEDevice.h" must be included to use the class function.
 
 **BLEDevice::configClient**
 ---------------------------
@@ -641,12 +587,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBatteryClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryClient/BLEBatteryClient.ino>`_
+Example: `BLEBatteryClient <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryClient/BLEBatteryClient.ino>`_
 
-
-.. note :: Use this member function before adding any client to the BLE stack.
-
-    “BLEDevice.h” must be included to use the class function.
+.. note :: Use this member function before adding any client to the BLE stack. "BLEDevice.h" must be included to use the class function.
 
 **BLEDevice::addClient**
 ------------------------
@@ -666,29 +609,19 @@ Add a new client to the BLE stack.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-connId: the connection ID of the connected device to create a client
-for.
+connId: the connection ID of the connected device to create a client for.
 
 **Returns**
 ~~~~~~~~~~~
 
-This function returns a pointer to a BLEClient class object,
-corresponding to the device with the specified connection ID, which can
-be used to access the services and characteristics on the connected
-device.
+This function returns a pointer to a BLEClient class object, corresponding to the device with the specified connection ID, which can be used to access the services and characteristics on the connected device.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEBatteryClient <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryClient/BLEBatteryClient.ino>`_
+Example: `BLEBatteryClient <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEBatteryClient/BLEBatteryClient.ino>`_
 
-.. note :: Only one client should be added per connected device.
-
-    The BLEClient object and any service, characteristic, descriptor
-    associated with the connected device will be deleted when the device is
-    disconnected.
-
-    “BLEDevice.h” must be included to use the class function.
+.. note :: Only one client should be added per connected device. The BLEClient object and any service, characteristic, descriptor associated with the connected device will be deleted when the device is disconnected. "BLEDevice.h" must be included to use the class function.
 
 **BLEDevice::getLocalAddr**
 ---------------------------
@@ -722,8 +655,4 @@ NA
 
 NA
 
-.. note :: Local device address is only available after starting in central or
-    peripheral mode. This function will return all zeros for the address if
-    central or peripheral mode is not in operation.
-
-    “BLEDevice.h” must be included to use the class function.
+.. note :: Local device address is only available after starting in central or peripheral mode. This function will return all zeros for the address if central or peripheral mode is not in operation. "BLEDevice.h" must be included to use the class function.

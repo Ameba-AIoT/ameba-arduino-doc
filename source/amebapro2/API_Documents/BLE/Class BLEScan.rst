@@ -24,13 +24,13 @@ A class used for managing BLE scanning settings.
 ~~~~~~~~~~~
 
 +------------------------------------+---------------------------------+
-| **Public Constructors**            |                                 |
+| **Public Constructors**                                              |
 +====================================+=================================+
 | No public constructor is available as this class is intended to be a |
 | singleton class. You can get a pointer to this class using           |
 | BLEDevice::configScan                                                |
 +------------------------------------+---------------------------------+
-| **Public Methods**                 |                                 |
+| **Public Methods**                                                   |
 +------------------------------------+---------------------------------+
 | BLEScan::updateScanParams          | Update the lower Bluetooth      |
 |                                    | stack with the current scan     |
@@ -83,12 +83,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEScan <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEScan/BLEScan.ino>`_ 
+Example: `BLEScan <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEScan/BLEScan.ino>`_
 
-.. note :: Stop any scans in progress first before using this 
-    function. 
-    
-    “BLEScan.h” must be included to use the class function.
+.. note :: Stop any scans in progress first before using this function. "BLEScan.h" must be included to use the class function.
 
 **BLEScan::startScan**
 ----------------------
@@ -104,7 +101,6 @@ Start BLE scanning.
 .. code-block:: c++
 
     void startScan(void);
-
     void startScan(uint32_t scanDuration_ms);
 
 **Parameters**
@@ -120,15 +116,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEScan <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEScan/BLEScan.ino>`_ 
+Example: `BLEScan <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEScan/BLEScan.ino>`_
 
-.. note :: Set the scan parameters first before starting a scan. BLE scans will
-    occur continuously for the duration set with BLEDevice::setScanWindow()
-    and will repeat with a time interval set with
-    BLEDevice::setScanInterval(). Call this member function without an
-    argument to start scanning until BLEDevice::stopScan() is called.
-
-    “BLEScan.h” must be included to use the class function.
+.. note :: Set the scan parameters first before starting a scan. BLE scans will occur continuously for the duration set with BLEDevice::setScanWindow() and will repeat with a time interval set with BLEDevice::setScanInterval(). Call this member function without an argument to start scanning until BLEDevice::stopScan() is called. "BLEScan.h" must be included to use the class function.
 
 **BLEScan::stopScan**
 ---------------------
@@ -160,7 +150,7 @@ NA
 
 NA
 
-.. note :: “BLEScan.h” must be included to use the class function.
+.. note :: "BLEScan.h" must be included to use the class function.
 
 **BLEScan::setScanMode**
 ------------------------
@@ -180,10 +170,7 @@ Set the BLE scanning mode.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-scanMode: GAP_SCAN_MODE_PASSIVE for passive scanning,
-GAP_SCAN_MODE_ACTIVE for active scanning. 
-
-Default value: GAP_SCAN_MODE_ACTIVE.
+scanMode: GAP_SCAN_MODE_PASSIVE for passive scanning, GAP_SCAN_MODE_ACTIVE for active scanning. Default value is GAP_SCAN_MODE_ACTIVE.
 
 **Returns**
 ~~~~~~~~~~~
@@ -193,12 +180,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEScan <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEScan/BLEScan.ino>`_ 
+Example: `BLEScan <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEScan/BLEScan.ino>`_
 
-.. note :: Active scanning will request for scan response packets after discovering
-        an advertising device. Passive scanning will only capture advertising data packets.
-    
-    “BLEScan.h” must be included to use the class function.
+.. note :: Active scanning will request for scan response packets after discovering an advertising device. Passive scanning will only capture advertising data packets. "BLEScan.h" must be included to use the class function.
 
 **BLEScan::setScanInterval**
 ----------------------------
@@ -218,9 +202,9 @@ Set the BLE scanning interval.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-scanInt_ms: scan interval in milliseconds. Value range of 3 to 10240.
+scanInt_ms: scan interval in milliseconds. Default value is 40.
 
-Default value of 40ms.
+- 3 to 10240.
 
 **Returns**
 ~~~~~~~~~~~
@@ -230,12 +214,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEScan <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEScan/BLEScan.ino>`_ 
+Example: `BLEScan <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEScan/BLEScan.ino>`_
 
-.. note :: A BLE scan will repeat with a time interval set with this member
-    function. 
-
-    “BLEScan.h” must be included to use the class function.
+.. note :: A BLE scan will repeat with a time interval set with this member function. "BLEScan.h" must be included to use the class function.
 
 **BLEScan::setScanWindow**
 --------------------------
@@ -255,9 +236,9 @@ Set the BLE scanning window.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-scanWindow_ms: scan window in milliseconds. Value range of 3 to 10240.
+scanWindow_ms: scan window in milliseconds. Default value is 30.
 
-Default value of 30ms.
+- 3 to 10240.
 
 **Returns**
 ~~~~~~~~~~~
@@ -267,13 +248,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEScan <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEScan/BLEScan.ino>`_ 
+Example: `BLEScan <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEScan/BLEScan.ino>`_
 
-.. note :: A BLE scan will scan continuously for a window duration set with this
-    member function. The scan window should be less than or equal to the
-    scan interval. 
-    
-    “BLEScan.h” must be included to use the class function.
+.. note :: A BLE scan will scan continuously for a window duration set with this member function. The scan window should be less than or equal to the scan interval. "BLEScan.h" must be included to use the class function.
 
 **BLEScan::setScanDuplicateFilter**
 -----------------------------------
@@ -305,10 +282,7 @@ NA
 
 NA
 
-.. note :: Enabling duplicate filters will ignore scan results for devices already
-    discovered previously. 
-
-    “BLEScan.h” must be included to use the class function.
+.. note :: Enabling duplicate filters will ignore scan results for devices already discovered previously. "BLEScan.h" must be included to use the class function.
 
 **BLEScan::scanInProgress**
 ---------------------------
@@ -340,7 +314,7 @@ This function returns TRUE if BLE scanning is in progress.
 
 NA
 
-.. note :: “BLEScan.h” must be included to use the class function.
+.. note :: "BLEScan.h" must be included to use the class function.
 
 **BLEScan::printScanInfo**
 --------------------------
@@ -370,9 +344,6 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEScan <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEScan/BLEScan.ino>`_ 
+Example: `BLEScan <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEScan/BLEScan.ino>`_
 
-.. note :: Use this member function to parse the various fields of received
-    advertisement data packets and print the results out to the serial monitor. 
-    
-    “BLEScan.h” must be included to use the class function.
+.. note :: Use this member function to parse the various fields of received advertisement data packets and print the results out to the serial monitor. "BLEScan.h" must be included to use the class function.
