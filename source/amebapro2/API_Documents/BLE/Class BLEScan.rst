@@ -23,13 +23,13 @@ A class used for managing BLE scanning settings.
 **Members**
 ~~~~~~~~~~~
 
-+------------------------------------+---------------------------------+
++----------------------------------------------------------------------+
 | **Public Constructors**                                              |
-+====================================+=================================+
++======================================================================+
 | No public constructor is available as this class is intended to be a |
 | singleton class. You can get a pointer to this class using           |
 | BLEDevice::configScan                                                |
-+------------------------------------+---------------------------------+
++----------------------------------------------------------------------+
 | **Public Methods**                                                   |
 +------------------------------------+---------------------------------+
 | BLEScan::updateScanParams          | Update the lower Bluetooth      |
@@ -344,6 +344,6 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `BLEScan <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEScan/BLEScan.ino>`_
+Example: `BLEScan <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/BLE/examples/BLEScan/BLEScan.ino>`_
 
 .. note :: Use this member function to parse the various fields of received advertisement data packets and print the results out to the serial monitor. "BLEScan.h" must be included to use the class function.

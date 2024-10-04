@@ -271,7 +271,6 @@ NA
 
 .. note :: "BLERemoteCharacteristic.h" must be included to use the class function.
 
-
 **BLERemoteCharacteristic::canWrite**
 -------------------------------------
 

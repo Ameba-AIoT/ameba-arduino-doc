@@ -99,7 +99,6 @@ in your Serial Monitor, the message "rtp started (UDP)" will appear:
 
 |image09|
 
-
 2. Establish BLE Connection
 
 Open V7RC APP and select "Control Centre":

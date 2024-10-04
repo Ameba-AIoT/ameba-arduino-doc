@@ -56,7 +56,6 @@ nntask: Neural network task to perform. Default value is NA_MODEL.
 
 - OBJECT_DETECTION, FACE_DETECTION, FACE_RECOGNITION
 
-
 objdetmodel: Neural network model used for Object Detection. Default value is NA_MODEL.
 
 - DEFAULT_YOLOV3TINY, CUSTOMIZED_YOLOV3TINY (YOLOv3 model)

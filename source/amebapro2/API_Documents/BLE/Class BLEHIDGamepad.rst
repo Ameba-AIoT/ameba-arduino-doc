@@ -279,7 +279,6 @@ NA
 
 .. note :: "BLEHIDGamepad.h" must be included to use the class function.
 
-
 **BLEHIDGamepad::buttonReleaseAll**
 -----------------------------------
 
