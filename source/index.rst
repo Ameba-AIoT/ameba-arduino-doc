@@ -15,6 +15,8 @@ Welcome to Ameba Arduino Documentation!
 
                amebapro2/index
 
+            .. tab:: Others
+
       .. tab:: Ameba D
 
          .. tabs::
@@ -22,6 +24,8 @@ Welcome to Ameba Arduino Documentation!
             .. tab:: AMB23
 
                amebad/index
+
+            .. tab:: Others
 
 FAQ and Forum
 =============
