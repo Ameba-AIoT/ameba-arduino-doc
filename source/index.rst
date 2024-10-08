@@ -5,8 +5,23 @@ Welcome to Ameba Arduino Documentation!
    :caption: Board list
    :maxdepth: 1
 
-   amebapro2/index
-   amebad/index
+   .. tabs::
+
+      .. tab:: Ameba Pro2
+
+         .. tabs::
+
+            .. tab:: AMB82 Mini
+
+               amebapro2/index
+
+      .. tab:: Ameba D
+
+         .. tabs::
+
+            .. tab:: AMB23
+
+               amebad/index
 
 FAQ and Forum
 =============
