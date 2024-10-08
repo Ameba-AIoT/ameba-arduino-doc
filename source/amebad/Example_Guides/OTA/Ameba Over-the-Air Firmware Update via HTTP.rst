@@ -94,7 +94,6 @@ Generate OTA Image
     * *c. MacOS*
         /Users/username/Library/Arduino15/packages/Realtek/tools/ameba_d_tools/x.x.x/misc
 
-
 Upload and Transfer OTA Image
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
