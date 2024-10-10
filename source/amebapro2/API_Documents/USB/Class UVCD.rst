@@ -33,7 +33,7 @@ A class for USB UVC device API.
 | **Public Methods**                                                   |
 +-----------------------------------+----------------------------------+
 | UVCD::isUsbUvcConnected           | Check if the UVC device          |
-|                                   | is connected to PC and            |
+|                                   | is connected to PC and           |
 |                                   | video stream.                    |
 +-----------------------------------+----------------------------------+
 | UVCD::configVideo                 | Start config video of using USB  |
