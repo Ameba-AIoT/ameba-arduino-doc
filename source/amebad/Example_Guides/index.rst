@@ -5,3 +5,4 @@ Example Guides
    :maxdepth: 2
 
    Basic/index
+   OTA/index

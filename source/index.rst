@@ -1,12 +1,21 @@
 Welcome to Ameba Arduino Documentation!
 =======================================
 
-.. toctree::
-   :caption: Board list
-   :maxdepth: 1
+.. tabs::
 
-   amebapro2/index
-   amebad/index
+   .. tab:: Ameba Pro2
+
+       .. toctree::
+           :maxdepth: 1
+
+           AMB82 mini <amebapro2/index>
+
+   .. tab:: Ameba D
+
+       .. toctree::
+           :maxdepth: 1
+
+           AMB23 <amebad/index>
 
 FAQ and Forum
 =============
