@@ -6,6 +6,7 @@ AmebaD Arduino
    :maxdepth: 2
 
    Example_Guides/index
+   API_Documents/index
 
 SDK Source Code
 ---------------
