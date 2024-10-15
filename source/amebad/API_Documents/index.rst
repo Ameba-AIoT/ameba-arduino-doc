@@ -5,3 +5,4 @@ API Documents
    :maxdepth: 1
 
    OTA/index
+   WiFi/index

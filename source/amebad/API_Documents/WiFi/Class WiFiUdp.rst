@@ -100,7 +100,7 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `SimpleUDP <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleUDP/SimpleUDP.ino>`_
+Example: `WiFiUdpSendReceiveString <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiUdpSendReceiveString/WiFiUdpSendReceiveString.ino>`_
 
 .. note :: This constructor does not take in any parameter, thus use another
   method to set up the IP address and port number. "WiFiUdp.h" must be
@@ -135,7 +135,7 @@ sockets available to use.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `SimpleUDP <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleUDP/SimpleUDP.ino>`_
+Example: `WiFiUdpSendReceiveString <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiUdpSendReceiveString/WiFiUdpSendReceiveString.ino>`_
 
 .. note :: "WiFiUdp.h" must be included to use the class function.
 
@@ -204,7 +204,7 @@ This function returns "1" of successful, else returns "0" if there is a problem 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `SimpleUDP <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleUDP/SimpleUDP.ino>`_
+Example: `WiFiUdpSendReceiveString <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiUdpSendReceiveString/WiFiUdpSendReceiveString.ino>`_
 
 .. note :: "WiFiUdp.h" must be included to use the class function.
 
@@ -236,7 +236,7 @@ This function returns "1" if packet was sent successfully, else returns "0" if t
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `SimpleUDP <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleUDP/SimpleUDP.ino>`_
+Example: `WiFiUdpSendReceiveString <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiUdpSendReceiveString/WiFiUdpSendReceiveString.ino>`_
 
 .. note :: "WiFiUdp.h" must be included to use the class function.
 
@@ -271,7 +271,7 @@ This function returns the byte / character that will be written to the server or
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `SimpleUDP <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleUDP/SimpleUDP.ino>`_
+Example: `WiFiUdpSendReceiveString <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiUdpSendReceiveString/WiFiUdpSendReceiveString.ino>`_
 
 .. note :: This function must be wrapped between beginPacket() and endPacket(). beginPacket() initializes the packet of data, it is not sent until endPacket() is called. "WiFiUdp.h" must be included to use the class function.
 
@@ -288,14 +288,19 @@ Send packet immediately from the buffer.
 
 .. code-block:: c++
 
-    size_t writeImmediately(const uint8_t *buffer, size_t size);
+    int writeImmediately(const uint8_t *buffer, size_t size);
+    int writeImmediately(const uint8_t *buffer, size_t size, uint32_t peer_ip, uint16_t peer_port);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-buf: a pointer to an array containing the outgoing message.
+\*buffer: a pointer to an array containing the outgoing message.
 
 size: the size of the buffer.
+
+peer_ip: ip address of peer device
+
+peer_port: port number of peer device
 
 **Returns**
 ~~~~~~~~~~~
@@ -322,7 +327,7 @@ Check for the presence of a UDP packets and start processing the next available 
 
 .. code-block:: c++
 
-    virtual int parsePacket(void);
+    int parsePacket(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -337,7 +342,7 @@ This function returns the number of bytes available in the current packet, will 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `SimpleUDP <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleUDP/SimpleUDP.ino>`_
+Example: `WiFiUdpSendReceiveString <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiUdpSendReceiveString/WiFiUdpSendReceiveString.ino>`_
 
 .. note :: "WiFiUdp.h" must be included to use the class function.
 
@@ -404,7 +409,7 @@ This function returns the size of the buffer or returns -1 if no buffer is avail
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `SimpleUDP <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleUDP/SimpleUDP.ino>`_
+Example: `WiFiUdpSendReceiveString <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiUdpSendReceiveString/WiFiUdpSendReceiveString.ino>`_
 
 .. note :: This function can only be successfully called after WiFiUDP.parsePacket(). "WiFiUdp.h" must be included to use the class function.
 
@@ -500,7 +505,7 @@ This function returns the IP address of the remote connection.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `SimpleUDP <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleUDP/SimpleUDP.ino>`_
+Example: `WiFiUdpSendReceiveString <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiUdpSendReceiveString/WiFiUdpSendReceiveString.ino>`_
 
 .. note :: This function must be called after WiFiUDP.parsePacket(). "WiFiUdp.h" must be included to use the class function.
 
@@ -532,7 +537,7 @@ This function returns the port of the remote connection.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `SimpleUDP <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleUDP/SimpleUDP.ino>`_
+Example: `WiFiUdpSendReceiveString <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/WiFiUdpSendReceiveString/WiFiUdpSendReceiveString.ino>`_
 
 .. note :: This function must be called after WiFiUDP.parsePacket(). "WiFiUdp.h" must be included to use the class function.
 
