@@ -14,7 +14,9 @@ Multimedia
    Motion Detection Masking with MP4 Recording
    Motion Detection with On-Screen Display
    MP4 Recording
+   Play MP3 with SD card
    RTP Audio Stream
    RTSP Audio Stream
    RTSP Streaming V7RC
    RTSP Streaming
+   
