@@ -56,6 +56,8 @@ A class for data manipulation of files in a file system.
 +---------------------------+------------------------------------------+
 | File::name                | Get currently open file name.            |
 +---------------------------+------------------------------------------+
+| File::convertMp3ToArray   | Convert MP3 file to MP3data and MP3size. |
++---------------------------+------------------------------------------+
 
 **File::File**
 --------------
@@ -480,6 +482,38 @@ NA
 ~~~~~~~~~~~
 
 This function returns a pointer to a character array containing the filename of the currently open file. If no file is open, it returns NULL.
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
+
+.. note :: "AmebaFatFSFile.h" must be included to use the class function.
+
+**File::convertMp3ToArray**
+---------------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+Convert MP3 file to MP3data and MP3size.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    void convertMp3ToArray(void);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+NA
+
+**Returns**
+~~~~~~~~~~~
+
+This function convert MP3 file into character array containing the MP3data without the ID3 header. If no file is open for conversion, it will print out error message.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
