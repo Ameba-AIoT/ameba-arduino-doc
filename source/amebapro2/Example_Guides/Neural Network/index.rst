@@ -9,6 +9,7 @@ Neural Network
    Door Unlock with Face Recognition
    Face Detection
    Face Recognition
+   Generative AI Vision
    Image Classification
    Object Detection
    UVCD Object Detection
