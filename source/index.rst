@@ -15,7 +15,7 @@ Welcome to Ameba Arduino Documentation!
        .. toctree::
            :maxdepth: 1
 
-           AMB23/AMB26/BW16 <amebad/index>
+           AMB23 <amebad/index>
 
 FAQ and Forum
 =============
