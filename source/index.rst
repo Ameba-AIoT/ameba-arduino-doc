@@ -23,10 +23,3 @@ FAQ and Forum
 * `Ameba IoT FAQ <https://forum.amebaiot.com/c/faq/48>`_
 
 * `Ameba IoT Forum <https://forum.amebaiot.com/>`_
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
