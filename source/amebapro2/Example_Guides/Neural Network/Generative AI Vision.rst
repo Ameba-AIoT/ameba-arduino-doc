@@ -5,6 +5,11 @@ Generative AI Vision
   :local:
   :depth: 2
 
+.. note ::
+   |image_3rd_party| "Generative AI Vision" is a 3rd-party example source provided and maintained by `ChungYi Fu (Kaohsiung, Taiwan) <https://github.com/fustyles>`_
+
+   |image_ameba_iot| Special thanks and credits to the efforts and contributions for all developers.
+
 Materials
 ---------
 
@@ -88,3 +93,9 @@ Resources
 .. |image04| image:: ../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Vision/image04.png
    :width:  589 px
    :height:  503 px
+
+.. |image_ameba_iot| image:: ../../../_static/ameba_iot_logo.png
+   :scale: 40%
+
+.. |image_3rd_party| image:: ../../../_static/3rd_party_logo.png
+   :scale: 10%

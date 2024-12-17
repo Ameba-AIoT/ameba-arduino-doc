@@ -5,6 +5,11 @@ RTSP Streaming V7RC
   :local:
   :depth: 2
 
+.. note ::
+   |image_3rd_party| V7RC APP is a 3rd-party phone application provided and maintained by `V7RC.io <https://github.com/v7rc>`_
+
+   |image_ameba_iot| Special thanks and credits to the efforts and contributions for all developers.
+
 Materials
 ---------
 
@@ -85,3 +90,9 @@ Code Reference
 .. |image07| image:: ../../../_static/amebapro2/Example_Guides/Multimedia/RTSP_Streaming_V7RC/image07.png
    :width:  1218 px
    :height:  563 px
+
+.. |image_ameba_iot| image:: ../../../_static/ameba_iot_logo.png
+   :scale: 40%
+
+.. |image_3rd_party| image:: ../../../_static/3rd_party_logo.png
+   :scale: 10%

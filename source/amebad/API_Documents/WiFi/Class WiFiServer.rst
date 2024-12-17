@@ -76,7 +76,6 @@ Constructs a WiFiServer object and creates a server that listens for incoming co
     WiFiServer(uint16_t port, tPortMode portMode);
     WiFiServer(uint16_t port, tPortMode portMode, tBlockingMode blockMode);
 
-
 **Parameters**
 ~~~~~~~~~~~~~~
 

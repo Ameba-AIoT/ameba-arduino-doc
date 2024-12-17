@@ -5,6 +5,13 @@ V7RC Car With Video Streaming
   :local:
   :depth: 2
 
+.. note ::
+   |image_3rd_party| "V7RC Car With Video Streaming" is a 3rd-party example source provided and maintained by `Kevin's Lab <https://github.com/cold63>`_
+
+   |image_3rd_party| V7RC APP is a 3rd-party phone application provided and maintained by `V7RC.io <https://github.com/v7rc>`_
+
+   |image_ameba_iot| Special thanks and credits to the efforts and contributions for all developers.
+
 Materials
 ---------
 
@@ -95,7 +102,7 @@ streaming in real-time.
 The video stream from the camera will be shown in V7RC APP. Meanwhile,
 in your Serial Monitor, the message "rtp started (UDP)" will appear:
 
-|image08| 
+|image08|
 
 |image09|
 
@@ -141,13 +148,10 @@ MotoA_1B, MotoA_1B, and MotoA_1B pins.
 
 .. code:: c++
 
-   #define MotoA_1A 16 // Control MotorA moving Forward（HIGH）/Backward（LOW）                                                
-   
-   #define MotoA_1B 7 // Control MotorA’s from speed 0~255, or stop (LOW)       
-   
-   #define MotoB_1A 17 // Control MotorB moving Forward（HIGH）/Backward（LOW）                                        
-   
-   #define MotoB_1B 8 // Control MotorB’s speed from 0~255, or stop (LOW)                                                                 
+   #define MotoA_1A 16 // Control MotorA moving Forward(HIGH)/Backward(LOW)
+   #define MotoA_1B 7 // Control MotorA’s from speed 0~255, or stop (LOW)
+   #define MotoB_1A 17 // Control MotorB moving Forward(HIGH)/Backward(LOW)
+   #define MotoB_1B 8 // Control MotorB’s speed from 0~255, or stop (LOW)
 
 In this example, we will use AMB82 MINI as a demonstration. A detailed
 connection pin map can be found below. Upon the connection being
@@ -170,61 +174,80 @@ Code Reference
 .. code:: c++
 
    VideoSetting config(VIDEO_HD, CAM_FPS, VIDEO_H264, 0); // 1280x720
-
    VideoSetting config(VIDEO_D1, CAM_FPS, VIDEO_H264, 0); // 720x480
 
 .. |image01| image:: ../../../_static/amebapro2/Example_Guides/BLE/V7RC_Car_With_Video_Streaming/image01.png
    :width: 777 px
    :height: 799 px
+
 .. |image02| image:: ../../../_static/amebapro2/Example_Guides/BLE/V7RC_Car_With_Video_Streaming/image02.png
    :width: 760 px
    :height: 703 px
+
 .. |image03| image:: ../../../_static/amebapro2/Example_Guides/BLE/V7RC_Car_With_Video_Streaming/image03.png
    :width: 766 px
    :height: 766 px
+
 .. |image04| image:: ../../../_static/amebapro2/Example_Guides/BLE/V7RC_Car_With_Video_Streaming/image04.png
    :width: 562 px
    :height: 357 px
+
 .. |image05| image:: ../../../_static/amebapro2/Example_Guides/BLE/V7RC_Car_With_Video_Streaming/image05.png
    :width: 1218 px
    :height: 563 px
    :scale: 60%
+
 .. |image06| image:: ../../../_static/amebapro2/Example_Guides/BLE/V7RC_Car_With_Video_Streaming/image06.png
    :width: 2532 px
    :height: 1170 px
    :scale: 30%
+
 .. |image07| image:: ../../../_static/amebapro2/Example_Guides/BLE/V7RC_Car_With_Video_Streaming/image07.png
    :width: 2532 px
    :height: 1170 px
    :scale: 30%
+
 .. |image08| image:: ../../../_static/amebapro2/Example_Guides/BLE/V7RC_Car_With_Video_Streaming/image08.png
    :width: 2532 px
    :height: 1170 px
    :scale: 30%
+
 .. |image09| image:: ../../../_static/amebapro2/Example_Guides/BLE/V7RC_Car_With_Video_Streaming/image09.png
    :width: 529 px
    :height: 343 px
+
 .. |image10| image:: ../../../_static/amebapro2/Example_Guides/BLE/V7RC_Car_With_Video_Streaming/image10.png
    :width: 1218 px
    :height: 563 px
    :scale: 60%
+
 .. |image11| image:: ../../../_static/amebapro2/Example_Guides/BLE/V7RC_Car_With_Video_Streaming/image11.png
    :width: 1219 px
    :height: 563 px
    :scale: 60%
+
 .. |image12| image:: ../../../_static/amebapro2/Example_Guides/BLE/V7RC_Car_With_Video_Streaming/image12.png
    :width: 1218 px
    :height: 563 px
    :scale: 60%
+
 .. |image13| image:: ../../../_static/amebapro2/Example_Guides/BLE/V7RC_Car_With_Video_Streaming/image13.png
    :width: 1920 px
    :height: 1017 px
    :scale: 50%
+
 .. |image14| image:: ../../../_static/amebapro2/Example_Guides/BLE/V7RC_Car_With_Video_Streaming/image14.png
    :width: 1379 px
    :height: 637 px
    :scale: 60%
+
 .. |image15| image:: ../../../_static/amebapro2/Example_Guides/BLE/V7RC_Car_With_Video_Streaming/image15.png
    :width: 1512 px
    :height: 835 px
    :scale: 60%
+
+.. |image_ameba_iot| image:: ../../../_static/ameba_iot_logo.png
+   :scale: 40%
+
+.. |image_3rd_party| image:: ../../../_static/3rd_party_logo.png
+   :scale: 10%
