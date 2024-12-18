@@ -6,7 +6,7 @@ Generative AI Vision
   :depth: 2
 
 .. note ::
-   |image_3rd_party| "Generative AI Vision" is a 3rd-party example source provided and maintained by `ChungYi Fu (Kaohsiung, Taiwan) <https://github.com/fustyles>`_
+   |image_3rd_party| "Generative AI Vision" is jointly developed by RTKSG SD3 and `ChungYi Fu (Kaohsiung, Taiwan) <https://github.com/fustyles>`_
 
    |image_ameba_iot| Special thanks and credits to the efforts and contributions for all developers.
 
