@@ -28,7 +28,7 @@ In the highlighted code snippet, fill in the "wifi_ssid" with your WiFi network 
 
 |image02|
 
-In this documentation, we will be using Gemini API for demeonstration. 
+In this documentation, we will be using Gemini API for demonstration. 
 
 Create your own Gemini API key in `Google AI Studio <https://aistudio.google.com/apikey>`_.
 
