@@ -32,8 +32,9 @@ A class used for PowerMode control.
 +-----------------------------------+-----------------------------------+
 | PMClass::begin                    | Initializes the PowerMode         |
 |                                   | settings for device, include type |
-|                                   | of the mode, wake up sources and  |
-|                                   | related source settings.          |
+|                                   | of the mode, wake up sources      | 
+|                                   | , retention and related source    |
+|                                   | settings.                         |
 +-----------------------------------+-----------------------------------+
 | PMClass::start                    | Start the PowerMode of device.    |
 +-----------------------------------+-----------------------------------+
@@ -44,14 +45,14 @@ A class used for PowerMode control.
 **Description**
 ~~~~~~~~~~~~~~~
 
-Initializes the PowerMode settings for device, include type of the mode, wake up sources and related source settings.
+Initializes the PowerMode settings for device, include type of the mode, wake up sources, retention and related source settings.
 
 **Syntax**
 ~~~~~~~~~~
 
 .. code-block:: c++
 
-    void begin(uint32_t sleep_mode, int wakeup_source, uint32_t wakeup_setting = 0);
+    void begin(uint32_t sleep_mode, int wakeup_source, uint32_t retention, uint32_t wakeup_setting = 0);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -63,6 +64,9 @@ sleep_mode: Power Mode selection.
 wakeup_source: Wake up source selection. 
 
 - AON timer, AON GPIO, RTC, PON GPIO, UART/Serial1, and Gtimer0 (0 to 5).
+
+retention: Retention on/off
+- On: 1; Off: 0
 
 wakeup_setting: Settings for different wakeup sources. Default value is 0.
 
@@ -84,7 +88,7 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `DeepSleepMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/DeepSleepMode/DeepSleepMode.ino>`_, `StandbyMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/StandbyMode/StandbyMode.ino>`_
+Example: `DeepSleepMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/DeepSleepMode/DeepSleepMode.ino>`_, `StandbyMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/StandbyMode/StandbyMode.ino>`_, `RetentionDeepSleepMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/RetentionDeepSleepMode/RetentionDeepSleepMode.ino>`_, `RetentionStandbyMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/RetentionStandbyMode/RetentionStandbyMode.ino>`_
 
 .. note :: "PowerMode.h" must be included to use the class function.
 
@@ -141,6 +145,6 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `DeepSleepMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/DeepSleepMode/DeepSleepMode.ino>`_, `StandbyMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/StandbyMode/StandbyMode.ino>`_
+Example: `DeepSleepMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/DeepSleepMode/DeepSleepMode.ino>`_, `StandbyMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/StandbyMode/StandbyMode.ino>`_, `RetentionDeepSleepMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/RetentionDeepSleepMode/RetentionDeepSleepMode.ino>`_, `RetentionStandbyMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/RetentionStandbyMode/RetentionStandbyMode.ino>`_
 
 .. note :: "PowerMode.h" must be included to use the class function.

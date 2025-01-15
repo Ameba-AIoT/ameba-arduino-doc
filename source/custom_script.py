@@ -5,6 +5,25 @@ board_list = []
 common_list = []
 temp_only_list = [1000, 1000]
 
+# Define board-specific mappings
+board_mappings = {
+    'amb21': ['_common/Example_Guides/Basic', '_common/API_Documents/Analog', '_common/API_Documents/AudioCodec'
+    , '_common/API_Documents/BLE'],
+    'amb23': ['_common/Example_Guides/Basic', '_common/API_Documents/Analog', '_common/API_Documents/AudioCodec'
+    , '_common/API_Documents/BLE'],
+    'amb25': ['_common/Example_Guides/Basic', '_common/API_Documents/Analog', '_common/API_Documents/AudioCodec'
+    , '_common/API_Documents/BLE'],
+    'amb26': ['_common/Example_Guides/Basic', '_common/API_Documents/Analog', '_common/API_Documents/AudioCodec'
+    , '_common/API_Documents/BLE'],
+    'amebapro2': ['_common/Example_Guides/Basic'],
+    'bw16-typeb': ['_common/Example_Guides/Basic', '_common/API_Documents/Analog', '_common/API_Documents/AudioCodec'
+    , '_common/API_Documents/BLE'],
+    'aw-cu488': ['_common/Example_Guides/Basic', '_common/API_Documents/Analog', '_common/API_Documents/AudioCodec'
+    , '_common/API_Documents/BLE'],
+    'bw16-typec': ['_common/Example_Guides/Basic', '_common/API_Documents/Analog', '_common/API_Documents/AudioCodec'
+    , '_common/API_Documents/BLE'],
+}
+
 def create_folder(folder_name):
     try:
         os.mkdir(folder_name)
@@ -65,24 +84,22 @@ def copy_folder(src_folder, target_folder):
     # Check if source folder exists
     if not os.path.exists(src_folder):
         raise FileNotFoundError(f"Source folder '{src_folder}' not found.")
-
-    # Check if target folder exists, create it if not
+    
     if not os.path.exists(target_folder):
         os.makedirs(target_folder)
-
-    # Iterate over all items in the source folder
+    relative_path = os.path.relpath(src_folder, '_common') 
+    target_path = os.path.join(target_folder, relative_path)
+    if not os.path.exists(target_path):
+        os.makedirs(target_path)  # Ensure Basic folder gets created in target
+        print(f"Created folder: {target_path}")
+    
+    # Now copy contents of Basic folder
     for item in os.listdir(src_folder):
         src_item = os.path.join(src_folder, item)
-        target_item = os.path.join(target_folder, item)
-
-        # If it's a directory, copy it recursively
+        target_item = os.path.join(target_path, item)
+        
         if os.path.isdir(src_item):
-            if os.path.exists(target_item):
-                # If the target subdirectory already exists, merge contents
-                shutil.copytree(src_item, target_item, dirs_exist_ok=True)
-            else:
-                shutil.copytree(src_item, target_item)
-        # If it's a file, copy it directly
+            shutil.copytree(src_item, target_item)
         else:
             shutil.copy2(src_item, target_item)
 
@@ -179,29 +196,18 @@ if __name__ == "__main__":
     # Change the current working directory
     new_directory = './source'
     os.chdir(new_directory)
-    # Print the new current working directory
-    ###print(os.getcwd())
-
-    ###for item in board_list:
-    ###    create_folder(item)
 
     board_list = get_folder_paths('./', 1)
     common_list = get_folder_paths('./_common', 0)
 
-    ###for i, item in enumerate(common_list):
-    ###    current_path = os.getcwd()
-    ###    new_path = os.path.join(current_path, item)
-    ###    common_list[i] = new_path
-
-#    for board in board_list:
-#        for item in common_list:
-#            print(item)
-#            print(board)
-#            copy_folder(item, board)
-
+    # Loop through each board and copy files based on the board's mapping
     for board in board_list:
-        copy_folder('./_common', board)
+        # Check if there are common folders that should be copied for this board
+        if board in board_mappings:
+            for common_folder in board_mappings[board]:
+                copy_folder(common_folder, board)
 
+    # Loop through the copied files and clean up .rst files as needed
     for board in board_list:
         for root, dirs, files in os.walk(board):
             for file in files:
@@ -220,11 +226,7 @@ if __name__ == "__main__":
                     remove_consecutive_empty_lines(file_path)
 
     # Remove the folder '/path/to/folder' and all its contents
-    ###for item in common_list:
-    ###    shutil.rmtree(item)
     shutil.rmtree('_common')
 
     new_directory = './../'
     os.chdir(new_directory)
-    # Print the new current working directory
-    ###print(os.getcwd())

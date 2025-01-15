@@ -19,7 +19,7 @@ Materials
 Example
 -------
 
-In this example, the development board will demo the Standby Mode for power save. There are 6 wake-up sources The system will count down 5s then go to Stand By mode. Upon the wake-up source being tiggered, the system will be reboot and wake up again.
+In this example, the development board will demo the non retention Standby Mode for power save. There are 6 wake-up sources. The system will count down 5s then go to Stand By mode. Upon the wake-up source being tiggered, the system will be reboot and wake up again.
 
 The module and board power consumption report under Standby mode are listed in these two tables below.
 
@@ -74,8 +74,9 @@ Open example in “File” -> “Examples” -> “AmebaPowerMode” -> “Stand
 |Image01|
 
 | Next is setting up the system and entering the power mode. Please refer to the following steps for entering Standby mode.
-| Step 1. Set up the “WAKEUP_SOURCE”, AON timer: 0; AON GPIO: 1; RTC: 2, PON GPIO: 3, UART/Serial1: 4, Gtimer0: 5.
-| Step 2. Set up the wake-up source setting. There are 6 wake-up sources, each one has its own settings.
+| Step 1. Ensure RETENTION is "#define RETENTION 0" in this example.
+| Step 2. Set up the “WAKEUP_SOURCE”, AON timer: 0; AON GPIO: 1; RTC: 2, PON GPIO: 3, UART/Serial1: 4, Gtimer0: 5.
+| Step 3. Set up the wake-up source setting. There are 6 wake-up sources, each one has its own settings.
 | For AON timer, at section ”#if (WAKEUP_SOURCE == 0)”, set value to “CLOCK” and “SLEEP_DURATION”. “CLOCK” can be 4MHz or 100kHz. “SLEEP_DURATION” unit is in seconds.
 | For AON GPIO, at section “#elif (WAKEUP_SOURCE == 1)”, set value to “WAKUPE_SETTING”. “WAKUPE_SETTING” in this case is the Pin number, that can be 21 or 22. The GPIO pin is set to active high, please refer to the following connection.
 
