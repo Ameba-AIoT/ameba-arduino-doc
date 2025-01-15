@@ -6,3 +6,4 @@ MQTT
     
    Set up MQTT Client over TLS
    Set up MQTT Client to Communicate with Broker
+   Generative AI Vision with MQTT

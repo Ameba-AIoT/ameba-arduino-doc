@@ -6,7 +6,7 @@ Generative AI Vision
   :depth: 2
 
 .. note ::
-   |image_3rd_party| "Generative AI Vision" is a 3rd-party example source provided and maintained by `ChungYi Fu (Kaohsiung, Taiwan) <https://github.com/fustyles>`_
+   |image_3rd_party| "Generative AI Vision" is jointly developed by RTKSG SD3 and `ChungYi Fu (Kaohsiung, Taiwan) <https://github.com/fustyles>`_
 
    |image_ameba_iot| Special thanks and credits to the efforts and contributions for all developers.
 
@@ -28,7 +28,7 @@ In the highlighted code snippet, fill in the "wifi_ssid" with your WiFi network 
 
 |image02|
 
-In this documentation, we will be using Gemini API for demeonstration. 
+In this documentation, we will be using Gemini API for demonstration. 
 
 Create your own Gemini API key in `Google AI Studio <https://aistudio.google.com/apikey>`_.
 
