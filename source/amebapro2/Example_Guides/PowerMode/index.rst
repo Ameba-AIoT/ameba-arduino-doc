@@ -6,3 +6,5 @@ PowerMode
 
    Deep Sleep Mode
    Standby Mode
+   Retention Standby Mode
+   Retention DeepSleep Mode
