@@ -25,23 +25,23 @@ Welcome to Ameba Arduino Documentation!
 
    .. tab:: Ameba Pro2
 
-      - [AMB82 mini](amebapro2/index)
+      `AMB82 mini <amebapro2/index>`_
 
    .. tab:: Ameba D
 
-      - [AMB21](amb21/index)
+      `AMB21 <amb21/index>`_
 
-      - [AMB23](amb23/index)
+      `AMB23 <amb23/index>`_
 
-      - [AMB25](amb25/index)
+      `AMB25 <amb25/index>`_
 
-      - [AMB26](amb26/index)
+      `AMB26 <amb26/index>`_
 
-      - [BW16](bw16-typeb/index)
+      `BW16 <bw16-typeb/index>`_
 
-      - [BW16-TypeC](bw16-typec/index)
+      `BW16-TypeC <bw16-typec/index>`_
 
-      - [AW-CU488](aw-cu488/index)
+      `AW-CU488 <aw-cu488/index>`_
 
 .. toctree::
    :maxdepth: 1
