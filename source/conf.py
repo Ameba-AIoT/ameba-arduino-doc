@@ -22,8 +22,15 @@ extensions = [
     'recommonmark',
     'sphinx_markdown_tables',
     'sphinx.ext.intersphinx',
-    'sphinx_tabs.tabs'
+    'sphinx_tabs.tabs',
+    'sphinx_tags',  # Enable tagging
 ]
+
+
+tags_overview_title = "Overview"
+tags_page_title = 'Tag: '
+tags_page_header = 'overview'
+tags_create_tags = True
 
 templates_path = ['_templates']
 exclude_patterns = []
