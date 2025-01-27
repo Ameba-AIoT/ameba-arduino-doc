@@ -5,31 +5,49 @@ Welcome to Ameba Arduino Documentation!
 
    .. tab:: Ameba Pro2
 
-       .. toctree::
-           :maxdepth: 1
-           :caption: EVB Boards:
-
-           AMB82 mini <amebapro2/index>
+      AMB82 mini <amebapro2/index>
 
    .. tab:: Ameba D
 
-       .. toctree::
-           :maxdepth: 1
-           :caption: EVB Boards:
+      AMB21 <amb21/index>
 
-           AMB21 <amb21/index>
+      AMB23 <amb23/index>
 
-           AMB23 <amb23/index>
+      AMB25 <amb25/index>
 
-           AMB25 <amb25/index>
+      AMB26 <amb26/index>
 
-           AMB26 <amb26/index>
+      BW16 <bw16-typeb/index>
 
-           BW16 <bw16-typeb/index>
+      BW16-TypeC <bw16-typec/index>
 
-           BW16-TypeC <bw16-typec/index>
+      AW-CU488 <aw-cu488/index>
 
-           AW-CU488 <aw-cu488/index>
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Ameba Pro2 EVB Boards:
+
+   AMB82 mini <amebapro2/index>
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Ameba D EVB Boards:
+
+   AMB21 <amb21/index>
+
+   AMB23 <amb23/index>
+
+   AMB25 <amb25/index>
+
+   AMB26 <amb26/index>
+
+   BW16 <bw16-typeb/index>
+
+   BW16-TypeC <bw16-typec/index>
+
+   AW-CU488 <aw-cu488/index>
 
 .. toctree::
    :maxdepth: 1
