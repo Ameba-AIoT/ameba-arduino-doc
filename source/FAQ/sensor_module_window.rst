@@ -3,10 +3,6 @@
 What is the contact for sensor module manufacturing?
 ====================================================
 
-.. contents::
-  :local:
-  :depth: 1
-
 Answer
 ------
 
