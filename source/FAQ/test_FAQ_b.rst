@@ -3,11 +3,7 @@
 test_FAQ_b
 ==========
 
-.. contents::
-  :local:
-  :depth: 1
-
-Introduction
-------------
+Answer
+======
 
     test_FAQ_b
