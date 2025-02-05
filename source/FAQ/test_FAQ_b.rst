@@ -3,7 +3,6 @@
 test_FAQ_b
 ==========
 
-Answer
-======
+**Answer**
 
     test_FAQ_b
