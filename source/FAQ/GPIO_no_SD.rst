@@ -13,61 +13,46 @@ Refer to the following test code.
 
 .. code-block:: c++
 
-   #include "gpio_api.h"
+    #include "gpio_api.h"
+    #include "us_ticker_api.h"
+    #include "wait_api.h"
 
-   #include "us_ticker_api.h"
-   #include "wait_api.h"
+    #define GPIO_LED_S1       PS_1
+    #define GPIO_LED_S4       PS_4
 
-   #define GPIO_LED_S1       PS_1
-   #define GPIO_LED_S4       PS_4
-   #define GPIO_LED_E0       PE_0
+    int main(void)
+    {
+        gpio_t gpio_led_s1;
+        gpio_t gpio_led_s4;
 
-   int main(void)
-   {
-       gpio_t gpio_led_s1;
-       gpio_t gpio_led_s4;
-       gpio_t gpio_led_e0;
+        dbg_printf("\r\n   GPIO DEMO Michael  \r\n");
 
-       dbg_printf("\r\n   GPIO DEMO Michael  \r\n");
+        // Init LED control pin
+        gpio_init(&gpio_led_s1, GPIO_LED_S1);
+        gpio_dir(&gpio_led_s1, PIN_OUTPUT);        // Direction: Output
+        gpio_mode(&gpio_led_s1, PullNone);         // No pull
 
-       // Init LED control pin
-       gpio_init(&gpio_led_s1, GPIO_LED_S1);
-       gpio_dir(&gpio_led_s1, PIN_OUTPUT);        // Direction: Output
-       gpio_mode(&gpio_led_s1, PullNone);         // No pull
+        gpio_init(&gpio_led_s4, GPIO_LED_S4);
+        gpio_dir(&gpio_led_s4, PIN_OUTPUT);        // Direction: Output
+        gpio_mode(&gpio_led_s4, PullNone);         // No pull
 
-       gpio_init(&gpio_led_s4, GPIO_LED_S4);
-       gpio_dir(&gpio_led_s4, PIN_OUTPUT);        // Direction: Output
-       gpio_mode(&gpio_led_s4, PullNone);         // No pull
+        while (1) {
+            if (gpio_read(&gpio_led_s1)) {
+                // turn off LED
+                gpio_write(&gpio_led_s1, 0);
+            } else {
+                // turn on LED
+                gpio_write(&gpio_led_s1, 1);
+            }
 
-       gpio_init(&gpio_led_e0, GPIO_LED_E0);
-       gpio_dir(&gpio_led_e0, PIN_OUTPUT);        // Direction: Output
-       gpio_mode(&gpio_led_e0, PullNone);         // No pull
+            if (gpio_read(&gpio_led_s4)) {
+                // turn off LED
+                gpio_write(&gpio_led_s4, 0);
+            } else {
+                // turn on LED
+                gpio_write(&gpio_led_s4, 1);
+            }
 
-       while (1) {
-           if (gpio_read(&gpio_led_s1)) {
-               // turn off LED
-               gpio_write(&gpio_led_s1, 0);
-           } else {
-               // turn on LED
-               gpio_write(&gpio_led_s1, 1);
-           }
-
-           if (gpio_read(&gpio_led_s4)) {
-               // turn off LED
-               gpio_write(&gpio_led_s4, 0);
-           } else {
-               // turn on LED
-               gpio_write(&gpio_led_s4, 1);
-           }
-
-           if (gpio_read(&gpio_led_e0)) {
-               // turn off LED
-               gpio_write(&gpio_led_e0, 0);
-           } else {
-               // turn on LED
-               gpio_write(&gpio_led_e0, 1);
-           }
-
-           wait_ms(2000);
-       }
-   }
+            wait_ms(2000);
+        }
+    }
