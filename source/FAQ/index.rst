@@ -7,8 +7,8 @@ Ameba FAQ
 
    sensor_module_window
 
-   test_FAQ_a
+   DDR_used
 
-   test_FAQ_b
+   VDIO_SD_open
 
-
+   GPIO_no_SD
