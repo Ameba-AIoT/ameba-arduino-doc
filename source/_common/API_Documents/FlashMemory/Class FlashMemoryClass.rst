@@ -215,7 +215,7 @@ Example: `ReadWriteOneWord <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/d
 **Description**
 ~~~~~~~~~~~~~~~
 
-Write 4 bytes data (a word) to a flash address, based on the new base address with specific offset. Then read data from the address and compare with the origianl data. If there is difference. Buffer a flash sector from the new base address, then erase the sector from the flash. Replace the correct data back into buffer. Then rewrite the buffer in to the flash.
+Write 4 bytes data (a word) to a flash address, based on the new base address with specific offset. Then read data from the address and compare with the original data. If there is difference. Buffer a flash sector from the new base address, then erase the sector from the flash. Replace the correct data back into buffer. Then rewrite the buffer in to the flash.
 
 **Syntax**
 ~~~~~~~~~~

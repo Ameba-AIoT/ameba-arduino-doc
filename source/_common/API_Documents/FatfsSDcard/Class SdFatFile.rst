@@ -37,7 +37,7 @@ Defines a class of SD FAT File.
 |SdFatFile::read        | Read content (1 byte or bytes) from       |
 |                       | the file                                  |
 +-----------------------+-------------------------------------------+
-|SdFatFile::peek        | Read 1 byte from file without move curser |
+|SdFatFile::peek        | Read 1 byte from file without move cursor |
 +-----------------------+-------------------------------------------+
 |SdFatFile::available   | Check if the cursor is at EOF             |
 |                       | (End-Of-File)                             |
