@@ -115,7 +115,7 @@ Click “CONNECT”. The “hello world” message show up at left side. At righ
 -  “clientPass” is the authentication password. In this case, it is the
    login password of Realtek IoT/Wi-Fi MCU Solutions website.
 
--  The other parameters are same as pervious.
+-  The other parameters are same as previous.
 
 Next, compile the code and upload it to Ameba. Press the reset button, then open the serial monitor. After Ameba is connected to MQTT server, it sends the message “hello world” to “outTopic”. To see the message, another MQTT client needs to be set up.
 

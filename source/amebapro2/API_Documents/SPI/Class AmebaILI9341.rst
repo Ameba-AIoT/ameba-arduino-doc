@@ -268,7 +268,7 @@ Setting screen orientation, "0" for no rotation, "1" for 90 degrees rotation, "2
 **Parameters**
 ~~~~~~~~~~~~~~
 
-m: select desired screen orientation, expressing it as an integer. Defualt value is "0".
+m: select desired screen orientation, expressing it as an integer. Default value is "0".
 
 **Returns**
 ~~~~~~~~~~~

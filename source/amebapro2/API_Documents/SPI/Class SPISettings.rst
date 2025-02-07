@@ -127,7 +127,7 @@ A class of SPI implementation for Ameba.
 **Description**
 ~~~~~~~~~~~~~~~
 
-Construct an SPI object, create a pointer to the SPI master object, and assign "MOSI, MISO, CLK, and SS" to the corresponding pins on Ameba boards. Default SPI tranmission frequency is set to 20,000,000 Hz.
+Construct an SPI object, create a pointer to the SPI master object, and assign "MOSI, MISO, CLK, and SS" to the corresponding pins on Ameba boards. Default SPI transmission frequency is set to 20,000,000 Hz.
 
 **Syntax**
 ~~~~~~~~~~

@@ -160,7 +160,7 @@ Select “Tools” -> “Erase Flash” -> “Enable”
 Then enter the enter the upload mode.
 
 * Manually. Press and hold "Burn" button, press then release "RST" button and release "Burn” button.
-* Auto. Select “Tools” -> “Auto Upload Mode” -> “Enable”. Note that only boards with auto upload circuit build-in can use the Auto Upload Mode, 
+* Auto. Select “Tools” -> “Auto Upload Mode” -> “Enable”. Note that only boards with auto upload circuit built-in can use the Auto Upload Mode, 
   otherwise it will back to normal upload mode and wait for 5 seconds. 
 
 Next, Select “Sketch” -> “Upload”. “Erase flash done.” will show up.  

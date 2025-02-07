@@ -284,7 +284,7 @@ Compute the HeatIndex from the readings (Using both Rothfusz and Steadman's equa
 
 temperature: The temperature value in selscted scale percentHumidity: humidity value in percentage.
 
-isFahrenheit: choose temperature vale in Farenheit or Celsius. Default value is True.
+isFahrenheit: choose temperature vale in Fahrenheit or Celsius. Default value is True.
 
 - True (in Fahrenheit)
 

@@ -133,7 +133,7 @@ Example: `BasicInputOutput <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/d
 **Description**
 ~~~~~~~~~~~~~~~
 
-Deintialize all Audio Codec input and output operations.
+Deinitialize all Audio Codec input and output operations.
 
 **Syntax**
 ~~~~~~~~~~
@@ -646,7 +646,7 @@ len: number of audio samples in array.
 **Returns**
 ~~~~~~~~~~~
 
-This function returns the total number of audio samples written to the Audio Codec if there is available data buffer for data writting. Otherwise, it will return 0.
+This function returns the total number of audio samples written to the Audio Codec if there is available data buffer for data writing. Otherwise, it will return 0.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~

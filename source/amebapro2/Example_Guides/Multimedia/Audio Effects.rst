@@ -44,7 +44,7 @@ Code Reference
 --------------
 Both the NS and AGC algorithm are limited to 8 kHz and 16 kHz sample rates.
 
-The NS algorithm can reduce the loudness of background noise and is able to significantly reduce the backgound noise introduced due to increasing the microphone sensitivity. However, a side effect is that it adds an echo like effect to the audio. The strength level of the NS effect can be adjusted with the second argument of configMicNS and configSpkNS, with 0 being the weakest and 12 being the strongest.
+The NS algorithm can reduce the loudness of background noise and is able to significantly reduce the background noise introduced due to increasing the microphone sensitivity. However, a side effect is that it adds an echo like effect to the audio. The strength level of the NS effect can be adjusted with the second argument of configMicNS and configSpkNS, with 0 being the weakest and 12 being the strongest.
 
 The AGC algorithm can dynamically adjust the gain and sensitivity to maintain the audio signal at a target loudness level. The target reference level of the AGC can be adjusted with the second argument of configMicAGC and configSpkAGC, with 0 representing 0 dBFS the loudest level, and 30 representing -30 dBFS the softest level.
 

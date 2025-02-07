@@ -19,7 +19,7 @@ Materials
 Example
 -------
 
-In this example, the development board will demo the non retention Standby Mode for power save. There are 6 wake-up sources. The system will count down 5s then go to Stand By mode. Upon the wake-up source being tiggered, the system will be reboot and wake up again.
+In this example, the development board will demo the non retention Standby Mode for power save. There are 6 wake-up sources. The system will count down 5s then go to Stand By mode. Upon the wake-up source being triggered, the system will be reboot and wake up again.
 
 The module and board power consumption report under Standby mode are listed in these two tables below.
 
