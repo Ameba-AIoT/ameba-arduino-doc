@@ -1,7 +1,7 @@
 .. tags:: SD card, SDIO, GPIO
 
-SD_D1 and SD_CD can be used as GPIO, when not usring SDIO
-=========================================================
+SD_D1 and SD_CD can be used as GPIO, when not using SDIO
+========================================================
 
 With GPIOS_1 and GPIOS_4 we refer to serial GPIO to control LEDs (pin 9 (SD_D1) and 11 (SD_CD) of the QFN128 RTL8735BDM).
 
