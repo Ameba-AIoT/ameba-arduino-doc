@@ -7,5 +7,8 @@ API Documents
    Analog/index
    AudioCodec/index
    BLE/index
+   EPDIF/index
+   FatfsSDcard/index
+   FlashMemory/index
    OTA/index
    WiFi/index
