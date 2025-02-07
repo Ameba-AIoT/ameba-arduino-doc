@@ -21,6 +21,6 @@ jobs:
       uses: codespell-project/actions-codespell@v2
       with:
         #skip: Arduino_package/hardware/libraries/NeuralNetwork/examples/AudioClassification/AudioClassList.h,Arduino_package/hardware/libraries/USB/src/usbd_uvc_parm.c,Arduino_package/hardware/libraries/SPI/src/JPEGDEC_Libraries/jpeg.inl
-        ignore_words_list: ameba
+        ignore_words_list: ameba,datas
 #        ignore_words_file: .codespellignore
         path: ${{ matrix.path }}
