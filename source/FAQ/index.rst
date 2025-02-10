@@ -12,3 +12,5 @@ Ameba FAQ
    VDIO_SD_open
 
    GPIO_no_SD
+
+   separate_RTP_payload
