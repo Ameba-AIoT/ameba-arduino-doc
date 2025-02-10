@@ -133,6 +133,7 @@ Example: `ReadWriteWord <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/d
 .. note :: "FlashMemory.h" must be included to use the class function.
 
 **FlashMemoryClass::end**
+-------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -196,6 +197,7 @@ Example: `ReadWriteStream <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob
 .. note :: "FlashMemory.h" must be included to use the class function.
 
 **FlashMemoryClass::write**
+---------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~

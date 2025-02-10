@@ -13,7 +13,7 @@ Welcome to Ameba Arduino Documentation!
    :maxdepth: 1
    :caption: Ameba D EVBs:
 
-   AMB21 <amb21/index>
+   AMB21/22 <amb21/index>
    AMB23 <amb23/index>
    AMB25 <amb25/index>
    AMB26 <amb26/index>
@@ -29,7 +29,7 @@ Welcome to Ameba Arduino Documentation!
 
    .. tab:: Ameba D
 
-      `AMB21 <amb21/index.html>`_
+      `AMB21/22 <amb21/index.html>`_
 
       `AMB23 <amb23/index.html>`_
 
