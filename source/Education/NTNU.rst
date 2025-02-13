@@ -19,7 +19,7 @@ News coverage:
 
 - `自由時報：台師大攜手業界推AI應用教育 日本師生來台參與 <https://news.ltn.com.tw/news/life/breakingnews/4944201>`_
 
-- `聯合報：台師大攜業界推AI教育 日本3大學師生也來交流取經 <https://udn.com/news/story/6928/8532935
+- `聯合報：台師大攜業界推AI教育 日本3大學師生也來交流取經 <https://udn.com/news/story/6928/8532935>`_
 
 - `聯合報：台師大辦工作坊 邀日本師生來台實作AI與物聯網 <https://udn.com/news/story/6928/8533058>`_
 
@@ -39,28 +39,27 @@ Materials Download
 ^^^^^^^^^^^^^^^^^^
 
 .. download:: 台日友好課程PPT_EngVer.pdf
-   :台日友好課程PPT_EngVer: _download/Education/NTNU/台日友好課程PPT_EngVer.pdf
+   :filename: ../../_download/Education/NTNU/台日友好課程PPT_EngVer.pdf
 
 .. download:: 台日友好課程PPT_JPVer.pdf
-   :台日友好課程PPT_JPVer: _download/Education/NTNU/台日友好課程PPT_JPVer.pdf
+   :filename: ../../_download/Education/NTNU/台日友好課程PPT_JPVer.pdf
 
-
-.. |image01| image:: ../_static/Education/NTNU_2025.png
+.. |image01| image:: ../../_static/Education/NTNU_2025.png
    :target: https://en.ntnu.edu.tw/
    :width:  200 px
    :height:  200 px
 
-.. |image02| image:: ../_static/Education/OMU_2025.jpg
+.. |image02| image:: ../../_static/Education/OMU_2025.jpg
    :target: https://www.omu.ac.jp/en/
    :width:  200 px
    :height:  170 px
 
-.. |image03| image:: ../_static/Education/OkayamaUniversity_2025.png
+.. |image03| image:: ../../_static/Education/OkayamaUniversity_2025.png
    :target: https://www.okayama-u.ac.jp/index_e.html
    :width:  200 px
    :height:  218 px
 
-.. |image04| image:: ../_static/Education/KU_2025.png
+.. |image04| image:: ../../_static/Education/KU_2025.png
    :target: https://www.kanazawa-u.ac.jp/en/
    :width:  200 px
    :height:  200 px

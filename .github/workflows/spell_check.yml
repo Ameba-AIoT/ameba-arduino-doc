@@ -20,7 +20,7 @@ jobs:
 #      uses: codespell-project/actions-codespell@master
       uses: codespell-project/actions-codespell@v2
       with:
-        #skip: Arduino_package/hardware/libraries/NeuralNetwork/examples/AudioClassification/AudioClassList.h,Arduino_package/hardware/libraries/USB/src/usbd_uvc_parm.c,Arduino_package/hardware/libraries/SPI/src/JPEGDEC_Libraries/jpeg.inl
+        skip: source/_download/Education/NTNU/台日友好課程PPT_EngVer.pdf,source/_download/Education/NTNU/台日友好課程PPT_JPVer.pdf
         ignore_words_list: ameba,datas
 #        ignore_words_file: .codespellignore
         path: ${{ matrix.path }}
