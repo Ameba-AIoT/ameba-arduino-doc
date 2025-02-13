@@ -1,6 +1,8 @@
 Welcome to Ameba Arduino Documentation!
 =======================================
 
+|image01|
+
 .. toctree::
    :hidden:
    :maxdepth: 1
@@ -45,6 +47,12 @@ Welcome to Ameba Arduino Documentation!
 
 .. toctree::
    :maxdepth: 1
+   :caption: Education:
+
+   Ameba Education <Education/index>
+
+.. toctree::
+   :maxdepth: 1
    :caption: FAQ and Forum:
 
    Ameba IoT FAQ <FAQ/index>
@@ -60,3 +68,8 @@ Welcome to Ameba Arduino Documentation!
    :titlesonly:
 
    _tags/tagsindex
+
+.. |image01| image:: ../_static/realtek_background_001.png
+   :target: https://www.youtube.com/@amebaiot7033
+   :width:  1920 px
+   :height:  1080 px
