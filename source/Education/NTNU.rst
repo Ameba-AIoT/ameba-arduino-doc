@@ -9,7 +9,7 @@ AI & IoT Workshop at NTNU (2025 Feb)
 National Taiwan Normal University (NTNU) recently hosted an AI and IoT workshop, inviting students and faculty from Japan to participate in hands-on projects. This initiative, in collaboration with industry partners, aims to promote AI applications in education and foster international academic exchange.
 
 +----------+----------+----------+----------+
-| |image01| | |image02| | |image03| | |image04| |
+| |image01| |image02| |image03| |image04| |
 +----------+----------+----------+----------+
 
 News coverage:
@@ -38,28 +38,28 @@ News coverage:
 Materials Download
 ^^^^^^^^^^^^^^^^^^
 
-.. download:: 台日友好課程PPT_EngVer.pdf
+.. download:: 台日友好課程PPT_EngVer
    :filename: ../../_download/Education/NTNU/台日友好課程PPT_EngVer.pdf
 
-.. download:: 台日友好課程PPT_JPVer.pdf
+.. download:: 台日友好課程PPT_JPVer
    :filename: ../../_download/Education/NTNU/台日友好課程PPT_JPVer.pdf
 
 .. |image01| image:: ../../_static/Education/NTNU_2025.png
    :target: https://en.ntnu.edu.tw/
-   :width:  200 px
-   :height:  200 px
+   :width:  200px
+   :height:  200px
 
 .. |image02| image:: ../../_static/Education/OMU_2025.jpg
    :target: https://www.omu.ac.jp/en/
-   :width:  200 px
-   :height:  170 px
+   :width:  200px
+   :height:  170px
 
 .. |image03| image:: ../../_static/Education/OkayamaUniversity_2025.png
    :target: https://www.okayama-u.ac.jp/index_e.html
-   :width:  200 px
-   :height:  218 px
+   :width:  200px
+   :height:  218px
 
 .. |image04| image:: ../../_static/Education/KU_2025.png
    :target: https://www.kanazawa-u.ac.jp/en/
-   :width:  200 px
-   :height:  200 px
+   :width:  200px
+   :height:  200px
