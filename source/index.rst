@@ -56,10 +56,25 @@ Welcome to Ameba AIoT Arduino Documentation!
    :caption: FAQ and Forum:
 
    Ameba IoT FAQ <FAQ/index>
-
    Ameba IoT Forum <https://forum.amebaiot.com/>
-
    Ameba IoT Forum FAQ <https://forum.amebaiot.com/c/faq/48>
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Social Media:
+
+   GitHub <https://github.com/Ameba-AIoT/>
+   YouTube <https://www.youtube.com/@amebaiot7033>
+   Facebook <https://www.facebook.com/groups/amebaioten>
+   Facebook中文 <https://www.facebook.com/groups/AmebaIoT>
+   BiliBili <https://space.bilibili.com/457777430>
+
+.. container:: align-center
+
+   +-----------+-----------+-----------+-----------+-----------+
+   | |image02| | |image03| | |image04| | |image05| | |image06| |
+   +-----------+-----------+-----------+-----------+-----------+
 
 .. toctree::
    :caption: All tags
@@ -72,3 +87,23 @@ Welcome to Ameba AIoT Arduino Documentation!
 .. |image01| image:: _static/realtek_background_001.jpg
    :target: https://www.youtube.com/@amebaiot7033
    :width:  1500px
+
+.. |image02| image:: _static/GitHub_Logo_2025.png
+   :target: https://github.com/search?q=topic%3Aarduino+org%3AAmeba-AIoT&type=Repositories
+   :width:  100px
+
+.. |image03| image:: _static/YouTube_2024.svg
+   :target: https://www.youtube.com/@amebaiot7033
+   :width:  100px
+
+.. |image04| image:: _static/Facebook_Logo_2019.svg
+   :target: https://www.facebook.com/groups/amebaioten
+   :width:  100px
+
+.. |image05| image:: _static/Facebook_CN_Logo_2019.svg
+   :target: https://www.facebook.com/groups/AmebaIoT
+   :width:  100px
+
+.. |image06| image:: _static/Bilibili_Logo_2009.svg
+   :target: https://space.bilibili.com/457777430
+   :width:  100px
