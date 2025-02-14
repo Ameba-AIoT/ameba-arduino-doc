@@ -92,18 +92,18 @@ Welcome to Ameba AIoT Arduino Documentation!
    :target: https://github.com/search?q=topic%3Aarduino+org%3AAmeba-AIoT&type=Repositories
    :width:  100px
 
-.. |image03| image:: _static/YouTube_2024.svg
+.. |image03| image:: _static/YouTube_2024.png
    :target: https://www.youtube.com/@amebaiot7033
    :width:  100px
 
-.. |image04| image:: _static/Facebook_Logo_2019.svg
+.. |image04| image:: _static/Facebook_Logo_2019.png
    :target: https://www.facebook.com/groups/amebaioten
    :width:  100px
 
-.. |image05| image:: _static/Facebook_CN_Logo_2019.svg
+.. |image05| image:: _static/Facebook_CN_Logo_2019.png
    :target: https://www.facebook.com/groups/AmebaIoT
    :width:  100px
 
-.. |image06| image:: _static/Bilibili_Logo_2009.svg
+.. |image06| image:: _static/Bilibili_Logo_2009.png
    :target: https://space.bilibili.com/457777430
    :width:  100px
