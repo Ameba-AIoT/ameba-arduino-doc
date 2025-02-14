@@ -21,6 +21,6 @@ SDK Source Code
 
 * `ameba-arduino-pro2 <https://github.com/Ameba-AIoT/ameba-arduino-pro2>`_
 
-.. |image01| image:: ../_static/Education/GitHub_Logo_2025.png
+.. |image01| image:: ../_static/GitHub_Logo_2025.png
    :target: https://github.com/Ameba-AIoT
    :width:  50px

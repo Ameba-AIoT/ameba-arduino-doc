@@ -16,6 +16,6 @@ SDK Source Code
 
 * `ameba-arduino-d <https://github.com/Ameba-AIoT/ameba-arduino-d>`_
 
-.. |image01| image:: ../_static/Education/GitHub_Logo_2025.png
+.. |image01| image:: ../_static/GitHub_Logo_2025.png
    :target: https://github.com/Ameba-AIoT
    :width:  50px
