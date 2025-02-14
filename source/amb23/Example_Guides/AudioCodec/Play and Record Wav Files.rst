@@ -41,7 +41,7 @@ Insert earphone/speaker into the onboard jack for playing the sample sound.
 
   |image03|
 
-| Define a GPIO/button(Input high to active) for ``RECORDBTN``. Define the ``filename[]`` for name of the storge wav file. In this example the name is “Test_Recording_48khz_16bit_mono.wav”.
+| Define a GPIO/button(Input high to active) for ``RECORDBTN``. Define the ``filename[]`` for name of the storage wav file. In this example the name is “Test_Recording_48khz_16bit_mono.wav”.
 | Upload the code and press the reset button on Ameba once the upload is finished.
 | Input high to ``RECORDBTN``, then record voice by on board mic. When input is low the record stops. The recorded voice will be stored in “Test_Recording_48khz_16bit_mono.wav” that located at MicroSD card.
 
@@ -53,7 +53,7 @@ Insert earphone/speaker into the onboard jack for playing the sample sound.
 
 | This example is a combination of **Example01** and **Example02**. You can record by **Example02** then play it by jack as the method of **Example01**.
 
-| Define a GPIO/button(Input high to active) for ``RECORDBTN``. Define the ``filename[]`` for name of the storge wav file. In this example the name is 
+| Define a GPIO/button(Input high to active) for ``RECORDBTN``. Define the ``filename[]`` for name of the storage wav file. In this example the name is 
 | “Test_Recording_48khz_16bit_mono.wav”.
 
 | Upload the code and press the reset button on Ameba once the upload is finished.
