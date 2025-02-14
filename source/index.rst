@@ -92,7 +92,7 @@ Welcome to Ameba AIoT Arduino Documentation!
    :target: https://github.com/search?q=topic%3Aarduino+org%3AAmeba-AIoT&type=Repositories
    :width:  100px
 
-.. |image03| image:: _static/YouTube_2024.png
+.. |image03| image:: _static/YouTube_Logo_2024.png
    :target: https://www.youtube.com/@amebaiot7033
    :width:  100px
 
