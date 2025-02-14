@@ -8,12 +8,12 @@ AI & IoT Workshop at NTNU (2025 Feb)
 
 National Taiwan Normal University (NTNU) recently hosted an AI and IoT workshop, inviting students and faculty from Japan to participate in hands-on projects. This initiative, in collaboration with industry partners, aims to promote AI applications in education and foster international academic exchange.
 
-+----------+----------+----------+----------+
-| |image01| |image02| |image03| |image04| |
-+----------+----------+----------+----------+
++-----------+-----------+-----------+-----------+
+| |image01| | |image02| | |image03| | |image04| |
++-----------+-----------+-----------+-----------+
 
-News coverage:
-^^^^^^^^^^^^^^
+News Coverage
+^^^^^^^^^^^^^
 
 - `中央社：台師大辦工作坊 邀日本師生來台實作AI與物聯網 <https://www.cna.com.tw/news/ahel/202502070061.aspx>`_
 
@@ -38,28 +38,22 @@ News coverage:
 Materials Download
 ^^^^^^^^^^^^^^^^^^
 
-.. download:: 台日友好課程PPT_EngVer
-   :filename: ../../_download/Education/NTNU/台日友好課程PPT_EngVer.pdf
+- :download:`台日友好課程PPT_EngVer.pdf <../_download/Education/NTNU/台日友好課程PPT_EngVer.pdf>`
 
-.. download:: 台日友好課程PPT_JPVer
-   :filename: ../../_download/Education/NTNU/台日友好課程PPT_JPVer.pdf
+- :download:`台日友好課程PPT_JPVer.pdf <../_download/Education/NTNU/台日友好課程PPT_JPVer.pdf>`
 
-.. |image01| image:: ../../_static/Education/NTNU_2025.png
+.. |image01| image:: ../_static/Education/NTNU_2025.png
    :target: https://en.ntnu.edu.tw/
-   :width:  200px
-   :height:  200px
+   :width:  100px
 
-.. |image02| image:: ../../_static/Education/OMU_2025.jpg
+.. |image02| image:: ../_static/Education/OMU_2025.jpg
    :target: https://www.omu.ac.jp/en/
-   :width:  200px
-   :height:  170px
+   :width:  100px
 
-.. |image03| image:: ../../_static/Education/OkayamaUniversity_2025.png
+.. |image03| image:: ../_static/Education/OkayamaUniversity_2025.png
    :target: https://www.okayama-u.ac.jp/index_e.html
-   :width:  200px
-   :height:  218px
+   :width:  100px
 
-.. |image04| image:: ../../_static/Education/KU_2025.png
+.. |image04| image:: ../_static/Education/KU_2025.png
    :target: https://www.kanazawa-u.ac.jp/en/
-   :width:  200px
-   :height:  200px
+   :width:  100px

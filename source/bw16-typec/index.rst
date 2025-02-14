@@ -12,4 +12,10 @@ BW16-TypeC Arduino
 SDK Source Code
 ---------------
 
-* `ambd_arduino <https://github.com/ambiot/ambd_arduino>`_
+|image01|
+
+* `ameba-arduino-d <https://github.com/Ameba-AIoT/ameba-arduino-d>`_
+
+.. |image01| image:: ../_static/GitHub_Logo_2025.png
+   :target: https://github.com/Ameba-AIoT
+   :width:  50px
