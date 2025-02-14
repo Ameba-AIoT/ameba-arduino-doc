@@ -17,4 +17,10 @@ AmebaPro2 Arduino
 SDK Source Code
 ---------------
 
-* `ambpro2_arduino <https://github.com/ambiot/ambpro2_arduino>`_
+|image01|
+
+* `ameba-arduino-pro2 <https://github.com/Ameba-AIoT/ameba-arduino-pro2>`_
+
+.. |image01| image:: ../_static/Education/GitHub_Logo_2025.png
+   :target: https://github.com/Ameba-AIoT
+   :width:  50px

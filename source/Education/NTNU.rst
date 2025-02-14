@@ -12,8 +12,8 @@ National Taiwan Normal University (NTNU) recently hosted an AI and IoT workshop,
 | |image01| | |image02| | |image03| | |image04| |
 +-----------+-----------+-----------+-----------+
 
-News coverage:
-^^^^^^^^^^^^^^
+News Coverage
+^^^^^^^^^^^^^
 
 - `中央社：台師大辦工作坊 邀日本師生來台實作AI與物聯網 <https://www.cna.com.tw/news/ahel/202502070061.aspx>`_
 
