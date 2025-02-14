@@ -70,7 +70,8 @@ Welcome to Ameba AIoT Arduino Documentation!
    Facebook中文 <https://www.facebook.com/groups/AmebaIoT>
    BiliBili <https://space.bilibili.com/457777430>
 
-.. container:: align-center
+.. table::
+   :align: center
 
    +-----------+-----------+-----------+-----------+-----------+
    | |image02| | |image03| | |image04| | |image05| | |image06| |
@@ -90,20 +91,20 @@ Welcome to Ameba AIoT Arduino Documentation!
 
 .. |image02| image:: _static/GitHub_Logo_2025.png
    :target: https://github.com/search?q=topic%3Aarduino+org%3AAmeba-AIoT&type=Repositories
-   :width:  100px
+   :width:  80px
 
 .. |image03| image:: _static/YouTube_Logo_2024.png
    :target: https://www.youtube.com/@amebaiot7033
-   :width:  100px
+   :width:  80px
 
 .. |image04| image:: _static/Facebook_Logo_2019.png
    :target: https://www.facebook.com/groups/amebaioten
-   :width:  100px
+   :width:  80px
 
 .. |image05| image:: _static/Facebook_CN_Logo_2019.png
    :target: https://www.facebook.com/groups/AmebaIoT
-   :width:  100px
+   :width:  80px
 
 .. |image06| image:: _static/Bilibili_Logo_2009.png
    :target: https://space.bilibili.com/457777430
-   :width:  100px
+   :width:  80px
