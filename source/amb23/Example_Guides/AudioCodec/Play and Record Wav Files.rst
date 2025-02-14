@@ -18,7 +18,7 @@ Example
 Procedure
 ~~~~~~~~~
 
-As AMB23 have a built in microphone on the board, there is no need for any external microphone. Copy a sample wav file into the MicroSD card for demo. (In this example, the sample name is “Test_Audio_48khz_16bit_stereo.wav”. ) Then insert the MicroSD card into the adapter at the back of the board.
+As AMB23 have a built in microphone on the board, there is no need for any external microphone. Copy a sample wav file into the MicroSD card for demo. (In this example, the sample name is `Test_Audio_48khz_16bit_stereo.wav <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/master/Ameba_misc/Example_Samples/Test_Audio_48khz_16bit_stereo.wav>`_) Then insert the MicroSD card into the adapter at the back of the board.
 
   |image01|
 
