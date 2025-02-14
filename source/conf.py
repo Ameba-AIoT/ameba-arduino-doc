@@ -10,7 +10,7 @@ import subprocess
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Ameba Arduino Documentation'
+project = 'Ameba Arduino AIoT Documentation'
 copyright = '2024 Realtek Semiconductor Corp. All rights reserved'
 author = 'REALTEK SG'
 release = 'v1.1'

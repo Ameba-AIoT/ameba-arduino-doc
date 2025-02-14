@@ -1,5 +1,5 @@
-Welcome to Ameba Arduino Documentation!
-=======================================
+Welcome to Ameba AIoT Arduino Documentation!
+============================================
 
 |image01|
 
@@ -27,23 +27,23 @@ Welcome to Ameba Arduino Documentation!
 
    .. tab:: Ameba Pro2
 
-      `AMB82 mini <amebapro2/index.html>`_
+      - `AMB82 mini <amebapro2/index.html>`_
 
    .. tab:: Ameba D
 
-      `AMB21/22 <amb21/index.html>`_
+      - `AMB21/22 <amb21/index.html>`_
 
-      `AMB23 <amb23/index.html>`_
+      - `AMB23 <amb23/index.html>`_
 
-      `AMB25 <amb25/index.html>`_
+      - `AMB25 <amb25/index.html>`_
 
-      `AMB26 <amb26/index.html>`_
+      - `AMB26 <amb26/index.html>`_
 
-      `BW16 <bw16-typeb/index.html>`_
+      - `BW16 <bw16-typeb/index.html>`_
 
-      `BW16-TypeC <bw16-typec/index.html>`_
+      - `BW16-TypeC <bw16-typec/index.html>`_
 
-      `AW-CU488 <aw-cu488/index.html>`_
+      - `AW-CU488 <aw-cu488/index.html>`_
 
 .. toctree::
    :maxdepth: 1
@@ -69,7 +69,6 @@ Welcome to Ameba Arduino Documentation!
 
    _tags/tagsindex
 
-.. |image01| image:: ../_static/realtek_background_001.png
+.. |image01| image:: _static/realtek_background_001.jpg
    :target: https://www.youtube.com/@amebaiot7033
-   :width:  1920 px
-   :height:  1080 px
+   :width:  1500px
