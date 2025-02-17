@@ -13,4 +13,4 @@ Neural Network
    Image Classification
    Object Detection
    UVCD Object Detection
-   
+   Object Detection results save on SD Card
