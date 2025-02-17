@@ -1,6 +1,6 @@
 .. tags:: DDR, AMB82-mini
 
-Which DDR is used by AME82-mini? DDR2 or DDR3?
+Which DDR is used by AMB82-mini? DDR2 or DDR3?
 ==============================================
 
 We set up the internal memory with DDR2 (1.8 V), but after checking the datasheet, we are unsure if this is the right configuration or the difference with the DDR3L (1.35 V).
