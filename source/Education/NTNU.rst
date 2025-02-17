@@ -38,9 +38,9 @@ News Coverage
 Materials Download
 ^^^^^^^^^^^^^^^^^^
 
-- :download:`台日友好課程PPT_EngVer.pdf <../_download/Education/NTNU/台日友好課程PPT_EngVer.pdf>`
+- :download:`Ameba AIoT mini82 Arduino_Teaching Material EngVer.pdf <../_download/Education/NTNU/Ameba_AIoT_mini82_Arduino_Teaching_Material_EngVer.pdf>`
 
-- :download:`台日友好課程PPT_JPVer.pdf <../_download/Education/NTNU/台日友好課程PPT_JPVer.pdf>`
+- :download:`Ameba AIoT mini82 Arduino Teaching Material JPVer.pdf <../_download/Education/NTNU/Ameba_AIoT_mini82_Arduino_Teaching_Material_JPVer.pdf>`
 
 .. |image01| image:: ../_static/Education/NTNU_2025.png
    :target: https://en.ntnu.edu.tw/
