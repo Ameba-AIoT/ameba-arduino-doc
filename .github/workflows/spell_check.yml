@@ -20,7 +20,7 @@ jobs:
 #      uses: codespell-project/actions-codespell@master
       uses: codespell-project/actions-codespell@v2
       with:
-        skip: source/_download/Education/NTNU/台日友好課程PPT_EngVer.pdf,source/_download/Education/NTNU/台日友好課程PPT_JPVer.pdf,source/Education/NTNU.rst
+        skip: source/_download/Education/NTNU/Ameba_AIoT_mini82_Arduino_Teaching_Material_EngVer.pdf,source/_download/Education/NTNU/Ameba_AIoT_mini82_Arduino_Teaching_Material_JPVer.pdf,source/Education/NTNU.rst
         ignore_words_list: ameba,datas
 #        ignore_words_file: .codespellignore
         path: ${{ matrix.path }}
