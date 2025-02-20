@@ -27,6 +27,11 @@ It is optional to open the Serial Monitor, review the processing log. At this st
 
 |image03|
 
+Additional 
+----------
+
+For others common PC applications (e.g., Windows apps, VLC, Zoom, OBS, and Google Meet), define the encoder UVCD_MJPG value to **1**, and for all other applications, set it to **0** in `UVCD_pram.h <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/USB/src/UVCD_pram.h>`_ within your Arduino environment.  
+
 .. |image01| image:: ../../../_static/amebapro2/Example_Guides/USB/UVC_Device/image01.png
    :width:  687 px
    :height:  671 px
