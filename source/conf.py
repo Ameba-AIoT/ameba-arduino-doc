@@ -56,6 +56,11 @@ html_output = '_build/html'
 
 numfig = True
 
+html_theme_options = {
+    "collapse_navigation": False,  # Prevent tab from collapsing
+    "navigation_depth": 2,  # Keep tab active
+}
+
 # Get the path to the current directory
 current_dir = os.path.dirname(__file__)
 # Get the path to the custom script

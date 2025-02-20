@@ -10,5 +10,6 @@ API Documents
    EPDIF/index
    FatfsSDcard/index
    FlashMemory/index
+   GPIO/index
    OTA/index
    WiFi/index
