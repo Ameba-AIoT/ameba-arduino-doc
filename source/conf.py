@@ -24,6 +24,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx_tabs.tabs',
     'sphinx_tags',  # Enable tagging
+    'sphinx_design',
 ]
 
 
@@ -31,6 +32,10 @@ tags_overview_title = "Overview"
 tags_page_title = 'Tag: '
 tags_page_header = 'overview'
 tags_create_tags = True
+tags_create_badges = True
+tags_badge_colors = {
+    "*": "primary",
+}
 
 templates_path = ['_templates']
 exclude_patterns = []
