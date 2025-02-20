@@ -80,7 +80,7 @@ Welcome to Ameba AIoT Arduino Documentation!
 .. toctree::
    :caption: All tags
    :hidden:
-   :maxdepth: 2
+   :maxdepth: 1
    :titlesonly:
 
    _tags/tagsindex
