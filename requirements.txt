@@ -4,3 +4,5 @@ sphinx-rtd-theme==2.0.0rc2
 recommonmark
 sphinx-tabs
 sphinx-tags
+Pillow
+sphinx-design
