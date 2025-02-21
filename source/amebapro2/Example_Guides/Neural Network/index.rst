@@ -12,5 +12,6 @@ Neural Network
    Generative AI Vision
    Image Classification
    Object Detection
-   UVCD Object Detection
+   Object Detection Image
    Object Detection results save on SD Card
+   UVCD Object Detection

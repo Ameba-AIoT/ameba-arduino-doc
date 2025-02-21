@@ -93,6 +93,8 @@ codec functions.
 |                               | when there is available data buffer with|
 |                               | audio data to be read.                  |
 +-------------------------------+-----------------------------------------+
+| AudioCodec::amplifyReadData   | Set amplification value for input audio |
++-------------------------------+-----------------------------------------+
 
 **AudioCodec::begin**
 ---------------------
@@ -786,3 +788,35 @@ NA
 
 .. note :: After starting the Audio Codec with AudioCodec::begin(), the callback function will be called each time the Audio Codec fills up a buffer page with newly acquired audio samples.
     “AudioCodec.h” must be included to use the class function.
+
+**AudioCodec::amplifyReadData**
+-------------------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+To set amplification value for input audio data.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code:: c++
+
+    void amplifyReadData(int16_t* dst, uint32_t len, uint8_t m);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+dst: pointer to array to contain audio samples read from Audio Codec.
+len: number of audio samples to read.
+m: amplify magnitude
+
+**Returns**
+~~~~~~~~~~~
+
+NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+.. note :: The maximum value of amplification is 100. Users are advised to amplify input audio cautiously to avoid loud bursts.
