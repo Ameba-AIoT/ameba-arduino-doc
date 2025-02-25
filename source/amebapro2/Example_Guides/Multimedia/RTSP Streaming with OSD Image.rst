@@ -68,7 +68,6 @@ You may adjust the video bitrate based on your WiFi network quality, by uncommen
 
 |image11|
 
-
 .. |image01| image:: ../../../_static/amebapro2/Example_Guides/Multimedia/RTSP_Streaming_with_OSD_Image/image01.png
    :width:  887 px
    :height:  728 px
