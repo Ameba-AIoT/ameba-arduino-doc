@@ -1,3 +1,5 @@
+.. footer:: this is a testaaaaaaaaaaaaaaa
+
 Welcome to Ameba AIoT Arduino Documentation!
 ============================================
 
@@ -70,13 +72,6 @@ Welcome to Ameba AIoT Arduino Documentation!
    Facebook中文 <https://www.facebook.com/groups/AmebaIoT>
    BiliBili <https://space.bilibili.com/457777430>
 
-.. table::
-   :align: center
-
-   +-----------+-----------+-----------+-----------+-----------+
-   | |image02| | |image03| | |image04| | |image05| | |image06| |
-   +-----------+-----------+-----------+-----------+-----------+
-
 .. toctree::
    :caption: All tags
    :hidden:
@@ -88,23 +83,3 @@ Welcome to Ameba AIoT Arduino Documentation!
 .. |image01| image:: _static/realtek_background_001.jpg
    :target: https://www.youtube.com/@amebaiot7033
    :width:  1500px
-
-.. |image02| image:: _static/GitHub_Logo_2025.png
-   :target: https://github.com/search?q=topic%3Aarduino+org%3AAmeba-AIoT&type=Repositories
-   :width:  80px
-
-.. |image03| image:: _static/YouTube_Logo_2024.png
-   :target: https://www.youtube.com/@amebaiot7033
-   :width:  80px
-
-.. |image04| image:: _static/Facebook_Logo_2019.png
-   :target: https://www.facebook.com/groups/amebaioten
-   :width:  80px
-
-.. |image05| image:: _static/Facebook_CN_Logo_2019.png
-   :target: https://www.facebook.com/groups/AmebaIoT
-   :width:  80px
-
-.. |image06| image:: _static/Bilibili_Logo_2009.png
-   :target: https://space.bilibili.com/457777430
-   :width:  80px

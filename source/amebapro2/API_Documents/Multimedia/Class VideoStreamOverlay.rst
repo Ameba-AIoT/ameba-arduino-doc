@@ -715,7 +715,6 @@ Example: `MotionDetection/LoopPostProcessing <https://github.com/Ameba-AIoT/ameb
 
 .. note :: VideoStreamOverlay::update() needs to be called for drawings to be shown on the video streams. "VideoStreamOverlay.h" must be included to use the class function.
 
-
 **VideoStreamOverlay::update**
 ------------------------------
 
