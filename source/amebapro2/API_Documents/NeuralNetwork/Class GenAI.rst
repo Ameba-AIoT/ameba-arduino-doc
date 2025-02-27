@@ -11,7 +11,7 @@ Class GenAI
 **Description**
 ~~~~~~~~~~~~~~~
 
-A class used to select Neural Network (NN) task and models.
+A class used to call online GenAI API to perform various tasks.
 
 **Syntax**
 ~~~~~~~~~~
