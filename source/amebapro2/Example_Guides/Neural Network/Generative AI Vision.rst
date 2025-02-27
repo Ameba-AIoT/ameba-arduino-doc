@@ -20,7 +20,7 @@ Example
 
 In this example, we will be using Ameba Pro2 development board to capture and send image to various LLM servers for visual analysis and understanding.
 
-Open Generative AI Vision example in "File" -> "Examples" -> "AmebaNN" -> "GenAIVision".
+Open Generative AI Vision example in "File" -> "Examples" -> "AmebaNN" -> "MultimediaAI" -> "GenAIVision".
 
 |image01|
 
@@ -53,7 +53,7 @@ Various online servers and LLM models featured in the SDK:
 +======================================+=======================================+=============================+=================================+
 | openAI platform                      | gpt-4o-mini                           | 500 RPM                     | Chargeable (Tier 1)             |
 +--------------------------------------+---------------------------------------+-----------------------------+---------------------------------+
-| Google AI Studio                     | gemini-1.5-flash                      | 15 RPM                      | Free of charge                  |
+| Google AI Studio                     | gemini-2.0-flash                      | 15 RPM                      | Free of charge                  |
 +--------------------------------------+---------------------------------------+-----------------------------+---------------------------------+
 | GroqCloud                            | llama-3.2-90b-vision-preview          | 15 RPM                      | Free of charge                  |
 +--------------------------------------+---------------------------------------+-----------------------------+---------------------------------+
