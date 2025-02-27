@@ -17,7 +17,7 @@ Multimedia
    Play MP3 with SD card
    RTP Audio Stream
    RTSP Audio Stream
+   RTSP Demuxer
    RTSP Streaming V7RC
    RTSP Streaming
    RTSP Streaming with OSD Image
-   

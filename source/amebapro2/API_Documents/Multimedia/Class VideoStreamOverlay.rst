@@ -905,7 +905,7 @@ This function returns the calculated resized width.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: TBD 
+Example: `VideoOSDImage <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/VideoOSDImage/VideoOSDImage.ino>`_
 
 .. note :: "VideoStreamOverlay.h" must be included to use the class function.
 
@@ -941,7 +941,7 @@ This function returns the calculated resized height.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: TBD 
+Example: `VideoOSDImage <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/VideoOSDImage/VideoOSDImage.ino>`_
 
 .. note :: "VideoStreamOverlay.h" must be included to use the class function.
 
@@ -977,7 +977,7 @@ This function returns the calculated heapsize as an unsigned int.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: TBD 
+Example: `VideoOSDImage <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/VideoOSDImage/VideoOSDImage.ino>`_
 
 .. note :: "VideoStreamOverlay.h" must be included to use the class function.
 
@@ -1033,7 +1033,7 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: TBD
+Example: `VideoOSDImage <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/VideoOSDImage/VideoOSDImage.ino>`_
 
 .. note :: "VideoStreamOverlay.h" must be included to use the class function.
 
@@ -1065,7 +1065,7 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: TBD
+Example: `VideoOSDImage <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/VideoOSDImage/VideoOSDImage.ino>`_
 
 .. note :: "VideoStreamOverlay.h" must be included to use the class function. Each image requires setting a new block index.
                       

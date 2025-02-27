@@ -7,6 +7,7 @@ Multimedia
    Class AudioDecoder
    Class AudioEncoder
    Class AudioStream
+   Class Demuxer
    Class MotionDetection
    Class MP4Recording
    Class RTP
