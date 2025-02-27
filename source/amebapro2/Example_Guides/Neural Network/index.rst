@@ -15,5 +15,6 @@ Neural Network
    Object Detection
    Object Detection Image
    Object Detection results save on SD Card
+   Text-to-Speech NTP
    Text-to-Speech
    UVCD Object Detection
