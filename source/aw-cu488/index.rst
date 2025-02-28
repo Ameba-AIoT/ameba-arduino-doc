@@ -1,6 +1,13 @@
 AW-CU488 Arduino
 ================
 
+.. table::
+   :align: center
+
+   +-----------+
+   | |image01| |
+   +-----------+
+
 .. toctree::
    :caption: Category list
    :maxdepth: 2
@@ -12,10 +19,11 @@ AW-CU488 Arduino
 SDK Source Code
 ---------------
 
-|image01|
+* |image02| `ameba-arduino-d <https://github.com/Ameba-AIoT/ameba-arduino-d>`_
 
-* `ameba-arduino-d <https://github.com/Ameba-AIoT/ameba-arduino-d>`_
+.. |image01| image:: ../_static/ameba_board_photos/AW-CU488.png
+   :width:  200px
 
-.. |image01| image:: ../_static/GitHub_Logo_2025.png
+.. |image02| image:: ../_static/GitHub_Logo_2025.png
    :target: https://github.com/Ameba-AIoT
    :width:  50px
