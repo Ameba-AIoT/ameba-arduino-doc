@@ -1,6 +1,6 @@
 .. tags:: AMB82-mini, hardware, EMMC
 
-Is it possiable to use EMMC for Ameba Pro2 IC, when not using SDIO
+Is it possible to use EMMC for Ameba Pro2 IC, when not using SDIO
 ==================================================================
 
 For example, there is no need for any SD card connections.
