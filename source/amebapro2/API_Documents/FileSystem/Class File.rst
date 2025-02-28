@@ -547,13 +547,15 @@ Control the digital gain of DAC.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-| digitalVol: output digital volume
-.. note :: 
-| Every Step is 0.375dB.
-| 0xAF: 0dB.
-| 0xAE: -0.375dB.
-| ...
-| 0x00: -65.625dB.
+digitalVol: output digital volume
+
+.. note::
+    Every Step is 0.375dB.
+    
+    | 0xAF: 0dB.
+    | 0xAE: -0.375dB.
+    | ...
+    | 0x00: -65.625dB.
 
 **Returns**
 ~~~~~~~~~~~
