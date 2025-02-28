@@ -142,7 +142,6 @@ Kindly refer to the list of objects below recognized by the default YOLO model, 
     {78, "hair dryer"     },
     {79, "toothbrush"     }``
 
-
 .. |image01| image:: ../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Object_Detection_Image/image01.png
    :width:  1114 px
    :height:  963 px

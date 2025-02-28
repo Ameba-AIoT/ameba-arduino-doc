@@ -81,7 +81,3 @@ Resources
 .. |image_3rd_party| image:: ../../../_static/3rd_party_logo.png
    :scale: 10%
 
-
-
-
-

@@ -177,12 +177,15 @@ Open a file. The file will be created if it does not already exist.
 .. code-block:: c++
 
     File open(const String& path);
+    File open(const String &path, int fileType);
     File open(const char* path);
+    File open(const char *path, int fileType);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
 path: The full path of the file to open. Expressed as a String class object or a pointer to a char array.
+fileType: The macro of the file type defined in AmebaFatFSFile.h to support different opening steps for different types of file.
 
 **Returns**
 ~~~~~~~~~~~

@@ -10,6 +10,7 @@ API Documents
    FlashMemory/index
    GPIO/index
    Gtimer/index
+   HTTP/index
    Multimedia/index
    NeuralNetwork/index
    NTPClient/index
