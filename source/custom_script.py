@@ -9,31 +9,31 @@ temp_only_list = [1000, 1000]
 board_mappings = {
     'amb21': ['_common/API_Documents/Analog', '_common/API_Documents/AudioCodec'
     , '_common/API_Documents/BLE', '_common/Example_Guides/OTA', '_common/API_Documents/EPDIF', '_common/API_Documents/FatfsSDcard', '_common/API_Documents/FlashMemory'
-    , '_common/API_Documents/GPIO'],
+    , '_common/API_Documents/GPIO', '_common/Example_Guides/SPI'],
     
     'amb23': ['_common/API_Documents/Analog', '_common/API_Documents/AudioCodec'
     , '_common/API_Documents/BLE', '_common/Example_Guides/OTA', '_common/API_Documents/EPDIF', '_common/API_Documents/FatfsSDcard', '_common/API_Documents/FlashMemory'
-    , '_common/API_Documents/GPIO'],
+    , '_common/API_Documents/GPIO', '_common/Example_Guides/SPI'],
     
     'amb25': ['_common/API_Documents/Analog', '_common/API_Documents/AudioCodec'
     , '_common/API_Documents/BLE', '_common/Example_Guides/OTA', '_common/API_Documents/EPDIF', '_common/API_Documents/FatfsSDcard', '_common/API_Documents/FlashMemory'
-    , '_common/API_Documents/GPIO'],
+    , '_common/API_Documents/GPIO', '_common/Example_Guides/SPI'],
     
     'amb26': ['_common/API_Documents/Analog', '_common/API_Documents/AudioCodec'
     , '_common/API_Documents/BLE', '_common/Example_Guides/OTA', '_common/API_Documents/EPDIF', '_common/API_Documents/FatfsSDcard', '_common/API_Documents/FlashMemory'
-    , '_common/API_Documents/GPIO'],
+    , '_common/API_Documents/GPIO', '_common/Example_Guides/SPI'],
     
     'bw16-typeb': ['_common/API_Documents/Analog', '_common/API_Documents/AudioCodec'
     , '_common/API_Documents/BLE', '_common/Example_Guides/OTA', '_common/API_Documents/EPDIF', '_common/API_Documents/FatfsSDcard', '_common/API_Documents/FlashMemory'
-    , '_common/API_Documents/GPIO'],
+    , '_common/API_Documents/GPIO', '_common/Example_Guides/SPI'],
     
     'aw-cu488': ['_common/API_Documents/Analog', '_common/API_Documents/AudioCodec'
     , '_common/API_Documents/BLE', '_common/Example_Guides/OTA', '_common/API_Documents/EPDIF', '_common/API_Documents/FatfsSDcard', '_common/API_Documents/FlashMemory'
-    , '_common/API_Documents/GPIO'],
+    , '_common/API_Documents/GPIO', '_common/Example_Guides/SPI'],
     
     'bw16-typec': ['_common/API_Documents/Analog', '_common/API_Documents/AudioCodec'
     , '_common/API_Documents/BLE', '_common/Example_Guides/OTA', '_common/API_Documents/EPDIF', '_common/API_Documents/FatfsSDcard', '_common/API_Documents/FlashMemory'
-    , '_common/API_Documents/GPIO'],
+    , '_common/API_Documents/GPIO', '_common/Example_Guides/SPI'],
 }
 
 def create_folder(folder_name):
