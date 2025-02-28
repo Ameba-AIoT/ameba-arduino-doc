@@ -7,3 +7,4 @@ Example Guides
    AudioCodec/index
    Basic/index
    OTA/index
+   SPI/index

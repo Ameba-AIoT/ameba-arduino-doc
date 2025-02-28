@@ -6,3 +6,5 @@ Example Guides
 
    Basic/index
    OTA/index
+   SPI/index
+   
