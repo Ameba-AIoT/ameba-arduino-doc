@@ -14,3 +14,5 @@ Ameba FAQ
    GPIO_no_SD
 
    separate_RTP_payload
+
+   EMMC_conneciton
