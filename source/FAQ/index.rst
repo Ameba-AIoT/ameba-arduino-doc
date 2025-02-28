@@ -15,4 +15,4 @@ Ameba FAQ
 
    separate_RTP_payload
 
-   EMMC_conneciton
+   EMMC_connection
