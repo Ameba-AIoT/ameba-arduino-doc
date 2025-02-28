@@ -58,6 +58,10 @@ A class for data manipulation of files in a file system.
 +---------------------------+------------------------------------------+
 | File::convertMp3ToArray   | Convert MP3 file to MP3data and MP3size. |
 +---------------------------+------------------------------------------+
+| File::setMp3DigitalVol    | Control the digital gain of DAC.         |
++---------------------------+------------------------------------------+
+| File::playmp3             | Execute convertMp3TArray.                |
++---------------------------+------------------------------------------+
 
 **File::File**
 --------------
@@ -74,11 +78,13 @@ Constructs a File object.
 
     File::File(void);
     File::File(const char* filename);
+    File::File(const char *filename, int fileType);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
 filename: pointer to a char array containing the path of the file to open.
+fileType: The macro of the file type defined in AmebaFatFSFile.h to support different opening steps for different types of file.
 
 **Returns**
 ~~~~~~~~~~~
@@ -106,6 +112,7 @@ Open a file from the file system.
 .. code-block:: c++
 
     bool open(const char* filename);
+    bool open(const char *filename, int fileType);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -514,6 +521,76 @@ NA
 ~~~~~~~~~~~
 
 This function convert MP3 file into character array containing the MP3data without the ID3 header. If no file is open for conversion, it will print out error message.
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
+
+.. note :: "AmebaFatFSFile.h" must be included to use the class function.
+
+**File::setMp3DigitalVol**
+--------------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+Control the digital gain of DAC.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    void setMp3DigitalVol(uint8_t digitalVol);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+| digitalVol: output digital volume
+.. note :: 
+| Every Step is 0.375dB.
+| 0xAF: 0dB.
+| 0xAE: -0.375dB.
+| ...
+| 0x00: -65.625dB.
+
+**Returns**
+~~~~~~~~~~~
+
+NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
+
+.. note :: "AmebaFatFSFile.h" must be included to use the class function.
+
+**File::playMp3**
+-----------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+Execute convertMp3TArray.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    void playMp3(void);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+NA
+
+**Returns**
+~~~~~~~~~~~
+
+NA
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
