@@ -2,11 +2,38 @@ AMB21 Arduino
 =============
 
 .. table::
+   :class: table-transparent
    :align: center
 
-   +-----------+
-   | |image01| |
-   +-----------+
+   +------------------------------------------------------------------------+----------------------------------------------------------+
+   | |image01|                                                              | - MCU                                                    |
+   |                                                                        |    - Part Number: RTL8722DM                              |
+   | **AMB21/AMB22 (Ameba RTL8722DM / RTL8722CSM)**                         |    - 32-bit KM4 (Arm Cortex-M33 compatible)              |
+   |                                                                        |    - 32-bit KM0 (Arm Cortex-M23 compatible)              |
+   +------------------------------------------------------------------------+ - Memory                                                 |
+   | |image02|                                                              |    - 512KB SRAM                                          |
+   |                                                                        |    - 4MB PSRAM                                           |
+   | - Worldwide                                                            |    - 2MB Flash                                           |
+   |    - `Seeed Studio <link01_>`_                                         | - Key Features                                           |
+   | - Regional                                                             |    - Integrated 802.11 a/n Wi-Fi SoC                     |
+   |    - `Taiwan ICShop <link02_>`_                                        |    - Trustzone-M Security                                |
+   |    - `Mainland China Taobao <link03_>`_                                |    - Hardware SSL Engine                                 |
+   |                                                                        |    - Root Trust Secure Boot                              |
+   |                                                                        |    - USB Host/Device                                     |
+   |                                                                        |    - SD Host                                             |
+   |                                                                        |    - BLE5.0                                              |
+   |                                                                        |    - Codec                                               |
+   |                                                                        |    - LCDC                                                |
+   |                                                                        |    - Key Matrix                                          |
+   |                                                                        | - Other Features                                         |
+   |                                                                        |    - 1 PCM interface                                     |
+   |                                                                        |    - 4 UART interfaces                                   |
+   |                                                                        |    - 1 I2S Interface                                     |
+   |                                                                        |    - 2 I2C interfaces                                    |
+   |                                                                        |    - 7 ADC interfaces                                    |
+   |                                                                        |    - 17 PWM interfaces                                   |
+   |                                                                        |    - Max 54 GPIO                                         |
+   +------------------------------------------------------------------------+----------------------------------------------------------+
 
 .. toctree::
    :caption: Category list
@@ -19,11 +46,20 @@ AMB21 Arduino
 SDK Source Code
 ---------------
 
-* |image02| `ameba-arduino-d <https://github.com/Ameba-AIoT/ameba-arduino-d>`_
+* |image03| `ameba-arduino-d <https://github.com/Ameba-AIoT/ameba-arduino-d>`_
+
+
+.. _link01: https://www.seeedstudio.com/Ameba-RTL8722DM-IoT-Development-Board-p-4582.html
+
+.. _link02: https://www.icshop.com.tw/products/368030400103?locale=en
+
+.. _link03: https://item.taobao.com/item.htm?spm=a312a.7700824.w4004-16130436316.2.795029e7BFUSEJ&id=602797360282&mt
 
 .. |image01| image:: ../_static/ameba_board_photos/AMB21.png
    :width:  250px
 
-.. |image02| image:: ../_static/GitHub_Logo_2025.png
+.. |image02| image:: ../_static/shopping_cart_white.png
+
+.. |image03| image:: ../_static/GitHub_Logo_2025.png
    :target: https://github.com/Ameba-AIoT
    :width:  50px
