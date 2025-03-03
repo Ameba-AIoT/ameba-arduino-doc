@@ -16,3 +16,5 @@ Ameba FAQ
    separate_RTP_payload
 
    EMMC_connection
+
+   ameba-pro2_module_window
