@@ -20,7 +20,7 @@ BW16 Arduino
    |    - `Alibaba <link01_>`_                                              |    - 2 UART interfaces                                   |
    |    - `Alibaba (Module only) <link02_>`_                                |    - 1 I2C Interface                                     |
    | - Regional                                                             |    - 1 ADC interfaces                                    |
-   |    - `Taiwan ICShop (Module only) <link06_>`_    - 1 SPI interfaces                                    |
+   |    - `Taiwan ICShop (Module only) <link06_>`_                          |    - 1 SPI interfaces                                    |
    |                                                                        |    - 5 PWM interfaces                                    |
    |                                                                        |    - Max 13 GPIO                                         |
    |                                                                        |    - 1 RGB LED                                           |

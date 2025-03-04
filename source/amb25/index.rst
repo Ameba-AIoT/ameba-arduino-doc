@@ -14,7 +14,7 @@ AMB25 Arduino
    | |image02|                                                              |    - 512KB SRAM                                          |
    |                                                                        |    - 4MB Flash                                           |
    | - Worldwide                                                            | - Key Features                                           |
-   |    - `Alibaba <link01_>`_                                              |    - Integrated WiFi 4 (802.11 b/g/n 1x1) SoC            |
+   |    - `Amazon <link01_>`_                                               |    - Integrated WiFi 4 (802.11 b/g/n 1x1) SoC            |
    | - Regional                                                             |    - Dual-band, 2.4GHz or 5GHz                           |
    |    - `Mainland China Taobao <link02_>`_                                |    - Bluetooth LE 5.0                                    |
    |                                                                        |    - Bluetooth high-power mode up to 10dB                |
@@ -50,7 +50,7 @@ SDK Source Code
 * |image03| `ameba-arduino-d <https://github.com/Ameba-AIoT/ameba-arduino-d>`_
 
 
-.. _link01: TBD
+.. _link01: https://www.amazon.com/s?me=AQ2OQ6JMUIQHE&marketplaceID=ATVPDKIKX0DER
 
 .. _link02: https://item.taobao.com/item.htm?id=689621102674&spm=a21xtw.29178619.product_shelf.2.5f2729b2sC1bfp
 
