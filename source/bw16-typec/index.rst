@@ -10,7 +10,7 @@ BW16-TypeC Arduino
    |                                                                        |    - Part Number: RTL8720DN                              |
    | |image02|                                                              |    - 32-bit KM4 (Arm Cortex-M33 compatible)              |
    |                                                                        |    - 32-bit KM0 (Arm Cortex-M23 compatible)              |
-   | **BW16 tpye C (Ameba RTL8720DN)**                                      | - Memory                                                 |
+   | **BW16 type C (Ameba RTL8720DN)**                                      | - Memory                                                 |
    | by Ai-Thinker                                                          |    - 512KB SRAM                                          |
    |                                                                        |    - 2MB Flash (Up to 4MB)                               |
    +------------------------------------------------------------------------+ - Key Features                                           |
