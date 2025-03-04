@@ -10,19 +10,19 @@ AW-CU488 Arduino
    |                                                                        |    - Part Number: RTL8721DM                                         |
    | |image02|                                                              |    - 32-bit KM4 (Arm Cortex-M33 compatible)                         |
    |                                                                        |    - 32-bit KM0 (Arm Cortex-M23 compatible)                         |
-   | **AW-CU488 Thing Plus (Ameba RTL8721DM)**                              | - Memory                                                            |
-   | by SparkFun                                                            |    - 512KB SRAM                                                     |
-   |                                                                        |    - 4MB PSRAM                                                      |
-   +------------------------------------------------------------------------+    - 2MB Flash                                                      |
-   | |image03|                                                              | - Key Features                                                      |
+   | **AW-CU488 Thing Plus**                                                | - Memory                                                            |
+   |                                                                        |    - 512KB SRAM                                                     |
+   | (Ameba RTL8721DM)                                                      |    - 4MB PSRAM                                                      |
+   |                                                                        |    - 2MB Flash                                                      |
+   | by **SparkFun**                                                        | - Key Features                                                      |
    |                                                                        |    - Integrated 802.11 b/g/n 1x1, 2.4GHz or 5GHz                    |
-   | - Worldwide                                                            |    - Built-in Antenna w/ Internal Shielding Antenna                 |
-   |    - `SparkFun <link01_>`_                                             |    - BLE5.0                                                         |
-   | - Regional                                                             |    - Audio Codec(MIC & Speaker)                                     |
-   |    - TBD                                                               |    - USB2.0 Host Interface                                          |
-   |                                                                        |    - Low Power Mode                                                 |
-   |                                                                        |    - Auto DownLoad Mode                                             |
-   |                                                                        | - Other Features                                                    |
+   +------------------------------------------------------------------------+    - Built-in Antenna w/ Internal Shielding Antenna                 |
+   | |image03|                                                              |    - BLE5.0                                                         |
+   |                                                                        |    - Audio Codec (MIC & Speaker)                                    |
+   | - Worldwide                                                            |    - USB2.0 Host Interface                                          |
+   |    - `SparkFun <link01_>`_                                             |    - Low Power Mode                                                 |
+   | - Regional                                                             |    - Auto DownLoad Mode                                             |
+   |    - TBD                                                               | - Other Features                                                    |
    |                                                                        |    - 3 UART interfaces                                              |
    |                                                                        |    - 1 I2C Interface                                                |
    |                                                                        |    - 7 ADC interfaces                                               |
@@ -47,7 +47,6 @@ SDK Source Code
 ---------------
 
 * |image04| `ameba-arduino-d <https://github.com/Ameba-AIoT/ameba-arduino-d>`_
-
 
 .. _link01: https://www.sparkfun.com/sparkfun-azurewave-thing-plus-aw-cu488.html
 

@@ -8,18 +8,18 @@ AMB23 Arduino
    +------------------------------------------------------------------------+----------------------------------------------------------+
    | |image01|                                                              | - MCU                                                    |
    |                                                                        |    - Part Number: RTL8722DM                              |
-   | **AMB23 (Ameba RTL8722DM)**                                            |    - 32-bit KM4 (Arm Cortex-M33 compatible)              |
+   | **AMB23**                                                              |    - 32-bit KM4 (Arm Cortex-M33 compatible)              |
    |                                                                        |    - 32-bit KM0 (Arm Cortex-M23 compatible)              |
-   +------------------------------------------------------------------------+ - Memory                                                 |
-   | |image02|                                                              |    - 512KB SRAM                                          |
-   |                                                                        |    - 4MB PSRAM                                           |
-   | - Worldwide                                                            |    - 2MB Flash                                           |
-   |    - `Seeed Studio <link01_>`_                                         | - Key Features                                           |
-   |    - `Adafruit <link02_>`_                                             |    - Integrated 802.11 a/n Wi-Fi SoC                     |
-   | - Regional                                                             |    - Trustzone-M Security                                |
-   |    - `Taiwan ICShop <link03_>`_                                        |    - Hardware SSL Engine                                 |
-   |                                                                        |    - Root Trust Secure Boot                              |
-   |                                                                        |    - USB Host/Device                                     |
+   | (Ameba RTL8722DM)                                                      | - Memory                                                 |
+   |                                                                        |    - 512KB SRAM                                          |
+   +------------------------------------------------------------------------+    - 4MB PSRAM                                           |
+   | |image02|                                                              |    - 2MB Flash                                           |
+   |                                                                        | - Key Features                                           |
+   | - Worldwide                                                            |    - Integrated 802.11 a/n Wi-Fi SoC                     |
+   |    - `Seeed Studio <link01_>`_                                         |    - Trustzone-M Security                                |
+   |    - `Adafruit <link02_>`_                                             |    - Hardware SSL Engine                                 |
+   | - Regional                                                             |    - Root Trust Secure Boot                              |
+   |    - `Taiwan ICShop <link03_>`_                                        |    - USB Host/Device                                     |
    |                                                                        |    - SD Host                                             |
    |                                                                        |    - BLE5.0                                              |
    |                                                                        |    - Codec                                               |
@@ -49,7 +49,6 @@ SDK Source Code
 ---------------
 
 * |image03| `ameba-arduino-d <https://github.com/Ameba-AIoT/ameba-arduino-d>`_
-
 
 .. _link01: https://www.seeedstudio.com/Ameba-RTL8722DM-mini-EVB-Arduino-WiFi-Shield-p-5055.html
 

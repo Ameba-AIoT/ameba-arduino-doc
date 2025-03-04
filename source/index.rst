@@ -1,5 +1,3 @@
-.. footer:: this is a testaaaaaaaaaaaaaaa
-
 Welcome to Ameba AIoT Arduino Documentation!
 ============================================
 
@@ -17,7 +15,7 @@ Welcome to Ameba AIoT Arduino Documentation!
    :maxdepth: 1
    :caption: Ameba D EVBs:
 
-   AMB21/22 <amb21/index>
+   AMB21 / AMB22 <amb21/index>
    AMB23 <amb23/index>
    AMB25 <amb25/index>
    AMB26 <amb26/index>
@@ -35,7 +33,7 @@ Welcome to Ameba AIoT Arduino Documentation!
 
    .. tab:: Ameba D
 
-      - `AMB21/22 <amb21/index.html>`_
+      - `AMB21 / AMB22 <amb21/index.html>`_
 
       |image03|
 

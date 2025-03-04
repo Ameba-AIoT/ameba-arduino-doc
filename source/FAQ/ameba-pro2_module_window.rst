@@ -15,7 +15,6 @@ Please contact `icshop <oa@icshop.com.tw>`_ and provide the purchase quantity. P
 
 |image02|
 
-
 .. |image01| image:: ../_static/ameba_board_photos/AMB82_MINI.png
    :target: mailto:oa@icshop.com.tw
    :width:  500 px

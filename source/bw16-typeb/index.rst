@@ -10,20 +10,20 @@ BW16 Arduino
    |                                                                        |    - Part Number: RTL8720DN                              |
    | |image02|                                                              |    - 32-bit KM4 (Arm Cortex-M33 compatible)              |
    |                                                                        |    - 32-bit KM0 (Arm Cortex-M23 compatible)              |
-   | **BW16 (Ameba RTL8720DN)**                                             | - Memory                                                 |
-   | by Ai-Thinker                                                          |    - 512KB SRAM                                          |
-   |                                                                        |    - 2MB Flash (Up to 4MB)                               |
-   +------------------------------------------------------------------------+ - Key Features                                           |
-   | |image03|                                                              |    - Integrated 802.11a/n Wi-Fi SoC                      |
+   | **BW16**                                                               | - Memory                                                 |
+   |                                                                        |    - 512KB SRAM                                          |
+   | (Ameba RTL8720DN)                                                      |    - 2MB Flash (Up to 4MB)                               |
+   |                                                                        | - Key Features                                           |
+   | by **Ai-Thinker**                                                      |    - Integrated 802.11a/n Wi-Fi SoC                      |
    |                                                                        |    - BLE5.0                                              |
-   | - Worldwide                                                            | - Other Features                                         |
-   |    - `Alibaba <link01_>`_                                              |    - 2 UART interfaces                                   |
-   |    - `Alibaba (Module only) <link02_>`_                                |    - 1 I2C Interface                                     |
-   | - Regional                                                             |    - 1 ADC interfaces                                    |
-   |    - `Taiwan ICShop (Module only) <link03_>`_                          |    - 1 SPI interfaces                                    |
-   |                                                                        |    - 5 PWM interfaces                                    |
-   |                                                                        |    - Max 13 GPIO                                         |
-   |                                                                        |    - 1 RGB LED                                           |
+   +------------------------------------------------------------------------+ - Other Features                                         |
+   | |image03|                                                              |    - 2 UART interfaces                                   |
+   |                                                                        |    - 1 I2C Interface                                     |
+   | - Worldwide                                                            |    - 1 ADC interfaces                                    |
+   |    - `Alibaba <link01_>`_                                              |    - 1 SPI interfaces                                    |
+   |    - `Alibaba (Module only) <link02_>`_                                |    - 5 PWM interfaces                                    |
+   | - Regional                                                             |    - Max 13 GPIO                                         |
+   |    - `Taiwan ICShop (Module only) <link03_>`_                          |    - 1 RGB LED                                           |
    +------------------------------------------------------------------------+----------------------------------------------------------+
 
 .. toctree::
@@ -38,7 +38,6 @@ SDK Source Code
 ---------------
 
 * |image04| `ameba-arduino-d <https://github.com/Ameba-AIoT/ameba-arduino-d>`_
-
 
 .. _link01: https://www.alibaba.com/product-detail/Ai-Thinker-HOT-product-BW16-development_1600305765880.html?spm=a2747.manage.0.0.5a3e71d2bh6AaZ
 

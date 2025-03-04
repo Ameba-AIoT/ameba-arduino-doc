@@ -1,5 +1,5 @@
-AMB21 Arduino
-=============
+AMB21 / AMB22 Arduino
+=====================
 
 .. table::
    :class: table-transparent
@@ -8,18 +8,18 @@ AMB21 Arduino
    +------------------------------------------------------------------------+----------------------------------------------------------+
    | |image01|                                                              | - MCU                                                    |
    |                                                                        |    - Part Number: RTL8722DM                              |
-   | **AMB21/AMB22 (Ameba RTL8722DM / RTL8722CSM)**                         |    - 32-bit KM4 (Arm Cortex-M33 compatible)              |
+   | **AMB21 / AMB22**                                                      |    - 32-bit KM4 (Arm Cortex-M33 compatible)              |
    |                                                                        |    - 32-bit KM0 (Arm Cortex-M23 compatible)              |
-   +------------------------------------------------------------------------+ - Memory                                                 |
-   | |image02|                                                              |    - 512KB SRAM                                          |
-   |                                                                        |    - 4MB PSRAM                                           |
-   | - Worldwide                                                            |    - 2MB Flash                                           |
-   |    - `Seeed Studio <link01_>`_                                         | - Key Features                                           |
-   | - Regional                                                             |    - Integrated 802.11 a/n Wi-Fi SoC                     |
-   |    - `Taiwan ICShop <link02_>`_                                        |    - Trustzone-M Security                                |
-   |    - `Mainland China Taobao <link03_>`_                                |    - Hardware SSL Engine                                 |
-   |                                                                        |    - Root Trust Secure Boot                              |
-   |                                                                        |    - USB Host/Device                                     |
+   | (Ameba RTL8722DM / RTL8722CSM)                                         | - Memory                                                 |
+   |                                                                        |    - 512KB SRAM                                          |
+   +------------------------------------------------------------------------+    - 4MB PSRAM                                           |
+   | |image02|                                                              |    - 2MB Flash                                           |
+   |                                                                        | - Key Features                                           |
+   | - Worldwide                                                            |    - Integrated 802.11 a/n Wi-Fi SoC                     |
+   |    - `Seeed Studio <link01_>`_                                         |    - Trustzone-M Security                                |
+   | - Regional                                                             |    - Hardware SSL Engine                                 |
+   |    - `Taiwan ICShop <link02_>`_                                        |    - Root Trust Secure Boot                              |
+   |    - `Mainland China Taobao <link03_>`_                                |    - USB Host/Device                                     |
    |                                                                        |    - SD Host                                             |
    |                                                                        |    - BLE5.0                                              |
    |                                                                        |    - Codec                                               |
@@ -47,7 +47,6 @@ SDK Source Code
 ---------------
 
 * |image03| `ameba-arduino-d <https://github.com/Ameba-AIoT/ameba-arduino-d>`_
-
 
 .. _link01: https://www.seeedstudio.com/Ameba-RTL8722DM-IoT-Development-Board-p-4582.html
 

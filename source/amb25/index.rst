@@ -8,17 +8,17 @@ AMB25 Arduino
    +------------------------------------------------------------------------+----------------------------------------------------------+
    | |image01|                                                              | - MCU                                                    |
    |                                                                        |    - Part Number: RTL8720DF                              |
-   | **AMB25 (Ameba RTL872DF)**                                             |    - 32-bit KM4 (Arm Cortex-M33 compatible)              |
+   | **AMB25**                                                              |    - 32-bit KM4 (Arm Cortex-M33 compatible)              |
    |                                                                        |    - 32-bit KM0 (Arm Cortex-M23 compatible)              |
-   +------------------------------------------------------------------------+ - Memory                                                 |
-   | |image02|                                                              |    - 512KB SRAM                                          |
-   |                                                                        |    - 4MB Flash                                           |
-   | - Worldwide                                                            | - Key Features                                           |
-   |    - `Amazon <link01_>`_                                               |    - Integrated WiFi 4 (802.11 b/g/n 1x1) SoC            |
-   | - Regional                                                             |    - Dual-band, 2.4GHz or 5GHz                           |
-   |    - `Mainland China Taobao <link02_>`_                                |    - Bluetooth LE 5.0                                    |
-   |                                                                        |    - Bluetooth high-power mode up to 10dB                |
-   |                                                                        |    - Low Power Mode                                      |
+   | (Ameba RTL8720DF)                                                      | - Memory                                                 |
+   |                                                                        |    - 512KB SRAM                                          |
+   +------------------------------------------------------------------------+    - 4MB Flash                                           |
+   | |image02|                                                              | - Key Features                                           |
+   |                                                                        |    - Integrated WiFi 4 (802.11 b/g/n 1x1) SoC            |
+   | - Worldwide                                                            |    - Dual-band, 2.4GHz or 5GHz                           |
+   |    - `Amazon <link01_>`_                                               |    - Bluetooth LE 5.0                                    |
+   | - Regional                                                             |    - Bluetooth high-power mode up to 10dB                |
+   |    - `Mainland China Taobao <link02_>`_                                |    - Low Power Mode                                      |
    |                                                                        |    - Auto Download Mode                                  |
    |                                                                        |    - On-board PCB antenna                                |
    |                                                                        |    - Board Dimensions, 17.8 × 51.8 mm                    |
@@ -33,7 +33,7 @@ AMB25 Arduino
    |                                                                        |    - TypeC USB port                                      |
    |                                                                        |    - 1 SDIO interface (require adaptor)                  |
    |                                                                        |    - Audio Codec(require external MIC & Speaker)         |
-   |                                                                        |    - USB2.0 Host Interface (require adaptor              |
+   |                                                                        |    - USB2.0 Host Interface (require adaptor)             |
    +------------------------------------------------------------------------+----------------------------------------------------------+
 
 .. toctree::
@@ -48,7 +48,6 @@ SDK Source Code
 ---------------
 
 * |image03| `ameba-arduino-d <https://github.com/Ameba-AIoT/ameba-arduino-d>`_
-
 
 .. _link01: https://www.amazon.com/s?me=AQ2OQ6JMUIQHE&marketplaceID=ATVPDKIKX0DER
 
