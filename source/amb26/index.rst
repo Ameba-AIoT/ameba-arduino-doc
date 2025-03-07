@@ -16,11 +16,11 @@ AMB26 Arduino
    | |image02|                                                              | - Key Features                                           |
    |                                                                        |    - Integrated WiFi 4 (802.11 b/g/n 1x1) SoC            |
    | - Worldwide                                                            |    - Dual-band, 2.4GHz or 5GHz                           |
-   |    - `Amazon <link01_>`_                                               |    - Bluetooth LE 5.0                                    |
-   | - Regional                                                             |    - Bluetooth high-power mode up to 10dB                |
-   |    - `Mainland China Taobao <link02_>`_                                |    - Low Power Mode                                      |
-   |                                                                        |    - Auto Download Mode                                  |
-   |                                                                        |    - On-board PCB antenna                                |
+   |    - `Amazon (EVB) <link01_>`_                                         |    - Bluetooth LE 5.0                                    |
+   |    - `Amazon (WiFi module) <link02_>`_                                 |    - Bluetooth high-power mode up to 10dB                |
+   |    - `Amazon (WiFi module with antenna) <link03_>`_                    |    - Low Power Mode                                      |
+   | - Regional                                                             |    - Auto Download Mode                                  |
+   |    - `Mainland China Taobao <link04_>`_                                |    - On-board PCB antenna                                |
    |                                                                        |    - Board Dimensions, 25.4 × 46.6 mm                    |
    |                                                                        | - Other Features                                         |
    |                                                                        |    - 3 UART interfaces                                   |
@@ -49,9 +49,13 @@ SDK Source Code
 
 * |image03| `ameba-arduino-d <https://github.com/Ameba-AIoT/ameba-arduino-d>`_
 
-.. _link01: https://www.amazon.com/s?me=AQ2OQ6JMUIQHE&marketplaceID=ATVPDKIKX0DER
+.. _link01: https://www.amazon.com/RTL8720DF-Dual-Band-Development-PKE8720DF-C13-Command/dp/B0CXD5YFD8?th=1
 
-.. _link02: https://item.taobao.com/item.htm?id=709899093885&spm=a21xtw.29178619.product_shelf.4.5f2729b2sC1bfp
+.. _link02: https://www.amazon.com/RTL8720DF-Dual-Band-WiFi-Module-PKM8720DF-A00/dp/B0DRTTY5RF/
+
+.. _link03: https://www.amazon.com/RTL8720DF-Dual-Band-PKM8720DF-C13-No-Command/dp/B0DSKYWTVW/?th=1
+
+.. _link04: https://item.taobao.com/item.htm?id=709899093885&spm=a21xtw.29178619.product_shelf.4.5f2729b2sC1bfp
 
 .. |image01| image:: ../_static/ameba_board_photos/AMB26.png
    :width:  180px
