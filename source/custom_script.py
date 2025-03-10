@@ -6,34 +6,34 @@ common_list = []
 temp_only_list = [1000, 1000]
 
 # Define board-specific mappings
-board_mappings = {
-    'amb21': ['_common/API_Documents/Analog', '_common/API_Documents/AudioCodec'
-    , '_common/API_Documents/BLE', '_common/Example_Guides/OTA', '_common/API_Documents/EPDIF', '_common/API_Documents/FatfsSDcard', '_common/API_Documents/FlashMemory'
-    , '_common/API_Documents/GPIO', '_common/Example_Guides/SPI'],
+board_mappings_d = {
+    'amb21': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
+    , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
+    , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI'],
     
-    'amb23': ['_common/API_Documents/Analog', '_common/API_Documents/AudioCodec'
-    , '_common/API_Documents/BLE', '_common/Example_Guides/OTA', '_common/API_Documents/EPDIF', '_common/API_Documents/FatfsSDcard', '_common/API_Documents/FlashMemory'
-    , '_common/API_Documents/GPIO', '_common/Example_Guides/SPI'],
+    'amb23': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
+    , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
+    , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI'],
     
-    'amb25': ['_common/API_Documents/Analog', '_common/API_Documents/AudioCodec'
-    , '_common/API_Documents/BLE', '_common/Example_Guides/OTA', '_common/API_Documents/EPDIF', '_common/API_Documents/FatfsSDcard', '_common/API_Documents/FlashMemory'
-    , '_common/API_Documents/GPIO', '_common/Example_Guides/SPI'],
+    'amb25': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
+    , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
+    , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI'],
     
-    'amb26': ['_common/API_Documents/Analog', '_common/API_Documents/AudioCodec'
-    , '_common/API_Documents/BLE', '_common/Example_Guides/OTA', '_common/API_Documents/EPDIF', '_common/API_Documents/FatfsSDcard', '_common/API_Documents/FlashMemory'
-    , '_common/API_Documents/GPIO', '_common/Example_Guides/SPI'],
+    'amb26': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
+    , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
+    , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI'],
     
-    'bw16-typeb': ['_common/API_Documents/Analog', '_common/API_Documents/AudioCodec'
-    , '_common/API_Documents/BLE', '_common/Example_Guides/OTA', '_common/API_Documents/EPDIF', '_common/API_Documents/FatfsSDcard', '_common/API_Documents/FlashMemory'
-    , '_common/API_Documents/GPIO', '_common/Example_Guides/SPI'],
+    'bw16-typeb': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
+    , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
+    , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI'],
     
-    'aw-cu488': ['_common/API_Documents/Analog', '_common/API_Documents/AudioCodec'
-    , '_common/API_Documents/BLE', '_common/Example_Guides/OTA', '_common/API_Documents/EPDIF', '_common/API_Documents/FatfsSDcard', '_common/API_Documents/FlashMemory'
-    , '_common/API_Documents/GPIO', '_common/Example_Guides/SPI'],
+    'aw-cu488': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
+    , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
+    , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI'],
     
-    'bw16-typec': ['_common/API_Documents/Analog', '_common/API_Documents/AudioCodec'
-    , '_common/API_Documents/BLE', '_common/Example_Guides/OTA', '_common/API_Documents/EPDIF', '_common/API_Documents/FatfsSDcard', '_common/API_Documents/FlashMemory'
-    , '_common/API_Documents/GPIO', '_common/Example_Guides/SPI'],
+    'bw16-typec': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
+    , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
+    , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI'],
 }
 
 def create_folder(folder_name):
@@ -82,7 +82,7 @@ def copy_folder_bak(src_folder, target_folder):
     shutil.copytree(src_folder, target_path)
     print(f"Copied folder: {src_folder} -> {target_path}")
 
-def copy_folder(src_folder, target_folder):
+def copy_folder(src_folder, target_folder, family_name):
     """
     Copy the contents of a folder into an existing target folder.
 
@@ -99,7 +99,7 @@ def copy_folder(src_folder, target_folder):
     
     if not os.path.exists(target_folder):
         os.makedirs(target_folder)
-    relative_path = os.path.relpath(src_folder, '_common') 
+    relative_path = os.path.relpath(src_folder, '_common/' + family_name) 
     target_path = os.path.join(target_folder, relative_path)
     if not os.path.exists(target_path):
         os.makedirs(target_path)  # Ensure Basic folder gets created in target
@@ -204,24 +204,20 @@ def remove_consecutive_empty_lines(file_path):
                 empty_lines = 0
             file.write(line)
 
-if __name__ == "__main__":
-    # Change the current working directory
-    new_directory = './source'
-    os.chdir(new_directory)
-
-    board_list = get_folder_paths('./', 1)
-    common_list = get_folder_paths('./_common', 0)
+def common_process_family(board_list_path, common_list_path, board_mappings, target_name):
+    board_list = get_folder_paths(board_list_path, 1)
+    common_list = get_folder_paths(common_list_path, 0)
 
     # Loop through each board and copy files based on the board's mapping
     for board in board_list:
         # Check if there are common folders that should be copied for this board
         if board in board_mappings:
             for common_folder in board_mappings[board]:
-                copy_folder(common_folder, board)
+                copy_folder(common_folder, target_name + '/' + board, target_name)
 
     # Loop through the copied files and clean up .rst files as needed
     for board in board_list:
-        for root, dirs, files in os.walk(board):
+        for root, dirs, files in os.walk(target_name + '/' + board):
             for file in files:
                 if file.endswith('.rst'):
                     file_path = os.path.join(root, file)
@@ -231,11 +227,51 @@ if __name__ == "__main__":
                         temp_only_list[0] = search_files(file_path, '.. only:: ')
                         temp_only_list[1] = search_files(file_path, '.. only:: end')
                         if temp_only_list[0] != 0:
-                            print(temp_only_list)
+                            #print(temp_only_list)
                             remove_lines_by_number(file_path, temp_only_list[0], temp_only_list[1])
                     temp_only_list[0] = 1000
                     temp_only_list[1] = 1000
                     remove_consecutive_empty_lines(file_path)
+
+
+if __name__ == "__main__":
+    # Change the current working directory
+    new_directory = './source'
+    os.chdir(new_directory)
+
+#    board_list = get_folder_paths('./', 1)
+#    common_list = get_folder_paths('./_common', 0)
+
+#    # Loop through each board and copy files based on the board's mapping
+#    for board in board_list:
+#        # Check if there are common folders that should be copied for this board
+#        if board in board_mappings_d:
+#            for common_folder in board_mappings_d[board]:
+#                copy_folder(common_folder, board)
+
+#    # Loop through the copied files and clean up .rst files as needed
+#    for board in board_list:
+#        for root, dirs, files in os.walk(board):
+#            for file in files:
+#                if file.endswith('.rst'):
+#                    file_path = os.path.join(root, file)
+#                    remove_lines(file_path, '.. only:: ' + board)
+#                    remove_lines(file_path, '.. only:: end ' + board)
+#                    while temp_only_list[0] != 0:
+#                        temp_only_list[0] = search_files(file_path, '.. only:: ')
+#                        temp_only_list[1] = search_files(file_path, '.. only:: end')
+#                        if temp_only_list[0] != 0:
+#                            #print(temp_only_list)
+#                            remove_lines_by_number(file_path, temp_only_list[0], temp_only_list[1])
+#                    temp_only_list[0] = 1000
+#                    temp_only_list[1] = 1000
+#                    remove_consecutive_empty_lines(file_path)
+
+    # ameba d family
+    common_process_family('./ameba_d', './_common/ameba_d', board_mappings_d, 'ameba_d')
+
+    # ameba pro2 family
+    #common_process_family('./ameba_pro2', './_common/ameba_pro2', board_mappings_pro2, 'ameba_pro2')
 
     # Remove the folder '/path/to/folder' and all its contents
     shutil.rmtree('_common')
