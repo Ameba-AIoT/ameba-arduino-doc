@@ -1,6 +1,7 @@
 # ameba-arduino-doc
 
 Ameba Arduino SDK Documents: [https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/](https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/)
+
 RTD project: [https://app.readthedocs.com/projects/ameba-doc-arduino-sdk/](https://app.readthedocs.com/projects/ameba-doc-arduino-sdk/)
 
 ## Readthe Docs
