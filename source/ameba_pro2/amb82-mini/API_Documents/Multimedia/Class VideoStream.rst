@@ -102,6 +102,10 @@ A class used to configure parameters for the camera sensor.
 +---------------------------------+----------------------------------------+
 | CameraSetting::getDayNightMode  | Get current mode, day, or night.       |
 +---------------------------------+----------------------------------------+
+| CameraSetting::setMinFPS        | Set minimum frame per second.          |
++---------------------------------+----------------------------------------+
+| CameraSetting::getMinFPS        | Get minimum frame per second.          |
++---------------------------------+----------------------------------------+
 | CameraSetting::reset            | Reset all the values to default value. |
 +---------------------------------+----------------------------------------+
 
@@ -1210,6 +1214,70 @@ NA
 ~~~~~~~~~~~~~~~~
 
 Example: `ISPControl/Mode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/ISPControl/Mode/Mode.ino>`_
+
+.. note :: "VideoStream.h" must be included to use the class function.
+
+**CameraSetting::setMinFPS**
+----------------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+Set the minimum frame per second of sensor.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    void setMinFPS (int value);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+value: preferred minimum frame per second (range: 1 to 30)
+
+**Returns**
+~~~~~~~~~~~
+
+NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
+
+.. note :: "VideoStream.h" must be included to use the class function.
+
+**CameraSetting::getMinFPS**
+----------------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+Get the minimum frame per second of sensor.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    void getMinFPS (void);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+NA
+
+**Returns**
+~~~~~~~~~~~
+
+NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
 
 .. note :: "VideoStream.h" must be included to use the class function.
 
