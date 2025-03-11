@@ -118,26 +118,26 @@ Step 3. Set up Arduino IDE
 
 From version 1.6.5, Arduino IDE supports third-party hardware. Therefore, we can use Arduino IDE to develop applications, and the Arduino basic examples are supported. Arduino IDE can be downloaded in the Arduino website: https://www.arduino.cc/en/Main/Software
 
-When the installation is finished, open Arduino IDE. To set up correctly in Arduino IDE, go to “File” -> “Preferences”
+When the installation is finished, open Arduino IDE. To set up correctly in Arduino IDE, go to "File" -> "Preferences"
 
 |image05|
 
-And paste the following URL into “Additional Boards Manager URLs” field: https://github.com/ambiot/ambpro2_arduino/raw/main/Arduino_package/package_realtek_amebapro2_index.json
+And paste the following URL into "Additional Boards Manager URLs" field: https://github.com/ambiot/ambpro2_arduino/raw/main/Arduino_package/package_realtek_amebapro2_index.json
 or https://ameba-doc-arduino-sdk-json.readthedocs-hosted.com/en/latest/_static/package_realtek_amebapro2_early_index_rtd.json
 
-Next, go to “Tools” -> “Board” -> “Boards Manager”:
+Next, go to "Tools" -> "Board" -> "Boards Manager":
 
 |image06|
 
-The “Boards Manager” requires about 10~20 seconds to refresh all hardware files (if the network is in bad condition, it may take longer).
+The "Boards Manager" requires about 10~20 seconds to refresh all hardware files (if the network is in bad condition, it may take longer).
 
-Every time the new hardware is connected, we need to reopen the Board Manager. Find “Realtek Ameba Boards” in the list, click “Install”, then the Arduino IDE starts to download required files.
+Every time the new hardware is connected, we need to reopen the Board Manager. Find "Realtek Ameba Boards" in the list, click "Install", then the Arduino IDE starts to download required files.
 
 |image07|
 
-After the installation tool running successfully, you may open Arduino IDE and proceed to “tools” -> “Board“ -> “Boards Manager…”. Try to find “Realtek Ameba Boards” in the list, click “Install”, then the Arduino IDE starts to download required files.
+After the installation tool running successfully, you may open Arduino IDE and proceed to "tools" -> "Board" -> "Boards Manager…". Try to find "Realtek Ameba Boards" in the list, click "Install", then the Arduino IDE starts to download required files.
 
-Finally, we select board in “tools” -> “Board” -> “AmebaPro2 ARM (32-bits) Boards” -> “AMB82-MINI”
+Finally, we select board in "tools" -> "Board" -> "AmebaPro2 ARM (32-bits) Boards" -> "AMB82-MINI"
 
 |image08|
 
@@ -151,72 +151,86 @@ There are many different Modes for user to select for different settings of comp
 
 |image09|
 
-+----------------------------------+---------------------------------------------+-------------+
-| **Mode Name**                    | **Usage**                                   | **Remarks** |
-+==================================+=============================================+=============+
-| \* Auto Flash Mode               | - Disable. Manual process to enter flash    |             |
-|                                  |   mode.                                     |             |
-|                                  |                                             |             |
-|                                  | - Enable. Auto process to enter flash mode. |             |
-+----------------------------------+---------------------------------------------+-------------+
-| \* Camera Options                | - JFX37. Use the camera sensor JFX37.       |             |
-|                                  |                                             |             |
-|                                  | - GC5035. Use the camera sensor GC5035.     |             |
-|                                  |                                             |             |
-|                                  | - JFX53. Use the camera sensor JFX53.       |             |
-|                                  |                                             |             |
-|                                  | - IMX327. Use the camera sensor IMX327.     |             |
-|                                  |                                             |             |
-|                                  | - PS5268. Use the camera sensor PS5268.     |             |
-+----------------------------------+---------------------------------------------+-------------+
-| \* Erase All Flash Memory (16MB) | - Disable. No erash flash process.          |             |
-|                                  |                                             |             |
-|                                  | - Erase only. Erase entire flash.           |             |
-|                                  |                                             |             |
-|                                  | - Erase then Upload. Erase entire flash     |             |
-|                                  |   then upload the current application.      |             |
-+----------------------------------+---------------------------------------------+-------------+
-| \* Camera FCS Mode               | - Disable. No Camera FCS mode process.      |             |
-|                                  |                                             |             |
-|                                  | - Enable. Enable Camera FCS mode, if the    |             |
-|                                  |   camera sensor has FCS mode.               |             |
-+----------------------------------+---------------------------------------------+-------------+
-| \* NN Model Load From            | - Flash. Load the Neural Network AI model   |             |
-|                                  |   from flash memory.                        |             |
-|                                  |                                             |             |
-|                                  | - SD Card. Load the Neural Network AI model |             |
-|                                  |   from SD card memory. Total size of the    |             |
-|                                  |   models depend on the total size of the SD |             |
-|                                  |   card.                                     |             |
-+----------------------------------+---------------------------------------------+-------------+
-| \* OTA Mode                      | - Disable. No OTA mode process.             |             |
-|                                  |                                             |             |
-|                                  | - Enable. Enable OTA mode.                  |             |
-+----------------------------------+---------------------------------------------+-------------+
-| \* Standard Lib                  | - Arduino_STD_PRINTF. Choose the standard   |             |
-|                                  |   library function for compile and upload.  |             |
-|                                  |                                             |             |
-|                                  | - Disable. No standard library function.    |             |
-+----------------------------------+---------------------------------------------+-------------+
-| \* Upload Speed                  | - 2000000. Upload baud rate set as 2000000. |             |
-|                                  |                                             |             |
-|                                  | - 1000000. Upload baud rate set as 1000000. |             |
-|                                  |                                             |             |
-|                                  | - 230400. Upload baud rate set as 230400.   |             |
-+----------------------------------+---------------------------------------------+-------------+
++----------------------------------+-------------------------------------------------+-------------+
+| **Mode Name**                    | **Usage**                                       | **Remarks** |
++==================================+=================================================+=============+
+| \* Auto Flash Mode               | - *Disable* Manual process to enter flash mode. |             |
+|                                  |                                                 |             |
+|                                  | - *Enable* Auto process to enter flash mode.    |             |
++----------------------------------+-------------------------------------------------+-------------+
+| \* Upload Speed                  | - *2000000* Upload baud rate set as 2000000.    |             |
+|                                  |                                                 |             |
+|                                  | - *1000000* Upload baud rate set as 1000000.    |             |
+|                                  |                                                 |             |
+|                                  | - *230400* Upload baud rate set as 230400.      |             |
++----------------------------------+-------------------------------------------------+-------------+
+| \* Erase All Flash Memory (16MB) | - *Disable* No erash flash process.             |             |
+|                                  |                                                 |             |
+|                                  | - *Erase only* Erase entire flash.              |             |
+|                                  |                                                 |             |
+|                                  | - *Erase then Upload* Erase entire flash then   |             |
+|                                  |   upload the current application.               |             |
++----------------------------------+-------------------------------------------------+-------------+
+| \* Camera Options                | - *JFX37* Use the camera sensor JFX37.          |             |
+|                                  |                                                 |             |
+|                                  | - *JFX53* Use the camera sensor JFX53.          |             |
+|                                  |                                                 |             |
+|                                  | - *GC2053* Use the camera sensor GC2053.        |             |
+|                                  |                                                 |             |
+|                                  | - *GC4653* Use the camera sensor GC4653.        |             |
+|                                  |                                                 |             |
+|                                  | - *GC5035* Use the camera sensor GC5035.        |             |
+|                                  |                                                 |             |
+|                                  | - *IMX307* Use the camera sensor IMX307.        |             |
+|                                  |                                                 |             |
+|                                  | - *IMX327* Use the camera sensor IMX327.        |             |
+|                                  |                                                 |             |
+|                                  | - *IMX662* Use the camera sensor IMX662.        |             |
+|                                  |                                                 |             |
+|                                  | - *PS5268* Use the camera sensor PS5268.        |             |
+|                                  |                                                 |             |
+|                                  | - *OV9734* Use the camera sensor OV9734.        |             |
+|                                  |                                                 |             |
+|                                  | - *SC2336* Use the camera sensor SC2336.        |             |
++----------------------------------+-------------------------------------------------+-------------+
+| \* Camera FCS Mode               | - *Disable* No Camera FCS mode process.         |             |
+|                                  |                                                 |             |
+|                                  | - *Enable* Enable Camera FCS mode, if the       |             |
+|                                  |   camera sensor has FCS mode.                   |             |
++----------------------------------+-------------------------------------------------+-------------+
+| \* NN Model Load From            | - *Flash* Load the Neural Network AI model from |             |
+|                                  |   flash memory.                                 |             |
+|                                  |                                                 |             |
+|                                  | - *SD Card* Load the Neural Network AI model    |             |
+|                                  |   from SD card memory. Total size of the models |             |
+|                                  |   depend on the total size of the SD card.      |             |
++----------------------------------+-------------------------------------------------+-------------+
+| \* Show NN Logs                  | - *Enable* Show NN related debug logs.          |             |
+|                                  |                                                 |             |
+|                                  | - *Disable* Do not show NN related debug logs.  |             |
++----------------------------------+-------------------------------------------------+-------------+
+| \* OTA Mode                      | - *Disable* No OTA mode process.                |             |
+|                                  |                                                 |             |
+|                                  | - *Enable* Enable OTA mode.                     |             |
++----------------------------------+-------------------------------------------------+-------------+
+| \* Standard Lib                  | - *Arduino_STD_PRINTF* Choose the standard      |             |
+|                                  |   library function for compile and upload.      |             |
+|                                  |                                                 |             |
+|                                  | - *Disable* No standard library function.       |             |
++----------------------------------+-------------------------------------------------+-------------+
 
 Step 2. Compile
 ~~~~~~~~~~~~~~~
 
-Arduino IDE provides many built-in examples, which can be compiled, uploaded, and run directly on the boards. Here, we take the “Blink” example as the first try.
+Arduino IDE provides many built-in examples, which can be compiled, uploaded, and run directly on the boards. Here, we take the "Blink" example as the first try.
 
-Open “File” -> “Examples” -> “01.Basics” -> “Blink”:
+Open "File" -> "Examples" -> "01.Basics" -> "Blink":
 
 |image10|
 
 Arduino IDE opens a new window with the complete sample code.
 
-Next, we compile the sample code directly; click “Sketch” -> “Verify/Compile”
+Next, we compile the sample code directly; click "Sketch" -> "Verify/Compile"
 
 Arduino IDE prints the compiling messages in the bottom area of the IDE window. When the compilation is finished, you will get the message as following.
 
@@ -227,11 +241,11 @@ Afterwards, we will upload the compiled code to board.
 Step 3. Upload
 ~~~~~~~~~~~~~~
 
-Please make sure board is connected to computer, then click “Sketch” -> “Upload”.
+Please make sure board is connected to computer, then click "Sketch" -> "Upload".
 
 The Arduino IDE will compile first then upload. Users are required to enter the upload mode of the board. To enter upload mode, first press and hold the UART_DOWNLOAD button, then press and release the RESET button, lastly release the UART_DOWNLOAD button.
 
-Additionally, if the board has the hardware updates and enabled “Auto Flash Mode”, please ignore above instruction.
+Additionally, if the board has the hardware updates and enabled "Auto Flash Mode", please ignore above instruction.
 
 |image12|
 
@@ -239,7 +253,7 @@ It is optional for users to check if the board entered the upload mode. Open ser
 
 |image13|
 
-When upload completed, the “Done uploading” message is printed.
+When upload completed, the "Done uploading" message is printed.
 
 Step 4. Run the Blink example
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
