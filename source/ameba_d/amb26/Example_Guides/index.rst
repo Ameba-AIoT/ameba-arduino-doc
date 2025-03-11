@@ -7,5 +7,6 @@ Example Guides
    Basic/index
    E-Paper/index
    OTA/index
+   Power Save/index
    SPI/index
    
