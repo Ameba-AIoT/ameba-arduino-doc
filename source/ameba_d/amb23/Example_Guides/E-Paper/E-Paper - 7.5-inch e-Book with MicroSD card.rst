@@ -13,6 +13,9 @@ Materials
 - MicroSD card x 1
 - Waveshare 7.5-inch E-Ink display HAT x 1
 
+Example
+-------
+
 In this example, we will be connecting AMB23 to Waveshare 7.5-inch e-Paper module to be used as an e-Book. The 7.5” active area contains 800 x 480 pixels and has 1-bit white/black full display capabilities. An integrated circuit contains gate buffer, source buffer, interface, timing control logic, oscillator, etc. are supplied with each panel. You may refer to [7.5inch-e-paper-specification] (https://www.waveshare.com/w/upload/6/60/7.5inch_e-Paper_V2_Specification.pdf) for more information about this e-Paper module.
 
 **AMB23 wiring diagram:**
@@ -23,7 +26,7 @@ Do note that Display Config should be set to B and Interface Config should be se
 
 |image02|
 
-Download the Eink zip library, AmebaEink.zip, at https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries
+Download the Eink zip library, AmebaEink.zip, at https://github.com/Ameba-AIoT/ameba-arduino-d/tree/master/Arduino_zip_libraries.
 and install AmebaEink.zip on Arduino IDE. You may follow the instruction at https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries to install it.
 
 After AmebaEink.zip is installed, Open the “Eink_7in5_Ebook” example by selecting “File” -> “Examples” -> “AmebaEink” -> “Eink_7in5_Ebook”.

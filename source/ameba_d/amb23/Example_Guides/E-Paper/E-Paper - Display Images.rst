@@ -11,6 +11,9 @@ Materials
 
 - Waveshare E-Paper [2.9inch E-Paper HAT (D)/ 2.9inch E-Paper V2/ 2.9inch e-Paper Module (B)/ 4.2inch e-Paper Module/ 4.2inch v2 e-Paper Module/ 7.5-inch E-Ink display HAT] x1
 
+Example
+-------
+
 In this example, AmebaD boards will be used to connect to a Waveshare e-Paper module (2.9inch/ 4.2inch/ 7.5inch) to display images. The display uses the flexible substrate as base plate, with an interface and a reference system design. You may refer to the official datasheet to know more information about these modules.
 
 **AMB23 wiring diagrams:**
@@ -42,7 +45,7 @@ Firstly, prepare a picture/photo and resize the image based on the e-Paper displ
 
 Secondly, use `Image2LCD <http://www.waveshare.net/w/upload/3/36/Image2Lcd.7z>`_ tool to convert the resized JPEG image into hexadecimal codes. You can visit this `YouTube <https://www.youtube.com/watch?v=kAmnU5Y96MA&t=363s>`_ link to learn more about how to use the Image2LCD tool.
 
-Next, download the Eink zip library, AmebaEink.zip, at https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_zip_libraries. Then install the AmebaEink.zip by navigating to “Sketch” -> “Include Library” -> “Add .ZIP Library…”.
+Next, download the Eink zip library, AmebaEink.zip, at https://github.com/Ameba-AIoT/ameba-arduino-d/tree/master/Arduino_zip_libraries. Then install the AmebaEink.zip by navigating to “Sketch” -> “Include Library” -> “Add .ZIP Library…”.
 
 Eink examples are categorised based on the size and modules of the e-Paper display.
 

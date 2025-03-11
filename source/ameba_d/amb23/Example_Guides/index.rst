@@ -9,4 +9,5 @@ Example Guides
    E-Paper/index
    FatfsSDIO/index
    OTA/index
+   Power Save/index
    SPI/index
