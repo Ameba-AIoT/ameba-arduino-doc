@@ -7,11 +7,11 @@ Ameba Pro2 uses a 4 line MIPI CSI-2 connection design. Refer to `mipi alliance <
 
 **Answer**
 
-Please refer to camera sensor F37 pinout for MIPI conneciton to AMB82-mini.
+Please refer to camera sensor F37 pinout for MIPI connections to AMB82-mini.
 
 |image01|
 
-Also foe detial hardware connections to the Ameba-pro2 module please refer to the following images.
+Also foe detail hardware connections to the Ameba-pro2 module please refer to the following images.
 
 |image02|
 
