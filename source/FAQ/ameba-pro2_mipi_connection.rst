@@ -23,5 +23,5 @@ Also foe detail hardware connections to the Ameba-pro2 module please refer to th
 .. |image02| image:: ../_static/FAQ/ameba-pro2_mipi_connection/image02.png
    :width:  500px
 
-.. |image02| image:: ../_static/FAQ/ameba-pro2_mipi_connection/image02.png
+.. |image03| image:: ../_static/FAQ/ameba-pro2_mipi_connection/image03.png
    :width:  500px
