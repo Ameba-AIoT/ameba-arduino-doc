@@ -18,8 +18,9 @@ Ameba FAQ
    EMMC_connection
 
    ameba-pro2_module_window
-   
+
    disable_nn_logs
 
    skb_unavaliable_warnings
 
+   ameba-pro2_mipi_connection

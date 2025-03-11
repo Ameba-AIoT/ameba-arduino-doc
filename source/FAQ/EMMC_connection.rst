@@ -1,4 +1,4 @@
-.. tags:: AMB82-mini, hardware, EMMC
+.. tags:: amb82-mini, hardware, emmc
 
 Is it possible to use EMMC for Ameba Pro2 IC, when not using SDIO
 ==================================================================
@@ -13,8 +13,8 @@ Ameba Pro2 family IC chips is able to use EMMC to replace the SDIO connections. 
 
 |image02|
 
-.. |image01| image:: ../_static/FAQ/EMMC_connection/emmc_01.png
+.. |image01| image:: ../_static/FAQ/EMMC_connection/image01.png
    :width:  500px
 
-.. |image02| image:: ../_static/FAQ/EMMC_connection/emmc_02.png
+.. |image02| image:: ../_static/FAQ/EMMC_connection/image02.png
    :width:  500px

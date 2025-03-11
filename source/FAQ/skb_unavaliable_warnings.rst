@@ -1,4 +1,4 @@
-.. tags:: Video Streaming, RTSP, AMB82-mini
+.. tags:: video streaming, rtsp, amb82-mini
 
 What should I do if "skb_unavailable={number} in last 2 seconds" warnings keep appearing during video streaming?
 ==================================================================================================================
