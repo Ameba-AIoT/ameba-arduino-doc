@@ -1,4 +1,4 @@
-.. tags:: SD card, SDIO
+.. tags:: sd card, sdio
 
 VDIO_SD is open, when not using SDIO
 ====================================

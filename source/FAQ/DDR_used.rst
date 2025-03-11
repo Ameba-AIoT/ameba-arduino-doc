@@ -1,4 +1,4 @@
-.. tags:: DDR, AMB82-mini
+.. tags:: ddr, amb82-mini
 
 Which DDR is used by AMB82-mini? DDR2 or DDR3?
 ==============================================

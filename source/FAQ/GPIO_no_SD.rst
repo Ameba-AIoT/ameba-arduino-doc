@@ -1,4 +1,4 @@
-.. tags:: SD card, SDIO, GPIO
+.. tags:: sd card, sdio, gpio
 
 SD_D1 and SD_CD can be used as GPIO, when not using SDIO
 ========================================================

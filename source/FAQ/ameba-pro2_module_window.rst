@@ -1,4 +1,4 @@
-.. tags:: module, AMB82-mini, contact, Purchase
+.. tags:: module, amb82-mini, contact, purchase
 
 What is the contact for purchasing AMB82-mini module?
 =====================================================

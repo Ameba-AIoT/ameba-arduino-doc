@@ -1,4 +1,4 @@
-.. tags:: RTP, H264, RTSP, NALU
+.. tags:: rtp, h264, rtsp, nalu
 
 How to separate the NALU info of each H264 frame into individual RTP payload?
 =============================================================================

@@ -1,4 +1,4 @@
-.. tags:: Neural Network, AMB82-mini
+.. tags:: neural network, amb82-mini
 
 Is it possible to disable the continuously looping logs (e.g. YOLOv4t tick) in Neural Network examples?
 ============================================================================================================
