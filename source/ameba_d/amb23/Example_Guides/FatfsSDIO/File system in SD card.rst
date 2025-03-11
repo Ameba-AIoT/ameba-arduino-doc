@@ -79,30 +79,30 @@ Upload the code and press the reset button on Ameba once the upload is finished.
 
 Next, insert SD card into card reader, and check whether the operations succeeded. In this case, we already know the root files folder "testdir" and text file "test.txt"by refer the above pictures.
 
-.. |image01| image:: ../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_File_system_in_SD_card/image01.png
+.. |image01| image:: ../../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_File_system_in_SD_card/image01.png
    :width: 596 px
    :height: 702 px
-.. |image02| image:: ../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_File_system_in_SD_card/image02.png
+.. |image02| image:: ../../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_File_system_in_SD_card/image02.png
    :width: 873 px
    :height: 379 px
-.. |image03| image:: ../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_File_system_in_SD_card/image03.png
+.. |image03| image:: ../../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_File_system_in_SD_card/image03.png
    :width: 508 px
    :height: 319 px
-.. |image04| image:: ../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_File_system_in_SD_card/image04.png
+.. |image04| image:: ../../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_File_system_in_SD_card/image04.png
    :width: 873 px
    :height: 379 px
-.. |image05| image:: ../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_File_system_in_SD_card/image05.png
+.. |image05| image:: ../../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_File_system_in_SD_card/image05.png
    :width: 462 px
    :height: 336 px
-.. |image06| image:: ../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_File_system_in_SD_card/image06.png
+.. |image06| image:: ../../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_File_system_in_SD_card/image06.png
    :width: 873 px
    :height: 379 px
-.. |image07| image:: ../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_File_system_in_SD_card/image07.png
+.. |image07| image:: ../../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_File_system_in_SD_card/image07.png
    :width: 873 px
    :height: 379 px
-.. |image08| image:: ../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_File_system_in_SD_card/image08.png
+.. |image08| image:: ../../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_File_system_in_SD_card/image08.png
    :width: 628 px
    :height: 598 px
-.. |image09| image:: ../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_File_system_in_SD_card/image09.png
+.. |image09| image:: ../../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_File_system_in_SD_card/image09.png
    :width: 873 px
    :height: 379 px

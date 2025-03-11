@@ -30,15 +30,15 @@ Next, open the address stated in serial monitor in the browser of your laptop or
 
 Now you have successfully read and opened the html file saved in your SD card.
 
-.. |image01| image:: ../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_Read_and_open_HTML_file_from_SD_card/image01.png
+.. |image01| image:: ../../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_Read_and_open_HTML_file_from_SD_card/image01.png
    :width: 1041 px
    :height: 360 px
    :scale: 70 %
-.. |image02| image:: ../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_Read_and_open_HTML_file_from_SD_card/image02.png
+.. |image02| image:: ../../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_Read_and_open_HTML_file_from_SD_card/image02.png
    :width: 1168 px
    :height: 630 px
    :scale: 60 %
-.. |image03| image:: ../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_Read_and_open_HTML_file_from_SD_card/image03.png
+.. |image03| image:: ../../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_Read_and_open_HTML_file_from_SD_card/image03.png
    :width: 3895 px
    :height: 1235 px
    :scale: 20 %
