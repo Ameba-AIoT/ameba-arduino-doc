@@ -6,6 +6,7 @@ Example Guides
 
    Basic/index
    E-Paper/index
+   HTTP/index
    OTA/index
    Power Save/index
    SPI/index
