@@ -8,6 +8,7 @@ Example Guides
    Basic/index
    E-Paper/index
    FatfsSDIO/index
+   HTTP/index
    OTA/index
    Power Save/index
    SPI/index
