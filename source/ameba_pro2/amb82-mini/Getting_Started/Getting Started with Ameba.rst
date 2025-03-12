@@ -151,73 +151,68 @@ There are many different Modes for user to select for different settings of comp
 
 |image09|
 
-+----------------------------------+-------------------------------------------------+-------------+
-| **Mode Name**                    | **Usage**                                       | **Remarks** |
-+==================================+=================================================+=============+
-| \* Auto Flash Mode               | - *Disable* Manual process to enter flash mode. |             |
-|                                  |                                                 |             |
-|                                  | - *Enable* Auto process to enter flash mode.    |             |
-+----------------------------------+-------------------------------------------------+-------------+
-| \* Upload Speed                  | - *2000000* Upload baud rate set as 2000000.    |             |
-|                                  |                                                 |             |
-|                                  | - *1000000* Upload baud rate set as 1000000.    |             |
-|                                  |                                                 |             |
-|                                  | - *230400* Upload baud rate set as 230400.      |             |
-+----------------------------------+-------------------------------------------------+-------------+
-| \* Erase All Flash Memory (16MB) | - *Disable* No erash flash process.             |             |
-|                                  |                                                 |             |
-|                                  | - *Erase only* Erase entire flash.              |             |
-|                                  |                                                 |             |
-|                                  | - *Erase then Upload* Erase entire flash then   |             |
-|                                  |   upload the current application.               |             |
-+----------------------------------+-------------------------------------------------+-------------+
-| \* Camera Options                | - *JFX37* Use the camera sensor JFX37.          |             |
-|                                  |                                                 |             |
-|                                  | - *JFX53* Use the camera sensor JFX53.          |             |
-|                                  |                                                 |             |
-|                                  | - *GC2053* Use the camera sensor GC2053.        |             |
-|                                  |                                                 |             |
-|                                  | - *GC4653* Use the camera sensor GC4653.        |             |
-|                                  |                                                 |             |
-|                                  | - *GC5035* Use the camera sensor GC5035.        |             |
-|                                  |                                                 |             |
-|                                  | - *IMX307* Use the camera sensor IMX307.        |             |
-|                                  |                                                 |             |
-|                                  | - *IMX327* Use the camera sensor IMX327.        |             |
-|                                  |                                                 |             |
-|                                  | - *IMX662* Use the camera sensor IMX662.        |             |
-|                                  |                                                 |             |
-|                                  | - *PS5268* Use the camera sensor PS5268.        |             |
-|                                  |                                                 |             |
-|                                  | - *OV9734* Use the camera sensor OV9734.        |             |
-|                                  |                                                 |             |
-|                                  | - *SC2336* Use the camera sensor SC2336.        |             |
-+----------------------------------+-------------------------------------------------+-------------+
-| \* Camera FCS Mode               | - *Disable* No Camera FCS mode process.         |             |
-|                                  |                                                 |             |
-|                                  | - *Enable* Enable Camera FCS mode, if the       |             |
-|                                  |   camera sensor has FCS mode.                   |             |
-+----------------------------------+-------------------------------------------------+-------------+
-| \* NN Model Load From            | - *Flash* Load the Neural Network AI model from |             |
-|                                  |   flash memory.                                 |             |
-|                                  |                                                 |             |
-|                                  | - *SD Card* Load the Neural Network AI model    |             |
-|                                  |   from SD card memory. Total size of the models |             |
-|                                  |   depend on the total size of the SD card.      |             |
-+----------------------------------+-------------------------------------------------+-------------+
-| \* Show NN Logs                  | - *Enable* Show NN related debug logs.          |             |
-|                                  |                                                 |             |
-|                                  | - *Disable* Do not show NN related debug logs.  |             |
-+----------------------------------+-------------------------------------------------+-------------+
-| \* OTA Mode                      | - *Disable* No OTA mode process.                |             |
-|                                  |                                                 |             |
-|                                  | - *Enable* Enable OTA mode.                     |             |
-+----------------------------------+-------------------------------------------------+-------------+
-| \* Standard Lib                  | - *Arduino_STD_PRINTF* Choose the standard      |             |
-|                                  |   library function for compile and upload.      |             |
-|                                  |                                                 |             |
-|                                  | - *Disable* No standard library function.       |             |
-+----------------------------------+-------------------------------------------------+-------------+
++----------------------------------+-----------------------------------------------------------------------------------------+-------------+
+| **Mode Name**                    | **Usage**                                                                               | **Remarks** |
++==================================+=========================================================================================+=============+
+| \* Auto Flash Mode               | | **Disable** - Manual process to enter flash mode.                                     |             |
+|                                  | |                                                                                       |             |
+|                                  | | **Enable** - Auto process to enter flash mode.                                        |             |
++----------------------------------+-----------------------------------------------------------------------------------------+-------------+
+| \* Upload Speed                  | | **2000000** - Upload baud rate set as 2000000.                                        |             |
+|                                  | |                                                                                       |             |
+|                                  | | **1000000** - Upload baud rate set as 1000000.                                        |             |
+|                                  | |                                                                                       |             |
+|                                  | | **230400** - Upload baud rate set as 230400.                                          |             |
++----------------------------------+-----------------------------------------------------------------------------------------+-------------+
+| \* Erase All Flash Memory (16MB) | | **Disable** - No erash flash process.                                                 |             |
+|                                  | |                                                                                       |             |
+|                                  | | **Erase only** - Erase entire flash.                                                  |             |
+|                                  | |                                                                                       |             |
+|                                  | | **Erase then Upload** - Erase entire flash then upload the current application.       |             |
++----------------------------------+-----------------------------------------------------------------------------------------+-------------+
+| \* Camera Options                | | **JFX37** - Use the camera sensor JFX37.                                              |             |
+|                                  | |                                                                                       |             |
+|                                  | | **JFX53** - Use the camera sensor JFX53.                                              |             |
+|                                  | |                                                                                       |             |
+|                                  | | **GC2053** - Use the camera sensor GC2053.                                            |             |
+|                                  | |                                                                                       |             |
+|                                  | | **GC4653** - Use the camera sensor GC4653.                                            |             |
+|                                  | |                                                                                       |             |
+|                                  | | **GC5035** - Use the camera sensor GC5035.                                            |             |
+|                                  | |                                                                                       |             |
+|                                  | | **IMX307** - Use the camera sensor IMX307.                                            |             |
+|                                  | |                                                                                       |             |
+|                                  | | **IMX327** - Use the camera sensor IMX327.                                            |             |
+|                                  | |                                                                                       |             |
+|                                  | | **IMX662** - Use the camera sensor IMX662.                                            |             |
+|                                  | |                                                                                       |             |
+|                                  | | **PS5268** - Use the camera sensor PS5268.                                            |             |
+|                                  | |                                                                                       |             |
+|                                  | | **OV9734** - Use the camera sensor OV9734.                                            |             |
+|                                  | |                                                                                       |             |
+|                                  | | **SC2336** - Use the camera sensor SC2336.                                            |             |
++----------------------------------+-----------------------------------------------------------------------------------------+-------------+
+| \* Camera FCS Mode               | | **Disable** - No Camera FCS mode process.                                             |             |
+|                                  | |                                                                                       |             |
+|                                  | | **Enable** - Enable Camera FCS mode, if the camera sensor has FCS mode.               |             |
++----------------------------------+-----------------------------------------------------------------------------------------+-------------+
+| \* NN Model Load From            | | **Flash** - Load the Neural Network AI model from flash memory.                       |             |
+|                                  | |                                                                                       |             |
+|                                  | | **SD Card** - Load the Neural Network AI model from SD card memory. Total size of the |             |
+|                                  | | models depend on the total size of the SD card.                                       |             |
++----------------------------------+-----------------------------------------------------------------------------------------+-------------+
+| \* Show NN Logs                  | | **Enable** - Show NN related debug logs.                                              |             |
+|                                  | |                                                                                       |             |
+|                                  | | **Disable** - Do not show NN related debug logs.                                      |             |
++----------------------------------+-----------------------------------------------------------------------------------------+-------------+
+| \* OTA Mode                      | | **Disable** - No OTA mode process.                                                    |             |
+|                                  | |                                                                                       |             |
+|                                  | | **Enable** - Enable OTA mode.                                                         |             |
++----------------------------------+-----------------------------------------------------------------------------------------+-------------+
+| \* Standard Lib                  | | **Arduino_STD_PRINTF** - Choose the standard library function for compile and upload. |             |
+|                                  | |                                                                                       |             |
+|                                  | | **Disable** - No standard library function.                                           |             |
++----------------------------------+-----------------------------------------------------------------------------------------+-------------+
 
 Step 2. Compile
 ~~~~~~~~~~~~~~~

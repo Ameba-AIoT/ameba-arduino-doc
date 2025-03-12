@@ -91,7 +91,7 @@ numfig = True
 
 html_theme_options = {
     "collapse_navigation": False,  # Prevent tab from collapsing
-    "navigation_depth": 2,  # Keep tab active
+    "navigation_depth": 3,  # Keep tab active,
 }
 
 # Get the path to the current directory
