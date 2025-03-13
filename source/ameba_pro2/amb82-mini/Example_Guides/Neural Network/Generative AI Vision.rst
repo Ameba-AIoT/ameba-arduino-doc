@@ -62,7 +62,7 @@ Various online servers and LLM models featured in the SDK:
 
 openAI: https://platform.openai.com/docs/guides/rate-limits?context=tier-one#usage-tiers
 
-Google AI Studio: https://ai.google.dev/pricing#1_5flash
+Google AI Studio: https://ai.google.dev/gemini-api/docs/rate-limits
 
 GroqCloud: https://console.groq.com/settings/limits
 
