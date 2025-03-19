@@ -9,31 +9,38 @@ temp_only_list = [1000, 1000]
 board_mappings_d = {
     'amb21': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
     , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
-    , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI', '_common/ameba_d/Example_Guides/Power Save', '_common/ameba_d/Example_Guides/WiFi', '_common/ameba_d/Example_Guides/HTTP'],
+    , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI', '_common/ameba_d/Example_Guides/Power Save', '_common/ameba_d/Example_Guides/WiFi', '_common/ameba_d/Example_Guides/HTTP' 
+    , '_common/ameba_d/Example_Guides/NTP'],
     
     'amb23': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
     , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
-    , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI', '_common/ameba_d/Example_Guides/Power Save', '_common/ameba_d/Example_Guides/WiFi', '_common/ameba_d/Example_Guides/HTTP'],
+    , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI', '_common/ameba_d/Example_Guides/Power Save', '_common/ameba_d/Example_Guides/WiFi', '_common/ameba_d/Example_Guides/HTTP'
+    , '_common/ameba_d/Example_Guides/NTP'],
     
     'amb25': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
     , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
-    , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI', '_common/ameba_d/Example_Guides/Power Save', '_common/ameba_d/Example_Guides/WiFi', '_common/ameba_d/Example_Guides/HTTP'],
+    , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI', '_common/ameba_d/Example_Guides/Power Save', '_common/ameba_d/Example_Guides/WiFi', '_common/ameba_d/Example_Guides/HTTP'
+    , '_common/ameba_d/Example_Guides/NTP'],
     
     'amb26': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
     , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
-    , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI', '_common/ameba_d/Example_Guides/Power Save', '_common/ameba_d/Example_Guides/WiFi', '_common/ameba_d/Example_Guides/HTTP'],
+    , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI', '_common/ameba_d/Example_Guides/Power Save', '_common/ameba_d/Example_Guides/WiFi', '_common/ameba_d/Example_Guides/HTTP'
+    , '_common/ameba_d/Example_Guides/NTP'],
     
     'bw16-typeb': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
     , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
-    , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI', '_common/ameba_d/Example_Guides/Power Save', '_common/ameba_d/Example_Guides/WiFi', '_common/ameba_d/Example_Guides/HTTP'],
+    , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI', '_common/ameba_d/Example_Guides/Power Save', '_common/ameba_d/Example_Guides/WiFi', '_common/ameba_d/Example_Guides/HTTP'
+    , '_common/ameba_d/Example_Guides/NTP'],
     
     'aw-cu488': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
     , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
-    , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI', '_common/ameba_d/Example_Guides/Power Save', '_common/ameba_d/Example_Guides/WiFi', '_common/ameba_d/Example_Guides/HTTP'],
+    , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI', '_common/ameba_d/Example_Guides/Power Save', '_common/ameba_d/Example_Guides/WiFi', '_common/ameba_d/Example_Guides/HTTP'
+    , '_common/ameba_d/Example_Guides/NTP'],
     
     'bw16-typec': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
     , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
-    , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI', '_common/ameba_d/Example_Guides/Power Save', '_common/ameba_d/Example_Guides/WiFi', '_common/ameba_d/Example_Guides/HTTP'],
+    , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI', '_common/ameba_d/Example_Guides/Power Save', '_common/ameba_d/Example_Guides/WiFi', '_common/ameba_d/Example_Guides/HTTP'
+    , '_common/ameba_d/Example_Guides/NTP'],
 }
 
 def create_folder(folder_name):
