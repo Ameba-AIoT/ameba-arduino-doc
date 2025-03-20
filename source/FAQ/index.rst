@@ -24,3 +24,5 @@ Ameba FAQ
    skb_unavaliable_warnings
 
    ameba-pro2_mipi_connection
+
+   gpio_pins_output_voltage
