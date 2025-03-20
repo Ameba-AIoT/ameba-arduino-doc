@@ -8,7 +8,7 @@ NTP - Retrieve Universal Time (UTC) by NTPClient library
 Materials
 ---------
 
-- AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1
+- AmebaD [AMB21 / AMB22 / AMB23 /  AMB25 / AMB26 / BW16 / AW-CU488 Thing Plus] x 1
 
 Example
 -------
