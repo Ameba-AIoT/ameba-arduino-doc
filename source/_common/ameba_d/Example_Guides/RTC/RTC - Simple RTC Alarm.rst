@@ -32,6 +32,6 @@ Then open the "RTCAlarm" example from: “File” → “Examples” → “RTC�
    :width: 543
    :height: 489
 
-.. |image02| image:: ../../../../_static/amebad/Example_Guides/RTC/RTC_Simple_RTC_Alarm/image01.png
+.. |image02| image:: ../../../../_static/amebad/Example_Guides/RTC/RTC_Simple_RTC_Alarm/image02.png
    :width: 598
    :height: 318

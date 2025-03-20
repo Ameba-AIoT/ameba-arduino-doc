@@ -33,8 +33,8 @@ time every second in the Serial Monitor.
 
 .. |image01| image:: ../../../../_static/amebad/Example_Guides/RTC/RTC_Simple_RTC/image01.png
    :width: 549
-   :height: 462
+   :height: 426
 
-.. |image02| image:: ../../../../_static/amebad/Example_Guides/RTC/RTC_Simple_RTC/image01.png
+.. |image02| image:: ../../../../_static/amebad/Example_Guides/RTC/RTC_Simple_RTC/image02.png
    :width: 597
-   :height: 325
+   :height: 324
