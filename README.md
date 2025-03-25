@@ -1,5 +1,7 @@
 # ameba-arduino-doc
 
+![realtek_background_003](https://github.com/user-attachments/assets/083e2983-9c8d-49e0-bdda-049608ef91b2)
+
 Ameba Arduino SDK Documents: [https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/](https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/)
 
 RTD project: [https://app.readthedocs.com/projects/ameba-doc-arduino-sdk/](https://app.readthedocs.com/projects/ameba-doc-arduino-sdk/)
