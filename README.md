@@ -6,7 +6,7 @@ Ameba Arduino SDK Documents: [https://ameba-doc-arduino-sdk.readthedocs-hosted.c
 
 RTD project: [https://app.readthedocs.com/projects/ameba-doc-arduino-sdk/](https://app.readthedocs.com/projects/ameba-doc-arduino-sdk/)
 
-## Readthe Docs
+## Read the Docs
 Click the following URLs to view the documentations of all Arduino SDK supported EVBs.
 - Ameba Arduino SDK Documents: [https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/](https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/)
 
