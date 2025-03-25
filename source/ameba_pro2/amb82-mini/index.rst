@@ -22,7 +22,7 @@ AMB82-mini Arduino
    |    - `ICShop (Module only) <link04_>`_                                 |    - SD Host                                             |
    | - Regional                                                             |    - ISP                                                 |
    |    - `Taiwan ICShop <link05_>`_                                        |    - Audio Codec                                         |
-   |    - `Taiwan ICShop (Module only) <link06_>`_                          |    - H.264/H.265                                         |
+   |    - `Taiwan ICShop (Module only) <link06_>`_                          |    - H.264/H.265 encoder up to 5MP or 1080p @45fps       |
    |                                                                        |    - Secure Boot                                         |
    |                                                                        |    - Crypto Engine                                       |
    |                                                                        | - Other Features                                         |
