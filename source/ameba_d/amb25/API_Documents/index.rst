@@ -11,5 +11,12 @@ API Documents
    FatfsSDcard/index
    FlashMemory/index
    GPIO/index
+   Gtimer/index
+   Http/index
+   IRDevice/index
+   MDNS/index
+   MQTTClient/index
+   NTPClient/index
    OTA/index
+   PowerSave/index
    WiFi/index

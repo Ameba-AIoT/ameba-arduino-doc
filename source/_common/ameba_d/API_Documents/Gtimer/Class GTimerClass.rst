@@ -11,7 +11,7 @@ Class GTimerClass
 **Description**
 ~~~~~~~~~~~~~~~
 
-A class used for initializing, starting, stopping Gtimer.
+A class used for managing GTimer settings. GTimer is a hardware timer and occupy same resource as PWM. Please make sure the timer is not conflict with you PWM index.
 
 **Syntax**
 ~~~~~~~~~~
@@ -53,24 +53,19 @@ Initialize a timer and start it immediately.
 
 .. code-block:: c++
 
-    void begin(uint32_t timerid, uint32_t duration_us, void (*handler)(uint32_t), bool periodical = true, uint32_t userdata = 0, uint32_t timer0_clk_sel = 0);
+    void begin(uint32_t timerid, uint32_t duration_us, void (*handler)(uint32_t), bool periodical, uint32_t userdata);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-timerid: There are 5 valid GTimer with timer id.
+``timerid``: GTimer ID. (There are 5 valid GTimer with timer id 0~4)
 
-- 0 to 4
+``duration_us``: The duration of timer unit is microsecond (us). The precision is 32768Hz.
 
-duration_us: The duration of timer unit is microsecond. The precision is 32768Hz.
+``periodical``: By default, the timer would keep periodically countdown and reload, which means the handler would periodically be invoked. (Default value: True)
 
-handler: As timer timeout, it would invoke this handler.
+``userdata``: The user data brings to the handler. Default value is 0.
 
-periodical: By default, the timer would keep periodically countdown and reload which leads the handler periodically invoked.
-
-userdata: The user data brings to the handler. Default value is 0.
-
-timer0_clk_sel: Select the timer0 clock, 0 for 40MHz or 1 for 4MHz. Default value is 0.
 
 **Returns**
 ~~~~~~~~~~~
@@ -80,7 +75,7 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `TimerOneshot <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerOneshot/TimerOneshot.ino>`_, `TimerPeriodical <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerPeriodical/TimerPeriodical.ino>`_
+Example: `TimerOneshot <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerOneshot/TimerOneshot.ino>`_
 
 .. note :: "GTimer.h" must be included to use the class function.
 
@@ -102,9 +97,7 @@ Stop a specific timer.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-timerid: Stop the timer with its timer id.
-
-- 0 to 4
+``timerid``: Stop the timer with the selected timer id. (There are 5 valid GTimer with timer id 0~4)
 
 **Returns**
 ~~~~~~~~~~~
@@ -114,7 +107,7 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `TimerOneshot <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerOneshot/TimerOneshot.ino>`_, `TimerPeriodical <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerPeriodical/TimerPeriodical.ino>`_
+Example: `TimerPeriodical <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerPeriodical/TimerPeriodical.ino>`_
 
 .. note :: "GTimer.h" must be included to use the class function.
 
@@ -124,25 +117,21 @@ Example: `TimerOneshot <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/de
 **Description**
 ~~~~~~~~~~~~~~~
 
-Reload a specific timer. The GTimer is a countdown timer. Reload it would make it discard the current countdown value and restart countdown based on the duration.
+Reload a specific timer by changing the duration_us. The GTimer is a countdown timer. Reload it would make it discard the current countdown value and restart countdown based on the duration (in us).
 
 **Syntax**
 ~~~~~~~~~~
 
 .. code-block:: c++
 
-    void refresh(uint32_t timerid, uint32_t duration_u);
+    reload(uint32_t timerid, uint32_t duration_us);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-timerid: The timer to be modified with its timer id.
+``timerid``: The timer to be modified. (There are 5 valid GTimer with timer id 0~4)
 
-- 0 to 4
-
-duration_us: The updated duration in unit of microseconds.
-
-- 1 to 10000
+``duration_us``: The updated duration to be set (in us).
 
 **Returns**
 ~~~~~~~~~~~
@@ -152,7 +141,7 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `TimerOneshot <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerOneshot/TimerOneshot.ino>`_, `TimerPeriodical <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerPeriodical/TimerPeriodical.ino>`_
+NA
 
 .. note :: "GTimer.h" must be included to use the class function.
 
@@ -162,30 +151,29 @@ Example: `TimerOneshot <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/de
 **Description**
 ~~~~~~~~~~~~~~~
 
-Read current countdown value.
+Read the current countdown time value (in us).
 
 **Syntax**
 ~~~~~~~~~~
 
 .. code-block:: c++
 
-    void reload(uint32_t timerid, uint32_t duration_us);
+    uint64_t read_us(uint32_t timerid);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-timerid: The timer to be read with its timer id.
+``timerid``: The timer to be read. (There are 5 valid GTimer with timer id 0~4)
 
-- 0 to 4
 
 **Returns**
 ~~~~~~~~~~~
 
-The current countdown value in microseconds.
+This function returns “0” if the timerid is invalid, otherwise, returns the current countdown time value (in us).
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `TimerOneshot <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerOneshot/TimerOneshot.ino>`_, `TimerPeriodical <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerPeriodical/TimerPeriodical.ino>`_
+NA
 
 .. note :: "GTimer.h" must be included to use the class function.
