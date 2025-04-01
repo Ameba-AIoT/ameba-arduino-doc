@@ -19,4 +19,13 @@ API Documents
    NTPClient/index
    OTA/index
    PowerSave/index
+   RTC/index
+   SoftwareSerial/index
+   SPI/index
+   Sys/index
+   USB/index
+   WDT/index
    WiFi/index
+   Wire/index
+   WS2812B/index
+   
