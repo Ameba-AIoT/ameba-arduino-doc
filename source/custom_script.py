@@ -11,43 +11,64 @@ board_mappings_d = {
     , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
     , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI', '_common/ameba_d/Example_Guides/Power Save', '_common/ameba_d/Example_Guides/WiFi', '_common/ameba_d/Example_Guides/HTTP' 
     , '_common/ameba_d/Example_Guides/NTP', '_common/ameba_d/Example_Guides/RTC', '_common/ameba_d/API_Documents/Gtimer', '_common/ameba_d/API_Documents/Http', '_common/ameba_d/API_Documents/IRDevice'
-    , '_common/ameba_d/API_Documents/MDNS', '_common/ameba_d/API_Documents/MQTTClient', '_common/ameba_d/API_Documents/NTPClient', '_common/ameba_d/API_Documents/PowerSave'],
+    , '_common/ameba_d/API_Documents/MDNS', '_common/ameba_d/API_Documents/MQTTClient', '_common/ameba_d/API_Documents/NTPClient', '_common/ameba_d/API_Documents/PowerSave', '_common/ameba_d/API_Documents/RTC'
+    , '_common/ameba_d/API_Documents/SoftwareSerial', '_common/ameba_d/API_Documents/SPI', '_common/ameba_d/API_Documents/Sys', '_common/ameba_d/API_Documents/USB', '_common/ameba_d/API_Documents/WDT'
+    , '_common/ameba_d/API_Documents/Wire', '_common/ameba_d/API_Documents/WS2812B', '_common/ameba_d/Example_Guides/BLE', '_common/ameba_d/Example_Guides/Debugging', '_common/ameba_d/Example_Guides/Flash Memory'
+    , '_common/ameba_d/Example_Guides/GPIO'],
     
     'amb23': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
     , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
     , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI', '_common/ameba_d/Example_Guides/Power Save', '_common/ameba_d/Example_Guides/WiFi', '_common/ameba_d/Example_Guides/HTTP'
     , '_common/ameba_d/Example_Guides/NTP', '_common/ameba_d/Example_Guides/RTC', '_common/ameba_d/API_Documents/Gtimer', '_common/ameba_d/API_Documents/Http', '_common/ameba_d/API_Documents/IRDevice'
-    , '_common/ameba_d/API_Documents/MDNS', '_common/ameba_d/API_Documents/MQTTClient', '_common/ameba_d/API_Documents/NTPClient', '_common/ameba_d/API_Documents/PowerSave'],
+    , '_common/ameba_d/API_Documents/MDNS', '_common/ameba_d/API_Documents/MQTTClient', '_common/ameba_d/API_Documents/NTPClient', '_common/ameba_d/API_Documents/PowerSave', '_common/ameba_d/API_Documents/RTC'
+    , '_common/ameba_d/API_Documents/SoftwareSerial', '_common/ameba_d/API_Documents/SPI', '_common/ameba_d/API_Documents/Sys', '_common/ameba_d/API_Documents/USB', '_common/ameba_d/API_Documents/WDT'
+    , '_common/ameba_d/API_Documents/Wire', '_common/ameba_d/API_Documents/WS2812B', '_common/ameba_d/Example_Guides/BLE', '_common/ameba_d/Example_Guides/Debugging', '_common/ameba_d/Example_Guides/Flash Memory'
+    , '_common/ameba_d/Example_Guides/GPIO'],
     
     'amb25': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
     , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
     , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI', '_common/ameba_d/Example_Guides/Power Save', '_common/ameba_d/Example_Guides/WiFi', '_common/ameba_d/Example_Guides/HTTP'
     , '_common/ameba_d/Example_Guides/NTP', '_common/ameba_d/Example_Guides/RTC', '_common/ameba_d/API_Documents/Gtimer', '_common/ameba_d/API_Documents/Http', '_common/ameba_d/API_Documents/IRDevice'
-    , '_common/ameba_d/API_Documents/MDNS', '_common/ameba_d/API_Documents/MQTTClient', '_common/ameba_d/API_Documents/NTPClient', '_common/ameba_d/API_Documents/PowerSave'],
+    , '_common/ameba_d/API_Documents/MDNS', '_common/ameba_d/API_Documents/MQTTClient', '_common/ameba_d/API_Documents/NTPClient', '_common/ameba_d/API_Documents/PowerSave', '_common/ameba_d/API_Documents/RTC'
+    , '_common/ameba_d/API_Documents/SoftwareSerial', '_common/ameba_d/API_Documents/SPI', '_common/ameba_d/API_Documents/Sys', '_common/ameba_d/API_Documents/USB', '_common/ameba_d/API_Documents/WDT'
+    , '_common/ameba_d/API_Documents/Wire', '_common/ameba_d/API_Documents/WS2812B', '_common/ameba_d/Example_Guides/BLE', '_common/ameba_d/Example_Guides/Debugging', '_common/ameba_d/Example_Guides/Flash Memory'
+    , '_common/ameba_d/Example_Guides/GPIO'],
     
     'amb26': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
     , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
     , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI', '_common/ameba_d/Example_Guides/Power Save', '_common/ameba_d/Example_Guides/WiFi', '_common/ameba_d/Example_Guides/HTTP'
     , '_common/ameba_d/Example_Guides/NTP', '_common/ameba_d/Example_Guides/RTC', '_common/ameba_d/API_Documents/Gtimer', '_common/ameba_d/API_Documents/Http', '_common/ameba_d/API_Documents/IRDevice'
-    , '_common/ameba_d/API_Documents/MDNS', '_common/ameba_d/API_Documents/MQTTClient', '_common/ameba_d/API_Documents/NTPClient', '_common/ameba_d/API_Documents/PowerSave'],
+    , '_common/ameba_d/API_Documents/MDNS', '_common/ameba_d/API_Documents/MQTTClient', '_common/ameba_d/API_Documents/NTPClient', '_common/ameba_d/API_Documents/PowerSave', '_common/ameba_d/API_Documents/RTC'
+    , '_common/ameba_d/API_Documents/SoftwareSerial', '_common/ameba_d/API_Documents/SPI', '_common/ameba_d/API_Documents/Sys', '_common/ameba_d/API_Documents/USB', '_common/ameba_d/API_Documents/WDT'
+    , '_common/ameba_d/API_Documents/Wire', '_common/ameba_d/API_Documents/WS2812B', '_common/ameba_d/Example_Guides/BLE', '_common/ameba_d/Example_Guides/Debugging', '_common/ameba_d/Example_Guides/Flash Memory'
+    , '_common/ameba_d/Example_Guides/GPIO'],
     
     'bw16-typeb': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
     , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
     , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI', '_common/ameba_d/Example_Guides/Power Save', '_common/ameba_d/Example_Guides/WiFi', '_common/ameba_d/Example_Guides/HTTP'
     , '_common/ameba_d/Example_Guides/NTP', '_common/ameba_d/Example_Guides/RTC', '_common/ameba_d/API_Documents/Gtimer', '_common/ameba_d/API_Documents/Http', '_common/ameba_d/API_Documents/IRDevice'
-    , '_common/ameba_d/API_Documents/MDNS', '_common/ameba_d/API_Documents/MQTTClient', '_common/ameba_d/API_Documents/NTPClient', '_common/ameba_d/API_Documents/PowerSave'],
+    , '_common/ameba_d/API_Documents/MDNS', '_common/ameba_d/API_Documents/MQTTClient', '_common/ameba_d/API_Documents/NTPClient', '_common/ameba_d/API_Documents/PowerSave', '_common/ameba_d/API_Documents/RTC'
+    , '_common/ameba_d/API_Documents/SoftwareSerial', '_common/ameba_d/API_Documents/SPI', '_common/ameba_d/API_Documents/Sys', '_common/ameba_d/API_Documents/USB', '_common/ameba_d/API_Documents/WDT'
+    , '_common/ameba_d/API_Documents/Wire', '_common/ameba_d/API_Documents/WS2812B', '_common/ameba_d/Example_Guides/BLE', '_common/ameba_d/Example_Guides/Debugging', '_common/ameba_d/Example_Guides/Flash Memory'
+    , '_common/ameba_d/Example_Guides/GPIO'],
     
     'aw-cu488': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
     , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
     , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI', '_common/ameba_d/Example_Guides/Power Save', '_common/ameba_d/Example_Guides/WiFi', '_common/ameba_d/Example_Guides/HTTP'
     , '_common/ameba_d/Example_Guides/NTP', '_common/ameba_d/Example_Guides/RTC', '_common/ameba_d/API_Documents/Gtimer', '_common/ameba_d/API_Documents/Http', '_common/ameba_d/API_Documents/IRDevice'
-    , '_common/ameba_d/API_Documents/MDNS', '_common/ameba_d/API_Documents/MQTTClient', '_common/ameba_d/API_Documents/NTPClient', '_common/ameba_d/API_Documents/PowerSave'],
+    , '_common/ameba_d/API_Documents/MDNS', '_common/ameba_d/API_Documents/MQTTClient', '_common/ameba_d/API_Documents/NTPClient', '_common/ameba_d/API_Documents/PowerSave', '_common/ameba_d/API_Documents/RTC'
+    , '_common/ameba_d/API_Documents/SoftwareSerial', '_common/ameba_d/API_Documents/SPI', '_common/ameba_d/API_Documents/Sys', '_common/ameba_d/API_Documents/USB', '_common/ameba_d/API_Documents/WDT'
+    , '_common/ameba_d/API_Documents/Wire', '_common/ameba_d/API_Documents/WS2812B', '_common/ameba_d/Example_Guides/BLE', '_common/ameba_d/Example_Guides/Debugging', '_common/ameba_d/Example_Guides/Flash Memory'
+    , '_common/ameba_d/Example_Guides/GPIO'],
     
     'bw16-typec': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
     , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
     , '_common/ameba_d/API_Documents/GPIO', '_common/ameba_d/Example_Guides/SPI', '_common/ameba_d/Example_Guides/Power Save', '_common/ameba_d/Example_Guides/WiFi', '_common/ameba_d/Example_Guides/HTTP'
     , '_common/ameba_d/Example_Guides/NTP', '_common/ameba_d/Example_Guides/RTC', '_common/ameba_d/API_Documents/Gtimer', '_common/ameba_d/API_Documents/Http', '_common/ameba_d/API_Documents/IRDevice'
-    , '_common/ameba_d/API_Documents/MDNS', '_common/ameba_d/API_Documents/MQTTClient', '_common/ameba_d/API_Documents/NTPClient', '_common/ameba_d/API_Documents/PowerSave'],
+    , '_common/ameba_d/API_Documents/MDNS', '_common/ameba_d/API_Documents/MQTTClient', '_common/ameba_d/API_Documents/NTPClient', '_common/ameba_d/API_Documents/PowerSave', '_common/ameba_d/API_Documents/RTC'
+    , '_common/ameba_d/API_Documents/SoftwareSerial', '_common/ameba_d/API_Documents/SPI', '_common/ameba_d/API_Documents/Sys', '_common/ameba_d/API_Documents/USB', '_common/ameba_d/API_Documents/WDT'
+    , '_common/ameba_d/API_Documents/Wire', '_common/ameba_d/API_Documents/WS2812B', '_common/ameba_d/Example_Guides/BLE', '_common/ameba_d/Example_Guides/Debugging', '_common/ameba_d/Example_Guides/Flash Memory'
+    , '_common/ameba_d/Example_Guides/GPIO'],
 }
 
 def create_folder(folder_name):

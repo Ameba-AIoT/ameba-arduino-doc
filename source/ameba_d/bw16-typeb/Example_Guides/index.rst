@@ -5,7 +5,11 @@ Example Guides
    :maxdepth: 2
 
    Basic/index
+   BLE/index
+   Debugging/index
    E-Paper/index
+   Flash Memory/index
+   GPIO/index
    HTTP/index
    NTP/index
    OTA/index
