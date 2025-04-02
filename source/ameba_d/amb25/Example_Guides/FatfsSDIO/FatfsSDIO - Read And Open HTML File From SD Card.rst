@@ -27,15 +27,15 @@ You will see the following display in your browser:
 
 Now you have successfully read and opened the html file saved in your SD card.
 
-.. |image01| image:: ../../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_Read_And_Open_HTML_File_From_SD_Card/image01.png
+.. |image01| image:: ../../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_Read_and_open_HTML_file_from_SD_Card/image01.png
     :width: 1040
     :height: 360
     :scale: 80 %
-.. |image02| image:: ../../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_Read_And_Open_HTML_File_From_SD_Card/image02.png
+.. |image02| image:: ../../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_Read_and_open_HTML_file_from_SD_Card/image02.png
     :width: 1168
     :height: 630
     :scale: 70 %
-.. |image03| image:: ../../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_Read_And_Open_HTML_File_From_SD_Card/image03.png
+.. |image03| image:: ../../../../_static/amebad/Example_Guides/FatfsSDIO/FatfsSDIO_Read_and_open_HTML_file_from_SD_Card/image03.png
     :width: 3895
     :height: 1235
     :scale: 15 %
