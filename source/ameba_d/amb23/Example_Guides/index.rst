@@ -17,5 +17,7 @@ Example Guides
    OTA/index
    Power Save/index
    RTC/index
+   TensorFlow Lite/index
+   USB/index
    SPI/index
    WiFi/index
