@@ -19,9 +19,9 @@ Example
 
 Wiring Diagram:
 
-Connect the accelerometer and LEDs to the AMB26 according to the diagram below.
+Connect the accelerometer and LEDs to the BW16 according to the diagram below.
 
-|image07|
+|image03|
 
 Download the Ameba customized version of TensorFlow Lite for Microcontrollers library at https://github.com/Ameba-AIoT/ameba-arduino-d/blob/master/Arduino_zip_libraries/Ameba_TensorFlowLite.zip.
 
@@ -52,9 +52,9 @@ Code Reference
 
 More information on TensorFlow Lite for Microcontrollers can be found at: https://www.tensorflow.org/lite/microcontrollers
 
-.. |image07| image:: ../../../../_static/amebad/Example_Guides/TensorFlowLite/TensorFlow_Lite_Magic_Wand/image07.png
-   :width: 624
-   :height: 338
+.. |image03| image:: ../../../../_static/amebad/Example_Guides/TensorFlowLite/TensorFlow_Lite_Magic_Wand/image03.png
+   :width: 859
+   :height: 690
    :scale: 100 %
 .. |image08| image:: ../../../../_static/amebad/Example_Guides/TensorFlowLite/TensorFlow_Lite_Magic_Wand/image08.png
    :width: 583
