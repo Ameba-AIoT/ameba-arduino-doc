@@ -1,5 +1,5 @@
 AudioCodec
-==========
+===========
 
 .. toctree::
    :maxdepth: 1
@@ -8,4 +8,3 @@ AudioCodec
    AudioCodec - FFT
    AudioCodec - Input FFT
    AudioCodec - Output Sine Wave
-   AudioCodec - Play and Record Wav Files

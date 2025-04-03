@@ -1,5 +1,5 @@
-Play and Record Wav Files
-=========================
+AudioCodec - Play and Record Wav Files
+========================================
 
 .. contents::
   :local:

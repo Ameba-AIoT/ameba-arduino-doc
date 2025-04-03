@@ -4,6 +4,7 @@ Example Guides
 .. toctree::
    :maxdepth: 2
 
+   AudioCodec/index
    Basic/index
    BLE/index
    Debugging/index
@@ -11,9 +12,11 @@ Example Guides
    Flash Memory/index
    GPIO/index
    HTTP/index
+   IR/index
    NTP/index
    OTA/index
    Power Save/index
    RTC/index
    SPI/index
+   TensorFlow Lite/index
    WiFi/index
