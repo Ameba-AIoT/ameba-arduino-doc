@@ -10,6 +10,8 @@ web-based service to create the applets, or the chains of simple
 conditional statements. The applet is triggered by changes that occur
 within other web services such as Gmail, Facebook, Telegram, Instagram,
 Pinterest etc.
+
+.. note:: IFTTT platforms have transitioned to a paid service model, requiring users to subscribe in order to access their features.
   
 Materials
 ---------
