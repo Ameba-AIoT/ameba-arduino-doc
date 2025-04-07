@@ -23,16 +23,14 @@ Open Object Detection Image example in "File" -> "Examples" -> "AmebaNN" -> "Obj
 
 Select Neural Network (NN) task and models using modelSelect() function highlighted in yellow. This function takes 4 arguments: Neural Network task, Object Detection model, Face Detection model and Face Recognition model. Replace with “NA_MODEL” if they are not necessary for your selected Neural Network task. Note that it is mandatory to call modelSelect() function before calling the begin() function.
 
-Valid Neural Network task: ``OBJECT_DETECTION``, ``FACE_DETECTION``, ``FACE_RECOGNITION``
+Valid Neural Network task: ``OBJECT_DETECTION``
 
 | Valid Object Detection model:
 | YOLOv3 model: ``DEFAULT_YOLOV3TINY``, ``CUSTOMIZED_YOLOV3TINY``
 | YOLOv4 model: ``DEFAULT_YOLOV4TINY``, ``CUSTOMIZED_YOLOV4TINY``
 | YOLOv7 model: ``DEFAULT_YOLOV7TINY``, ``CUSTOMIZED_YOLOV7TINY``
-| Valid Face Detection model: ``DEFAULT_SCRFD``, ``CUSTOMIZED_SCRFD``
-| Valid Face Recognition model: ``DEFAULT_MOBILEFACENET``, ``CUSTOMIZED_MOBILEFACENET``
 
-Choose the customized option (e.g., ``CUSTOMIZED_YOLOV4TINY``/ ``CUSTOMIZED_SCRFD``/ ``CUSTOMIZED_MOBILEFACENET``) if you would like to use your own NN model. To learn about the process of converting an AI model, refer to https://www.amebaiot.com/en/amebapro2-ai-convert-model/ . 
+Choose the customized option (e.g., ``CUSTOMIZED_YOLOV4TINY``/ ``CUSTOMIZED_YOLOV7TINY``) if you would like to use your own NN model. To learn about the process of converting an AI model, refer to https://www.amebaiot.com/en/amebapro2-ai-convert-model/ . 
 
 Additionally, refer to https://www.amebaiot.com/en/amebapro2-apply-ai-model-docs/ to understand how to install and use the converted model.
 
@@ -43,7 +41,7 @@ Additionally, refer to https://www.amebaiot.com/en/amebapro2-apply-ai-model-docs
   under ~/NeuralNetwork/Yolov7_reparam_scripts.
   
   Command to run is: 
-  ``python reparam_yolov7-tiny.py –weights weights/best.pt –custom_yaml custom/yolov7-tiny-deploy.yaml –output best_reparam.pt``
+  ``python reparam_yolov7-tiny.py -weights weights/best.pt -custom_yaml custom/yolov7-tiny-deploy.yaml -output best_reparam.pt``
 
 Next, create a text file named "image_list.txt" or rename it as you wish.
 
