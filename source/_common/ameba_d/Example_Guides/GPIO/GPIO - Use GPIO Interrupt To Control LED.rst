@@ -80,7 +80,7 @@ Open the example, ``“Files” → “Examples” → “AmebaGPIO” → “LE
 
 **AMB26** Wiring Diagram:
 
-|image06|
+|image07|
 
 .. only:: end amb26
 
@@ -147,3 +147,7 @@ In this handler, every time we press and release the button, we trigger an inter
 .. |image06| image:: ../../../../_static/amebad/Example_Guides/GPIO/GPIO_Use_GPIO_Interrupt_to_Control_LED/image06.png
    :width:  594 px
    :height:  630 px
+.. |image07| image:: ../../../../_static/amebad/Example_Guides/GPIO/GPIO_Use_GPIO_Interrupt_to_Control_LED/image07.png
+   :width:  1557 px
+   :height:  864 px
+   :scale: 50%

@@ -100,7 +100,7 @@ Take note that if you are using a DHT sensor that is not mounted on a PCB, you w
 
 **AMB26** Wiring Diagram:
 
-|image10|
+|image12|
 
 .. only:: end amb26
 
@@ -152,3 +152,6 @@ Every time we read the temperature/humidity data, Ameba uses the buffered temper
 .. |image11| image:: ../../../../_static/amebad/Example_Guides/GPIO/GPIO_Measure_Temperature_And_Humidity/image11.png
    :width:  704 px
    :height:  591 px
+.. |image12| image:: ../../../../_static/amebad/Example_Guides/GPIO/GPIO_Measure_Temperature_And_Humidity/image12.png
+   :width:  709 px
+   :height:  645 px

@@ -12,12 +12,21 @@ Example Guides
    FatfsSDIO/index
    Flash Memory/index
    GPIO/index
+   GTimer/index
    HTTP/index
+   I2C/index
+   IPv6/index
+   MDNS/index
+   MQTT/index
    NTP/index
    OTA/index
    Power Save/index
+   PWM/index
    RTC/index
-   TensorFlow Lite/index
-   USB/index
    SPI/index
+   TensorFlow Lite/index
+   UART/index
+   USB/index
+   WDT/index
    WiFi/index
+   WS2812B/index
