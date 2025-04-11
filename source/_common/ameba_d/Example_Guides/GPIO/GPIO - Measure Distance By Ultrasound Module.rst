@@ -85,7 +85,7 @@ Procedure
 
 **AMB26** Wiring Diagram:
 
-|image07|
+|image16|
 
 .. only:: end amb26
 
@@ -144,7 +144,7 @@ If you do not have resistors in hand, you can use a level converter instead. The
 
 **AMB26** Wiring Diagram:
 
-|image13|
+|image17|
 
 .. only:: end amb26
 
@@ -232,3 +232,11 @@ Finally, use the formula to calculate the distance.
 .. |image15| image:: ../../../../_static/amebad/Example_Guides/GPIO/GPIO_Measure_the_Distance_by_Ultrasound_Module/image15.png
    :width:  649 px
    :height:  372 px
+.. |image16| image:: ../../../../_static/amebad/Example_Guides/GPIO/GPIO_Measure_the_Distance_by_Ultrasound_Module/image16.png
+   :width:  1557 px
+   :height:  745 px
+   :scale: 50%
+.. |image17| image:: ../../../../_static/amebad/Example_Guides/GPIO/GPIO_Measure_the_Distance_by_Ultrasound_Module/image17.png
+   :width:  1557 px
+   :height:  744 px
+   :scale: 50%
