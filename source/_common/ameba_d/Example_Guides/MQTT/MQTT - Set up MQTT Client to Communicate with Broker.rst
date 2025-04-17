@@ -140,6 +140,28 @@ Click “CONNECT”. The “hello world” message show up at left side. At righ
 
 |image13|
 
+**MQTT_NonBlocking example**
+
+Open the MQTT example: “File” → “Examples” → “AmebaMQTTClient” → “MQTT_NonBlocking”.
+
+This example demonstrates how to maintain a connection to the MQTT broker using a **non-blocking** reconnect approach. If the connection is lost, the board will attempt to reconnect **every 5 seconds**, without halting the rest of the loop operations.
+
+Please modify some WiFi-related parameter and some information related to MQTT:
+
+|image14|
+
+- All parameters are same as MQTT_Auth example.
+
+Next, compile the code and upload it to Ameba. Press the reset button, then open the serial monitor. After Ameba is connected to MQTT server, it sends the message “hello world” to “outTopic”. To see the message, another MQTT client needs to be set up.
+
+Start the MQTT Explore, and setup the auth connection.  All setting is same as MQTT_Auth example. 
+
+Click “ADVANCED” at bottom for topic setup. Use “outTopic” that same as “publishTopic” of the board. Click “ADD” then “BACK”. 
+
+Click “CONNECT”. The “hello world” message show up at left side. At right side, under “Publish” use “inTopic” same as “sucribeTopic” of the board. Choose “raw” and input “Text hello Ameba”, then click “PUBLISH”. The board will receive the MQTT Explorer published raw message. Then publish it from the board side and MQTT Explorer will receive at the left side. Note, “hello world” sometimes is not shown up because the boards connect to MQTT broker before the MQTT Explorer. 
+
+.. note :: This example uses a **non-blocking reconnect** mechanism. That means the board does not freeze while waiting to reconnect. You can continue performing other tasks inside `loop()` even during disconnection periods.
+
 .. |image01| image:: ../../../../_static/amebad/Example_Guides/MQTT/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image01.png
    :width: 940
    :height: 619
@@ -186,3 +208,7 @@ Click “CONNECT”. The “hello world” message show up at left side. At righ
 .. |image13| image:: ../../../../_static/amebad/Example_Guides/MQTT/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image13.png
    :width: 650
    :height: 199
+.. |image14| image:: ../../../../_static/amebad/Example_Guides/MQTT/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image14.png
+   :width: 1070
+   :height: 1217
+   :scale: 80%

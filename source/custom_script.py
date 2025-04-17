@@ -15,7 +15,8 @@ board_mappings_d = {
     , '_common/ameba_d/API_Documents/SoftwareSerial', '_common/ameba_d/API_Documents/SPI', '_common/ameba_d/API_Documents/Sys', '_common/ameba_d/API_Documents/USB', '_common/ameba_d/API_Documents/WDT'
     , '_common/ameba_d/API_Documents/Wire', '_common/ameba_d/API_Documents/WS2812B', '_common/ameba_d/Example_Guides/BLE', '_common/ameba_d/Example_Guides/Debugging', '_common/ameba_d/Example_Guides/Flash Memory'
     , '_common/ameba_d/Example_Guides/GPIO', '_common/ameba_d/Example_Guides/GTimer', '_common/ameba_d/Example_Guides/I2C', '_common/ameba_d/Example_Guides/IPv6', '_common/ameba_d/Example_Guides/MDNS'
-    , '_common/ameba_d/Example_Guides/MQTT', '_common/ameba_d/Example_Guides/PWM', '_common/ameba_d/Example_Guides/UART', '_common/ameba_d/Example_Guides/WDT', '_common/ameba_d/Example_Guides/WS2812B'],
+    , '_common/ameba_d/Example_Guides/MQTT', '_common/ameba_d/Example_Guides/PWM', '_common/ameba_d/Example_Guides/UART', '_common/ameba_d/Example_Guides/WDT', '_common/ameba_d/Example_Guides/WS2812B'
+    , '_common/ameba_d/Example_Guides/SYS'],
     
     'amb23': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
     , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
@@ -25,7 +26,8 @@ board_mappings_d = {
     , '_common/ameba_d/API_Documents/SoftwareSerial', '_common/ameba_d/API_Documents/SPI', '_common/ameba_d/API_Documents/Sys', '_common/ameba_d/API_Documents/USB', '_common/ameba_d/API_Documents/WDT'
     , '_common/ameba_d/API_Documents/Wire', '_common/ameba_d/API_Documents/WS2812B', '_common/ameba_d/Example_Guides/BLE', '_common/ameba_d/Example_Guides/Debugging', '_common/ameba_d/Example_Guides/Flash Memory'
     , '_common/ameba_d/Example_Guides/GPIO', '_common/ameba_d/Example_Guides/GTimer', '_common/ameba_d/Example_Guides/I2C', '_common/ameba_d/Example_Guides/IPv6', '_common/ameba_d/Example_Guides/MDNS'
-    , '_common/ameba_d/Example_Guides/MQTT', '_common/ameba_d/Example_Guides/PWM', '_common/ameba_d/Example_Guides/UART', '_common/ameba_d/Example_Guides/WDT', '_common/ameba_d/Example_Guides/WS2812B'],
+    , '_common/ameba_d/Example_Guides/MQTT', '_common/ameba_d/Example_Guides/PWM', '_common/ameba_d/Example_Guides/UART', '_common/ameba_d/Example_Guides/WDT', '_common/ameba_d/Example_Guides/WS2812B'
+    , '_common/ameba_d/Example_Guides/SYS'],
     
     'amb25': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
     , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
@@ -35,7 +37,8 @@ board_mappings_d = {
     , '_common/ameba_d/API_Documents/SoftwareSerial', '_common/ameba_d/API_Documents/SPI', '_common/ameba_d/API_Documents/Sys', '_common/ameba_d/API_Documents/USB', '_common/ameba_d/API_Documents/WDT'
     , '_common/ameba_d/API_Documents/Wire', '_common/ameba_d/API_Documents/WS2812B', '_common/ameba_d/Example_Guides/BLE', '_common/ameba_d/Example_Guides/Debugging', '_common/ameba_d/Example_Guides/Flash Memory'
     , '_common/ameba_d/Example_Guides/GPIO', '_common/ameba_d/Example_Guides/GTimer', '_common/ameba_d/Example_Guides/I2C', '_common/ameba_d/Example_Guides/IPv6', '_common/ameba_d/Example_Guides/MDNS'
-    , '_common/ameba_d/Example_Guides/MQTT', '_common/ameba_d/Example_Guides/PWM', '_common/ameba_d/Example_Guides/UART', '_common/ameba_d/Example_Guides/WDT', '_common/ameba_d/Example_Guides/WS2812B'],
+    , '_common/ameba_d/Example_Guides/MQTT', '_common/ameba_d/Example_Guides/PWM', '_common/ameba_d/Example_Guides/UART', '_common/ameba_d/Example_Guides/WDT', '_common/ameba_d/Example_Guides/WS2812B'
+    , '_common/ameba_d/Example_Guides/SYS'],
     
     'amb26': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
     , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
@@ -45,7 +48,8 @@ board_mappings_d = {
     , '_common/ameba_d/API_Documents/SoftwareSerial', '_common/ameba_d/API_Documents/SPI', '_common/ameba_d/API_Documents/Sys', '_common/ameba_d/API_Documents/USB', '_common/ameba_d/API_Documents/WDT'
     , '_common/ameba_d/API_Documents/Wire', '_common/ameba_d/API_Documents/WS2812B', '_common/ameba_d/Example_Guides/BLE', '_common/ameba_d/Example_Guides/Debugging', '_common/ameba_d/Example_Guides/Flash Memory'
     , '_common/ameba_d/Example_Guides/GPIO', '_common/ameba_d/Example_Guides/GTimer', '_common/ameba_d/Example_Guides/I2C', '_common/ameba_d/Example_Guides/IPv6', '_common/ameba_d/Example_Guides/MDNS'
-    , '_common/ameba_d/Example_Guides/MQTT', '_common/ameba_d/Example_Guides/PWM', '_common/ameba_d/Example_Guides/UART', '_common/ameba_d/Example_Guides/WDT', '_common/ameba_d/Example_Guides/WS2812B'],
+    , '_common/ameba_d/Example_Guides/MQTT', '_common/ameba_d/Example_Guides/PWM', '_common/ameba_d/Example_Guides/UART', '_common/ameba_d/Example_Guides/WDT', '_common/ameba_d/Example_Guides/WS2812B'
+    , '_common/ameba_d/Example_Guides/SYS'],
     
     'bw16-typeb': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
     , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
@@ -55,7 +59,8 @@ board_mappings_d = {
     , '_common/ameba_d/API_Documents/SoftwareSerial', '_common/ameba_d/API_Documents/SPI', '_common/ameba_d/API_Documents/Sys', '_common/ameba_d/API_Documents/USB', '_common/ameba_d/API_Documents/WDT'
     , '_common/ameba_d/API_Documents/Wire', '_common/ameba_d/API_Documents/WS2812B', '_common/ameba_d/Example_Guides/BLE', '_common/ameba_d/Example_Guides/Debugging', '_common/ameba_d/Example_Guides/Flash Memory'
     , '_common/ameba_d/Example_Guides/GPIO', '_common/ameba_d/Example_Guides/GTimer', '_common/ameba_d/Example_Guides/I2C', '_common/ameba_d/Example_Guides/IPv6', '_common/ameba_d/Example_Guides/MDNS'
-    , '_common/ameba_d/Example_Guides/MQTT', '_common/ameba_d/Example_Guides/PWM', '_common/ameba_d/Example_Guides/UART', '_common/ameba_d/Example_Guides/WDT', '_common/ameba_d/Example_Guides/WS2812B'],
+    , '_common/ameba_d/Example_Guides/MQTT', '_common/ameba_d/Example_Guides/PWM', '_common/ameba_d/Example_Guides/UART', '_common/ameba_d/Example_Guides/WDT', '_common/ameba_d/Example_Guides/WS2812B'
+    , '_common/ameba_d/Example_Guides/SYS'],
     
     'aw-cu488': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
     , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
@@ -65,7 +70,8 @@ board_mappings_d = {
     , '_common/ameba_d/API_Documents/SoftwareSerial', '_common/ameba_d/API_Documents/SPI', '_common/ameba_d/API_Documents/Sys', '_common/ameba_d/API_Documents/USB', '_common/ameba_d/API_Documents/WDT'
     , '_common/ameba_d/API_Documents/Wire', '_common/ameba_d/API_Documents/WS2812B', '_common/ameba_d/Example_Guides/BLE', '_common/ameba_d/Example_Guides/Debugging', '_common/ameba_d/Example_Guides/Flash Memory'
     , '_common/ameba_d/Example_Guides/GPIO', '_common/ameba_d/Example_Guides/GTimer', '_common/ameba_d/Example_Guides/I2C', '_common/ameba_d/Example_Guides/IPv6', '_common/ameba_d/Example_Guides/MDNS'
-    , '_common/ameba_d/Example_Guides/MQTT', '_common/ameba_d/Example_Guides/PWM', '_common/ameba_d/Example_Guides/UART', '_common/ameba_d/Example_Guides/WDT', '_common/ameba_d/Example_Guides/WS2812B'],
+    , '_common/ameba_d/Example_Guides/MQTT', '_common/ameba_d/Example_Guides/PWM', '_common/ameba_d/Example_Guides/UART', '_common/ameba_d/Example_Guides/WDT', '_common/ameba_d/Example_Guides/WS2812B'
+    , '_common/ameba_d/Example_Guides/SYS'],
     
     'bw16-typec': ['_common/ameba_d/API_Documents/Analog', '_common/ameba_d/API_Documents/AudioCodec'
     , '_common/ameba_d/API_Documents/BLE', '_common/ameba_d/Example_Guides/OTA', '_common/ameba_d/API_Documents/EPDIF', '_common/ameba_d/API_Documents/FatfsSDcard', '_common/ameba_d/API_Documents/FlashMemory'
@@ -75,7 +81,8 @@ board_mappings_d = {
     , '_common/ameba_d/API_Documents/SoftwareSerial', '_common/ameba_d/API_Documents/SPI', '_common/ameba_d/API_Documents/Sys', '_common/ameba_d/API_Documents/USB', '_common/ameba_d/API_Documents/WDT'
     , '_common/ameba_d/API_Documents/Wire', '_common/ameba_d/API_Documents/WS2812B', '_common/ameba_d/Example_Guides/BLE', '_common/ameba_d/Example_Guides/Debugging', '_common/ameba_d/Example_Guides/Flash Memory'
     , '_common/ameba_d/Example_Guides/GPIO', '_common/ameba_d/Example_Guides/GTimer', '_common/ameba_d/Example_Guides/I2C', '_common/ameba_d/Example_Guides/IPv6', '_common/ameba_d/Example_Guides/MDNS'
-    , '_common/ameba_d/Example_Guides/MQTT', '_common/ameba_d/Example_Guides/PWM', '_common/ameba_d/Example_Guides/UART', '_common/ameba_d/Example_Guides/WDT', '_common/ameba_d/Example_Guides/WS2812B'],
+    , '_common/ameba_d/Example_Guides/MQTT', '_common/ameba_d/Example_Guides/PWM', '_common/ameba_d/Example_Guides/UART', '_common/ameba_d/Example_Guides/WDT', '_common/ameba_d/Example_Guides/WS2812B'
+    , '_common/ameba_d/Example_Guides/SYS'],
 }
 
 def create_folder(folder_name):

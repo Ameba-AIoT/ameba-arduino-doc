@@ -23,6 +23,7 @@ Example Guides
    PWM/index
    RTC/index
    SPI/index
+   SYS/index
    TensorFlow Lite/index
    UART/index
    WDT/index
