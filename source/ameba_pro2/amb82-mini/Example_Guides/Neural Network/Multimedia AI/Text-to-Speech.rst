@@ -1,9 +1,14 @@
-Text-to-Speech NTP
-==================
+Text-to-Speech
+==============
 
 .. contents::
   :local:
   :depth: 2
+
+.. note ::
+   |image_3rd_party| "Text-to-Speech" is jointly developed by RTKSG SD3 and `ChungYi Fu (Kaohsiung, Taiwan) <https://github.com/fustyles>`_
+
+   |image_ameba_iot| Special thanks and credits to the efforts and contributions for all developers.
 
 Materials
 ---------
@@ -13,9 +18,9 @@ Materials
 Example 
 -------
 
-In this example, we will be using Ameba Pro2 development board to demonstrate audio time and date report using NTP Client and Google Translate API.
+In this example, we will be using Ameba Pro2 development board to demonstrate text-to-speech application via Google Translate API.
 
-Open Text-to-Speech NTP example in "File" -> "Examples" -> "AmebaNN" -> "MultimediaAI" -> "Text-to-SpeechNTP".
+Open Text-to-Speech example in "File" -> "Examples" -> "AmebaNN" -> "MultimediaAI" -> "Text-to-Speech".
 
 |image01|
 
@@ -23,11 +28,9 @@ In the highlighted code snippet, fill in the "ssid" with your WiFi network SSID 
 
 |image02|
 
-The default ``message`` is set for date reporting. You may modify the ``message`` according to NTP Client API for time reporting.
+Please replace ``message`` with your speech text. You may also change the audio language accordingly. Please refer to the table below for language codes.
 
 |image03|
-
-Compile and upload the code to AMB82-mini. Please refer to the table below for language codes.
 
 **Language Codes**
 
@@ -63,21 +66,21 @@ Resources
 | Google Language Codes
 | https://developers.google.com/admin-sdk/directory/v1/languages
 
-.. |image01| image:: ../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Text-to-Speech_NTP/image01.png
-   :width:  826 px
-   :height:  946 px
+.. |image01| image:: ../../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Text-to-Speech/image01.png
+   :width:  832 px
+   :height:  944 px
 
-.. |image02| image:: ../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Text-to-Speech_NTP/image02.png
-   :width:  839 px
-   :height:  646 px
+.. |image02| image:: ../../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Text-to-Speech/image02.png
+   :width:  1095 px
+   :height:  692 px
 
-.. |image03| image:: ../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Text-to-Speech_NTP/image03.png
-   :width:  729 px
-   :height:  344 px
+.. |image03| image:: ../../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Text-to-Speech/image03.png
+   :width:  737 px
+   :height:  265 px
 
-.. |image_ameba_iot| image:: ../../../../_static/ameba_iot_logo.png
+.. |image_ameba_iot| image:: ../../../../../_static/ameba_iot_logo.png
    :scale: 40%
 
-.. |image_3rd_party| image:: ../../../../_static/3rd_party_logo.png
+.. |image_3rd_party| image:: ../../../../../_static/3rd_party_logo.png
    :scale: 10%
 

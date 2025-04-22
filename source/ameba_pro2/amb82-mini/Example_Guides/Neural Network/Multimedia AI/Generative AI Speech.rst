@@ -147,51 +147,51 @@ Resources
 | Google AI Studio
 | https://ai.google.dev/gemini-api/docs/audio?lang=rest
 
-.. |image01| image:: ../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Speech/image01.png
+.. |image01| image:: ../../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Speech/image01.png
    :width:  909 px
    :height:  961 px
    :scale: 80%
 
-.. |image02| image:: ../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Speech/image02.png
+.. |image02| image:: ../../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Speech/image02.png
    :width:  978 px
    :height:  768 px
    :scale: 80%
 
-.. |image03| image:: ../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Speech/image03.png
+.. |image03| image:: ../../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Speech/image03.png
    :width:  956 px
    :height:  758 px
    :scale: 80%
 
-.. |image04| image:: ../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Speech/image04.png
+.. |image04| image:: ../../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Speech/image04.png
    :width:  960 px
    :height:  321 px
    :scale: 80%
 
-.. |image05| image:: ../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Speech/image05.png
+.. |image05| image:: ../../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Speech/image05.png
    :width:  988 px
    :height:  802 px
    :scale: 80%
 
-.. |image06| image:: ../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Speech/image06.png
+.. |image06| image:: ../../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Speech/image06.png
    :width:  912 px
    :height:  960 px
    :scale: 80%
 
-.. |image07| image:: ../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Speech/image07.png
+.. |image07| image:: ../../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Speech/image07.png
    :width:  755 px
    :height:  169 px
 
-.. |image08| image:: ../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Speech/image08.png
+.. |image08| image:: ../../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Speech/image08.png
    :width:  908 px
    :height:  897 px
    :scale: 80%
 
-.. |image09| image:: ../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Speech/image09.png
+.. |image09| image:: ../../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Speech/image09.png
    :width:  813 px
    :height:  152 px
 
-.. |image_ameba_iot| image:: ../../../../_static/ameba_iot_logo.png
+.. |image_ameba_iot| image:: ../../../../../_static/ameba_iot_logo.png
    :scale: 40%
 
-.. |image_3rd_party| image:: ../../../../_static/3rd_party_logo.png
+.. |image_3rd_party| image:: ../../../../../_static/3rd_party_logo.png
    :scale: 10%
