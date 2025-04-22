@@ -2,19 +2,16 @@ Neural Network
 ==============
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    Audio Classification
    Capture JPEG Face Recognition
    Door Unlock with Face Recognition
    Face Detection
    Face Recognition
-   Generative AI Speech
-   Generative AI Vision
    Image Classification
+   Multimedia AI/index
    Object Detection
    Object Detection Image
    Object Detection results save on SD Card
-   Text-to-Speech NTP
-   Text-to-Speech
    UVCD Object Detection

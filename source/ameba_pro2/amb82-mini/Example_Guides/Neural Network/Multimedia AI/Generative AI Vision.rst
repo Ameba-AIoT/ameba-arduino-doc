@@ -78,24 +78,24 @@ Resources
 | GroqCloud - Llama vision
 | https://console.groq.com/docs/overview
 
-.. |image01| image:: ../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Vision/image01.png
+.. |image01| image:: ../../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Vision/image01.png
    :width:  874 px
    :height:  865 px
 
-.. |image02| image:: ../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Vision/image02.png
+.. |image02| image:: ../../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Vision/image02.png
    :width:  765 px
    :height:  538 px
 
-.. |image03| image:: ../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Vision/image03.png
+.. |image03| image:: ../../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Vision/image03.png
    :width:  644 px
    :height:  318 px
 
-.. |image04| image:: ../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Vision/image04.png
+.. |image04| image:: ../../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Vision/image04.png
    :width:  589 px
    :height:  503 px
 
-.. |image_ameba_iot| image:: ../../../../_static/ameba_iot_logo.png
+.. |image_ameba_iot| image:: ../../../../../_static/ameba_iot_logo.png
    :scale: 40%
 
-.. |image_3rd_party| image:: ../../../../_static/3rd_party_logo.png
+.. |image_3rd_party| image:: ../../../../../_static/3rd_party_logo.png
    :scale: 10%
