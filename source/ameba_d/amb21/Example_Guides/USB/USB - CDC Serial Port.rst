@@ -23,7 +23,6 @@ In this example, the RTL8722 board emulates a CDC ACM virtual COM-port connected
 
 Two USB ports will be used simultaneously, thus two USB cables are required for this example. In addition to the regular USB port used for uploading code, the second USB cable should be connected to the USB OTG port as shown below.
 
-
 For AMB21 / AMB22, a modification needs to be made to enable the USB OTG port. The two zero-ohm resistors in the red box should be resoldered and moved into the green position. This will disable pins 16 and 17 (GPIOA_25 and GPIOA_26) on the pin headers and enable the middle USB port.
 
 |image02|
