@@ -2,7 +2,7 @@ Multimedia AI
 =============
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    Generative AI Speech
    Generative AI Vision

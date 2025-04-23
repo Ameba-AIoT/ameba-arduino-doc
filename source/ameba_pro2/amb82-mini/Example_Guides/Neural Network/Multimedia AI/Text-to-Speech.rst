@@ -13,6 +13,8 @@ Text-to-Speech
 Materials
 ---------
 
+- MicroSD card
+
 - `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
 
 Example 

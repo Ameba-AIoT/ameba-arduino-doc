@@ -69,7 +69,6 @@ https://github.com/waveshare/e-Paper
 [3] Generate a QR code on the E-paper module:
 https://eugeniopace.org/qrcode/arduino/eink/2019/07/01/qrcode-on-arduino.html
 
-
 .. |image05| image:: ../../../../_static/amebad/Example_Guides/E-Paper/Epaper_Display_user_generated_QR_code/image05.png
    :width:  893 px
    :height:  738 px

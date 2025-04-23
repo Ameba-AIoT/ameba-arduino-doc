@@ -12,7 +12,6 @@ Materials
 
 - USB host device [ Windows / Linux / MacOS ]
 
-
 Example
 --------
 

@@ -8,7 +8,6 @@ Example Guides
    AudioCodec/index
    Basic/index
    BLE/index
-   Debugging/index
    E-Paper/index
    Flash Memory/index
    GPIO/index

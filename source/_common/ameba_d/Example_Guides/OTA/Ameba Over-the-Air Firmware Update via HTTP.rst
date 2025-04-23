@@ -8,7 +8,7 @@ Ameba Over-the-Air Firmware Update via HTTP
 Materials
 ---------
 
-- AmebaD [AMB21 / AMB22 / AMB23 / AMB26 / BW16] x 1
+- AmebaD [AMB21 / AMB22 / AMB23 / AMB26 / BW16 / AW-CU488 Thing Plus] x 1
 - Set up of Web UI in a PC
 
 Example
