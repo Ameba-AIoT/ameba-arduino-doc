@@ -62,6 +62,8 @@ A class for data manipulation of files in a file system.
 +---------------------------+------------------------------------------+
 | File::playmp3             | Execute convertMp3TArray.                |
 +---------------------------+------------------------------------------+
+| File::readFile            | Read data according to opened file size  |
++---------------------------+------------------------------------------+
 
 **File::File**
 --------------
@@ -84,7 +86,7 @@ Constructs a File object.
 ~~~~~~~~~~~~~~
 
 filename: pointer to a char array containing the path of the file to open.
-fileType: The macro of the file type defined in AmebaFatFSFile.h to support different opening steps for different types of file.
+fileType: The macro of the file type defined in AmebaFatFSFile.h to support different opening methods for different types of file.
 
 **Returns**
 ~~~~~~~~~~~
@@ -118,6 +120,7 @@ Open a file from the file system.
 ~~~~~~~~~~~~~~
 
 filename: pointer to a char array containing the path of the file to open.
+fileType: The macro of the file type defined in AmebaFatFSFile.h to support different opening methods for different types of file.
 
 **Returns**
 ~~~~~~~~~~~
@@ -178,7 +181,7 @@ Write data to the currently open file.
 
     size_t write(uint8_t c);
     size_t write(const uint8_t* buf, size_t size);
-    size_t write(const char* str;
+    size_t write(const char* str);
     size_t write(const char* buf, size_t size);
 
 **Parameters**
@@ -593,6 +596,40 @@ NA
 ~~~~~~~~~~~
 
 NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
+
+.. note :: "AmebaFatFSFile.h" must be included to use the class function.
+
+**File::readFile**
+------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+Read opened data file according to its file size, malloc is done within API, no pre-definition of fixed size buffer needed.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    bool readFile(unsigned char *file_data, uint32_t &file_size);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+file_data: buffer pointer for the file to be read
+
+file_size: the size of the file to be read
+
+**Returns**
+~~~~~~~~~~~
+
+True if the file data is read successfully, false if failed to read file data.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~

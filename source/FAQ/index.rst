@@ -26,3 +26,7 @@ Ameba FAQ
    ameba-pro2_mipi_connection
 
    gpio_pins_output_voltage
+
+   yolov7_reparameterization
+
+   sensor_replacement
