@@ -105,7 +105,7 @@ There are 2 versions of DHT sensor, one with 4 pins and another one with 3 pins 
 
 .. only:: end aw-cu488 
 
-Download the Eink zip library, AmebaEink.zip, at https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries. Then install the AmebaEink.zip.
+Download the Eink zip library, AmebaEink.zip, at https://github.com/Ameba-AIoT/ameba-arduino-d/tree/master/Arduino_zip_libraries. Then install the AmebaEink.zip.
 
 Open “File” -> “Examples” -> “AmebaPowerSave” -> “DeepSleep_DHT_Eink_Example”
 
