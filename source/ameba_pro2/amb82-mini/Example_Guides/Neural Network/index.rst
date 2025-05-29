@@ -9,6 +9,7 @@ Neural Network
    Door Unlock with Face Recognition
    Face Detection
    Face Recognition
+   Hand Gesture Detection
    Image Classification
    Multimedia AI/index
    Object Detection
