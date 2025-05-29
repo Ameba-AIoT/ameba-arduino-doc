@@ -122,8 +122,16 @@ When the installation is finished, open Arduino IDE. To set up correctly in Ardu
 
 |image05|
 
-And paste the following URL into "Additional Boards Manager URLs" field: https://github.com/ambiot/ambpro2_arduino/raw/main/Arduino_package/package_realtek_amebapro2_index.json
-or https://ameba-doc-arduino-sdk-json.readthedocs-hosted.com/en/latest/_static/package_realtek_amebapro2_early_index_rtd.json
+And paste the following URL into "Additional Boards Manager URLs" field: 
+
++-------------+--------------------------+--------------------------------------------------------------------------------------------------------------------------------+
+| **Branch**  | **Usage**                | **Remarks**                                                                                                                    |
++=============+==========================+================================================================================================================================+
+| ``main``    | stable release           | | https://github.com/Ameba-AIoT/ameba-arduino-pro2/raw/main/Arduino_package/package_realtek_amebapro2_index.json               |
++-------------+--------------------------+--------------------------------------------------------------------------------------------------------------------------------+
+| ``dev``     | merge ``Pull Request``   | | https://github.com/Ameba-AIoT/ameba-arduino-pro2/raw/dev/Arduino_package/package_realtek_amebapro2_early_index.json *OR*     |
+|             | & early release          | | https://ameba-doc-arduino-sdk-json.readthedocs-hosted.com/en/latest/_static/package_realtek_amebapro2_early_index_rtd.json   |
++-------------+--------------------------+--------------------------------------------------------------------------------------------------------------------------------+
 
 Next, go to "Tools" -> "Board" -> "Boards Manager":
 
