@@ -44,7 +44,7 @@ Disconnect power from the Ameba Pro 2 board, remove the SD card and connect it t
 |                                |                                                          |
 |                                | |image04|                                                |
 +--------------------------------+----------------------------------------------------------+
-| RecordMP4AudioOnly             | Single 30 second MP4 file with video only                |
+| RecordMP4VideoOnly             | Single 30 second MP4 file with video only                |
 |                                |                                                          |
 |                                | |image05|                                                |
 +--------------------------------+----------------------------------------------------------+
