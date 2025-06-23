@@ -103,66 +103,66 @@ Code Reference
 --------------
 The AEC algorithm is limited to 8 kHz and 16 kHz sample rates. The strength level of the AEC effect can be adjusted with the second argument of configMicAEC, with 0 being the weakest and 17 being the strongest.
 
-.. |image01| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image01.png
+.. |image01| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image01.png
    :width:  586 px
    :height: 610 px
 
-.. |image01pdm| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image1pdm.png
+.. |image01pdm| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image1pdm.png
    :width:  586 px
    :height:  442 px
 
-.. |image02| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image02.png
+.. |image02| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image02.png
    :width:  768 px
    :height:  832 px
 
-.. |image03| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image03.png
+.. |image03| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image03.png
    :width:  684 px
    :height:  817 px
 
-.. |image04| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image04.png
+.. |image04| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image04.png
    :width:  424 px
    :height: 434 px
 
-.. |image05| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image05.png
+.. |image05| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image05.png
    :width:  530 px
    :height: 391 px
 
-.. |image06| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image06.png
+.. |image06| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image06.png
    :width:  727 px
    :height: 477 px
 
-.. |image07| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image07.png
+.. |image07| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image07.png
    :width:  727 px
    :height: 477 px
 
-.. |image08| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image08.png
+.. |image08| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image08.png
    :width:  727 px
    :height: 477 px
 
-.. |image09| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image09.png
+.. |image09| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image09.png
    :width:  586 px
    :height: 503 px
 
-.. |image10| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image10.png
+.. |image10| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image10.png
    :width:  586 px
    :height: 503 px
 
-.. |image11| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image11.png
+.. |image11| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image11.png
    :width:  586 px
    :height: 503 px
 
-.. |image12| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image12.png
+.. |image12| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image12.png
    :width:  586 px
    :height: 503 px
 
-.. |image13| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image13.png
+.. |image13| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image13.png
    :width:  432 px
    :height: 482 px
 
-.. |image14| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image14.png
+.. |image14| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image14.png
    :width:  728 px
    :height: 564 px
 
-.. |image15| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image15.png
+.. |image15| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Echo_Cancellation/image15.png
    :width:  989 px
    :height: 492 px

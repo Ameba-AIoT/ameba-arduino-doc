@@ -59,42 +59,42 @@ On top of that, when there’s motion detected, the green LED will light up and 
 
 |image10|
 
-.. |image01| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_Masking_with_MP4_Recording/image01.png
+.. |image01| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_Masking_with_MP4_Recording/image01.png
    :width:  782 px
    :height: 549 px
 
-.. |image02| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_Masking_with_MP4_Recording/image02.png
+.. |image02| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_Masking_with_MP4_Recording/image02.png
    :width:  889 px
    :height: 984 px
 
-.. |image03| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_Masking_with_MP4_Recording/image03.png
+.. |image03| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_Masking_with_MP4_Recording/image03.png
    :width:  889 px
    :height: 984 px
 
-.. |image04| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_Masking_with_MP4_Recording/image04.png
+.. |image04| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_Masking_with_MP4_Recording/image04.png
    :width:  755 px
    :height: 800 px
 
-.. |image05| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_Masking_with_MP4_Recording/image05.png
+.. |image05| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_Masking_with_MP4_Recording/image05.png
    :width:  755 px
    :height: 800 px
 
-.. |image06| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_Masking_with_MP4_Recording/image06.png
+.. |image06| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_Masking_with_MP4_Recording/image06.png
    :width:  432 px
    :height: 482 px
    
-.. |image07| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_Masking_with_MP4_Recording/image07.png
+.. |image07| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_Masking_with_MP4_Recording/image07.png
    :width:  633 px
    :height: 594 px
 
-.. |image08| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_Masking_with_MP4_Recording/image08.png
+.. |image08| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_Masking_with_MP4_Recording/image08.png
    :width:  954 px
    :height: 639 px
 
-.. |image09| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_Masking_with_MP4_Recording/image09.png
+.. |image09| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_Masking_with_MP4_Recording/image09.png
    :width:  1000 px
    :height: 700 px
 
-.. |image10| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_Masking_with_MP4_Recording/image10.png
+.. |image10| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_Masking_with_MP4_Recording/image10.png
    :width:   1085 px
    :height:  725 px

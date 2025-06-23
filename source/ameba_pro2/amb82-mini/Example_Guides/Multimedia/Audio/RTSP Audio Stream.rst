@@ -40,18 +40,18 @@ Code Reference
 --------------
 The code can be modified to use the G.711 audio codec (PCMU/PCMA) instead of the default AAC. The G.711 audio codec is optimized for human speech and can maintain the clarity and understandability of spoken speech while reducing the data bandwidth needed.
 
-.. |image01| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/RTSP_Audio_Stream/image01.png
+.. |image01| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/RTSP_Audio_Stream/image01.png
    :width:  960 px
    :height:  1040 px
 
-.. |image02| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/RTSP_Audio_Stream/image02.png
+.. |image02| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/RTSP_Audio_Stream/image02.png
    :width:  684 px
    :height:  817 px
 
-.. |image03| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/RTSP_Audio_Stream/image03.png
+.. |image03| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/RTSP_Audio_Stream/image03.png
    :width:  432 px
    :height:  482 px
 
-.. |image04| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/RTSP_Audio_Stream/image04.png
+.. |image04| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/RTSP_Audio_Stream/image04.png
    :width:  728 px
    :height: 564 px
