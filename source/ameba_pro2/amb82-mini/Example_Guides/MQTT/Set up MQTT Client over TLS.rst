@@ -13,7 +13,7 @@ Materials
 Example
 -------
 
-In this example, Ameba connect to a MQTT broker using TLS authentication. Then send messages as a publisher and receive messages as a subscriber.
+In this example, Ameba connect to a MQTT broker using TLS authentication. Then, send messages as a publisher and receive messages as a subscriber.
 
 Open example at “File” -> “Examples” -> “AmebaMQTTClient” -> “MQTT_TLS”
 
