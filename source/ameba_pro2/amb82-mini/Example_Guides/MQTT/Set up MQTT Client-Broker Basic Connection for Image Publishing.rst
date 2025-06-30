@@ -73,7 +73,10 @@ Subscribe to "outTopic/Msg" and "outTopic/Img", while the publish topic is set t
 Next, compile and upload the example code to Ameba. After Ameba is connected to MQTT server,
 it publishes the message “hello world” to “outTopic/Msg” and an image to "outTopic/Img".
 
-.. note :: You may redefine the topics for your own message and image publishing
+.. note :: 
+   You may redefine the topics for your own message and image publishing 
+
+   Please select 圖片 (image) when choosing 儀表板 (dashboard type) for image topic
 
 .. |image01| image:: ../../../../_static/amebapro2/Example_Guides/MQTT/Set_up_Client/image01.png
    :width:  940 px
