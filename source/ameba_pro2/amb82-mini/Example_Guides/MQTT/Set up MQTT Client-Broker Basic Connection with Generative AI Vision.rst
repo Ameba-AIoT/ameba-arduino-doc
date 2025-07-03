@@ -1,5 +1,5 @@
-Generative AI Vision with MQTT
-==============================
+Set up MQTT Client-Broker Basic Connection with Generative AI Vision
+====================================================================
 
 .. contents::
   :local:

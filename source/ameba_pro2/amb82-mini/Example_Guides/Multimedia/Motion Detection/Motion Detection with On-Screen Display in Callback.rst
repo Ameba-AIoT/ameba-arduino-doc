@@ -1,5 +1,5 @@
-Motion Detection with On-Screen Display
-=======================================
+Motion Detection with On-Screen Display in Callback
+===================================================
 
 .. contents::
   :local:
@@ -14,12 +14,9 @@ Example
 -------
 In this example, we will be using Ameba Pro2 development board to detect motion and highlight it on a RTSP video stream. Motion Detection is achieved by comparing the RGB information of each image frame captured from the on-board camera sensor (JX-F37P).
 
-The following examples shows how Motion Detection and the On-Screen Display is used. The main difference between the two examples is where the Motion Detection results are processed. “CallbackPostProcessing” uses a callback function, while “LoopPostProcessing” deals with the results in the loop function.
+The following example shows how Motion Detection and the On-Screen Display is used, where the Motion Detection results are processed using a callback function.
 
-1. LoopPostProcessing
-2. CallbackPostProcessing
-
-Open one of the Motion Detection examples in “File” -> “Example” -> “AmebaMultimedia” -> “MotionDetection” -> “LoopPostProcessing”.
+Open one of the Motion Detection examples in “File” -> “Example” -> “AmebaMultimedia” -> “MotionDetection” -> “CallbackPostProcessing”.
 
 |image01|
 
@@ -53,30 +50,30 @@ You may adjust the video bitrate based on your WiFi network quality, by uncommen
 
 |image07|
 
-.. |image01| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_with_On-Screen_Display/image01.png
+.. |image01| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_with_On-Screen_Display/image01.png
    :width:  960 px
    :height:  1040 px
 
-.. |image02| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_with_On-Screen_Display/image02.png
+.. |image02| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_with_On-Screen_Display/image02.png
    :width:  746 px
    :height:  832 px
 
-.. |image03| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_with_On-Screen_Display/image03.png
+.. |image03| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_with_On-Screen_Display/image03.png
    :width:  642 px
    :height:  393 px
 
-.. |image04| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_with_On-Screen_Display/image04.png
+.. |image04| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_with_On-Screen_Display/image04.png
    :width:  432 px
    :height:  482 px
 
-.. |image05| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_with_On-Screen_Display/image05.png
+.. |image05| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_with_On-Screen_Display/image05.png
    :width:  530 px
    :height:  520 px
 
-.. |image06| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_with_On-Screen_Display/image06.png
+.. |image06| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_with_On-Screen_Display/image06.png
    :width:  1256 px
    :height:  894 px
    
-.. |image07| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_with_On-Screen_Display/image07.png
+.. |image07| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_with_On-Screen_Display/image07.png
    :width:  750 px
    :height:  822 px

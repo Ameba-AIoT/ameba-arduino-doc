@@ -69,50 +69,50 @@ In the next window, click on the stream button, and VLC will begin streaming the
 
 Plug in a pair of wired earbuds into the audio jack, and you should hear the audio streamed from the computer. You can use the buttons in VLC to control the playback.
 
-.. |image01| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image01.png
+.. |image01| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image01.png
    :width:  732 px
    :height:  763 px
 
-.. |image02| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image02.png
+.. |image02| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image02.png
    :width:  960 px
    :height:  1040 px
 
-.. |image03| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image03.png
+.. |image03| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image03.png
    :width:  684 px
    :height:  817 px
 
-.. |image04| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image04.png
+.. |image04| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image04.png
    :width:  424 px
    :height: 434 px
 
-.. |image05| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image05.png
+.. |image05| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image05.png
    :width:  530 px
    :height: 391 px
 
-.. |image06| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image06.png
+.. |image06| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image06.png
    :width:  727 px
    :height: 477 px
 
-.. |image07| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image07.png
+.. |image07| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image07.png
    :width:  727 px
    :height: 477 px
 
-.. |image08| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image08.png
+.. |image08| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image08.png
    :width:  727 px
    :height: 477 px
 
-.. |image09| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image09.png
+.. |image09| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image09.png
    :width:  586 px
    :height: 503 px
 
-.. |image10| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image10.png
+.. |image10| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image10.png
    :width:  586 px
    :height: 503 px
 
-.. |image11| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image11.png
+.. |image11| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image11.png
    :width:  586 px
    :height: 503 px
 
-.. |image12| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image12.png
+.. |image12| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/RTP_Audio_Stream/image12.png
    :width:  586 px
    :height: 503 px

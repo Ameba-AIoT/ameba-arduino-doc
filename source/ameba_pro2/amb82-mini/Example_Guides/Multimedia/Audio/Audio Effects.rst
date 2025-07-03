@@ -48,22 +48,22 @@ The NS algorithm can reduce the loudness of background noise and is able to sign
 
 The AGC algorithm can dynamically adjust the gain and sensitivity to maintain the audio signal at a target loudness level. The target reference level of the AGC can be adjusted with the second argument of configMicAGC and configSpkAGC, with 0 representing 0 dBFS the loudest level, and 30 representing -30 dBFS the softest level.
 
-.. |image01| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Audio_Effects/image01.png
+.. |image01| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Audio_Effects/image01.png
    :width:  614 px
    :height:  488 px
 
-.. |image02| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Audio_Effects/image02.png
+.. |image02| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Audio_Effects/image02.png
    :width:  770 px
    :height:  427 px
 
-.. |image03| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Audio_Effects/image03.png
+.. |image03| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Audio_Effects/image03.png
    :width:  768 px
    :height:  832 px
 
-.. |image04| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Audio_Effects/image04.png
+.. |image04| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Audio_Effects/image04.png
    :width:  684 px
    :height:  817 px
 
-.. |image05| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Audio_Effects/image05.png
+.. |image05| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Audio_Effects/image05.png
    :width:  684 px
    :height:  817 px
