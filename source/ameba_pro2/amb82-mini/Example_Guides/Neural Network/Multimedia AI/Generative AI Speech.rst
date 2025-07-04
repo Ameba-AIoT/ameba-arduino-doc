@@ -61,6 +61,8 @@ Press button for 2s and wait for the green LED to light up, then speak into the 
 
 Transcription or translation of the audio file will be printed out on serial monitor.
 
+.. note :: Please take note that the mp4 recording file will be saved in SD card for this example
+
 GenAISpeech_Gemini
 ~~~~~~~~~~~~~~~~~~
 
@@ -85,6 +87,8 @@ Open the serial monitor to view the logs.
 Press button once, recording will start after 3 seconds of blue LED blinking, then speak into the microphone within the pre-defined recording duration.
 
 Response from Gemini will be printed out on serial monitor.
+
+.. note :: Please take note that the mp4 recording file will not be saved in SD card for this example
 
 GenAISpeech_Gemini_LEDControl
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -112,6 +116,7 @@ The green LED will be on subsequently.
 
 You may try the vice versa as well.
 
+.. note :: Please take note that the mp4 recording file will not be saved in SD card for this example
 
 Online LLM Models
 -----------------
