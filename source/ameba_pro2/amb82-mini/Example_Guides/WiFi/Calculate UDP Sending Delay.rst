@@ -22,7 +22,7 @@ the UDP sending delay.
 
 -  Connect the computer to the network.
 
--  Download the "SendDelay_win.exe" from https://github.com/ambiot/ambpro2_arduino
+-  Download the "SendDelay_win.exe" from `link <https://github.com/Ameba-AIoT/ameba-arduino-pro2/>`_
    "Ameba_misc/Example_Tools/UDP_Calculate".
 
 -  Open terminal.
