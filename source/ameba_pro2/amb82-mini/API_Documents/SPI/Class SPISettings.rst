@@ -120,6 +120,16 @@ A class of SPI implementation for Ameba.
 +---------------------------------+------------------------------------------+
 | SPIClass::end                   | Stop SPI master mode                     |
 +---------------------------------+------------------------------------------+
+| SPIClass::slaveRead             | Slave receive one frame use SPI          |
++---------------------------------+------------------------------------------+
+| SPIClass::slaveWrite            | Slave send one frame use SPI             |
++---------------------------------+------------------------------------------+
+| SPIClass::masterWrite           | Master send one frame use SPI            |
++---------------------------------+------------------------------------------+
+| SPIClass::pSpiMaster            | Pointer of SPI master project            |
++---------------------------------+------------------------------------------+
+| SPIClass::pSpiSlave             | Pointer of SPI slave project             |
++---------------------------------+------------------------------------------+
 
 **SPIClass::SPIClass**
 ----------------------
@@ -519,3 +529,166 @@ NA
 NA
 
 .. note :: After calling end(), you need to use begin() again to enable SPI function. "SPI.h" must be included to use the class function.
+
+**SPIClass::slaveRead**
+-----------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+This function retrieves data from receive buffer as slave. Slave receive one frame use SPI.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    int slaveRead(void);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+NA
+
+**Returns**
+~~~~~~~~~~~
+
+This function returns the data received from master.
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
+
+.. note :: "SPI.h" must be included to use the class function.
+
+**SPIClass::slaveWrite**
+-----------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+This function use slave send one frame use SPI.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    void slaveWrite(int value);
+    void slaveWrite(spi_t *pSpiObj, int value);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+value: the data to transmit
+
+pSpiObj: spi slave object define in application software
+
+**Returns**
+~~~~~~~~~~~
+
+NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
+
+.. note :: "SPI.h" must be included to use the class function.
+
+**SPIClass::masterWrite**
+-----------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+This function use master send one frame use SPI.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    int masterWrite(int value);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+value: the data to transmit
+
+**Returns**
+~~~~~~~~~~~
+
+This function returns the data received from slave.
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
+
+.. note :: "SPI.h" must be included to use the class function.
+
+**SPIClass::pSpiMaster**
+-----------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+It is a pointer of SPI master project.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    spi_t *pSpiMaster;
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+NA
+
+**Returns**
+~~~~~~~~~~~
+
+NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
+
+.. note :: "SPI.h" must be included to use the class function.
+
+**SPIClass::pSpiMaster**
+-----------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+It is a pointer of SPI slave project.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    spi_t *pSpiSlave;
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+NA
+
+**Returns**
+~~~~~~~~~~~
+
+NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
+
+.. note :: "SPI.h" must be included to use the class function.

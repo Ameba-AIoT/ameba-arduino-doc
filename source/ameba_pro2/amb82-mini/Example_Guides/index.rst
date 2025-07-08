@@ -26,3 +26,4 @@ Example Guides
    USB/index
    Watchdog/index
    WiFi/index
+   WS2812B/index

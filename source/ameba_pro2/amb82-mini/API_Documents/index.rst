@@ -22,3 +22,4 @@ API Documents
    Watchdog/index
    WiFi/index
    Wire/index
+   WS2812B/index

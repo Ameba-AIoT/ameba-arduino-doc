@@ -19,7 +19,7 @@ Example
 
 In this example, we will be using the AmebaD board to control the WS2812B RGB LED, using the SPI peripheral to create the waveform necessary for the LEDs. 
 
-WS2812B basics allows you to control a single LED with a color or fill all the LED with the same color.
+WS2812B patterns controls LED (Strip / Ring / Stick / Board) with different colors with different LED patterns.
 
 Procedure
 -----------
