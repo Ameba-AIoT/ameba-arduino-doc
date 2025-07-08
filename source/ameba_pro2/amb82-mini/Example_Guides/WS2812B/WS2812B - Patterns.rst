@@ -63,7 +63,7 @@ Code Reference
    :width: 2724
    :height: 536
    :scale: 30%
-.. |imag04| image:: ../../../../_static/amebapro2/Example_Guides/WS2812B/WS2812B_Patterns/image04.png
+.. |image04| image:: ../../../../_static/amebapro2/Example_Guides/WS2812B/WS2812B_Patterns/image04.png
    :width: 2300
    :height: 528
    :scale: 30%
