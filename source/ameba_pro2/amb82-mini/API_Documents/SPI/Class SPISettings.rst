@@ -531,7 +531,7 @@ NA
 .. note :: After calling end(), you need to use begin() again to enable SPI function. "SPI.h" must be included to use the class function.
 
 **SPIClass::slaveRead**
------------------
+-----------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -563,7 +563,7 @@ NA
 .. note :: "SPI.h" must be included to use the class function.
 
 **SPIClass::slaveWrite**
------------------
+------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -598,7 +598,7 @@ NA
 .. note :: "SPI.h" must be included to use the class function.
 
 **SPIClass::masterWrite**
------------------
+-------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -630,7 +630,7 @@ NA
 .. note :: "SPI.h" must be included to use the class function.
 
 **SPIClass::pSpiMaster**
------------------
+------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -662,7 +662,7 @@ NA
 .. note :: "SPI.h" must be included to use the class function.
 
 **SPIClass::pSpiMaster**
------------------
+------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
