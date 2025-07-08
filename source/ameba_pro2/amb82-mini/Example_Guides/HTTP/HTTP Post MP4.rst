@@ -43,6 +43,10 @@ Compile and run the code.
 
 Set up the http server by locating the python script called “whisper_llm_server.py” in src folder. Go to command prompt and go to the src folder and execute this command: python3 whisper_llm_server.py. Follow the readme in the python script.
 
+The files are located in the libraries/Http/src directory. You will need to navigate to this folder before running the Python command as shown in the example.
+
+|image04|
+
 Press the push button for 2s to trigger the recording. Speak into the microphone to ask the AI. This should be the expected output on the terminal that was running the python script. Please note that if you are
 to use a more powerful model such as MediaTek 7B model, you will need a
 PC with a powerful GPU to test. Purely CPU will not be able to run that
@@ -50,7 +54,7 @@ model.
 
 Please note that this server can only be run on Linux OS. Mac OS and Windows have not been supported yet.
 
-|image04|
+|image05|
 
 .. |image01| image:: ../../../../_static/amebapro2/Example_Guides/HTTP/HTTP_Post_MP4/image01.png
    :width: 722 px
@@ -62,5 +66,8 @@ Please note that this server can only be run on Linux OS. Mac OS and Windows hav
    :width: 1032 px
    :height: 645 px
 .. |image04| image:: ../../../../_static/amebapro2/Example_Guides/HTTP/HTTP_Post_MP4/image04.png
+   :width: 1082 px
+   :height: 482 px
+.. |image05| image:: ../../../../_static/amebapro2/Example_Guides/HTTP/HTTP_Post_MP4/image05.png
    :width: 1157 px
    :height: 234 px

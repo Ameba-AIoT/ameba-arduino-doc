@@ -31,6 +31,10 @@ Compile and run the example.
 
 Set up the HTTP server by locating the python script called whisper_server_test_2_endpoints.py. Go to command prompt and go to the src folder. Execute this command python3 whisper_server_test_2_endpoints.py.
 
+The files are located in the libraries/Http/src directory. You will need to navigate to this folder before running the Python command as shown in the example.
+
+|image03|
+
 Please note that this server can only be run on Linux OS. Mac OS and Windows have not been supported yet.
 
 Press button for 2s when you wish to take a snapshot and speak into the mic for the prompt to ask the Visual Language Model (VLM).
@@ -44,3 +48,7 @@ If the HTTP Post image and audio file is successful, the image and audio file wi
 .. |image02| image:: ../../../../_static/amebapro2/Example_Guides/HTTP/HTTP_Post_Image_and_MP4/image02.png
    :width: 988 px
    :height: 802 px
+
+.. |image03| image:: ../../../../_static/amebapro2/Example_Guides/HTTP/HTTP_Post_Image_and_MP4/image03.png
+   :width: 1082 px
+   :height: 482 px
