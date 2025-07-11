@@ -76,7 +76,7 @@ Click “Advanced” -> “Go to amb82-doPost_test (unsafe)” that allows the G
 
 **2. Set up Line Notify**
 
-Line Notify is a notification service that allows users to receive notification messages from various sources such as websites, applications, devices, or other online services through the Line app. There are 2 methods of linking your Google Script to your Line Notify, which are Google Script and IFTTT. In this article, we will mainly use IFTTT since it allows you to directly view the image in Line Notify. While the Google Script only provided an URL link of the image on the other hand. To understand the details of how to set up the IFTTT Applet, please refer to the link.
+Line Notify is a notification service that allows users to receive notification messages from various sources such as websites, applications, devices, or other online services through the Line app. There are 2 methods of linking your Google Script to your Line Notify, which are Google Script and IFTTT. In this article, we will mainly use IFTTT since it allows you to directly view the image in Line Notify. While the Google Script only provided an URL link of the image on the other hand. To understand the details of how to set up the IFTTT Applet, please refer to the `link <https://ifttt.com/explore/applets>`_.
 
 In this example, to receive a notification in Line Notify when the photo of motion detected is being uploaded to Google Drive, you need to set up an IFTTT Applet using “New photo in Google Drive” as input and “Send message in Line Notify” as output. The IFTTT Applet allows you to log in with your Google or Line account.
 
