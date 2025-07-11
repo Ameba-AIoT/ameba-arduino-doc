@@ -23,7 +23,7 @@ Please modify "ssid" and "pass" according to your WiFi network SSID and password
 
 |image02|
 
-Create your API key and paste it in the following section. Please refer to `GenAIVision Example <https://ameba-arduino-doc.readthedocs.io/en/latest/amebapro2/Example_Guides/Neural%20Network/Generative%20AI%20Vision.html>`_ for more details on creating API.
+Create your API key and paste it in the following section. Please refer to `GenAIVision Example <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_pro2/amb82-mini/Example_Guides/Neural%20Network/Multimedia%20AI/Generative%20AI%20Vision.html>`_ for more details on creating API.
 
 |image03|
 
