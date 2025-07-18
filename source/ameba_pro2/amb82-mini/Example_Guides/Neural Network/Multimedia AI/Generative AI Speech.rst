@@ -147,7 +147,7 @@ Resources
 | https://platform.openai.com/docs/guides/speech-to-text
 
 | GroqCloud 
-| https://console.groq.com/docs/speech-text
+| https://console.groq.com/docs/speech-to-text
 
 | Google AI Studio
 | https://ai.google.dev/gemini-api/docs/audio?lang=rest
