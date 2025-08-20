@@ -31,7 +31,7 @@ Open the example in "File" -> "Examples" -> "AmebaWire" -> "VL53L5CX" -> "SetFre
 
 |image02|
 
-The frequency can be modified in the highlighed code. 
+The frequency can be modified in the highlighted code. 
 
 |image03|
 
