@@ -14,3 +14,11 @@ I2C
    OLED Display
    Retrieve Data from VL53L0X IR sensor
    Scan I2C devices
+   VL53L5CX Thumb Detection
+   VL53L5CX sensor Hand Presence Detection
+   VL53L5CX AdvancedI2C
+   VL53L5CX Advanced Settings
+   VL53L5CX Distance Array
+   VL53L5CX Fast Startup
+   VL53L5CX Set Address
+   VL53L5CX Set Frequency
