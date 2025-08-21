@@ -43,8 +43,6 @@ Ameba FAQ
 
    supported_file_system
 
-   import_models
-
    max_throughput_80211n
    
    run_multiple_models
