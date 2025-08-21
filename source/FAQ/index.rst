@@ -30,3 +30,19 @@ Ameba FAQ
    yolov7_reparameterization
 
    sensor_replacement
+
+   ameba-pro2_ae_awb_af
+
+   adjust_image_parameter
+
+   day_night_detection
+
+   sd_card_capacity
+
+   sdio_achievable_data_throughput
+
+   supported_file_system
+
+   import_models
+
+   max_throughput_80211n
