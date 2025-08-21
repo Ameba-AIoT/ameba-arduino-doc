@@ -46,3 +46,5 @@ Ameba FAQ
    import_models
 
    max_throughput_80211n
+   
+   run_multiple_models
