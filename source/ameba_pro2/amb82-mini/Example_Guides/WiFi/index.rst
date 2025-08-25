@@ -10,6 +10,8 @@ WiFi
    Concurrent Mode
    Connect to WiFi
    Create WiFi AP
+   IPv6 - Ameba as IPv6 Server Client over TCP
+   IPv6 - Ameba as IPv6 Server Client over UDP
    Scan Networks
    Simple Http Request to Retrieve Webs
    Simple Http Server to Control LED
