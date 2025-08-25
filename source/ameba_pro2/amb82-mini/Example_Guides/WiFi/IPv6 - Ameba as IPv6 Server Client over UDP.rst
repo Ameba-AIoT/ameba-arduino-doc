@@ -83,6 +83,6 @@ Open Serial Monitor on the port to the second AMB82 Mini, you should see server 
 .. |image07| image:: ../../../../_static/amebapro2/Example_Guides/WiFi/IPv6_Ameba_as_IPv6_Server_Client_over_UDP/image07.png
    :width: 429
    :height: 478
-.. |image08| image:: ../../../../_static/amebapro2/Example_Guides/WiFi/IPv6_Ameba_As_IPv6_Server_Client_Over_UDP/image08.png
+.. |image08| image:: ../../../../_static/amebapro2/Example_Guides/WiFi/IPv6_Ameba_as_IPv6_Server_Client_over_UDP/image08.png
    :width: 478
    :height: 580
