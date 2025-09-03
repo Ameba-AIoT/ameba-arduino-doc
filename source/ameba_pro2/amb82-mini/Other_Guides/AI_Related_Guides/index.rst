@@ -6,3 +6,4 @@ AI Related Guides
 
    Customized AI Model Installation Guide
    Online AI Model Conversion Guide
+   Offline AI Model Conversion Guide
