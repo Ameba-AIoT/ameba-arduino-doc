@@ -44,5 +44,7 @@ Ameba FAQ
    supported_file_system
 
    max_throughput_80211n
-   
+
    run_multiple_models
+
+   amb82-mini_flash_layout
