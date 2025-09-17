@@ -48,3 +48,5 @@ Ameba FAQ
    run_multiple_models
 
    amb82-mini_flash_layout
+
+   offline_ai_model_conversion_steps
