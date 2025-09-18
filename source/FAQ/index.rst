@@ -50,3 +50,5 @@ Ameba FAQ
    amb82-mini_flash_layout
 
    offline_ai_model_conversion_steps
+   
+   otp_logical_rw
