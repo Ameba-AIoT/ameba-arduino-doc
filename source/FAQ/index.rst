@@ -52,3 +52,5 @@ Ameba FAQ
    offline_ai_model_conversion_steps
    
    otp_logical_rw
+
+   logs_enable_disable_options
