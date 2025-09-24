@@ -9,7 +9,7 @@ Yes, it is possible.
 
 Navigate to "Tools" -> "[Logs] Multimedia".
 
-ìTo view only video logs, select **Video/OSD logs only**. Otherwise, choose Disable all (Soft Mute) to turn off all logs.î
+‚ÄúTo view only video logs, select **Video/OSD logs only**. Otherwise, choose Disable all (Soft Mute) to turn off all logs.‚Äù
 
 |image01|
 
