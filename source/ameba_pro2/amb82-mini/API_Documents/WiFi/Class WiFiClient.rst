@@ -63,6 +63,11 @@ A class of WiFi Client implementation for Ameba.
 |                              | will wait for new data to arrive each |
 |                              | time WiFiClient::read() is called.    |
 +------------------------------+---------------------------------------+
+| WiFiClient::setBlockingMode  | Set WiFi Client to blocking mode.     |
++------------------------------+---------------------------------------+
+| WiFiClient::                 | Set WiFi Client to non-blocking mode. |
+| setNonBlocking Mode          |                                       |
++------------------------------+---------------------------------------+
 
 **WiFiClient::WiFiClient**
 --------------------------
@@ -79,11 +84,19 @@ Constructs a WiFiClient instance that connects to a specified IP address and por
 
     WiFiClient(void);
     WiFiClient(uint8_t sock);
+    WiFiClient(tPortMode portMode);
+    WiFiClient(tBlockingMode blockMode);
+    WiFiClient(uint8_t sock, tPortMode portMode);
+    WiFiClient(uint8_t sock, tPortMode portMode, tBlockingMode blockMode);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
 sock: socket state
+
+portMode: 0-TCP_MODE, 1-UDP_MODE
+
+blockMode: 0-BLOCKING_MODE, 1-NON_BLOCKING_MODE
 
 **Returns**
 ~~~~~~~~~~~
@@ -432,3 +445,63 @@ This function returns "0" if client is not connected.
 NA
 
 .. note :: "WiFiClient.h" must be included to use the class function.
+
+**WiFiClient::setBlockingMode**
+-------------------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+Set WiFi Client to blocking mode.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    void setBlockingMode(void);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+NA
+
+**Returns**
+~~~~~~~~~~~
+
+NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
+
+**WiFiClient::setNonBlockingMode**
+----------------------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+Set WiFi Client to non-blocking mode.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    void setNonBlockingMode(void);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+NA
+
+**Returns**
+~~~~~~~~~~~
+
+NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA

@@ -106,7 +106,6 @@ Connect to the IP address and port.
 
     virtual int connect(IPAddress ip, uint16_t port);
     virtual int connect(const char *host, uint16_t port);
-    virtual uint8_t connected(void);
     int connect(const char *host, uint16_t port, unsigned char *rootCABuff, unsigned char *cli_cert, unsigned char *cli_key);
     int connect(IPAddress ip, uint16_t port, unsigned char *rootCABuff, unsigned char *cli_cert, unsigned char *cli_key);
     int connect(const char *host, uint16_t port, unsigned char *pskIdent, unsigned char *psKey);

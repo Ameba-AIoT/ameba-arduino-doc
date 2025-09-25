@@ -75,7 +75,7 @@ A class of WiFi and network implementation for Ameba.
 | WiFiClass::encryptionType   | Get the encryption type of the networks  |
 |                             | discovered from scanNetworks             |
 +-----------------------------+------------------------------------------+
-| WiFiClass::encr             | Get the security type and encryption     |
+| WiFiClass::encryptionTypeEx | Get the security type and encryption     |
 |                             | type of the networks discovered from     |
 |                             | scanNetworks                             |
 +-----------------------------+------------------------------------------+

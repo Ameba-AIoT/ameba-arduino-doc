@@ -41,6 +41,21 @@ A class of WiFi server implementation for Ameba.
 | WiFiServer::write          | Write data to all the clients connected to  |
 |                            | a server.                                   |
 +----------------------------+---------------------------------------------+
+| WiFiServer::stop           | Stops a server connection                   |
+|                            |                                             |
++----------------------------+---------------------------------------------+
+| WiFiServer::setBlockingMode| Set WiFi Server to blocking mode.           |
+|                            |                                             |
++----------------------------+---------------------------------------------+
+| WiFiServer::               | Set WiFi Client to non-blocking mode.       |
+| setNonBlockingMode         |                                             |
++----------------------------+---------------------------------------------+
+| WiFiServer::end            | Stops server connection                     |
+|                            |                                             |
++----------------------------+---------------------------------------------+
+| WiFiServer::close          | Stops server connection                     |
+|                            |                                             |
++----------------------------+---------------------------------------------+
 
 **WiFiServer::WiFiServer**
 --------------------------
@@ -56,11 +71,19 @@ Constructs a WiFiServer object and creates a server that listens for incoming co
 .. code-block:: c++
 
     WiFiServer (uint16_t port);
+    WiFiServer(tPortMode portMode);
+    WiFiServer(tBlockingMode blockMode);
+    WiFiServer(uint16_t port, tPortMode portMode);
+    WiFiServer(uint16_t port, tPortMode portMode, tBlockingMode blockMode);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
 port: The port number being connected to.
+
+portMode: 0-TCP_MODE, 1-UDP_MODE
+
+blockMode: 0-BLOCKING_MODE, 1-NON_BLOCKING_MODE
 
 **Returns**
 ~~~~~~~~~~~
@@ -151,7 +174,7 @@ Check if server is still connected.
 
 .. code-block:: c++
 
-    uint8_t connected();
+    uint8_t connected(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -205,3 +228,159 @@ This function returns the number of bytes written. It is not necessary to read t
 Example: `SimpleTCPServer.ino <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/WiFi/examples/SimpleTCPServer/SimpleTCPServer.ino>`_
 
 .. note :: "WiFiServer.h" must be included to use the class function.
+
+**WiFiServer::stop**
+--------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+Stops a server connection.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    void stop(void);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+NA
+
+**Returns**
+~~~~~~~~~~~
+
+NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
+
+.. note :: "WiFiServer.h" must be included to use the class function.
+
+**WiFiServer::end**
+-------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+Stops a server connection.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    void end(void);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+NA
+
+**Returns**
+~~~~~~~~~~~
+
+NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
+
+.. note :: "WiFiServer.h" must be included to use the class function.
+
+**WiFiServer::close**
+---------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+Stops a server connection.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    void close(void);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+NA
+
+**Returns**
+~~~~~~~~~~~
+
+NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
+
+.. note :: "WiFiServer.h" must be included to use the class function.
+
+**WiFiServer::setBlockingMode**
+-------------------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+Set WiFi Server to blocking mode.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    void setBlockingMode(void);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+NA
+
+**Returns**
+~~~~~~~~~~~
+
+NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
+
+**WiFiServer::setNonBlockingMode**
+----------------------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+Set WiFi Server to non-blocking mode.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    void setNonBlockingMode(void);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+NA
+
+**Returns**
+~~~~~~~~~~~
+
+NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
