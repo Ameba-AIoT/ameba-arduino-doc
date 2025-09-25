@@ -16,7 +16,7 @@ Example
 In this example, we will be using Ameba Pro2 development board to capture a JPEG image and send the image to a browser using HTTP.
 The following examples shows different use cases of capturing JPEG images.
 
-For both "HTTPDisplayJPEGContinuous" and "HTTPDisplayJPEGContinuousMultitask" example, use browser (eg, Firefox) and key in the IP address of the board in browser address bar after the board is connected to the WiFi to view the image.
+For both "HTTPDisplayJPEGContinuous" and "HTTPDisplayJPEGContinuousMultitask" example, use browser (e.g., Firefox) and key in the IP address of the board in browser address bar after the board is connected to the WiFi to view the image.
 
 Open the example in "File" -> "Examples" -> "AmebaMultimedia" -> "CaptureJPEG" -> "HTTPDisplayJPEGContinuous".
 Or open the example in "File" -> "Examples" -> "AmebaMultimedia" -> "CaptureJPEG" -> "HTTPDisplayJPEGContinuous".
@@ -80,21 +80,45 @@ Block vs Non-Block Mode
 
 **Block mode:**
 
-- The stream waits (blocks) until a full frame is available before continuing.  
-- Ensures every frame is delivered in sequence.  
-- Can introduce latency if network or processing is slow.  
+- The stream waits (blocks) until a full frame is available before continuing.
+- Ensures every frame is delivered in sequence.
+- Can introduce latency if network or processing is slow.
 - Good for stable, controlled environments.
 
 **Non-block mode:**
 
-- The stream does not wait; it continues immediately if a frame isn’t ready.  
-- Reduces latency, but may skip frames under load.  
-- Useful for real-time monitoring where *freshness* is more important than completeness.  
+- The stream does not wait; it continues immediately if a frame isn’t ready.
+- Reduces latency, but may skip frames under load.
+- Useful for real-time monitoring where *freshness* is more important than completeness.
 - Common in IoT/robotics where immediate feedback is critical.
 
 .. code-block:: c++
 
     WiFiServer server(80, TCP_MODE, NON_BLOCKING_MODE);
+
+Stack Size
+~~~~~~~~~~
+
+**General guidelines:**
+
+- **4 KB – 8 KB** → Minimum for lightweight JPEG streaming tasks (small images, low FPS).
+- **16 KB – 32 KB** → Recommended for stable streaming at VGA or 720p resolutions.
+- **> 32 KB** → Needed for high resolutions (1080p) or if additional processing (e.g., AI, image filtering) is done in the same task.
+
+**Considerations:**
+
+- Larger stack sizes reduce the risk of overflow but consume more RAM.
+- Monitor for stack overflow (watchdog resets, crashes, or corrupted images may indicate insufficient stack).
+- Using FreeRTOS, allocate stack size per task based on resolution and JPEG buffer usage.
+
+**Rule of thumb:**
+
+- For IoT / low-resolution (QVGA, VGA) → **8 KB – 16 KB** stack per streaming task.
+- For higher resolutions (720p, 1080p) → **32 KB or more**.
+
+.. code-block:: c++
+
+    xTaskCreate(streamTask, "StreamTask", (8 * 1024), NULL, 1, NULL);
 
 .. note :: For the examples, Firefox browser has been tested to work best.
 
