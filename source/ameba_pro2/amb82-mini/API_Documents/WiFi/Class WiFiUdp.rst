@@ -288,14 +288,19 @@ Send packet immediately from the buffer.
 
 .. code-block:: c++
 
-    size_t writeImmediately(const uint8_t *buffer, size_t size);
+    int writeImmediately(const uint8_t *buffer, size_t size);
+    int writeImmediately(const uint8_t *buffer, size_t size, uint32_t peer_ip, uint16_t peer_port);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-buf: a pointer to an array containing the outgoing message.
+\*buffer: a pointer to an array containing the outgoing message.
 
 size: the size of the buffer.
+
+peer_ip: ip address of peer device
+
+peer_port: port number of peer device
 
 **Returns**
 ~~~~~~~~~~~
