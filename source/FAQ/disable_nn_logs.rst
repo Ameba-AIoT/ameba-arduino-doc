@@ -7,13 +7,15 @@ Is it possible to disable the continuously looping logs (e.g. YOLOv4t tick) in N
 
 Yes, it is possible. 
 
-Navigate to "Tools" -> "[Logs] Multimedia".
+Navigate to "Tools" -> "System: Multimedia".
 
-“To view only video logs, select **Video/OSD logs only**. Otherwise, choose Disable all (Soft Mute) to turn off all logs.”
+To view only video logs, select **Video/OSD logs only**. Otherwise, choose Disable all to turn off all logs.
 
 |image01|
 
+Please refer to `AMB82 Mini Getting Started - Selection Ameba Modes <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_pro2/amb82-mini/Getting_Started/Getting%20Started%20with%20Ameba.html#step-1-selection-ameba-modes>`_
+
 .. |image01| image:: ../_static/FAQ/disable_nn_logs/image01.png
-   :width:  1936 px
-   :height:  1048 px
-   :scale: 50%
+   :width:  1263 px
+   :height:  1028 px
+   :scale: 80%

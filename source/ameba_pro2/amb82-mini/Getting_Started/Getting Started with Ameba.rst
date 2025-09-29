@@ -209,10 +209,6 @@ There are many different Modes for user to select for different settings of comp
 |                                  | | **SD Card** - Load the Neural Network AI model from SD card memory. Total size of the |             |
 |                                  | | models depend on the total size of the SD card.                                       |             |
 +----------------------------------+-----------------------------------------------------------------------------------------+-------------+
-| \* Show NN Logs                  | | **Enable** - Show NN related debug logs.                                              |             |
-|                                  | |                                                                                       |             |
-|                                  | | **Disable** - Do not show NN related debug logs.                                      |             |
-+----------------------------------+-----------------------------------------------------------------------------------------+-------------+
 | \* OTA Mode                      | | **Disable** - No OTA mode process.                                                    |             |
 |                                  | |                                                                                       |             |
 |                                  | | **Enable** - Enable OTA mode.                                                         |             |
@@ -220,6 +216,32 @@ There are many different Modes for user to select for different settings of comp
 | \* Standard Lib                  | | **Arduino_STD_PRINTF** - Choose the standard library function for compile and upload. |             |
 |                                  | |                                                                                       |             |
 |                                  | | **Disable** - No standard library function.                                           |             |
++----------------------------------+-----------------------------------------------------------------------------------------+-------------+
+| \* Arduino: API logs             | | **Enable all**  - Activates all available Arduino API logs, including error,          |             |
+|                                  | | info, and debug messages.                                                             |             |
+|                                  | |                                                                                       |             |
+|                                  | | **Error logs**  - Displays only error messages.                                       |             |
+|                                  | |                                                                                       |             |
+|                                  | | **Info logs**   - Displays general informational messages.                            |             |
+|                                  | |                                                                                       |             |
+|                                  | | **Disable all** - Turns off all Arduino API logs.                                     |             |
++----------------------------------+-----------------------------------------------------------------------------------------+-------------+
+| \* System: Multimedia logs       | | **Enable all** - Enables all multimedia logs.                                         |             |
+|                                  | |                                                                                       |             |
+|                                  | | **Video/OSD logs only** - Enables logs for Video and OSD components only.             |             |
+|                                  | |                                                                                       |             |
+|                                  | | **NN/OSD logs only** - Enables logs for Neural Network (NN) and OSD components only.  |             |
+|                                  | |                                                                                       |             |
+|                                  | | **Disable all** - Turns off NN, Video, and OSD logs.                                  |             |
++----------------------------------+-----------------------------------------------------------------------------------------+-------------+
+| \* System: WiFi logs             | | **Enable** - Turns on WiFi driver logging.                                            |             |
+|                                  | |                                                                                       |             |
+|                                  | | **Disable** - Turns off WiFi driver logging.                                          |             |
++----------------------------------+-----------------------------------------------------------------------------------------+-------------+
+| \* All logs: Hard mute           | | **Disable** - Keeps the logging system active.                                        |             |
+|                                  | |                                                                                       |             |
+|                                  | | **Enable** - Completely disables all logs, including printf. Not recommended if you   |             |
+|                                  | | still need debugging capabilities.                                                    |             |
 +----------------------------------+-----------------------------------------------------------------------------------------+-------------+
 
 Step 2. Compile
@@ -322,8 +344,8 @@ Useful Links
    :width:  773 px
    :height:  600 px
 .. |image09| image:: ../../../_static/amebapro2/Getting_Started/Getting_Started_with_AMB82-mini/image09.png
-   :width:  442 px
-   :height:  602 px
+   :width:  347 px
+   :height:  640 px
 .. |image10| image:: ../../../_static/amebapro2/Getting_Started/Getting_Started_with_AMB82-mini/image10.png
    :width:  555 px
    :height:  605 px
