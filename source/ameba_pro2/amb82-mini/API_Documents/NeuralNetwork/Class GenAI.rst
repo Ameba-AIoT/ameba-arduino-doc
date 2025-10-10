@@ -41,6 +41,10 @@ A class used to call online GenAI API to perform various tasks.
 | GenAI::googletts                   | Perform TTS using Google TTS API and save audio to           |
 |                                    | SD card as MP3 file                                          |
 +------------------------------------+--------------------------------------------------------------+
+| GenAI::geminiaudio                 | Send audio recording to Gemini server and receive response   |
++------------------------------------+--------------------------------------------------------------+
+| GenAI::geminivideo                 | Send video recording to Gemini server and receive response   |
++------------------------------------+--------------------------------------------------------------+
 
 **GenAI::openaivision**
 -----------------------
@@ -207,4 +211,72 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Text-to-Speech <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/MultimediaAI/Text-to-Speech/Text-to-Speech.ino>`_
+Example: `TextToSpeech <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/MultimediaAI/TextToSpeech/TextToSpeech.ino>`_
+
+**GenAI::geminiaudio**
+-----------------------
+**Description**
+~~~~~~~~~~~~~~~
+
+Send MP4 audio recording to Gemini server and receive response.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    String geminiaudio(String apikey, String filename, String model, MP4Recording &mp4, String message, WiFiSSLClient client);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+| key: Gemini API key
+| filename: MP4 audio recording filename
+| model: LLM model
+| mp4: mp4 object parsing
+| message: Prompt message
+| client: WiFi SSL Client object
+
+**Returns**
+~~~~~~~~~~~
+
+Response from LLM model
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+Example: `GenAISpeech <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/MultimediaAI/GenAISpeech/GenAISpeech.ino>`_
+
+**GenAI::geminivideo**
+-----------------------
+**Description**
+~~~~~~~~~~~~~~~
+
+Send MP4 video with audio recording to Gemini server and receive response.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    String geminivideo(String apikey, String filename, String model, MP4Recording &mp4, String message, WiFiSSLClient client);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+| key: Gemini API key
+| filename: MP4 video recording filename
+| model: LLM model
+| mp4: mp4 object parsing
+| message: Prompt message
+| client: WiFi SSL Client object
+
+**Returns**
+~~~~~~~~~~~
+
+Response from LLM model
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+Example: `GenAIVideo <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/MultimediaAI/GenAIVideo/GenAIVideo.ino>`_
