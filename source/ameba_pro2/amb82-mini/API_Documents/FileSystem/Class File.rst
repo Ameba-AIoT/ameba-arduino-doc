@@ -62,6 +62,9 @@ A class for data manipulation of files in a file system.
 +---------------------------+------------------------------------------+
 | File::playmp3             | Execute convertMp3TArray.                |
 +---------------------------+------------------------------------------+
+| File::sdstartota          | Pass filename with full path and         |
+|                           | execute ota_sd.                          |
++---------------------------+------------------------------------------+
 | File::readFile            | Read data according to opened file size  |
 +---------------------------+------------------------------------------+
 
@@ -600,7 +603,39 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
+Example: `OTA <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/OTA/examples/OTA/OTA.ino>`_
+
+.. note :: "AmebaFatFSFile.h" must be included to use the class function.
+
+**File::sdstartota**
+--------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+Pass filename with full path and execute ota_sd. 
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    void sdstartota(const char *filename);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+filename: Filename with full path.
+
+**Returns**
+~~~~~~~~~~~
+
 NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+Example: `SDCardOTA <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/OTA/examples/SDCardOTA/SDCardOTA.ino>`_
 
 .. note :: "AmebaFatFSFile.h" must be included to use the class function.
 
