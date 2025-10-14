@@ -16,14 +16,23 @@ Example
 Introduction
 ~~~~~~~~~~~~
 
-There three common encryption type in WiFi connection. The first one is
-"OPEN", which means there is no password needed to connect to this
-network. The second type of encryption is WPA, which requires the
-correct password to access. The third type is WEP, which requires a
-hexadecimal password and a keyindex.
+There are 4 encryption types of WiFi connection in this guide.
 
-In the following, we will give a brief introduction on how to establish
-WiFi connection with these three types of encryptions on Ameba.
+- "OPEN", which means there is no password needed to connect to this network.
+
+- "WPA", which requires the correct password to access.
+
+- "WEP", which requires a hexadecimal password and a keyindex.
+
+- "WPA2-EAP", which IA a Wi-Fi WPA2-EAP connection (also known as WPA2-Enterprise) is a secure wireless network authentication method typically used in organizations, universities, and enterprises. Instead of a shared password, it uses the Extensible Authentication Protocol (EAP) to authenticate users individually through a RADIUS server. Each user logs in with a unique username and password (or digital certificate), ensuring stronger security and better access control compared to personal WPA2 networks. TLS, PEAP, and TTLS are different EAP (Extensible Authentication Protocol) methods used in WPA2-Enterprise Wi-Fi connections to securely authenticate users.
+
+    - EAP-TLS (Transport Layer Security): Uses digital certificates on both the server and client sides for mutual authentication. It’s highly secure but requires certificate management.
+
+    - PEAP (Protected EAP): Creates a TLS-encrypted tunnel between the client and the authentication server, then sends user credentials (like username/password) inside the tunnel. Commonly used with MSCHAPv2 for password-based logins.
+
+    - EAP-TTLS (Tunneled TLS): Similar to PEAP but more flexible. It also establishes a TLS tunnel, but allows various inner authentication methods (e.g., PAP, CHAP, MSCHAPv2) without requiring a client certificate.
+
+In the following, we will give a brief introduction on how to establish WiFi connection with all above types of encryptions on Ameba.
 
 First, make sure the correct Ameba development board is selected in
 "Tools" -> "Board".
@@ -106,6 +115,33 @@ connected to the networkSSID: XXXXX", and the information of this WiFi
 connection is printed in the serial monitor every 10 seconds.
 
 |image08|
+
+WiFi connection with WPA2-Enterprise
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This example requires setting up both the server and the Wi-Fi network for WPA2-EAP. Using the provided credentials with different EAP methods, the user can establish a WPA2-EAP connection by using Ameba.
+
+.. note :: This example only demonstrates how to use credentials to connect to a WPA2-EAP network. It does not cover setting up the EAP server or configuring the network
+
+Open example in "File" -> "Examples" -> "WiFi" -> "ConnectToWiFi" -> "WPA2_Enterprise"
+
+In the sample code,
+
+- eap_methord: EAP connection methord "tls", "peap", "ttls".
+
+- ssid: The network SSID (WiFi name).
+
+- identity: The network identity.
+
+- pass: The network password.
+
+- client_cert: Client certificate from EAP server.
+
+- client_key: Client key from EAP server.
+
+- ca_cert: CA certificate from EAP server.
+
+Next, upload the sample code, and press the reset button on Ameba. Then you will see a message "Attempting to connect to WPA2 EAP SSID: XXXXX", and the information of this WiFi connection.
 
 Code Reference
 --------------
