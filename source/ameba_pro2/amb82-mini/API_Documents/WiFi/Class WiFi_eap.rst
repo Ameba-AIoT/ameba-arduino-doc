@@ -83,7 +83,7 @@ NA
 .. note :: An instance of WiFi_eapClass is created as WiFi_eap inside WiFi_eap.h and is extern for direct use. "WiFi_eap.h" must be included to use the class function.
 
 **WiFi_eapClass::begin**
---------------------
+------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
