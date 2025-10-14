@@ -9,6 +9,7 @@ Multimedia
    ISP Control
    Motion Detection/index
    MP4 Recording
+   MP4 Recording with MP3 Prompts
    Play MP3 with SD card
    RTSP Demuxer
    RTSP Streaming V7RC
