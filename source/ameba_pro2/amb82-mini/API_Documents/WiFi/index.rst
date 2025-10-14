@@ -9,4 +9,4 @@ WiFi
    Class WiFiServer
    Class WiFiSSLClient
    Class WiFiUdp
-
+   Class WiFi_eap
