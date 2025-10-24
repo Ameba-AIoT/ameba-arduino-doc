@@ -1,4 +1,4 @@
-.. tags:: WiFi, 2.4G, 5G, RTSP
+.. tags:: wifi, 2.4g, 5g, rtsp
 
 Got "MMF ENC Queue full" when using 2.4G WiFi for RTSP streaming
 ================================================================
