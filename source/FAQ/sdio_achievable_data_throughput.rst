@@ -1,8 +1,7 @@
-
 .. tags:: sdio, amb82-mini
 
-What is the maximum achievable data throughput for SDIO interface? 
-===================================================================
+What is the maximum achievable data throughput for SDIO interface?
+==================================================================
 
 **Answer**
 

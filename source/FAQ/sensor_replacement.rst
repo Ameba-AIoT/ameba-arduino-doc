@@ -1,5 +1,5 @@
 .. tags:: sensor, camera, amb82-mini, replacement
-    
+
 Is there a source for JXF-37 sensor replacement?
 ================================================
 

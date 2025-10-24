@@ -1,7 +1,7 @@
 .. tags:: multimedia, neural network, log system, amb82-mini
 
 How can I control debug logs?
-===============================
+=============================
 
 **Answer**
 

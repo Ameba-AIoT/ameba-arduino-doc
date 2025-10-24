@@ -1,8 +1,7 @@
-
 .. tags:: sd card, amb82-mini
 
-What is the maximum supported SD card capacity?  
-================================================================================
+What is the maximum supported SD card capacity?
+===============================================
 
 **Answer**
 

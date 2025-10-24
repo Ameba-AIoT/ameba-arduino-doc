@@ -1708,6 +1708,8 @@ A class used to configure and initialize the camera to generate video data strea
 |                            | from specific channel and pass for      |
 |                            | checking on UVC connection status.      |
 +----------------------------+-----------------------------------------+
+| Video::setQLen             | Set camera video max queue length.      |
++----------------------------+-----------------------------------------+
 
 **Video::configVideoChannel**
 -----------------------------
@@ -2093,7 +2095,11 @@ Retrieve video stream module contents from specific channel and pass for checkin
 
 ch: Channel to configure.
 
-- 0    
+- 0
+
+- 1
+
+- 2
 
 **Returns**
 ~~~~~~~~~~~
@@ -2104,5 +2110,48 @@ This function returns 1 if the UVC device is connected to PC, 0 otherwise.
 ~~~~~~~~~~~~~~~~
 
 Example: `UVCDObjectDetectionLoop <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/UVCDObjectDetectionLoop/UVCDObjectDetectionLoop.ino>`_
+
+.. note :: "VideoStream.h" must be included to use the class function.
+
+**Video::setQLen**
+------------------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+Set camera video max queue length. Use it before process "Video::channelBegin".
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    void setQLen(int ch, int len);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+ch: Channel to configure.
+
+- 0
+
+- 1
+
+- 2
+
+len: The queue length.
+
+- 15 * 3
+
+
+**Returns**
+~~~~~~~~~~~
+
+NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
 
 .. note :: "VideoStream.h" must be included to use the class function.

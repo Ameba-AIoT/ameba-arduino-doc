@@ -1,7 +1,7 @@
 .. tags:: isp control, amb82-mini
 
 Are there APIs to adjust image parameters (brightness, contrast, sharpness, white balance) at runtime?
-=======================================================================================================
+======================================================================================================
 
 **Answer**
 
