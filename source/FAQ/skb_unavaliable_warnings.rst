@@ -1,7 +1,7 @@
 .. tags:: video streaming, rtsp, amb82-mini
 
 What should I do if "skb_unavailable={number} in last 2 seconds" warnings keep appearing during video streaming?
-==================================================================================================================
+================================================================================================================
 
 **Answer**
 
@@ -12,7 +12,6 @@ To avoid having this warning, switch to TCP for video streaming.
 |image01|
 
 |image02|
-
 
 .. |image01| image:: ../_static/FAQ/skb_unavaliable_warnings/image01.png
    :width:  580 px

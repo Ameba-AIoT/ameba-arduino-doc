@@ -1,8 +1,7 @@
-
 .. tags:: neural network, amb82-mini
 
-Can I deploy multiple models on AMB82 Mini?  
-============================================
+Can I deploy multiple models on AMB82 Mini?
+===========================================
 
 **Answer**
 

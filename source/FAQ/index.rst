@@ -56,3 +56,5 @@ Ameba FAQ
    logs_enable_disable_options
 
    use_of_multitask
+
+   RTSP_streaming_calibrations
