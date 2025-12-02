@@ -1710,6 +1710,9 @@ A class used to configure and initialize the camera to generate video data strea
 +----------------------------+-----------------------------------------+
 | Video::setQLen             | Set camera video max queue length.      |
 +----------------------------+-----------------------------------------+
+| Video::cameraOpenStatus    | Camera sensor connection status         |
+|                            | check after video open.                 |
++----------------------------+-----------------------------------------+
 
 **Video::configVideoChannel**
 -----------------------------
@@ -2148,6 +2151,39 @@ len: The queue length.
 ~~~~~~~~~~~
 
 NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
+
+.. note :: "VideoStream.h" must be included to use the class function.
+
+**Video::cameraOpenStatus**
+------------------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+For video open status check to verify camera sensor connection. Use it after calling "Video::channelBegin".
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    int cameraOpenStatus(void);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+NA
+
+**Returns**
+~~~~~~~~~~~
+
+0: No video opened, check sensor connection
+
+1: Video is opened
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
