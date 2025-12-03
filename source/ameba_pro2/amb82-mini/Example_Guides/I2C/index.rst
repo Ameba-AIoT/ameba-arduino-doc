@@ -22,3 +22,15 @@ I2C
    VL53L5CX Fast Startup
    VL53L5CX Set Address
    VL53L5CX Set Frequency
+   BMI270 Basic Readings I2C
+   BMI270 Calibration NVM
+   BMI270 FIFO Buffer
+   BMI270 Filtering
+   BMI270 Interrupts
+   BMI270 Low Power
+   BMI270 Motion Detection
+   BMI270 Remap Axes
+   BMI270 Self Test
+   BMI270 Significant Motion
+   BMI270 Step Counter
+   BMI270 Wrist Gestures
