@@ -15,6 +15,7 @@ Example Guides
    I2C/index
    MQTT/index
    Multimedia/index
+   Multithreading/index
    Neural Network/index
    NTP/index
    OTA/index
