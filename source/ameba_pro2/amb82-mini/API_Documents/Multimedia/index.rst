@@ -15,3 +15,4 @@ Multimedia
    Class StreamIO
    Class VideoStream
    Class VideoStreamOverlay
+   Class WebSocketViewer
