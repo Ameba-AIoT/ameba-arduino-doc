@@ -1,7 +1,7 @@
 .. tags:: otp, log system, amb82-mini
 
 How do I disable the log UART by writing OTP?
-===============================================
+=============================================
 
 **Answer**
 

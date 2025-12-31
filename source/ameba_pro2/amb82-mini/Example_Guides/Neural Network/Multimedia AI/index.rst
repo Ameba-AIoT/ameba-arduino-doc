@@ -5,6 +5,7 @@ Multimedia AI
    :maxdepth: 1
 
    Generative AI Speech
+   Generative AI Video
    Generative AI Vision
    MediaPipe Holistic Landmarker
    Text-to-Speech NTP

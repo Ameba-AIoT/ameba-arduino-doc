@@ -243,6 +243,10 @@ There are many different Modes for user to select for different settings of comp
 |                                  | | **Enable** - Completely disables all logs, including printf. Not recommended if you   |             |
 |                                  | | still need debugging capabilities.                                                    |             |
 +----------------------------------+-----------------------------------------------------------------------------------------+-------------+
+| \* Watchdog                      | | **Disable** - Turn off the watchdog function.                                         |             |
+|                                  | |                                                                                       |             |
+|                                  | | **Enable** - Activate watchdog function                                               |             |
++----------------------------------+-----------------------------------------------------------------------------------------+-------------+
 
 Step 2. Compile
 ~~~~~~~~~~~~~~~
@@ -344,8 +348,8 @@ Useful Links
    :width:  773 px
    :height:  600 px
 .. |image09| image:: ../../../_static/amebapro2/Getting_Started/Getting_Started_with_AMB82-mini/image09.png
-   :width:  347 px
-   :height:  640 px
+   :width:  350 px
+   :height:  666 px
 .. |image10| image:: ../../../_static/amebapro2/Getting_Started/Getting_Started_with_AMB82-mini/image10.png
    :width:  555 px
    :height:  605 px
