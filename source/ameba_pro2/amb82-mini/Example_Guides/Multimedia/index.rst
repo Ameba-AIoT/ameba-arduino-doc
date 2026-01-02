@@ -16,3 +16,5 @@ Multimedia
    RTSP Streaming
    RTSP Streaming with OSD Image
    Websocket Viewer
+   AutoDayAndNight
+   NightMode
