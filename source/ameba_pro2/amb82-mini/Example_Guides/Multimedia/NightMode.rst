@@ -77,6 +77,7 @@ Code Reference
 The Infrared class controls all the manual IR features of the AmebaPro2. You will need to the following lines before you can begin using any IR features.
 
 .. code:: c
+
     #include "Infrared.h"
 
     Infrared ir;
@@ -107,6 +108,7 @@ It is also important to remember to set the camera to grayscale mode for better 
 .. |image07| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image07.jpg
 .. |image08| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image08.jpg
 .. |image09| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image09.jpg
+
 
 
 
