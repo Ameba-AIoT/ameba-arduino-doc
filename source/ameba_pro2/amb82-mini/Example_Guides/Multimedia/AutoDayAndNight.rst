@@ -31,7 +31,7 @@ The adapter board has a power enable pin which we will be connecting with the GP
 
 If you are using the adapter board ensure that this is in the example before running it.
 
-.. code:: c
+.. code:: cpp
 
     #include "WiFi.h"
     #include "StreamIO.h"
@@ -103,7 +103,7 @@ The Infrared class controls all the manual IR features of the AmebaPro2 while th
 
 First, the IR cut and/or LED has to be initialized before you can use them. After initializing, you can toggle the IR cut using "IR.setCut()" and control the IR LED brightness using "IR.setLedBrightness()".
 
-.. code:: c
+.. code:: cpp
 
     ir.cutInit();               # Initializes GPIO Pin F12
     ir.ledInit();               # Initializes GPIO Pin F13
@@ -129,14 +129,14 @@ You may wish to set these thresholds manually using the "ALS.setColorThreshold" 
 
 If you are using the debug log, "SWITCH_LOG" will only log the mode switch, lux value during the switch and at what threshold is set for this mode. An example of the log is show below.
 
-.. code:: bash
+.. code:: none
 
   [SENSOR_SERVICE] RGB2IR:gray_mode(0), hw_lux(0.0) <= THR_COLOR_TO_GRAY(15)
   [SENSOR_SERVICE] IR2RGB:gray_mode(1), hw_lux(172.0) >= THR_GRAY_TO_COLOR(30)
 
 However, if you are using "ALL_DEBUG_LOG", you will see the the current mode and lux level being logged regularly as well as the switch logs on switching modes.
 
-.. code:: bash
+.. code:: none
 
   [SENSOR_SERVICE] STABLE:gray_mode(0), hw_lux(149.0)
   [SENSOR_SERVICE] STABLE:gray_mode(0), hw_lux(147.0)
@@ -178,6 +178,7 @@ The difference in detail can be seen after the LED's brightness is lowered in th
 .. |image12| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image12.jpg
 .. |image13| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image13.jpg
 .. |image14| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image14.jpg
+
 
 
 
