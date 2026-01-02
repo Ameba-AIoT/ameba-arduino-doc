@@ -1,5 +1,5 @@
 RTSP Streaming Auto Day and Night Mode
-==============
+===============================
 
 .. contents::
   :local:
@@ -14,7 +14,7 @@ Materials
 - Realtek Amebapro LED board x 1
 
 Example
----------
+-------
 In this example, we will use the AmebaPro2 board to stream video in both day and night modes. This capability requires a camera that has an IR cut filter that can be toggled on and off along with an IR LED light source (or any IR light source).
 The adapter board used in this example is to solely connect our camera sensor to the AmebaPro2 board. You may ignore the adapter board requirement if you have alternatives to connect your IR-cut-equipped camera to the AmebaPro2 board.
 Our Amebapro LED board has a built-in hardware Ambient Light Sensor (ALS) so if you are using your own IR LED light source, you will need to have your own hardware ALS for the HW ALS mode. Otherwise, you will have to default to using our implementation of software ALS which depends on the camera sensor's ISP parameters.
@@ -82,7 +82,7 @@ Next, click “Play” to start RTSP streaming. The video stream from the camera
 |image11|
 
 Code Reference
----------
+--------------
 
 The Infrared class controls all the manual IR features of the AmebaPro2 while the AmbientLightSensor class controls the software and hardware ALS for auto mode switching. You will need to the following lines before you can begin using any IR and ALS features.
 
@@ -178,6 +178,7 @@ The difference in detail can be seen after the LED's brightness is lowered in th
 .. |image12| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image12.jpg
 .. |image13| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image13.jpg
 .. |image14| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image14.jpg
+
 
 
 
