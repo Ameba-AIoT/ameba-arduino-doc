@@ -155,29 +155,30 @@ The difference in detail can be seen after the LED's brightness is lowered in th
 |image14|
 
 
-.. |image01| image::  ../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image01.jpg
-.. |image02| image::  ../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image02.jpg
-.. |image03| image::  ../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image03.jpg
-.. |image04| image::  ../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image04.jpg
+.. |image01| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image01.jpg
+.. |image02| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image02.jpg
+.. |image03| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image03.jpg
+.. |image04| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image04.jpg
    :width:  700 px
    :height:  600 px
 
-.. |image05| image::  ../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image05.jpg
+.. |image05| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image05.jpg
    :width:  700 px
    :height:  600 px
 
-.. |image06| image::  ../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image06.jpg
+.. |image06| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image06.jpg
    :width:  700 px
    :height:  600 px
 
-.. |image07| image::  ../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image07.jpg
-.. |image08| image::  ../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image08.jpg
-.. |image09| image::  ../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image09.jpg
-.. |image10| image::  ../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image10.jpg
-.. |image11| image::  ../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image11.jpg
-.. |image12| image::  ../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image12.jpg
-.. |image13| image::  ../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image13.jpg
-.. |image14| image::  ../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image14.jpg
+.. |image07| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image07.jpg
+.. |image08| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image08.jpg
+.. |image09| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image09.jpg
+.. |image10| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image10.jpg
+.. |image11| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image11.jpg
+.. |image12| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image12.jpg
+.. |image13| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image13.jpg
+.. |image14| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image14.jpg
+
 
 
 
