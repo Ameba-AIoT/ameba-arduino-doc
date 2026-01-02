@@ -168,7 +168,6 @@ The difference in detail can be seen after the LED's brightness is lowered in th
    :height:  600 px
 
 .. |image07| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image07.jpg
-
    :width:  700 px
    :height:  600 px
    
@@ -180,6 +179,7 @@ The difference in detail can be seen after the LED's brightness is lowered in th
 .. |image13| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image13.jpg
 .. |image14| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image14.jpg
 .. |image15| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image15.jpg
+
 
 
 
