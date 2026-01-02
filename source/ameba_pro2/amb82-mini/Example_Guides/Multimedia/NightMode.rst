@@ -44,11 +44,10 @@ If you are using the adapter board ensure that this is in the example before run
     #define CHANNEL 0
     #define PWR_EN  9
 
-    pinMode(PWR_EN, OUTPUT);
-    digitalWrite(PWR_EN, HIGH);
+|image04|
 
 In the highlighted code snippet, fill in the “ssid” with your WiFi network SSID and “pass” with the network password.
-|image04|
+|image05|
 
 Compile the code and upload it to Ameba. After pressing the Reset button, wait for the AmebaPro2 board to connect to the WiFi network. The board's IP address and network port number for RTSP will be shown in the Serial Monitor.
 
@@ -56,21 +55,21 @@ You may download VLC media player from the link (`here <https://www.videolan.org
 
 Upon the completion of the software installation, open VLC media player, and go to “Media” -> “Open Network Stream”.
 
-|image05|
+|image06|
 
 Make sure your PC is connected to the same network as the Ameba Pro2 board for streaming. Since RTSP is used as the streaming protocol, key in `“rtsp://{IPaddress}:{port}”` as the Network URL in VLC media player, replacing {IPaddress} with the IP address of your Ameba Pro2 board, and {port} with the RTSP port shown in Serial Monitor `(e.g., “rtsp://192.168.1.154:554”)`. The default RTSP port number is 554. In the case of two simultaneous RTSP streams, the second port number defaults to 555.
 
-|image06|
+|image07|
 
 You may choose to change the caching time in “Show more options”. A lower cache time will result in reduced video latency but may introduce playback stuttering in the case of poor network conditions.
 
-|image07|
+|image08|
 
 Next, click “Play” to start RTSP streaming. The video stream from the camera will be shown in VLC media player. Meanwhile, in your Serial Monitor, the message “rtp started (UDP)” will appear.
 
-|image08|
-
 |image09|
+
+|image10|
 
 Code Reference
 --------------
@@ -108,8 +107,7 @@ It is also important to remember to set the camera to grayscale mode for better 
 .. |image07| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image07.jpg
 .. |image08| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image08.jpg
 .. |image09| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image09.jpg
-
-
+.. |image10| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image10.jpg
 
 
 
