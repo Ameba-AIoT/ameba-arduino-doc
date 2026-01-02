@@ -48,16 +48,16 @@ If you are using the adapter board ensure that this is in the example before run
     #define ALL_DEBUG_LOG     2
     #define PWR_EN            9
 
-    pinMode(PWR_EN, OUTPUT);
-    digitalWrite(PWR_EN, HIGH);
+|image04| 
 
 When using the hardware ALS, you need to connect them to the AMB82-mini on GPIO Pin E4 for the SDA line and GPIO Pin E3 for the SCL line. If your HW ALS is mounted on the camera sensor module like the one above, you may follow the pin connections accordingly.
 
-|image04| |image05|
+|image05| 
+|image06|
 
 In the highlighted code snippet, fill in the “ssid” with your WiFi network SSID and “pass” with the network password.
 
-|image06|
+|image07|
 
 Compile the code and upload it to Ameba. After pressing the Reset button, wait for the AmebaPro2 board to connect to the WiFi network. The board's IP address and network port number for RTSP will be shown in the Serial Monitor.
 
@@ -65,21 +65,21 @@ You may download VLC media player from the link (`here <https://www.videolan.org
 
 Upon the completion of the software installation, open VLC media player, and go to “Media” -> “Open Network Stream”.
 
-|image07|
+|image08|
 
 Make sure your PC is connected to the same network as the Ameba Pro2 board for streaming. Since RTSP is used as the streaming protocol, key in `“rtsp://{IPaddress}:{port}”` as the Network URL in VLC media player, replacing {IPaddress} with the IP address of your Ameba Pro2 board, and {port} with the RTSP port shown in Serial Monitor `(e.g., “rtsp://192.168.1.154:554”)`. The default RTSP port number is 554. In the case of two simultaneous RTSP streams, the second port number defaults to 555.
 
-|image08|
+|image09|
 
 You may choose to change the caching time in “Show more options”. A lower cache time will result in reduced video latency but may introduce playback stuttering in the case of poor network conditions.
 
-|image09|
+|image10|
 
 Next, click “Play” to start RTSP streaming. The video stream from the camera will be shown in VLC media player. Meanwhile, in your Serial Monitor, the message “rtp started (UDP)” will appear.
 
-|image10|
-
 |image11|
+
+|image12|
 
 Code Reference
 --------------
@@ -120,12 +120,12 @@ First, the IR cut and/or LED has to be initialized before you can use them. Afte
 
 You must have the IR cut and LED initialized before you can initialize the ALS, otherwise it will result in an error. If you have enabled the debug OSD, it will show up on the top left of the stream as text overlay. The EN shows whether the auto PWM is enabled, LED shows the current brightness of the IR LED and the HW/SW-LUX is the current luminance of the scene.
 
-|image12|
+|image13|
 
 This lux value is used to determine when to switch between day and night modes. It is important to note that HW and SW lux thresholds are disproportionately and inversely related. For example, the default HW threshold for day mode is at 30 lux and 15 lux for the night mode. Whereas for the SW ALS, the day mode threshold is 4000 lux and 12000 lux for the night mode.
 You may wish to set these thresholds manually using the "ALS.setColorThreshold" and "ALS.setGrayThreshold", day and night respectively, after using the debug log or debug OSD to determine the lux range for your day and night scenes.
 
-|image13|
+|image14|
 
 If you are using the debug log, "SWITCH_LOG" will only log the mode switch, lux value during the switch and at what threshold is set for this mode. An example of the log is show below.
 
@@ -152,16 +152,13 @@ However, if you are using "ALL_DEBUG_LOG", you will see the the current mode and
 The "ALS.enableAutoPWM" is used to automatically vary the brightness of the IR LED according to the camera's night mode ISP parameters. This is to improve the clarity of the scene as much as possible, you can monitor how the LED's brightness changes over time by enabling the debug OSD.
 The difference in detail can be seen after the LED's brightness is lowered in this particular scene.
 
-|image14|
+|image15|
 
 
 .. |image01| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image01.jpg
 .. |image02| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image02.jpg
 .. |image03| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image03.jpg
 .. |image04| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image04.jpg
-   :width:  700 px
-   :height:  600 px
-
 .. |image05| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image05.jpg
    :width:  700 px
    :height:  600 px
@@ -171,6 +168,10 @@ The difference in detail can be seen after the LED's brightness is lowered in th
    :height:  600 px
 
 .. |image07| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image07.jpg
+
+   :width:  700 px
+   :height:  600 px
+   
 .. |image08| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image08.jpg
 .. |image09| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image09.jpg
 .. |image10| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image10.jpg
@@ -178,8 +179,7 @@ The difference in detail can be seen after the LED's brightness is lowered in th
 .. |image12| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image12.jpg
 .. |image13| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image13.jpg
 .. |image14| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image14.jpg
-
-
+.. |image15| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image15.jpg
 
 
 
