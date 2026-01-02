@@ -105,10 +105,10 @@ First, the IR cut and/or LED has to be initialized before you can use them. Afte
 
 .. code:: cpp
 
-    ir.cutInit();               # Initializes GPIO Pin F12
-    ir.ledInit();               # Initializes GPIO Pin F13
-    ir.setCut(1);               # 0 to disable, 1 to enable
-    ir.setLedBrightness(0);     # Brightness input can be from 0 to 100, [0,100]
+    ir.cutInit();               // Initializes GPIO Pin F12
+    ir.ledInit();               // Initializes GPIO Pin F13
+    ir.setCut(1);               // 0 to disable, 1 to enable
+    ir.setLedBrightness(0);     // Brightness input can be from 0 to 100, [0,100]
 
     // Ambient light sensor set up for automatic day and night modes switching
     // ALS.debugEnableOSD();
@@ -178,6 +178,7 @@ The difference in detail can be seen after the LED's brightness is lowered in th
 .. |image12| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image12.jpg
 .. |image13| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image13.jpg
 .. |image14| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image14.jpg
+
 
 
 
