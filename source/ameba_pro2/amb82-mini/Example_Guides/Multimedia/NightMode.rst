@@ -33,7 +33,7 @@ The adapter board has a power enable pin which we will be connecting with the GP
 
 If you are using the adapter board ensure that this is in the example before running it.
 
-.. code:: c
+.. code:: cpp
 
     #include "WiFi.h"
     #include "StreamIO.h"
@@ -76,7 +76,7 @@ Code Reference
 --------------
 The Infrared class controls all the manual IR features of the AmebaPro2. You will need to the following lines before you can begin using any IR features.
 
-.. code:: c
+.. code:: cpp
 
     #include "Infrared.h"
 
@@ -84,7 +84,7 @@ The Infrared class controls all the manual IR features of the AmebaPro2. You wil
 
 First, the IR cut and/or LED has to be initialized before you can use them. After initializing, you can toggle the IR cut using "IR.setCut()" and control the IR LED brightness using "IR.setLedBrightness()".
 
-.. code:: c
+.. code:: cpp
 
     ir.cutInit();               # Initializes GPIO Pin F12
     ir.ledInit();               # Initializes GPIO Pin F13
@@ -93,7 +93,7 @@ First, the IR cut and/or LED has to be initialized before you can use them. Afte
 
 It is also important to remember to set the camera to grayscale mode for better clarity and that the ISP auto-tuning has to be set to night mode. This can only be done after data stream has started by the following functions,
 
-.. code:: c
+.. code:: cpp
 
     configCam.setGrayMode(1);       # 0 for RGB, 1 for Grayscale
     configCam.setDayNightMode(1);   # 0 for day mode ISP auto-tuning, 1 for night mode ISP auto-tuning
@@ -108,6 +108,7 @@ It is also important to remember to set the camera to grayscale mode for better 
 .. |image07| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image07.jpg
 .. |image08| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image08.jpg
 .. |image09| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image09.jpg
+
 
 
 
