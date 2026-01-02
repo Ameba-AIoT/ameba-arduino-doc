@@ -47,6 +47,10 @@ Common pins in ILI9341 TFT LCD with SPI interface:
 
 |image01|
 
+.. note :: 
+   Before compilation, kindly install TJpg_Decoder library via Arduino IDE library manager.
+   After installing the TJpg_Decoder library, in the library's configuration file, User_Config.h, comment out line 5 which reads: #define TJPGD_LOAD_SD_LIBRARY to avoid compilation error.
+
 Open the example, “File” -> “Examples” -> “AmebaSPI” -> “DisplaySDJPG_ILI9341_TFT”
 
 |image02|
