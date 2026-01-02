@@ -1,5 +1,5 @@
 RTSP Streaming Night Mode
-==============
+=========================
 
 .. contents::
   :local:
@@ -14,7 +14,7 @@ Materials
 - Realtek Amebapro LED board x 1
 
 Example
----------
+-------
 This example is built on the `"StreamRTSP" -> "VideoOnly" <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_pro2/amb82-mini/Example_Guides/Multimedia/RTSP%20Streaming.html>`_. Please refer to the "VideoOnly" example for more information on how to set up an RTSP stream.
 
 
@@ -73,7 +73,7 @@ Next, click “Play” to start RTSP streaming. The video stream from the camera
 |image09|
 
 Code Reference
----------
+--------------
 The Infrared class controls all the manual IR features of the AmebaPro2. You will need to the following lines before you can begin using any IR features.
 
 .. code:: c
@@ -107,6 +107,7 @@ It is also important to remember to set the camera to grayscale mode for better 
 .. |image07| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image07.jpg
 .. |image08| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image08.jpg
 .. |image09| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image09.jpg
+
 
 
 
