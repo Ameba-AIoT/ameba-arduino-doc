@@ -86,17 +86,17 @@ First, the IR cut and/or LED has to be initialized before you can use them. Afte
 
 .. code:: cpp
 
-    ir.cutInit();               # Initializes GPIO Pin F12
-    ir.ledInit();               # Initializes GPIO Pin F13
-    ir.setCut(0);               # 0 to disable, 1 to enable
-    ir.setLedBrightness(100);   # Brightness input can be from 0 to 100, [0,100]
+    ir.cutInit();               // Initializes GPIO Pin F12
+    ir.ledInit();               // Initializes GPIO Pin F13
+    ir.setCut(0);               // 0 to disable, 1 to enable
+    ir.setLedBrightness(100);   // Brightness input can be from 0 to 100, [0,100]
 
 It is also important to remember to set the camera to grayscale mode for better clarity and that the ISP auto-tuning has to be set to night mode. This can only be done after data stream has started by the following functions,
 
 .. code:: cpp
 
-    configCam.setGrayMode(1);       # 0 for RGB, 1 for Grayscale
-    configCam.setDayNightMode(1);   # 0 for day mode ISP auto-tuning, 1 for night mode ISP auto-tuning
+    configCam.setGrayMode(1);       // 0 for RGB, 1 for Grayscale
+    configCam.setDayNightMode(1);   // 0 for day mode ISP auto-tuning, 1 for night mode ISP auto-tuning
 
 
 .. |image01| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image01.jpg
@@ -108,6 +108,7 @@ It is also important to remember to set the camera to grayscale mode for better 
 .. |image07| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image07.jpg
 .. |image08| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image08.jpg
 .. |image09| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image09.jpg
+
 
 
 
