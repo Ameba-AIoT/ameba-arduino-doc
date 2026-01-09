@@ -23,19 +23,17 @@ Connect the accelerometer and LEDs to the BW16 according to the diagram below.
 
 |image04|
 
-Download the Ameba customized version of TensorFlow Lite for Microcontrollers library at https://github.com/Ameba-AIoT/ameba-arduino-d/blob/master/Arduino_zip_libraries/Ameba_TensorFlowLite.zip.
+In the Arduino IDE library manager, install the Arduino_LSM9DS1 library. This example has been tested with version 1.1.0 of the LSM9DS1 library.
 
 |image08|
 
-Follow the instructions at https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries to install it. 
-
-Ensure that the patch files found at https://github.com/Ameba-AIoT/ameba-arduino-d/tree/master/Ameba_misc/TensorFlowLite_patch are also installed.
-
-In the Arduino IDE library manager, install the Arduino_LSM9DS1 library. This example has been tested with version 1.1.0 of the LSM9DS1 library.
-
-Open the example, "Files" → "Examples" → “TensorFlowLite_Ameba” → “magic_wand”.
+Open the example, "Files" → "Examples" → “AmebaTensorFlowLite” → “magic_wand”.
   
 |image09|
+
+Enable TensorFlow Lite option. It is set to disable by default.
+
+|image12|
 
 Upload the code and press the reset button on Ameba once the upload is finished.
 
@@ -57,12 +55,12 @@ More information on TensorFlow Lite for Microcontrollers can be found at: https:
    :height: 734
    :scale: 80 %
 .. |image08| image:: ../../../../_static/amebad/Example_Guides/TensorFlowLite/TensorFlow_Lite_Magic_Wand/image08.png
-   :width: 583
-   :height: 329
+   :width: 378
+   :height: 377
    :scale: 100 %
 .. |image09| image:: ../../../../_static/amebad/Example_Guides/TensorFlowLite/TensorFlow_Lite_Magic_Wand/image09.png
-   :width: 556
-   :height: 830
+   :width: 771
+   :height: 1001
    :scale: 100 %
 .. |image10| image:: ../../../../_static/amebad/Example_Guides/TensorFlowLite/TensorFlow_Lite_Magic_Wand/image10.png
    :width: 777
@@ -71,4 +69,8 @@ More information on TensorFlow Lite for Microcontrollers can be found at: https:
 .. |image11| image:: ../../../../_static/amebad/Example_Guides/TensorFlowLite/TensorFlow_Lite_Magic_Wand/image11.png
    :width: 639
    :height: 458
+   :scale: 100 %
+.. |image12| image:: ../../../../_static/amebad/Example_Guides/TensorFlowLite/TensorFlow_Lite_Magic_Wand/image12.png
+   :width: 758
+   :height: 562
    :scale: 100 %

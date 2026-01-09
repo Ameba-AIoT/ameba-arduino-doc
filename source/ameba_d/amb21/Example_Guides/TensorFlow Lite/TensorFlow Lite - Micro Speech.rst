@@ -21,15 +21,13 @@ Connect the microphone and LEDs to the Ameba board according to the diagram belo
   
 |image01|
 
-Download the Ameba customized version of TensorFlow Lite for Microcontrollers library at https://github.com/Ameba-AIoT/ameba-arduino-d/blob/master/Arduino_zip_libraries/Ameba_TensorFlowLite.zip.
-
-Follow the instructions at https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries to install it. 
-
-Ensure that the patch files found at https://github.com/Ameba-AIoT/ameba-arduino-d/tree/master/Ameba_misc/TensorFlowLite_patch are also installed.
-
-Open the example, "Files" → "Examples" → “TensorFlowLite_Ameba” → “micro_speech”.
+Open the example, "Files" → "Examples" → “AmebaTensorFlowLite” → “micro_speech”.
 
 |image04|
+
+Enable TensorFlow Lite option. It is set to disable by default.
+
+|image06|
 
 | Upload the code and press the reset button on Ameba once the upload is finished.
 | Once it is running, you should see one of the LEDs flashing, indicating that it is processing audio. Saying the word "yes" will cause the green
@@ -58,10 +56,14 @@ More information on TensorFlow Lite for Microcontrollers can be found at: https:
    :height: 820
    :scale: 70 %
 .. |image04| image:: ../../../../_static/amebad/Example_Guides/TensorFlowLite/TensorFlow_Lite_Micro_Speech/image04.png
-   :width: 556
-   :height: 830
+   :width: 681
+   :height: 1030
    :scale: 100 %
 .. |image05| image:: ../../../../_static/amebad/Example_Guides/TensorFlowLite/TensorFlow_Lite_Micro_Speech/image05.png
    :width: 607
    :height: 379
+   :scale: 100 %
+.. |image06| image:: ../../../../_static/amebad/Example_Guides/TensorFlowLite/TensorFlow_Lite_Micro_Speech/image06.png
+   :width: 758
+   :height: 562
    :scale: 100 %
