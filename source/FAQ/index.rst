@@ -60,3 +60,5 @@ Ameba FAQ
    RTSP_streaming_calibrations
 
    watchdog_option
+
+   wifi_optimal_performance
