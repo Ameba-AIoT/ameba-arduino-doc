@@ -15,3 +15,6 @@ Multimedia
    RTSP Streaming V7RC
    RTSP Streaming
    RTSP Streaming with OSD Image
+   Websocket Viewer
+   AutoDayAndNight
+   NightMode

@@ -1,4 +1,4 @@
-.. tags:: WiFi, 2.4G, 5G, RTSP
+.. tags:: wifi, 2.4g, 5g, rtsp
 
 Got "MMF ENC Queue full" when using 2.4G WiFi for RTSP streaming
 ================================================================
@@ -21,7 +21,7 @@ Some calibration suggestions:
 
 - Check for background traffic – other devices might be saturating the 2.4 GHz band.
 
-- Using multi-task structure for applicaiton - Wi-Fi and streaming by 2 tasks.
+- Using multi-task structure for application - Wi-Fi and streaming by 2 tasks.
 
 - Increase the queue length - using "Video::setQLen(int ch, int len)".
 

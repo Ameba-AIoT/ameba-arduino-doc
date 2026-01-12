@@ -12,6 +12,7 @@ API Documents
    Gtimer/index
    HTTP/index
    Multimedia/index
+   Multithreading/index
    NeuralNetwork/index
    NTPClient/index
    OTA/index
