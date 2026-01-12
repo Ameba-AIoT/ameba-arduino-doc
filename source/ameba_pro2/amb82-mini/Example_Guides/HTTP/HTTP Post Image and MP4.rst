@@ -8,11 +8,14 @@ HTTP Post Image and MP4
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 -  PushButton x1
 
 -  220 ohm resistor x1
+
+-  MicroSD card
+
 
 Example
 -------
