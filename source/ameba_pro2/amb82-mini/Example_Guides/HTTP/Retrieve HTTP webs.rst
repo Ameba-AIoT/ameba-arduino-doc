@@ -1,22 +1,18 @@
 Retrieve HTTP webs
 ==================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 Example
 -------
 
 | In this example, the HttpClient library is used to retrieve a webpage using the HTTP protocol.
-| First, make sure that the correct Ameba development board is selected in “Tools” -> “Board”.
+| First, make sure that the correct Ameba development board is selected in "Tools" -> "Board".
 
-Then open “File” -> “Examples” -> “AmebaHttp” -> “RetrieveHttpWebs”.
+Then open "File" -> "Examples" -> "AmebaHttp" -> "RetrieveHttpWebs".
 
 |image01|
 

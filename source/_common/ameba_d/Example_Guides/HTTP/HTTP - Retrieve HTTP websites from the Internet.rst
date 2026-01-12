@@ -1,10 +1,6 @@
 HTTP - Retrieve HTTP websites from the Internet
 ================================================
 
-.. contents::
-  :local:
-  :depth: 2
-  
 Materials
 ---------
 
@@ -15,9 +11,9 @@ Example
 
 In this example, the HttpClient library is used to retrieve a webpage using the HTTP protocol.
 
-First, make sure that the correct Ameba development board is selected in “Tools” -> “Board”
+First, make sure that the correct Ameba development board is selected in "Tools" -> "Board"
 
-Then open “File” -> “Examples” -> “AmebaHttp” -> “SimpleHttpExample”
+Then open "File" -> "Examples" -> "AmebaHttp" -> "SimpleHttpExample"
 
 |image01|
 
@@ -45,7 +41,6 @@ Code Reference
 | https://www.arduino.cc/en/Reference/WiFiClient
 | Use HTTPClient to create a client to handle the HTTP connection.
 | Use http.get() to send a GET request to the website.
- 
 
 .. |image01| image:: ../../../../_static/amebad/Example_Guides/HTTP/HTTP_Retrieve_HTTP_websites_from_the_Internet/image01.png
    :width:  511 px

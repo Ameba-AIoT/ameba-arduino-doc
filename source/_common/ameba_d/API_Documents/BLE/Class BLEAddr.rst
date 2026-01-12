@@ -1,10 +1,6 @@
 Class BLEAddr
 =============
 
-.. contents::
-  :local:
-  :depth: 2
-
 **BLEAddr Class**
 -----------------
 

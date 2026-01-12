@@ -1,14 +1,10 @@
 Display Text
 ==============
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
--  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+-  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 -  Waveshare E-Paper [2.9inch E-Paper HAT (D)/ 2.9inch E-Paper V2/
    2.9inch e-Paper Module (B)/ 4.2inch e-Paper Module/ 7.5-inch E-Ink
@@ -53,16 +49,16 @@ should be set to 0.
 
 Next, download the Eink zip library, AmebaEink.zip,
 at `https://github.com/ambiot/ambpro2_arduino/tree/dev/Arduino_zip_libraries <https://github.com/ambiot/ambpro2_arduino/tree/dev/Arduino_zip_libraries>`_
-Then install the AmebaEink.zip by navigating to “Sketch” -> “Include
-Library” -> “Add .ZIP Library…”.
+Then install the AmebaEink.zip by navigating to "Sketch" -> "Include
+Library" -> "Add .ZIP Library…".
 
 Eink examples are categorised based on the size and modules of the
 e-Paper display.
 
 |image05|
 
-Open one of the “EinkDisplayText” examples. For example, “File” →
-“Examples” → “AmebaEink” → “EPD_2in9v2”-> “EinkDisplayText”:
+Open one of the "EinkDisplayText" examples. For example, "File" →
+"Examples" → "AmebaEink" → "EPD_2in9v2"-> "EinkDisplayText":
 
 |image06|
 

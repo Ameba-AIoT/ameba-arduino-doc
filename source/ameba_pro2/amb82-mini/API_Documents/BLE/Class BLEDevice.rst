@@ -1,10 +1,6 @@
 Class BLEDevice
 ===============
 
-.. contents::
-  :local:
-  :depth: 2
-
 **BLEDevice Class**
 -------------------
 

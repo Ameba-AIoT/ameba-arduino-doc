@@ -1,14 +1,10 @@
 Audio Volume Adjust
 ===================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 - 3.5mm TRS/TRRS breakout x 1 (e.g., Adafruit 2791 / Sparkfun 11570)
 - Adafruit PDM Microphone Breakout x 1 [Optional]
 - Potentiometer x 2
@@ -25,14 +21,14 @@ Alternatively, connect the audio jack, potentiometers, and PDM Microphone as sho
 
 |image02|
 
-Open one of the Audio examples in “File” -> “Examples” -> “AmebaMultimedia” -> “Audio” -> "AudioVolumeAdjust".
+Open one of the Audio examples in "File" -> "Examples" -> "AmebaMultimedia" -> "Audio" -> "AudioVolumeAdjust".
 
 |image03|
 
 Compile the code and upload it to Ameba.
 
 Plug in a pair of wired earbuds into the audio jack. After pressing the Reset button, you should be able to hear sounds picked up by the onboard microphone replayed through the earbuds.
-In this “AudioVolumeAdjust” example, turning the potentiometers will adjust either the input volume of the microphone or the output volume of the audio jack.
+In this "AudioVolumeAdjust" example, turning the potentiometers will adjust either the input volume of the microphone or the output volume of the audio jack.
 
 .. |image01| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Audio_Basic/image01.png
    :width:  719 px

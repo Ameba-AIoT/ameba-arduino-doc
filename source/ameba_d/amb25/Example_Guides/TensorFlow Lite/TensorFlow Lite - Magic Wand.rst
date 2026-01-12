@@ -1,10 +1,6 @@
 TensorFlow Lite - Magic Wand
 ============================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -27,8 +23,8 @@ In the Arduino IDE library manager, install the Arduino_LSM9DS1 library. This ex
 
 |image08|
 
-Open the example, "Files" → "Examples" → “AmebaTensorFlowLite” → “magic_wand”.
-  
+Open the example, "Files" → "Examples" → "AmebaTensorFlowLite" → "magic_wand".
+
 |image09|
 
 Enable TensorFlow Lite option. It is set to disable by default.
@@ -38,7 +34,7 @@ Enable TensorFlow Lite option. It is set to disable by default.
 Upload the code and press the reset button on Ameba once the upload is finished.
 
 Holding the accelerometer steady, with the positive x-axis pointing to the right and the positive z-axis pointing upwards, move it following the shapes as shown, moving it in a smooth motion over 1 to 2 seconds, avoiding any sharp movements.
-  
+
 |image10|
 
 If the movement is recognised by the Tensorflow Lite model, you should see the same shape output to the Arduino serial monitor. Different LEDs will light up corresponding to different recognized gestures. Note that the wing shape is easy to achieve, while the slope and ring shapes tend to be harder to get right.

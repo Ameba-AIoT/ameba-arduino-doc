@@ -1,10 +1,6 @@
-WiFi - Scan the surrounding WiFi networks			
+WiFi - Scan the surrounding WiFi networks
 ==========================================
 
-.. contents::
-  :local:
-  :depth: 2
-  
 Materials
 ---------
 
@@ -17,13 +13,13 @@ Example
 
 In this example, we use Ameba to scan available WiFi hotspots in the surroundings, and prints the SSID, encryption type, signal strength information of each detected hotspot.
 
-First, make sure the correct Ameba development board is selected in Arduino IDE: “Tools” -> “Board” ->
+First, make sure the correct Ameba development board is selected in Arduino IDE: "Tools" -> "Board" ->
 
-Open the “ScanNetworks” example in “File” -> “Examples” -> “AmebaWiFi” -> “ScanNetworks”:
-  
+Open the "ScanNetworks" example in "File" -> "Examples" -> "AmebaWiFi" -> "ScanNetworks":
+
 |image01|
 
-Then upload the sample code and press the reset button on Ameba. Afterwards, you can see “**Scan Networks**” message appears, with the detected WiFi hotspots and the information of each hotspot.
+Then upload the sample code and press the reset button on Ameba. Afterwards, you can see "**Scan Networks**" message appears, with the detected WiFi hotspots and the information of each hotspot.
 
 |image02|
 
@@ -46,7 +42,7 @@ Comparison with Arduino
 -------------------------
 
 In the Arduino platform, we need to add an extra WiFi shield to be the WiFi module to realize the WiFi connection. And we must #include to use SPI to communicate with WiFi module.
-However, Ameba is already equipped with WiFi module. 
+However, Ameba is already equipped with WiFi module.
 
 Therefore, #include is not needed.
 
@@ -56,4 +52,4 @@ Therefore, #include is not needed.
 .. |image02| image:: ../../../../_static/amebad/Example_Guides/WiFi/WiFi_Scan_the_surrounding_WiFi_networks/image02.png
    :width:  704 px
    :height:  530 px
-   
+

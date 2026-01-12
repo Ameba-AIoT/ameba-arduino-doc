@@ -1,15 +1,10 @@
 SYS - MemInfo
 =============
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
 - AmebaD [AMB21 / AMB22 / AMB23 / AMB25 / AMB26 / BW16 / AW-CU488 Thing Plus] x 1
-
 
 **Introduction**
 ~~~~~~~~~~~~~~~~
@@ -23,7 +18,7 @@ FreeRTOS uses a memory heap for dynamic memory allocation and creating threads. 
 
 Step 1. Open Example
 
-Open the example: ``“Files” → “Examples” → “AmebaSys” → “MemInfo”``
+Open the example: ``"Files" → "Examples" → "AmebaSys" → "MemInfo"``
 
 |image01|
 

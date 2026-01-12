@@ -11,7 +11,7 @@ Example
 
 This example shows how to use the FFT class to calculate the fast Fourier transform of a signal to extract the frequencies present in the signal.
 
-Open the example, “Files” -> “Examples” -> “AmebaAudioCodec” -> “FFT”.
+Open the example, "Files" -> "Examples" -> "AmebaAudioCodec" -> "FFT".
 
 |image01|
 

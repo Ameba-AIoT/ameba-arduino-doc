@@ -1,14 +1,10 @@
 DHT over BLE UART
 =================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
--  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+-  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 -  DHT11 or DHT22 or DHT21
 
@@ -49,16 +45,16 @@ Ensure that a compatible BLE UART app is installed on your smartphone, it is ava
    * https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect
    * https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal
 
-* Apple App Store: 
+* Apple App Store:
    * https://apps.apple.com/us/app/bluefruit-connect/id830125974
 
-Open the example, “Files” -> “Examples” -> “AmebaBLE” -> “DHT_over_BLEUart”.
+Open the example, "Files" -> "Examples" -> "AmebaBLE" -> "DHT_over_BLEUart".
 
 |image03|
 
 Upload the code and press the reset button on Ameba once the upload is finished.
 
-Open the app on your smartphone, scan and connect to the Ameba board shown as “AMEBA_BLE_DEV” and choose the UART function in the app.
+Open the app on your smartphone, scan and connect to the Ameba board shown as "AMEBA_BLE_DEV" and choose the UART function in the app.
 
 |image04|
 

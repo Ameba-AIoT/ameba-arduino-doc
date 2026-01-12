@@ -1,10 +1,6 @@
 Class EpdIF
 ===========
 
-.. contents::
-  :local:
-  :depth: 2
-
 **EpdIF Class**
 ---------------
 
@@ -43,7 +39,7 @@ A class used to control the electronic paper display internal functions.
 | EpdIf::EPD_SetRAMValue_BaseMap | Set the RAM value with image data.  |
 |                                | Read the image data stored in the   |
 |                                | RAM, but not displaying on          |
-|                                | the screen.                         |  
+|                                | the screen.                         |
 +--------------------------------+-------------------------------------+
 | EpdIf::EPD_SetFrameMemory      | To read image data stored in the    |
 |                                | buffer, but not display on the      |

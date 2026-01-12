@@ -1,14 +1,10 @@
 Loopback Test
 =============
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 - 3.5mm TRS/TRRS breakout x 1 (e.g., Adafruit 2791 / Sparkfun 11570)
 - Adafruit PDM Microphone Breakout x 1 [Optional]
 - Potentiometer x 2
@@ -25,7 +21,7 @@ Alternatively, connect the audio jack and PDM Microphone as shown in the diagram
 
 |image02|
 
-Open one of the Audio examples in “File” -> “Examples” -> “AmebaMultimedia” -> “Audio” -> "LoopbackTest".
+Open one of the Audio examples in "File" -> "Examples" -> "AmebaMultimedia" -> "Audio" -> "LoopbackTest".
 
 |image03|
 

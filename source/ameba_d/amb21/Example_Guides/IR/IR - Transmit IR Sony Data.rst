@@ -1,10 +1,6 @@
 IR - Transmit IR Sony Data
 ============================
 
-.. contents::
-  :local:
-  :depth: 2
-  
 Materials
 ---------
 
@@ -15,7 +11,7 @@ Materials
 Example
 --------
 
-In this example, we use one AmebaD board that connecting with an infrared (IR) Emitter to transmit and receive IR SONY data “0xA90” (Sony TV power code). For the receiver side, you can either use an oscilloscope/logic analyser to view the waveform and decode accordingly.
+In this example, we use one AmebaD board that connecting with an infrared (IR) Emitter to transmit and receive IR SONY data "0xA90" (Sony TV power code). For the receiver side, you can either use an oscilloscope/logic analyser to view the waveform and decode accordingly.
 
 |image01|
 
@@ -35,7 +31,7 @@ On the transmission side, the transmitter will send IR SONY data. For more detai
 
 **Sony SIRC Modulation**
 
-The SIRC protocol uses pulse width encoding of the bits. The pulse representing a logical “1” is a 1200us long burst of the 40kHz carrier, while the burst width for a logical “0” is 600us long. All bursts are separated by a 600us long space interval as shown in Figure 2 below.
+The SIRC protocol uses pulse width encoding of the bits. The pulse representing a logical "1" is a 1200us long burst of the 40kHz carrier, while the burst width for a logical "0" is 600us long. All bursts are separated by a 600us long space interval as shown in Figure 2 below.
 
 |image02|
 
@@ -53,13 +49,13 @@ Commands are repeated every 45ms (measured from start to start) for as long as t
 
 |image04|
 
-After the connection is being set up correctly, we will move to the coding part for this example. First, make sure the correct Ameba development board is selected in Arduino IDE: “Tools” -> “Board”.
+After the connection is being set up correctly, we will move to the coding part for this example. First, make sure the correct Ameba development board is selected in Arduino IDE: "Tools" -> "Board".
 
-Open the “IRSendSONY” example in “File” -> “Examples” -> “AmebaIRDevice” -> “IRSendSONY” and upload to the board connected with IR Emitter:
+Open the "IRSendSONY" example in "File" -> "Examples" -> "AmebaIRDevice" -> "IRSendSONY" and upload to the board connected with IR Emitter:
 
 |image10|
 
-After successfully upload the sample code for IRSendSONY, you could use oscilloscope or Pulse View software to find out the waveform of the signal transmitted from the IR Emitter is “0xA90” as shown in Figure below:
+After successfully upload the sample code for IRSendSONY, you could use oscilloscope or Pulse View software to find out the waveform of the signal transmitted from the IR Emitter is "0xA90" as shown in Figure below:
 
 |image11|
 

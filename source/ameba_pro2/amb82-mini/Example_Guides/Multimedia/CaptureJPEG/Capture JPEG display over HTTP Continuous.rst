@@ -1,14 +1,10 @@
 Capture JPEG display over HTTP Continuous
 =========================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 Example
 -------
@@ -62,7 +58,7 @@ FPS
 
 - **10–15 fps** → smooth enough for monitoring, reduces bandwidth.
 - **20–25 fps** → good compromise for human viewing with motion.
-- **30 fps** → “real-time feel,” but usually overkill for MJPEG, since compression is inefficient.
+- **30 fps** → "real-time feel," but usually overkill for MJPEG, since compression is inefficient.
 
 **Rule of thumb:**
 

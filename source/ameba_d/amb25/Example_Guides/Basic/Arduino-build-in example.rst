@@ -1,10 +1,6 @@
 Arduino-build-in example
 ========================
 
-.. contents::
-  :local:
-  :depth: 2
-
 AMB25 Supported ARDUINO built-in example table
 ----------------------------------------------
 
@@ -145,7 +141,7 @@ There are many built-in examples in Arduino. All examples that listed are compat
 |               |                           | | (float gain, float offset).  In line 41,    |                                                    |
 |               |                           | | replace, pin 11 and pin 10 with             |                                                    |
 |               |                           | | pin 1 and pin 0 respectively.               |                                                    |
-|               |                           | | For “analogRead()”, use A4 and A5           |                                                    |
+|               |                           | | For "analogRead()", use A4 and A5           |                                                    |
 |               |                           | | instead of A0 and A1. After line 101,       |                                                    |
 |               |                           | | add delay(1);                               |                                                    |
 +---------------+---------------------------+-----------------------------------------------+----------------------------------------------------+

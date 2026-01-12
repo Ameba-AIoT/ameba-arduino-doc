@@ -1,20 +1,16 @@
 Ameba Over-the-Air Firmware Update
 ==================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 - Set up of Web UI in a PC
 
 Example
 -------
 
-In this example, we use a web UI to upload firmware to one or more AMB82 Mini. 
+In this example, we use a web UI to upload firmware to one or more AMB82 Mini.
 
 For the instructions to set up web UI for AmebaPro2 OTA: Web UI, please click into the link below and perform the steps as shown in the ``README.md``. [https://github.com/Ameba-AioT/ameba-OTA-UI]
 
@@ -22,17 +18,17 @@ If Ameba OTA Web UI is set up successfully in your PC, you will see the webpage 
 
 |image01|
 
-To begin, open the OTA example in Arduino IDE. “File” -> “Examples” -> “AmebaOTA” -> “OTA”.
+To begin, open the OTA example in Arduino IDE. "File" -> "Examples" -> "AmebaOTA" -> "OTA".
 
 |image02|
 
-Before compiling and upload the example, please complete the following steps: 
+Before compiling and upload the example, please complete the following steps:
 
-1. Set NN Model Load From SD Card. “Tools” -> “NN Model Load From” -> “SD Card” 
+1. Set NN Model Load From SD Card. "Tools" -> "NN Model Load From" -> "SD Card"
 
 |image03|
 
-2.	Enable the OTA mode. “Tools” -> “OTA Mode” -> “Enable” 
+2.	Enable the OTA mode. "Tools" -> "OTA Mode" -> "Enable"
 
 |image04|
 
@@ -44,7 +40,7 @@ Before compiling and upload the example, please complete the following steps:
 
 |image06|
 
-Now, compile and upload this example into each and every board that you have. It can be one board or multiple boards (we will be using two AMB82 Mini boards in this example guide). 
+Now, compile and upload this example into each and every board that you have. It can be one board or multiple boards (we will be using two AMB82 Mini boards in this example guide).
 
 This set up must be done at least once to allow the OTA thread API to be called for the first time. For subsequent firmware updates, as long as ``OTA.h`` is included and ``start_ota_threads`` API is called in the setup function, you do not need to re-upload the code manually.
 
@@ -58,23 +54,23 @@ Board 2 IP address: 192.168.3.65
 
 |image08|
 
-Then, go to Ameba OTA Web UI [http://localhost:3000/] to view the connected device(s). 
+Then, go to Ameba OTA Web UI [http://localhost:3000/] to view the connected device(s).
 
 |image09|
 
-If you can see the IP address(es) of your AMB82 Mini board(s) on the OTA webpage, it shows that the connection is successful. 
+If you can see the IP address(es) of your AMB82 Mini board(s) on the OTA webpage, it shows that the connection is successful.
 
 For the steps below, you may disconnect AMB82 Mini from your PC and power up the board with any stable 5V DC power source. The overall connection map of this example guide is shown in the figure below.
 
 |image10|
 
-In this tutorial, we will be uploading a NTPClient sketch via OTA.  Open the NTPClient example. “File”-> “Examples” -> “NTPClient” -> ”Basic”. Include the header file ``OTA.h`` and at the end of setup function, add in the API ``start_OTA_threads`` and define the port number and ip address according to your HTTP server. Also modify the SSID and password according to your AP. Refer to the picture below for the modified NTPClient sketch. 
+In this tutorial, we will be uploading a NTPClient sketch via OTA.  Open the NTPClient example. "File"-> "Examples" -> "NTPClient" -> "Basic". Include the header file ``OTA.h`` and at the end of setup function, add in the API ``start_OTA_threads`` and define the port number and ip address according to your HTTP server. Also modify the SSID and password according to your AP. Refer to the picture below for the modified NTPClient sketch.
 
 |image11|
 
 Before compiling, remember to set NN Model to load from SD card and enable OTA mode.
 
-Compile the modified NTPClient sketch, DO NOT upload after compilation. 
+Compile the modified NTPClient sketch, DO NOT upload after compilation.
 
 .. note :: Priority matters:  Kindly take note that AMB82 Mini will only boot with the latest compiled firmware.
 
@@ -92,7 +88,7 @@ Click "Start OTA" to begin OTA transfer. You will see the change of OTA state wh
 
 |image14|
 
-The board will automatically reboot with the OTA transferred firmware (i.e. modified NTPClient in this example) once download progress is completed. 
+The board will automatically reboot with the OTA transferred firmware (i.e. modified NTPClient in this example) once download progress is completed.
 
 You will see the output generated on serial monitor after reboot.
 

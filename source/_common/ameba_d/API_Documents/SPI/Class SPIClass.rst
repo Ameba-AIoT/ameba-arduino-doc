@@ -1,10 +1,6 @@
 Class SPIClass
 ==============
 
-.. contents::
-  :local:
-  :depth: 2
-
 **SPIClass Class**
 ------------------
 
@@ -122,7 +118,7 @@ Initialize MOSI, MISO, CLK, and SS pins on Ameba boards, select SPIClass object,
     void begin(char mode);
 
 .. code-block:: c++
-    
+
     void begin(int ss, char mode);
 
 **Parameters**
@@ -130,7 +126,7 @@ Initialize MOSI, MISO, CLK, and SS pins on Ameba boards, select SPIClass object,
 
 ``ss``: Slave Select. Allows a Host to select individual Device(s) connected to the bus in order to send or receive data.
 
-``mode``: Select SPI mode between “master” or 'slave' mode. The input should be char 'M' / 'S' or SPI_MODE_MASTER / SPI_MODE_SLAVE.
+``mode``: Select SPI mode between "master" or 'slave' mode. The input should be char 'M' / 'S' or SPI_MODE_MASTER / SPI_MODE_SLAVE.
 
 **Returns**
 ~~~~~~~~~~~
@@ -515,5 +511,5 @@ NA
 NA
 
 .. important :: After calling end(), you need to use begin() again to enable SPI function.
-    
+
 .. note :: "SPI.h" must be included to use the class function.

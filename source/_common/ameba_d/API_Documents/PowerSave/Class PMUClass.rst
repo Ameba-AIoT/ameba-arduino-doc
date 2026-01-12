@@ -1,10 +1,6 @@
 Class PMUClass
 ==============
 
-.. contents::
-  :local:
-  :depth: 2
-
 **PMUClass Class**
 ------------------
 
@@ -136,7 +132,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -158,7 +154,7 @@ Initialize the PMUClass and select sleep mode as Deep Sleep mode or Tickless mod
 **Parameters**
 ~~~~~~~~~~~~~~
 
-``sleep_mode``: “11” indicates Deep Sleep Mode, “22” indicates Tickless Mode.
+``sleep_mode``: "11" indicates Deep Sleep Mode, "22" indicates Tickless Mode.
 
 **Returns**
 ~~~~~~~~~~~
@@ -170,7 +166,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -204,7 +200,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -238,7 +234,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -278,7 +274,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -312,7 +308,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -354,7 +350,7 @@ This function returns the wake-up source represented as an integer value.
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -398,7 +394,7 @@ This function returns the wake-up source represented as an integer value.
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -432,7 +428,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -459,14 +455,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns “true” when Deep Sleep mode is entered. Otherwise, return “false”.
+This function returns "true" when Deep Sleep mode is entered. Otherwise, return "false".
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -500,7 +496,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -537,7 +533,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -547,7 +543,7 @@ Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduin
 **Description**
 ~~~~~~~~~~~~~~~
 
-AON timer is set as the wake-up source for Deep Sleep Mode. “Set Deepsleep wakeup AON timer.” will be printed on Serial Monitor when this function is called.
+AON timer is set as the wake-up source for Deep Sleep Mode. "Set Deepsleep wakeup AON timer." will be printed on Serial Monitor when this function is called.
 
 **Syntax**
 ~~~~~~~~~~
@@ -571,7 +567,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -581,7 +577,7 @@ Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduin
 **Description**
 ~~~~~~~~~~~~~~~
 
-RTC timer is set as the wake-up source for Deep Sleep Mode. “Set Deepsleep wakeup RTC.” will be printed on Serial Monitor when this function is called.
+RTC timer is set as the wake-up source for Deep Sleep Mode. "Set Deepsleep wakeup RTC." will be printed on Serial Monitor when this function is called.
 
 **Syntax**
 ~~~~~~~~~~
@@ -605,7 +601,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -615,7 +611,7 @@ Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduin
 **Description**
 ~~~~~~~~~~~~~~~
 
-LOGUART is set as the wake-up source for Tickless Mode. “Set Tickless wakeup LOGUART.” will be printed on Serial Monitor when this function is called.
+LOGUART is set as the wake-up source for Tickless Mode. "Set Tickless wakeup LOGUART." will be printed on Serial Monitor when this function is called.
 
 **Syntax**
 ~~~~~~~~~~
@@ -639,7 +635,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -649,7 +645,7 @@ Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduin
 **Description**
 ~~~~~~~~~~~~~~~
 
-RTC timer is set as the wake-up source for Tickless Mode. “Set Tickless wakeup RTC.” will be printed on Serial Monitor when this function is called.
+RTC timer is set as the wake-up source for Tickless Mode. "Set Tickless wakeup RTC." will be printed on Serial Monitor when this function is called.
 
 **Syntax**
 ~~~~~~~~~~
@@ -673,7 +669,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -683,7 +679,7 @@ Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduin
 **Description**
 ~~~~~~~~~~~~~~~
 
-AON GPIO pin 12 is set as the wake-up source for Deep Sleep mode. “Set Deepsleep wakeup AON pin GPIOA12.” will be printed on Serial Monitor when this function is called.
+AON GPIO pin 12 is set as the wake-up source for Deep Sleep mode. "Set Deepsleep wakeup AON pin GPIOA12." will be printed on Serial Monitor when this function is called.
 
 **Syntax**
 ~~~~~~~~~~
@@ -707,7 +703,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -717,7 +713,7 @@ Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduin
 **Description**
 ~~~~~~~~~~~~~~~
 
-AON GPIO pin 13 is set as the wake-up source for Deep Sleep mode. “Set Deepsleep wakeup AON pin GPIOA13.” will be printed on Serial Monitor when this function is called.
+AON GPIO pin 13 is set as the wake-up source for Deep Sleep mode. "Set Deepsleep wakeup AON pin GPIOA13." will be printed on Serial Monitor when this function is called.
 
 **Syntax**
 ~~~~~~~~~~
@@ -741,7 +737,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -751,7 +747,7 @@ Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduin
 **Description**
 ~~~~~~~~~~~~~~~
 
-AON GPIO pin 14 is set as the wake-up source for Deep Sleep mode. “Set Deepsleep wakeup AON pin GPIOA14.” will be printed on Serial Monitor when this function is called.
+AON GPIO pin 14 is set as the wake-up source for Deep Sleep mode. "Set Deepsleep wakeup AON pin GPIOA14." will be printed on Serial Monitor when this function is called.
 
 **Syntax**
 ~~~~~~~~~~
@@ -775,7 +771,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -785,7 +781,7 @@ Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduin
 **Description**
 ~~~~~~~~~~~~~~~
 
-AON GPIO pin 15 is set as the wake-up source for Deep Sleep mode. “Set Deepsleep wakeup AON pin GPIOA15.” will be printed on Serial Monitor when this function is called.
+AON GPIO pin 15 is set as the wake-up source for Deep Sleep mode. "Set Deepsleep wakeup AON pin GPIOA15." will be printed on Serial Monitor when this function is called.
 
 **Syntax**
 ~~~~~~~~~~
@@ -809,7 +805,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -819,7 +815,7 @@ Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduin
 **Description**
 ~~~~~~~~~~~~~~~
 
-AON GPIO pin 16 is set as the wake-up source for Deep Sleep mode. “Set Deepsleep wakeup AON pin GPIOA16.” will be printed on Serial Monitor when this function is called.
+AON GPIO pin 16 is set as the wake-up source for Deep Sleep mode. "Set Deepsleep wakeup AON pin GPIOA16." will be printed on Serial Monitor when this function is called.
 
 **Syntax**
 ~~~~~~~~~~
@@ -843,7 +839,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -853,7 +849,7 @@ Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduin
 **Description**
 ~~~~~~~~~~~~~~~
 
-AON GPIO pin 17 is set as the wake-up source for Deep Sleep mode. “Set Deepsleep wakeup AON pin GPIOA17.” will be printed on Serial Monitor when this function is called.
+AON GPIO pin 17 is set as the wake-up source for Deep Sleep mode. "Set Deepsleep wakeup AON pin GPIOA17." will be printed on Serial Monitor when this function is called.
 
 **Syntax**
 ~~~~~~~~~~
@@ -877,7 +873,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -887,7 +883,7 @@ Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduin
 **Description**
 ~~~~~~~~~~~~~~~
 
-AON GPIO pin 18 is set as the wake-up source for Deep Sleep mode. “Set Deepsleep wakeup AON pin GPIOA18.” will be printed on Serial Monitor when this function is called.
+AON GPIO pin 18 is set as the wake-up source for Deep Sleep mode. "Set Deepsleep wakeup AON pin GPIOA18." will be printed on Serial Monitor when this function is called.
 
 **Syntax**
 ~~~~~~~~~~
@@ -911,7 +907,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -921,7 +917,7 @@ Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduin
 **Description**
 ~~~~~~~~~~~~~~~
 
-AON GPIO pin 19 is set as the wake-up source for Deep Sleep mode. “Set Deepsleep wakeup AON pin GPIOA19.” will be printed on Serial Monitor when this function is called.
+AON GPIO pin 19 is set as the wake-up source for Deep Sleep mode. "Set Deepsleep wakeup AON pin GPIOA19." will be printed on Serial Monitor when this function is called.
 
 **Syntax**
 ~~~~~~~~~~
@@ -945,7 +941,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -955,7 +951,7 @@ Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduin
 **Description**
 ~~~~~~~~~~~~~~~
 
-AON GPIO pin 20 is set as the wake-up source for Deep Sleep mode. “Set Deepsleep wakeup AON pin GPIOA20.” will be printed on Serial Monitor when this function is called.
+AON GPIO pin 20 is set as the wake-up source for Deep Sleep mode. "Set Deepsleep wakeup AON pin GPIOA20." will be printed on Serial Monitor when this function is called.
 
 **Syntax**
 ~~~~~~~~~~
@@ -979,7 +975,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -989,7 +985,7 @@ Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduin
 **Description**
 ~~~~~~~~~~~~~~~
 
-AON GPIO pin 21 is set as the wake-up source for Deep Sleep mode. “Set Deepsleep wakeup AON pin GPIOA21.” will be printed on Serial Monitor when this function is called.
+AON GPIO pin 21 is set as the wake-up source for Deep Sleep mode. "Set Deepsleep wakeup AON pin GPIOA21." will be printed on Serial Monitor when this function is called.
 
 **Syntax**
 ~~~~~~~~~~
@@ -1013,7 +1009,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -1023,7 +1019,7 @@ Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduin
 **Description**
 ~~~~~~~~~~~~~~~
 
-AON GPIO pin 25 is set as the wake-up source for Deep Sleep mode. “Set Deepsleep wakeup AON pin GPIOA25.” will be printed on Serial Monitor when this function is called.
+AON GPIO pin 25 is set as the wake-up source for Deep Sleep mode. "Set Deepsleep wakeup AON pin GPIOA25." will be printed on Serial Monitor when this function is called.
 
 **Syntax**
 ~~~~~~~~~~
@@ -1047,7 +1043,7 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -1057,7 +1053,7 @@ Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduin
 **Description**
 ~~~~~~~~~~~~~~~
 
-AON GPIO pin 26 is set as the wake-up source for Deep Sleep mode. “Set Deepsleep wakeup AON pin GPIOA26.” will be printed on Serial Monitor when this function is called.
+AON GPIO pin 26 is set as the wake-up source for Deep Sleep mode. "Set Deepsleep wakeup AON pin GPIOA26." will be printed on Serial Monitor when this function is called.
 
 **Syntax**
 ~~~~~~~~~~
@@ -1081,4 +1077,4 @@ NA
 
 Example: `DeepSleep_DHT_Eink_Example <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/PowerSave/examples/DeepSleep_DHT_Eink_Example/DeepSleep_DHT_Eink_Example.ino>`_
 
-.. note :: “PMUClass.h” must be included to use the class function.
+.. note :: "PMUClass.h" must be included to use the class function.

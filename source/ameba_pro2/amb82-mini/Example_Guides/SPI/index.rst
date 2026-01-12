@@ -6,4 +6,4 @@ SPI
 
    Display SD JPG ILI9341 TFT
    LCD Screen ILI9341 TFT
-   
+

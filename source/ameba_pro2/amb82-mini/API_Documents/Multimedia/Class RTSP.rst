@@ -1,10 +1,6 @@
 Class RTSP
 ==========
 
-.. contents::
-  :local:
-  :depth: 2
-
 **RTSP Class**
 --------------
 

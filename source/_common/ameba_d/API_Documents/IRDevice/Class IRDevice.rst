@@ -1,10 +1,6 @@
 Class IRDevice
 ==============
 
-.. contents::
-  :local:
-  :depth: 2
-  
 **IRDevice Class**
 ------------------
 
@@ -83,7 +79,7 @@ This function returns the IR modulation frequency (in Hz) set currently.
 
 NA
 
-.. note :: “IRDevice.h” must be included to use the class function.
+.. note :: "IRDevice.h" must be included to use the class function.
 
 ----------------------------------------------------------------------------------
 
@@ -111,7 +107,7 @@ Select IR mode as transmitting or receiving mode on IR transmitting or receiving
 
 ``irPin``: define pin for IR receiver and transmitter if irMode == IR_MODE_TX or IR_MODE_RX.
 
-``receivePin``: Hardware IR receiving pin that connected with the IR Receiver. 
+``receivePin``: Hardware IR receiving pin that connected with the IR Receiver.
 
 ``transmitPin``: Hardware IR transmitting pin that connected with the IR Transmistter.
 
@@ -129,7 +125,7 @@ NA
 
 NA
 
-.. note :: IR device can only operate in either transmit or receive mode. “IRDevice.h” must be included to use the class function.
+.. note :: IR device can only operate in either transmit or receive mode. "IRDevice.h" must be included to use the class function.
 
 -------------------------------------
 
@@ -163,7 +159,7 @@ NA
 
 Example: `IRSendRaw <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/IRDevice/examples/IRSendRAW/IRSendRAW.ino>`_
 
-.. note :: “IRDevice.h” must be included to use the class function.
+.. note :: "IRDevice.h" must be included to use the class function.
 
 -----------------------------------
 
@@ -199,7 +195,7 @@ NA
 
 Example: `IRSendRaw <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/IRDevice/examples/IRSendRAW/IRSendRAW.ino>`_
 
-.. note :: “IRDevice.h” must be included to use the class function. IR Raw Data array contains information in the form of consecutive microseconds (us). For more details, please refer to: http://www.righto.com/2009/08/multi-protocol-infrared-remote-library.html. 
+.. note :: "IRDevice.h" must be included to use the class function. IR Raw Data array contains information in the form of consecutive microseconds (us). For more details, please refer to: http://www.righto.com/2009/08/multi-protocol-infrared-remote-library.html.
 
 --------------------------------
 
@@ -221,7 +217,7 @@ Allocate resources and start the IR device with a frequency suitable for the NEC
 **Parameters**
 ~~~~~~~~~~~~~~
 
-``receivePin``: Hardware IR receiving pin that connected with the IR Receiver. 
+``receivePin``: Hardware IR receiving pin that connected with the IR Receiver.
 
 ``transmitPin``: Hardware IR transmitting pin that connected with the IR Transmistter.
 
@@ -237,7 +233,7 @@ NA
 
 Example: `IRRecvNEC <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/IRDevice/examples/IRRecvNEC/IRRecvNEC.ino>`_
 
-.. note :: “IRDevice.h” must be included to use the class function. IR device can only operate in either transmit or receive mode. Refer to https://techdocs.altium.com/display/FPGA/NEC+Infrared+Transmission+Protocol for the NEC protocol. 
+.. note :: "IRDevice.h" must be included to use the class function. IR device can only operate in either transmit or receive mode. Refer to https://techdocs.altium.com/display/FPGA/NEC+Infrared+Transmission+Protocol for the NEC protocol.
 
 --------------------------------
 
@@ -273,7 +269,7 @@ NA
 
 Example: `IRSendNEC <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/IRDevice/examples/IRSendNEC/IRSendNEC.ino>`_
 
-.. note :: IR device can only operate in either transmit or receive mode. Refer to https://techdocs.altium.com/display/FPGA/NEC+Infrared+Transmission+Protocol for the NEC protocol. “IRDevice.h” must be included to use the class function.
+.. note :: IR device can only operate in either transmit or receive mode. Refer to https://techdocs.altium.com/display/FPGA/NEC+Infrared+Transmission+Protocol for the NEC protocol. "IRDevice.h" must be included to use the class function.
 
 ---------------------------------
 
@@ -304,12 +300,12 @@ Receive data using the NEC protocol.
 **Returns**
 ~~~~~~~~~~~
 
-This function returns “1” if data has been received or returns “0” if no data has been received within the timeout period.
+This function returns "1" if data has been received or returns "0" if no data has been received within the timeout period.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 Example: `IRRecvNEC <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/IRDevice/examples/IRRecvNEC/IRRecvNEC.ino>`_
 
-.. note :: “IRDevice.h” must be included to use the class function. IR device can only operate in either transmit or receive mode. Refer to https://techdocs.altium.com/display/FPGA/NEC+Infrared+Transmission+Protocol for the NEC protocol. 
+.. note :: "IRDevice.h" must be included to use the class function. IR device can only operate in either transmit or receive mode. Refer to https://techdocs.altium.com/display/FPGA/NEC+Infrared+Transmission+Protocol for the NEC protocol.
 

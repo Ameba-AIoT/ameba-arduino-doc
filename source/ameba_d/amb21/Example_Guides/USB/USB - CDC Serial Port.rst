@@ -1,10 +1,6 @@
 USB - CDC Serial Port
 =======================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -33,7 +29,7 @@ Alternatively, if you do not wish to risk damaging the board in the process of s
 
 |image04|
 
-Open the example, “Files” -> “Examples” -> “AmebaUSB” -> “USBCDCSerial”.
+Open the example, "Files" -> "Examples" -> "AmebaUSB" -> "USBCDCSerial".
 
 |image05|
 

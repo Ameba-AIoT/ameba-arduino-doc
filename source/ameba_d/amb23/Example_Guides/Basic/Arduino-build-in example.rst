@@ -1,10 +1,6 @@
 Arduino-build-in example
 ========================
 
-.. contents::
-  :local:
-  :depth: 2
-
 AMB23 Supported ARDUINO built-in example table
 ----------------------------------------------
 

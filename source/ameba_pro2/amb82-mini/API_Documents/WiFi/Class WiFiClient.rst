@@ -1,10 +1,6 @@
 Class WiFiClient
 ================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **WiFiClient Class**
 --------------------
 

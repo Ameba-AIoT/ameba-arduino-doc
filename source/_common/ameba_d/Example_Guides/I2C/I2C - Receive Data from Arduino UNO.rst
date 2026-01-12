@@ -1,9 +1,5 @@
-I2C - Receive Data from Arduino UNO			
+I2C - Receive Data from Arduino UNO
 ===================================
-
-.. contents::
-  :local:
-  :depth: 2
 
 Materials
 ---------
@@ -17,45 +13,45 @@ Example
 **Introduction**
 ~~~~~~~~~~~~~~~~
 
-.. only:: amb21 
+.. only:: amb21
 
-In the previous example `“I2C - Communicate with Arduino UNO via I2C” <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_d/amb21/Example_Guides/I2C/I2C%20-%20Send%20Data%20to%20Arduino%20UNO.html>`_, Ameba, the I2C master, transmits data to the Arduino UNO, the I2C slave. Whereas in this example, Ameba is the I2C master, and receives data from the Arduino UNO, which is the I2C slave.
+In the previous example `"I2C - Communicate with Arduino UNO via I2C" <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_d/amb21/Example_Guides/I2C/I2C%20-%20Send%20Data%20to%20Arduino%20UNO.html>`__ Ameba, the I2C master, transmits data to the Arduino UNO, the I2C slave. Whereas in this example, Ameba is the I2C master, and receives data from the Arduino UNO, which is the I2C slave.
 
 .. only:: end amb21
 
 .. only:: amb23
 
-In the previous example `“I2C - Communicate with Arduino UNO via I2C” <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_d/amb23/Example_Guides/I2C/I2C%20-%20Send%20Data%20to%20Arduino%20UNO.html>`_, Ameba, the I2C master, transmits data to the Arduino UNO, the I2C slave. Whereas in this example, Ameba is the I2C master, and receives data from the Arduino UNO, which is the I2C slave.
+In the previous example `"I2C - Communicate with Arduino UNO via I2C" <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_d/amb23/Example_Guides/I2C/I2C%20-%20Send%20Data%20to%20Arduino%20UNO.html>`__ Ameba, the I2C master, transmits data to the Arduino UNO, the I2C slave. Whereas in this example, Ameba is the I2C master, and receives data from the Arduino UNO, which is the I2C slave.
 
 .. only:: end amb23
 
 .. only:: bw16-typeb
 
-In the previous example `“I2C - Communicate with Arduino UNO via I2C” <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_d/bw16-typeb/Example_Guides/I2C/I2C%20-%20Send%20Data%20to%20Arduino%20UNO.html>`_, Ameba, the I2C master, transmits data to the Arduino UNO, the I2C slave. Whereas in this example, Ameba is the I2C master, and receives data from the Arduino UNO, which is the I2C slave.
+In the previous example `"I2C - Communicate with Arduino UNO via I2C" <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_d/bw16-typeb/Example_Guides/I2C/I2C%20-%20Send%20Data%20to%20Arduino%20UNO.html>`__ Ameba, the I2C master, transmits data to the Arduino UNO, the I2C slave. Whereas in this example, Ameba is the I2C master, and receives data from the Arduino UNO, which is the I2C slave.
 
 .. only:: end bw16-typeb
 
-.. only:: bw16-typec 
+.. only:: bw16-typec
 
-In the previous example `“I2C - Communicate with Arduino UNO via I2C” <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_d/bw16-typec/Example_Guides/I2C/I2C%20-%20Send%20Data%20to%20Arduino%20UNO.html>`_, Ameba, the I2C master, transmits data to the Arduino UNO, the I2C slave. Whereas in this example, Ameba is the I2C master, and receives data from the Arduino UNO, which is the I2C slave.
+In the previous example `"I2C - Communicate with Arduino UNO via I2C" <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_d/bw16-typec/Example_Guides/I2C/I2C%20-%20Send%20Data%20to%20Arduino%20UNO.html>`__ Ameba, the I2C master, transmits data to the Arduino UNO, the I2C slave. Whereas in this example, Ameba is the I2C master, and receives data from the Arduino UNO, which is the I2C slave.
 
-.. only:: end bw16-typec 
+.. only:: end bw16-typec
 
-.. only:: aw-cu488 
+.. only:: aw-cu488
 
-In the previous example `“I2C - Communicate with Arduino UNO via I2C” <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_d/aw-cu488/Example_Guides/I2C/I2C%20-%20Send%20Data%20to%20Arduino%20UNO.html>`_, Ameba, the I2C master, transmits data to the Arduino UNO, the I2C slave. Whereas in this example, Ameba is the I2C master, and receives data from the Arduino UNO, which is the I2C slave.
+In the previous example `"I2C - Communicate with Arduino UNO via I2C" <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_d/aw-cu488/Example_Guides/I2C/I2C%20-%20Send%20Data%20to%20Arduino%20UNO.html>`__ Ameba, the I2C master, transmits data to the Arduino UNO, the I2C slave. Whereas in this example, Ameba is the I2C master, and receives data from the Arduino UNO, which is the I2C slave.
 
 .. only:: end aw-cu488
 
-.. only:: amb25 
+.. only:: amb25
 
-In the previous example `“I2C - Communicate with Arduino UNO via I2C” <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_d/amb25/Example_Guides/I2C/I2C%20-%20Send%20Data%20to%20Arduino%20UNO.html>`_, Ameba, the I2C master, transmits data to the Arduino UNO, the I2C slave. Whereas in this example, Ameba is the I2C master, and receives data from the Arduino UNO, which is the I2C slave.
+In the previous example `"I2C - Communicate with Arduino UNO via I2C" <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_d/amb25/Example_Guides/I2C/I2C%20-%20Send%20Data%20to%20Arduino%20UNO.html>`__ Ameba, the I2C master, transmits data to the Arduino UNO, the I2C slave. Whereas in this example, Ameba is the I2C master, and receives data from the Arduino UNO, which is the I2C slave.
 
 .. only:: end amb25
 
-.. only:: amb26 
+.. only:: amb26
 
-In the previous example `“I2C - Communicate with Arduino UNO via I2C” <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_d/amb26/Example_Guides/I2C/I2C%20-%20Send%20Data%20to%20Arduino%20UNO.html>`_, Ameba, the I2C master, transmits data to the Arduino UNO, the I2C slave. Whereas in this example, Ameba is the I2C master, and receives data from the Arduino UNO, which is the I2C slave.
+In the previous example `"I2C - Communicate with Arduino UNO via I2C" <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_d/amb26/Example_Guides/I2C/I2C%20-%20Send%20Data%20to%20Arduino%20UNO.html>`__ Ameba, the I2C master, transmits data to the Arduino UNO, the I2C slave. Whereas in this example, Ameba is the I2C master, and receives data from the Arduino UNO, which is the I2C slave.
 
 .. only:: end amb26
 
@@ -64,23 +60,23 @@ In the previous example `“I2C - Communicate with Arduino UNO via I2C” <https
 
 **Setting up Arduino Uno to be I2C Slave**
 
-First, select Arduino in the Arduino IDE in ``“Tools” → “Board” → “Arduino Uno”``:
+First, select Arduino in the Arduino IDE in ``"Tools" → "Board" → "Arduino Uno"``:
 
-Open ``“Examples” → “Wire” → “slave_sender”``
+Open ``"Examples" → "Wire" → "slave_sender"``
 
 |image01|
-   
-Then click “Sketch” → “Upload” to compile and upload the example to Arduino Uno.
+
+Then click "Sketch" → "Upload" to compile and upload the example to Arduino Uno.
 
 **Setting up Ameba to be I2C Master**
 
-Next, open another window of Arduino IDE, make sure to choose your Ameba development board in the IDE: “Tools” → “Board”
+Next, open another window of Arduino IDE, make sure to choose your Ameba development board in the IDE: "Tools" → "Board"
 
-Open ``“File” → “Examples” → “AmebaWire” → “MasterReader”``
+Open ``"File" → "Examples" → "AmebaWire" → "MasterReader"``
 
 |image02|
 
-Click “Sketch” → “Upload” to compile and upload the example to Ameba.
+Click "Sketch" → "Upload" to compile and upload the example to Ameba.
 
 **Wiring**
 
@@ -90,7 +86,7 @@ Another important thing is that the GND pins of Arduino and Ameba should be conn
 .. only:: amb21
 
 **AMB21 / AMB22** Wiring Diagram:
-  
+
 |image03|
 
 .. only:: end amb21
@@ -144,17 +140,17 @@ Another important thing is that the GND pins of Arduino and Ameba should be conn
 .. only:: end amb26
 
 Next, we will observe the data received by Ameba in the Serial Monitor.
-.. note :: If you do not know which port the Ameba development board is connected to, please find it in the Device Manager of Windows first. Ameba is connected as “mbed Serial Port”. For example, if you find mbed Serial Port (COM15), that means Ameba is connected to port COM15.
+.. note :: If you do not know which port the Ameba development board is connected to, please find it in the Device Manager of Windows first. Ameba is connected as "mbed Serial Port". For example, if you find mbed Serial Port (COM15), that means Ameba is connected to port COM15.
 
 |image10|
 
-We select the port in “Tools” → “Port” → “COM15” (the port connected to Ameba)
-Open the Arduino IDE window of the Ameba, go to “Tools” → “Serial
-Monitor” to display the messages printed by Ameba.
+We select the port in "Tools" → "Port" → "COM15" (the port connected to Ameba)
+Open the Arduino IDE window of the Ameba, go to "Tools" → "Serial
+Monitor" to display the messages printed by Ameba.
 Press the reset button on Arduino Uno, Arduino Uno now waits for
 connection from I2C master.
 Then press the reset button on Ameba, Ameba will start to receive
-messages from Arduino Uno. And you can see the “hello ” message
+messages from Arduino Uno. And you can see the "hello " message
 printed every half second in serial monitor.
 
 .. note :: If the message does not show in the Serial Monitor of Ameba, please close and open the serial monitor again.

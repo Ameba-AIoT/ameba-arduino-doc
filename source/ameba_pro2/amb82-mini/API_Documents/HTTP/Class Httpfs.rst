@@ -1,10 +1,6 @@
 Class Httpfs
 ============
 
-.. contents::
-  :local:
-  :depth: 2
-
 **Httpfs Class**
 -----------------
 
@@ -32,7 +28,7 @@ A class used HTTP File Server.
 +-----------------------------------+-----------------------------------+
 | Httpfs::begin                     | Initializes the HTTP file server, |
 |                                   | set parameter, response callback  |
-|                                   | function of the file server.      | 
+|                                   | function of the file server.      |
 +-----------------------------------+-----------------------------------+
 | Httpfs::mp4DirectoryInit          | Initializes the directory to save |
 |                                   | MP4 recordings on SD card.        |
@@ -47,7 +43,7 @@ A class used HTTP File Server.
 **Description**
 ~~~~~~~~~~~~~~~
 
-Initializes the HTTP file server, set parameter, response callback function of the file server. 
+Initializes the HTTP file server, set parameter, response callback function of the file server.
 
 **Syntax**
 ~~~~~~~~~~
@@ -77,7 +73,7 @@ Example: `Httpfs_mp4 <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/
 **Description**
 ~~~~~~~~~~~~~~~
 
-Initializes the directory to save MP4 recordings on SD card. 
+Initializes the directory to save MP4 recordings on SD card.
 
 **Syntax**
 ~~~~~~~~~~
@@ -107,7 +103,7 @@ Example: `Httpfs_mp4 <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/
 **Description**
 ~~~~~~~~~~~~~~~
 
-Deinitializes the HTTP file server. 
+Deinitializes the HTTP file server.
 
 **Syntax**
 ~~~~~~~~~~
@@ -130,5 +126,4 @@ NA
 ~~~~~~~~~~~~~~~~
 
 Example: `Httpfs_mp4 <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Http/examples/Httpfs_mp4/Httpfs_mp4.ino>`_
-
 

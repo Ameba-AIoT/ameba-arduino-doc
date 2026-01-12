@@ -1,27 +1,23 @@
 Simple RTC Alarm
 ================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 Example
 -------
 
-This example demonstrates how to use the RTC library methods to create a RTC Alarm, so that to do some tasks when an alarm is matched. In particular, the RTC time is set at 16:00:00 and an alarm at 16:00:10. When the time matches, “Alarm Match” information will be printed on the serial monitor.
+This example demonstrates how to use the RTC library methods to create a RTC Alarm, so that to do some tasks when an alarm is matched. In particular, the RTC time is set at 16:00:00 and an alarm at 16:00:10. When the time matches, "Alarm Match" information will be printed on the serial monitor.
 
-First, select the correct Ameba development board from the Arduino IDE: “Tools” -> “Board”.
+First, select the correct Ameba development board from the Arduino IDE: "Tools" -> "Board".
 
-Then open the ” RTCAlarm ” example from: “File” -> “Examples” -> “RTC” -> “Simple_RTC_Alarm”:
+Then open the " RTCAlarm " example from: "File" -> "Examples" -> "RTC" -> "Simple_RTC_Alarm":
 
 |image01|
 
-In the example, the RTC time is set at 16:00:00 and an alarm is set at 16:00:10. Upon successfully upload the sample code and press the reset button. When the alarm time (10 seconds) is reached the attached interrupt function will print the following information: “Alarm Matched!” showing in this figure below.
+In the example, the RTC time is set at 16:00:00 and an alarm is set at 16:00:10. Upon successfully upload the sample code and press the reset button. When the alarm time (10 seconds) is reached the attached interrupt function will print the following information: "Alarm Matched!" showing in this figure below.
 
 |image02|
 

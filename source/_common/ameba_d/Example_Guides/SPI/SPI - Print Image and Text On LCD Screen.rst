@@ -1,12 +1,8 @@
 SPI - Print Image and Text On LCD Screen
 =========================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 If you are not familiar with SPI, please read `Introduction to
-SPI <https://www.amebaiot.com/spi-intro/>`_ first.
+SPI <https://www.amebaiot.com/spi-intro/>`__ first.
 
 Materials
 ---------
@@ -71,7 +67,7 @@ Common pins in ILI9341 TFT LCD with SPI interface:
 .. only:: end amb25
 
 .. only:: amb26
-    
+
 |image07|
 
 .. only:: end amb26
@@ -118,16 +114,16 @@ Common pins in ILI9341 TFT LCD with SPI interface:
 
 |image14|
 
-.. only:: end amb26 
+.. only:: end amb26
 
 .. only:: bw16-typeb
-    
+
 |image10|
 
 .. only:: end bw16-typeb
 
 .. only:: bw16-typec
-    
+
 |image11|
 
 .. only:: end bw16-typec
@@ -138,7 +134,7 @@ Common pins in ILI9341 TFT LCD with SPI interface:
 
 .. only:: end aw-cu488
 
-Open the example, “File”→ “Examples”→ “AmebaSPI” → “ILI9341_TFT_LCD_basic”
+Open the example, "File"→ "Examples"→ "AmebaSPI" → "ILI9341_TFT_LCD_basic"
 
 |image15|
 
@@ -199,7 +195,7 @@ Code Reference
 
    -  In our API, each character is 5x7 but each character is printed to
       size 6x8 (its right side and below are left blank), so as to
-      separate from next character. For example, the character “A”:
+      separate from next character. For example, the character "A":
 
       |image17|
 
@@ -277,7 +273,7 @@ Code Reference
 .. |image16| image:: ../../../../_static/amebad/Example_Guides/SPI/SPI_Print_Image_And_Text_On_LCD_Screen/image16.png
    :width:  750 px
    :height:  240 px
-   
+
 .. |image17| image:: ../../../../_static/amebad/Example_Guides/SPI/SPI_Print_Image_And_Text_On_LCD_Screen/image17.png
    :width:  193 px
    :height:  258 px

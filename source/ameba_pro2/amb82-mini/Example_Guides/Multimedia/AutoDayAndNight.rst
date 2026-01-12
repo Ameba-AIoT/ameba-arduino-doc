@@ -1,14 +1,10 @@
 RTSP Streaming Auto Day and Night Mode
 ======================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 - Realtek Pro2 to AMB82 MINI sensor adapter board x 1
 - Camera sensor with a switchable IR cut filter x 1
 - Realtek Amebapro LED board x 1
@@ -48,14 +44,14 @@ If you are using the adapter board ensure that this is in the example before run
     #define ALL_DEBUG_LOG     2
     #define PWR_EN            9
 
-|image04| 
+|image04|
 
 When using the hardware ALS, you need to connect them to the AMB82-mini on GPIO Pin E4 for the SDA line and GPIO Pin E3 for the SCL line. If your HW ALS is mounted on the camera sensor module like the one above, you may follow the pin connections accordingly.
 
-|image05| 
+|image05|
 |image06|
 
-In the highlighted code snippet, fill in the “ssid” with your WiFi network SSID and “pass” with the network password.
+In the highlighted code snippet, fill in the "ssid" with your WiFi network SSID and "pass" with the network password.
 
 |image07|
 
@@ -63,19 +59,19 @@ Compile the code and upload it to Ameba. After pressing the Reset button, wait f
 
 You may download VLC media player from the link (`here <https://www.videolan.org/vlc/>`_).
 
-Upon the completion of the software installation, open VLC media player, and go to “Media” -> “Open Network Stream”.
+Upon the completion of the software installation, open VLC media player, and go to "Media" -> "Open Network Stream".
 
 |image08|
 
-Make sure your PC is connected to the same network as the Ameba Pro2 board for streaming. Since RTSP is used as the streaming protocol, key in `“rtsp://{IPaddress}:{port}”` as the Network URL in VLC media player, replacing {IPaddress} with the IP address of your Ameba Pro2 board, and {port} with the RTSP port shown in Serial Monitor `(e.g., “rtsp://192.168.1.154:554”)`. The default RTSP port number is 554. In the case of two simultaneous RTSP streams, the second port number defaults to 555.
+Make sure your PC is connected to the same network as the Ameba Pro2 board for streaming. Since RTSP is used as the streaming protocol, key in `"rtsp://{IPaddress}:{port}"` as the Network URL in VLC media player, replacing {IPaddress} with the IP address of your Ameba Pro2 board, and {port} with the RTSP port shown in Serial Monitor `(e.g., "rtsp://192.168.1.154:554")`. The default RTSP port number is 554. In the case of two simultaneous RTSP streams, the second port number defaults to 555.
 
 |image09|
 
-You may choose to change the caching time in “Show more options”. A lower cache time will result in reduced video latency but may introduce playback stuttering in the case of poor network conditions.
+You may choose to change the caching time in "Show more options". A lower cache time will result in reduced video latency but may introduce playback stuttering in the case of poor network conditions.
 
 |image10|
 
-Next, click “Play” to start RTSP streaming. The video stream from the camera will be shown in VLC media player. Meanwhile, in your Serial Monitor, the message “rtp started (UDP)” will appear.
+Next, click "Play" to start RTSP streaming. The video stream from the camera will be shown in VLC media player. Meanwhile, in your Serial Monitor, the message "rtp started (UDP)" will appear.
 
 |image11|
 
@@ -91,7 +87,7 @@ The Infrared class controls all the manual IR features of the AmebaPro2 while th
     #include "Infrared.h"
     #include "AmbientLightSensor.h"
 
-    #define SW_ALS            0   
+    #define SW_ALS            0
     #define HW_ALS            1
     #define DEFAULT_THRESHOLD -1
     #define SWITCH_LOG        1
@@ -99,7 +95,6 @@ The Infrared class controls all the manual IR features of the AmebaPro2 while th
 
     Infrared ir;
     AmbientLightSensor ALS(HW_ALS);
-
 
 First, the IR cut and/or LED has to be initialized before you can use them. After initializing, you can toggle the IR cut using "IR.setCut()" and control the IR LED brightness using "IR.setLedBrightness()".
 
@@ -154,7 +149,6 @@ The difference in detail can be seen after the LED's brightness is lowered in th
 
 |image15|
 
-
 .. |image01| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image01.jpg
 .. |image02| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image02.jpg
 .. |image03| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image03.jpg
@@ -170,7 +164,7 @@ The difference in detail can be seen after the LED's brightness is lowered in th
 .. |image07| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image07.jpg
    :width:  700 px
    :height:  600 px
-   
+
 .. |image08| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image08.jpg
 .. |image09| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image09.jpg
 .. |image10| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image10.jpg
@@ -179,12 +173,4 @@ The difference in detail can be seen after the LED's brightness is lowered in th
 .. |image13| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image13.jpg
 .. |image14| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image14.jpg
 .. |image15| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image15.jpg
-
-
-
-
-
-
-
-
 

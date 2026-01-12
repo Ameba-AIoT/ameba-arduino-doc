@@ -1,14 +1,10 @@
 Motion Detection with On-Screen Display in Callback
 ===================================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 Example
 -------
@@ -16,11 +12,11 @@ In this example, we will be using Ameba Pro2 development board to detect motion 
 
 The following example shows how Motion Detection and the On-Screen Display is used, where the Motion Detection results are processed using a callback function.
 
-Open one of the Motion Detection examples in “File” -> “Example” -> “AmebaMultimedia” -> “MotionDetection” -> “CallbackPostProcessing”.
+Open one of the Motion Detection examples in "File" -> "Example" -> "AmebaMultimedia" -> "MotionDetection" -> "CallbackPostProcessing".
 
 |image01|
 
-In the highlighted code snippet, fill in the “ssid” with your WiFi network SSID and “pass” with the network password.
+In the highlighted code snippet, fill in the "ssid" with your WiFi network SSID and "pass" with the network password.
 
 |image02|
 
@@ -30,17 +26,17 @@ Compile the code and upload it to Ameba. After pressing the Reset button, wait f
 
 You may download VLC media player from the link (`here <https://www.videolan.org/vlc/>`_).
 
-Upon the completion of the software installation, open VLC media player, and go to “Media” -> “Open Network Stream”.
+Upon the completion of the software installation, open VLC media player, and go to "Media" -> "Open Network Stream".
 
 |image04|
 
-Make sure your PC is connected to the same network as the Ameba Pro2 board for streaming. Since RTSP is used as the streaming protocol, key in `“rtsp://{IPaddress}:{port}”` as the Network URL in VLC media player, replacing {IPaddress} with the IP address of your Ameba Pro2 board, and {port} with the RTSP port shown in Serial Monitor `(e.g., “rtsp://192.168.1.174:554”)`. The default RTSP port number is 554.
+Make sure your PC is connected to the same network as the Ameba Pro2 board for streaming. Since RTSP is used as the streaming protocol, key in `"rtsp://{IPaddress}:{port}"` as the Network URL in VLC media player, replacing {IPaddress} with the IP address of your Ameba Pro2 board, and {port} with the RTSP port shown in Serial Monitor `(e.g., "rtsp://192.168.1.174:554")`. The default RTSP port number is 554.
 
-You may choose to change the caching time in “Show more options”. The default value of 1000 will introduce a one second delay between what the camera sees and what is displayed on screen. A lower cache time will result in reduced video latency but may introduce playback stuttering in the case of poor network conditions.
+You may choose to change the caching time in "Show more options". The default value of 1000 will introduce a one second delay between what the camera sees and what is displayed on screen. A lower cache time will result in reduced video latency but may introduce playback stuttering in the case of poor network conditions.
 
 |image05|
 
-Next, click “Play” to start RTSP streaming. The video stream from the camera will be shown in VLC media player. Multiple green boxes will be generated to identify the regions that are in motion.
+Next, click "Play" to start RTSP streaming. The video stream from the camera will be shown in VLC media player. Multiple green boxes will be generated to identify the regions that are in motion.
 
 |image06|
 
@@ -73,7 +69,7 @@ You may adjust the video bitrate based on your WiFi network quality, by uncommen
 .. |image06| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_with_On-Screen_Display/image06.png
    :width:  1256 px
    :height:  894 px
-   
+
 .. |image07| image:: ../../../../../_static/amebapro2/Example_Guides/Multimedia/Motion_Detection_with_On-Screen_Display/image07.png
    :width:  750 px
    :height:  822 px

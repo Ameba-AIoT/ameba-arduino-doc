@@ -1,14 +1,10 @@
 Door Unlock Over BLE Uart
 =========================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
--  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+-  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 -  SD card x 1
 
@@ -26,7 +22,7 @@ Materials
 
 -  Android / iOS smartphone
 
-Example 
+Example
 -------
 
 Introduction
@@ -56,34 +52,34 @@ it is available at:
 
    * https://apps.apple.com/us/app/bluefruit-connect/id830125974
 
-Open the BLE example in “File” -> “Examples” -> “AmebaBLE” -> “DoorUnlockOverBLEUart”.
+Open the BLE example in "File" -> "Examples" -> "AmebaBLE" -> "DoorUnlockOverBLEUart".
 
 |image02|
 
 In the highlighted code snippet, set your preferred BLE Device Name.
 
-|image03| 
+|image03|
 
 Compile the code and upload it to Ameba.
 
 **Unlock door with BLE UART Service**
 
 Open the Adafruit Bluefruit app on your smartphone, scan and connect to
-the Ameba board shown as “AMEBA_BLE” or any BLE device name that has
+the Ameba board shown as "AMEBA_BLE" or any BLE device name that has
 been set. Then, choose UART function in the app.
 
-|image04| 
+|image04|
 
 |image05|
 
-You should see the message “Door Bell Pressed” appearing in the UART
-terminal section of the app when button is pressed. Enter “Open” message
+You should see the message "Door Bell Pressed" appearing in the UART
+terminal section of the app when button is pressed. Enter "Open" message
 and click send, this allows user to open the door and take a snapshot.
 The image will be saved to SD card and named as Authorized{counter}.jpg.
 
 |image06|
 
-To take another snapshot, enter “Snapshot” message in the UART terminal
+To take another snapshot, enter "Snapshot" message in the UART terminal
 section after pressing the button. Image will be named as
 SnapshotTaken{counter}.jpg and saved to SD card.
 

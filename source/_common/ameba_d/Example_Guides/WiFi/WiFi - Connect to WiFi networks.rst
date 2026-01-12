@@ -1,10 +1,6 @@
 WiFi - Connect to WiFi networks
 =================================
 
-.. contents::
-  :local:
-  :depth: 2
-  
 Materials
 ---------
 
@@ -13,57 +9,57 @@ Materials
 Example
 -------
 
-There are three common encryption type in WiFi connection. The first one is “OPEN”, which means there is no password needed to connect to this network. The second type of encryption is WPA, which requires the correct password to access. The third type is WEP, which requires a hexadecimal password and a keyindex.
+There are three common encryption type in WiFi connection. The first one is "OPEN", which means there is no password needed to connect to this network. The second type of encryption is WPA, which requires the correct password to access. The third type is WEP, which requires a hexadecimal password and a keyindex.
 
 In the following, we will give a brief introduction on how to establish WiFi connection with these three types of encryption on Ameba.
 
-First, make sure the correct Ameba development board is selected in “Tools” -> “Board”.
+First, make sure the correct Ameba development board is selected in "Tools" -> "Board".
 
 - Open (WiFi connection without password)
 
-Open the “ConnectNoEncryption” example in “File” -> “Examples” -> “WiFi” -> “ConnectWithWiFi” -> “ConnectNoEncryption”
+Open the "ConnectNoEncryption" example in "File" -> "Examples" -> "WiFi" -> "ConnectWithWiFi" -> "ConnectNoEncryption"
 
 |image01|
 
-In the sample code, modify “ssid” to be the same as the WiFi SSID to be connected to.
+In the sample code, modify "ssid" to be the same as the WiFi SSID to be connected to.
 
-Next, upload the sample code, and press the reset button on Ameba. Then you will see a message “You're connected to the networkSSID: XXXXX”, and the information of this WiFi connection is printed in the serial monitor every 10 seconds.
-      
+Next, upload the sample code, and press the reset button on Ameba. Then you will see a message "You're connected to the networkSSID: XXXXX", and the information of this WiFi connection is printed in the serial monitor every 10 seconds.
+
 |image02|
 
 - WiFi connection with WPA encryption
 
-Open the “ConnectWithWPA” example in “File” -> “Examples” -> “WiFi” -> “ConnectWithWiFi” -> “ConnectWithWPA”
+Open the "ConnectWithWPA" example in "File" -> "Examples" -> "WiFi" -> "ConnectWithWiFi" -> "ConnectWithWPA"
 
 |image03|
-      
-In the sample code, modify “ssid” to the WiFi SSID to be connected to and “pass” to the network password.
+
+In the sample code, modify "ssid" to the WiFi SSID to be connected to and "pass" to the network password.
 
 If you prefer to enter your SSID & password in the Serial monitor while the program is running, uncomment #define MANUAL_INPUT at the top of the file.
 
 |image04|
 
-Next, upload the sample code, and press the reset button on Ameba. Then you will see a message “You’re connected to the networkSSID: XXXXX”, and the information of this WiFi connection is printed in the serial monitor every 10 seconds.
+Next, upload the sample code, and press the reset button on Ameba. Then you will see a message "You’re connected to the networkSSID: XXXXX", and the information of this WiFi connection is printed in the serial monitor every 10 seconds.
 
-Note: If you enabled MANUAL_INPUT, after uploading the sample code and pressing the reset button on Ameba, input your SSID in the Serial monitor and press enter. Next, input your password, and press enter. Then you will see a message “You’re connected to the networkSSID: XXXXX”, and the information of this WiFi connection is printed in the serial monitor every 10 seconds.
+Note: If you enabled MANUAL_INPUT, after uploading the sample code and pressing the reset button on Ameba, input your SSID in the Serial monitor and press enter. Next, input your password, and press enter. Then you will see a message "You’re connected to the networkSSID: XXXXX", and the information of this WiFi connection is printed in the serial monitor every 10 seconds.
 
 |image05|
 
 - WiFi connection with WEP encryption
 
-Open the “ConnectWithWEP” example in “File” -> “Examples” -> “WiFi” -> “ConnectWithWiFi” -> “ConnectWithWEP”
+Open the "ConnectWithWEP" example in "File" -> "Examples" -> "WiFi" -> "ConnectWithWiFi" -> "ConnectWithWEP"
 
 |image06|
 
-In the sample code, modify “ssid” to the SSID to be connected, “key” to the hexadecimal password, “keyIndex” to your key index number.
+In the sample code, modify "ssid" to the SSID to be connected, "key" to the hexadecimal password, "keyIndex" to your key index number.
 
 If you prefer to enter your SSID & password in the Serial monitor while the program is running, uncomment #define MANUAL_INPUT at the top of the file.
 
 |image07|
 
-Next, upload the sample code, and press the reset button on Ameba. Then you will see a message “You’re connected to the networkSSID: XXXXX”, and the information of this WiFi connection is printed in the IDE every 10 seconds.
+Next, upload the sample code, and press the reset button on Ameba. Then you will see a message "You’re connected to the networkSSID: XXXXX", and the information of this WiFi connection is printed in the IDE every 10 seconds.
 
-Note: If you enabled MANUAL_INPUT, after uploading the sample code and pressing the reset button on Ameba, input your SSID in the Serial monitor and press enter. Next, input your key and press enter. Finally enter your password and press enter. Then you will see a message “You’re connected to the networkSSID: XXXXX”, and the information of this WiFi connection is printed in the serial monitor every 10 seconds.
+Note: If you enabled MANUAL_INPUT, after uploading the sample code and pressing the reset button on Ameba, input your SSID in the Serial monitor and press enter. Next, input your key and press enter. Finally enter your password and press enter. Then you will see a message "You’re connected to the networkSSID: XXXXX", and the information of this WiFi connection is printed in the serial monitor every 10 seconds.
 
 |image08|
 
@@ -88,7 +84,6 @@ Code Reference
 | https://www.arduino.cc/en/Reference/WiFiSubnetMask
 | Use WiFi.gatewayIP() to get the WiFi shield's gateway IP address.
 | https://www.arduino.cc/en/Reference/WiFiGatewayIP
-
 
 Comparison with Arduino
 -------------------------
@@ -121,4 +116,4 @@ However, Ameba is already equipped with WiFi module. Therefore, #include is not 
 .. |image08| image:: ../../../../_static/amebad/Example_Guides/WiFi/WiFi_Connect_to_WiFi_networks/image08.png
    :width:  661 px
    :height:  560 px
-   
+

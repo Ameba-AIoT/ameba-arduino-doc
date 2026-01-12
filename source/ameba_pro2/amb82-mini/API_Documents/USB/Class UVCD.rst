@@ -1,10 +1,6 @@
 Class UVCD
 ==========
 
-.. contents::
-  :local:
-  :depth: 2
-
 **UVCD Class**
 --------------
 

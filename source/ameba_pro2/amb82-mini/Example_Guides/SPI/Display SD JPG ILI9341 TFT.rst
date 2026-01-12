@@ -1,16 +1,12 @@
 Display SD JPG ILI9341 TFT
 ==========================
 
-.. contents::
-  :local:
-  :depth: 2
-
-If you are not familiar with SPI, please read `Introduction to SPI <https://www.amebaiot.com/spi-intro/>`_ first.
+If you are not familiar with SPI, please read `Introduction to SPI <https://www.amebaiot.com/spi-intro/>`__ first.
 
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 - ILI9341 TFT LCD with SPI interface x 1
 
@@ -47,11 +43,11 @@ Common pins in ILI9341 TFT LCD with SPI interface:
 
 |image01|
 
-.. note :: 
+.. note ::
    Before compilation, kindly install TJpg_Decoder library via Arduino IDE library manager.
    After installing the TJpg_Decoder library, in the library's configuration file, User_Config.h, comment out line 5 which reads: #define TJPGD_LOAD_SD_LIBRARY to avoid compilation error.
 
-Open the example, “File” -> “Examples” -> “AmebaSPI” -> “DisplaySDJPG_ILI9341_TFT”
+Open the example, "File" -> "Examples" -> "AmebaSPI" -> "DisplaySDJPG_ILI9341_TFT"
 
 |image02|
 

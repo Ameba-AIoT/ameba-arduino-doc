@@ -1,10 +1,6 @@
 IPv6 - Ameba as IPv6 Server/Client over TCP
 ===========================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -23,7 +19,7 @@ Note that this example only works after you have set up the server and then conf
 ~~~~~~~~~~~~~
 
 Step 1. IPv6TCPServer
-Open the example, ``“Files” → “Examples” → “WiFi” → “IPv6TCPServer”``.
+Open the example, ``"Files" → "Examples" → "WiFi" → "IPv6TCPServer"``.
 
 |image01|
 
@@ -37,21 +33,20 @@ Open Serial Monitor and copy the IPv6 address of the Server (the highlighted are
 |image03|
 
 Step 2. IPv6TCPClient
-Now take the second Ameba D and open another example, ``“Files” → “Examples” → “WiFi” → “IPv6TCPClient”``.
-    
+Now take the second Ameba D and open another example, ``"Files" → "Examples" → "WiFi" → "IPv6TCPClient"``.
+
 |image04|
 
 In the sample code, modify the highlighted section to enter the information required (ssid, password) to connect to your WiFi network.
 
 |image05|
 
-From the previous step, we have obtained the Server's IPv6 address, now we copy the server's IPv6 address to “IPv6TCPClient” example in the highlighted area below,
+From the previous step, we have obtained the Server's IPv6 address, now we copy the server's IPv6 address to "IPv6TCPClient" example in the highlighted area below,
 
 |image06|
 
 Next, upload the code and press the reset button on Ameba once the upload is finished.
 Open Serial Monitor on the port to the second Ameba D, you should see server and client are sending text message to each other at the same time.
-
 
 |image07|
 

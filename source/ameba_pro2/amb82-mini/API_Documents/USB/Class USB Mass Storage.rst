@@ -1,10 +1,6 @@
 Class USB Mass Storage
 =======================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **USB Mass Storage Class**
 ---------------------------
 
@@ -155,7 +151,7 @@ Example: `USB_Mass_Storage <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blo
 **Description**
 ~~~~~~~~~~~~~~~
 
-Check the USB connection and initialization status.    
+Check the USB connection and initialization status.
 
 **Syntax**
 ~~~~~~~~~~
@@ -187,7 +183,7 @@ Example: `USB_Mass_Storage <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blo
 **Description**
 ~~~~~~~~~~~~~~~
 
-Initialize disk operations for USB Mass Storage.   
+Initialize disk operations for USB Mass Storage.
 
 **Syntax**
 ~~~~~~~~~~
@@ -245,14 +241,13 @@ Example: `USB_Mass_Storage <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blo
 
 .. note :: "USBMassStorage.h" must be included to use the class function.
 
-
 **USBMassStorage::USBDeinit**
 ------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
 
-Deinitialize the USB MSC driver and free allocated resources. 
+Deinitialize the USB MSC driver and free allocated resources.
 
 **Syntax**
 ~~~~~~~~~~
@@ -284,7 +279,7 @@ NA
 **Description**
 ~~~~~~~~~~~~~~~
 
-Check whether a USB host is connected.     
+Check whether a USB host is connected.
 
 **Syntax**
 ~~~~~~~~~~

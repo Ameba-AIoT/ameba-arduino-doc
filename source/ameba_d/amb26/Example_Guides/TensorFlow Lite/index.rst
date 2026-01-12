@@ -7,4 +7,4 @@ TensorFlow Lite
    TensorFlow Lite - Hello World
    TensorFlow Lite - Magic Wand
    TensorFlow Lite - Person Detection
-   
+

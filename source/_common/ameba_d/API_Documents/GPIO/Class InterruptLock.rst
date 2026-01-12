@@ -1,10 +1,6 @@
 Class InterruptLock
 ===================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **InterruptLock Class**
 -----------------------
 

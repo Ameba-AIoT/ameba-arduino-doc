@@ -1,10 +1,6 @@
 WiFi - Set up Client to Retrieve Google Search Information
 =============================================================
 
-.. contents::
-  :local:
-  :depth: 2
-  
 Materials
 ---------
 
@@ -16,9 +12,9 @@ Example
 --------
 
 In this example, we use Ameba to be a web client to retrieve information from the Internet.
-First, make sure the correct Ameba development board is selected in “Tools” -> “Board”
+First, make sure the correct Ameba development board is selected in "Tools" -> "Board"
 
-Then open “File” -> “Examples” -> “WiFi” -> “WiFiWebClient”
+Then open "File" -> "Examples" -> "WiFi" -> "WiFiWebClient"
 
 |image01|
 
@@ -53,7 +49,6 @@ Code Reference
 | Use client.stop() to disconnect from the server the client is connected to.
 | https://www.arduino.cc/en/Reference/WiFIClientStop
 
-
 .. |image01| image:: ../../../../_static/amebad/Example_Guides/WiFi/WiFi_Set_up_Client_to_Retrieve_Google_Search_Information/image01.png
    :width:  924 px
    :height:  768 px
@@ -63,4 +58,4 @@ Code Reference
 .. |image03| image:: ../../../../_static/amebad/Example_Guides/WiFi/WiFi_Set_up_Client_to_Retrieve_Google_Search_Information/image03.png
    :width:  941 px
    :height:  703 px
-   
+

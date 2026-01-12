@@ -1,15 +1,11 @@
 UART - Retrieve GPS Position
 ============================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
 - AmebaD [AMB21 / AMB22 / AMB23 / AMB25 / AMB26 / BW16 / AW-CU488 Thing Plus] x 1
-- `Adafruit Ultimate GPS Breakout <https://www.adafruit.com/product/746>`_ x 1 (Refer to `official document <https://learn.adafruit.com/adafruit-ultimate-gps?view=all>`_)
+- `Adafruit Ultimate GPS Breakout <https://www.adafruit.com/product/746>`__ x 1 (Refer to `official document <https://learn.adafruit.com/adafruit-ultimate-gps?view=all>`_)
 
 Example
 -------
@@ -26,11 +22,11 @@ In this example, we use Adafruit Ultimate GPS Breakout. Its data format is pure 
 
 |image02|
 
-It follows the NMEA sentence format (refer to http://aprs.gids.nl/nmea/)The GPS signal is weak in indoor environment. The status that the GPS signal is not received is called “not fix”. Bring the GPS module outdoors, when the GPS signal is “fix”, you would get a message similar to the figure below.
+It follows the NMEA sentence format (refer to http://aprs.gids.nl/nmea/)The GPS signal is weak in indoor environment. The status that the GPS signal is not received is called "not fix". Bring the GPS module outdoors, when the GPS signal is "fix", you would get a message similar to the figure below.
 
 |image03|
 
-In this example we are only interested in the “$GPRMC (Global Positioning Recommended Minimum Coordinates)”:
+In this example we are only interested in the "$GPRMC (Global Positioning Recommended Minimum Coordinates)":
 
 **$GPRMC,032122.000,A,2446.8181,N,12059.7251,E,0.39,78.89,270116,,,A*53**
 Each field is separated by a comma.
@@ -55,14 +51,14 @@ We can search **+24 46.8181’, +120 59.7251’** in Google maps to check wheth
 
 - The eighth field is the moving angle, which is calculated by its moving orbit.
 
-- The ninth field is the date with format ddMMyy. In this example, “270116” stands for day 27, January, year 2016.
+- The ninth field is the date with format ddMMyy. In this example, "270116" stands for day 27, January, year 2016.
 
 - The last field is checksum. In the example we have \*53 as checksum.
 
 .. only:: amb21
 
 **AMB21 / AMB22** Wiring Diagram:
-  
+
 |image05|
 
 .. only:: end amb21
@@ -115,10 +111,10 @@ We can search **+24 46.8181’, +120 59.7251’** in Google maps to check wheth
 
 .. only:: end amb26
 
-Open the example in ``“Files” → “Examples” → “AmebaSoftwareSerial” → “Adafruit_GPS_parsing”``. 
+Open the example in ``"Files" → "Examples" → "AmebaSoftwareSerial" → "Adafruit_GPS_parsing"``.
 
-Compile and upload to Ameba, then press the reset button. 
-The result will be output to Serial Monitor: 
+Compile and upload to Ameba, then press the reset button.
+The result will be output to Serial Monitor:
 
 |image12|
 

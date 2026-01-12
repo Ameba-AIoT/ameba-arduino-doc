@@ -1,10 +1,6 @@
 Class PubSubClient
 ==================
 
-.. contents::
-  :local:
-  :depth: 2
-
 .. note :: The Ameba MQTT related APIs and examples are works based on the PubSubClient libraries written by Nicholas O’Leary (http://pubsubclient.knolleary.net).
 
 .. note :: These include, PubSubClient.cpp and PubSubClient.h
@@ -99,19 +95,19 @@ Constructs a PubSubClient object and, if applicable, sets server address, port, 
   PubSubClient(void);
 
 .. code:: c++
-  
+
   PubSubClient(Client& client);
 
 .. code:: c++
-  
+
   PubSubClient(IPAddress, uint16_t, Client& client);
 
 .. code:: c++
-  
+
   PubSubClient(IPAddress, uint16_t, Client& client, Stream&);
 
 .. code:: c++
-  
+
   PubSubClient(IPAddress, uint16_t, MQTT_CALLBACK_SIGNATURE, Client& client);
 
 .. code:: c++
@@ -119,11 +115,11 @@ Constructs a PubSubClient object and, if applicable, sets server address, port, 
   PubSubClient(IPAddress, uint16_t,MQTT_CALLBACK_SIGNATURE, Client& client, Stream&);
 
 .. code:: c++
-  
+
   PubSubClient(uint8_t*, uint16_t, Client& client);
 
 .. code:: c++
-  
+
   PubSubClient(uint8_t*, uint16_t, Client& client, Stream&);
 
 .. code:: c++
@@ -173,7 +169,7 @@ NA
 
 Example: `MQTT_Basic <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/MQTTClient/examples/MQTT_Basic/MQTT_Basic.ino>`_
 
-.. note :: PubSubClient::PubSubClient(Client& client) would suffice for normal MQTT connection. “PubSubClient.h” must be included to use the class function.
+.. note :: PubSubClient::PubSubClient(Client& client) would suffice for normal MQTT connection. "PubSubClient.h" must be included to use the class function.
 
 ------------------------------------------
 
@@ -219,7 +215,7 @@ This function returns the parameters such as ip address, port number and domain,
 
 Example: `MQTT_Basic <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/MQTTClient/examples/MQTT_Basic/MQTT_Basic.ino>`_
 
-.. note :: “PubSubClient.h” must be included to use the class function.
+.. note :: "PubSubClient.h" must be included to use the class function.
 
 -------------------------
 
@@ -253,7 +249,7 @@ This function returns the client instance, allowing the function to be chained.
 
 Example: `MQTT_Basic <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/MQTTClient/examples/MQTT_Basic/MQTT_Basic.ino>`_
 
-.. note :: “PubSubClient.h” must be included to use the class function.
+.. note :: "PubSubClient.h" must be included to use the class function.
 
 --------------------
 
@@ -286,7 +282,7 @@ This function returns the client instance, allowing the function to be chained.
 
 NA
 
-.. note :: “PubSubClient.h” must be included to use the class function.
+.. note :: "PubSubClient.h" must be included to use the class function.
 
 ---------------------------
 
@@ -320,7 +316,7 @@ This function returns the client instance, allowing the function to be chained.
 
 NA
 
-.. note :: “PubSubClient.h” must be included to use the class function.
+.. note :: "PubSubClient.h" must be included to use the class function.
 
 --------------------------
 
@@ -354,7 +350,7 @@ This function returns the client instance, allowing the function to be chained.
 
 NA
 
-.. note :: “PubSubClient.h” must be included to use the class function.
+.. note :: "PubSubClient.h" must be included to use the class function.
 
 --------------------------
 
@@ -388,7 +384,7 @@ This function returns the client instance, allowing the function to be chained.
 
 NA
 
-.. note :: “PubSubClient.h” must be included to use the class function.
+.. note :: "PubSubClient.h" must be included to use the class function.
 
 --------------------------
 
@@ -422,7 +418,7 @@ This function returns false when the buffer could not be resized, returns true w
 
 NA
 
-.. note :: “PubSubClient.h” must be included to use the class function.
+.. note :: "PubSubClient.h" must be included to use the class function.
 
 --------------------------
 
@@ -456,7 +452,7 @@ This function returns the size of the internal buffer.
 
 NA
 
-.. note :: “PubSubClient.h” must be included to use the class function.
+.. note :: "PubSubClient.h" must be included to use the class function.
 
 --------------------------
 
@@ -520,7 +516,7 @@ This function returns true if the connection is successful, else, return false.
 
 Example: `MQTT_Basic <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/MQTTClient/examples/MQTT_Basic/MQTT_Basic.ino>`_
 
-.. note :: Client ID is required and should always be unique else connection might be rejected by the server. “PubSubClient.h” must be included to use the class function.
+.. note :: Client ID is required and should always be unique else connection might be rejected by the server. "PubSubClient.h" must be included to use the class function.
 
 ------------------------------
 
@@ -554,7 +550,7 @@ NA
 
 NA
 
-.. note :: “PubSubClient.h” must be included to use the class function.
+.. note :: "PubSubClient.h" must be included to use the class function.
 
 ---------------------------
 
@@ -606,7 +602,7 @@ This function returns true if it published successfully, else returns false. If 
 
 Example: `MQTT_Basic <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/MQTTClient/examples/MQTT_Basic/MQTT_Basic.ino>`_
 
-.. note :: Default max packet size is 128 bytes. “PubSubClient.h” must be included to use the class function.
+.. note :: Default max packet size is 128 bytes. "PubSubClient.h" must be included to use the class function.
 
 ------------------------------------
 
@@ -650,7 +646,7 @@ This function returns true if it published successfully, else returns false. If 
 
 NA
 
-.. note :: “PubSubClient.h” must be included to use the class function.
+.. note :: "PubSubClient.h" must be included to use the class function.
 
 -------------------------------------
 
@@ -684,7 +680,7 @@ This function returns true if it published successfully, else returns false. If 
 
 NA
 
-.. note :: “PubSubClient.h” must be included to use the class function.
+.. note :: "PubSubClient.h" must be included to use the class function.
 
 -------------------------------------
 
@@ -704,7 +700,7 @@ Subscribe to a specified topic.
   boolean subscribe(const char* topic);
 
 .. code:: c++
-  
+
   boolean subscribe(const char* topic, uint8_t qos);
 
 **Parameters**
@@ -724,7 +720,7 @@ This function returns true if it published successfully, else returns false. If 
 
 Example: `MQTT_Basic <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/MQTTClient/examples/MQTT_Basic/MQTT_Basic.ino>`_
 
-.. note :: “PubSubClient.h” must be included to use the class function.
+.. note :: "PubSubClient.h" must be included to use the class function.
 
 ---------------------------
 
@@ -758,7 +754,7 @@ This function returns true if it published successfully, else returns false. If 
 
 NA
 
-.. note :: “PubSubClient.h” must be included to use the class function.
+.. note :: "PubSubClient.h" must be included to use the class function.
 
 -------------------------
 
@@ -792,7 +788,7 @@ This function returns true if the client is still connected to the server else r
 
 Example: `MQTT_Basic <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/MQTTClient/examples/MQTT_Basic/MQTT_Basic.ino>`_
 
-.. note :: A required method that should not be blocked for too long. “PubSubClient.h” must be included to use the class function.
+.. note :: A required method that should not be blocked for too long. "PubSubClient.h" must be included to use the class function.
 
 -----------------------------
 
@@ -826,7 +822,7 @@ This function returns true if the client is connected to the server else return 
 
 Example: `MQTT_Basic <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/MQTTClient/examples/MQTT_Basic/MQTT_Basic.ino>`_
 
-.. note :: “PubSubClient.h” must be included to use the class function.
+.. note :: "PubSubClient.h" must be included to use the class function.
 
 ---------------------------
 
@@ -884,4 +880,4 @@ This function returns the current state of the client as an integer from **-4 to
 
 Example: `MQTT_Basic <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/MQTTClient/examples/MQTT_Basic/MQTT_Basic.ino>`_
 
-.. note :: “PubSubClient.h” must be included to use the class function.
+.. note :: "PubSubClient.h" must be included to use the class function.

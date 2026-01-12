@@ -1,10 +1,6 @@
 Class GenAI
 ===========
 
-.. contents::
-  :local:
-  :depth: 2
-
 **GenAI Class**
 ---------------
 
@@ -153,7 +149,7 @@ Example: `GenAIVision <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev
 **Description**
 ~~~~~~~~~~~~~~~
 
-Send audio to openAI or groq server and receive response 
+Send audio to openAI or groq server and receive response
 
 **Syntax**
 ~~~~~~~~~~
@@ -166,7 +162,7 @@ Send audio to openAI or groq server and receive response
 ~~~~~~~~~~~~~~
 
 | api_key: OpenAI or Groq API key
-| api_server: Online LLM API server 
+| api_server: Online LLM API server
 | api_path: API endpoint
 | model: LLM model
 | filename: audio filename

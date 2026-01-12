@@ -1,14 +1,10 @@
 MPU6050 IMU Zero
 ================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
--  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+-  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 -  MPU6050 x 1
 

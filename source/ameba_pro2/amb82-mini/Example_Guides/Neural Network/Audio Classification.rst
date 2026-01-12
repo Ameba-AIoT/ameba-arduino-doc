@@ -1,29 +1,25 @@
 Audio Classification
 ====================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
-Example 
+Example
 -------
 In this example, we will be using Ameba Pro2 development board to detect
 521 different kinds of audio such as speech, animal sounds, alarms and
 many more.
 
-Open Audio Classification example in “File” -> “Examples” -> “AmebaNN”
--> “AudioClassification”.
+Open Audio Classification example in "File" -> "Examples" -> "AmebaNN"
+-> "AudioClassification".
 
 |image01|
 
 Select Neural Network (NN) task and models using modelSelect() function
 highlighted. This function takes 5 arguments: Neural Network task,
 Object Detection model, Face Detection model, Face Recognition model and
-Audio Classification model. Replace with “NA_MODEL” if they are not
+Audio Classification model. Replace with "NA_MODEL" if they are not
 necessary for your selected Neural Network task. Note that it is
 mandatory to call modelSelect() function before calling the begin()
 function.
@@ -59,7 +55,7 @@ understand how to install and use the converted model.
 Compile the code and upload it to Ameba. After pressing the Reset
 button, onboard microphone will start to pick up audios.
 
-When no audio is detected, it will be recognised as “Silence” class
+When no audio is detected, it will be recognised as "Silence" class
 shown in the Serial Monitor.
 
 |image03|

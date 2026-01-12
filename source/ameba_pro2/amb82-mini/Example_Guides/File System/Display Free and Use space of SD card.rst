@@ -1,14 +1,10 @@
 Display Free and Use space of SD card
 =====================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
--  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+-  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 -  MicroSD card
 
@@ -38,4 +34,4 @@ The sample code will print out the used space and free space of the SD card to t
 .. |image02| image:: ../../../../_static/amebapro2/Example_Guides/File_System/Display_Used_and_Free_space_of_SD_card/image02.png
    :width: 700 px
    :height: 400 px
-   
+

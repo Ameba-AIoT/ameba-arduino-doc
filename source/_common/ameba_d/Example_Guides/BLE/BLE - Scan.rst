@@ -1,10 +1,6 @@
 BLE - BLE Scan
 ==============
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -23,7 +19,7 @@ This example configures the Ameba as a Bluetooth central device, uses the scan f
 Procedure
 ~~~~~~~~~
 
-Open the example, ``“Files” → “Examples” → “AmebaBLE” → “BLEScan”``
+Open the example, ``"Files" → "Examples" → "AmebaBLE" → "BLEScan"``
 
 |image01|
 
@@ -46,7 +42,6 @@ Code Reference
 ``beginCentral(0)`` is used to start the Bluetooth stack in Central mode. The argument 0 is used to indicate that no clients will be operating in central mode.
 
 ``startScan(5000)`` is used to start the scanning process for a specified duration of 5000 milliseconds. The scan will repeat according to the set scan interval and scan window values. After 5000 milliseconds, the scan process will stop, and will be ready to be started again.
-
 
 .. |image01| image:: ../../../../_static/amebad/Example_Guides/BLE/BLE_Scan/image01.png
    :width:  711 px

@@ -1,10 +1,6 @@
 Flash Memory - Store data in FlashEEProm
 ========================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -16,8 +12,7 @@ Example
 Ameba provides Flash Memory component for data storage and the data can be preserved when the power is off if necessary, e.g., compiled program. To avoid the memory space overlapped with the program on Ameba, the Flash API uses the tail part of the address space, with sector size 4K.
 In this example, we store the value of boot times in flash memory. Every time Ameba reboots, it reads the boot times from flash, increases the value by 1, and writes it back to flash memory.
 
-
-First open the example, “File” -> “Examples” -> “AmebaFlashMemory” -> “FlashMemoryBasic”
+First open the example, "File" -> "Examples" -> "AmebaFlashMemory" -> "FlashMemoryBasic"
 
 |image01|
 

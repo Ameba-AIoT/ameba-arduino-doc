@@ -1,10 +1,6 @@
 BLE - BLE UART Client
 =====================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -22,13 +18,13 @@ Procedure
 ~~~~~~~~~
 
 On the first board, upload the BLE UART service example code. Refer to the example guide for detailed instructions.
-For the second board, open the example, ``“Files” → “Examples” → “AmebaBLE” → “BLEUartClient”``.
+For the second board, open the example, ``"Files" → "Examples" → "AmebaBLE" → "BLEUartClient"``.
 
 |image01|
 
-Upload the code and press the reset button on Ameba once the upload is finished. 
+Upload the code and press the reset button on Ameba once the upload is finished.
 Reset the UART service board first, wait for the BLE advertisement process to begin, and reset the UART client board. The client board should scan, discover, and connect to the service board. After connecting, the client board will verify that the correct UART service exists on the service board, before enabling notifications on the TX characteristic. Any message typed in the serial terminal will be sent to the other board using the UART service.
-  
+
 |image02|
 
 Code Reference

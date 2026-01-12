@@ -1,10 +1,6 @@
 Class RTC
 =========
 
-.. contents::
-  :local:
-  :depth: 2
-
 **RTCClass Class**
 ------------------
 
@@ -126,7 +122,7 @@ Example: `RTC <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/h
 **Description**
 ~~~~~~~~~~~~~~~
 
-Set the specified timestamp (in s) to RTC. 
+Set the specified timestamp (in s) to RTC.
 
 **Syntax**
 ~~~~~~~~~~
@@ -160,7 +156,7 @@ Example: `RTC <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/h
 **Description**
 ~~~~~~~~~~~~~~~
 
-Get the current timestamp in seconds from RTC. 
+Get the current timestamp in seconds from RTC.
 
 **Syntax**
 ~~~~~~~~~~

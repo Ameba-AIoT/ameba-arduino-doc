@@ -1,14 +1,10 @@
 RTSP Streaming Night Mode
 =========================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 - Realtek Pro2 to AMB82 MINI sensor adapter board x 1
 - Camera sensor with a switchable IR cut filter x 1
 - Realtek Amebapro LED board x 1
@@ -16,7 +12,6 @@ Materials
 Example
 -------
 This example is built on the `"StreamRTSP" -> "VideoOnly" <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_pro2/amb82-mini/Example_Guides/Multimedia/RTSP%20Streaming.html>`_. Please refer to the "VideoOnly" example for more information on how to set up an RTSP stream.
-
 
 In this example, we will use the AmebaPro2 board to stream video in night mode. This capability requires a camera that has an IR cut filter that can be toggled on and off along with an IR LED light source (or any IR light source).
 The adapter board used in this example is to solely connect our camera sensor to the AmebaPro2 board. You may ignore the adapter board requirement if you have alternatives to connect your IR-cut-equipped camera to the AmebaPro2 board.
@@ -46,26 +41,26 @@ If you are using the adapter board ensure that this is in the example before run
 
 |image04|
 
-In the highlighted code snippet, fill in the “ssid” with your WiFi network SSID and “pass” with the network password.
+In the highlighted code snippet, fill in the "ssid" with your WiFi network SSID and "pass" with the network password.
 |image05|
 
 Compile the code and upload it to Ameba. After pressing the Reset button, wait for the AmebaPro2 board to connect to the WiFi network. The board's IP address and network port number for RTSP will be shown in the Serial Monitor.
 
 You may download VLC media player from the link (`here <https://www.videolan.org/vlc/>`_).
 
-Upon the completion of the software installation, open VLC media player, and go to “Media” -> “Open Network Stream”.
+Upon the completion of the software installation, open VLC media player, and go to "Media" -> "Open Network Stream".
 
 |image06|
 
-Make sure your PC is connected to the same network as the Ameba Pro2 board for streaming. Since RTSP is used as the streaming protocol, key in `“rtsp://{IPaddress}:{port}”` as the Network URL in VLC media player, replacing {IPaddress} with the IP address of your Ameba Pro2 board, and {port} with the RTSP port shown in Serial Monitor `(e.g., “rtsp://192.168.1.154:554”)`. The default RTSP port number is 554. In the case of two simultaneous RTSP streams, the second port number defaults to 555.
+Make sure your PC is connected to the same network as the Ameba Pro2 board for streaming. Since RTSP is used as the streaming protocol, key in `"rtsp://{IPaddress}:{port}"` as the Network URL in VLC media player, replacing {IPaddress} with the IP address of your Ameba Pro2 board, and {port} with the RTSP port shown in Serial Monitor `(e.g., "rtsp://192.168.1.154:554")`. The default RTSP port number is 554. In the case of two simultaneous RTSP streams, the second port number defaults to 555.
 
 |image07|
 
-You may choose to change the caching time in “Show more options”. A lower cache time will result in reduced video latency but may introduce playback stuttering in the case of poor network conditions.
+You may choose to change the caching time in "Show more options". A lower cache time will result in reduced video latency but may introduce playback stuttering in the case of poor network conditions.
 
 |image08|
 
-Next, click “Play” to start RTSP streaming. The video stream from the camera will be shown in VLC media player. Meanwhile, in your Serial Monitor, the message “rtp started (UDP)” will appear.
+Next, click "Play" to start RTSP streaming. The video stream from the camera will be shown in VLC media player. Meanwhile, in your Serial Monitor, the message "rtp started (UDP)" will appear.
 
 |image09|
 
@@ -97,7 +92,6 @@ It is also important to remember to set the camera to grayscale mode for better 
     configCam.setGrayMode(1);       // 0 for RGB, 1 for Grayscale
     configCam.setDayNightMode(1);   // 0 for day mode ISP auto-tuning, 1 for night mode ISP auto-tuning
 
-
 .. |image01| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image01.jpg
 .. |image02| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image02.jpg
 .. |image03| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image03.jpg
@@ -108,10 +102,4 @@ It is also important to remember to set the camera to grayscale mode for better 
 .. |image08| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image08.jpg
 .. |image09| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image09.jpg
 .. |image10| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image10.jpg
-
-
-
-
-
-
 

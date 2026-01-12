@@ -1,10 +1,6 @@
 Class BLEHIDGamepad
 ===================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **BLEHIDGamepad Class**
 -----------------------
 

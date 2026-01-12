@@ -1,10 +1,6 @@
 Class BLEHIDDevice
 ==================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **BLEHIDDevice Class**
 ----------------------
 
@@ -47,7 +43,7 @@ A class used for creating and managing HID over GATT Profile (HOGP) services.
 |                                    | characteristics with a HID         |
 |                                    | report descriptor                  |
 +------------------------------------+------------------------------------+
-| BLEHIDDevice::inputReport          | Send a HID input report to         |   
+| BLEHIDDevice::inputReport          | Send a HID input report to         |
 |                                    | connected device                   |
 +------------------------------------+------------------------------------+
 | BLEHIDDevice::                     | Set a user callback function       |
@@ -77,7 +73,7 @@ A class used for creating and managing HID over GATT Profile (HOGP) services.
 |                                    | Information service                |
 +------------------------------------+------------------------------------+
 | BLEHIDDevice::battService          | Get reference to Battery           |
-|                                    | service                            |  
+|                                    | service                            |
 +------------------------------------+------------------------------------+
 
 **BLEHIDDevice::init**

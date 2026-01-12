@@ -1,16 +1,12 @@
 VL53L5CX Hand Presence Detection
 =================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
-- `SparkFun Qwiic ToF Imager - VL53L5CX <https://www.sparkfun.com/sparkfun-qwiic-tof-imager-vl53l5cx.html>`_ x 1
+- `SparkFun Qwiic ToF Imager - VL53L5CX <https://www.sparkfun.com/sparkfun-qwiic-tof-imager-vl53l5cx.html>`__ x 1
 
 Example
 -------
@@ -33,11 +29,11 @@ Open the example in "File" -> "Examples" -> "AmebaWire" -> "VL53L5CX" -> "HandPr
 
 Compile and run the example. In the Serial Monitor, you should be able to see the logs.
 
-When hand is detected, the log will display “Hand present”. 
+When hand is detected, the log will display "Hand present".
 
 |image03|
 
-When no hand is detected, it will display “No hand present”. 
+When no hand is detected, it will display "No hand present".
 
 |image04|
 

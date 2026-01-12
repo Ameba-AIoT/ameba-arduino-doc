@@ -1,10 +1,6 @@
 Flash Memory - Use Flash Memory Larger Than 4K
 ==============================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -15,12 +11,11 @@ Example
 
 Flash Memory API uses memory of 4K bytes, which is normally sufficient for most application. However, larger memory can be provided by specifying a specific memory address and required size.
 
-First, open the sample code in ``“File” → “Examples” → “AmebaFlashMemory” → “ReadWriteOneWord”``
+First, open the sample code in ``"File" → "Examples" → "AmebaFlashMemory" → "ReadWriteOneWord"``
 
 In this example, we specify the starting address of flash memory is 0xFC000 and size is 0x4000 (The default starting address is 0xFF000 and size is 0x1000).
 Then calculate correct address according to the specified offset and perform read/write operation. In the sample code we use offset 0x3F00, that is, 0xFC000 + 0x3F00 = 0xFFF00 in flash. We set the value to 0 at first, then increase by 1 every time Ameba reboots.
 
-  
 |image01|
 
 Code Reference
@@ -32,7 +27,7 @@ We can use the flash api we used in previous flash memory example, but we need t
 
   FlashMemory.begin(0xFC000, 0x4000);
 
-Use ``readWord()`` to read the value stored in a memory address. In the example, we read the value stored in memory offset 0x3F00, that is 0xFC000 + 0x3F00 = 0xFFF00. ``readWord()`` function 
+Use ``readWord()`` to read the value stored in a memory address. In the example, we read the value stored in memory offset 0x3F00, that is 0xFC000 + 0x3F00 = 0xFFF00. ``readWord()`` function
 
 .. code:: c++
 

@@ -13,7 +13,7 @@ You can enable or disable the watchdog in the Arduino IDE under **Tools → Watc
 
 Please refer to `AMB82 Mini Getting Started - Selection Ameba Modes <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_pro2/amb82-mini/Getting_Started/Getting%20Started%20with%20Ameba.html#step-1-selection-ameba-modes>`_
 
-If the program hangs and stops updating for too long (beyond **LOOP_TIMEOUT_MS**, e.g. 1.5 s), the watchdog stops refreshing.  
+If the program hangs and stops updating for too long (beyond **LOOP_TIMEOUT_MS**, e.g. 1.5 s), the watchdog stops refreshing.
 After the set timeout period (**WDT_TIMEOUT_MS**, e.g. 10 s), the watchdog triggers a system reset.
 
 Watchdog timing parameters can be modified in: cores/ambpro2/Arduino.h

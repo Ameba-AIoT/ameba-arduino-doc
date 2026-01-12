@@ -1,10 +1,6 @@
 Class FlashMemory
 =================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **FlashMemoryClass Class**
 --------------------------
 

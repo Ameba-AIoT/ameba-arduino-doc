@@ -1,10 +1,6 @@
 Class BLEConnect
 ================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **BLEConnect Class**
 --------------------
 

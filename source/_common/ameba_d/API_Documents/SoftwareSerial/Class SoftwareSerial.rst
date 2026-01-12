@@ -1,10 +1,6 @@
 Class SoftwareSerial
 ====================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **SoftwareSerial Class**
 ------------------------
 
@@ -108,9 +104,9 @@ NA
 
 Example: `SoftwareSerial_Basic <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SoftwareSerial/examples/SoftwareSerial_Basic/SoftwareSerial_Basic.ino>`_
 
-.. Caution :: Software Serial is using hardware serial thus DO NOT change the default pins. 
+.. Caution :: Software Serial is using hardware serial thus DO NOT change the default pins.
 
-.. note :: “SoftwareSerial.h” must be included to use the class function.
+.. note :: "SoftwareSerial.h" must be included to use the class function.
 
 -----------------------------
 
@@ -162,7 +158,7 @@ NA
 
 Example: `SoftwareSerial_Basic <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SoftwareSerial/examples/SoftwareSerial_Basic/SoftwareSerial_Basic.ino>`_
 
-.. note :: “SoftwareSerial.h” must be included to use the class function.
+.. note :: "SoftwareSerial.h" must be included to use the class function.
 
 ------------------------------------
 
@@ -196,7 +192,7 @@ This function returns true if it is listening, otherwise false.
 
 NA
 
-.. note :: “SoftwareSerial.h” must be included to use the class function.
+.. note :: "SoftwareSerial.h" must be included to use the class function.
 
 -------------------------
 
@@ -230,7 +226,7 @@ NA
 
 NA
 
-.. note :: “SoftwareSerial.h” must be included to use the class function.
+.. note :: "SoftwareSerial.h" must be included to use the class function.
 
 --------------------------------------------
 
@@ -257,14 +253,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns “True” if the port is actively listening, otherwise returns “False”.
+This function returns "True" if the port is actively listening, otherwise returns "False".
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “SoftwareSerial.h” must be included to use the class function.
+.. note :: "SoftwareSerial.h" must be included to use the class function.
 
 ----------------------------------------
 
@@ -291,14 +287,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns “True” if the selected software serial port stop listening.
+This function returns "True" if the selected software serial port stop listening.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “SoftwareSerial.h” must be included to use the class function.
+.. note :: "SoftwareSerial.h" must be included to use the class function.
 
 --------------------------
 
@@ -325,14 +321,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns the head data read from the receiving buffer or returns “-1” if none is available.
+This function returns the head data read from the receiving buffer or returns "-1" if none is available.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “SoftwareSerial.h” must be included to use the class function.
+.. note :: "SoftwareSerial.h" must be included to use the class function.
 
 ------------------------------------
 
@@ -366,7 +362,7 @@ This function returns the number of bytes written.
 
 Example: `SoftwareSerial_Basic <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SoftwareSerial/examples/SoftwareSerial_Basic/SoftwareSerial_Basic.ino>`_
 
-.. note :: “SoftwareSerial.h” must be included to use the class function.
+.. note :: "SoftwareSerial.h" must be included to use the class function.
 
 ----------------------------
 
@@ -400,7 +396,7 @@ This function returns the byte read or returns -1 if none is available.
 
 Example: `SoftwareSerial_Basic <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SoftwareSerial/examples/SoftwareSerial_Basic/SoftwareSerial_Basic.ino>`_
 
-.. note :: “SoftwareSerial.h” must be included to use the class function.
+.. note :: "SoftwareSerial.h" must be included to use the class function.
 
 ----------------------------
 
@@ -434,7 +430,7 @@ The function returns the number of bytes available in the receive buffer.
 
 Example: `SoftwareSerial_Basic <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SoftwareSerial/examples/SoftwareSerial_Basic/SoftwareSerial_Basic.ino>`_
 
-.. note :: “SoftwareSerial.h” must be included to use the class function.
+.. note :: "SoftwareSerial.h" must be included to use the class function.
 
 ------------------------
 
@@ -468,7 +464,7 @@ NA
 
 NA
 
-.. note :: “SoftwareSerial.h” must be included to use the class function.
+.. note :: "SoftwareSerial.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -502,7 +498,7 @@ NA
 
 NA
 
-.. note :: “SoftwareSerial.h” must be included to use the class function.
+.. note :: "SoftwareSerial.h" must be included to use the class function.
 
 -----------------------------------
 
@@ -534,6 +530,6 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `SoftwareSerialIrqCallback <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SoftwareSerial/examples/SoftwareSerial_IRQ_Callback/SoftwareSerial_IRQ_Callback.ino>`_ 
+Example: `SoftwareSerialIrqCallback <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SoftwareSerial/examples/SoftwareSerial_IRQ_Callback/SoftwareSerial_IRQ_Callback.ino>`__
 
-.. note :: “SoftwareSerial.h” must be included to use the class function.
+.. note :: "SoftwareSerial.h" must be included to use the class function.

@@ -1,9 +1,5 @@
-I2C - Send Data to Arduino UNO		
+I2C - Send Data to Arduino UNO
 ==============================
-
-.. contents::
-  :local:
-  :depth: 2
 
 Materials
 ---------
@@ -17,7 +13,7 @@ Example
 **Introduction**
 ~~~~~~~~~~~~~~~~
 
-There are two roles in the operation of I2C, one is “master”, the other is “slave”. Only one master is allowed and can be connected to many slaves. Each slave has its unique address, which is used in the communication between master and the slave. I2C uses two pins, one is for data transmission (SDA), the other is for the clock (SCL). Master uses the SCL to inform slave of the upcoming data transmission, and the data is transmitted through SDA. The I2C example was named “Wire” in the Arduino example.
+There are two roles in the operation of I2C, one is "master", the other is "slave". Only one master is allowed and can be connected to many slaves. Each slave has its unique address, which is used in the communication between master and the slave. I2C uses two pins, one is for data transmission (SDA), the other is for the clock (SCL). Master uses the SCL to inform slave of the upcoming data transmission, and the data is transmitted through SDA. The I2C example was named "Wire" in the Arduino example.
 
 **Procedure**
 ~~~~~~~~~~~~~
@@ -27,32 +23,32 @@ When the I2C slave receives a string sent from I2C master, it prints the receive
 
 **Setting up Arduino Uno to be I2C Slave**
 
-First, select Arduino in the Arduino IDE in ``“Tools” → “Board” → “Arduino Uno”``
-Open the “Slave Receiver” example in ``“Examples” → “Wire” → “slave_receiver”``:
+First, select Arduino in the Arduino IDE in ``"Tools" → "Board" → "Arduino Uno"``
+Open the "Slave Receiver" example in ``"Examples" → "Wire" → "slave_receiver"``:
 
 |image01|
 
-Then click ``“Sketch” → “Upload”`` to compile and upload the example to Arduino Uno.
+Then click ``"Sketch" → "Upload"`` to compile and upload the example to Arduino Uno.
 
 **Setting up Ameba to be I2C Master**
 
-Next, open another window of Arduino IDE, make sure to choose your Ameba development board in the IDE: ``“Tools” → “Board”``
-Then open the “Master Writer” example in ``“File” → “Examples” → “AmebaWire” → “MasterWriter”``
-  
+Next, open another window of Arduino IDE, make sure to choose your Ameba development board in the IDE: ``"Tools" → "Board"``
+Then open the "Master Writer" example in ``"File" → "Examples" → "AmebaWire" → "MasterWriter"``
+
 |image02|
 
 **Wiring**
 
 The Arduino example uses A4 as the I2C SDA and A5 as the I2C SCL.
 
-**Another important thing to note** 
+**Another important thing to note**
 
 .. note :: The GND pins of Arduino and Ameba should be connected to each other.
 
 .. only:: amb21
 
 **AMB21 / AMB22** Wiring Diagram:
-  
+
 |image03|
 
 .. only:: end amb21
@@ -105,7 +101,7 @@ The Arduino example uses A4 as the I2C SDA and A5 as the I2C SCL.
 
 .. only:: end amb26
 
-Open the Arduino IDE of the Arduino Uno and open the serial monitor (“Tools” → “Serial Monitor”).
+Open the Arduino IDE of the Arduino Uno and open the serial monitor ("Tools" → "Serial Monitor").
 In the Serial Monitor, you can see the messages printed from Arduino Uno.
 Next, press the reset button on Arduino Uno. Now the Arduino Uno is waiting for the connection from I2C Master.
 We press the reset button on Ameba to start to send messages. Then observe the serial monitor, you can see the messages show up every half second.

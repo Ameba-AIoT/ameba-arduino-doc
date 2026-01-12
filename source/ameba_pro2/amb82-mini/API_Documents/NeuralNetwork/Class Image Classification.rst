@@ -1,10 +1,6 @@
 Class Image Classification
 ===========================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **ImageClassification Class**
 ------------------------------
 
@@ -486,7 +482,6 @@ A pointer to a string containing the class name.
 Example: `RTSPImageClassification <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/NeuralNetwork/examples/RTSPImageClassification/RTSPImageClassification.ino>`_
 
 .. note :: NNImageClassification.h" must be included to use the class function.
-
 
 **NNImageClassification::useModelMetaData**
 ---------------------------------------------

@@ -1,10 +1,6 @@
 Class WDT
 =========
 
-.. contents::
-  :local:
-  :depth: 2
-
 **WDT Class**
 -------------
 

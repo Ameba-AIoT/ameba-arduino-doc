@@ -1,10 +1,6 @@
 Arduino-build-in example
 ========================
 
-.. contents::
-  :local:
-  :depth: 2
-
 AMB82-mini (RTL8735B) Supported ARDUINO built-in example table
 --------------------------------------------------------------
 

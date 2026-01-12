@@ -1,14 +1,10 @@
 HID Mouse
 =========
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
--  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+-  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 -  BLE capable host device [Windows / Linux / MacOS / Android]
 
@@ -31,7 +27,7 @@ Open the example, "Files" -> "Examples" -> "AmebaBLE" -> "BLEHIDMouse".
 Upload the code and press the reset button once the upload is finished.
 
 Immediately after reset, the board will begin BLE advertising as
-“AMEBA_BLE_HID”. On your host device, go to the Bluetooth settings menu,
+"AMEBA_BLE_HID". On your host device, go to the Bluetooth settings menu,
 scan, and connect to the board.
 
 You should ensure that the connection process is completed before
@@ -43,7 +39,7 @@ category.
 
 |image02|
 
-On Android, ensure that “Input device” is enabled for the board.
+On Android, ensure that "Input device" is enabled for the board.
 
 |image03|
 

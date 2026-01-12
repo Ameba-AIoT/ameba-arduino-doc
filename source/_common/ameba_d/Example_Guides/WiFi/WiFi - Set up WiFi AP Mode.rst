@@ -1,12 +1,8 @@
 WiFi - Set up WiFi AP Mode
 =============================
 
-.. contents::
-  :local:
-  :depth: 2
-
 In AP mode, Ameba can accept at most 3 station connections, and can be set to open mode or WPA2 mode.
-  
+
 Materials
 ---------
 
@@ -17,7 +13,7 @@ Example
 
 In this example, we turn on the AP mode of Ameba and connect station to Ameba.
 
-Open the WiFi AP example, “File” -> “Examples” -> “WiFi” -> “WiFiAPMode”
+Open the WiFi AP example, "File" -> "Examples" -> "WiFi" -> "WiFiAPMode"
 
 |image01|
 
@@ -27,7 +23,7 @@ If you prefer to enter your SSID & password in the Serial monitor while the prog
 
 |image02|
 
-Note: If you enabled MANUAL_INPUT, after uploading the sample code and pressing the reset button on Ameba, input your SSID in the Serial monitor and press enter. 
+Note: If you enabled MANUAL_INPUT, after uploading the sample code and pressing the reset button on Ameba, input your SSID in the Serial monitor and press enter.
 
 Next, input your password and press enter. AP mode should start after that.
 
@@ -49,7 +45,6 @@ In the figure below, we show the messages shown in serial monitor when a station
 
 |image06|
 
-
 .. |image01| image:: ../../../../_static/amebad/Example_Guides/WiFi/WiFi_Set_up_WiFi_AP_Mode/image01.png
    :width:  822 px
    :height:  866 px
@@ -68,4 +63,4 @@ In the figure below, we show the messages shown in serial monitor when a station
 .. |image06| image:: ../../../../_static/amebad/Example_Guides/WiFi/WiFi_Set_up_WiFi_AP_Mode/image06.png
    :width:  846 px
    :height:  775 px
-   
+

@@ -1,14 +1,10 @@
 Buzzer Play Melody
 ==================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 - Buzzer x 1
 
@@ -28,7 +24,7 @@ In this example, we use PWM to control the buzzer to emit sound with desired ton
 
 |image02|
 
-| Open the example code in “Examples” -> “AmebaAnalog” -> “PWM_BuzzerPlayMelody”
+| Open the example code in "Examples" -> "AmebaAnalog" -> "PWM_BuzzerPlayMelody"
 | Compile and upload to Ameba, press the reset button. Then you can hear the buzzer playing music.
 
 Code Reference

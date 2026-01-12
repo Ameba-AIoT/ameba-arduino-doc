@@ -1,10 +1,6 @@
 File system in SD card
 ======================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -47,7 +43,7 @@ Next, insert SD card into card reader, and check whether the operations succeede
 Example 03 get_file_attribute
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Open the example, "Files" -> "Examples" -> "AmebaFatfsSDIO" -> "get_file_attribute". 
+Open the example, "Files" -> "Examples" -> "AmebaFatfsSDIO" -> "get_file_attribute".
 
 Upload the code and press the reset button on Ameba once the upload is finished. In the sample code, system will print put all file attribute to serial monitor.
 
@@ -58,7 +54,7 @@ Next, insert SD card into card reader, and check whether the operations succeede
 Example 04 last_modified_time
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Open the example, "Files" -> "Examples" -> "AmebaFatfsSDIO" -> "last_modified_time". 
+Open the example, "Files" -> "Examples" -> "AmebaFatfsSDIO" -> "last_modified_time".
 
 Upload the code and press the reset button on Ameba once the upload is finished. In the sample code, system will print put the target file last modified time to serial monitor.
 
@@ -71,7 +67,7 @@ Next, insert SD card into card reader, and check whether the operations succeede
 Example 05 list_root_files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Open the example, "Files" -> "Examples" -> "AmebaFatfsSDIO" -> "list_root_files". 
+Open the example, "Files" -> "Examples" -> "AmebaFatfsSDIO" -> "list_root_files".
 
 Upload the code and press the reset button on Ameba once the upload is finished. In the sample code, system will print put all root file to serial monitor.
 

@@ -1,10 +1,6 @@
 Class AudioEncoder
 ==================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **AAC Class**
 -------------
 

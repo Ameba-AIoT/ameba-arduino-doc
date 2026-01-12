@@ -8,4 +8,4 @@ TensorFlow Lite
    TensorFlow Lite - Magic Wand
    TensorFlow Lite - Micro Speech
    TensorFlow Lite - Person Detection
-   
+

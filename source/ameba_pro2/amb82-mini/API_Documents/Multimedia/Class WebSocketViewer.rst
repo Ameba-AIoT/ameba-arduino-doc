@@ -1,10 +1,6 @@
 Class WebSocketViewer
 ======================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **WebSocketViewer Class**
 --------------------------
 
@@ -95,7 +91,6 @@ Load WebSocket Viewer web resources.
 
 websocket_from_sd: 1 to load web resources (htdocs.bin) from the SD card, 0 to load web resources from htdocs.h as an array.
 
-
 **Returns**
 ~~~~~~~~~~~
 
@@ -146,7 +141,7 @@ Example: `WebSocketViewer <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob
 **Description**
 ~~~~~~~~~~~~~~~
 
-Start the WebSocket Viewer service. 
+Start the WebSocket Viewer service.
 
 **Syntax**
 ~~~~~~~~~~

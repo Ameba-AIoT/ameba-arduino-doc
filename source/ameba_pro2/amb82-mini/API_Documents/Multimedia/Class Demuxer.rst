@@ -1,10 +1,6 @@
 Class Demuxer
 =============
 
-.. contents::
-  :local:
-  :depth: 2
-
 **Demuxer Class**
 ------------------
 

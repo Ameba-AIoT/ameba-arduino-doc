@@ -1,14 +1,10 @@
 IPv6 - Ameba as IPv6 Server/Client over UDP
 ===========================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
--  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+-  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 Example
 -------
@@ -25,7 +21,7 @@ Procedure
 
 Step 1. IPv6UDPServer
 
-Open the example, “Files” → “Examples” → “WiFi” → “IPv6UDPServer”.
+Open the example, "Files" → "Examples" → "WiFi" → "IPv6UDPServer".
 
 |image01|
 
@@ -41,15 +37,15 @@ Open Serial Monitor and copy the IPv6 address of the Server for later use,
 
 Step 2. IPv6UDPClient
 
-Now take the second AMB82 Mini and open another example, “Files” → “Examples” → “WiFi” → “IPv6UDPClient”.
-    
+Now take the second AMB82 Mini and open another example, "Files" → "Examples" → "WiFi" → "IPv6UDPClient".
+
 |image04|
 
 In the sample code, modify and enter the information required (ssid, password) to connect to your WiFi network.
 
 |image05|
 
-From the previous step, we obtained the server's IPv6 address. Now, copy this address into the “IPv6UDPClient” example.
+From the previous step, we obtained the server's IPv6 address. Now, copy this address into the "IPv6UDPClient" example.
 
 |image06|
 

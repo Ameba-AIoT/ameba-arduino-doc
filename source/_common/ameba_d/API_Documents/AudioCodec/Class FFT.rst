@@ -1,10 +1,6 @@
 Class FFT
 =========
 
-.. contents::
-  :local:
-  :depth: 2
-
 **FFT Class**
 -------------
 
@@ -71,7 +67,7 @@ NA
 
 Example: `FFT <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/FFT/FFT.ino>`_
 
-.. note :: “FFT.h” must be included to use the class function.
+.. note :: "FFT.h" must be included to use the class function.
 
 **FFT::setWindow**
 ------------------
@@ -112,7 +108,7 @@ Example: `FFT <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_pa
   More information on FFTs and window functions can be seen at:
   https://download.ni.com/evaluation/pxi/Understanding%20FFTs%20and%20Windowing.pdf
   https://en.wikipedia.org/wiki/Window_function
-  “FFT.h” must be included to use the class function.
+  "FFT.h" must be included to use the class function.
 
 **FFT::Calculate**
 ------------------
@@ -148,7 +144,7 @@ NA
 Example: `FFT <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/FFT/FFT.ino>`_
 
 .. note :: Larger sample counts will require more time for FFT calculations, but will provide a higher frequency resolution output.
-  “FFT.h” must be included to use the class function.
+  "FFT.h" must be included to use the class function.
 
 **FFT::getFrequencyBins**
 -------------------------
@@ -170,7 +166,7 @@ Get a corresponding output FFT frequency bin for a given sample rate and sample 
 
 outputBuf: pointer to a uint16_t array of (sampleCount / 2) size, for containing the calculated center frequency of each FFT output element.
 sampleCount: number of sample datapoints in the input array. Valid values: 16, 32, 64, 128, 256, 512, 1024, 2048.
-sampleRate: Defines how many times an audio signal is sampled in a second. In the example “FFT.ino”, sample rate is set at 16000, which means that each audio signal contains 16000 individual samples.
+sampleRate: Defines how many times an audio signal is sampled in a second. In the example "FFT.ino", sample rate is set at 16000, which means that each audio signal contains 16000 individual samples.
 
 **Returns**
 ~~~~~~~~~~~
@@ -182,7 +178,7 @@ NA
 
 Example: `FFT <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/FFT/FFT.ino>`_
 
-.. note :: “FFT.h” must be included to use the class function.
+.. note :: "FFT.h" must be included to use the class function.
 
 **FFT::getFFTSize**
 -------------------
@@ -214,4 +210,4 @@ This function returns the FFT output size for the given sampleCount, which is (s
 
 NA
 
-.. note :: “FFT.h” must be included to use the class function.
+.. note :: "FFT.h" must be included to use the class function.

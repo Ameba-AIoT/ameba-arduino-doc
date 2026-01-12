@@ -1,10 +1,6 @@
 E-Paper - 7.5-inch e-Book with MicroSD card
 ===========================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -16,7 +12,7 @@ Materials
 Example
 -------
 
-In this example, we will be connecting AMB23 to Waveshare 7.5-inch e-Paper module to be used as an e-Book. The 7.5” active area contains 800 x 480 pixels and has 1-bit white/black full display capabilities. An integrated circuit contains gate buffer, source buffer, interface, timing control logic, oscillator, etc. are supplied with each panel. You may refer to [7.5inch-e-paper-specification] (https://www.waveshare.com/w/upload/6/60/7.5inch_e-Paper_V2_Specification.pdf) for more information about this e-Paper module.
+In this example, we will be connecting AMB23 to Waveshare 7.5-inch e-Paper module to be used as an e-Book. The 7.5" active area contains 800 x 480 pixels and has 1-bit white/black full display capabilities. An integrated circuit contains gate buffer, source buffer, interface, timing control logic, oscillator, etc. are supplied with each panel. You may refer to [7.5inch-e-paper-specification] (https://www.waveshare.com/w/upload/6/60/7.5inch_e-Paper_V2_Specification.pdf) for more information about this e-Paper module.
 
 **AMB23 wiring diagram:**
 
@@ -29,11 +25,11 @@ Do note that Display Config should be set to B and Interface Config should be se
 Download the Eink zip library, AmebaEink.zip, at https://github.com/Ameba-AIoT/ameba-arduino-d/tree/master/Arduino_zip_libraries.
 and install AmebaEink.zip on Arduino IDE. You may follow the instruction at https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries to install it.
 
-After AmebaEink.zip is installed, Open the “Eink_7in5_Ebook” example by selecting “File” -> “Examples” -> “AmebaEink” -> “Eink_7in5_Ebook”.
+After AmebaEink.zip is installed, Open the "Eink_7in5_Ebook" example by selecting "File" -> "Examples" -> "AmebaEink" -> "Eink_7in5_Ebook".
 
 |image03|
 
-Next, insert the MicroSD card into your computer and create a new text file named “User_Ebook.txt”. Then, save the content that you would like to display in the text file (Note: do only include words). The content of “User_Ebook.txt” shown below is for illustration purposes only.
+Next, insert the MicroSD card into your computer and create a new text file named "User_Ebook.txt". Then, save the content that you would like to display in the text file (Note: do only include words). The content of "User_Ebook.txt" shown below is for illustration purposes only.
 
 |image04|
 

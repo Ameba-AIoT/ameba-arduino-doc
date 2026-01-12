@@ -1,10 +1,6 @@
 BLE - HID Gamepad
 =================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -18,32 +14,32 @@ Example
 Introduction
 ~~~~~~~~~~~~
 
-In this example, the AmebaD board emulates a HID gamepad connected using BLE. 
+In this example, the AmebaD board emulates a HID gamepad connected using BLE.
 
 Procedure
 ~~~~~~~~~
 
-Open the example, ``“Files” → “Examples” → “AmebaBLE” → BLEHIDGamepad``.
+Open the example, ``"Files" → "Examples" → "AmebaBLE" → BLEHIDGamepad``.
 
 |image01|
 
-Upload the code and press the reset button once the upload is finished. 
+Upload the code and press the reset button once the upload is finished.
 
-Immediately after reset, the board will begin BLE advertising as “AMEBA_BLE_HID”. On your host device, go to the Bluetooth settings menu, scan, and connect to the board.
+Immediately after reset, the board will begin BLE advertising as "AMEBA_BLE_HID". On your host device, go to the Bluetooth settings menu, scan, and connect to the board.
 
-You should ensure that the connection process is completed before proceeding. 
+You should ensure that the connection process is completed before proceeding.
 
-On Windows, ensure that any driver installation is finished, and the board shows up in the Bluetooth menu under the “Mouse, keyboard & pen” category. 
+On Windows, ensure that any driver installation is finished, and the board shows up in the Bluetooth menu under the "Mouse, keyboard & pen" category.
 
 |image02|
 
-On Android, ensure that “Input device” is enabled for the board.
+On Android, ensure that "Input device" is enabled for the board.
 
 |image03|
 
 After the Bluetooth connection process is completed, the board is ready to send gamepad input to the host device. Connect digital pin 8 to 3.3V to start sending input, and connect to GND to stop.
 
-On Windows, gamepad input can also be viewed by going to “Control Panel” -> “Devices and Printers” -> “AMEBA_BLE_HID” -> “Game Controller Settings” -> “Properties”. The buttons and axes should also show changing values here.
+On Windows, gamepad input can also be viewed by going to "Control Panel" -> "Devices and Printers" -> "AMEBA_BLE_HID" -> "Game Controller Settings" -> "Properties". The buttons and axes should also show changing values here.
 
 |image04|
 
@@ -51,7 +47,7 @@ On Windows, gamepad input can also be viewed by going to “Control Panel” -> 
 
 To view the input, open a browser window and go to https://gamepad-tester.com/. The connected gamepad device should show up here, and some of the buttons and axes should show changing values.
 
-On Android, gamepad testing apps such as `Android Gamepad Tester <https://play.google.com/store/apps/details?id=com.chimera.saturday.evogamepadtester>`_  
+On Android, gamepad testing apps such as `Android Gamepad Tester <https://play.google.com/store/apps/details?id=com.chimera.saturday.evogamepadtester>`__
 can also be used to view the gamepad input.
 
 |image06|
@@ -63,7 +59,7 @@ On Android, gamepad testing apps such as https://play.google.com/store/apps/deta
 Code Reference
 --------------
 
-By default, the board emulates a gamepad with an 8-direction hat switch (d-pad), 6 analog axes and 16 buttons. How the inputs are interpreted is dependent on the host device, and the button ordering may differ between devices. Also, some axes or buttons may be disabled or missing on certain host devices. 
+By default, the board emulates a gamepad with an 8-direction hat switch (d-pad), 6 analog axes and 16 buttons. How the inputs are interpreted is dependent on the host device, and the button ordering may differ between devices. Also, some axes or buttons may be disabled or missing on certain host devices.
 
 .. |image01| image:: ../../../../_static/amebad/Example_Guides/BLE/BLE_HID_Gamepad/image01.png
    :width:  637 px
@@ -90,4 +86,4 @@ By default, the board emulates a gamepad with an 8-direction hat switch (d-pad),
    :width:  2880 px
    :height:  1440 px
    :scale: 30%
-   
+

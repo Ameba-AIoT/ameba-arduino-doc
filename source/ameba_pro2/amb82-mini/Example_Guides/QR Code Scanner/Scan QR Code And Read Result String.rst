@@ -1,21 +1,17 @@
 Scan QR Code And Read Result String
 ===================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 Example
 -------
 
 This example will demonstrate how to retrieve the result string and length when QR code is placed in front of the camera of AMB82 MINI.
 
-Open the QR Code Scanner example “File” -> “Examples” -> “AmebaQR” -> “QRCodeScanner”
+Open the QR Code Scanner example "File" -> "Examples" -> "AmebaQR" -> "QRCodeScanner"
 
 |image01|
 

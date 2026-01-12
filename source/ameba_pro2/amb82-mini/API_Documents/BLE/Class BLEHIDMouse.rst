@@ -1,10 +1,6 @@
 Class BLEHIDMouse
 =================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **BLEHIDMouse Class**
 ---------------------
 
@@ -61,7 +57,7 @@ Constructs a BLEHIDMouse object.
 **Syntax**
 ~~~~~~~~~~
 
-.. code-block:: c++ 
+.. code-block:: c++
 
     BLEHIDMouse(void);
 

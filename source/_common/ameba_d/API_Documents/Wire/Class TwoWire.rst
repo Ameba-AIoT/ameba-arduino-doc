@@ -1,10 +1,6 @@
 Class TwoWire
 =============
 
-.. contents::
-  :local:
-  :depth: 2
-
 **TwoWire Class**
 -----------------
 
@@ -116,7 +112,7 @@ Initialize I2C master/slave. To use in I2C master, no argument should be passed 
 .. code-block:: c++
 
     void begin (uint8_t address = 0);
-    
+
 .. code-block:: c++
 
     void begin (int address);
@@ -354,7 +350,7 @@ Write data to I2C master transmission buffer.
     size_t write (uint8_t data);
 
 .. code-block:: c++
-    
+
     size_t write (const uint8_t *data, size_t quantity);
 
 **Parameters**
@@ -554,7 +550,7 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `SlaveReader <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Wire/examples/SlaveReader/SlaveReader.ino>`_ 
+Example: `SlaveReader <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Wire/examples/SlaveReader/SlaveReader.ino>`__
 
 .. note :: "Wire.h" must be included to use the class function.
 
@@ -588,7 +584,7 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `SlaveReader <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Wire/examples/SlaveReader/SlaveReader.ino>`_ 
+Example: `SlaveReader <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Wire/examples/SlaveReader/SlaveReader.ino>`__
 
 .. note :: "Wire.h" must be included to use the class function.
 
@@ -612,7 +608,7 @@ Send data as a slave device, note that this API only work when device is configu
 .. code-block:: c++
 
     size_t slaveWrite(char *buffer);
-    
+
 .. code-block:: c++
 
     size_t slaveWrite(uint8_t *buffer, size_t len);
@@ -635,5 +631,5 @@ This function returns true if successful, else returns false.
 NA
 
 .. important :: This function can only be called if the device is in slave mode and after user has registered a requestEvent using onRequest().
-    
+
 .. note :: "Wire.h" must be included to use the class function.

@@ -1,10 +1,6 @@
 Class USBHIDGamepad
 ===================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **USBHIDGamepad Class**
 -----------------------
 
@@ -98,9 +94,9 @@ NA
 
 Example: `USBHIDGamepad <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/USBHIDGamepad/USBHIDGamepad.ino>`_
 
-.. important :: By default, the USBHIDGamepad class assumes the HID report descriptor implements a gamepad device with 16 buttons, 6 axes with 16-bit resolution and an 8-direction hat switch. This class will not work if a different gamepad report descriptor is implemented. 
+.. important :: By default, the USBHIDGamepad class assumes the HID report descriptor implements a gamepad device with 16 buttons, 6 axes with 16-bit resolution and an 8-direction hat switch. This class will not work if a different gamepad report descriptor is implemented.
 
-.. note :: “USBHIDGamepad.h” must be included to use the class function.
+.. note :: "USBHIDGamepad.h" must be included to use the class function.
 
 --------------------------------
 
@@ -134,9 +130,9 @@ NA
 
 NA
 
-.. important :: HID report ID should start at 1. Some systems may consider a report ID of 0 as invalid. 
+.. important :: HID report ID should start at 1. Some systems may consider a report ID of 0 as invalid.
 
-.. note :: “USBHIDGamepad.h” must be included to use the class function.
+.. note :: "USBHIDGamepad.h" must be included to use the class function.
 
 -----------------------------
 
@@ -208,7 +204,7 @@ NA
 
 Example: `USBHIDGamepad <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/USBHIDGamepad/USBHIDGamepad.ino>`_
 
-.. note :: “USBHIDGamepad.h” must be included to use the class function.
+.. note :: "USBHIDGamepad.h" must be included to use the class function.
 
 ------------------------------
 
@@ -242,7 +238,7 @@ NA
 
 NA
 
-.. note :: “USBHIDGamepad.h” must be included to use the class function.
+.. note :: "USBHIDGamepad.h" must be included to use the class function.
 
 ---------------------------------
 
@@ -276,7 +272,7 @@ NA
 
 NA
 
-.. note :: “USBHIDGamepad.h” must be included to use the class function.
+.. note :: "USBHIDGamepad.h" must be included to use the class function.
 
 ------------------------------------
 
@@ -310,7 +306,7 @@ NA
 
 Example: `USBHIDGamepad <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/USBHIDGamepad/USBHIDGamepad.ino>`_
 
-.. note :: “USBHIDGamepad.h” must be included to use the class function.
+.. note :: "USBHIDGamepad.h" must be included to use the class function.
 
 --------------------------
 
@@ -362,7 +358,7 @@ NA
 
 NA
 
-.. note :: “USBHIDGamepad.h” must be included to use the class function.
+.. note :: "USBHIDGamepad.h" must be included to use the class function.
 
 -----------------------------
 
@@ -406,7 +402,7 @@ NA
 
 Example: `USBHIDGamepad <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/USBHIDGamepad/USBHIDGamepad.ino>`_
 
-.. note :: “USBHIDGamepad.h” must be included to use the class function.
+.. note :: "USBHIDGamepad.h" must be included to use the class function.
 
 -------------------------------
 
@@ -442,7 +438,7 @@ NA
 
 NA
 
-.. note :: “USBHIDGamepad.h” must be included to use the class function.
+.. note :: "USBHIDGamepad.h" must be included to use the class function.
 
 -------------------------------
 
@@ -478,7 +474,7 @@ NA
 
 NA
 
-.. note :: “USBHIDGamepad.h” must be included to use the class function.
+.. note :: "USBHIDGamepad.h" must be included to use the class function.
 
 --------------------------------
 
@@ -514,4 +510,4 @@ NA
 
 NA
 
-.. note :: “USBHIDGamepad.h” must be included to use the class function.
+.. note :: "USBHIDGamepad.h" must be included to use the class function.

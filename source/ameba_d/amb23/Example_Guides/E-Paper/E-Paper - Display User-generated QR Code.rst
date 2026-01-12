@@ -1,10 +1,6 @@
 E-Paper - Display User-generated QR Code
 =========================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 - AmebaD [AMB21 / AMB22 / AMB23 / AMB25 / AMB26 / BW16 / AW-CU488 Thing Plus] x 1
@@ -24,7 +20,7 @@ In this example, AmebaD boards will be used to connect to a Waveshare e-Paper mo
 
 2.9inch E-Paper v2 e-Paper Module/ 2.9inch e-Paper Module (B)
 
-|image02v2| 
+|image02v2|
 
 4.2inch e-Paper Module/ 4.2inch v2 e-Paper Module
 
@@ -35,13 +31,13 @@ Do note that Display Config should be set to B and Interface Config should be se
 
 |image16|
 
-Download the Eink zip library, AmebaEink.zip, at https://github.com/Ameba-AIoT/ameba-arduino-d/tree/master/Arduino_zip_libraries. Then install the AmebaEink.zip by navigating to “Sketch” -> “Include Library” -> “Add .ZIP Library…”.
+Download the Eink zip library, AmebaEink.zip, at https://github.com/Ameba-AIoT/ameba-arduino-d/tree/master/Arduino_zip_libraries. Then install the AmebaEink.zip by navigating to "Sketch" -> "Include Library" -> "Add .ZIP Library…".
 
 Eink examples are categorised based on the size and modules of the e-Paper display.
 
 |image22|
 
-Open one of the “EinkDisplayQR” examples. For example, “File” → “Examples” → “AmebaEink” → “EPD_2in9v2” → “EinkDisplayQR”:
+Open one of the "EinkDisplayQR" examples. For example, "File" → "Examples" → "AmebaEink" → "EPD_2in9v2" → "EinkDisplayQR":
 
 |image23|
 

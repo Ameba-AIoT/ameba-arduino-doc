@@ -1,10 +1,6 @@
 Arduino-build-in example
 ========================
 
-.. contents::
-  :local:
-  :depth: 2
-
 AMB21 Supported ARDUINO built-in example table
 ----------------------------------------------
 
@@ -40,7 +36,7 @@ There are many built-in examples in Arduino. All examples that listed are compat
 |               |                           | | and can be calibrated by using              |                                                    |
 |               |                           | | analogSet(float gain, float offset)         |                                                    |
 +---------------+---------------------------+-----------------------------------------------+----------------------------------------------------+
-| Digital       | BlinkWithoutDelay         | | LED_BUILTIN sets to Pin 8.                  |                                                    |       
+| Digital       | BlinkWithoutDelay         | | LED_BUILTIN sets to Pin 8.                  |                                                    |
 |               +---------------------------+-----------------------------------------------+----------------------------------------------------+
 |               | Button                    |                                               |                                                    |
 |               +---------------------------+-----------------------------------------------+----------------------------------------------------+
@@ -121,7 +117,7 @@ There are many built-in examples in Arduino. All examples that listed are compat
 |               +---------------------------+ | and can be calibrated by using              +----------------------------------------------------+
 |               | ForLoopIteration          | | analogSet(float gain, float offset)         |                                                    |
 |               +---------------------------+ | Pin 7 is NC, replace it with another pin.   +----------------------------------------------------+
-|               | IfStatementConditional    | | For “analogWrite()”, use PWM capable pin.   |                                                    |
+|               | IfStatementConditional    | | For "analogWrite()", use PWM capable pin.   |                                                    |
 |               +---------------------------+                                               +----------------------------------------------------+
 |               | switchCase                |                                               |                                                    |
 |               +---------------------------+                                               +----------------------------------------------------+

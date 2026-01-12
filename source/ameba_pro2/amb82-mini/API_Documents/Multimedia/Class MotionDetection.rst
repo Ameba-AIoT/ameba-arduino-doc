@@ -1,10 +1,6 @@
 Class MotionDetection
 =====================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **MotionDetectionResult Class**
 -------------------------------
 
@@ -466,7 +462,7 @@ Set a specific region in the motion detection grid to ignore motion.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-mask: a pointer to a char array containing the regions where motion detection is enabled or disabled. 
+mask: a pointer to a char array containing the regions where motion detection is enabled or disabled.
 
 - 1 (Enable motion detection for the grid region)
 

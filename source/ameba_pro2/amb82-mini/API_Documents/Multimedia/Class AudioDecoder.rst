@@ -1,10 +1,6 @@
 Class AudioDecoder
 ==================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **AAD Class**
 -------------
 

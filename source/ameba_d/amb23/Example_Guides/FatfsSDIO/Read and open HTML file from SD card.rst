@@ -1,10 +1,6 @@
 Read and open HTML file from SD card
 ====================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 

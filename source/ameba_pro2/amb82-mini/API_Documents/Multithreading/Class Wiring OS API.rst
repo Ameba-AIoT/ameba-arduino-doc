@@ -1,10 +1,6 @@
 Class Wiring OS API
 ===================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **Wiring OS API Class**
 -----------------------
 
@@ -113,7 +109,7 @@ This function returns the thread ID in 32-bit which is used in thread operation 
 
 NA
 
-.. note :: “wiring_os.h” must be included to use the class function.
+.. note :: "wiring_os.h" must be included to use the class function.
 
 ------------------------------------
 
@@ -147,7 +143,7 @@ This function returns current thread id in 32-bit which calls os_thread_get_id_a
 
 NA
 
-.. note :: “wiring_os.h” must be included to use the class function.
+.. note :: "wiring_os.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -183,7 +179,7 @@ NA
 
 .. important :: Thread should not end without terminate first.
 
-.. note :: “wiring_os.h” must be included to use the class function.
+.. note :: "wiring_os.h" must be included to use the class function.
 
 ------------------------------------
 
@@ -218,7 +214,7 @@ NA
 
 .. important :: The smallest execution unit by default is one millisecond. When a thread with a lower priority wants to instantly give execution rights to a thread with a higher priority rather than waiting for the current 1 millisecond to expire, calling os_thread yield can transfer execution rights to the OS's idle task and determine which thread will execute next.
 
-.. note :: “wiring_os.h” must be included to use the class function.
+.. note :: "wiring_os.h" must be included to use the class function.
 
 -----------------------------------------
 
@@ -240,7 +236,7 @@ Change priority of an active thread.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-``thread_id``: Thread ID identifies the thread (pointer to a thread control block). 
+``thread_id``: Thread ID identifies the thread (pointer to a thread control block).
 
 ``priority``: The updated priority
 
@@ -254,7 +250,7 @@ This function returns os_status code.
 
 NA
 
-.. note :: “wiring_os.h” must be included to use the class function.
+.. note :: "wiring_os.h" must be included to use the class function.
 
 --------------------------------------
 
@@ -288,7 +284,7 @@ This function returns os_priority.
 
 NA
 
-.. note :: “wiring_os.h” must be included to use the class function.
+.. note :: "wiring_os.h" must be included to use the class function.
 
 ------------------------------
 
@@ -310,7 +306,7 @@ Set the specified Signal Flags of an active thread.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-``thread_id``: Thread ID obtained by os_thread_create_arduino or 
+``thread_id``: Thread ID obtained by os_thread_create_arduino or
 
 ``os_thread_get_id_arduino.signals``: The signal flags of the thread that should be set.
 
@@ -324,7 +320,7 @@ This function returns previous signal flags of the specified thread or 0x8000000
 
 NA
 
-.. note :: “wiring_os.h” must be included to use the class function.
+.. note :: "wiring_os.h" must be included to use the class function.
 
 ------------------------------------
 
@@ -360,7 +356,7 @@ This function returns previous signal flags of the specified thread or 0x8000000
 
 NA
 
-.. note :: “wiring_os.h” must be included to use the class function.
+.. note :: "wiring_os.h" must be included to use the class function.
 
 ----------------------------------
 
@@ -396,7 +392,7 @@ This function returns event flag information or error code.
 
 NA
 
-.. note :: “wiring_os.h” must be included to use the class function.
+.. note :: "wiring_os.h" must be included to use the class function.
 
 ---------------------------------
 
@@ -434,7 +430,7 @@ This function returns the timer id.
 
 NA
 
-.. note :: “wiring_os.h” must be included to use the class function.
+.. note :: "wiring_os.h" must be included to use the class function.
 
 -------------------------------
 
@@ -470,7 +466,7 @@ This function returns os_status code.
 
 NA
 
-.. note :: “wiring_os.h” must be included to use the class function.
+.. note :: "wiring_os.h" must be included to use the class function.
 
 -----------------------------
 
@@ -504,7 +500,7 @@ This function returns os_status code.
 
 NA
 
-.. note :: “wiring_os.h” must be included to use the class function.
+.. note :: "wiring_os.h" must be included to use the class function.
 
 **os_timer_delete_arduino**
 ---------------------------
@@ -512,7 +508,7 @@ NA
 **Description**
 ~~~~~~~~~~~~~~~
 
-Delete a timer that was created by “os_timer_create_arduino”.
+Delete a timer that was created by "os_timer_create_arduino".
 
 **Syntax**
 ~~~~~~~~~~
@@ -536,7 +532,7 @@ This function returns os_status code.
 
 NA
 
-.. note :: “wiring_os.h” must be included to use the class function.
+.. note :: "wiring_os.h" must be included to use the class function.
 
 --------------------------------
 
@@ -570,7 +566,7 @@ This function returns semaphore ID.
 
 NA
 
-.. note :: “wiring_os.h” must be included to use the class function.
+.. note :: "wiring_os.h" must be included to use the class function.
 
 -------------------------------
 
@@ -599,14 +595,14 @@ Wait until a Semaphore token becomes available.
 **Returns**
 ~~~~~~~~~~~
 
-This function returns “1” if “os_semaphoe_wait_arduino” gets the available semaphore token, otherwise returns “0”.
+This function returns "1" if "os_semaphoe_wait_arduino" gets the available semaphore token, otherwise returns "0".
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “wiring_os.h” must be included to use the class function.
+.. note :: "wiring_os.h" must be included to use the class function.
 
 ----------------------------------
 
@@ -640,7 +636,7 @@ This function returns os_status code that indicates the execution status of the 
 
 NA
 
-.. note :: “wiring_os.h” must be included to use the class function.
+.. note :: "wiring_os.h" must be included to use the class function.
 
 --------------------------------
 
@@ -674,9 +670,9 @@ This function returns os_status code that indicates the execution status of the 
 
 NA
 
-.. important :: “os_semaphore_delete_arduino” shall be consistent in every CMSIS_RTOS. 
+.. important :: "os_semaphore_delete_arduino" shall be consistent in every CMSIS_RTOS.
 
-.. note :: “wiring_os.h” must be included to use the class function.
+.. note :: "wiring_os.h" must be included to use the class function.
 
 -----------------------------------
 
@@ -710,4 +706,4 @@ This function returns the current free heap size as unsigned integer.
 
 NA
 
-.. note :: “wiring_os.h” must be included to use the class function.
+.. note :: "wiring_os.h" must be included to use the class function.

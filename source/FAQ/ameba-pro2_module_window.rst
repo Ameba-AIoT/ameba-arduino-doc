@@ -5,7 +5,7 @@ What is the contact for purchasing AMB82-mini module?
 
 **Answer**
 
-Please contact `icshop <oa@icshop.com.tw>`_ and provide the purchase quantity. Please also indicate whether the requirement is EVB or Module.
+Please contact `icshop <oa@icshop.com.tw>`__ and provide the purchase quantity. Please also indicate whether the requirement is EVB or Module.
 
 **EVB**
 

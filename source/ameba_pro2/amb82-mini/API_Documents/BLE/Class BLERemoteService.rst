@@ -1,10 +1,6 @@
 Class BLERemoteService
 ======================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **BLERemoteService Class**
 --------------------------
 

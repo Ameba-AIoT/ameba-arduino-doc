@@ -1,14 +1,10 @@
 Websocket Viewer
 ==================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 - SD card x 1
 
 Example
@@ -17,7 +13,7 @@ This example demonstrates how the AMB82 Mini acts as a WebSocket server to strea
 
 It provides a low-latency video streaming suitable for real-time applications.
 
-In the highlighted code snippet, fill in the “ssid” with your WiFi network SSID and “pass” with the network password.
+In the highlighted code snippet, fill in the "ssid" with your WiFi network SSID and "pass" with the network password.
 
 |image01|
 
@@ -46,7 +42,7 @@ Code Reference
 
 You may adjust the video bitrate based on your WiFi network quality.
 
-|image05| 
+|image05|
 
 .. |image01| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Websocket_Viewer/image01.png
    :width:  667 px

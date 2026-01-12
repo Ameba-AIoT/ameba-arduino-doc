@@ -1,10 +1,6 @@
 HTTP - Set up Server to Control LED
 =====================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -27,25 +23,25 @@ In a LED, the longer pin is the positive pole, and the shorter pin is the negati
 
 |image01|
 
-.. only:: end amb21  
+.. only:: end amb21
 
 .. only:: amb23
 
 |image02|
 
-.. only:: end amb23 
+.. only:: end amb23
 
 .. only:: amb25
 
 |image03|
 
-.. only:: end amb25 
+.. only:: end amb25
 
 .. only:: amb26
 
 |image04|
 
-.. only:: end amb26 
+.. only:: end amb26
 
 .. only:: bw16-typeb
 
@@ -63,17 +59,17 @@ In a LED, the longer pin is the positive pole, and the shorter pin is the negati
 
 |image07|
 
-.. only:: end aw-cu488 
+.. only:: end aw-cu488
 
 .. Note:
-   For RTL8720DN(BW16) board, you may consider re-defining “LED_PIN” macro to 10 for built-in green LED, or 11 for blue built-in LED, or 12 for red built-in LED to avoid using extra components.
+   For RTL8720DN(BW16) board, you may consider re-defining "LED_PIN" macro to 10 for built-in green LED, or 11 for blue built-in LED, or 12 for red built-in LED to avoid using extra components.
 
-Then open “File” -> “Examples” -> “WiFi” -> “SimpleWebServerWiFi”
-  
+Then open "File" -> "Examples" -> "WiFi" -> "SimpleWebServerWiFi"
+
 |image08|
 
-Upload the code and press the reset button on Ameba. When the connection is established, you will see the message “To see this page in action, open a browser to http://xxx.xxx.xxx.xxx” in the Arduino IDE, as shown in the figure:
-  
+Upload the code and press the reset button on Ameba. When the connection is established, you will see the message "To see this page in action, open a browser to http://xxx.xxx.xxx.xxx" in the Arduino IDE, as shown in the figure:
+
 |image09|
 
 Next, open the browser of a computer or a cell phone under the same WiFi domain, enter the address in the message.
@@ -114,7 +110,6 @@ Code Reference
 | https://www.arduino.cc/en/Reference/WiFiClientRead
 | Use client.stop() to disconnect from the server the client is connected to.
 | https://www.arduino.cc/en/Reference/WiFIClientStop
-
 
 .. |image01| image:: ../../../../_static/amebad/Example_Guides/HTTP/HTTP_Set_up_Server_to_Control_LED/image01.png
    :width:  773 px

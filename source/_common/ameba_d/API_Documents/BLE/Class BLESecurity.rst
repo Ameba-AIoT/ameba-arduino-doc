@@ -1,10 +1,6 @@
 Class BLESecurity
 =================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **BLESecurity Class**
 ---------------------
 

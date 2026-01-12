@@ -1,10 +1,6 @@
 Class AudioStream
 =================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **AudioSetting Class**
 ----------------------
 

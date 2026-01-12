@@ -1,10 +1,6 @@
 V7RC Car With Video Streaming
 =============================
 
-.. contents::
-  :local:
-  :depth: 2
-
 .. note ::
    |image_3rd_party| "V7RC Car With Video Streaming" is a 3rd-party example source provided and maintained by `Kevin's Lab <https://github.com/cold63>`_
 
@@ -15,7 +11,7 @@ V7RC Car With Video Streaming
 Materials
 ---------
 
--  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+-  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 -  Android / iOS mobile phone x1
 

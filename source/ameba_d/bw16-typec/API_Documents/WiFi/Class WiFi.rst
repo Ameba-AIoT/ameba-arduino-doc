@@ -1,10 +1,6 @@
 Class WiFi
 ==========
 
-.. contents::
-  :local:
-  :depth: 2
-
 **WiFiClass Class**
 -------------------
 

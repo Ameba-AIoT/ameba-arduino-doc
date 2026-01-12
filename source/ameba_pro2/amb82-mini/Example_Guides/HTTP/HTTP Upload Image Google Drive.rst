@@ -1,14 +1,10 @@
 HTTP Upload Image Google Drive
 ==============================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 Example
 -------
@@ -18,9 +14,9 @@ This example illustrates how to upload an image file to Google Drive.
 Set up Google Script
 ~~~~~~~~~~~~~~~~~~~~
 
-This Google Apps Script function is designed to handle POST requests so that captured photo can be saved to google drive. Its main functionalities include receiving a file and some related parameters, then saving that file to a specific folder in Google Drive. 
+This Google Apps Script function is designed to handle POST requests so that captured photo can be saved to google drive. Its main functionalities include receiving a file and some related parameters, then saving that file to a specific folder in Google Drive.
 
-First, login to `Google Script <https://script.google.com/home/>`_ official website with your own Google Account.
+First, login to `Google Script <https://script.google.com/home/>`__ official website with your own Google Account.
 
 Next, create a new Google Script project, copy the script below into the "Code.gs" file, renaming it as "amb82_doPost_test" then click the "Save" icon to save your script
 
@@ -50,7 +46,6 @@ Next, create a new Google Script project, copy the script below into the "Code.g
 
         var imageID = file.getUrl().substring(file.getUrl().indexOf("/d/")+3,file.getUrl().indexOf("view")-1);
         var imageUrl = "https://drive.google.com/uc?authuser=0&id="+imageID;
-        
 
         // Returning Results
         return ContentService.createTextOutput(myFoldername+"/"+myFilename+"\n"+imageUrl);

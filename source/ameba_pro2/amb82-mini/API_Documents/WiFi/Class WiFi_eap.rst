@@ -1,10 +1,6 @@
 Class WiFi_eap
 ==============
 
-.. contents::
-  :local:
-  :depth: 2
-
 **WiFi_eapClass Class**
 -----------------------
 

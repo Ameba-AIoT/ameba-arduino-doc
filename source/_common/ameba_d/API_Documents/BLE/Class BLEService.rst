@@ -1,10 +1,6 @@
 Class BLEService
 ================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **BLEService Class**
 --------------------
 

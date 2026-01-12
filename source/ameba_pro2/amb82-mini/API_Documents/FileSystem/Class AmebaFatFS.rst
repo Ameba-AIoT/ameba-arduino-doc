@@ -1,10 +1,6 @@
 Class AmebaFatFS
 ================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **AmebaFatFS Class**
 --------------------
 
@@ -618,7 +614,7 @@ NA
 **Description**
 ~~~~~~~~~~~~~~~
 
-Retrieve the free space of SDcard.  
+Retrieve the free space of SDcard.
 
 **Syntax**
 ~~~~~~~~~~
@@ -649,7 +645,7 @@ Example: `GetFreeAndUseSpace <https://github.com/Ameba-AIoT/ameba-arduino-pro2/b
 **Description**
 ~~~~~~~~~~~~~~~
 
-Retrieve the used space of SDcard.  
+Retrieve the used space of SDcard.
 
 **Syntax**
 ~~~~~~~~~~
@@ -673,4 +669,4 @@ This function returns the value of used space size up to 8-bytes.
 Example: `GetFreeAndUseSpace <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/FileSystem/examples/GetFreeAndUseSpace/GetFreeAndUseSpace.ino>`_
 
 .. note :: "AmebaFatFS.h" must be included to use the class function.
-    
+

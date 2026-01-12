@@ -1,10 +1,6 @@
 TensorFlow Lite - Micro Speech
 ==============================
 
-.. contents::
-  :local:
-  :depth: 2
-  
 Materials
 ---------
 
@@ -18,12 +14,12 @@ Example
 -------
 
 Connect the microphone and LEDs to the Ameba board according to the diagram below.
-  
+
 |image02|
 
 .. note:: As AMB23 have a built in microphone on the board, there is no need for any external microphone. For the LEDs, we will only connect two LEDs and then use the two onboard LEDs (Blue and Green).
 
-Open the example, "Files" → "Examples" → “AmebaTensorFlowLite” → “micro_speech”.
+Open the example, "Files" → "Examples" → "AmebaTensorFlowLite" → "micro_speech".
 
 |image04|
 
@@ -33,9 +29,9 @@ Enable TensorFlow Lite option. It is set to disable by default.
 
 | Upload the code and press the reset button on Ameba once the upload is finished.
 | Once it is running, you should see one of the LEDs flashing, indicating that it is processing audio. Saying the word "yes" will cause the green
-  LED to light up. Saying the word “no” will cause the red LED to light up. If the word is not recognized, the blue LED will to light up.
+  LED to light up. Saying the word "no" will cause the red LED to light up. If the word is not recognized, the blue LED will to light up.
 | The inference results are also output to the Arduino serial monitor, which appear as follows:
-  
+
 |image05|
 
 If you are having trouble in getting the words recognized, here are some tips:

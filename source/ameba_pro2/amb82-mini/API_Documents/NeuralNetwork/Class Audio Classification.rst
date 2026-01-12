@@ -1,10 +1,6 @@
 Class Audio Classification
 ==========================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **AudioClassificationResult Class**
 -----------------------------------
 

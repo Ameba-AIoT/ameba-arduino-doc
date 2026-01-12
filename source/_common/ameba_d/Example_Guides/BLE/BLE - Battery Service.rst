@@ -1,10 +1,6 @@
 BLE - BLE Battery Service
 =========================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -25,26 +21,25 @@ In this example, a basic battery service is set up on the Ameba Bluetooth stack.
 Procedure
 ~~~~~~~~~
 
-
 Ensure that the following Bluetooth apps are installed on your mobile phone. These apps will show you the raw data sent by Ameba and allow you to interact with the data.
 The recommended application is nRF connect, and is available at the links below:
 
 - Android: https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp
 
 - iOS: https://apps.apple.com/us/app/nrf-connect/id1054362403
-  
+
 LightBlue is an alternative application that can also be used, but has less features:
 
 - Android: https://play.google.com/store/apps/details?id=com.punchthrough.lightblueexplorer
 
 - iOS: https://apps.apple.com/us/app/lightblue/id557428110
 
-Open the example, ``“Files” → “Examples” → “AmebaBLE” → “BLEBatteryService”``
+Open the example, ``"Files" → "Examples" → "AmebaBLE" → "BLEBatteryService"``
 
 |image01|
 
-Upload the code and press the reset button on Ameba once the upload is finished. 
-On your mobile phone, open the Bluetooth app and scan for the Bluetooth signal broadcast by Ameba, it should appear as a device named “AMEBA_BLE_DEV”.
+Upload the code and press the reset button on Ameba once the upload is finished.
+On your mobile phone, open the Bluetooth app and scan for the Bluetooth signal broadcast by Ameba, it should appear as a device named "AMEBA_BLE_DEV".
 
 |image02|
 

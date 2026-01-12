@@ -1,10 +1,6 @@
 BLE - HID Mouse
 ===============
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -18,26 +14,26 @@ Example
 Introduction
 ~~~~~~~~~~~~
 
-In this example, the RTL8722 board emulates a HID mouse connected using BLE. 
+In this example, the RTL8722 board emulates a HID mouse connected using BLE.
 
 Procedure
 ~~~~~~~~~
 
-Open the example, ``“Files” → “Examples” → “AmebaBLE” → “BLEHIDMouse”``.
+Open the example, ``"Files" → "Examples" → "AmebaBLE" → "BLEHIDMouse"``.
 
 |image01|
 
-Upload the code and press the reset button once the upload is finished. 
+Upload the code and press the reset button once the upload is finished.
 
-Immediately after reset, the board will begin BLE advertising as “AMEBA_BLE_HID”. On your host device, go to the Bluetooth settings menu, scan, and connect to the board.
+Immediately after reset, the board will begin BLE advertising as "AMEBA_BLE_HID". On your host device, go to the Bluetooth settings menu, scan, and connect to the board.
 
-You should ensure that the connection process is completed before proceeding. 
+You should ensure that the connection process is completed before proceeding.
 
-On Windows, ensure that any driver installation is finished, and the board shows up in the Bluetooth menu under the “Mouse, keyboard & pen” category. 
+On Windows, ensure that any driver installation is finished, and the board shows up in the Bluetooth menu under the "Mouse, keyboard & pen" category.
 
 |image02|
 
-On Android, ensure that “Input device” is enabled for the board.
+On Android, ensure that "Input device" is enabled for the board.
 
 |image03|
 
@@ -48,7 +44,7 @@ You should see the mouse cursor move around four points in a square, performing 
 Code Reference
 --------------
 
-How the mouse input is interpreted is dependent on the host system. 
+How the mouse input is interpreted is dependent on the host system.
 
 Some systems, such as mobile operating systems, may not support all mouse button input functions.
 

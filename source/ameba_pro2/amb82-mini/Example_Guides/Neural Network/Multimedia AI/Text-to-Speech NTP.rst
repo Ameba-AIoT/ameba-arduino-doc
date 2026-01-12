@@ -1,18 +1,14 @@
 Text-to-Speech NTP
 ==================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
 - MicroSD card
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
-Example 
+Example
 -------
 
 In this example, we will be using Ameba Pro2 development board to demonstrate audio time and date report using NTP Client and Google Translate API.

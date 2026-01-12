@@ -1,10 +1,6 @@
 Class AmebaServo
 ================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **AmebaServo Class**
 --------------------
 

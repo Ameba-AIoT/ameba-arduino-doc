@@ -1,10 +1,6 @@
 Class HttpClient
 ================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **HttpClient Class**
 --------------------
 
@@ -76,10 +72,10 @@ A class to use HttpClient
 | HttpClient::endOfHeadersReached | The function reads the next       |
 |                                 | character of the response headers |
 +---------------------------------+-----------------------------------+
-| HttpClient::endOfStream         | Check whether the end of the body | 
+| HttpClient::endOfStream         | Check whether the end of the body |
 |                                 | has been reached                  |
 +---------------------------------+-----------------------------------+
-| HttpClient::completed           | Check whether the end of the body | 
+| HttpClient::completed           | Check whether the end of the body |
 |                                 | has been reached                  |
 +---------------------------------+-----------------------------------+
 | HttpClient::contentLength       | This function returns the length  |
@@ -99,7 +95,7 @@ A class to use HttpClient
 **Description**
 ~~~~~~~~~~~~~~~
 
-Constructs a HttpClient object. The Marco “PROXY_ENABLED” is defined and currently disabled as introduces a dependency on DNS.h in Ethernet.
+Constructs a HttpClient object. The Marco "PROXY_ENABLED" is defined and currently disabled as introduces a dependency on DNS.h in Ethernet.
 
 **Syntax**
 ~~~~~~~~~~
@@ -117,7 +113,7 @@ Constructs a HttpClient object. The Marco “PROXY_ENABLED” is defined and cur
 
 ``aClient``: The object of class WiFiClient.
 
-``aProxy``: The proxy name. (The default proxy name is set to “NULL”)
+``aProxy``: The proxy name. (The default proxy name is set to "NULL")
 
 ``aProxyPort``: The proxy port. (Default value: 0)
 
@@ -131,7 +127,7 @@ NA
 
 Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Http/examples/SimpleHttpExample/SimpleHttpExample.ino>`_
 
-.. note :: “HttpClient.h” must be included must be included to use the class function.
+.. note :: "HttpClient.h" must be included must be included to use the class function.
 
 ----------------------------------------------------
 
@@ -141,7 +137,7 @@ Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Ard
 **Description**
 ~~~~~~~~~~~~~~~
 
-Disconnect from the server and reset the status.  
+Disconnect from the server and reset the status.
 
 **Syntax**
 ~~~~~~~~~~
@@ -165,7 +161,7 @@ NA
 
 NA
 
-.. note :: “HttpClient.h” must be included to use the class function.
+.. note :: "HttpClient.h" must be included to use the class function.
 
 -----------------------------------------------------------------
 
@@ -199,7 +195,7 @@ NA
 
 Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Http/examples/SimpleHttpExample/SimpleHttpExample.ino>`_
 
-.. note :: “HttpClient.h” must be included to use the class function.
+.. note :: "HttpClient.h" must be included to use the class function.
 
 ------------------------------------------------------------------
 
@@ -218,7 +214,7 @@ Connect to the server and start to send the request.
 
   int startRequest(const char* aServerName,uint16_t    aServerPort,const char* aURLPath, const char* aHttpMethod, const char* aUserAgent);
 
-.. code:: c++ 
+.. code:: c++
 
   int startRequest(const IPAddress& aServerAddress, const char* aServerName, uint16_t    aServerPort, const char* aURLPath, const char* aHttpMethod, const char* aUserAgent);
 
@@ -227,16 +223,15 @@ Connect to the server and start to send the request.
 
 ``aServerAddress``: IP address of the server to connect to.
 
-``aServerName``: Name of the server being connected to. If NULL, the “Host” header line won't be sent.
+``aServerName``: Name of the server being connected to. If NULL, the "Host" header line won't be sent.
 
 ``aServerPort``: Port to connect to on the server.
 
 ``aURLPath``: Url to request.
 
-``aHttpMethod``: Type of HTTP request to make, e.g. “GET”, “POST”, etc.
+``aHttpMethod``: Type of HTTP request to make, e.g. "GET", "POST", etc.
 
 ``aUserAgent``: User-Agent string to send. If NULL the default user-agent kUserAgent will be sent.
-
 
 **Returns**
 ~~~~~~~~~~~
@@ -248,7 +243,7 @@ This function returns 0 if successful, else returns error.
 
 Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Http/examples/SimpleHttpExample/SimpleHttpExample.ino>`_
 
-.. note :: “HttpClient.h” must be included to use the class function.
+.. note :: "HttpClient.h" must be included to use the class function.
 
 ---------------------------------------------------------
 
@@ -261,16 +256,16 @@ Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Ard
 The function sends an additional header line.
 The function can only be called in between startRequest and finishRequest functions.
 
-The other 2 functions, 
+The other 2 functions,
 void sendHeader(const char* aHeaderName, const char* aHeaderValue);
 void sendHeader(const char* aHeaderName, const int aHeaderValue);
-are alternate form from the void HttpClient::sendHeader(const char* aHeader); which takes the header name and content as separate strings. The call will add the “:” in the log to separate different header in the case of multiple headers.
+are alternate form from the void HttpClient::sendHeader(const char* aHeader); which takes the header name and content as separate strings. The call will add the ":" in the log to separate different header in the case of multiple headers.
 
 **Syntax**
 ~~~~~~~~~~
 
 .. code:: c++
-  
+
   void sendHeader(const char* aHeader);
 
 .. code:: c++
@@ -284,7 +279,7 @@ are alternate form from the void HttpClient::sendHeader(const char* aHeader); wh
 **Parameters**
 ~~~~~~~~~~~~~~
 
-``aHeader`` : Header line to send, in its entirety (but without the trailing CRLF. E.g. “Authorization: Basic YQDDCAIGES”.
+``aHeader`` : Header line to send, in its entirety (but without the trailing CRLF. E.g. "Authorization: Basic YQDDCAIGES".
 
 ``aHeaderName`` : Type of header being sent.
 
@@ -300,7 +295,7 @@ NA
 
 Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Http/examples/SimpleHttpExample/SimpleHttpExample.ino>`_
 
-.. note :: “HttpClient.h” must be included to use the class function.
+.. note :: "HttpClient.h" must be included to use the class function.
 
 -----------------------------
 
@@ -336,7 +331,7 @@ NA
 
 Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Http/examples/SimpleHttpExample/SimpleHttpExample.ino>`_
 
-.. note :: “HttpClient.h” must be included to use the class function.
+.. note :: "HttpClient.h" must be included to use the class function.
 
 ------------------------------------
 
@@ -370,7 +365,7 @@ NA
 
 NA
 
-.. note :: “HttpClient.h” must be included to use the class function.
+.. note :: "HttpClient.h" must be included to use the class function.
 
 ------------------------------------
 
@@ -380,7 +375,7 @@ NA
 **Description**
 ~~~~~~~~~~~~~~~
 
-Connect to the server and start to send a “GET” request. If the input parameter contains “aServerAddress”, DNS lookup will not be performed and just purely connect to the given IP address.
+Connect to the server and start to send a "GET" request. If the input parameter contains "aServerAddress", DNS lookup will not be performed and just purely connect to the given IP address.
 
 **Syntax**
 ~~~~~~~~~~
@@ -389,7 +384,7 @@ Connect to the server and start to send a “GET” request. If the input parame
 
   int get(const char* aServerName, uint16_t aServerPort, const char* aURLPath, const char* aUserAgent = NULL);
 
-.. code:: c++  
+.. code:: c++
 
   int get(const char* aServerName, const char* aURLPath, const char* aUserAgent = NULL);
 
@@ -404,13 +399,13 @@ Connect to the server and start to send a “GET” request. If the input parame
 **Parameters**
 ~~~~~~~~~~~~~~
 
-``aServerName``: The name of the server being connected to. If aServerName is “NULL”, the “Host” header line will not be sent.
+``aServerName``: The name of the server being connected to. If aServerName is "NULL", the "Host" header line will not be sent.
 
 ``aServerPort``: The port on which server connected.
 
 ``aURLPath``: The URL to request.
 
-``aUserAgent``: User-Agent string to be sent. If aUserAgent indicated as “NULL”, the default user-agent kUserAgent will be sent.
+``aUserAgent``: User-Agent string to be sent. If aUserAgent indicated as "NULL", the default user-agent kUserAgent will be sent.
 
 ``aServerAddress``: IP address of the server to connect to.
 
@@ -424,7 +419,7 @@ This function returns 0 if successful, else returns an error.
 
 Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Http/examples/SimpleHttpExample/SimpleHttpExample.ino>`_
 
-.. note :: “HttpClient.h” must be included to use the class function.
+.. note :: "HttpClient.h" must be included to use the class function.
 
 ----------------------------------------------------------------
 
@@ -434,7 +429,7 @@ Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Ard
 **Description**
 ~~~~~~~~~~~~~~~
 
-Connect to the server and start to send a “POST” request. If the input parameter has “aServerAddress”, DNS lookup will not be performed and just purely connect to the given IP address.
+Connect to the server and start to send a "POST" request. If the input parameter has "aServerAddress", DNS lookup will not be performed and just purely connect to the given IP address.
 
 **Syntax**
 ~~~~~~~~~~
@@ -443,7 +438,7 @@ Connect to the server and start to send a “POST” request. If the input param
 
   int post(const char* aServerName, uint16_t aServerPort, const char* aURLPath, const char* aUserAgent = NULL);
 
-.. code:: c++  
+.. code:: c++
 
   int post(const char* aServerName, const char* aURLPath, const char* aUserAgent = NULL);
 
@@ -458,13 +453,13 @@ Connect to the server and start to send a “POST” request. If the input param
 **Parameters**
 ~~~~~~~~~~~~~~
 
-``aServerName``: Name of the server being connected to. If NULL, the “Host” header line won't be sent.
+``aServerName``: Name of the server being connected to. If NULL, the "Host" header line won't be sent.
 
 ``aServerPort``: Port to connect to on the server.
 
 ``aURLPath``: Url to request.
 
-``aUserAgent``: User-Agent string to be sent. If aUserAgent indicated as “NULL”, the default user-agent kUserAgent will be sent. Default value: NULL.
+``aUserAgent``: User-Agent string to be sent. If aUserAgent indicated as "NULL", the default user-agent kUserAgent will be sent. Default value: NULL.
 
 ``aServerAddress``: IP address of the server to connect to.
 
@@ -478,7 +473,7 @@ This function returns 0 if successful, else returns error.
 
 Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Http/examples/SimpleHttpExample/SimpleHttpExample.ino>`_
 
-.. note :: “HttpClient.h” must be included to use the class function.
+.. note :: "HttpClient.h" must be included to use the class function.
 
 ----------------------------------------------------------------
 
@@ -488,7 +483,7 @@ Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Ard
 **Description**
 ~~~~~~~~~~~~~~~
 
-Connect to the server and start to send a PUT request. If the input parameter has “aServerAddress”, DNS lookup will not be performed and just connect to the given IP address.
+Connect to the server and start to send a PUT request. If the input parameter has "aServerAddress", DNS lookup will not be performed and just connect to the given IP address.
 
 **Syntax**
 ~~~~~~~~~~
@@ -497,7 +492,7 @@ Connect to the server and start to send a PUT request. If the input parameter ha
 
   int put(const char* aServerName, uint16_t aServerPort,const char* aURLPath, const char* aUserAgent = NULL);
 
-.. code:: c++  
+.. code:: c++
 
   int put(const char* aServerName, const char* aURLPath, const char* aUserAgent = NULL);
 
@@ -512,13 +507,13 @@ Connect to the server and start to send a PUT request. If the input parameter ha
 **Parameters**
 ~~~~~~~~~~~~~~
 
-``aServerName``: Name of the server being connected to. If NULL, the “Host” header line won't be sent.
+``aServerName``: Name of the server being connected to. If NULL, the "Host" header line won't be sent.
 
 ``aServerPort``: Port to connect to on the server.
 
 ``aURLPath``: Url to request.
 
-``aUserAgent``: User-Agent string to be sent. If aUserAgent indicated as “NULL”, the default user-agent kUserAgent will be sent. Default value: NULL.
+``aUserAgent``: User-Agent string to be sent. If aUserAgent indicated as "NULL", the default user-agent kUserAgent will be sent. Default value: NULL.
 
 ``aServerAddress``: IP address of the server to connect to.
 
@@ -532,7 +527,7 @@ This function returns 0 if successful, else returns error.
 
 Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Http/examples/SimpleHttpExample/SimpleHttpExample.ino>`_
 
-.. note :: “HttpClient.h” must be included to use the class function.
+.. note :: "HttpClient.h" must be included to use the class function.
 
 ----------------------------------------------------------------
 
@@ -559,14 +554,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns "true" if the end of response header has reached and we are now processing the response body, else returns "false". 
+This function returns "true" if the end of response header has reached and we are now processing the response body, else returns "false".
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Http/examples/SimpleHttpExample/SimpleHttpExample.ino>`_
 
-.. note :: “HttpClient.h” must be included to use the class function.
+.. note :: "HttpClient.h" must be included to use the class function.
 
 ------------------------
 
@@ -600,7 +595,7 @@ NA
 
 Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Http/examples/SimpleHttpExample/SimpleHttpExample.ino>`_
 
-.. note :: “HttpClient.h” must be included to use the class function.
+.. note :: "HttpClient.h" must be included to use the class function.
 
 ---------------------------------------------------------------
 
@@ -610,7 +605,7 @@ Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Ard
 **Description**
 ~~~~~~~~~~~~~~~
 
-Get the HTTP status code contained in the response. For example, “200” for successful requests, “404” for file not found, etc.
+Get the HTTP status code contained in the response. For example, "200" for successful requests, "404" for file not found, etc.
 
 **Syntax**
 ~~~~~~~~~~
@@ -627,7 +622,7 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns 0 indicates “HTTP_SUCCESS”, else returns other negative error codes.
+This function returns 0 indicates "HTTP_SUCCESS", else returns other negative error codes.
 
   1. HTTP_ERROR_CONNECTION_FAILED
   2. HTTP_ERROR_API
@@ -639,7 +634,7 @@ This function returns 0 indicates “HTTP_SUCCESS”, else returns other negativ
 
 Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Http/examples/SimpleHttpExample/SimpleHttpExample.ino>`_
 
-.. note :: “HttpClient.h” must be included to use the class function.
+.. note :: "HttpClient.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -666,7 +661,7 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns 0 indicates “HTTP_SUCCESS”, else returns other negative error codes.
+This function returns 0 indicates "HTTP_SUCCESS", else returns other negative error codes.
 
   1. HTTP_ERROR_CONNECTION_FAILED
   2. HTTP_ERROR_API
@@ -678,7 +673,7 @@ This function returns 0 indicates “HTTP_SUCCESS”, else returns other negativ
 
 Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Http/examples/SimpleHttpExample/SimpleHttpExample.ino>`_
 
-.. note :: “HttpClient.h” must be included to use the class function.
+.. note :: "HttpClient.h" must be included to use the class function.
 
 -----------------------------------------------------
 
@@ -705,14 +700,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns true if the end of the body has been reached, else false. 
+This function returns true if the end of the body has been reached, else false.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Http/examples/SimpleHttpExample/SimpleHttpExample.ino>`_
 
-.. note :: “HttpClient.h” must be included to use the class function.
+.. note :: "HttpClient.h" must be included to use the class function.
 
 ------------------------------------
 
@@ -722,7 +717,7 @@ Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Ard
 **Description**
 ~~~~~~~~~~~~~~~
 
-Returns the incoming byte recving from the server that the client is connected to.  
+Returns the incoming byte recving from the server that the client is connected to.
 
 **Syntax**
 ~~~~~~~~~~
@@ -752,7 +747,7 @@ Returns the incoming byte from the server that the client is connected to.
 
 Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Http/examples/SimpleHttpExample/SimpleHttpExample.ino>`_
 
-.. note :: “HttpClient.h” must be included to use the class function.
+.. note :: "HttpClient.h" must be included to use the class function.
 
 -------------------------------------------------
 
@@ -786,7 +781,7 @@ This function returns the next character of the response headers.
 
 Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Http/examples/SimpleHttpExample/SimpleHttpExample.ino>`_
 
-.. note :: “HttpClient.h” must be included to use the class function.
+.. note :: "HttpClient.h" must be included to use the class function.
 
 -------------------------------------------------
 
@@ -796,7 +791,7 @@ Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Ard
 **Description**
 ~~~~~~~~~~~~~~~
 
-Finish sending the HTTP request. 
+Finish sending the HTTP request.
 
 **Syntax**
 ~~~~~~~~~~
@@ -813,14 +808,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns the blank line to signify the end of the request  
+This function returns the blank line to signify the end of the request
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “HttpClient.h” must be included to use the class function.
+.. note :: "HttpClient.h" must be included to use the class function.
 
 --------------------------------
 
@@ -852,7 +847,7 @@ This function returns true if we are at the end of the header, else false.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-.. note :: “HttpClient.h” must be included to use the class function.
+.. note :: "HttpClient.h" must be included to use the class function.
 
 ----------------------------------
 
@@ -886,7 +881,7 @@ This function returns true if the end of the body has been reached, else false.
 
 Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Http/examples/SimpleHttpExample/SimpleHttpExample.ino>`_
 
-.. note :: “HttpClient.h” must be included to use the class function.
+.. note :: "HttpClient.h" must be included to use the class function.
 
 ------------------------------------
 
@@ -920,7 +915,7 @@ This function returns true if the end of the body has been reached, else false.
 
 Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Http/examples/SimpleHttpExample/SimpleHttpExample.ino>`_
 
-.. note :: “HttpClient.h” must be included to use the class function.
+.. note :: "HttpClient.h" must be included to use the class function.
 
 ------------------------------------
 
@@ -954,7 +949,7 @@ This function returns the length of the body (in bytes) or kNoContentLengthHeade
 
 Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Http/examples/SimpleHttpExample/SimpleHttpExample.ino>`_
 
-.. note :: “HttpClient.h” must be included to use the class function.
+.. note :: "HttpClient.h" must be included to use the class function.
 
 ------------------------------------
 
@@ -988,7 +983,7 @@ This function returns 1 and number of bytes available for reading if there are a
 
 Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Http/examples/SimpleHttpExample/SimpleHttpExample.ino>`_
 
-.. note :: “HttpClient.h” must be included to use the class function.
+.. note :: "HttpClient.h" must be included to use the class function.
 
 ------------------------------------
 
@@ -1015,11 +1010,11 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns “1” if connected, returns “0” if not connected.
+This function returns "1" if connected, returns "0" if not connected.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 Example: `SimpleHttpExample <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Http/examples/SimpleHttpExample/SimpleHttpExample.ino>`_
 
-.. note :: “HttpClient.h” must be included to use the class function.
+.. note :: "HttpClient.h" must be included to use the class function.

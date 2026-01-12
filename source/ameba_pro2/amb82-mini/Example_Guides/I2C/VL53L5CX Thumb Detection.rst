@@ -1,16 +1,12 @@
 VL53L5CX Thumb Detection
 =========================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
-- `SparkFun Qwiic ToF Imager - VL53L5CX <https://www.sparkfun.com/sparkfun-qwiic-tof-imager-vl53l5cx.html>`_ x 1
+- `SparkFun Qwiic ToF Imager - VL53L5CX <https://www.sparkfun.com/sparkfun-qwiic-tof-imager-vl53l5cx.html>`__ x 1
 
 Example
 -------
@@ -33,18 +29,17 @@ Open the example in "File" -> "Examples" -> "AmebaWire" -> "VL53L5CX" -> "ThumbD
 
 Compile and run the example. In the Serial Monitor, you should be able to see the logs.
 
-When no thumb direction is detected, the log will display “Unclear thumb direction”.
+When no thumb direction is detected, the log will display "Unclear thumb direction".
 
 |image03|
 
-If a thumbs-up is detected, it will display “Thumbs up”.
+If a thumbs-up is detected, it will display "Thumbs up".
 
 |image04|
 
-and if a thumb-down is detected, it will display “Thumbs down”.
+and if a thumb-down is detected, it will display "Thumbs down".
 
 |image05|
-
 
 .. |image01| image:: ../../../../_static/amebapro2/Example_Guides/I2C/VL53L5CX_Thumb_Detection/image01.png
    :width: 856 px

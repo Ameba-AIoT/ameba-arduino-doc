@@ -1,10 +1,6 @@
 TensorFlow Lite - Person Detection
 ==================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -17,10 +13,10 @@ Materials
 Example
 -------
 
-Wiring Diagram: 
+Wiring Diagram:
 
 Connect the camera and LEDs to the Ameba board according to the diagram below.
-  
+
 |image02|
 
 1. Download Ameba_ArduCAM library at https://github.com/Ameba-AIoT/ameba-arduino-d/blob/master/Arduino_zip_libraries/Ameba_ArduCAM.zip. Follow the instructions at https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries to install it.
@@ -32,7 +28,7 @@ Connect the camera and LEDs to the Ameba board according to the diagram below.
    //#define LOAD_SD_LIBRARY // Default SD Card library
    //#define LOAD_SDFAT_LIBRARY // Use SdFat library instead, so SD Card SPI can be bit bashed
 
-Open the example, "Files" → "Examples" → “AmebaTensorFlowLite” → “person_detection”.
+Open the example, "Files" → "Examples" → "AmebaTensorFlowLite" → "person_detection".
 
 |image08|
 
@@ -40,14 +36,14 @@ Enable TensorFlow Lite option. It is set to disable by default.
 
 |image10|
 
-| User can define the LED pins by using any GPIO pins on the boards.  
+| User can define the LED pins by using any GPIO pins on the boards.
 | Upload the code and press the reset button on Ameba once the upload is finished.
 
-| Once it is running, you should see the blue LED flashing once every few seconds, indicating that it has finished processing an image. 
+| Once it is running, you should see the blue LED flashing once every few seconds, indicating that it has finished processing an image.
 | The red LED will light up if it determines that there is no person in the previous image captured, and the green LED will light up if it determines that there is a person.
 
 | The inference results are also output to the Arduino serial monitor, which appear as follows:
-  
+
 |image09|
 
 Code Reference

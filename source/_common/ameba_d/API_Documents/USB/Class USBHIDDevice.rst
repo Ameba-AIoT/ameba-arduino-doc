@@ -1,10 +1,6 @@
 Class USBHIDDevice
 ==================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **USBHIDDevice Class**
 ----------------------
 
@@ -95,11 +91,11 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `USBHIDGamepad <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/USBHIDGamepad/USBHIDGamepad.ino>`_ 
+Example: `USBHIDGamepad <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/USBHIDGamepad/USBHIDGamepad.ino>`__
 
 .. important :: Default HID report descriptor is configured for mouse + keyboard + consumer control.
 
-.. note :: “USBHIDDevice.h” must be included to use the class function.
+.. note :: "USBHIDDevice.h" must be included to use the class function.
 
 -------------------------------
 
@@ -135,7 +131,7 @@ Example: `USBHIDGamepad <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino
 
 .. important :: The USB endpoint maximum packet size should correspond to the size of the largest HID report defined in the HID report descriptor.
 
-.. note :: “USBHIDDevice.h” must be included to use the class function.
+.. note :: "USBHIDDevice.h" must be included to use the class function.
 
 ------------------------------------
 
@@ -171,7 +167,7 @@ NA
 
 .. important :: Default polling interval is set at the minimum of 1 millisecond.
 
-.. note :: “USBHIDDevice.h” must be included to use the class function.
+.. note :: "USBHIDDevice.h" must be included to use the class function.
 
 --------------------------
 
@@ -207,7 +203,7 @@ NA
 
 .. important :: The VID should be configured before USBHIDDevice::begin() function is called.
 
-.. note :: “USBHIDDevice.h” must be included to use the class function.
+.. note :: "USBHIDDevice.h" must be included to use the class function.
 
 ------------------------
 
@@ -241,9 +237,9 @@ NA
 
 NA
 
-.. important :: The PID should be configured before USBHIDDevice::begin() function is called. 
+.. important :: The PID should be configured before USBHIDDevice::begin() function is called.
 
-.. note :: “USBHIDDevice.h” must be included to use the class function.
+.. note :: "USBHIDDevice.h" must be included to use the class function.
 
 ----------------------------------------
 
@@ -265,7 +261,7 @@ Set USB manufacturer string.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-``manufacturer``: Character string containing manufacturer name. Default “Realtek”.
+``manufacturer``: Character string containing manufacturer name. Default "Realtek".
 
 **Returns**
 ~~~~~~~~~~~
@@ -279,7 +275,7 @@ NA
 
 .. important :: The manufacturer string should be configured before USBHIDDevice::begin() function is called
 
-.. note :: “USBHIDDevice.h” must be included to use the class function.
+.. note :: "USBHIDDevice.h" must be included to use the class function.
 
 -----------------------------------
 
@@ -301,7 +297,7 @@ Set USB product model string.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-``model``: Character string containing model name. Default “Realtek USB HID”.
+``model``: Character string containing model name. Default "Realtek USB HID".
 
 **Returns**
 ~~~~~~~~~~~
@@ -313,9 +309,9 @@ NA
 
 NA
 
-.. important :: The model string should be configured before USBHIDDevice::begin() function is called. 
+.. important :: The model string should be configured before USBHIDDevice::begin() function is called.
 
-.. note :: “USBHIDDevice.h” must be included to use the class function.
+.. note :: "USBHIDDevice.h" must be included to use the class function.
 
 ----------------------------------
 
@@ -337,7 +333,7 @@ Set USB product serial number string.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-``serial``: Character string containing serial number. Default “0123456789”.
+``serial``: Character string containing serial number. Default "0123456789".
 
 **Returns**
 ~~~~~~~~~~~
@@ -349,9 +345,9 @@ NA
 
 NA
 
-.. important :: The serial string should be configured before USBHIDDevice::begin() function is called. 
+.. important :: The serial string should be configured before USBHIDDevice::begin() function is called.
 
-.. note :: “USBHIDDevice.h” must be included to use the class function.
+.. note :: "USBHIDDevice.h" must be included to use the class function.
 
 ----------------------------
 
@@ -385,7 +381,7 @@ This function returns TRUE as 1 if the USB port is connected to a host, FALSE as
 
 Example: `USBHIDGamepad <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/USBHIDGamepad/USBHIDGamepad.ino>`_
 
-.. note :: “USBHIDDevice.h” must be included to use the class function.
+.. note :: "USBHIDDevice.h" must be included to use the class function.
 
 ------------------------
 
@@ -419,7 +415,7 @@ NA
 
 Example: `USBHIDGamepad <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/USBHIDGamepad/USBHIDGamepad.ino>`_
 
-.. note :: “USBHIDDevice.h” must be included to use the class function.
+.. note :: "USBHIDDevice.h" must be included to use the class function.
 
 ---------------------
 
@@ -453,7 +449,7 @@ NA
 
 NA
 
-.. note :: “USBHIDDevice.h” must be included to use the class function.
+.. note :: "USBHIDDevice.h" must be included to use the class function.
 
 -------------------------------
 
@@ -491,6 +487,6 @@ NA
 
 NA
 
-.. important :: A reportID value of 0 is not a valid report ID and will send an input report without the report ID field. 
+.. important :: A reportID value of 0 is not a valid report ID and will send an input report without the report ID field.
 
-.. note :: “USBHIDDevice.h” must be included to use the class function.
+.. note :: "USBHIDDevice.h" must be included to use the class function.

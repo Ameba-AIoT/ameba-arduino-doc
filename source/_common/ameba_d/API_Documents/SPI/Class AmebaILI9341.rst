@@ -1,10 +1,6 @@
 Class AmebaILI9341
 ==================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **AmebaILI9341 Class**
 ----------------------
 
@@ -419,7 +415,7 @@ NA
 
 Example: `ILI9341_TFT_LCD_PM2.5 <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SPI/examples/ILI9341_TFT_LCD_PM2.5/ILI9341_TFT_LCD_PM2.5.ino>`_
 
-.. tip :: Refer to "AmebaILI9341.h" for available colors. 
+.. tip :: Refer to "AmebaILI9341.h" for available colors.
 
 .. note :: "AmebaILI9341.h" must be included to use the class function.
 
@@ -480,7 +476,7 @@ Draw a character in the frame buffer but does not refresh.
 
     void AmebaILI9341::drawChar(unsigned char c);
 
-.. code-block:: c++   
+.. code-block:: c++
 
     void AmebaILI9341::drawChar(int16_t x, int16_t y, unsigned char c, uint16_t _fontcolor, uint16_t _background, uint8_t _fontsize)
 
@@ -512,7 +508,7 @@ NA
 .. important :: This method only stores the string of character in a buffer frame. The Print/Println method have to be called in order to display a string of character on the serial monitor.
 
 .. tip :: Refer to "AmebaILI9341.h" for available colors.
-     
+
 .. note :: "AmebaILI9341.h" must be included to use the class function.
 
 -------------------------------------------------
@@ -533,7 +529,7 @@ Draw a line and display on the screen.
     void drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color);
 
 .. code-block:: c++
-    
+
     void drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1);
 
 **Parameters**
@@ -697,7 +693,7 @@ NA
 
 NA
 
-.. important :: Please convert the original image to Bitmap and save as “AmebaLogo.h”. Last input parameter name should be same as the image name used in “AmebaLogo.h”.
+.. important :: Please convert the original image to Bitmap and save as "AmebaLogo.h". Last input parameter name should be same as the image name used in "AmebaLogo.h".
 
 .. note :: "AmebaILI9341.h" must be included to use the class function.
 

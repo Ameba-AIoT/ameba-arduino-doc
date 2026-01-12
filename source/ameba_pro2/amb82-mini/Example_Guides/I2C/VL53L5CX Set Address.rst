@@ -1,16 +1,12 @@
 VL53L5CX Set Address
 ======================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
-- `SparkFun Qwiic ToF Imager - VL53L5CX <https://www.sparkfun.com/sparkfun-qwiic-tof-imager-vl53l5cx.html>`_ x 1
+- `SparkFun Qwiic ToF Imager - VL53L5CX <https://www.sparkfun.com/sparkfun-qwiic-tof-imager-vl53l5cx.html>`__ x 1
 
 Example
 -------
@@ -31,7 +27,7 @@ Open the example in "File" -> "Examples" -> "AmebaWire" -> "VL53L5CX" -> "SetAdd
 
 |image02|
 
-Compile and run the example. 
+Compile and run the example.
 
 Press any key and the address will be changed to the new custom address 0x44.
 

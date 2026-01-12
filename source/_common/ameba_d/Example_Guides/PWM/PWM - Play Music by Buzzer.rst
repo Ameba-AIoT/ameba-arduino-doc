@@ -1,10 +1,6 @@
 PWM - Play Music by Buzzer
 ==========================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -22,14 +18,14 @@ A sound is composed of volume, tone and timbre. Volume is determined by the ampl
 In this example, we use PWM to control the buzzer to emit sound with desired tone. As PWM outputs square waves, if we wish to emit tone C4 (frequency=262Hz), we must use PWM to output square waves with wavelength 1/262 = 3.8ms:
 
 |image01|
-  
+
 We use PWM to output sound waves with different frequency, so as to play music through the buzzer.
 Connect the buzzer to the PWM output pin shown in the following diagrams.
 
 .. only:: amb21
 
 **AMB21 / AMB22** Wiring Diagram:
-  
+
 |image02|
 
 .. only:: end amb21
@@ -82,7 +78,7 @@ Connect the buzzer to the PWM output pin shown in the following diagrams.
 
 .. only:: end amb26
 
-Open the example code in ``“Examples” → “AmebaAnalog” → “TonePlayMelody”``
+Open the example code in ``"Examples" → "AmebaAnalog" → "TonePlayMelody"``
 Compile and upload to Ameba, press the reset button. Then you can hear the buzzer playing music.
 
 Code Reference
@@ -119,4 +115,4 @@ In the sample code, we initiate a melody array, which stores the tones to make. 
 .. |image08| image:: ../../../../_static/amebad/Example_Guides/PWM/PWM_Play_Music_by_buzzer/image08.png
    :width: 874
    :height: 721
-   
+

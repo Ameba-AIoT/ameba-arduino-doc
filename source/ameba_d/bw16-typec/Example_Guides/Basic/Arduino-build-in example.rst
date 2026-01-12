@@ -1,10 +1,6 @@
 Arduino-build-in example
 ========================
 
-.. contents::
-  :local:
-  :depth: 2
-
 bw16 Type C Supported ARDUINO built-in example table
 ----------------------------------------------------
 
@@ -35,7 +31,7 @@ There are many built-in examples in Arduino. All examples that listed are compat
 |               +---------------------------+-----------------------------------------------+----------------------------------------------------+
 |               | DigitalReadSerial         |                                               |                                                    |
 |               +---------------------------+-----------------------------------------------+----------------------------------------------------+
-|               | Fade                      | | For “analogWrite()”, use PWM capable pin.   | | PWM capable Pin 3, 7, 8, 11 and 12.              |
+|               | Fade                      | | For "analogWrite()", use PWM capable pin.   | | PWM capable Pin 3, 7, 8, 11 and 12.              |
 |               +---------------------------+-----------------------------------------------+----------------------------------------------------+
 |               | ReadAnalogVoltage         | | ADC pin used, up to 3.3V                    |                                                    |
 |               |                           | | and can be calibrated by using              |                                                    |
@@ -81,7 +77,7 @@ There are many built-in examples in Arduino. All examples that listed are compat
 |               +---------------------------+-----------------------------------------------+                                                    |
 |               | Graph                     | | Connect potentiometer to 3.3V               |                                                    |
 |               |                           | | ADC pin used, up to 3.3V                    |                                                    |
-|               |                           | | and can be calibrated by using              |                                                    |                                                   
+|               |                           | | and can be calibrated by using              |                                                    |
 |               |                           | | analogSet(float gain, float offset)         |                                                    |
 |               +---------------------------+-----------------------------------------------+                                                    |
 |               | Midi                      | | Use Serial1, MIDI jack pin 5                |                                                    |
@@ -115,7 +111,7 @@ There are many built-in examples in Arduino. All examples that listed are compat
 |               |                           | | and can be calibrated by using              | | LED_B and LED_G are PWM capable LED.             |
 |               |                           | | analogSet(float gain, float offset)         |                                                    |
 |               |                           | | For analogWrite(),                          |                                                    |
-|               |                           | | use PWM capable pin                         |                                                    |                                                    
+|               |                           | | use PWM capable pin                         |                                                    |
 |               |                           | | Replace any Pin that sets                   |                                                    |
 |               |                           | | beyond Pin 0 to 12.                         |                                                    |
 +---------------+---------------------------+-----------------------------------------------+----------------------------------------------------+

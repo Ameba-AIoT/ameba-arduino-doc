@@ -1,10 +1,6 @@
 MQTT - Upload PM2.5 Data to LASS System
 =======================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -17,13 +13,13 @@ Example
 **Introduction**
 ~~~~~~~~~~~~~~~~
 
-The LASS stands for “Location Aware Sensor System”. It is an open project and was started only for the interest of public welfare. 
+The LASS stands for "Location Aware Sensor System". It is an open project and was started only for the interest of public welfare.
 
 Practically, LASS is based on MQTT protocol to collect all kinds of uploaded data, and for those who need these data can subscribe top as well.
 
 In this example, we use applications mentioned at our website, including:
 
-- MQTT: a MQTT-Broker to connect to LASS. The Client is “FT1_0XXXX”, the XXXX are the four last digits of Ameba's Wi-Fi MAC, and the outTopic is “LASS/Test/Pm25Ameba/clientID“, where clientID is the actual Ameba’s MQTT client ID.
+- MQTT: a MQTT-Broker to connect to LASS. The Client is "FT1_0XXXX", the XXXX are the four last digits of Ameba's Wi-Fi MAC, and the outTopic is "LASS/Test/Pm25Ameba/clientID", where clientID is the actual Ameba’s MQTT client ID.
 
 - NTP: uploaded data must have time notation
 
@@ -32,7 +28,7 @@ In this example, we use applications mentioned at our website, including:
 **Procedure**
 ~~~~~~~~~~~~~
 
-Open the example. ``“File” → “Examples” → “AmebaMQTTClient” → “lass_basic”``
+Open the example. ``"File" → "Examples" → "AmebaMQTTClient" → "lass_basic"``
 
 LASS requires GPS information. There is no GPS sensor included in this example, so you must manually provide GPS information. Use Google Map to find the coordinates of where you plan to place your Ameba. You can see in this example that the latitude is 24.7814033, and the longitude is 120.9933676
 
@@ -44,7 +40,7 @@ Then connect sensors according to UART-PlanTower PMS3003 wiring example.
 .. only:: amb21
 
 **AMB21 / AMB22** Wiring Diagram:
-  
+
 |image02|
 
 .. only:: end amb21
@@ -102,9 +98,9 @@ Open Serial Monitor to see the uploaded data, including client id, topic, and cu
 
 |image09|
 
-We can also use “MQTT Explorer” to verify if the data is properly uploaded.
+We can also use "MQTT Explorer" to verify if the data is properly uploaded.
 
-Enter “gpssensor.ddns.net” as the MQTT-Broker server and “LASS/Test/PM25/live” as the subscribe topic to receive data.
+Enter "gpssensor.ddns.net" as the MQTT-Broker server and "LASS/Test/PM25/live" as the subscribe topic to receive data.
 
 The time uses UTC format, and the PM2.5 data stores in s_d0. In the figure, s_d0 = 9 represents that the PM2.5 is 9, meaning that the entire publish/ subscribe process is working successfully.
 

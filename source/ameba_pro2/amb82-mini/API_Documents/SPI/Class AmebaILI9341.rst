@@ -1,10 +1,6 @@
 Class AmebaILI9341
 ==================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **AmebaILI9341 Class**
 ----------------------
 

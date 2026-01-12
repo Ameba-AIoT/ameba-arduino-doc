@@ -1,10 +1,6 @@
 Class BLEScan
 =============
 
-.. contents::
-  :local:
-  :depth: 2
-
 **BLEScan Class**
 -----------------
 
