@@ -45,9 +45,9 @@ http://xxx.xxx.xxx.xxx" will be printed in the serial monitor.
 
 |image03|
 
-Next, on a device connected to the same network, use a web browser to
-open the address provided in the serial monitor. The following web page
-will be displayed.
+Next, on a device connected to the same network, use a web browser to open the address provided in the serial monitor. The following web page will be displayed.
+
+.. note:: The device and ameba board must connect to the same network in order to access to the demo html page. 
 
 |image04|
 
