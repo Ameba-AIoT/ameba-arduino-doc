@@ -5,7 +5,7 @@ Is it possible to disable the continuously looping logs (e.g. YOLOv4t tick) in N
 
 **Answer**
 
-Yes, it is possible. 
+Yes, it is possible.
 
 Navigate to "Tools" -> "System: Multimedia".
 

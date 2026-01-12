@@ -1,10 +1,6 @@
 BLE - DHT over BLE UART
 =======================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -23,7 +19,7 @@ In this example, the data obtained from a DHT temperature and humidity sensor ar
 Procedure
 ~~~~~~~~~
 
-Take note that if you are using a DHT sensor that is not mounted on a PCB, you will have to add in a 10K Ohm pull up resistor. 
+Take note that if you are using a DHT sensor that is not mounted on a PCB, you will have to add in a 10K Ohm pull up resistor.
 
 Connect the DHT sensor to the Ameba board following the diagram.
 
@@ -96,13 +92,12 @@ https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_ter
 
 https://apps.apple.com/us/app/bluefruit-connect/id830125974
 
-
-Open the example, ``“Files” → “Examples” → “AmebaBLE” → “DHT_over_BLEUart”``.
+Open the example, ``"Files" → "Examples" → "AmebaBLE" → "DHT_over_BLEUart"``.
 
 |image07|
 
 Upload the code and press the reset button on Ameba once the upload is finished.
-Open the app on your smartphone, scan and connect to the Ameba board shown as “AMEBA_BLE_DEV” and choose the UART function in the app.
+Open the app on your smartphone, scan and connect to the Ameba board shown as "AMEBA_BLE_DEV" and choose the UART function in the app.
 
 |image08|
 

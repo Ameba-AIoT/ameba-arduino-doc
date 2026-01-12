@@ -1,10 +1,6 @@
 Class PlaybackWav
 =================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **PlaybackWav Class**
 ---------------------
 
@@ -85,7 +81,7 @@ NA
 
 Example: `PlaybackWavFile <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/PlaybackWavFile/PlaybackWavFile.ino>`_
 
-.. note :: “PlaybackWav.h” must be included to use the class function.
+.. note :: "PlaybackWav.h" must be included to use the class function.
 
 **PlaybackWav::openFile**
 -------------------------
@@ -117,7 +113,7 @@ NA
 
 Example: `PlaybackWavFile <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/PlaybackWavFile/PlaybackWavFile.ino>`_
 
-.. note :: “PlaybackWav.h” must be included to use the class function.
+.. note :: "PlaybackWav.h" must be included to use the class function.
 
 **PlaybackWav::closeFile**
 --------------------------
@@ -149,7 +145,7 @@ NA
 
 NA
 
-.. note :: “PlaybackWav.h” must be included to use the class function.
+.. note :: "PlaybackWav.h" must be included to use the class function.
 
 **PlaybackWav::fileOpened**
 ---------------------------
@@ -181,7 +177,7 @@ This function returns true if a .wav file is already open, false otherwise.
 
 Example: `RecordPlaybackWav <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/PlaybackWavFile/PlaybackWavFile.ino>`_
 
-.. note :: “PlaybackWav.h” must be included to use the class function.
+.. note :: "PlaybackWav.h" must be included to use the class function.
 
 **PlaybackWav::getSampleRate**
 ------------------------------
@@ -213,7 +209,7 @@ The function returns sampling rate encoded in the .wav file header.
 
 Example: `PlaybackWavFile <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/PlaybackWavFile/PlaybackWavFile.ino>`_
 
-.. note :: “PlaybackWav.h” must be included to use the class function.
+.. note :: "PlaybackWav.h" must be included to use the class function.
 
 **PlaybackWav::getChannelCount**
 --------------------------------
@@ -245,7 +241,7 @@ The function returns channel count encoded in the .wav file header.
 
 Example: `PlaybackWavFile <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/PlaybackWavFile/PlaybackWavFile.ino>`_
 
-.. note :: “PlaybackWav.h” must be included to use the class function.
+.. note :: "PlaybackWav.h" must be included to use the class function.
 
 **PlaybackWav::getBitDepth**
 ----------------------------
@@ -277,7 +273,7 @@ The function returns bit depth encoded in the .wav file header.
 
 Example: `PlaybackWavFile <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/PlaybackWavFile/PlaybackWavFile.ino>`_
 
-.. note :: “PlaybackWav.h” must be included to use the class function.
+.. note :: "PlaybackWav.h" must be included to use the class function.
 
 **PlaybackWav::getLengthMillis**
 --------------------------------
@@ -309,7 +305,7 @@ The function returns the total playback length of the currently open .wav file i
 
 Example: `PlaybackWavFile <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/PlaybackWavFile/PlaybackWavFile.ino>`_
 
-.. note :: “PlaybackWav.h” must be included to use the class function.
+.. note :: "PlaybackWav.h" must be included to use the class function.
 
 **PlaybackWav::getPositionMillis**
 ----------------------------------
@@ -341,7 +337,7 @@ The function returns the current playback position of the currently open .wav fi
 
 Example: `PlaybackWavFile <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/PlaybackWavFile/PlaybackWavFile.ino>`_
 
-.. note :: “PlaybackWav.h” must be included to use the class function.
+.. note :: "PlaybackWav.h" must be included to use the class function.
 
 **PlaybackWav::setPositionMillis**
 ----------------------------------
@@ -374,7 +370,7 @@ NA
 Example: `PlaybackWavFile <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/PlaybackWavFile/PlaybackWavFile.ino>`_
 
 .. note :: Any changes to playback position will only take effect on the next call to PlaybackWav::readAudioData. If the desired playback position is beyond the total playback length of the file, the playback position will be set to the end of file, and no audio data will be output on subsequent data reads.
-  “PlaybackWav.h” must be included to use the class function.
+  "PlaybackWav.h" must be included to use the class function.
 
 **PlaybackWav::millisToBytes**
 ------------------------------
@@ -406,7 +402,7 @@ This function returns the number of bytes that is equivalent to the input playba
 
 NA
 
-.. note :: “PlaybackWav.h” must be included to use the class function.
+.. note :: "PlaybackWav.h" must be included to use the class function.
 
 **PlaybackWav::bytesToMillis**
 ------------------------------
@@ -438,7 +434,7 @@ This function returns the time duration in milliseconds that is equivalent to th
 
 NA
 
-.. note :: “PlaybackWav.h” must be included to use the class function.
+.. note :: "PlaybackWav.h" must be included to use the class function.
 
 **PlaybackWav::readAudioData**
 ------------------------------
@@ -472,4 +468,4 @@ This function returns number of audio samples to be read.
 
 Example: `PlaybackWavFile <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/PlaybackWavFile/PlaybackWavFile.ino>`_
 
-.. note :: “PlaybackWav.h” must be included to use the class function.
+.. note :: "PlaybackWav.h" must be included to use the class function.

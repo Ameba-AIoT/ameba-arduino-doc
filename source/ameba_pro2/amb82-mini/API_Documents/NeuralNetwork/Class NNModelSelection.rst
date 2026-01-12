@@ -1,10 +1,6 @@
 Class NNModelSelection
 ======================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **NNModelSelection Class**
 -------------------------------
 

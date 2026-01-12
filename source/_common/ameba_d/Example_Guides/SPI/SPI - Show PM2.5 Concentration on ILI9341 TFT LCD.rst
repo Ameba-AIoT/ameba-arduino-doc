@@ -1,12 +1,8 @@
 SPI - Show PM2.5 Concentration on ILI9341 TFT LCD
 ==================================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 If you are not familiar with SPI, please read `Introduction to
-SPI <https://www.amebaiot.com/spi-intro/>`_ first.
+SPI <https://www.amebaiot.com/spi-intro/>`__ first.
 
 Materials
 ---------
@@ -61,7 +57,7 @@ This example extends previous PM2.5 example to show the PM2.5 concentration on t
 
 |image05|
 
-.. only:: end aw-cu488 
+.. only:: end aw-cu488
 
 **Adafruit 2.8″ TFT LCD touch shield Wiring Diagrams**
 
@@ -107,7 +103,7 @@ This example extends previous PM2.5 example to show the PM2.5 concentration on t
 
 .. only:: end aw-cu488
 
-Open the example, “Files” → “Examples” → “AmebaSPI” → “ILI9341_TFT_LCD_PM2.5”
+Open the example, "Files" → "Examples" → "AmebaSPI" → "ILI9341_TFT_LCD_PM2.5"
 
 |image15|
 

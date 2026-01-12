@@ -1,10 +1,6 @@
 Class PMClass
 =============
 
-.. contents::
-  :local:
-  :depth: 2
-
 **PMClass Class**
 -----------------
 
@@ -32,7 +28,7 @@ A class used for PowerMode control.
 +-----------------------------------+-----------------------------------+
 | PMClass::begin                    | Initializes the PowerMode         |
 |                                   | settings for device, include type |
-|                                   | of the mode, wake up sources      | 
+|                                   | of the mode, wake up sources      |
 |                                   | , retention and related source    |
 |                                   | settings.                         |
 +-----------------------------------+-----------------------------------+
@@ -57,11 +53,11 @@ Initializes the PowerMode settings for device, include type of the mode, wake up
 **Parameters**
 ~~~~~~~~~~~~~~
 
-sleep_mode: Power Mode selection. 
+sleep_mode: Power Mode selection.
 
 - Deepsleep mode: DEEPSLEEP_MODE; Standby mode: STANDBY_MODE
 
-wakeup_source: Wake up source selection. 
+wakeup_source: Wake up source selection.
 
 - AON timer, AON GPIO, RTC, PON GPIO, UART/Serial1, and Gtimer0 (0 to 5).
 
@@ -88,7 +84,7 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `DeepSleepMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/DeepSleepMode/DeepSleepMode.ino>`_, `StandbyMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/StandbyMode/StandbyMode.ino>`_, `RetentionDeepSleepMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/RetentionDeepSleepMode/RetentionDeepSleepMode.ino>`_, `RetentionStandbyMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/RetentionStandbyMode/RetentionStandbyMode.ino>`_
+Example: `DeepSleepMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/DeepSleepMode/DeepSleepMode.ino>`__ `StandbyMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/StandbyMode/StandbyMode.ino>`__ `RetentionDeepSleepMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/RetentionDeepSleepMode/RetentionDeepSleepMode.ino>`__ `RetentionStandbyMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/RetentionStandbyMode/RetentionStandbyMode.ino>`_
 
 .. note :: "PowerMode.h" must be included to use the class function.
 
@@ -113,7 +109,7 @@ Start the PowerMode of device.
 
 Optional when wake up source is RTC. Default start time is 1970.1.100:00:00.
 
-year: Start time by year. 
+year: Start time by year.
 
 - Starts from 1900
 
@@ -145,6 +141,6 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `DeepSleepMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/DeepSleepMode/DeepSleepMode.ino>`_, `StandbyMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/StandbyMode/StandbyMode.ino>`_, `RetentionDeepSleepMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/RetentionDeepSleepMode/RetentionDeepSleepMode.ino>`_, `RetentionStandbyMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/RetentionStandbyMode/RetentionStandbyMode.ino>`_
+Example: `DeepSleepMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/DeepSleepMode/DeepSleepMode.ino>`__ `StandbyMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/StandbyMode/StandbyMode.ino>`__ `RetentionDeepSleepMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/RetentionDeepSleepMode/RetentionDeepSleepMode.ino>`__ `RetentionStandbyMode <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/PowerMode/examples/RetentionStandbyMode/RetentionStandbyMode.ino>`_
 
 .. note :: "PowerMode.h" must be included to use the class function.

@@ -1,10 +1,6 @@
 Class BLEWifiConfigService
 ==========================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **BLEWifiConfigService Class**
 ------------------------------
 

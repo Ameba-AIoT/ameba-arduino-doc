@@ -1,10 +1,6 @@
 Class GTimerClass
 =================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **GTimerClass Class**
 ---------------------
 
@@ -80,7 +76,7 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `TimerOneshot <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerOneshot/TimerOneshot.ino>`_, `TimerPeriodical <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerPeriodical/TimerPeriodical.ino>`_
+Example: `TimerOneshot <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerOneshot/TimerOneshot.ino>`__ `TimerPeriodical <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerPeriodical/TimerPeriodical.ino>`_
 
 .. note :: "GTimer.h" must be included to use the class function.
 
@@ -114,7 +110,7 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `TimerOneshot <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerOneshot/TimerOneshot.ino>`_, `TimerPeriodical <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerPeriodical/TimerPeriodical.ino>`_
+Example: `TimerOneshot <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerOneshot/TimerOneshot.ino>`__ `TimerPeriodical <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerPeriodical/TimerPeriodical.ino>`_
 
 .. note :: "GTimer.h" must be included to use the class function.
 
@@ -152,7 +148,7 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `TimerOneshot <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerOneshot/TimerOneshot.ino>`_, `TimerPeriodical <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerPeriodical/TimerPeriodical.ino>`_
+Example: `TimerOneshot <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerOneshot/TimerOneshot.ino>`__ `TimerPeriodical <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerPeriodical/TimerPeriodical.ino>`_
 
 .. note :: "GTimer.h" must be included to use the class function.
 
@@ -186,6 +182,6 @@ The current countdown value in microseconds.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `TimerOneshot <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerOneshot/TimerOneshot.ino>`_, `TimerPeriodical <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerPeriodical/TimerPeriodical.ino>`_
+Example: `TimerOneshot <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerOneshot/TimerOneshot.ino>`__ `TimerPeriodical <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/GTimer/examples/TimerPeriodical/TimerPeriodical.ino>`_
 
 .. note :: "GTimer.h" must be included to use the class function.

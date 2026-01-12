@@ -1,10 +1,6 @@
 Class BLERemoteCharacteristic
 =============================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **BLERemoteCharacteristic Class**
 ---------------------------------
 

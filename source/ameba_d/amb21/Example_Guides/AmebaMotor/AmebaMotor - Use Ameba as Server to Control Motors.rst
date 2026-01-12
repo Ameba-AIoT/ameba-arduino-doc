@@ -1,10 +1,6 @@
 AmebaMotor - Use Ameba as Server to Control Motors
 ==================================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Introduction to AmebaMotors
 ----------------------------
 
@@ -32,7 +28,7 @@ First, connect Ameba to the L298N H-Bridge and the motorcar.
 
 To know more about motor movement and the technical details of the L298N H-Bridge, please check out this link https://www.amebaiot.com/en/ameba-arduino-amebamotors-basic/.
 
-Open the example, “Files” -> “Examples” -> “AmebaWiFi” -> “WiFiControlCar”.
+Open the example, "Files" -> "Examples" -> "AmebaWiFi" -> "WiFiControlCar".
 
 You will see we use the following pins in the example:
 
@@ -56,7 +52,7 @@ In the sample code, modify the highlighted snippet to corresponding information.
 
 |image02|
 
-Upload the code and press the reset button on Ameba. When the connection is established, you will see the message “To see this page in action, open a browser to http://xxx.xxx.xxx.xxx” in the Arduino IDE, as shown in the figure:
+Upload the code and press the reset button on Ameba. When the connection is established, you will see the message "To see this page in action, open a browser to http://xxx.xxx.xxx.xxx" in the Arduino IDE, as shown in the figure:
 
 |image03|
 

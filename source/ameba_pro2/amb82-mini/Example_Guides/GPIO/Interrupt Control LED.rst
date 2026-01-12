@@ -1,14 +1,10 @@
 Interrupt Control LED
 =====================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 -  Button x 1
 
@@ -16,9 +12,9 @@ Example
 -------
 
 In this example, we use a button to trigger interrupt and control the LED.
-When we press and release the button, the LED dims, press and release the button again, and the LED lights up.Note that in the Arduino example “Button and LED”, LED only lights up when the button is pressed and hold, when we release the button, the LED dims.
+When we press and release the button, the LED dims, press and release the button again, and the LED lights up.Note that in the Arduino example "Button and LED", LED only lights up when the button is pressed and hold, when we release the button, the LED dims.
 
-Open the example, “File” -> “Example” -> “AmebaGPIO” -> “Interrupt_Ctrl_LED”
+Open the example, "File" -> "Example" -> "AmebaGPIO" -> "Interrupt_Ctrl_LED"
 
 |image01|
 

@@ -1,42 +1,38 @@
 Object Detection results save on SD Card
 =========================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 - SD Card x 1
 
-Example 
+Example
 -------
 
 In this example, we will be using Ameba Pro2 development board to detect 80 different kinds of objects such as person, bicycle, car, laptop etc using on-board camera sensor (JX-F37P).
 
-The following examples show how Object Detection and On-Screen Display is used as well as saving the results as JPEG or MP4 files. 
+The following examples show how Object Detection and On-Screen Display is used as well as saving the results as JPEG or MP4 files.
 
 1. SaveAsJPEG
 
 2. SaveAsMP4File
 
-To save as JPEG files, open one of the Object Detection examples in “File” -> “Examples” -> “AmebaNN” -> "ObjectDetectionSaveSDCard" -> "SaveAsJPEG".
+To save as JPEG files, open one of the Object Detection examples in "File" -> "Examples" -> "AmebaNN" -> "ObjectDetectionSaveSDCard" -> "SaveAsJPEG".
 
 |image01|
 
-To save as MP4 files, 
-Open one of the Object Detection examples in “File” -> “Examples” -> “AmebaNN” -> "ObjectDetectionSaveSDCard" -> "SaveAsMP4File".
+To save as MP4 files,
+Open one of the Object Detection examples in "File" -> "Examples" -> "AmebaNN" -> "ObjectDetectionSaveSDCard" -> "SaveAsMP4File".
 
 |image02|
 
-In the highlighted code snippet, fill in the “ssid” with your WiFi network SSID and “pass” with the network password.
+In the highlighted code snippet, fill in the "ssid" with your WiFi network SSID and "pass" with the network password.
 
 |image03|
 
-Select Neural Network (NN) task and models using modelSelect() function highlighted in yellow. This function takes 4 arguments: Neural Network task, Object Detection model, Face Detection model and Face Recognition model. Replace with “NA_MODEL” if they are not necessary for your selected Neural Network task. Note that it is mandatory to call modelSelect() function before calling the begin() function.
+Select Neural Network (NN) task and models using modelSelect() function highlighted in yellow. This function takes 4 arguments: Neural Network task, Object Detection model, Face Detection model and Face Recognition model. Replace with "NA_MODEL" if they are not necessary for your selected Neural Network task. Note that it is mandatory to call modelSelect() function before calling the begin() function.
 
 Valid Neural Network task: OBJECT_DETECTION, FACE_DETECTION, FACE_RECOGNITION
 
@@ -66,13 +62,13 @@ Compile the code and upload it to Ameba. After pressing the Reset button, wait f
 
 The result of detected objects can be validated using VLC. You may download VLC media player from the link `here <https://vlc-media-player.en.softonic.com/?utm_source=SEM&utm_medium=paid&utm_campaign=EN_UK_DSA&gclid=Cj0KCQjw1vSZBhDuARIsAKZlijTRUgX93pTAjakY9p0Vw6tr04-k-4K-OvoDdnPTl89ggsxDttC2JycaAoYhEALw_wcB>`__.
 
-Upon the completion of the software installation, open VLC media player, and go to “Media” -> “Open Network Stream”.
+Upon the completion of the software installation, open VLC media player, and go to "Media" -> "Open Network Stream".
 
 |image05|
 
-Make sure your PC is connected to the same network as the Ameba Pro2 board for streaming. Since RTSP is used as the streaming protocol, key in `“rtsp://{IPaddress}:{port}”` as the Network URL in VLC media player, replacing {IPaddress} with the IP address of your Ameba Pro2 board, and {port} with the RTSP port shown in Serial Monitor `(e.g., “rtsp://192.168.3.26:554”)`. The default RTSP port number is 554.
+Make sure your PC is connected to the same network as the Ameba Pro2 board for streaming. Since RTSP is used as the streaming protocol, key in `"rtsp://{IPaddress}:{port}"` as the Network URL in VLC media player, replacing {IPaddress} with the IP address of your Ameba Pro2 board, and {port} with the RTSP port shown in Serial Monitor `(e.g., "rtsp://192.168.3.26:554")`. The default RTSP port number is 554.
 
-Next, click “Play” to start RTSP streaming to see the result. The video stream from the camera will be shown in VLC media player.
+Next, click "Play" to start RTSP streaming to see the result. The video stream from the camera will be shown in VLC media player.
 
 |image06|
 

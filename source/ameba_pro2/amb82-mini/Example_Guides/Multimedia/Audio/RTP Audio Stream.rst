@@ -1,14 +1,10 @@
 RTP Audio Stream
 ================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 - 3.5mm TRS/TRRS breakout x 1 (e.g., Adafruit 2791 / Sparkfun 11570)
 
 Example
@@ -19,11 +15,11 @@ Connect the audio jack to the Ameba board as shown in the diagram.
 
 |image01|
 
-Open the example in “File” -> “Examples” -> “AmebaMultimedia” -> “Audio” -> “RTPAudioStream”.
+Open the example in "File" -> "Examples" -> "AmebaMultimedia" -> "Audio" -> "RTPAudioStream".
 
 |image02|
 
-In the highlighted code snippet, fill in the “ssid” with your WiFi network SSID and “pass” with the network password.
+In the highlighted code snippet, fill in the "ssid" with your WiFi network SSID and "pass" with the network password.
 
 |image03|
 
@@ -31,7 +27,7 @@ Compile the code and upload it to Ameba.
 
 After pressing the Reset button, wait for the Ameba Pro 2 board to connect to the WiFi network.
 
-On a computer connected to the same WiFi network, open VLC media player, and go to “Media” -> “Stream”.
+On a computer connected to the same WiFi network, open VLC media player, and go to "Media" -> "Stream".
 
 |image04|
 
@@ -39,7 +35,7 @@ Using the add button, add the audio file you would like to stream to the Ameba b
 
 |image05|
 
-In the new window that appears, click on next to move to the destination setup page. In the dropdown menu, select “RTP Audio/Video Profile” and click on the add button next to it.
+In the new window that appears, click on next to move to the destination setup page. In the dropdown menu, select "RTP Audio/Video Profile" and click on the add button next to it.
 
 |image06|
 
@@ -47,21 +43,21 @@ In the new tab that appears, enter the IP address of the Ameba Pro 2 board in th
 
 |image07|
 
-For transcoding options, ensure that “Activate Transcoding” is checked. If you already have a profile created for the Ameba Pro 2, select the existing profile, and skip the next section showing how to create a profile. Otherwise, click on the highlighted button to create a new profile for the Ameba Pro 2 Board.
+For transcoding options, ensure that "Activate Transcoding" is checked. If you already have a profile created for the Ameba Pro 2, select the existing profile, and skip the next section showing how to create a profile. Otherwise, click on the highlighted button to create a new profile for the Ameba Pro 2 Board.
 
 |image08|
 
-In the new window that appears, give a suitable name for the new transcoding profile. Ensure that “RAW” is selected in the “Encapsulation” tab.
+In the new window that appears, give a suitable name for the new transcoding profile. Ensure that "RAW" is selected in the "Encapsulation" tab.
 
 |image09|
 
-Ensure that “Video” and “Subtitle” are disabled in the “Video codec” and “Subtitles” tabs.
+Ensure that "Video" and "Subtitle" are disabled in the "Video codec" and "Subtitles" tabs.
 
 |image10|
 
 |image11|
 
-In the “Audio codec” tab, ensure that “Audio” is enabled. Select “MPEG 4 Audio (AAC)” for the codec, and 1 for the number of channels. For the sample rate, this value should be the same as the AudioSetting configuration for the Ameba Pro 2, which is 8000 Hz by default for this example. Click on the create button, ensure that the new profile is selected, and click on the next button.
+In the "Audio codec" tab, ensure that "Audio" is enabled. Select "MPEG 4 Audio (AAC)" for the codec, and 1 for the number of channels. For the sample rate, this value should be the same as the AudioSetting configuration for the Ameba Pro 2, which is 8000 Hz by default for this example. Click on the create button, ensure that the new profile is selected, and click on the next button.
 
 |image12|
 

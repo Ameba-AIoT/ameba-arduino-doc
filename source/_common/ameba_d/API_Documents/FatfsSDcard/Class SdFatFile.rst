@@ -1,10 +1,6 @@
 Class SdFatFile
 ===============
 
-.. contents::
-  :local:
-  :depth: 2
-
 **SdFatFile Class**
 -------------------
 
@@ -31,7 +27,7 @@ Defines a class of SD FAT File.
 |SdFatFile::~SdFatFile  | Destructs a SdFatFile object              |
 +-----------------------+-------------------------------------------+
 |**Public Methods**                                                 |
-+-----------------------+-------------------------------------------+     
++-----------------------+-------------------------------------------+
 |SdFatFile::write       | Write content  1 byte/bytes to file       |
 +-----------------------+-------------------------------------------+
 |SdFatFile::read        | Read content (1 byte or bytes) from       |
@@ -86,7 +82,7 @@ The function returns the number of byte count that has been successfully written
 
 NA.
 
-.. note :: “SdFatFile.h” must be included to use the class function.
+.. note :: "SdFatFile.h" must be included to use the class function.
 
 **SdFatFile::read**
 -------------------
@@ -121,7 +117,7 @@ The function returns a read character or the read size of the buffer.
 
 Example: `create_folder <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/FatfsSDIO/examples/create_folder/create_folder.ino>`_
 
-.. note :: “SdFatFile.h” must be included to use the class function.
+.. note :: "SdFatFile.h" must be included to use the class function.
 
 **SdFatFile::peek**
 -------------------
@@ -153,7 +149,7 @@ This function returns the read character as an integer number.
 
 NA
 
-.. note :: “SdFatFile.h” must be included to use the class function.
+.. note :: "SdFatFile.h" must be included to use the class function.
 
 **SdFatFile::available**
 ------------------------
@@ -178,14 +174,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-The function returns ``0`` if the cursor is at EOF, else returns “1”.
+The function returns ``0`` if the cursor is at EOF, else returns "1".
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “SdFatFile.h” must be included to use the class function.
+.. note :: "SdFatFile.h" must be included to use the class function.
 
 **SdFatFile::seek**
 -------------------
@@ -217,7 +213,7 @@ This function returns 0 if the cursor is set a specific position successfully ot
 
 NA
 
-.. note :: “SdFatFile.h” must be included to use the class function.
+.. note :: "SdFatFile.h" must be included to use the class function.
 
 **SdFatFile::close**
 --------------------
@@ -249,7 +245,7 @@ The function returns 0 if runs successfully otherwise it returns a negative valu
 
 Example: `create_folder <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/FatfsSDIO/examples/create_folder/create_folder.ino>`_
 
-.. note :: “SdFatFile.h” in order to use the class function.
+.. note :: "SdFatFile.h" in order to use the class function.
 
 **SdFatFile::cursor_pos**
 -------------------------
@@ -274,14 +270,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns a file read/write pointer. “0” on file open.
+This function returns a file read/write pointer. "0" on file open.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “SdFatFile.h” in order to use the class function.
+.. note :: "SdFatFile.h" in order to use the class function.
 
 **SdFatFile::file_size**
 ------------------------
@@ -313,4 +309,4 @@ This function returns a DWORD value as the file size.
 
 NA
 
-.. note :: “SdFatFile.h” in order to use the class function.
+.. note :: "SdFatFile.h" in order to use the class function.

@@ -1,10 +1,6 @@
 Power Save - Tickless Mode
 ============================
 
-.. contents::
-  :local:
-  :depth: 2
-  
 Materials
 ---------
 
@@ -15,19 +11,19 @@ Example
 
 Ameba-D supports two low power modes which are deepsleep mode and sleep mode. The power consumptions of Tickless Sleep Mode is around 28uA to 30uA compared to normal state around 15mA. This example describes how to use freertos tickless with UART interruptible interface.
 
-Open “File” -> “Examples” -> “AmebaPowerSave” -> “TicklessMode”
+Open "File" -> "Examples" -> "AmebaPowerSave" -> "TicklessMode"
 
 |image01|
 
 Set condition values as picture below.
-“TL_WAKEUP_SOURCE” is used to set the wake-up source, user can chose 3 wake up sources now,
+"TL_WAKEUP_SOURCE" is used to set the wake-up source, user can chose 3 wake up sources now,
 LOGUART(SET_TL_UART_WAKEUP);
 RTC Timer(SET_TL_RTC_WAKEUP);
 • AON pins (SET_AON_GPIO_WAKEUP_PAxx) with xx being the pin no. (e.g. SET_AON_GPIO_WAKEUP_PA25);
 
 **Using LOGUART as wakeup source**
 
-When the LOGUART is selected as the wakeup source, the “TL_Suspend_function” will select the corresponding tickless wake up source. The board will remain in the Active Mode for the duration of TL_SYSACTIVE_TIME (default set as 10 000 ms) before entering sleep mode again. To wake up, press “Enter” button on your keyboard in the Arduino Serial Monitor.
+When the LOGUART is selected as the wakeup source, the "TL_Suspend_function" will select the corresponding tickless wake up source. The board will remain in the Active Mode for the duration of TL_SYSACTIVE_TIME (default set as 10 000 ms) before entering sleep mode again. To wake up, press "Enter" button on your keyboard in the Arduino Serial Monitor.
 
 **Using RTC Timer as wakeup source**
 
@@ -53,34 +49,34 @@ For AMB25 and AMB26, there is only 6 pins that can be set as AON pin and active 
 
 |image03|
 
-.. only:: end amb21  
+.. only:: end amb21
 
 .. only:: amb23
-    
+
 |image04|
 
-.. only:: end amb23 
+.. only:: end amb23
 
 .. only:: amb25
-    
+
 |image05|
 
-.. only:: end amb25 
+.. only:: end amb25
 
 .. only:: amb26
-    
+
 |image06|
 
-.. only:: end amb26 
+.. only:: end amb26
 
 .. only:: bw16-typeb
-    
+
 |image07|
 
 .. only:: end bw16-typeb
 
 .. only:: bw16-typec
-    
+
 |image08|
 
 .. only:: end bw16-typec
@@ -89,7 +85,7 @@ For AMB25 and AMB26, there is only 6 pins that can be set as AON pin and active 
 
 |image09|
 
-.. only:: end aw-cu488 
+.. only:: end aw-cu488
 
 |image10|
 
@@ -110,7 +106,7 @@ TL_SYSACTIVE_TIME is for setting time duration of the system to keep alive. (Uni
 Code Reference
 ---------------
 
-Please refer to the `API Documents <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/amb21/API_Documents/index.html>`_ PowerSave section for detail description of all API.
+Please refer to the `API Documents <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/amb21/API_Documents/index.html>`__ PowerSave section for detail description of all API.
 
 .. |image01| image:: ../../../../_static/amebad/Example_Guides/PowerSave/Power_Save_Tickless_Mode/image01.png
    :width:  689 px

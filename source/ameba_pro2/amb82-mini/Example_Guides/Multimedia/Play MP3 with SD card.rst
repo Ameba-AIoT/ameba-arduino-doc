@@ -1,14 +1,10 @@
 Play MP3 with SD card
 =====================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
--  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+-  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 -  MicroSD card
 
@@ -33,7 +29,7 @@ Connect the audio jack to the Ameba board as shown in the diagram.
 
 Insert the MicroSD card into the SD card slot of the AMB82 MINI board.
 
-Open the example in “File” -> “Examples” -> “AmebaMultimedia” -> “SDCardPlayMP3”.
+Open the example in "File" -> "Examples" -> "AmebaMultimedia" -> "SDCardPlayMP3".
 
 |image03|
 
@@ -41,7 +37,7 @@ In the highlighted code snippet, fill in the MP3 file name which was store on th
 
 |image04|
 
-Plug in a pair of wired earbuds or a wired speaker into the audio jack. Upload the code and press the reset button on the board, now you can hear the MP3 audio through the earbuds. 
+Plug in a pair of wired earbuds or a wired speaker into the audio jack. Upload the code and press the reset button on the board, now you can hear the MP3 audio through the earbuds.
 
 .. |image01| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Play_MP3_with_SD_card/image01.png
    :width:  900 px
@@ -58,4 +54,4 @@ Plug in a pair of wired earbuds or a wired speaker into the audio jack. Upload t
 .. |image04| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/Play_MP3_with_SD_card/image04.png
    :width:  1000 px
    :height:  550 px
-   
+

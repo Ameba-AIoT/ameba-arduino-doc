@@ -1,10 +1,6 @@
 Class SPISettings
 =================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **SPISettings Class**
 ---------------------
 

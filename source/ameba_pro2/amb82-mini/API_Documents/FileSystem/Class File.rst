@@ -1,10 +1,6 @@
 Class File
 ==========
 
-.. contents::
-  :local:
-  :depth: 2
-
 **File Class**
 --------------
 
@@ -557,7 +553,7 @@ digitalVol: output digital volume
 
 .. note::
     Every Step is 0.375dB.
-    
+
     | 0xAF: 0dB.
     | 0xAE: -0.375dB.
     | ...
@@ -613,7 +609,7 @@ Example: `OTA <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino
 **Description**
 ~~~~~~~~~~~~~~~
 
-Pass filename with full path and execute ota_sd. 
+Pass filename with full path and execute ota_sd.
 
 **Syntax**
 ~~~~~~~~~~

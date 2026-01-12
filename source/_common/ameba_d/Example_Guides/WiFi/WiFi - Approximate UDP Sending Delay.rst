@@ -1,10 +1,6 @@
 WiFi - Approximate UDP Sending Delay
 =======================================
 
-.. contents::
-  :local:
-  :depth: 2
-  
 Materials
 ---------
 
@@ -22,19 +18,19 @@ This example uses Ameba to send UDP packets to a computer and calculates the UDP
 
 - Connect the computer to the network.
 
-- Download the “SendDelay_win.exe” from https://github.com/Ameba-AIoT/ameba-arduino-d “Ameba_misc/Example_Tools/UDP_Calculate”.
+- Download the "SendDelay_win.exe" from https://github.com/Ameba-AIoT/ameba-arduino-d "Ameba_misc/Example_Tools/UDP_Calculate".
 
 - Open Cygwin terminal.
 
-- Run command “ipconfig”. Record the IPv4 address as the client IP address.
+- Run command "ipconfig". Record the IPv4 address as the client IP address.
 
-- Run command “./SendDelay_win.exe”. The computer begins to listen for packets from Ameba.
+- Run command "./SendDelay_win.exe". The computer begins to listen for packets from Ameba.
 
 |image01|
 
 **Ameba Side**
 
-- Open the example in “File” -> “Examples” -> “WiFi” -> “UDP_Calculation” -> “UDP_CalculateSendDelay”.
+- Open the example in "File" -> "Examples" -> "WiFi" -> "UDP_Calculation" -> "UDP_CalculateSendDelay".
 
 - Modify the ssid, password and key index (optional). Compile and upload the code from the Arduino IDE to Ameba and press the reset button when the upload is complete. Ameba should connect to the same network as the computer.
 
@@ -60,4 +56,4 @@ This example uses Ameba to send UDP packets to a computer and calculates the UDP
 .. |image04| image:: ../../../../_static/amebad/Example_Guides/WiFi/WiFi_Approximate_UDP_Sending_Delay/image04.png
    :width:  905 px
    :height:  521 px
-   
+

@@ -1,10 +1,6 @@
 Class VideoStream
 =================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **CameraSetting Class**
 -----------------------
 
@@ -459,7 +455,7 @@ Enable or Disable WDR mode.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-enable: Preferred WDR mode. If WDR mode is enabled, Manual or Auto mode can be chosen. 
+enable: Preferred WDR mode. If WDR mode is enabled, Manual or Auto mode can be chosen.
 
 - 0 (Disabled. Default value)
 
@@ -1498,7 +1494,7 @@ Configure quality level for JPEG snapshots.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-quality: desired JPEG image quality level. 
+quality: desired JPEG image quality level.
 
 - 1 to 9 (Worst to best. Default value is 5)
 
@@ -2145,7 +2141,6 @@ ch: Channel to configure.
 len: The queue length.
 
 - 15 * 3
-
 
 **Returns**
 ~~~~~~~~~~~

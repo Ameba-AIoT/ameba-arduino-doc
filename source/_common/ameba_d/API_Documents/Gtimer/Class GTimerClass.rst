@@ -1,10 +1,6 @@
 Class GTimerClass
 =================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **GTimerClass Class**
 ---------------------
 
@@ -65,7 +61,6 @@ Initialize a timer and start it immediately.
 ``periodical``: By default, the timer would keep periodically countdown and reload, which means the handler would periodically be invoked. (Default value: True)
 
 ``userdata``: The user data brings to the handler. Default value is 0.
-
 
 **Returns**
 ~~~~~~~~~~~
@@ -165,11 +160,10 @@ Read the current countdown time value (in us).
 
 ``timerid``: The timer to be read. (There are 5 valid GTimer with timer id 0~4)
 
-
 **Returns**
 ~~~~~~~~~~~
 
-This function returns “0” if the timerid is invalid, otherwise, returns the current countdown time value (in us).
+This function returns "0" if the timerid is invalid, otherwise, returns the current countdown time value (in us).
 
 **Example Code**
 ~~~~~~~~~~~~~~~~

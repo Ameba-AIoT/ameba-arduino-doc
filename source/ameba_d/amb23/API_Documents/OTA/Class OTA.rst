@@ -2,10 +2,6 @@
 Class OTA
 =========
 
-.. contents::
-  :local:
-  :depth: 2
-
 **OTA Class**
 -------------
 
@@ -93,7 +89,7 @@ Starts the connect of OTA server and waiting to receive the new OTA firmware sen
 
 port: port number for the OTA HTTP server IP address, default port address is 3000.
 
-\*server: pointer for OTA HTTP server IP address. 
+\*server: pointer for OTA HTTP server IP address.
 
 **Returns**
 ~~~~~~~~~~~

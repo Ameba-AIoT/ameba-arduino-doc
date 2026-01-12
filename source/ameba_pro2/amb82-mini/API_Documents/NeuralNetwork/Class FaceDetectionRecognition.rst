@@ -1,10 +1,6 @@
 Class FaceDetectionRecognition
 ==============================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **FaceRecognitionResult Class**
 -------------------------------
 

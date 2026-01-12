@@ -1,14 +1,10 @@
 OLED Display
 ============
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
--  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+-  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 -  0.96 inch OLED Display 128x64 (SSD1306) x 1
 
@@ -33,7 +29,7 @@ Open the example in "File" -> "Examples" -> "AmebaWire" -> "OLED_SSD1306".
 
 |image02|
 
-For this example, we will be using 0x3D as the address. 
+For this example, we will be using 0x3D as the address.
 
 |image03|
 
@@ -48,9 +44,9 @@ Compile and upload to Ameba, then press the reset button.
 First, Realtek logo will be shown, followed by shapes, text, and
 animations. Some examples are shown below.
 
-|image05| 
+|image05|
 
-|image06| 
+|image06|
 
 |image07|
 

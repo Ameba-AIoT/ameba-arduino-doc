@@ -1,10 +1,6 @@
 Class MDNS
 ==========
 
-.. contents::
-  :local:
-  :depth: 2
-
 **MDNS Class**
 --------------
 
@@ -30,7 +26,7 @@ A class used for registering and removing MDNS service records.
 | intended to be a singleton class. Access member functions using     |
 | the object instance named MDNS.                                     |
 +-------------------------------+-------------------------------------+
-| **Public Methods**                                                  |   
+| **Public Methods**                                                  |
 +-------------------------------+-------------------------------------+
 | MDNSClass::begin              | Start MDNS operations               |
 +-------------------------------+-------------------------------------+
@@ -75,7 +71,7 @@ NA
 
 Example: `mDNS_On_Arduino_IDE <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/MDNS/examples/mDNS_On_Arduino_IDE/mDNS_On_Arduino_IDE.ino>`_
 
-.. note :: “AmebaMDNS.h” must be included to use the class function.
+.. note :: "AmebaMDNS.h" must be included to use the class function.
 
 ----------------------------------------------------------
 
@@ -109,7 +105,7 @@ NA
 
 NA
 
-.. note :: “AmebaMDNS.h” must be included to use the class function.
+.. note :: "AmebaMDNS.h" must be included to use the class function.
 
 ------------------------------------------------------------
 
@@ -143,7 +139,7 @@ NA
 
 Example: `mDNS_On_Arduino_IDE <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/MDNS/examples/mDNS_On_Arduino_IDE/mDNS_On_Arduino_IDE.ino>`_
 
-.. note :: “AmebaMDNS.h” must be included to use the class function.
+.. note :: "AmebaMDNS.h" must be included to use the class function.
 
 --------------------------------------------------------------------------------
 
@@ -177,10 +173,9 @@ NA
 
 Example: `mDNS_On_Arduino_IDE <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/MDNS/examples/mDNS_On_Arduino_IDE/mDNS_On_Arduino_IDE.ino>`_
 
-.. note :: “AmebaMDNS.h” must be included to use the class function.
+.. note :: "AmebaMDNS.h" must be included to use the class function.
 
 -------------------------------------------------------------
-
 
 **MDNSClass::updateService**
 ----------------------------
@@ -214,4 +209,4 @@ NA
 
 NA
 
-.. note :: “AmebaMDNS.h” must be included to use the class function.
+.. note :: "AmebaMDNS.h" must be included to use the class function.

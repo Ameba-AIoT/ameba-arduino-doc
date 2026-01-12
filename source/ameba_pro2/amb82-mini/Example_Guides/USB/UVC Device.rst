@@ -1,21 +1,17 @@
 UVC Device
 ==========
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 Example
 -------
 
 AmebaPro2 ISP can support compressed (H264 / H265 / JPG) and uncompressed (NV16 / NV12) image through UVC (wired transmission), and user can check video on pc with PC applications (e.g., Potplayer).
 
-Connect the “Micro USB” into Arduino IDE device. Open the sample code in “File” -> “Examples” -> “AmebaUSB” -> “UVC_Device”. Compile and upload to Ameba, then press the reset button. Connect the “USB OTG” via micro-USB cable to the target device such as PC, then use the Ameba device as a USB cam.
+Connect the "Micro USB" into Arduino IDE device. Open the sample code in "File" -> "Examples" -> "AmebaUSB" -> "UVC_Device". Compile and upload to Ameba, then press the reset button. Connect the "USB OTG" via micro-USB cable to the target device such as PC, then use the Ameba device as a USB cam.
 
 |image01|
 
@@ -23,14 +19,14 @@ Review the USB cam driver as following picture.
 
 |image02|
 
-It is optional to open the Serial Monitor, review the processing log. At this stage “Micro USB” can be disconnected.
+It is optional to open the Serial Monitor, review the processing log. At this stage "Micro USB" can be disconnected.
 
 |image03|
 
-Additional 
+Additional
 ----------
 
-For others common PC applications (e.g., Windows apps, VLC, Zoom, OBS, and Google Meet), define the encoder UVCD_MJPG value to **1**, and for all other applications, set it to **0** in `UVCD_pram.h <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/USB/src/UVCD_pram.h>`_ within your Arduino environment.  
+For others common PC applications (e.g., Windows apps, VLC, Zoom, OBS, and Google Meet), define the encoder UVCD_MJPG value to **1**, and for all other applications, set it to **0** in `UVCD_pram.h <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/USB/src/UVCD_pram.h>`__ within your Arduino environment.
 
 .. |image01| image:: ../../../../_static/amebapro2/Example_Guides/USB/UVC_Device/image01.png
    :width:  687 px

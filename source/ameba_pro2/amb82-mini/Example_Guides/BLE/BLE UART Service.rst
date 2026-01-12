@@ -1,14 +1,10 @@
 BLE UART Service
 ================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
--  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+-  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 -  Android / iOS smartphone
 
@@ -44,7 +40,7 @@ https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_ter
 -  Apple App Store:
    https://apps.apple.com/us/app/bluefruit-connect/id830125974
 
-Open the example, "Files" -> "Examples" -> “AmebaBLE” -> “BLEUartService”.
+Open the example, "Files" -> "Examples" -> "AmebaBLE" -> "BLEUartService".
 
 |image01|
 
@@ -52,13 +48,13 @@ Upload the code and press the reset button on Ameba once the upload is
 finished.
 
 Open the app on your smartphone, scan and connect to the Ameba board
-shown as “AMEBA_BLE_DEV” and choose the UART function in the app. Note
+shown as "AMEBA_BLE_DEV" and choose the UART function in the app. Note
 that the BLE UART service on the Ameba board will only work with the
 UART and Plotter functions in the Bluefruit Connect app, other functions
 (Pin I/O, Image Transfer) require other BLE services that are not
 included in this example.
 
-|image02| 
+|image02|
 
 |image03|
 

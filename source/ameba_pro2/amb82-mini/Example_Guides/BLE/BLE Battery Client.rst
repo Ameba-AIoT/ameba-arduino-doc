@@ -1,14 +1,10 @@
 BLE Battery Client
 ==================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
--  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 2
+-  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 2
 
 Example
 -------
@@ -35,7 +31,7 @@ On the first Ameba board, upload the BLEBatteryService example code and
 let it run.
 
 For the second Ameba board, open the example "Files" -> "Examples" ->
-“AmebaBLE” -> “BLEBatteryClient”.
+"AmebaBLE" -> "BLEBatteryClient".
 
 |image01|
 
@@ -50,7 +46,7 @@ board with the battery service.
 
 Highlighted in yellow, the Ameba board with the battery client first
 scans for advertising BLE devices with the advertised device name
-“AMEBA_BLE_DEV” and the advertised service UUID of 0x180F representing
+"AMEBA_BLE_DEV" and the advertised service UUID of 0x180F representing
 the battery service.
 
 After finding the target device, the Ameba board with the battery client

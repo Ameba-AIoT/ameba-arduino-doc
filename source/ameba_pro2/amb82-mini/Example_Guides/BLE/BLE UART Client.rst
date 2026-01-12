@@ -1,14 +1,10 @@
 BLE UART Client
 ===============
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
--  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+-  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 Example
 -------
@@ -28,7 +24,7 @@ On the first board, upload the BLE UART service example code. Refer to
 the example guide for detailed instructions.
 
 For the second board, open the example, "Files" -> "Examples" ->
-“AmebaBLE” -> “BLEUartClient”.
+"AmebaBLE" -> "BLEUartClient".
 
 |image01|
 

@@ -1,10 +1,6 @@
 WiFi - Approximate UDP Receive Delay
 ======================================
 
-.. contents::
-  :local:
-  :depth: 2
-  
 Materials
 ---------
 
@@ -19,7 +15,7 @@ This example uses Ameba to receive UDP packets from a computer and calculates th
 
 **Ameba Side**
 
-- Open the example in “File” -> “Examples” -> “WiFi” -> “UDP_Calculation” -> “UDP_CalculateReceiveDelay”.
+- Open the example in "File" -> "Examples" -> "WiFi" -> "UDP_Calculation" -> "UDP_CalculateReceiveDelay".
 
 - Modify the ssid, password and key index (optional). Compile and upload the code from the Arduino IDE to Ameba and press the reset button when the upload is complete. Ameba should connect to the same network as the computer.
 
@@ -31,11 +27,11 @@ This example uses Ameba to receive UDP packets from a computer and calculates th
 
 - Connect the computer to the network.
 
-- Download the “ReceiveDelay_win.exe” from https://github.com/Ameba-AIoT/ameba-arduino-d “Ameba_misc/Example_Tools/UDP_Calculate”.
+- Download the "ReceiveDelay_win.exe" from https://github.com/Ameba-AIoT/ameba-arduino-d "Ameba_misc/Example_Tools/UDP_Calculate".
 
 - Open Cygwin terminal.
 
-- Run command “./ReceiveDelay_win.exe <the client IP address>”.
+- Run command "./ReceiveDelay_win.exe <the client IP address>".
 
 |image01|
 
@@ -49,4 +45,4 @@ This example uses Ameba to receive UDP packets from a computer and calculates th
 .. |image02| image:: ../../../../_static/amebad/Example_Guides/WiFi/WiFi_Approximate_UDP_Receive_Delay/image02.png
    :width:  1025 px
    :height:  148 px
-   
+

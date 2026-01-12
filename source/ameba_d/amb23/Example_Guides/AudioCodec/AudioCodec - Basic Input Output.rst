@@ -1,10 +1,6 @@
 AudioCodec - Basic Input Output
 =================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -23,7 +19,7 @@ Connect the potentiometer, microphone and 3.5mm connector to the RTL8722 board f
 
 |image02|
 
-Open the example, “Files” -> “Examples” -> “AmebaAudioCodec” -> “BasicInputOutput”.
+Open the example, "Files" -> "Examples" -> "AmebaAudioCodec" -> "BasicInputOutput".
 
 |image04|
 

@@ -1,10 +1,6 @@
 TensorFlow Lite - Hello World
 =============================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -15,7 +11,7 @@ Materials
 Example
 -------
 
-Open the example, "Files" → "Examples" → “AmebaTensorFlowLite” → “hello_world”.
+Open the example, "Files" → "Examples" → "AmebaTensorFlowLite" → "hello_world".
 
 |image01|
 

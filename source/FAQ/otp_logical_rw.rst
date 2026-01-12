@@ -25,7 +25,7 @@ Make sure to include the header file:
 
    #include "otp_api_ext.h"
 
-**Notes & cautions** 
+**Notes & cautions**
 
 - OTP has a **limited number of writes**. Avoid repeatedly toggling between enable and disable.
 - It is **recommended to call these functions only after the firmware is finalized** and no further changes will be made.

@@ -1,10 +1,6 @@
 HTTP - Set up Server to Get the Ameba Status
 ================================================
 
-.. contents::
-  :local:
-  :depth: 2
-  
 Materials
 ---------
 
@@ -15,7 +11,7 @@ Example
 
 In this example, we connect Ameba to WiFi and use Ameba as server to send message to connected client.
 
-First, open  “File” -> “Examples” -> “WiFi” -> “WiFiWebServer”
+First, open  "File" -> "Examples" -> "WiFi" -> "WiFiWebServer"
 
 |image01|
 
@@ -61,7 +57,6 @@ Code Reference
 | https://www.arduino.cc/en/Reference/WiFiClientRead
 | Use client.stop() to disconnect from the server the client is connected to.
 | https://www.arduino.cc/en/Reference/WiFIClientStop
-
 
 .. |image01| image:: ../../../../_static/amebad/Example_Guides/HTTP/HTTP_Set_up_Server_to_Get_the_Ameba_Status/image01.png
    :width:  752 px

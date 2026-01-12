@@ -1,14 +1,10 @@
 7.5-inch e-Book with MicroSD card
 =================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 -  Waveshare E-Paper [7.5-inch E-Ink display HAT] x1
 
@@ -21,7 +17,7 @@ Materials
 Introduction
 ------------
 
-In this example, we will be connecting Ameba Pro2 board to Waveshare 7.5-inch e-Paper module to be used as an e-Book. The 7.5” active area contains 800 x 480 pixels and has 1-bit white/black full display capabilities. An integrated circuit contains gate buffer, source buffer, interface, timing control logic, oscillator, etc. are supplied with each panel. You may refer to [7.5inch-e-paper-specification] `https://www.waveshare.com/w/upload/6/60/7.5inch_e-Paper_V2_Specification.pdf <https://www.waveshare.com/w/upload/6/60/7.5inch_e-Paper_V2_Specification.pdf>`_ for more information about this e-Paper module.
+In this example, we will be connecting Ameba Pro2 board to Waveshare 7.5-inch e-Paper module to be used as an e-Book. The 7.5" active area contains 800 x 480 pixels and has 1-bit white/black full display capabilities. An integrated circuit contains gate buffer, source buffer, interface, timing control logic, oscillator, etc. are supplied with each panel. You may refer to [7.5inch-e-paper-specification] `https://www.waveshare.com/w/upload/6/60/7.5inch_e-Paper_V2_Specification.pdf <https://www.waveshare.com/w/upload/6/60/7.5inch_e-Paper_V2_Specification.pdf>`__ for more information about this e-Paper module.
 
 Procedure
 ---------
@@ -35,19 +31,19 @@ Do note that Display Config should be set to B and Interface Config should be se
 |image02|
 
 Next, download the Eink zip library, AmebaEink.zip, at `https://github.com/ambiot/ambpro2_arduino/tree/dev/Arduino_zip_libraries <https://github.com/ambiot/ambpro2_arduino/tree/dev/Arduino_zip_libraries>`_
-Then install the AmebaEink.zip by navigating to “Sketch” -> “Include Library” -> “Add .ZIP Library…”.
+Then install the AmebaEink.zip by navigating to "Sketch" -> "Include Library" -> "Add .ZIP Library…".
 
-After AmebaEink.zip is installed, Open the “Eink_7in5_Ebook” example by
-selecting “File” -> “Examples” -> “AmebaEink” -> “EPD_7in5” ->
-“Eink_7in5_Ebook”.
+After AmebaEink.zip is installed, Open the "Eink_7in5_Ebook" example by
+selecting "File" -> "Examples" -> "AmebaEink" -> "EPD_7in5" ->
+"Eink_7in5_Ebook".
 
 |image03|
 
-Next, insert the MicroSD card into your computer and create a new text file named “User_Ebook.txt”. Then, save the content that you would like to display in the text file (Note: do only include words). The contentof “User_Ebook.txt” shown below is for illustration purposes only.
+Next, insert the MicroSD card into your computer and create a new text file named "User_Ebook.txt". Then, save the content that you would like to display in the text file (Note: do only include words). The contentof "User_Ebook.txt" shown below is for illustration purposes only.
 
 |image04|
 
-|image05| 
+|image05|
 
 Alternatively, if you prefer another filename for your text file, you can modify the highlighted code snippet in the sketch with the new filename.
 
@@ -64,7 +60,7 @@ will be shown at the bottom right-hand corner as the page changes. You
 will see the following in either portrait or landscape mode based on
 your orientation choice after button is pressed:
 
-|image08| 
+|image08|
 
 |image09|
 

@@ -1,10 +1,6 @@
 Class USBHIDMouse
 =================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **USBHIDMouse Class**
 ---------------------
 
@@ -86,7 +82,7 @@ NA
 
 Example: `USBHIDMouse <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/USBHIDMouse/USBHIDMouse.ino>`_
 
-.. note :: “USBHIDMouse.h” must be included to use the class function.
+.. note :: "USBHIDMouse.h" must be included to use the class function.
 
 --------------------------
 
@@ -120,7 +116,7 @@ NA
 
 NA
 
-.. note :: “USBHIDMouse.h” must be included to use the class function.
+.. note :: "USBHIDMouse.h" must be included to use the class function.
 
 -----------------------------
 
@@ -166,7 +162,7 @@ NA
 
 NA
 
-.. note :: “USBHIDMouse.h” must be included to use the class function.
+.. note :: "USBHIDMouse.h" must be included to use the class function.
 
 ---------------------------
 
@@ -200,7 +196,7 @@ NA
 
 Example: `USBHIDMouse <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/USBHIDMouse/USBHIDMouse.ino>`_
 
-.. note :: “USBHIDMouse.h” must be included to use the class function.
+.. note :: "USBHIDMouse.h" must be included to use the class function.
 
 ---------------------------
 
@@ -234,7 +230,7 @@ NA
 
 Example: `USBHIDMouse <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/USBHIDMouse/USBHIDMouse.ino>`_
 
-.. note :: “USBHIDMouse.h” must be included to use the class function.
+.. note :: "USBHIDMouse.h" must be included to use the class function.
 
 ------------------------------
 
@@ -268,7 +264,7 @@ NA
 
 NA
 
-.. note :: “USBHIDMouse.h” must be included to use the class function.
+.. note :: "USBHIDMouse.h" must be included to use the class function.
 
 -----------------------------
 
@@ -304,7 +300,7 @@ NA
 
 Example: `USBHIDMouse <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/USBHIDMouse/USBHIDMouse.ino>`_
 
-.. note :: “USBHIDMouse.h” must be included to use the class function.
+.. note :: "USBHIDMouse.h" must be included to use the class function.
 
 ----------------------------
 
@@ -338,4 +334,4 @@ NA
 
 Example: `USBHIDMouse <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/USBHIDMouse/USBHIDMouse.ino>`_
 
-.. note :: “USBHIDMouse.h” must be included to use the class function.
+.. note :: "USBHIDMouse.h" must be included to use the class function.

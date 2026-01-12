@@ -1,10 +1,6 @@
 Class TwoWire
 =============
 
-.. contents::
-  :local:
-  :depth: 2
-
 **TwoWire Class**
 -----------------
 

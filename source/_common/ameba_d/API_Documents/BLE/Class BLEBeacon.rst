@@ -1,10 +1,6 @@
 Class BLEBeacon
 ===============
 
-.. contents::
-  :local:
-  :depth: 2
-
 **iBeacon Class**
 -----------------
 

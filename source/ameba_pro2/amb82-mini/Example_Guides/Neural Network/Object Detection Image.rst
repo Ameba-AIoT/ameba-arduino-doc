@@ -1,18 +1,14 @@
-Object Detection Image 
+Object Detection Image
 ======================
-
-.. contents::
-  :local:
-  :depth: 2
 
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 - SD Card x 1
 
-Example 
+Example
 -------
 
 In this example, we will be using Ameba Pro2 development board to detect 80 different kinds of objects such as person, bicycle, car, laptop on a single image saved on external SD card.
@@ -21,7 +17,7 @@ Open Object Detection Image example in "File" -> "Examples" -> "AmebaNN" -> "Obj
 
 |image01|
 
-Select Neural Network (NN) task and models using modelSelect() function highlighted in yellow. This function takes 4 arguments: Neural Network task, Object Detection model, Face Detection model and Face Recognition model. Replace with “NA_MODEL” if they are not necessary for your selected Neural Network task. Note that it is mandatory to call modelSelect() function before calling the begin() function.
+Select Neural Network (NN) task and models using modelSelect() function highlighted in yellow. This function takes 4 arguments: Neural Network task, Object Detection model, Face Detection model and Face Recognition model. Replace with "NA_MODEL" if they are not necessary for your selected Neural Network task. Note that it is mandatory to call modelSelect() function before calling the begin() function.
 
 Valid Neural Network task: ``OBJECT_DETECTION``
 
@@ -30,17 +26,17 @@ Valid Neural Network task: ``OBJECT_DETECTION``
 | YOLOv4 model: ``DEFAULT_YOLOV4TINY``, ``CUSTOMIZED_YOLOV4TINY``
 | YOLOv7 model: ``DEFAULT_YOLOV7TINY``, ``CUSTOMIZED_YOLOV7TINY``
 
-Choose the customized option (e.g., ``CUSTOMIZED_YOLOV4TINY``/ ``CUSTOMIZED_YOLOV7TINY``) if you would like to use your own NN model. To learn about the process of converting an AI model, refer to https://www.amebaiot.com/en/amebapro2-ai-convert-model/ . 
+Choose the customized option (e.g., ``CUSTOMIZED_YOLOV4TINY``/ ``CUSTOMIZED_YOLOV7TINY``) if you would like to use your own NN model. To learn about the process of converting an AI model, refer to https://www.amebaiot.com/en/amebapro2-ai-convert-model/ .
 
 Additionally, refer to https://www.amebaiot.com/en/amebapro2-apply-ai-model-docs/ to understand how to install and use the converted model.
 
-.. note :: 
-  For Yolov7 object detection training from pytorch, you will need to perform an additional step for reparameterization. 
+.. note ::
+  For Yolov7 object detection training from pytorch, you will need to perform an additional step for reparameterization.
 
-  For this reparameterization step, Realtek has provided two scripts in the folder Yolov7_reparam_scripts, 
+  For this reparameterization step, Realtek has provided two scripts in the folder Yolov7_reparam_scripts,
   under ~/NeuralNetwork/Yolov7_reparam_scripts.
-  
-  Command to run is: 
+
+  Command to run is:
   ``python reparam_yolov7-tiny.py -weights weights/best.pt -custom_yaml custom/yolov7-tiny-deploy.yaml -output best_reparam.pt``
 
 Next, create a text file named "image_list.txt" or rename it as you wish.

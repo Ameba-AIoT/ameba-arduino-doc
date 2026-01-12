@@ -1,10 +1,6 @@
 I2C - Display Data On LCD Screen
 ================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -29,7 +25,7 @@ An LCD display can be equipped with an additional processing chip to process the
 .. only:: amb21
 
 **AMB21 / AMB22** Wiring Diagram:
-  
+
 |image02|
 
 .. only:: end amb21
@@ -82,9 +78,9 @@ An LCD display can be equipped with an additional processing chip to process the
 
 .. only:: end amb26
 
-Open the example in ``“File” → “Examples” → “AmebaWire” → “LCD_HelloWorld”``.
+Open the example in ``"File" → "Examples" → "AmebaWire" → "LCD_HelloWorld"``.
 Compile and upload to Ameba, then press the reset button.
-Then you can see “Hello World” in the first line, and “Ameba” in the
+Then you can see "Hello World" in the first line, and "Ameba" in the
 second line displayed on the LCD screen.
 
 |image09|
@@ -93,7 +89,7 @@ After 8 seconds, you can input to the Serial Monitor the string you would like t
 
 |image10|
 
-For example, we enter “123456789” and press “Send”:
+For example, we enter "123456789" and press "Send":
 
 |image11|
 

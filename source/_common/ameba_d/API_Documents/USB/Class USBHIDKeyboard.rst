@@ -1,10 +1,6 @@
 Class USBHIDKeyboard
 ====================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **USBHIDKeyboard Class**
 ------------------------
 
@@ -95,7 +91,7 @@ NA
 
 Example: `USBHIDKeyboard <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/USBHIDKeyboard/USBHIDKeyboard.ino>`_
 
-.. note :: “USBHIDKeyboard.h” must be included to use the class function.
+.. note :: "USBHIDKeyboard.h" must be included to use the class function.
 
 -----------------------------
 
@@ -131,7 +127,7 @@ NA
 
 NA
 
-.. note :: “USBHIDKeyboard.h” must be included to use the class function.
+.. note :: "USBHIDKeyboard.h" must be included to use the class function.
 
 --------------------------------
 
@@ -165,7 +161,7 @@ NA
 
 NA
 
-.. note :: “USBHIDKeyboard.h” must be included to use the class function.
+.. note :: "USBHIDKeyboard.h" must be included to use the class function.
 
 -------------------------------------
 
@@ -205,7 +201,7 @@ NA
 
 NA
 
-.. note :: “USBHIDKeyboard.h” must be included to use the class function.
+.. note :: "USBHIDKeyboard.h" must be included to use the class function.
 
 ------------------------------
 
@@ -239,7 +235,7 @@ NA
 
 NA
 
-.. note :: “USBHIDKeyboard.h” must be included to use the class function.
+.. note :: "USBHIDKeyboard.h" must be included to use the class function.
 
 ----------------------------------------
 
@@ -273,7 +269,7 @@ NA
 
 Example: `USBHIDKeyboard <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/USBHIDKeyboard/USBHIDKeyboard.ino>`_
 
-.. note :: “USBHIDKeyboard.h” must be included to use the class function.
+.. note :: "USBHIDKeyboard.h" must be included to use the class function.
 
 ------------------------------------------
 
@@ -307,7 +303,7 @@ NA
 
 Example: `USBHIDKeyboard <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/USBHIDKeyboard/USBHIDKeyboard.ino>`_
 
-.. note :: “USBHIDKeyboard.h” must be included to use the class function.
+.. note :: "USBHIDKeyboard.h" must be included to use the class function.
 
 ------------------------------
 
@@ -341,7 +337,7 @@ NA
 
 NA
 
-.. note :: “USBHIDKeyboard.h” must be included to use the class function.
+.. note :: "USBHIDKeyboard.h" must be included to use the class function.
 
 -----------------------------------
 
@@ -375,7 +371,7 @@ NA
 
 Example: `USBHIDKeyboard <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/USBHIDKeyboard/USBHIDKeyboard.ino>`_
 
-.. note :: “USBHIDKeyboard.h” must be included to use the class function.
+.. note :: "USBHIDKeyboard.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -409,7 +405,7 @@ NA
 
 NA
 
-.. note :: “USBHIDKeyboard.h” must be included to use the class function.
+.. note :: "USBHIDKeyboard.h" must be included to use the class function.
 
 -----------------------------------
 
@@ -449,4 +445,4 @@ NA
 
 Example: `USBHIDKeyboard <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/USBHIDKeyboard/USBHIDKeyboard.ino>`_
 
-.. note :: “USBHIDKeyboard.h” must be included to use the class function.
+.. note :: "USBHIDKeyboard.h" must be included to use the class function.

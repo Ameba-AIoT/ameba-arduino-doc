@@ -1,24 +1,20 @@
 Customized AI Model Installation Guide
 ======================================
 
-.. contents::
-  :local:
-  :depth: 2
+After the AI model conversion and successful gets the ".nb" file, please refer to the following steps to apply into Arduino SDK.
 
-After the AI model conversion and successful gets the “.nb” file, please refer to the following steps to apply into Arduino SDK.
-
-Rename the customized “.nb” files
+Rename the customized ".nb" files
 ---------------------------------
 
-Objects Detection, “yolov3_tiny.nb”, “yolov4_tiny.nb”, or “yolov7_tiny.nb”.
+Objects Detection, "yolov3_tiny.nb", "yolov4_tiny.nb", or "yolov7_tiny.nb".
 
-Face Detection, “scrfd_500m_bnkps_640x640_u8.nb".
+Face Detection, "scrfd_500m_bnkps_640x640_u8.nb".
 
 Face Recognition, "mobilefacenet_int16.nb".
 
-Audio related, “yamnet_fp16.nb” or “yamnet_s_hybrid.nb”.
+Audio related, "yamnet_fp16.nb" or "yamnet_s_hybrid.nb".
 
-Copy/Replace “.nb” file into the project folder
+Copy/Replace ".nb" file into the project folder
 -----------------------------------------------
 
 For Windows user
@@ -26,7 +22,7 @@ For Windows user
 
 - C:\\Users\\\ **USERNAME**\\AppData\\Local\\Arduino15\\packages\\realtek\\hardware\\AmebaPro2\\\ **VERSION**\\libraries\\NeuralNetwork\\examples
 
-- Or user customized project folder with “.ino” file.
+- Or user customized project folder with ".ino" file.
 
 For Linux user
 ~~~~~~~~~~~~~~
@@ -34,7 +30,7 @@ For Linux user
 - \\home\\\ **USERNAME**\\.arduino15\\packages\\realtek\\hardware\\AmebaPro2\\\ **VERSION**
   \\libraries\\NeuralNetwork\\examples
 
-- Or user customized project folder with “.ino” file.
+- Or user customized project folder with ".ino" file.
 
 Compile and run examples
 ------------------------
@@ -47,22 +43,22 @@ For specific model selection please refer to the example guide and API documents
 - https://www.amebaiot.com/en/amebapro2-amb82-mini-arduino-peripherals-examples/#ambpro2-arduino-ai
 
 - https://www.amebaiot.com/en/rtl8735b-arduino-online-api-documents/
-    - “NeuralNetwork” section
+    - "NeuralNetwork" section
 
 Load Neural Network models via SD card
 --------------------------------------
 
-Open one of the Ameba Neural Network examples by navigating to “File” -> “Examples” -> “AmebaNN”. Let’s take ObjectDetectionCallback as an example.
+Open one of the Ameba Neural Network examples by navigating to "File" -> "Examples" -> "AmebaNN". Let’s take ObjectDetectionCallback as an example.
 
-After opening the example on Arduino IDE, navigate to “Tools” -> “NN Model Load from:” and select SD card as the option.
+After opening the example on Arduino IDE, navigate to "Tools" -> "NN Model Load from:" and select SD card as the option.
 
 |image01|
 
-Next, in the code under modelSelect function, simply change from “DEFAULT” to “CUSTOMIZED” for the model used.
+Next, in the code under modelSelect function, simply change from "DEFAULT" to "CUSTOMIZED" for the model used.
 
 |image02|
 
-In the SD card, create a folder name “NN_MDL” and save your models in the folder by naming your models as stated below,
+In the SD card, create a folder name "NN_MDL" and save your models in the folder by naming your models as stated below,
 
 |image03|
 

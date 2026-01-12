@@ -1,10 +1,6 @@
 Class OTA
 ==========
 
-.. contents::
-  :local:
-  :depth: 2
-
 **OTA Class**
 -------------
 
@@ -17,7 +13,7 @@ A class used for updating firmware Over the Air (OTA) in local area network.
 ~~~~~~~~~~
 
 .. code-block:: c++
-  
+
   class OTA
 
 **Members**
@@ -27,7 +23,7 @@ A class used for updating firmware Over the Air (OTA) in local area network.
 | **Public Constructors**                                                                   |
 +==============================================+============================================+
 | A public constructor should not be used as this class is intended to be a singleton class.|
-| Access member functions using the object instance named OTA.                              |                                  
+| Access member functions using the object instance named OTA.                              |
 +----------------------------------------------+--------------------------------------------+
 | **Public Methods**                                                                        |
 +----------------------------------------------+--------------------------------------------+
@@ -47,7 +43,7 @@ To begin threading tasks for OTA firmware update.
 ~~~~~~~~~~
 
 .. code-block:: c++
-  
+
   void start_OTA_threads(int port, char* server);
 
 **Parameters**
@@ -67,4 +63,4 @@ NA
 
 Example: `OTA <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/OTA/examples/OTA/OTA.ino>`_
 
-.. note :: “OTA.h” must be included to use the function.
+.. note :: "OTA.h" must be included to use the function.

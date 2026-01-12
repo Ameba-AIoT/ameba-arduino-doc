@@ -1,10 +1,6 @@
 RTSP Streaming V7RC
 ===================
 
-.. contents::
-  :local:
-  :depth: 2
-
 .. note ::
    |image_3rd_party| V7RC APP is a 3rd-party phone application provided and maintained by `V7RC.io <https://github.com/v7rc>`_
 
@@ -13,14 +9,14 @@ RTSP Streaming V7RC
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 - Android / iOS mobile phone x1
 
 Example
 -------
 In this example, the Ameba board is used to stream video from the on-board camera sensor (JXF37) to V7RC mobile app via RTSP (Real Time Streaming Protocol). V7RC is a remote controller APP that provides two kinds of control UI: 2 channels for RC cars, and 4 channels for tanks and bulldozers.
 
-Open the StreamRTSP example in “File” -> “Examples” -> “AmebaMultimedia” -> “StreamRTSP” -> “V7RC”.
+Open the StreamRTSP example in "File" -> "Examples" -> "AmebaMultimedia" -> "StreamRTSP" -> "V7RC".
 
 |image01|
 
@@ -28,7 +24,7 @@ Since the video receiving end is mobile devices, in the highlighted code snippet
 
 |image02|
 
-Fill in the “ssid” with your WiFi network SSID and “pass” with the network password. Since the video streaming receiving end is mobile phone, it is suggested to use 5G network to features lower latency, higher capacity, and more bandwidth, that provides better video streaming quality.
+Fill in the "ssid" with your WiFi network SSID and "pass" with the network password. Since the video streaming receiving end is mobile phone, it is suggested to use 5G network to features lower latency, higher capacity, and more bandwidth, that provides better video streaming quality.
 
 Compile and Upload. After pressing the Reset button, wait for the board to connect to the Wi-Fi network. The board’s IP address and network port number for RTSP will be shown in the Serial Monitor.
 
@@ -40,11 +36,11 @@ Download V7RC APP from the links provided below.
 
 • iOS Users: https://apps.apple.com/nz/app/v7rc/id1390983964
 
-Upon the completion of the APP installation to the device, make sure the smart device is connected to the same network as the Ameba board for streaming. Open V7RC APP and select “Control Centre”:
+Upon the completion of the APP installation to the device, make sure the smart device is connected to the same network as the Ameba board for streaming. Open V7RC APP and select "Control Centre":
 
 |image04|
 
-Under NETWORK section, select “WIFI”. Under CAMERA section select “RTSP”. Since RTSP is used as the streaming protocol, key in “rtsp://{IPaddress}:{port}” as the Network URL in V7RC in the text box below CAMERA section, replacing {IPaddress} with the IP address of Ameba board, and {port} with the RTSP port shown in Serial Monitor. The default RTSP port number is 554. In the case of two simultaneous RTSP streams, the second port number defaults to 555. Lastly, click the “Save” button and return to the home page:
+Under NETWORK section, select "WIFI". Under CAMERA section select "RTSP". Since RTSP is used as the streaming protocol, key in "rtsp://{IPaddress}:{port}" as the Network URL in V7RC in the text box below CAMERA section, replacing {IPaddress} with the IP address of Ameba board, and {port} with the RTSP port shown in Serial Monitor. The default RTSP port number is 554. In the case of two simultaneous RTSP streams, the second port number defaults to 555. Lastly, click the "Save" button and return to the home page:
 
 |image05|
 

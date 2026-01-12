@@ -1,10 +1,6 @@
 Ameba Over-the-Air Firmware Update via HTTP
 ===========================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -17,7 +13,7 @@ Example
 Compile and Upload OTA Example
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In this example, we use a web UI to upload firmware to one or more AmebaD boards. 
+In this example, we use a web UI to upload firmware to one or more AmebaD boards.
 
 For the instructions to set up web UI for AmebaD OTA: Web UI, please click into the link below and perform the steps as shown in the ``README.md``. [https://github.com/Ameba-AioT/ameba-OTA-UI]
 
@@ -25,7 +21,7 @@ If Ameba OTA Web UI is set up successfully in your PC, you will see the webpage 
 
 |image01|
 
-To begin, open the OTA example in Arduino IDE. “File” -> “Examples” -> “AmebaOTA” -> “OTA_Http”.
+To begin, open the OTA example in Arduino IDE. "File" -> "Examples" -> "AmebaOTA" -> "OTA_Http".
 
 |image02|
 
@@ -34,7 +30,7 @@ Please also modify the SSID and password according to your AP.
 
 |image03|
 
-Now, compile and upload this example into each and every board that you have. It can be one board or multiple boards (we will be using two AmebaD boards in this example guide). 
+Now, compile and upload this example into each and every board that you have. It can be one board or multiple boards (we will be using two AmebaD boards in this example guide).
 
 This set up must be done at least once to allow the OTA thread API to be called for the first time. For subsequent firmware updates, as long as ``OTA.h`` is included and ``start_ota_threads`` API is called in the setup function, you do not need to re-upload the code manually.
 
@@ -48,21 +44,21 @@ Once uploaded, press reset button and get the IP address of the individual Ameba
 
 |image05|
 
-Then, go to Ameba OTA Web UI [http://localhost:3000/] to view the connected device(s). 
+Then, go to Ameba OTA Web UI [http://localhost:3000/] to view the connected device(s).
 
 |image06|
 
-If you can see the IP address(es) of your AmebaD board(s) on the OTA webpage, it shows that the connection is successful. 
+If you can see the IP address(es) of your AmebaD board(s) on the OTA webpage, it shows that the connection is successful.
 
 For the steps below, you may disconnect AmebaD from your PC and power up the board with any stable 5V DC power source. The overall connection map of this example guide is shown in the figure below.
 
 |image07|
 
-In this tutorial, we will be uploading a NTPClient sketch via OTA.  Open the NTPClient example. "File" -> "Examples" -> "NTPClient" -> "Basic". Include the header file ``OTA.h`` and at the end of setup function, add in the API ``start_OTA_threads();``. Also modify the SSID and password according to your AP. Your PC and AMB82 Mini should be connecting to the same local network. Refer to the picture below for the modified NTPClient sketch. 
+In this tutorial, we will be uploading a NTPClient sketch via OTA.  Open the NTPClient example. "File" -> "Examples" -> "NTPClient" -> "Basic". Include the header file ``OTA.h`` and at the end of setup function, add in the API ``start_OTA_threads();``. Also modify the SSID and password according to your AP. Your PC and AMB82 Mini should be connecting to the same local network. Refer to the picture below for the modified NTPClient sketch.
 
 |image08|
 
-Compile the modified NTPClient sketch, DO NOT upload after compilation. 
+Compile the modified NTPClient sketch, DO NOT upload after compilation.
 
 Priority matters:  Kindly take note that AmebaD will only boot with the latest compiled firmware.
 
@@ -83,7 +79,7 @@ Generate OTA Image
 
 5. Click Browse button to select target images to be converted to an OTA binary. The address can be ignored. The Memory Layout bar will show the relative positions of the two images. If they overlap, the overlapped area is in red colour for warning.
 
-6. Click Generate button to specify the name and path of the output file. After the operation is done, the OTA image ``OTA_All.bin`` is generated at your specified folder. 
+6. Click Generate button to specify the name and path of the output file. After the operation is done, the OTA image ``OTA_All.bin`` is generated at your specified folder.
 
 .. note :: We recommend placing it in the default tools folder for Arduino Ameba. When navigating to the designated tools folder on your target operating system, create a new folder called "misc" and put the OTA image ``OTA_All.bin`` within it.
 
@@ -109,7 +105,7 @@ Click Start OTA to begin OTA transfer. You will see the change of OTA state whil
 
 |image12|
 
-The board will automatically reboot with the OTA transferred firmware (i.e. modified NTPClient in this example) once download progress is completed. 
+The board will automatically reboot with the OTA transferred firmware (i.e. modified NTPClient in this example) once download progress is completed.
 
 You will see the output generated on serial monitor after reboot.
 

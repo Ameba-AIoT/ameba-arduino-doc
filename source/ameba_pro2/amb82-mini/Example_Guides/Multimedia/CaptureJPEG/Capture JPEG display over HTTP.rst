@@ -1,14 +1,10 @@
 Capture JPEG display over HTTP
 ==============================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 Example
 -------
@@ -16,13 +12,13 @@ Example
 In this example, we will be using Ameba Pro2 development board to capture a JPEG image and send the image to a browser using HTTP.
 The following examples shows different use cases of capturing JPEG images.
 
-For the “HTTPDisplayJPEG” example, use any browser and key in the IP address of the board in browser’s address bar after the board is connected to the WiFi to view the image.
+For the "HTTPDisplayJPEG" example, use any browser and key in the IP address of the board in browser’s address bar after the board is connected to the WiFi to view the image.
 
-Open the example in “File” -> “Examples” -> “AmebaMultimedia” -> “CaptureJPEG” -> “HTTPDisplayJPEG”.
+Open the example in "File" -> "Examples" -> "AmebaMultimedia" -> "CaptureJPEG" -> "HTTPDisplayJPEG".
 
 |image01|
 
-In the highlighted code snippet, fill in the “ssid” with your WiFi network SSID and “pass” with the network password.
+In the highlighted code snippet, fill in the "ssid" with your WiFi network SSID and "pass" with the network password.
 
 |image02|
 

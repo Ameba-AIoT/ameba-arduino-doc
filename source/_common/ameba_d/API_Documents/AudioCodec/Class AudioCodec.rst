@@ -1,9 +1,5 @@
-Class AudioCodec 
+Class AudioCodec
 ================
-
-.. contents::
-  :local:
-  :depth: 2
 
 **AudioCodec Class**
 --------------------
@@ -11,18 +7,15 @@ Class AudioCodec
 **Description**
 ~~~~~~~~~~~~~~~
 
-
 A class used for general control and management of the hardware audio
 codec functions.
 
 **Syntax**
 ~~~~~~~~~~
 
-
 .. code:: c++
 
     class AudioCodec
-    
 
 **Members**
 ~~~~~~~~~~~
@@ -127,7 +120,7 @@ NA
 
 Example: `BasicInputOutput <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/BasicInputOutput/BasicInputOutput.ino>`_
 
-.. note :: “AudioCodec.h” must be included to use the class function.
+.. note :: "AudioCodec.h" must be included to use the class function.
 
 **AudioCodec::end**
 -------------------
@@ -157,7 +150,7 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-.. note :: “AudioCodec.h” must be included to use the class function.
+.. note :: "AudioCodec.h" must be included to use the class function.
 
 **AudioCodec::getBufferPageSize**
 ---------------------------------
@@ -169,7 +162,6 @@ Get byte size per page, and default value is 1024 bytes.
 
 **Syntax**
 ~~~~~~~~~~
-
 
 .. code:: c++
 
@@ -191,7 +183,7 @@ This function returns the size per page, in number of bytes (default: 1024).
 NA
 
 .. note :: The AudioCodec class includes a Tx and Rx buffer for storing audio sample data while it is being transferred to and from the DAC output and ADC input. The buffer is divided into fixed-size pages, allowing audio data to be read and written one page at a time. A buffer page may contain a different number of audio samples depending on the bit depth (bits per audio sample) and channel count set.
-    “AudioCodec.h” must be included to use the class function.
+    "AudioCodec.h" must be included to use the class function.
 
 **AudioCodec::setSampleRate**
 
@@ -223,7 +215,7 @@ NA
 Example: `BasicInputOutput <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/BasicInputOutput/BasicInputOutput.ino>`_
 
 .. note :: Higher sample rates beyond 48000Hz will require more frequent buffer read and write operations to keep up with the large amount of data input and output. If there is insufficient processing time dedicated to this task, audio quality will be degraded.
-    “AudioCodec.h” must be included to use the class function.
+    "AudioCodec.h" must be included to use the class function.
 
 **AudioCodec::setBitDepth**
 ---------------------------
@@ -260,7 +252,7 @@ NA
 NA
 
 .. note :: Setting a bit depth of 24 bits per sample will require 32 bits (4 bytes) of buffer space for storing each sample, with the most significant byte ignored.
-    “AudioCodec.h” must be included to use the class function.
+    "AudioCodec.h" must be included to use the class function.
 
 **AudioCodec::setChannelCount**
 -------------------------------
@@ -295,7 +287,7 @@ NA
 
 Example: `PlaybackWavFile <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/PlaybackWavFile/PlaybackWavFile.ino>`_
 
-.. note :: “AudioCodec.h” must be included to use the class function.
+.. note :: "AudioCodec.h" must be included to use the class function.
 
 **AudioCodec::setInputMicType**
 -------------------------------
@@ -332,7 +324,7 @@ NA
 
 .. note :: For analog single-ended output, connect to PA_4 for the left channel and PA_2 for the right channel.
     For digital PDM output, connect the PDM clock to PB_1 and PDM data to PB_2.
-    “AudioCodec.h” must be included to use the class function.
+    "AudioCodec.h" must be included to use the class function.
 
 **AudioCodec::setInputLRMux**
 -----------------------------
@@ -371,7 +363,7 @@ NA
 
 .. note :: In mono channel mode, by selecting RX_CH_LR or RX_CH_LL will result in getting sampling input data from the left channel of the microphone while by selecting RX_CH_RL or RX_CH_RR will result in getting sampling input data from the right channel of the microphone.
     In stereo channel mode, RX_CH_RL will switch the positions of input data sampled from the microphones. RX_CH_RR and RX_CH_LL will result in duplicated samples from the right and left microphones respectively.
-    “AudioCodec.h” must be included to use the class function.
+    "AudioCodec.h" must be included to use the class function.
 
 **AudioCodec::setDMicBoost**
 ----------------------------
@@ -410,7 +402,7 @@ NA
 
 NA
 
-.. note :: “AudioCodec.h” must be included to use the class function.
+.. note :: "AudioCodec.h" must be included to use the class function.
 
 **AudioCodec::setAMicBoost**
 ----------------------------
@@ -449,8 +441,8 @@ NA
 
 NA
 
-.. note :: Only use this function if additional gain is required after using setADCGain function. 
-    “AudioCodec.h” must be included to use the class function.
+.. note :: Only use this function if additional gain is required after using setADCGain function.
+    "AudioCodec.h" must be included to use the class function.
 
 **AudioCodec::setADCGain**
 --------------------------
@@ -490,7 +482,7 @@ NA
 
 NA
 
-.. note :: “AudioCodec.h” must be included to use the class function.
+.. note :: "AudioCodec.h" must be included to use the class function.
 
 **AudioCodec::muteInput**
 -------------------------
@@ -523,7 +515,7 @@ NA
 
 NA
 
-.. note :: “AudioCodec.h” must be included to use the class function.
+.. note :: "AudioCodec.h" must be included to use the class function.
 
 **AudioCodec::setOutputVolume**
 -------------------------------
@@ -556,7 +548,7 @@ Na
 
 Example: `BasicInputOutput <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/BasicInputOutput/BasicInputOutput.ino>`_
 
-.. note :: “AudioCodec.h” must be included to use the class function.
+.. note :: "AudioCodec.h" must be included to use the class function.
 
 **AudioCodec::muteOutput**
 --------------------------
@@ -589,7 +581,7 @@ NA
 
 NA
 
-.. note :: “AudioCodec.h” must be included to use the class function.
+.. note :: "AudioCodec.h" must be included to use the class function.
 
 **AudioCodec::writeAvaliable**
 ------------------------------
@@ -621,7 +613,7 @@ This function returns true if there is a data buffer available for writing data.
 
 Example: `BasicInputOutput <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/BasicInputOutput/BasicInputOutput.ino>`_
 
-.. note :: “AudioCodec.h” must be included to use the class function.
+.. note :: "AudioCodec.h" must be included to use the class function.
 
 **AudioCodec::writeDataPage**
 -----------------------------
@@ -655,7 +647,7 @@ This function returns the total number of audio samples written to the Audio Cod
 
 Example: `BasicInputOutput <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/BasicInputOutput/BasicInputOutput.ino>`_
 
-.. note :: “AudioCodec.h” must be included to use the class function.
+.. note :: "AudioCodec.h" must be included to use the class function.
 
 **AudioCodec::readAvaliable**
 -----------------------------
@@ -687,7 +679,7 @@ This function returns true if there is a data buffer with new data to be read. I
 
 Example: `BasicInputOutput <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/BasicInputOutput/BasicInputOutput.ino>`_
 
-.. note :: “AudioCodec.h” must be included to use the class function.
+.. note :: "AudioCodec.h" must be included to use the class function.
 
 **AudioCodec::readDataPage**
 ----------------------------
@@ -721,7 +713,7 @@ This function returns the total number of audio samples read from Audio Codec if
 
 Example: `BasicInputOutput <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/BasicInputOutput/BasicInputOutput.ino>`_
 
-.. note :: “AudioCodec.h” must be included to use the class function.
+.. note :: "AudioCodec.h" must be included to use the class function.
 
 **AudioCodec::setWriteCallback**
 --------------------------------
@@ -754,7 +746,7 @@ NA
 NA
 
 .. note :: After starting the Audio Codec with AudioCodec::begin(), the callback function will be called each time the Audio Codec finishes outputting the data in a buffer page.
-    “AudioCodec.h” must be included to use the class function.
+    "AudioCodec.h" must be included to use the class function.
 
 **AudioCodec::setReadCallback**
 -------------------------------
@@ -787,7 +779,7 @@ NA
 NA
 
 .. note :: After starting the Audio Codec with AudioCodec::begin(), the callback function will be called each time the Audio Codec fills up a buffer page with newly acquired audio samples.
-    “AudioCodec.h” must be included to use the class function.
+    "AudioCodec.h" must be included to use the class function.
 
 **AudioCodec::amplifyReadData**
 -------------------------------

@@ -1,10 +1,6 @@
 MediaPipe Holistic Landmarker
 =============================
 
-.. contents::
-  :local:
-  :depth: 2
-
 .. note ::
    |image_3rd_party| "Text-to-Speech" is jointly developed by RTKSG SD3 and `ChungYi Fu (Kaohsiung, Taiwan) <https://github.com/fustyles>`_
 
@@ -13,14 +9,14 @@ MediaPipe Holistic Landmarker
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
-Example 
+Example
 -------
 
 In this example, we will be using Ameba Pro2 development board to stream JPEG using HTTP and apply MediaPipe Holistic Landmarker on the streaming page.
 
-Open MediaPipe Holistic Landmarker example in “File” -> “Examples” -> “AmebaNN” -> “MultimediaAI” -> "MediaPipe_Holistic_Landmarker".
+Open MediaPipe Holistic Landmarker example in "File" -> "Examples" -> "AmebaNN" -> "MultimediaAI" -> "MediaPipe_Holistic_Landmarker".
 
 |image01|
 

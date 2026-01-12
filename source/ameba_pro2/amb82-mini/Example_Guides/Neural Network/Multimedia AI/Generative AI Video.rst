@@ -1,10 +1,6 @@
 Generative AI Video
 ====================
 
-.. contents::
-  :local:
-  :depth: 2
-
 .. note ::
    |image_3rd_party| "Generative AI Video" is jointly developed by RTKSG SD3 and `ChungYi Fu (Kaohsiung, Taiwan) <https://github.com/fustyles>`_
 
@@ -13,7 +9,7 @@ Generative AI Video
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 - MicroSD card
 
@@ -21,7 +17,7 @@ Materials
 
 - 220 ohm resistor x1
 
-Example 
+Example
 -------
 
 GenAIVideo
@@ -50,7 +46,7 @@ Open the serial monitor to view the logs.
 
 Press button once, recording will start after 3 seconds of blue LED blinking, you will record the background and sound of your surrounding within the pre-defined duration.
 
-Once the recording is done, it will be saved as a MP4 and sent to online Gemini server. 
+Once the recording is done, it will be saved as a MP4 and sent to online Gemini server.
 
 Response from Gemini will be printed out on serial monitor.
 

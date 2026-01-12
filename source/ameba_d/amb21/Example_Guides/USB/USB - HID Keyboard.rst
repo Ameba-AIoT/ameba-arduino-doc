@@ -1,10 +1,6 @@
 USB - HID Keyboard
 ===================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -17,7 +13,7 @@ Example
 
 In this example, the RTL8722 board emulates a HID keyboard connected using USB.
 
-Open the example, “Files” -> “Examples” -> “AmebaUSB” -> “USBHIDKeyboard”.
+Open the example, "Files" -> "Examples" -> "AmebaUSB" -> "USBHIDKeyboard".
 
 |image01|
 
@@ -27,7 +23,7 @@ Connect the USB OTG port on the board to the host device. Refer to the example g
 
 The board is ready to send keyboard input to the host device. Select a text input field, such as in the Serial Monitor or a text document. Connect digital pin 8 to 3.3V to start sending keystrokes, connect to GND to stop.
 
-You should see the text “Hello World!” typed out and deleted repeatedly.
+You should see the text "Hello World!" typed out and deleted repeatedly.
 
 |image02|
 

@@ -1,14 +1,10 @@
 Capture JPEG Timelapse save to SD Card
 ======================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 - SD card x 1
 
 Example
@@ -19,13 +15,13 @@ The following examples shows different use cases for saving JPEG image to SD car
 1. SDCardSaveJPEGTimelapse
 2. SDCardSaveJPEGTimelapseWithNTPClient
 
-Open one of the CaptureJPEG examples in “File” -> “Examples” -> “AmebaMultimedia” -> ”CaptureJPEG” -> “SDCardSaveJPEGTimelapse”.
+Open one of the CaptureJPEG examples in "File" -> "Examples" -> "AmebaMultimedia" -> "CaptureJPEG" -> "SDCardSaveJPEGTimelapse".
 
-|image01| 
+|image01|
 
 Compile the code and upload it to Ameba. After pressing the Reset button, the Ameba Pro 2 board will start taking snapshot and save to SD card.
 
-The **SDCardSaveJPEGTimelapse** example will take a snapshot every second and save them on the SD card with the filename ”imageX.jpg”, where X is a number incrementing with each image.
+The **SDCardSaveJPEGTimelapse** example will take a snapshot every second and save them on the SD card with the filename "imageX.jpg", where X is a number incrementing with each image.
 
 The **SDCardSaveJPEGTimelapseWithNTPClient** example is incorporated with NTPClient to be able to set the last modified time after images are saved to the SD Card.
 

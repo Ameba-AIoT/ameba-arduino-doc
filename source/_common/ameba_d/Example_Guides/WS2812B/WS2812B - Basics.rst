@@ -1,10 +1,6 @@
 WS2812B - Basics
 ================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -17,7 +13,7 @@ Example
 **Introduction**
 ~~~~~~~~~~~~~~~~
 
-In this example, we will be using the AmebaD board to control the WS2812B RGB LED, using the SPI peripheral to create the waveform necessary for the LEDs. 
+In this example, we will be using the AmebaD board to control the WS2812B RGB LED, using the SPI peripheral to create the waveform necessary for the LEDs.
 
 WS2812B basics allows you to control a single LED with a color or fill all the LED with the same color.
 
@@ -29,7 +25,7 @@ Firstly, connect the WS2812B to the Ameba board as shown in the following diagra
 .. only:: amb21
 
 **AMB21 / AMB22** Wiring Diagram:
-  
+
 |image01|
 
 .. only:: end amb21
@@ -84,7 +80,7 @@ Firstly, connect the WS2812B to the Ameba board as shown in the following diagra
 
 To light up one individual LED or multiple LEDs with the same color, use **WS2812B_Basics**.
 
-Open the example in ``“File” → “Example” → “AmebaWS2812B” → “WS2812B_Basics”``
+Open the example in ``"File" → "Example" → "AmebaWS2812B" → "WS2812B_Basics"``
 
 |image08|
 

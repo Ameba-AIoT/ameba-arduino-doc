@@ -1,14 +1,10 @@
 HTTP Post MP4
 =============
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 -  PushButton x1
 
@@ -35,13 +31,13 @@ Connect the pushbutton and resistor to AMB82 Mini as shown below.
 
 |image02|
 
-Open “File”-> “Examples” -> “AmebaHTTP” -> “HTTP_Post_MP4_Whisper_Server” OR “RecordMP4_HTTP_Post_Whisper_Server”.
+Open "File"-> "Examples" -> "AmebaHTTP" -> "HTTP_Post_MP4_Whisper_Server" OR "RecordMP4_HTTP_Post_Whisper_Server".
 
 |image03|
 
 Compile and run the code.
 
-Set up the http server by locating the python script called “whisper_llm_server.py” in src folder. Go to command prompt and go to the src folder and execute this command: python3 whisper_llm_server.py. Follow the readme in the python script.
+Set up the http server by locating the python script called "whisper_llm_server.py" in src folder. Go to command prompt and go to the src folder and execute this command: python3 whisper_llm_server.py. Follow the readme in the python script.
 
 The files are located in the libraries/Http/src directory. You will need to navigate to this folder before running the Python command as shown in the example.
 
@@ -52,7 +48,7 @@ to use a more powerful model such as MediaTek 7B model, you will need a
 PC with a powerful GPU to test. Purely CPU will not be able to run that
 model.
 
-Please note that this server can only be run on Linux OS. Mac OS and Windows have not been supported yet.
+.. note:: This server can only be run on Linux OS. Mac OS and Windows have not been supported yet.
 
 |image05|
 

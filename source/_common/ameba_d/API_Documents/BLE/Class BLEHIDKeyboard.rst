@@ -1,10 +1,6 @@
 Class BLEHIDKeyboard
 ====================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **BLEHIDKeyboard Class**
 ------------------------
 

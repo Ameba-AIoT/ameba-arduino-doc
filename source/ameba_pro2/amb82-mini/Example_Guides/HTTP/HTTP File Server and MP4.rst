@@ -1,14 +1,10 @@
 HTTP File Server and MP4
 ========================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 -  MicroSD card x1
 
@@ -17,7 +13,7 @@ Example
 
 In this example, we will use AmebaPro2 development board to establish a file server for mp4 recordings access.
 
-Open “File” -> “Examples” -> “AmebaHttp” -> “Http_fs_mp4”.
+Open "File" -> "Examples" -> "AmebaHttp" -> "Http_fs_mp4".
 
 |image01|
 
@@ -44,7 +40,7 @@ You may follow the instruction shown to download the mp4 recordings from AMB82 M
 .. |image01| image:: ../../../../_static/amebapro2/Example_Guides/HTTP/HTTP_FS_MP4/image01.png
    :width: 799 px
    :height: 812 px
-   
+
 .. |image02| image:: ../../../../_static/amebapro2/Example_Guides/HTTP/HTTP_FS_MP4/image02.png
    :width: 879 px
    :height: 332 px
@@ -52,7 +48,7 @@ You may follow the instruction shown to download the mp4 recordings from AMB82 M
 .. |image03| image:: ../../../../_static/amebapro2/Example_Guides/HTTP/HTTP_FS_MP4/image03.png
    :width: 803 px
    :height: 224 px
-   
+
 .. |image04| image:: ../../../../_static/amebapro2/Example_Guides/HTTP/HTTP_FS_MP4/image04.png
    :width: 609 px
    :height: 261 px

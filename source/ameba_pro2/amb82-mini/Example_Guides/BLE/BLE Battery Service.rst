@@ -1,14 +1,10 @@
 BLE Battery Service
 ===================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
--  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+-  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 -  Android / iOS mobile phone
 
@@ -53,8 +49,8 @@ less features:
 
 -  iOS : https://apps.apple.com/us/app/lightblue/id557428110
 
-Open the example, "Files" -> "Examples" -> “AmebaBLE” ->
-“BLEBatteryService”.
+Open the example, "Files" -> "Examples" -> "AmebaBLE" ->
+"BLEBatteryService".
 
 |image01|
 
@@ -63,7 +59,7 @@ finished.
 
 On your mobile phone, open the Bluetooth app and scan for the Bluetooth
 signal broadcast by Ameba, it should appear as a device named
-“AMEBA_BLE_DEV”.
+"AMEBA_BLE_DEV".
 
 |image02|
 

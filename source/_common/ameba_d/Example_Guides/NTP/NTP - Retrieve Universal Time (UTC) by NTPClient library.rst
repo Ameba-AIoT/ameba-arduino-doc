@@ -1,10 +1,6 @@
 NTP - Retrieve Universal Time (UTC) by NTPClient library
 ========================================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -13,8 +9,8 @@ Materials
 Example
 -------
 
-In this example, we use an NTP client to sync with NTP servers using UDP and keep track of time locally. 
-Open the example. “File” → “Examples”→ “NTPClient” → “Advanced”
+In this example, we use an NTP client to sync with NTP servers using UDP and keep track of time locally.
+Open the example. "File" → "Examples"→ "NTPClient" → "Advanced"
 
 |image01|
 
@@ -26,23 +22,22 @@ Compile the code and upload it to Ameba. After pressing the Reset button, Ameba 
 
 |image03|
 
-
 **Code Reference**
 
-| Configure NTP client: 
+| Configure NTP client:
 | The NTPClient needs to use a UDP client for
   communications. A WiFiUDP client is declared and passed to the NTPClient
   constructor, along with an NTP server address, time zone offset in
   seconds, and update interval in milliseconds. If detailed configuration
   is not needed, just passing in the UDP client is also sufficient, refer
-  to the “NTPClient” → “Basic” example.
+  to the "NTPClient" → "Basic" example.
 
 .. code-block:: c
 
    WiFiUDP ntpUDP;
    NTPClient timeClient(ntpUDP, "europe.pool.ntp.org", 3600, 60000);
 
-| Start NTP client: 
+| Start NTP client:
 | After connecting to WiFi, the NTPClient is started
   using the ``begin()`` function, which causes the client to sync with the NTP
   server and get the UTC time.
@@ -52,7 +47,7 @@ Compile the code and upload it to Ameba. After pressing the Reset button, Ameba 
    WiFiUDP ntpUDP;
    timeClient.begin();
 
-| Get local time: 
+| Get local time:
 | ``getFormattedTime()`` is used to format the received UTC
   time into the local time zone. ``update()`` is called every loop so that the
   NTPClient will sync with the NTP server once every update interval.

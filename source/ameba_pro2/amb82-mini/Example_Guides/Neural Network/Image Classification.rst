@@ -1,21 +1,17 @@
 Image Classification
 ====================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
-Example 
+Example
 -------
 
 In this example, we will be using Ameba Pro2 development board to identify images and perform classification.
 
-Open image classification example in “File” -> “Examples” -> “AmebaNN” -> “RTSPImageClassification”.
+Open image classification example in "File" -> "Examples" -> "AmebaNN" -> "RTSPImageClassification".
 
 |image01|
 
@@ -23,11 +19,11 @@ If the model was trained with metadata, set USE_MODEL_META_DATA_EN to 1.
 
 |image02|
 
-In the highlighted code snippet, fill in the “ssid” with your WiFi network SSID and “pass” with the network password.
+In the highlighted code snippet, fill in the "ssid" with your WiFi network SSID and "pass" with the network password.
 
 |image03|
 
-Select Neural Network (NN) task and models using modelSelect() function highlighted in a red box. This function takes 6 arguments: Neural Network task, Object Detection model, Face Detection model and Face Recognition model, Audio Classification model and Image Classification model. Replace with “NA_MODEL” if they are not necessary for your selected Neural Network task. Note that it is mandatory to call modelSelect() function before calling the begin() function.
+Select Neural Network (NN) task and models using modelSelect() function highlighted in a red box. This function takes 6 arguments: Neural Network task, Object Detection model, Face Detection model and Face Recognition model, Audio Classification model and Image Classification model. Replace with "NA_MODEL" if they are not necessary for your selected Neural Network task. Note that it is mandatory to call modelSelect() function before calling the begin() function.
 
 Valid Neural Network task: OBJECT_DETECTION, FACE_DETECTION, FACE_RECOGNITION, AUDIO_CLASSIFICATION, IMAGE_CLASSIFICATION
 
@@ -59,13 +55,13 @@ Compile the code and upload it to Ameba. After pressing the Reset button, wait f
 
 The live feed capture from Ameba Pro2 board's camera sensor can be viewed on VLC media player. You may download VLC media player from the link `here <https://www.videolan.org/vlc/>`__.
 
-Upon the completion of the software installation, open VLC media player, and go to “Media” -> “Open Network Stream”.
+Upon the completion of the software installation, open VLC media player, and go to "Media" -> "Open Network Stream".
 
 |image05|
 
-Make sure your PC is connected to the same network as the Ameba Pro2 board for streaming. Since RTSP is used as the streaming protocol, key in `“rtsp://{IPaddress}:{port}”` as the Network URL in VLC media player, replacing {IPaddress} with the IP address of your Ameba Pro2 board, and {port} with the RTSP port shown in Serial Monitor `(e.g., “rtsp://192.168.1.154:554”)`. The default RTSP port number is 554.
+Make sure your PC is connected to the same network as the Ameba Pro2 board for streaming. Since RTSP is used as the streaming protocol, key in `"rtsp://{IPaddress}:{port}"` as the Network URL in VLC media player, replacing {IPaddress} with the IP address of your Ameba Pro2 board, and {port} with the RTSP port shown in Serial Monitor `(e.g., "rtsp://192.168.1.154:554")`. The default RTSP port number is 554.
 
-Next, click “Play” to start RTSP streaming to see the result. The video stream from the camera will be shown in VLC media player.
+Next, click "Play" to start RTSP streaming to see the result. The video stream from the camera will be shown in VLC media player.
 
 |image06|
 
@@ -77,7 +73,7 @@ Custom CNN Model (e.g Sequential):  Without metadata and can classify various ty
 
 |image08|
 
-MobileNetV2 Model: With metadata which can classify types of flowers such as Daisy, Lavender, Lily, Rose and Sunflower. 
+MobileNetV2 Model: With metadata which can classify types of flowers such as Daisy, Lavender, Lily, Rose and Sunflower.
 
 |image09|
 

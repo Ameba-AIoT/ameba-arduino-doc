@@ -1,10 +1,6 @@
 Class StreamIO
 ==============
 
-.. contents::
-  :local:
-  :depth: 2
-
 **StreamIO Class**
 ------------------
 

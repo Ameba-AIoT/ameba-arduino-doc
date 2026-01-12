@@ -1,10 +1,6 @@
 Arduino-build-in example
 ========================
 
-.. contents::
-  :local:
-  :depth: 2
-
 AW_CU488 Supported ARDUINO built-in example table
 -------------------------------------------------
 

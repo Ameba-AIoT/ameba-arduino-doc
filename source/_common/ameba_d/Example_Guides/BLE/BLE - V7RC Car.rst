@@ -1,10 +1,6 @@
 BLE - V7RC Car
 ==============
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -29,21 +25,21 @@ Procedure
 
 1.	Establish BLE Connection
 
-Open the example, “Files” -> “Examples” -> “AmebaBLE” -> “BLEV7RC_CAR”:
+Open the example, "Files" -> "Examples" -> "AmebaBLE" -> "BLEV7RC_CAR":
 
 |image01|
 
 Upload the code and press the reset button on Ameba once the upload is finished.
 
-Open V7RC APP and select “Control Centre”:
+Open V7RC APP and select "Control Centre":
 
 |image02|
 
-Under NETWORK section, select “BLE”:
+Under NETWORK section, select "BLE":
 
 |image03|
 
-Click DEVICE, and select AMEBA_BLE_DEV and click “LINK” button to connect to your Ameba board:
+Click DEVICE, and select AMEBA_BLE_DEV and click "LINK" button to connect to your Ameba board:
 
 |image04|
 
@@ -57,7 +53,7 @@ Back to the V7RC home page, you can monitor the log printed data received when m
 
 2.	Setup Servo Motors
 
-We will use two sets of servo motor to control the movement of the car upon the BLE connection has been established. The two servo motors will be connected to L9110S servo controller first using predefined MotoA_1A, MotoA_1B, MotoA_1B, and MotoA_1B pins. 
+We will use two sets of servo motor to control the movement of the car upon the BLE connection has been established. The two servo motors will be connected to L9110S servo controller first using predefined MotoA_1A, MotoA_1B, MotoA_1B, and MotoA_1B pins.
 
     -	1A pins are connected to GPIO pins, used for controlling the motor directions.
 
@@ -77,7 +73,7 @@ In this example, we will use BW16 as a demonstration. A detailed connection pin 
 Code Reference
 --------------
 
-``ParseCMDString(String cmd)`` is a customized function will take a string “cmd” as input and process it. Currently, there are 6 available commands from V7RC App, which are: "SS2","SS4","SRT","SR2", and "SRV".
+``ParseCMDString(String cmd)`` is a customized function will take a string "cmd" as input and process it. Currently, there are 6 available commands from V7RC App, which are: "SS2","SS4","SRT","SR2", and "SRV".
 
 .. |image01| image:: ../../../../_static/amebad/Example_Guides/BLE/BLE_V7RC_Car/image01.png
    :width:  450 px

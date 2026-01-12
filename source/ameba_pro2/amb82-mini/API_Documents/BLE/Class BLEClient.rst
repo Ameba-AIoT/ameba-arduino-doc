@@ -1,10 +1,6 @@
 Class BLEClient
 ===============
 
-.. contents::
-  :local:
-  :depth: 2
-
 **BLEClient Class**
 -------------------
 

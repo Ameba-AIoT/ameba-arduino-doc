@@ -1,10 +1,6 @@
 BLE - WiFi Configuration Service
 ================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -29,12 +25,11 @@ Ensure that the Realtek WiFi configuration app is installed on your mobile phone
 
 -	Apple App Store: https://apps.apple.com/sg/app/easy-wifi-config/id1194919510
 
-Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> “BLEWifiConfigService”``.
+Open the example, ``"Files" -> "Examples" -> "AmebaBLE" -> "BLEWifiConfigService"``.
 
 |image01|
 
-   
-Upload the code and press the reset button on Ameba once the upload is finished. 
+Upload the code and press the reset button on Ameba once the upload is finished.
 
 On your mobile phone, open the Realtek WiFiConfig app and tap the round button to scan for Ameba boards.
 
@@ -48,11 +43,11 @@ Select the correct Ameba board from the scan results. The app will connect to th
 
 |image05|
 
-If your phone is currently connected to a WiFi network, the app will ask for the WiFi password to connect the Ameba board to the same WiFi network. Tap “Select AP” to choose another WiFi network, or enter the password and tap continue to connect Ameba to the selected WiFi network.
+If your phone is currently connected to a WiFi network, the app will ask for the WiFi password to connect the Ameba board to the same WiFi network. Tap "Select AP" to choose another WiFi network, or enter the password and tap continue to connect Ameba to the selected WiFi network.
 
 |image06|
 
-After the Ameba board connects to the WiFi network, the following message will be shown. Tap “Try another AP” to connect to another WiFi network or tap “Confirm” to keep the current WiFi network and disconnect BLE from the Ameba board.
+After the Ameba board connects to the WiFi network, the following message will be shown. Tap "Try another AP" to connect to another WiFi network or tap "Confirm" to keep the current WiFi network and disconnect BLE from the Ameba board.
 
 |image07|
 

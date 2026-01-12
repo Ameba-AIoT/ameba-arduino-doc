@@ -1,10 +1,6 @@
 GPIO - Measure Temperature and Humidity
 =======================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -21,7 +17,6 @@ Introduction
 DHT11 is a temperature and humidity sensor which operates at voltage 3.3V~5V. At room temperature, the measurable range of the humidity is 20% ~ 90%RH with ±5%RH precision, the measurable range of the temperature is 0 ~ 50℃ with ±2℃ precision.
 Another choice of temperature and humidity sensor is DHT22 sensor, which has better precision. Its measurable range of the humidity is 0%~100%RH with ±5%RH precision, the measurable range of the temperature is -40~125 ℃ with ±0.2℃ precision.
 There are 4 pins on the sensor:
-
 
 |image01|
 
@@ -47,7 +42,7 @@ Take note that if you are using a DHT sensor that is not mounted on a PCB, you w
 .. only:: amb21
 
 **AMB21 / AMB22** Wiring Diagram:
-  
+
 |image04|
 
 **DHT sensor mounted on a PCB board**
@@ -104,8 +99,7 @@ Take note that if you are using a DHT sensor that is not mounted on a PCB, you w
 
 .. only:: end amb26
 
-
-Open the sample code in ``“Files” → “Examples” → “AmebaGPIO” → “DHT_Tester”``. Compile and upload to Ameba, then press the reset button. The result would be shown on the Serial Monitor.
+Open the sample code in ``"Files" → "Examples" → "AmebaGPIO" → "DHT_Tester"``. Compile and upload to Ameba, then press the reset button. The result would be shown on the Serial Monitor.
 
 |image11|
 

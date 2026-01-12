@@ -1,10 +1,6 @@
 Generative AI Speech
 ====================
 
-.. contents::
-  :local:
-  :depth: 2
-
 .. note ::
    |image_3rd_party| "Generative AI Speech" is jointly developed by RTKSG SD3 and `ChungYi Fu (Kaohsiung, Taiwan) <https://github.com/fustyles>`_
 
@@ -13,7 +9,7 @@ Generative AI Speech
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 - MicroSD card
 
@@ -21,7 +17,7 @@ Materials
 
 - 220 ohm resistor x1
 
-Example 
+Example
 -------
 
 GenAISpeech_Whisper
@@ -143,10 +139,10 @@ Google AI Studio: https://ai.google.dev/gemini-api/docs/rate-limits
 Resources
 ---------
 
-| openAI platform 
+| openAI platform
 | https://platform.openai.com/docs/guides/speech-to-text
 
-| GroqCloud 
+| GroqCloud
 | https://console.groq.com/docs/speech-to-text
 
 | Google AI Studio

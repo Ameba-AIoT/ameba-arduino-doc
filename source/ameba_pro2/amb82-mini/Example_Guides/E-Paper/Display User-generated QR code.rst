@@ -1,14 +1,10 @@
 Display User-generated QR code
 ==============================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 -  Waveshare E-Paper [2.9inch E-Paper HAT (D)/ 2.9inch E-Paper V2/ 2.9inch e-Paper Module (B)/ 4.2inch e-Paper Module/ 7.5-inch E-Ink display HAT] x1
 
@@ -18,7 +14,7 @@ Example
 **Introduction**
 
 In this example, Ameba Pro2 board will be used to connect to a Waveshare e-Paper module (2.9inch/ 4.2inch/ 7.5inch) to display texts. The display uses the flexible substrate as base plate, with an interface and a reference system design. You may refer to the
-official `datasheet <https://www.waveshare.net/w/upload/b/b5/2.9inch_e-Paper_(D)_Specification.pdf>`_ to know more information about these modules.
+official `datasheet <https://www.waveshare.net/w/upload/b/b5/2.9inch_e-Paper_(D)_Specification.pdf>`__ to know more information about these modules.
 
 **Procedure**
 
@@ -44,13 +40,13 @@ should be set to 0.
 |image04|
 
 | Next, download the Eink zip library, AmebaEink.zip, at https://github.com/ambiot/ambpro2_arduino/tree/dev/Arduino_zip_libraries
-| Then install the AmebaEink.zip by navigating to “Sketch” -> “Include Library” -> “Add .ZIP Library…”.
+| Then install the AmebaEink.zip by navigating to "Sketch" -> "Include Library" -> "Add .ZIP Library…".
 
 Eink examples are categorised based on the size and modules of the e-Paper display.
 
 |image05|
 
-Open one of the “EinkDisplayQR” examples. For example, “File” → “Examples” → “AmebaEink” → “EPD_2in9v2”-> “EinkDisplayQR”:
+Open one of the "EinkDisplayQR" examples. For example, "File" → "Examples" → "AmebaEink" → "EPD_2in9v2"-> "EinkDisplayQR":
 
 |image06|
 
@@ -80,10 +76,10 @@ Code Reference
 | [3] Provide the link to how to generate a QR code on the E-paper module:
 | https://eugeniopace.org/qrcode/arduino/eink/2019/07/01/qrcode-on-arduino.html
 
-| [4] A simple library for generating QR codes in C, optimized for processing and memory-constrained systems: 
+| [4] A simple library for generating QR codes in C, optimized for processing and memory-constrained systems:
 | https://github.com/ricmoo/QRCode#data-capacities
 
-.. |image01| image:: ../../../../_static/amebapro2/Example_Guides/E-Paper/Display_User-generated_QR_code/image01.png 
+.. |image01| image:: ../../../../_static/amebapro2/Example_Guides/E-Paper/Display_User-generated_QR_code/image01.png
    :width: 1006 px
    :height: 499 px
 .. |image02| image:: ../../../../_static/amebapro2/Example_Guides/E-Paper/Display_User-generated_QR_code/image02.png

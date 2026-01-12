@@ -15,7 +15,7 @@ Connect the 3.5mm connector to the RTL8722 board following the diagram.
 
 As RTL8722DM MINI have a built in microphone on the board, there is no need for any external microphone.
 
-Open the example, “Files” -> “Examples” -> “AmebaAudioCodec” -> “OutputSineWave”.
+Open the example, "Files" -> "Examples" -> "AmebaAudioCodec" -> "OutputSineWave".
 
 |image03|
 

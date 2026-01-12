@@ -1,10 +1,6 @@
 BLE - Battery Client
 ====================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -34,17 +30,17 @@ Procedure
 On the first Ameba board, upload the BLEBatteryService example code and
 let it run.
 
-For the second Ameba board, open the example ``“Files” → “Examples” → “AmebaBLE” → “BLEBatteryClient”``.
+For the second Ameba board, open the example ``"Files" → "Examples" → "AmebaBLE" → "BLEBatteryClient"``.
 
 |image01|
-   
+
 Upload the code and press the reset button on Ameba once the upload is finished.
 
 Open the serial monitor and observe the log messages as the Ameba board with the battery client scans, connects, and reads data from the Ameba board with the battery service.
 
 |image02|
 
-Highlighted in yellow, the Ameba board with the battery client first scans for advertising BLE devices with the advertised device name “AMEBA_BLE_DEV” and the advertised service UUID of 0x180F representing the battery service.
+Highlighted in yellow, the Ameba board with the battery client first scans for advertising BLE devices with the advertised device name "AMEBA_BLE_DEV" and the advertised service UUID of 0x180F representing the battery service.
 After finding the target device, the Ameba board with the battery client forms a BLE connection and searches for a battery service on the connected device, highlighted in blue.
 With the client connected to the service, the battery client begins to read data using both regular data reads and notifications, highlighted in green.
 
@@ -52,11 +48,11 @@ Code Reference
 --------------
 
 BLEClient is used to create a client object to discover services and characteristics on the connected device.
- 
+
  ``setNotifyCallback()`` is used to register a function that will be called when a battery level notification is received.
- 
+
  ``BLE.configClient()`` is used to configure the Bluetooth stack for client peration.
- 
+
  ``addClient(connID)`` creates a new BLEClient object that corresponds to the connected device.
 
 .. |image01| image:: ../../../../_static/amebad/Example_Guides/BLE/BLE_Battery_Client/image01.png

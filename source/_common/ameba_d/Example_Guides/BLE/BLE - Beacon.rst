@@ -1,10 +1,6 @@
 BLE - BLE Beacon
 ================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -29,7 +25,6 @@ Procedure
 Ensure that the following Bluetooth apps are installed on your mobile phone. These apps will show you the raw data sent by Ameba and allow you to interact with the data.
 The recommended application is nRF connect, and is available at the links below:
 
-
 -  Android: https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp
 
 -  iOS: https://apps.apple.com/us/app/nrf-connect/id1054362403
@@ -40,8 +35,8 @@ LightBlue is an alternative application that can also be used, but has less feat
 
 -  iOS: https://apps.apple.com/us/app/lightblue/id557428110
 
-Open the example, ``“Files” → “Examples” → “AmebaBLE” → “BLEBeacon”``
- 
+Open the example, ``"Files" → "Examples" → "AmebaBLE" → "BLEBeacon"``
+
 |image01|
 
 Upload the code and press the reset button on Ameba once the upload is finished.

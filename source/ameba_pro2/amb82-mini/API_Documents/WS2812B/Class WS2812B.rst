@@ -1,10 +1,6 @@
 Class WS2812B
 =============
 
-.. contents::
-  :local:
-  :depth: 2
-
 **WS2812B Class**
 -----------------
 
@@ -94,7 +90,7 @@ Example: `WS2812B_Basics <https://github.com/Ameba-AIoT/ameba-arduino-pro2/tree/
 
 .. important :: Only SPI MOSI pin is valid for driving WS2812B LEDs.
 
-.. note :: "WS2812B.h" must be included to use the class function. 
+.. note :: "WS2812B.h" must be included to use the class function.
 
 ------------------------
 
@@ -130,7 +126,7 @@ Example: `WS2812B_Basics <https://github.com/Ameba-AIoT/ameba-arduino-pro2/tree/
 
 .. important :: Only SPI MOSI pin is valid for driving WS2812B LEDs.
 
-.. note :: "WS2812B.h" must be included to use the class function.  
+.. note :: "WS2812B.h" must be included to use the class function.
 
 --------------------
 
@@ -164,9 +160,9 @@ NA
 
 Example: `WS2812B_Basics <https://github.com/Ameba-AIoT/ameba-arduino-pro2/tree/dev/Arduino_package/hardware/libraries/WS2812B/examples/WS2812B_Basics/WS2812B_Basics.ino>`_
 
-.. important :: The amount of time needed to push the color data will increase with more LEDs. 
+.. important :: The amount of time needed to push the color data will increase with more LEDs.
 
-.. note :: "WS2812B.h" must be included to use the class function. 
+.. note :: "WS2812B.h" must be included to use the class function.
 
 ----------------------
 
@@ -200,9 +196,9 @@ NA
 
 Example: `WS2812B_Patterns <https://github.com/Ameba-AIoT/ameba-arduino-pro2/tree/dev/Arduino_package/hardware/libraries/WS2812B/examples/WS2812B_Patterns/WS2812B_Patterns.ino>`_
 
-.. important :: This function only clears the color data from memory. To turn off the LED, please use WS2812B::show(). 
+.. important :: This function only clears the color data from memory. To turn off the LED, please use WS2812B::show().
 
-.. note :: "WS2812B.h" must be included to use the class function. 
+.. note :: "WS2812B.h" must be included to use the class function.
 
 ------------------------------
 
@@ -236,7 +232,7 @@ NA
 
 NA
 
-.. note :: "WS2812B.h" must be included to use the class function. 
+.. note :: "WS2812B.h" must be included to use the class function.
 
 -----------------------------
 
@@ -258,7 +254,7 @@ Verify that memory has been successfully allocated to the LED and set the color.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-``led_Number``: The LED number, with 0 being the LED closest to the data input pin 
+``led_Number``: The LED number, with 0 being the LED closest to the data input pin
 
 ``rColor``: Red brightness level (Value available from 0-255, 0 indicates LED is off and 255 indicates LED is in the maximum brightness)
 
@@ -276,7 +272,7 @@ NA
 
 Example: `WS2812B_Patterns <https://github.com/Ameba-AIoT/ameba-arduino-pro2/tree/dev/Arduino_package/hardware/libraries/WS2812B/examples/WS2812B_Patterns/WS2812B_Patterns.ino>`_
 
-.. note :: "WS2812B.h" must be included to use the class function. 
+.. note :: "WS2812B.h" must be included to use the class function.
 
 ---------------------------
 
@@ -318,9 +314,9 @@ NA
 
 Example: `WS2812B_Basics <https://github.com/Ameba-AIoT/ameba-arduino-pro2/tree/dev/Arduino_package/hardware/libraries/WS2812B/examples/WS2812B_Basics/WS2812B_Basics.ino>`_
 
-.. important :: If the input parameters "first" and "count" are not provided, the default behaviour would be to fill all the LEDs. 
+.. important :: If the input parameters "first" and "count" are not provided, the default behaviour would be to fill all the LEDs.
 
-.. note :: "WS2812B.h" must be included to use the class function. 
+.. note :: "WS2812B.h" must be included to use the class function.
 
 ---------------------------
 
@@ -344,9 +340,9 @@ Convert to RGB values from HSV (Hue Saturation Value).
 
 ``hue``: hue value in 16-bit. (Default: 0, acceptable range from: 0 - 65535, representing one full cycle of the color wheel. Starting from 0 for red, it increments first towards yellow, and on through green, cyan, blue, magenta, and black to red.)
 
-``sat``: Intensity or purity of the color in 8-bit. (Acceptable range from: 0 - 255, you will get pastel color when value setting is adjusted to the middle) 
+``sat``: Intensity or purity of the color in 8-bit. (Acceptable range from: 0 - 255, you will get pastel color when value setting is adjusted to the middle)
 
-``val``: Brightness of a color in 8-bit. (Value available from 0-255) 
+``val``: Brightness of a color in 8-bit. (Value available from 0-255)
 
 **Returns**
 ~~~~~~~~~~~
@@ -358,7 +354,7 @@ The function returns the RGB values converted from HSV.
 
 Example: `WS2812B_Patterns <https://github.com/Ameba-AIoT/ameba-arduino-pro2/tree/dev/Arduino_package/hardware/libraries/WS2812B/examples/WS2812B_Patterns/WS2812B_Patterns.ino>`_
 
-.. note :: "WS2812B.h" must be included to use the class function. 
+.. note :: "WS2812B.h" must be included to use the class function.
 
 ----------------------
 
@@ -382,7 +378,7 @@ Fill all the LEDs with one or more cycle of hues
 
 ``first_hue``: hue of first LED (Default: 0, acceptable range from: 0 - 65535, representing one full cycle of the color wheel)
 
-``reps``: number of cycles of the color wheel over the length of the strip. (Default: 1. Negative values can be used to reverse the hue order) 
+``reps``: number of cycles of the color wheel over the length of the strip. (Default: 1. Negative values can be used to reverse the hue order)
 
 ``saturation``: Intensity or purity of the color in 8-bit. (Default: 255. Acceptable range from: 0 - 255, you will get pastel color when value setting is adjusted to the middle)
 
@@ -398,4 +394,4 @@ NA
 
 Example: `WS2812B_Patterns <https://github.com/Ameba-AIoT/ameba-arduino-pro2/tree/dev/Arduino_package/hardware/libraries/WS2812B/examples/WS2812B_Patterns/WS2812B_Patterns.ino>`_
 
-.. note :: "WS2812B.h" must be included to use the class function. 
+.. note :: "WS2812B.h" must be included to use the class function.

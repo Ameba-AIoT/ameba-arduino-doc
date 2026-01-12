@@ -1,10 +1,6 @@
 Class WiFiServer
 ================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **WiFiServer Class**
 --------------------
 

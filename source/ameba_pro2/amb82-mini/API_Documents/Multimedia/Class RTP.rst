@@ -1,10 +1,6 @@
 Class RTP
 =========
 
-.. contents::
-  :local:
-  :depth: 2
-
 **RTP Class**
 -------------
 

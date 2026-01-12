@@ -1,10 +1,6 @@
 Class MDNSService
 =================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **MDNSService Class**
 ---------------------
 
@@ -24,11 +20,11 @@ A class used for creating MDNS service records.
 ~~~~~~~~~~~
 
 +---------------------------+---------------------------------+
-| **Public Constructors**   |                                 |  
+| **Public Constructors**   |                                 |
 +===========================+=================================+
 | MDNSService::MDNSService  | Create a MDNS service record    |
 +---------------------------+---------------------------------+
-| **Public Methods**        |                                 |  
+| **Public Methods**        |                                 |
 +---------------------------+---------------------------------+
 | MDNSService::addTxtRecord | Add text to MDNS service record |
 +---------------------------+---------------------------------+
@@ -73,7 +69,7 @@ NA
 
 Example: `mDNS_On_Arduino_IDE <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/MDNS/examples/mDNS_On_Arduino_IDE/mDNS_On_Arduino_IDE.ino>`_
 
-.. note :: “AmebaMDNS.h” must be included to use the class function.
+.. note :: "AmebaMDNS.h" must be included to use the class function.
 
 -------------------------------------------
 
@@ -95,7 +91,7 @@ Add text to MDNS service record.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-``key``: item key name expressed as character string. 
+``key``: item key name expressed as character string.
 
 ``value_len``: length of value string
 
@@ -111,4 +107,4 @@ This function returns 0 if the text record is added to the MDNS service record s
 
 Example: `mDNS_On_Arduino_IDE <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/MDNS/examples/mDNS_On_Arduino_IDE/mDNS_On_Arduino_IDE.ino>`_
 
-.. note :: “AmebaMDNS.h” must be included to use the class function.
+.. note :: "AmebaMDNS.h" must be included to use the class function.

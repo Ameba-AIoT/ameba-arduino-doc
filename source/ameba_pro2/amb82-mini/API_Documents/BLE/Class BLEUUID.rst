@@ -1,10 +1,6 @@
 Class BLEUUID
 =============
 
-.. contents::
-  :local:
-  :depth: 2
-
 **BLEUUID Class**
 -----------------
 

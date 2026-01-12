@@ -1,27 +1,23 @@
 UVCD Object Detection
 =====================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
-Example 
+Example
 -------
 
 In this example, we will be using Ameba Pro2 development board to detect 80 different kinds of objects such as person, bicycle, car, laptop etc using on-board camera sensor (JX-F37P).
 
 The following examples show how Object Detection and On-Screen Display is used.
 
-Open the example, “File” -> “Examples” -> “AmebaNN” -> "UVCDObjectDetectionLoop".
+Open the example, "File" -> "Examples" -> "AmebaNN" -> "UVCDObjectDetectionLoop".
 
 |image01|
 
-Select Neural Network (NN) task and models using modelSelect() function highlighted in yellow. This function takes 4 arguments: Neural Network task, Object Detection model, Face Detection model and Face Recognition model. Replace with “NA_MODEL” if they are not necessary for your selected Neural Network task. Note that it is mandatory to call modelSelect() function before calling the begin() function.
+Select Neural Network (NN) task and models using modelSelect() function highlighted in yellow. This function takes 4 arguments: Neural Network task, Object Detection model, Face Detection model and Face Recognition model. Replace with "NA_MODEL" if they are not necessary for your selected Neural Network task. Note that it is mandatory to call modelSelect() function before calling the begin() function.
 
 Valid Neural Network task: OBJECT_DETECTION, FACE_DETECTION, FACE_RECOGNITION
 
@@ -47,7 +43,7 @@ python reparam_yolov7-tiny.py --weights weights/best.pt --custom_yaml custom/yol
 
 |image02|
 
-Compile the code and upload it to Ameba. After pressing the Reset button, connect the “USB OTG” via micro-USB cable to the target device such as PC.
+Compile the code and upload it to Ameba. After pressing the Reset button, connect the "USB OTG" via micro-USB cable to the target device such as PC.
 
 |image03|
 
@@ -57,7 +53,7 @@ Review the USB cam driver as following picture.
 
 The result of detected objects can be validated using Potplayer. You may download Potplayer from the link `here <https://potplayer.org/en/potplayer-zip.html>`__.
 
-Upon the completion of the software installation, open Potplayer, and go to “PotPlayer” -> “Open” -> "Device Settings".
+Upon the completion of the software installation, open Potplayer, and go to "PotPlayer" -> "Open" -> "Device Settings".
 
 |image05|
 
@@ -98,4 +94,4 @@ A bounding box with its object name and confidence score will be drawn on the RT
 .. |image07| image:: ../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_UVCD_Object_Detection/image07.png
    :width:  772 px
    :height:  453 px
-   
+

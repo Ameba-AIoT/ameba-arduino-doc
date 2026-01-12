@@ -5,4 +5,4 @@ QR Code Scanner
    :maxdepth: 1
 
    Scan QR Code And Read Result String
-   
+

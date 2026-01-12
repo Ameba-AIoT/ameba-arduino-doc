@@ -1,14 +1,10 @@
 Ameba SDCard OTA Firmware Update
 ================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 -  MicroSD card
 
 Example
@@ -19,23 +15,23 @@ In this example, we will use the Ameba Pro2 board to update OTA firmware from SD
 Procedure
 ~~~~~~~~~
 
-To begin, open the OTA example in Arduino IDE. “File” -> “Examples” -> “AmebaOTA” -> “SDCardOTA”.
+To begin, open the OTA example in Arduino IDE. "File" -> "Examples" -> "AmebaOTA" -> "SDCardOTA".
 
 |image01|
 
 Before verifying and uploading the example, please complete the following steps:
 
-1. Set NN Model Load From SD Card. “Tools” -> “NN Model Load From” -> “SD Card” 
+1. Set NN Model Load From SD Card. "Tools" -> "NN Model Load From" -> "SD Card"
 
 |image04|
 
-2. Enable the OTA mode. “Tools” -> “OTA Mode” -> “Enable” 
+2. Enable the OTA mode. "Tools" -> "OTA Mode" -> "Enable"
 
 |image05|
 
 .. note :: Partition Notice: Arduino IDE will only upload successfully when both Step 1 and Step 2 above are selected. All NN examples that integrate with OTA must load the model from the SD card.
 
-In the highlighted code snippet, fill in the OTA file name. 
+In the highlighted code snippet, fill in the OTA file name.
 
 |image02|
 
@@ -43,19 +39,19 @@ Now, compile and upload this example.
 
 |image03|
 
-In this tutorial, we will be uploading a GetFreeAndUseSpace sketch via OTA.  Open the GetFreeAndUseSpace example. “File”-> “Examples” -> "AmebaFileSystem" -> "GetFreeAndUseSpace".
+In this tutorial, we will be uploading a GetFreeAndUseSpace sketch via OTA.  Open the GetFreeAndUseSpace example. "File"-> "Examples" -> "AmebaFileSystem" -> "GetFreeAndUseSpace".
 
-Before verify the example, please complete the following steps: 
+Before verify the example, please complete the following steps:
 
-1. Set NN Model Load From SD Card. “Tools” -> “NN Model Load From” -> “SD Card” 
+1. Set NN Model Load From SD Card. "Tools" -> "NN Model Load From" -> "SD Card"
 
 |image04|
 
-2.	Enable the OTA mode. “Tools” -> “OTA Mode” -> “Enable” 
+2.	Enable the OTA mode. "Tools" -> "OTA Mode" -> "Enable"
 
 |image05|
 
-2. Now, verify this example. **DO NOT** upload after compilation. 
+2. Now, verify this example. **DO NOT** upload after compilation.
 
 |image06|
 
@@ -68,13 +64,13 @@ and not in any folder.
 
 |image07|
 
-Now insert the MicroSD card into the SD card slot of the AMB82 MINI board and press reset button. 
+Now insert the MicroSD card into the SD card slot of the AMB82 MINI board and press reset button.
 
 You will see the board automatically read ota.bin from the SD card and perform the update, as shown in the figure below.
 
 |image08|
 
-The board will automatically reboot once download progress is completed. 
+The board will automatically reboot once download progress is completed.
 
 You will see the output generated on serial monitor after reboot.
 

@@ -1,10 +1,6 @@
 Class BLEAdvertData
 ===================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **BLEAdvertData Class**
 -----------------------
 

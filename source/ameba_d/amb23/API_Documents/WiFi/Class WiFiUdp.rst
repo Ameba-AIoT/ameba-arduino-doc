@@ -1,10 +1,6 @@
 Class WiFiUdp
 =============
 
-.. contents::
-  :local:
-  :depth: 2
-
 **WiFiUDP Class**
 -----------------
 

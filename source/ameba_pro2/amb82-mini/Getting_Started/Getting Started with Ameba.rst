@@ -1,10 +1,6 @@
 Ameba ARDUINO with AMB82-mini (RTL8735B)
 ========================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Introduction
 ------------
 
@@ -122,7 +118,7 @@ When the installation is finished, open Arduino IDE. To set up correctly in Ardu
 
 |image05|
 
-And paste the following URL into "Additional Boards Manager URLs" field: 
+And paste the following URL into "Additional Boards Manager URLs" field:
 
 +-------------+--------------------------+--------------------------------------------------------------------------------------------------------------------------------+
 | **Branch**  | **Usage**                | **Remarks**                                                                                                                    |

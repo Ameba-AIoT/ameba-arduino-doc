@@ -1,10 +1,6 @@
 Class Adafruit_GPS
 ==================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **Adafruit_GPS Class**
 ----------------------
 
@@ -17,7 +13,7 @@ A class used to configure GPS module settings on Ameba.
 ~~~~~~~~~~
 
 .. code:: c++
-    
+
     class Adafruit_GPS
 
 **Members**
@@ -104,11 +100,11 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Adafruit_GPS_parsing <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SoftwareSerial/examples/Adafruit_GPS_parsing/Adafruit_GPS_parsing.ino>`_ 
+Example: `Adafruit_GPS_parsing <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SoftwareSerial/examples/Adafruit_GPS_parsing/Adafruit_GPS_parsing.ino>`__
 
 .. note :: important: SoftSerial is using hardware serial so pin mapping cannot be altered.
 
-.. note :: “Adafruit_GPS.h” must be included to use the class function.
+.. note :: "Adafruit_GPS.h" must be included to use the class function.
 
 -------------------------------------------------------------------------------------------------------------
 
@@ -139,9 +135,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Adafruit_GPS_parsing <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SoftwareSerial/examples/Adafruit_GPS_parsing/Adafruit_GPS_parsing.ino>`_ 
+Example: `Adafruit_GPS_parsing <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SoftwareSerial/examples/Adafruit_GPS_parsing/Adafruit_GPS_parsing.ino>`__
 
-.. note :: “Adafruit_GPS.h” must be included to use the class function.
+.. note :: "Adafruit_GPS.h" must be included to use the class function.
 
 -----------------------------------------------------------------------------------------------------------
 
@@ -172,9 +168,9 @@ This function returns a pointer to the last line of the string.
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Adafruit_GPS_parsing <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SoftwareSerial/examples/Adafruit_GPS_parsing/Adafruit_GPS_parsing.ino>`_ 
+Example: `Adafruit_GPS_parsing <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SoftwareSerial/examples/Adafruit_GPS_parsing/Adafruit_GPS_parsing.ino>`__
 
-.. note :: “Adafruit_GPS.h” must be included to use the class function.
+.. note :: "Adafruit_GPS.h" must be included to use the class function.
 
 ------------------------------------------------------------------------------------------------------------
 
@@ -200,14 +196,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns "true” if a new NMEA line has been received. Otherwise, returns “false”.
+This function returns "true" if a new NMEA line has been received. Otherwise, returns "false".
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Adafruit_GPS_parsing <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SoftwareSerial/examples/Adafruit_GPS_parsing/Adafruit_GPS_parsing.ino>`_ 
+Example: `Adafruit_GPS_parsing <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SoftwareSerial/examples/Adafruit_GPS_parsing/Adafruit_GPS_parsing.ino>`__
 
-.. note :: “Adafruit_GPS.h” must be included to use the class function.
+.. note :: "Adafruit_GPS.h" must be included to use the class function.
 
 ------------------------------------------------------------------------------------------------------------
 
@@ -223,7 +219,7 @@ Initialization code used by all constructor types.
 ~~~~~~~~~~
 
 .. code:: c++
-    
+
     void common_init(void);
 
 **Parameters**
@@ -240,7 +236,7 @@ NA
 
 NA
 
-.. note :: “Adafruit_GPS.h” must be included to use the class function.
+.. note :: "Adafruit_GPS.h" must be included to use the class function.
 
 ------------------------------------------------------------------------------------------------------------
 
@@ -271,9 +267,9 @@ NA
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Adafruit_GPS_parsing <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SoftwareSerial/examples/Adafruit_GPS_parsing/Adafruit_GPS_parsing.ino>`_ 
+Example: `Adafruit_GPS_parsing <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SoftwareSerial/examples/Adafruit_GPS_parsing/Adafruit_GPS_parsing.ino>`__
 
-.. note :: “Adafruit_GPS.h” must be included to use the class function.
+.. note :: "Adafruit_GPS.h" must be included to use the class function.
 
 ---------------------------------------------------------------------------------------------------------------
 
@@ -306,7 +302,7 @@ NA
 
 NA
 
-.. note :: “Adafruit_GPS.h” must be included to use the class function.
+.. note :: "Adafruit_GPS.h" must be included to use the class function.
 
 ---------------------------------------------------------------------------------------------------------------
 
@@ -339,7 +335,7 @@ This function returns the decimal equivalent of the Hexadecimal value.
 
 NA
 
-.. note :: “Adafruit_GPS.h” must be included to use the class function.
+.. note :: "Adafruit_GPS.h" must be included to use the class function.
 
 --------------------------------------------------------------------------------------------------------------
 
@@ -370,10 +366,10 @@ The function returns the character that we received or returns 0 if nothing was 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Adafruit_GPS_parsing <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SoftwareSerial/examples/Adafruit_GPS_parsing/Adafruit_GPS_parsing.ino>`_ 
+Example: `Adafruit_GPS_parsing <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SoftwareSerial/examples/Adafruit_GPS_parsing/Adafruit_GPS_parsing.ino>`__
 
-.. note :: “Adafruit_GPS.h” must be included to use the class function.
- 
+.. note :: "Adafruit_GPS.h" must be included to use the class function.
+
 ------------------------------------------------------------------------------------------------------------------
 
 **Adafruit_GPS::parse**
@@ -398,14 +394,14 @@ Parse data such as latitude, longitude, speed, angle, etc.
 **Returns**
 ~~~~~~~~~~~
 
-This function returns “true” if there are valid data to be parsed, “false” if it has invalid data.
+This function returns "true" if there are valid data to be parsed, "false" if it has invalid data.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
-Example: `Adafruit_GPS_parsing <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SoftwareSerial/examples/Adafruit_GPS_parsing/Adafruit_GPS_parsing.ino>`_ 
+Example: `Adafruit_GPS_parsing <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/SoftwareSerial/examples/Adafruit_GPS_parsing/Adafruit_GPS_parsing.ino>`__
 
-.. note :: “Adafruit_GPS.h” must be included to use the class function.
+.. note :: "Adafruit_GPS.h" must be included to use the class function.
 
 ----------------------------------------------------------------------------------------------------------------------
 
@@ -431,14 +427,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns “true” if the sensor is awake, otherwise return “false” if the sensor is not on standby or failed to wake.
+This function returns "true" if the sensor is awake, otherwise return "false" if the sensor is not on standby or failed to wake.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “Adafruit_GPS.h” must be included to use the class function.
+.. note :: "Adafruit_GPS.h" must be included to use the class function.
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -464,14 +460,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns “false” if it is already in standby mode so that no commands need to be sent to the GPS to wake it up. Otherwise, returns “true” if it entered standby mode.
+This function returns "false" if it is already in standby mode so that no commands need to be sent to the GPS to wake it up. Otherwise, returns "true" if it entered standby mode.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “Adafruit_GPS.h” must be included to use the class function.
+.. note :: "Adafruit_GPS.h" must be included to use the class function.
 
 --------------------------------------------------------------------------------------------------------------------------
 
@@ -499,15 +495,15 @@ Wait for a specified NEMA sentence from the device.
 **Returns**
 ~~~~~~~~~~~
 
-This function returns “true” if we the sentence is received, otherwise returns “false”. 
+This function returns "true" if we the sentence is received, otherwise returns "false".
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “Adafruit_GPS.h” must be included to use the class function.
- 
+.. note :: "Adafruit_GPS.h" must be included to use the class function.
+
 --------------------------------------------------------------------------------------------------------------------------
 
 **Adafruit_GPS::LOCUS_StartLogger**
@@ -532,14 +528,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns “true” if the logger starts successfully. Otherwise, returns “false”. 
+This function returns "true" if the logger starts successfully. Otherwise, returns "false".
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “Adafruit_GPS.h” must be included to use the class function.
+.. note :: "Adafruit_GPS.h" must be included to use the class function.
 
 --------------------------------------------------------------------------------------------------------------------------
 
@@ -565,14 +561,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns “true” if the logger stops successfully. Otherwise, returns “false”. 
+This function returns "true" if the logger stops successfully. Otherwise, returns "false".
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “Adafruit_GPS.h” must be included to use the class function.
+.. note :: "Adafruit_GPS.h" must be included to use the class function.
 
 --------------------------------------------------------------------------------------------------------------------------
 
@@ -588,7 +584,7 @@ Read the logger status.
 ~~~~~~~~~~
 
 .. code:: c++
-    
+
     boolean LOCUS_ReadStatus (void);
 
 **Parameters**
@@ -598,11 +594,11 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns “true” if the logger reads the status successfully. Otherwise, returns “false” if there was no response.
+This function returns "true" if the logger reads the status successfully. Otherwise, returns "false" if there was no response.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “Adafruit_GPS.h” must be included to use the class function.
+.. note :: "Adafruit_GPS.h" must be included to use the class function.

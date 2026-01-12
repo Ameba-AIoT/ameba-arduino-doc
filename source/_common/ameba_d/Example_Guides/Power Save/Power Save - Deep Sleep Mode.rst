@@ -1,10 +1,6 @@
 Power Save - Deep Sleep Mode
 =============================
 
-.. contents::
-  :local:
-  :depth: 2
-  
 Materials
 ---------
 
@@ -15,12 +11,12 @@ Example
 
 AmebaD supports 2 low power modes which are deep sleep mode and sleep mode. Deep Sleep mode turns off more power domain than sleep mode. The power consumptions of Deep Sleep mode is around 7μA to 8μA as compared to normal state which is around 22mA. This example describes how to enter Deep Sleep mode and configure the wakeup source.
 
-Open “File” -> “Examples” -> “AmebaPowerSave” -> “DeepSleepMode”
+Open "File" -> "Examples" -> "AmebaPowerSave" -> "DeepSleepMode"
 
 |image01|
 
 Set condition values as below.
-“DS_WAKEUP_SOURCE” is used to set the wakeup source, user can choose 3 wakeup sources,
+"DS_WAKEUP_SOURCE" is used to set the wakeup source, user can choose 3 wakeup sources,
 AON Timer (SET_DS_AON_TIMER_WAKEUP);
 AON GPIO pins (SET_AON_GPIO_WAKEUP_PAxx) with xx being the pin no.(e.g. SET_AON_GPIO_WAKEUP_PA25);
 RTC Timer(SET_DS_RTC_WAKEUP);
@@ -47,34 +43,34 @@ For AMB25 and AMB26, there is only 6 pins that can be set as AON pin and active 
 
 |image02|
 
-.. only:: end amb21  
+.. only:: end amb21
 
 .. only:: amb23
-    
+
 |image03|
 
-.. only:: end amb23 
+.. only:: end amb23
 
 .. only:: amb25
-    
+
 |image07|
 
-.. only:: end amb25 
+.. only:: end amb25
 
 .. only:: amb26
-    
+
 |image08|
 
-.. only:: end amb26 
+.. only:: end amb26
 
 .. only:: bw16-typeb
-    
+
 |image04|
 
 .. only:: end bw16-typeb
 
 .. only:: bw16-typec
-    
+
 |image05|
 
 .. only:: end bw16-typec
@@ -83,7 +79,7 @@ For AMB25 and AMB26, there is only 6 pins that can be set as AON pin and active 
 
 |image06|
 
-.. only:: end aw-cu488 
+.. only:: end aw-cu488
 
 These AON pins can be set by using SET_AON_GPIO_WAKEUP_PA25 or the pin that you want to use as shown in the picture below.
 
@@ -112,8 +108,7 @@ When all the condition values are set, the system will run and switch between no
 Code Reference
 ---------------
 
-Please refer to the `API Documents <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/amb21/API_Documents/index.html>`_ PowerSave section for detail description of all API.
-
+Please refer to the `API Documents <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/amb21/API_Documents/index.html>`__ PowerSave section for detail description of all API.
 
 .. |image01| image:: ../../../../_static/amebad/Example_Guides/PowerSave/Power_Save_Deep_Sleep_Mode/image01.png
    :width:  689 px

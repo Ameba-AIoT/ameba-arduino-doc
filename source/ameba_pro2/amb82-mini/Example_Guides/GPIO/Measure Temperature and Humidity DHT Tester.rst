@@ -1,14 +1,10 @@
 Measure Temperature and Humidity DHT Tester
 ===========================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 - DHT11 or DHT22 or DHT21
 
@@ -44,7 +40,7 @@ Take note that if you are using a DHT sensor that is not mounted on a PCB, you w
 
 |image05|
 
-Open the sample code in “Files” -> “Examples” -> “AmebaGPIO” -> “DHT_Tester”. Compile and upload to Ameba, then press the reset button. The result would be shown on the Serial Monitor.
+Open the sample code in "Files" -> "Examples" -> "AmebaGPIO" -> "DHT_Tester". Compile and upload to Ameba, then press the reset button. The result would be shown on the Serial Monitor.
 
 |image06|
 

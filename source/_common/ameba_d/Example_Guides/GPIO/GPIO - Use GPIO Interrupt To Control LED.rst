@@ -1,10 +1,6 @@
 GPIO - Use GPIO Interrupt To Control LED
 ========================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -14,24 +10,23 @@ Materials
 
 - Button x 1
 
-
 Example
 -------
 
 Introduction
 ~~~~~~~~~~~~
 
-In this example, we use a button to trigger interrupt and control the LED. When we press and release the button, the LED dims, press and release the button again, and the LED lights up. Note that in the Arduino example “Button and LED”, LED only lights up when the button is pressed and hold, when we release the button, the LED dims.
+In this example, we use a button to trigger interrupt and control the LED. When we press and release the button, the LED dims, press and release the button again, and the LED lights up. Note that in the Arduino example "Button and LED", LED only lights up when the button is pressed and hold, when we release the button, the LED dims.
 
 Procedure
 ~~~~~~~~~
 
-Open the example, ``“Files” → “Examples” → “AmebaGPIO” → “LED_InterruptCtrl”``
+Open the example, ``"Files" → "Examples" → "AmebaGPIO" → "LED_InterruptCtrl"``
 
 .. only:: amb21
 
 **AMB21 / AMB22** Wiring Diagram:
-  
+
 |image01|
 
 .. only:: end amb21

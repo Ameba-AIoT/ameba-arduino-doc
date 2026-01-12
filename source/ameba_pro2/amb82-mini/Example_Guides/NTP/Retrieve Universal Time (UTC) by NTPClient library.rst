@@ -1,18 +1,14 @@
 Retrieve Universal Time (UTC) by NTPClient library
 ==================================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 Example
 -------
 
-In this example, we use an NTP client to sync with NTP servers using UDP and keep track of time locally.Open the example. “File” -> “Examples” -> “NTPClient” -> “Advanced”
+In this example, we use an NTP client to sync with NTP servers using UDP and keep track of time locally.Open the example. "File" -> "Examples" -> "NTPClient" -> "Advanced"
 
 |image01|
 
@@ -28,7 +24,7 @@ Code Reference
 --------------
 
 | Configure NTP client:
-| The NTPClient needs to use a UDP client for communications. A WiFiUDP client is declared and passed to the NTPClient constructor, along with an NTP server address, time zone offset in seconds, and update interval in milliseconds. If detailed configuration is not needed, just passing in the UDP client is also sufficient, refer to the “NTPClient” -> “Basic” example.
+| The NTPClient needs to use a UDP client for communications. A WiFiUDP client is declared and passed to the NTPClient constructor, along with an NTP server address, time zone offset in seconds, and update interval in milliseconds. If detailed configuration is not needed, just passing in the UDP client is also sufficient, refer to the "NTPClient" -> "Basic" example.
 
 .. code-block:: c++
 

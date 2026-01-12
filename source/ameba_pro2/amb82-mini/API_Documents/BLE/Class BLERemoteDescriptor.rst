@@ -1,10 +1,6 @@
 Class BLERemoteDescriptor
 =========================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **BLERemoteDescriptor Class**
 -----------------------------
 

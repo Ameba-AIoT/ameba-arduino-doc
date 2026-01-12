@@ -1,14 +1,10 @@
 Concurrent Mode
 ===============
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
--  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+-  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 Example
 -------
@@ -36,8 +32,8 @@ and CHANNEL.
 If you prefer to enter all the information in the Serial monitor while
 the program is running, uncomment ``#define MANUAL_INPUT``
 
-.. note :: If you enabled MANUAL_INPUT, after uploading the sample code and 
-   pressing the reset button on Ameba, input your SSID, Password, AP SSID, 
+.. note :: If you enabled MANUAL_INPUT, after uploading the sample code and
+   pressing the reset button on Ameba, input your SSID, Password, AP SSID,
    AP Password and channel. The AP mode should start first.
 
 For Ameba boards, there is a limitation that the AP mode must be the

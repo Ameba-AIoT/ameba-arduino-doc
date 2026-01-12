@@ -1,10 +1,6 @@
 Generative AI Vision
 ====================
 
-.. contents::
-  :local:
-  :depth: 2
-
 .. note ::
    |image_3rd_party| "Generative AI Vision" is jointly developed by RTKSG SD3 and `ChungYi Fu (Kaohsiung, Taiwan) <https://github.com/fustyles>`_
 
@@ -13,9 +9,9 @@ Generative AI Vision
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
-Example 
+Example
 -------
 
 In this example, we will be using Ameba Pro2 development board to capture and send image to various LLM servers for visual analysis and understanding.
@@ -28,7 +24,7 @@ In the highlighted code snippet, fill in the "wifi_ssid" with your WiFi network 
 
 |image02|
 
-In this documentation, we will be using Gemini API for demonstration. 
+In this documentation, we will be using Gemini API for demonstration.
 
 Create your own Gemini API key in `Google AI Studio <https://aistudio.google.com/apikey>`_.
 

@@ -1,10 +1,6 @@
 UART - Set Callback Function For UART Communications
 ====================================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -24,7 +20,7 @@ A USB to TTL adapter is required for this example. Ensure that you have the driv
 .. only:: amb21
 
 **AMB21 / AMB22** Wiring Diagram:
-  
+
 |image01|
 
 .. only:: end amb21
@@ -77,10 +73,9 @@ A USB to TTL adapter is required for this example. Ensure that you have the driv
 
 .. only:: end amb26
 
-Open the example in ``“File” → “Examples” → “AmebaSoftwareSerial” → “SoftwareSerial_Irq_Callback”``
+Open the example in ``"File" → "Examples" → "AmebaSoftwareSerial" → "SoftwareSerial_Irq_Callback"``
 
 |image08|
-
 
 Upload the code and press the reset button on Ameba once the upload is finished.
 Next, using a terminal program, such as TeraTerm or PuTTY, open a serial port and configure it according to the settings. Make sure the serial port number corresponds to the USB to TTL adapter.

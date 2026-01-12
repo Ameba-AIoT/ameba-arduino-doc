@@ -1,10 +1,6 @@
 Class USBCDCDevice
 ==================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **USBCDCDevice Class**
 ----------------------
 
@@ -115,7 +111,7 @@ NA
 
 .. important :: The VID should be configured before USBCDCDevice::begin() function is called.
 
-.. note :: “USBCDCDevice.h” must be included to use the class function.
+.. note :: "USBCDCDevice.h" must be included to use the class function.
 
 -------------------------
 
@@ -149,9 +145,9 @@ NA
 
 NA
 
-.. important :: The PID should be configured before USBCDCDevice::begin() function is called. 
+.. important :: The PID should be configured before USBCDCDevice::begin() function is called.
 
-.. note :: “USBCDCDevice.h” must be included to use the class function.
+.. note :: "USBCDCDevice.h" must be included to use the class function.
 
 ---------------------------------------
 
@@ -185,9 +181,9 @@ NA
 
 NA
 
-.. important :: The manufacturer string should be configured before USBCDCDevice::begin() function is called. 
+.. important :: The manufacturer string should be configured before USBCDCDevice::begin() function is called.
 
-.. note :: “USBCDCDevice.h” must be included to use the class function.
+.. note :: "USBCDCDevice.h" must be included to use the class function.
 
 -----------------------------
 
@@ -209,7 +205,7 @@ Set USB product model string.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-``model``: Character string containing model name. Default “Realtek USB VCP”.
+``model``: Character string containing model name. Default "Realtek USB VCP".
 
 **Returns**
 ~~~~~~~~~~~
@@ -221,9 +217,9 @@ NA
 
 NA
 
-.. important :: The model string should be configured before USBCDCDevice::begin() function is called. 
+.. important :: The model string should be configured before USBCDCDevice::begin() function is called.
 
-.. note :: “USBCDCDevice.h” must be included to use the class function.
+.. note :: "USBCDCDevice.h" must be included to use the class function.
 
 ---------------------------------------------
 
@@ -245,7 +241,7 @@ Set USB product serial number string.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-``serial``: Character string containing serial number. Default “0123456789”.
+``serial``: Character string containing serial number. Default "0123456789".
 
 **Returns**
 ~~~~~~~~~~~
@@ -257,9 +253,9 @@ NA
 
 NA
 
-.. important :: The serial string should be configured before USBCDCDevice::begin() function is called. 
+.. important :: The serial string should be configured before USBCDCDevice::begin() function is called.
 
-.. note :: “USBCDCDevice.h” must be included to use the class function.
+.. note :: "USBCDCDevice.h" must be included to use the class function.
 
 ------------------------------
 
@@ -293,7 +289,7 @@ The function returns TRUE if the USB port is connected to a host, FALSE if it is
 
 NA
 
-.. note :: “USBCDCDevice.h” must be included to use the class function.
+.. note :: "USBCDCDevice.h" must be included to use the class function.
 
 ------------------------------
 
@@ -327,7 +323,7 @@ This function returns TRUE if the USB port is connected to a host and the DTR an
 
 NA
 
-.. note :: “USBCDCDevice.h” must be included to use the class function.
+.. note :: "USBCDCDevice.h" must be included to use the class function.
 
 ------------------------
 
@@ -360,7 +356,7 @@ The function returns the state of the DTR signal line.
 
 NA
 
-.. note :: “USBCDCDevice.h” must be included to use the class function.
+.. note :: "USBCDCDevice.h" must be included to use the class function.
 
 ------------------------
 
@@ -394,7 +390,7 @@ The function returns the state of the RTS signal line.
 
 NA
 
-.. note :: “USBCDCDevice.h” must be included to use the class function.
+.. note :: "USBCDCDevice.h" must be included to use the class function.
 
 ------------------------
 
@@ -428,9 +424,9 @@ NA
 
 Example: `USBCDCSerial <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/USBCDCSerial/USBCDCSerial.ino>`_
 
-.. important :: The baud rate parameter has no significance in the context of a USB CDC serial port and can be left empty. 
+.. important :: The baud rate parameter has no significance in the context of a USB CDC serial port and can be left empty.
 
-.. note :: “USBCDCDevice.h” must be included to use the class function.
+.. note :: "USBCDCDevice.h" must be included to use the class function.
 
 ------------------------
 
@@ -464,7 +460,7 @@ NA
 
 NA
 
-.. note :: “USBCDCDevice.h” must be included to use the class function.
+.. note :: "USBCDCDevice.h" must be included to use the class function.
 
 ------------------------
 
@@ -498,7 +494,7 @@ This function returns the number of bytes received in the buffer.
 
 Example: `USBCDCSerial <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/USBCDCSerial/USBCDCSerial.ino>`_
 
-.. note :: “USBCDCDevice.h” must be included to use the class function.
+.. note :: "USBCDCDevice.h" must be included to use the class function.
 
 ------------------------
 
@@ -532,7 +528,7 @@ This function returns the next byte of received serial data without removing it 
 
 NA
 
-.. note :: “USBCDCDevice.h” must be included to use the class function.
+.. note :: "USBCDCDevice.h" must be included to use the class function.
 
 -----------------------
 
@@ -566,7 +562,7 @@ This function returns the next byte of received serial data, else returns error(
 
 Example: `USBCDCSerial <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/USBCDCSerial/USBCDCSerial.ino>`_
 
-.. note :: “USBCDCDevice.h” must be included to use the class function.
+.. note :: "USBCDCDevice.h" must be included to use the class function.
 
 -----------------------
 
@@ -600,7 +596,7 @@ NA
 
 NA
 
-.. note :: “USBCDCDevice.h” must be included to use the class function.
+.. note :: "USBCDCDevice.h" must be included to use the class function.
 
 ---------------------------
 
@@ -642,5 +638,5 @@ This function returns the number of bytes written to serial port.
 
 Example: `USBCDCSerial <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/USB/examples/USBCDCSerial/USBCDCSerial.ino>`_
 
-.. note :: “USBCDCDevice.h” must be included to use the class function.
-    
+.. note :: "USBCDCDevice.h" must be included to use the class function.
+

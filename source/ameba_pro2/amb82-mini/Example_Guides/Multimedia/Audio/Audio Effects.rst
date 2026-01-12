@@ -1,14 +1,10 @@
 Audio Effects
 =============
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 - 3.5mm TRS/TRRS breakout x 1 (e.g., Adafruit 2791 / Sparkfun 11570)
 - Adafruit PDM Microphone Breakout x 1 [Optional]
 - Potentiometer x 2
@@ -25,11 +21,11 @@ Alternatively, connect the audio jack, potentiometers, and PDM Microphone as sho
 
 |image02|
 
-Open the example in “File” -> “Examples” -> “AmebaMultimedia” -> “Audio” -> “AudioEffect”.
+Open the example in "File" -> "Examples" -> "AmebaMultimedia" -> "Audio" -> "AudioEffect".
 
 |image03|
 
-In the highlighted code snippet, fill in the “ssid” with your WiFi network SSID and “pass” with the network password.
+In the highlighted code snippet, fill in the "ssid" with your WiFi network SSID and "pass" with the network password.
 
 |image04|
 

@@ -1,17 +1,13 @@
 LCD Screen ILI9341 TFT
 ======================
 
-.. contents::
-  :local:
-  :depth: 2
-
 If you are not familiar with SPI, please read `Introduction to
-SPI <https://www.amebaiot.com/spi-intro/>`_ first.
+SPI <https://www.amebaiot.com/spi-intro/>`__ first.
 
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 - ILI9341 TFT LCD with SPI interface x 1
 
@@ -56,17 +52,17 @@ Common pins in ILI9341 TFT LCD with SPI interface:
 
 |image01|
 
-**AMB82 MINI and Adafruit 2.8” TFT LCD touch shield:**
+**AMB82 MINI and Adafruit 2.8" TFT LCD touch shield:**
 
 |image02|
 
 Please note that this shield model enables the backlight by default and pin 8 is not for backlight, and the VCC should be connected to 5V.
 
-.. note :: 
+.. note ::
    Before compilation, kindly install TJpg_Decoder library via Arduino IDE library manager.
    After installing the TJpg_Decoder library, in the library's configuration file, User_Config.h, comment out line 5 which reads: #define TJPGD_LOAD_SD_LIBRARY to avoid compilation error.
 
-Open the example, “File” -> “Examples” -> “AmebaSPI” -> “LCD_Screen_ILI9341_TFT”
+Open the example, "File" -> "Examples" -> "AmebaSPI" -> "LCD_Screen_ILI9341_TFT"
 
 |image03|
 
@@ -127,7 +123,7 @@ Code Reference
 
    -  In our API, each character is 5x7 but each character is printed to
       size 6x8 (its right side and below are left blank), so as to
-      separate from next character. For example, the character “A”:
+      separate from next character. For example, the character "A":
 
       |image05|
 

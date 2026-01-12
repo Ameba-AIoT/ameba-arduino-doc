@@ -1,14 +1,10 @@
 Echo Cancellation
 ==================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 - 3.5mm TRS/TRRS breakout x 1 (e.g., Adafruit 2791 / Sparkfun 11570)
 - Adafruit PDM Microphone Breakout x 1 [Optional]
 
@@ -22,13 +18,13 @@ Connect the audio jack to the Ameba board as shown in the diagram.
 
 Alternatively, connect the audio jack, potentiometers, and PDM Microphone as shown in the diagram below if you would like to use a digital microphone.
 
-|image01pdm| 
+|image01pdm|
 
-Open the example in “File” -> “Examples” -> “AmebaMultimedia” -> “Audio” -> “EchoCancellation”.
+Open the example in "File" -> "Examples" -> "AmebaMultimedia" -> "Audio" -> "EchoCancellation".
 
 |image02|
 
-In the highlighted code snippet, fill in the “ssid” with your WiFi network SSID and “pass” with the network password.
+In the highlighted code snippet, fill in the "ssid" with your WiFi network SSID and "pass" with the network password.
 
 |image03|
 
@@ -40,7 +36,7 @@ This example requires opening two VLC player windows, one for RTP audio streamin
 
 **RTP Audio Stream**
 
-On a computer connected to the same WiFi network, open VLC media player, and go to “Media” -> “Stream”.
+On a computer connected to the same WiFi network, open VLC media player, and go to "Media" -> "Stream".
 
 |image04|
 
@@ -48,7 +44,7 @@ Using the add button, add the audio file you would like to stream to the Ameba b
 
 |image05|
 
-In the new window that appears, click on next to move to the destination setup page. In the dropdown menu, select “RTP Audio/Video Profile” and click on the add button next to it.
+In the new window that appears, click on next to move to the destination setup page. In the dropdown menu, select "RTP Audio/Video Profile" and click on the add button next to it.
 
 |image06|
 
@@ -56,21 +52,21 @@ In the new tab that appears, enter the IP address of the Ameba Pro 2 board in th
 
 |image07|
 
-For transcoding options, ensure that “Activate Transcoding” is checked. If you already have a profile created for the Ameba Pro 2, select the existing profile, and skip the next section showing how to create a profile. Otherwise, click on the highlighted button to create a new profile for the Ameba Pro 2 Board.
+For transcoding options, ensure that "Activate Transcoding" is checked. If you already have a profile created for the Ameba Pro 2, select the existing profile, and skip the next section showing how to create a profile. Otherwise, click on the highlighted button to create a new profile for the Ameba Pro 2 Board.
 
 |image08|
 
-In the new window that appears, give a suitable name for the new transcoding profile. Ensure that “RAW” is selected in the “Encapsulation” tab.
+In the new window that appears, give a suitable name for the new transcoding profile. Ensure that "RAW" is selected in the "Encapsulation" tab.
 
 |image09|
 
-Ensure that “Video” and “Subtitle” are disabled in the “Video codec” and “Subtitles” tabs.
+Ensure that "Video" and "Subtitle" are disabled in the "Video codec" and "Subtitles" tabs.
 
 |image10|
 
 |image11|
 
-In the “Audio codec” tab, ensure that “Audio” is enabled. Select “MPEG 4 Audio (AAC)” for the codec, and 1 for the number of channels. For the sample rate, this value should be the same as the AudioSetting configuration for the Ameba Pro 2, which is 8000 Hz by default for this example. Click on the create button, ensure that the new profile is selected, and click on the next button.
+In the "Audio codec" tab, ensure that "Audio" is enabled. Select "MPEG 4 Audio (AAC)" for the codec, and 1 for the number of channels. For the sample rate, this value should be the same as the AudioSetting configuration for the Ameba Pro 2, which is 8000 Hz by default for this example. Click on the create button, ensure that the new profile is selected, and click on the next button.
 
 |image12|
 
@@ -80,15 +76,15 @@ Plug in a pair of wired earbuds into the audio jack, and you should hear the aud
 
 **RTSP Audio Stream**
 
-On a computer connected to the same WiFi network, open VLC media player, and go to “Media” -> “Open Network Stream”.
+On a computer connected to the same WiFi network, open VLC media player, and go to "Media" -> "Open Network Stream".
 
 |image13|
 
-Since RTSP is used as the streaming protocol, key in “rtsp://{IPaddress}:{port}” as the Network URL in VLC media player, replacing {IPaddress} with the IP address of your Ameba Pro2 board, and {port} with the RTSP port shown in Serial Monitor. The default RTSP port number is 554.
+Since RTSP is used as the streaming protocol, key in "rtsp://{IPaddress}:{port}" as the Network URL in VLC media player, replacing {IPaddress} with the IP address of your Ameba Pro2 board, and {port} with the RTSP port shown in Serial Monitor. The default RTSP port number is 554.
 
 |image14|
 
-Next, click “Play” to start RTSP streaming. You should be able to hear sounds picked up by the onboard microphone replayed through computer.
+Next, click "Play" to start RTSP streaming. You should be able to hear sounds picked up by the onboard microphone replayed through computer.
 
 **Testing AEC algorithm**
 
@@ -97,7 +93,7 @@ While both RTP and RTSP audio streams are ongoing, adjust the speaker output suc
 |image15|
 
 When the AEC algorithm is operating normally, from the RTSP audio streamed output on the computer, you should not be able to hear any audio streamed to the Ameba Pro 2 board over RTP.
-To compare the effectiveness of the AEC algorithm, comment out “audio.configMicAEC(1);” in the code, recompile, reupload and test using two VLC windows again. The audio feedback from the speaker to the microphone should be obvious from the RTSP stream on the computer.
+To compare the effectiveness of the AEC algorithm, comment out "audio.configMicAEC(1);" in the code, recompile, reupload and test using two VLC windows again. The audio feedback from the speaker to the microphone should be obvious from the RTSP stream on the computer.
 
 Code Reference
 --------------

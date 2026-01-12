@@ -1,10 +1,6 @@
 Power Save - Deep Sleep for DHT and E-Paper
 ============================================
 
-.. contents::
-  :local:
-  :depth: 2
-  
 Materials
 ---------
 
@@ -17,7 +13,7 @@ Materials
 Example
 --------
 
-Ameba-D supports low power modes which are deepsleep mode. Deepsleep mode turns off most of the system power domain. The power consumptions of core module in DeepSleep Mode are around 7uA to 8uA compared to normal state around 22mA. This example gives demo of system switch between “working” and “sleep”(power save).Using DHT sensor to read data and display on Eink screen when system is awake. After 5 seconds system auto enter DeepSleep Mode for power save. System will wake up by wakeup source.( Aon timer, Aon Pins or RTC timer).
+Ameba-D supports low power modes which are deepsleep mode. Deepsleep mode turns off most of the system power domain. The power consumptions of core module in DeepSleep Mode are around 7uA to 8uA compared to normal state around 22mA. This example gives demo of system switch between "working" and "sleep"(power save).Using DHT sensor to read data and display on Eink screen when system is awake. After 5 seconds system auto enter DeepSleep Mode for power save. System will wake up by wakeup source.( Aon timer, Aon Pins or RTC timer).
 
 There are 2 versions of DHT sensor, one with 4 pins and another one with 3 pins mounted to a small PCB. The PCB mounted version has included a 10K Ohm pull up resistor for the signal line. Take note that if you are using a DHT sensor that is not mounted on a PCB, you will have to add in a 10K Ohm pull up resistor. You may refer to the wiring diagrams below.
 
@@ -31,7 +27,7 @@ There are 2 versions of DHT sensor, one with 4 pins and another one with 3 pins 
 
 |image02|
 
-.. only:: end amb21  
+.. only:: end amb21
 
 .. only:: amb23
 
@@ -43,36 +39,36 @@ There are 2 versions of DHT sensor, one with 4 pins and another one with 3 pins 
 
 |image04|
 
-.. only:: end amb23 
+.. only:: end amb23
 
 .. only:: amb25
 
 **DHT sensor not mounted on PCB board**
-    
+
 |image05|
 
 **DHT sensor mounted on PCB board**
 
 |image06|
 
-.. only:: end amb25 
+.. only:: end amb25
 
 .. only:: amb26
 
 **DHT sensor not mounted on PCB board**
-    
+
 |image07|
 
 **DHT sensor mounted on PCB board**
 
 |image08|
 
-.. only:: end amb26 
+.. only:: end amb26
 
 .. only:: bw16-typeb
 
 **DHT sensor not mounted on PCB board**
-    
+
 |image09|
 
 **DHT sensor mounted on PCB board**
@@ -84,7 +80,7 @@ There are 2 versions of DHT sensor, one with 4 pins and another one with 3 pins 
 .. only:: bw16-typec
 
 **DHT sensor not mounted on PCB board**
-    
+
 |image11|
 
 **DHT sensor mounted on PCB board**
@@ -103,17 +99,17 @@ There are 2 versions of DHT sensor, one with 4 pins and another one with 3 pins 
 
 |image14|
 
-.. only:: end aw-cu488 
+.. only:: end aw-cu488
 
 Download the Eink zip library, AmebaEink.zip, at https://github.com/Ameba-AIoT/ameba-arduino-d/tree/master/Arduino_zip_libraries. Then install the AmebaEink.zip.
 
-Open “File” -> “Examples” -> “AmebaPowerSave” -> “DeepSleep_DHT_Eink_Example”
+Open "File" -> "Examples" -> "AmebaPowerSave" -> "DeepSleep_DHT_Eink_Example"
 
 |image15|
 
 Set condition values as picture below.
 
-“DS_WAKEUP_SOURCE” is used to set the wake-up source, user can choose from 3 wake up sources,
+"DS_WAKEUP_SOURCE" is used to set the wake-up source, user can choose from 3 wake up sources,
 
 - AON Timer (SET_DS_AON_TIMER_WAKEUP);
 - AON GPIO pins (SET_AON_WAKEPIN_WAKEUP);
@@ -154,8 +150,7 @@ When finished the condition values setting, system will run and switch between n
 Code Reference
 ---------------
 
-Please refer to the `API Documents <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/amb21/API_Documents/index.html>`_ PowerSave section for detail description of all API.
-
+Please refer to the `API Documents <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/amb21/API_Documents/index.html>`__ PowerSave section for detail description of all API.
 
 .. |image01| image:: ../../../../_static/amebad/Example_Guides/PowerSave/Power_Save_Deep_Sleep_For_DHT_Epaper/image01.png
    :width:  988 px

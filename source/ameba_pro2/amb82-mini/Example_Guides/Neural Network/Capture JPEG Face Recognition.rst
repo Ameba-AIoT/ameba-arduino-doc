@@ -1,13 +1,9 @@
 Capture JPEG Face Recognition
 =============================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 -  SD card x 1
 
@@ -21,7 +17,7 @@ Materials
 
 -  10K Ohm resistor x 1
 
-Example 
+Example
 -------
 In this example, we will be using Ameba Pro2 development board to create a simple surveillance system with Face Recognition that will take a snapshot of unrecognized faces and save it as JPEG on an SD Card.
 
@@ -29,11 +25,11 @@ In this example, we will be using Ameba Pro2 development board to create a simpl
 
 |image01|
 
-Open the Neural Network example in “File” -> “Examples” -> “AmebaNN” -> “CaptureJPEGFaceRecognition”.
+Open the Neural Network example in "File" -> "Examples" -> "AmebaNN" -> "CaptureJPEGFaceRecognition".
 
 |image02|
 
-In the highlighted code snippet, fill in the “ssid” with your WiFi network SSID and “pass” with the network password.
+In the highlighted code snippet, fill in the "ssid" with your WiFi network SSID and "pass" with the network password.
 
 |image03|
 
@@ -41,7 +37,7 @@ You may also set the maximum number of snapshots to be captured by changing the 
 
 |image04|
 
-Select Neural Network (NN) task and models using modelSelect() function highlighted in yellow. This function takes 4 arguments: Neural Network task, Object Detection model, Face Detection model and Face Recognition model. Replace with “NA_MODEL” if they are not necessary for your selected Neural Network task. Note that it is mandatory to call modelSelect() function before calling the begin() function.
+Select Neural Network (NN) task and models using modelSelect() function highlighted in yellow. This function takes 4 arguments: Neural Network task, Object Detection model, Face Detection model and Face Recognition model. Replace with "NA_MODEL" if they are not necessary for your selected Neural Network task. Note that it is mandatory to call modelSelect() function before calling the begin() function.
 
 Valid Neural Network task: OBJECT_DETECTION, FACE_DETECTION,
 FACE_RECOGNITION
@@ -66,17 +62,17 @@ Compile the code and upload it to Ameba. After pressing the Reset button, wait f
 
 The result can be validated using VLC. You may download VLC media player from the link `here <https://www.videolan.org/vlc/>`__.
 
-Upon the completion of the software installation, open VLC media player, and go to “Media” -> “Open Network Stream”.
+Upon the completion of the software installation, open VLC media player, and go to "Media" -> "Open Network Stream".
 
 |image06|
 
-Make sure your PC is connected to the same network as the Ameba Pro2 board for streaming. Since RTSP is used as the streaming protocol, key in `“rtsp://{IPaddress}:{port}”`` as the Network URL in VLC media player, replacing {IPaddress} with the IP address of your Ameba Pro2 board, and {port} with the RTSP port shown in Serial Monitor `(e.g., “rtsp://192.168.1.154:554”)`. The default RTSP port number is 554.
+Make sure your PC is connected to the same network as the Ameba Pro2 board for streaming. Since RTSP is used as the streaming protocol, key in `"rtsp://{IPaddress}:{port}"`` as the Network URL in VLC media player, replacing {IPaddress} with the IP address of your Ameba Pro2 board, and {port} with the RTSP port shown in Serial Monitor `(e.g., "rtsp://192.168.1.154:554")`. The default RTSP port number is 554.
 
-Next, click “Play” to start RTSP streaming to see the result. The video stream from the camera will be shown in VLC media player.
+Next, click "Play" to start RTSP streaming to see the result. The video stream from the camera will be shown in VLC media player.
 
 |image07|
 
-The faces detected by the face recognition neural network model are initially labelled as “unknown”, faces need to be first registered with a name before they can be recognized.
+The faces detected by the face recognition neural network model are initially labelled as "unknown", faces need to be first registered with a name before they can be recognized.
 
 |image08|
 
@@ -86,7 +82,7 @@ Aim the camera at a face and enter the following commands in the Serial Monitor.
 
 Note: Multiple faces can be registered. However, when registering a face, ensure that there is only one face in the frame.
 
-To register a face, aim the camera to a targeted face and enter **“REG={Name}”** to give the targeted face a name. For example, “REG=SAM”.
+To register a face, aim the camera to a targeted face and enter **"REG={Name}"** to give the targeted face a name. For example, "REG=SAM".
 
 |image09|
 
@@ -94,15 +90,15 @@ To register a face, aim the camera to a targeted face and enter **“REG={Name}�
 
 **To remove a specific registered face:**
 
-Enter the command **“DEL={Name}”** to delete a certain registered face. For example, “DEL=SAM”.
+Enter the command **"DEL={Name}"** to delete a certain registered face. For example, "DEL=SAM".
 
 **To reset all registered faces:**
 
-Enter the command **“RESET”** to forget all previously registered faces. All previously assigned faces and names will be removed. You may register a face again by entering the face registration mode.
+Enter the command **"RESET"** to forget all previously registered faces. All previously assigned faces and names will be removed. You may register a face again by entering the face registration mode.
 
 **To backup and restore registered faces to and from flash:**
 
-Enter the command **“BACKUP”** to save a copy of registered faces to flash. If a backup exists, enter the command **“RESTORE”** to load registered faces from flash.
+Enter the command **"BACKUP"** to save a copy of registered faces to flash. If a backup exists, enter the command **"RESTORE"** to load registered faces from flash.
 
 Press and hold the button for 2 seconds to enter snapshot mode to take snapshots when unrecognized faces are detected. The unknown faces will then be registered as Stranger and saved to an SD card as Stranger{strangerCounter}.jpg. Red LED will light up when one or more unknown faces are detected.
 

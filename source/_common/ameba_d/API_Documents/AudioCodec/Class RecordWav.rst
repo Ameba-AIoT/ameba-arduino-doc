@@ -1,10 +1,6 @@
 Class RecordWav
 ===============
 
-.. contents::
-  :local:
-  :depth: 2
-
 **RecordWav Class**
 -------------------
 
@@ -81,7 +77,7 @@ NA
 
 Example: `RecordWavFile <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/RecordWavFile/RecordWavFile.ino>`_
 
-.. note :: “RecordWav.h” must be included to use the class function.
+.. note :: "RecordWav.h" must be included to use the class function.
 
 **RecordWav::openFile**
 -----------------------
@@ -113,7 +109,7 @@ NA
 
 Example: `RecordWavFile <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/RecordWavFile/RecordWavFile.ino>`_
 
-.. note :: “RecordWav.h” must be included to use the class function.
+.. note :: "RecordWav.h" must be included to use the class function.
 
 **RecordWav::closeFile**
 ------------------------
@@ -146,7 +142,7 @@ NA
 Example: `RecordWavFile <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/RecordWavFile/RecordWavFile.ino>`_
 
 .. note :: After recording is complete, any open.wav files should be closed; otherwise, recorded audio data may be lost.
-    “RecordWav.h” must be included to use the class function.
+    "RecordWav.h" must be included to use the class function.
 
 **RecordWav::fileOpened**
 -------------------------
@@ -178,7 +174,7 @@ This function returns true if a .wav file is already open, false otherwise.
 
 Example: `RecordWavFile <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/RecordWavFile/RecordWavFile.ino>`_
 
-.. note :: “RecordWav.h” must be included to use the class function.
+.. note :: "RecordWav.h" must be included to use the class function.
 
 **RecordWav::setSampleRate**
 ----------------------------
@@ -210,7 +206,7 @@ NA
 
 Example: `RecordWavFile <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/RecordWavFile/RecordWavFile.ino>`_
 
-.. note :: “RecordWav.h” must be included to use the class function.
+.. note :: "RecordWav.h" must be included to use the class function.
 
 **RecordWav::setChannelCount**
 ------------------------------
@@ -242,7 +238,7 @@ NA
 
 NA
 
-.. note :: “RecordWav.h” must be included to use the class function.
+.. note :: "RecordWav.h" must be included to use the class function.
 
 **RecordWav::setBitDepth**
 --------------------------
@@ -255,7 +251,7 @@ Set the recording bit depth of each sample in the .wav file.
 **Syntax**
 ~~~~~~~~~~
 .. code:: c++
-    
+
     void setBitDepth(uint16_t bitDepth);
 
 **Parameters**
@@ -273,7 +269,7 @@ NA
 
 NA
 
-.. note :: “RecordWav.h” must be included to use the class function.
+.. note :: "RecordWav.h" must be included to use the class function.
 
 **RecordWav::getLengthMillis**
 ------------------------------
@@ -305,7 +301,7 @@ This function returns the current length of the recorded .wav file in millisecon
 
 NA
 
-.. note :: “RecordWav.h” must be included to use the class function.
+.. note :: "RecordWav.h" must be included to use the class function.
 
 **RecordWav::millisToBytes**
 ----------------------------
@@ -337,7 +333,7 @@ This function returns the number of bytes that is equivalent to the input playba
 
 NA
 
-.. note :: “RecordWav.h” must be included to use the class function.
+.. note :: "RecordWav.h" must be included to use the class function.
 
 **RecordWav::bytesToMillis**
 ----------------------------
@@ -369,7 +365,7 @@ This function returns the time duration in milliseconds that is equivalent to th
 
 NA
 
-.. note :: “RecordWav.h” must be included to use the class function.
+.. note :: "RecordWav.h" must be included to use the class function.
 
 **RecordWav::writeAudioData**
 -----------------------------
@@ -402,4 +398,4 @@ The function returns number of audio samples written to the .wav file.
 
 Example: `RecordWavFile <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/AudioCodec/examples/RecordWavFile/RecordWavFile.ino>`_
 
-.. note :: “RecordWav.h” must be included to use the class function.
+.. note :: "RecordWav.h" must be included to use the class function.

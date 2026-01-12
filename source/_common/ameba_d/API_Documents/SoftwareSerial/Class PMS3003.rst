@@ -1,10 +1,6 @@
 Class PMS3003
 =============
 
-.. contents::
-  :local:
-  :depth: 2
-
 **PMS3003 Class**
 ------------------
 
@@ -89,7 +85,7 @@ NA
 
 NA
 
-.. note :: “PMS3003.h” must be included to use the class function.
+.. note :: "PMS3003.h" must be included to use the class function.
 
 -----------------------------------------------------------------------------------
 
@@ -123,7 +119,7 @@ NA
 
 NA
 
-.. note :: “PMS3003.h” must be included to use the class function.
+.. note :: "PMS3003.h" must be included to use the class function.
 
 -----------------------------------------------------------------------------------
 
@@ -157,7 +153,7 @@ NA
 
 NA
 
-.. note :: “PMS3003.h” must be included to use the class function.
+.. note :: "PMS3003.h" must be included to use the class function.
 
 ----------------------------------------------------------------------------------
 
@@ -184,14 +180,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-The function returns the value “pm1p0_cf1” as an integer.
+The function returns the value "pm1p0_cf1" as an integer.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “PMS3003.h” must be included to use the class function.
+.. note :: "PMS3003.h" must be included to use the class function.
 
 --------------------------------------------------------------------------------
 
@@ -218,14 +214,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-This function returns the value of “pm2p5_cf1” as an integer.
+This function returns the value of "pm2p5_cf1" as an integer.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “PMS3003.h” must be included to use the class function.
+.. note :: "PMS3003.h" must be included to use the class function.
 
 ------------------------------------------------------------------------------
 
@@ -241,7 +237,7 @@ Get the value of PM10 under correction factor = 1.
 ~~~~~~~~~~
 
 .. code:: c++
-  
+
   int get_pm10_cf1(void);
 
 **Parameters**
@@ -252,14 +248,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-The function returns the value of “pm10_cf1” as an integer.
+The function returns the value of "pm10_cf1" as an integer.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “PMS3003.h” must be included to use the class function.
+.. note :: "PMS3003.h" must be included to use the class function.
 
 ------------------------------------------------------------------------------
 
@@ -286,14 +282,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-The function returns the value of “pm1p0_air” as an integer.
+The function returns the value of "pm1p0_air" as an integer.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “PMS3003.h” must be included to use the class function.
+.. note :: "PMS3003.h" must be included to use the class function.
 
 -----------------------------------------------------------------------------
 
@@ -320,17 +316,16 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-The function returns the value of “pm2p5_air” as an integer.
+The function returns the value of "pm2p5_air" as an integer.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “PMS3003.h” must be included to use the class function.
+.. note :: "PMS3003.h" must be included to use the class function.
 
 ------------------------------------------------------------------------------
-
 
 **PMS3003::get_pm10_air**
 -------------------------
@@ -355,14 +350,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-The function returns the value of “pm10_air” as an integer.
+The function returns the value of "pm10_air" as an integer.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: “PMS3003.h” must be included to use the class function.
+.. note :: "PMS3003.h" must be included to use the class function.
 
 ------------------------------------------------------------------------------
 
@@ -398,4 +393,4 @@ NA
 
 NA
 
-.. note :: “PMS3003.h” must be included to use the class function.
+.. note :: "PMS3003.h" must be included to use the class function.

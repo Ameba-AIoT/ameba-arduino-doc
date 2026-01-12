@@ -1,10 +1,6 @@
 Class BLEAdvert
 ===============
 
-.. contents::
-  :local:
-  :depth: 2
-
 **BLEAdvert Class**
 -------------------
 

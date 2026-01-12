@@ -1,16 +1,12 @@
 BMI270 Significant Motion
 =========================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
-- `SparkFun 6oF IMU Breakout - BMI270 <https://www.sparkfun.com/sparkfun-6dof-imu-breakout-bmi270-qwiic.html>`_ x 1
+- `SparkFun 6oF IMU Breakout - BMI270 <https://www.sparkfun.com/sparkfun-6dof-imu-breakout-bmi270-qwiic.html>`__ x 1
 
 Example
 -------
@@ -31,7 +27,7 @@ Open the example in "File" -> "Examples" -> "AmebaWire" -> "BMI270" -> "Signific
 
 |image02|
 
-Compile and run the example. 
+Compile and run the example.
 
 A message will be printed when a significant motion is triggered.
 

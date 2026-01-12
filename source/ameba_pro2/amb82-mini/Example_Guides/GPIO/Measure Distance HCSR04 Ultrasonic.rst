@@ -1,14 +1,10 @@
 Measure Distance HCSR04 Ultrasonic
 ==================================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 -  HC-SR04 Ultrasonic x 1
 
@@ -18,7 +14,7 @@ Example
 -------
 
 | HC-SR04 is a module that uses ultrasound to measure the distance. It looks like a pair of eyes in its appearance, therefore it’s often installed onto robot-vehicle or mechanical bugs to be their eyes.
-| The way it works is that first we “toggle high” the TRIG pin (that is to pull high then pull low). The HC-SR04 would send eight 40kHz sound wave signal and pull high the ECHO pin. When the sound wave returns, it pull low the ECHO pin.
+| The way it works is that first we "toggle high" the TRIG pin (that is to pull high then pull low). The HC-SR04 would send eight 40kHz sound wave signal and pull high the ECHO pin. When the sound wave returns, it pull low the ECHO pin.
 
 |image01|
 
@@ -37,7 +33,7 @@ Example
 
 |image03|
 
-Next, open the sample code in “File” -> “Examples” -> “AmebaGPIO” -> “HCSR04_Ultrasonic”
+Next, open the sample code in "File" -> "Examples" -> "AmebaGPIO" -> "HCSR04_Ultrasonic"
 
 |image04|
 
@@ -68,7 +64,7 @@ Finally, use the formula to calculate the distance.
 
 .. code-block:: c++
 
-    distance = duration / 58; 
+    distance = duration / 58;
 
 .. |image01| image:: ../../../../_static/amebapro2/Example_Guides/GPIO/Measure_Distance_HCSR04_Ultrasonic/image01.png
    :width:  882 px

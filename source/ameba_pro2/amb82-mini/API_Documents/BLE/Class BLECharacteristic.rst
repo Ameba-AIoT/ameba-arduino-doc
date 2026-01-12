@@ -1,10 +1,6 @@
 Class BLECharacteristic
 =======================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **BLECharacteristic Class**
 ---------------------------
 

@@ -1,10 +1,6 @@
 Class VideoStreamOverlay
 ========================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **VideoStreamOverlay Class**
 ----------------------------
 
@@ -775,7 +771,7 @@ Set image position on video stream.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-bmp_info: Pointer to osd_pict_st structure which contains information about an OSD image. 
+bmp_info: Pointer to osd_pict_st structure which contains information about an OSD image.
 
 chn_id: Channel used.
 
@@ -817,9 +813,9 @@ Set block index of image on video stream.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-bmp_info: Pointer to osd_pict_st structure which contains information about an OSD image. 
+bmp_info: Pointer to osd_pict_st structure which contains information about an OSD image.
 
-blk_idx: Block index for each image (Valid value 0-23). 
+blk_idx: Block index for each image (Valid value 0-23).
 
 blk_fmt: Specifies the format of the block.
 
@@ -855,7 +851,7 @@ Set buffer containing image data and its length.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-bmp_info: Pointer to osd_pict_st structure which contains information about an OSD image. 
+bmp_info: Pointer to osd_pict_st structure which contains information about an OSD image.
 
 buf: pointer to a buffer containing the raw image data
 
@@ -891,7 +887,7 @@ Get resized width of image for overlaying on a video stream.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-pict_width: The original width of the image. 
+pict_width: The original width of the image.
 
 pict_scaling_up_factor: The factor by which to scale up the width.
 
@@ -927,7 +923,7 @@ Get resized height of image for overlaying on a video stream.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-pict_height: The original height of the image. 
+pict_height: The original height of the image.
 
 pict_scaling_up_factor: The factor by which to scale up the height.
 
@@ -963,9 +959,9 @@ Get heapsize of an image given its resized dimensions and color format.
 **Parameters**
 ~~~~~~~~~~~~~~
 
-resize_width: The resized width of an image. 
+resize_width: The resized width of an image.
 
-resize_height: The height width of an image. 
+resize_height: The height width of an image.
 
 image_format: The color format of an image.
 
@@ -1068,4 +1064,4 @@ NA
 Example: `VideoOSDImage <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/VideoOSDImage/VideoOSDImage.ino>`_
 
 .. note :: "VideoStreamOverlay.h" must be included to use the class function. Each image requires setting a new block index.
-                      
+

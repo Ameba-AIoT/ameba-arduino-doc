@@ -1,10 +1,6 @@
 WiFi - Set up Server to Communicate
 =====================================
 
-.. contents::
-  :local:
-  :depth: 2
-  
 Materials
 ---------
 
@@ -17,9 +13,9 @@ Example
 
 In this example, we first connect Ameba to WiFi, then we use Ameba as server to communicate with client.
 
-First, we make sure the correct Ameba development board is set in “Tools” -> “Board”
+First, we make sure the correct Ameba development board is set in "Tools" -> "Board"
 
-Then, open the Simple WiFi Server example in “File” -> “Examples” -> “WiFi” -> “SimpleServerWiFi”
+Then, open the Simple WiFi Server example in "File" -> "Examples" -> "WiFi" -> "SimpleServerWiFi"
 
 In the sample code, modify the highlighted parameters and enter the ssid and password for your WiFi connection.
 
@@ -29,13 +25,13 @@ Next, upload the code, then press the reset button on Ameba. Afterwards, you wil
 
 |image02|
 
-Next, we use the socket tool in the laptop to be the client and connect to the IP address of the Ameba board shown in the connection information at port 5000. (Note: The socket tool we used in this example is “sokit”)
+Next, we use the socket tool in the laptop to be the client and connect to the IP address of the Ameba board shown in the connection information at port 5000. (Note: The socket tool we used in this example is "sokit")
 
 |image03|
 
-Click on the “Client” tab to choose the client mode, specify the IP and port of the server, then click “TCP Connect”.
+Click on the "Client" tab to choose the client mode, specify the IP and port of the server, then click "TCP Connect".
 
-If the connection is established successfully, the server shows a message: “A client connected to this Server”, and the IP and port of the connected client.
+If the connection is established successfully, the server shows a message: "A client connected to this Server", and the IP and port of the connected client.
 
 In this example, when the client and server are connected and the client sends a string to Ameba server, the Ameba server returns the identical string back to the client.
 
@@ -69,7 +65,6 @@ Code reference
 | Use client.stop() to disconnect from the server.
 | https://www.arduino.cc/en/Reference/WiFIClientStop
 
-
 .. |image01| image:: ../../../../_static/amebad/Example_Guides/WiFi/WiFi_Set_up_Server_to_Communicate/image01.png
    :width:  716 px
    :height:  867 px
@@ -82,4 +77,4 @@ Code reference
 .. |image04| image:: ../../../../_static/amebad/Example_Guides/WiFi/WiFi_Set_up_Server_to_Communicate/image04.png
    :width:  704 px
    :height:  355 px
-   
+

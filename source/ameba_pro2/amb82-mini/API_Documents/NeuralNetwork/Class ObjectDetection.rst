@@ -1,10 +1,6 @@
 Class ObjectDetection
 =====================
 
-.. contents::
-  :local:
-  :depth: 2
-
 **ObjectDetectionResult Class**
 -------------------------------
 

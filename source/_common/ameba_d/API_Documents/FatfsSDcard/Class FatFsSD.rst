@@ -1,10 +1,6 @@
 Class FatFsSD
 =============
 
-.. contents::
-  :local:
-  :depth: 2
-
 **FatFsSD Class**
 -----------------
 
@@ -90,7 +86,7 @@ Returns **0** if success, else returns a negative value.
 
 Example: `create_folder <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/FatfsSDIO/examples/create_folder/create_folder.ino>`_
 
-.. note :: “FatFs_SD.h” must be included to use the class function.
+.. note :: "FatFs_SD.h" must be included to use the class function.
 
 **FatFsSD::end**
 ----------------
@@ -115,14 +111,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-Returns “0” if success, else returns a negative value.
+Returns "0" if success, else returns a negative value.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 Example: `create_folder <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/FatfsSDIO/examples/create_folder/create_folder.ino>`_
 
-.. note :: “FatFs_SD.h” must be included to use the class function.
+.. note :: "FatFs_SD.h" must be included to use the class function.
 
 **FatFsSD::*getRootPath**
 -------------------------
@@ -130,7 +126,7 @@ Example: `create_folder <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/
 **Description**
 ~~~~~~~~~~~~~~~
 
-Get the root path of the SD FAT File System. The logical volume character is starting from '0', so the root path would like “0:/”.
+Get the root path of the SD FAT File System. The logical volume character is starting from '0', so the root path would like "0:/".
 
 **Syntax**
 ~~~~~~~~~~
@@ -154,7 +150,7 @@ The function returns the root path.
 
 Example: `create_folder <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/FatfsSDIO/examples/create_folder/create_folder.ino>`_
 
-.. note :: “FatFs_SD.h” must be included to use the class function.
+.. note :: "FatFs_SD.h" must be included to use the class function.
 
 **FatFsSD::readDir**
 --------------------
@@ -192,7 +188,7 @@ Returns ``0`` if success, else returns a negative value.
 
 Example: `get_file_attribute <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/FatfsSDIO/examples/get_file_attribute/get_file_attribute.ino>`_
 
-.. note :: “FatFs_SD.h” must be included to use the class function.
+.. note :: "FatFs_SD.h" must be included to use the class function.
 
 **FatFsSD::mkdir**
 ------------------
@@ -224,7 +220,7 @@ Returns ``0`` if success, else returns a negative value.
 
 Example: `create_folder <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/FatfsSDIO/examples/create_folder/create_folder.ino>`_
 
-.. note :: “FatFs_SD.h” must be included to use the class function.
+.. note :: "FatFs_SD.h" must be included to use the class function.
 
 **FatFsSD::rm**
 ---------------
@@ -256,7 +252,7 @@ Returns ``0`` if success, else returns a negative value.
 
 NA
 
-.. note :: “FatFs_SD.h” must be included to use the class function.
+.. note :: "FatFs_SD.h" must be included to use the class function.
 
 **FatFsSD::isDir**
 ------------------
@@ -288,7 +284,7 @@ The function returns ``1`` if it is a directory, else returns ``0``.
 
 Example: `get_file_attribute <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/FatfsSDIO/examples/get_file_attribute/get_file_attribute.ino>`_
 
-.. note :: “FatFs_SD.h” must be included to use the class function.
+.. note :: "FatFs_SD.h" must be included to use the class function.
 
 **FatFsSD::isFile**
 -------------------
@@ -313,14 +309,14 @@ Check if a specific path is a file.
 **Returns**
 ~~~~~~~~~~~
 
-The function returns “1” if it is a directory, else returns “0”.
+The function returns "1" if it is a directory, else returns "0".
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 Example: `get_file_attribute <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/FatfsSDIO/examples/get_file_attribute/get_file_attribute.ino>`_
 
-.. note :: “FatFs_SD.h” must be included to use the class function.
+.. note :: "FatFs_SD.h" must be included to use the class function.
 
 **FatFsSD::getLastModTime**
 ---------------------------
@@ -352,19 +348,19 @@ Get the last modified time for a file or directory.
 
 ``minute``: The value of a minute.
 
-``second``: field “second” contains no valid information in the current version.
+``second``: field "second" contains no valid information in the current version.
 
 **Returns**
 ~~~~~~~~~~~
 
-The function returns “0” if success, otherwise returns a negative value for failure.
+The function returns "0" if success, otherwise returns a negative value for failure.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 Example: `last_modified_time <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/FatfsSDIO/examples/last_modified_time/last_modified_time.ino>`_
 
-.. note :: “FatFs_SD.h” must be included to use the class function.
+.. note :: "FatFs_SD.h" must be included to use the class function.
 
 **FatFsSD::setLastModTime**
 ---------------------------
@@ -396,19 +392,19 @@ Set the last modified time for a file or directory. Ameba doesn't have built-in 
 
 ``minute``: The value of a minute.
 
-``second``: field “second” contains no valid information in the current version.
+``second``: field "second" contains no valid information in the current version.
 
 **Returns**
 ~~~~~~~~~~~
 
-The function returns “0” if success, otherwise returns a negative value for failure.
+The function returns "0" if success, otherwise returns a negative value for failure.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 Example: `last_modified_time <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/FatfsSDIO/examples/last_modified_time/last_modified_time.ino>`_
 
-.. note :: “FatFs_SD.h” must be included to use the class function.
+.. note :: "FatFs_SD.h" must be included to use the class function.
 
 **FatFsSD::status**
 -------------------
@@ -433,14 +429,14 @@ NA
 **Returns**
 ~~~~~~~~~~~
 
-Function returns “1” if ready to use, else return “0” if the status is inactivating or abnormal.
+Function returns "1" if ready to use, else return "0" if the status is inactivating or abnormal.
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA.
 
-.. note :: “FatFs_SD.h” must be included to use the class function.
+.. note :: "FatFs_SD.h" must be included to use the class function.
 
 **FatFsSD::open**
 -----------------
@@ -472,4 +468,4 @@ The file object is an instance of SdFatFile.
 
 Example: `create_folder <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Arduino_package/hardware/libraries/FatfsSDIO/examples/create_folder/create_folder.ino>`_
 
-.. note :: “FatFs_SD.h” must be included to use the class function.
+.. note :: "FatFs_SD.h" must be included to use the class function.

@@ -1,10 +1,6 @@
 WiFi - Concurrent Mode
 =======================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
@@ -15,7 +11,7 @@ Example
 
 WiFi concurrent mode, also known as AP + Station mode, is a feature that allows devices to operate simultaneously as an Access point and a Station. In this example, the Ameba board can connect to an existing wireless network while providing wireless connectivity to other devices.
 
-First, open the example in “File” -> “Examples” -> “WiFi” -> “ConcurrentMode”.
+First, open the example in "File" -> "Examples" -> "WiFi" -> "ConcurrentMode".
 
 In the sample code, fill in your SSID, PASSWORD, AP SSID, AP PASSWORD and CHANNEL.
 
@@ -33,7 +29,7 @@ The code by default turn on the AP mode in security mode. If you want to turn on
 
 |image02|
 
-Next, you will see the information of the AP mode shown, and after that you will see a message “Connected to the network”, and the information of this WiFi connection is printed in the serial monitor every 10 seconds.
+Next, you will see the information of the AP mode shown, and after that you will see a message "Connected to the network", and the information of this WiFi connection is printed in the serial monitor every 10 seconds.
 
 |image03|
 
@@ -47,7 +43,6 @@ In the Arduino platform, we need to add an extra WiFi shield to be the WiFi modu
 
 However, Ameba is already equipped with WiFi module. Therefore, #include is not needed.
 
-
 .. |image01| image:: ../../../../_static/amebad/Example_Guides/WiFi/WiFi_Concurrent_Mode/image01.png
    :width:  509 px
    :height:  119 px
@@ -60,4 +55,4 @@ However, Ameba is already equipped with WiFi module. Therefore, #include is not 
 .. |image04| image:: ../../../../_static/amebad/Example_Guides/WiFi/WiFi_Concurrent_Mode/image04.png
    :width:  1013 px
    :height:  366 px
-   
+

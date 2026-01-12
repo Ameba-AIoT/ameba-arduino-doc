@@ -1,14 +1,10 @@
 Retention Standby Mode
 ======================
 
-.. contents::
-  :local:
-  :depth: 2
-
 Materials
 ---------
 
-- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`_ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
 -  Optional: Push button x 1
 
@@ -59,25 +55,25 @@ The module and board power consumption report under Standby mode are listed in t
 | Gtimer0               | 55.59                 | 4.83                 |
 +-----------------------+-----------------------+----------------------+
 
-Open example in “File” -> “Examples” -> “AmebaPowerMode” -> “RetentionStandbyMode”.
+Open example in "File" -> "Examples" -> "AmebaPowerMode" -> "RetentionStandbyMode".
 
 |Image01|
 
 | Next is setting up the system and entering the power mode. Please refer to the following steps for entering Standby mode.
 | Step 1. Ensure RETENTION is "#define RETENTION 1" in this example.
-| Step 2. Set up the “WAKEUP_SOURCE”, AON timer: 0; AON GPIO: 1; PON GPIO: 2, Gtimer0: 3.
+| Step 2. Set up the "WAKEUP_SOURCE", AON timer: 0; AON GPIO: 1; PON GPIO: 2, Gtimer0: 3.
 | Step 3. Set up the wake-up source setting. There are 4 wake-up sources, each one has its own settings.
-| For AON timer, at section ”#if (WAKEUP_SOURCE == 0)”, set value to “CLOCK” and “SLEEP_DURATION”. “CLOCK” can be 4MHz or 100kHz. “SLEEP_DURATION” unit is in seconds.
-| For AON GPIO, at section “#elif (WAKEUP_SOURCE == 1)”, set value to “WAKUPE_SETTING”. “WAKUPE_SETTING” in this case is the Pin number, that can be 21 or 22. The GPIO pin is set to active high, please refer to the following connection.
+| For AON timer, at section "#if (WAKEUP_SOURCE == 0)", set value to "CLOCK" and "SLEEP_DURATION". "CLOCK" can be 4MHz or 100kHz. "SLEEP_DURATION" unit is in seconds.
+| For AON GPIO, at section "#elif (WAKEUP_SOURCE == 1)", set value to "WAKUPE_SETTING". "WAKUPE_SETTING" in this case is the Pin number, that can be 21 or 22. The GPIO pin is set to active high, please refer to the following connection.
 
 |image02|
 
-| For PON GPIO, at section “#elif (WAKEUP_SOURCE == 2)”, set value to “WAKUPE_SETTING”. “WAKUPE_SETTING” in this case is the Pin number, that can be 0 to 11. The GPIO pin is set to active high, please refer to the following connection.
+| For PON GPIO, at section "#elif (WAKEUP_SOURCE == 2)", set value to "WAKUPE_SETTING". "WAKUPE_SETTING" in this case is the Pin number, that can be 0 to 11. The GPIO pin is set to active high, please refer to the following connection.
 
 |image03|
 
-| For Gtimer0, at section “#elif (WAKEUP_SOURCE == 3)”, set value to “SLEEP_DURATION”. “SLEEP_DURATION” is the timer sleep duration in seconds.
-| Step 4. Start the Deep Sleep mode. There is only 1 optional setting for this step. 
+| For Gtimer0, at section "#elif (WAKEUP_SOURCE == 3)", set value to "SLEEP_DURATION". "SLEEP_DURATION" is the timer sleep duration in seconds.
+| Step 4. Start the Deep Sleep mode. There is only 1 optional setting for this step.
 
 |image04|
 
