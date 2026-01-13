@@ -1,4 +1,3 @@
-
 Ameba ARDUINO with BW16 typec (RTL8720DN)
 =========================================
 
@@ -84,11 +83,11 @@ From version 1.6.5, Arduino IDE supports third-party hardware. Arduino IDE is us
 
 Arduino IDE can be downloaded in the Arduino website: https://www.arduino.cc/en/Main/Software
 
-When the installation is finished, open Arduino IDE. Go to "File" -> "Preferences".
+When the installation is finished, open Arduino IDE. Go to :guilabel:`File -> Preferences`
 
-And paste the following URL into the "Additional Boards Manager URLs" field: https://github.com/ambiot/ambd_arduino/raw/master/Arduino_package/package_realtek.com_amebad_index.json
+And paste the following URL into the :guilabel:`Additional Boards Manager URLs` field: https://github.com/ambiot/ambd_arduino/raw/master/Arduino_package/package_realtek.com_amebad_index.json
 
-Next, go to "Tools" -> "Board" -> "Boards Manager":
+Next, go to :guilabel:`Tools -> Board -> Boards Manager`
 
 |image03|
 
@@ -107,7 +106,7 @@ https://www.amebaiot.com.cn/en/ameba-arduino-summary/
 Download the files selected, then unzip (patch1 and patch2 are compulsory). There are "Install.doc"/"Install.pdf" for you to refer to installation steps.
 According to your system, please run the installation tool in the "Offline_SDK_installation_tool" folder.
 
-After the installation, select AmebaD as current connected board in "Tools" -> "Board" -> "Ameba ARM (32-bits) Boards" ->" BW16(RTL8720DN)":
+After the installation, select AmebaD as current connected board in :guilabel:`Tools -> Board -> Ameba ARM (32-bits) Boards -> BW16(RTL8720DN)`
 
 |image05|
 
@@ -126,11 +125,11 @@ please go to http://www.wch-ic.com/downloads/CH341SER_ZIP.html for USB driver. C
 
 |image07|
 
-Go to "Tools" -> "Port" and select the correct COM port.
+Go to :guilabel:`Tools -> Port` and select the correct COM port.
 
 |image08|
 
-Go to "Tools" -> "Serial Monitor", set the baud rate as "115200", and press the RST button to check the serial port connection.
+Go to :guilabel:`Tools -> Serial Monitor` set the baud rate as "115200", and press the RST button to check the serial port connection.
 
 |image09|
 
@@ -149,23 +148,22 @@ Therefore, OTA section firmware needs to be erased first to make use of compiled
 Method 1: "Erase Flash Enable" by Arduino SDK after V3.1.3
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Select "Tools" -> "Erase Flash" -> "Enable"
+Select :guilabel:`Tools -> Erase Flash -> Enable`
 
 |image12|
 
 Then enter the enter the upload mode.
 
-* Manually. Press and hold "Burn" button, press then release "RST" button and release "Burn" button.
-* Auto. Select "Tools" -> "Auto Upload Mode" -> "Enable". Note that only boards with auto upload circuit built-in can use the Auto Upload Mode,
-  otherwise it will back to normal upload mode and wait for 5 seconds.
+- Manually. Press and hold "Burn" button, press then release "RST" button and release "Burn" button.
+- Auto. Select :guilabel:`Tools -> Auto Upload Mode -> Enable` Note that only boards with auto upload circuit built-in can use the Auto Upload Mode, otherwise it will back to normal upload mode and wait for 5 seconds.
 
-Next, Select "Sketch" -> "Upload". "Erase flash done." will show up.
+Next, Select :guilabel:`Sketch -> Upload` "Erase flash done." will show up.
 
 |image13|
 
 |image14|
 
-Check the serial monitor and reset board by press RST button. If only "#" shows that means erase flash success. Remember to select "Tools" -> "Erase Flash" -> "Disable".
+Check the serial monitor and reset board by press RST button. If only "#" shows that means erase flash success. Remember to select :guilabel:`Tools -> Erase Flash -> Disable`
 
 |image15|
 
@@ -177,7 +175,7 @@ Step 1. Compile & Upload
 
 Arduino IDE provides many built-in examples, which can be compiled, uploaded, and run directly on the boards. Here, we take the "Blink" example as the first try.
 
-Open :guilabel:`"File" -> "Examples" -> "01.Basics" -> "Blink"`:
+Open :guilabel:`File -> Examples -> 01.Basics -> Blink`
 
 |image16|
 
@@ -188,13 +186,13 @@ Open :guilabel:`"File" -> "Examples" -> "01.Basics" -> "Blink"`:
    Change ``LED_BUILTIN`` to ``LED_R``, ``LED_G``, or ``LED_B`` for red, green, or blue colors.
 
 Next, we compile the sample code directly.
-:guilabel:`"Sketch" -> "Verify/Compile"`
+:guilabel:`Sketch -> Verify/Compile`
 
-Then if there is no compile error, followed by "Sketch" -> "Upload".
+Then if there is no compile error, followed by :guilabel:`Sketch -> Upload`
 
-* Check and select "Tools" -> "Erase Flash" -> "Disable".
-* Enter the Upload Mode. Manual or Auto. Select "Tools" -> "Auto Upload Mode" -> "Enable"/ "Disable".
-* "Verify/Compile" then "Upload". ("Verify/Compile" can be skipped the "Upload" includes it.)
+- Check and select :guilabel:`Tools -> Erase Flash -> Disable`
+- Enter the Upload Mode. Manual or Auto. Select :guilabel:`Tools -> Auto Upload Mode -> Enable / Disable`
+- "Verify/Compile" then "Upload". ("Verify/Compile" can be skipped the "Upload" includes it.)
 
 Successful upload will show "All images are sent successfully!"
 

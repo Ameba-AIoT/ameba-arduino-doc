@@ -18,21 +18,21 @@ If Ameba OTA Web UI is set up successfully in your PC, you will see the webpage 
 
 |image01|
 
-To begin, open the OTA example in Arduino IDE. "File" -> "Examples" -> "AmebaOTA" -> "OTA".
+To begin, open the OTA example in Arduino IDE. :guilabel:`File -> Examples -> AmebaOTA -> OTA`
 
 |image02|
 
 Before compiling and upload the example, please complete the following steps:
 
-1. Set NN Model Load From SD Card. "Tools" -> "NN Model Load From" -> "SD Card"
+1. Set NN Model Load From SD Card. :guilabel:`Tools -> NN Model Load From -> SD Card`
 
 |image03|
 
-2.	Enable the OTA mode. "Tools" -> "OTA Mode" -> "Enable"
+2. Enable the OTA mode. :guilabel:`Tools -> OTA Mode -> Enable`
 
 |image04|
 
-3.	Modify the SSID and password according to your AP. Your PC and AMB82 Mini should be connecting to the same local area network.
+3. Modify the SSID and password according to your AP. Your PC and AMB82 Mini should be connecting to the same local area network.
 
 |image05|
 
@@ -64,7 +64,7 @@ For the steps below, you may disconnect AMB82 Mini from your PC and power up the
 
 |image10|
 
-In this tutorial, we will be uploading a NTPClient sketch via OTA.  Open the NTPClient example. "File"-> "Examples" -> "NTPClient" -> "Basic". Include the header file ``OTA.h`` and at the end of setup function, add in the API ``start_OTA_threads`` and define the port number and ip address according to your HTTP server. Also modify the SSID and password according to your AP. Refer to the picture below for the modified NTPClient sketch.
+In this tutorial, we will be uploading a NTPClient sketch via OTA.  Open the NTPClient example. :guilabel:`File -> Examples -> NTPClient -> Basic` Include the header file ``OTA.h`` and at the end of setup function, add in the API ``start_OTA_threads`` and define the port number and ip address according to your HTTP server. Also modify the SSID and password according to your AP. Refer to the picture below for the modified NTPClient sketch.
 
 |image11|
 
@@ -72,7 +72,7 @@ Before compiling, remember to set NN Model to load from SD card and enable OTA m
 
 Compile the modified NTPClient sketch, DO NOT upload after compilation.
 
-.. note :: Priority matters:  Kindly take note that AMB82 Mini will only boot with the latest compiled firmware.
+.. note:: Priority matters: Kindly take note that AMB82 Mini will only boot with the latest compiled firmware.
 
 Once compilation is done, look for ``ota.bin`` file in C:\\Users\\<username>\\AppData\\Local\\Arduino15\\packages\\realtek\\tools\\ameba_pro2_tools\\x.x.x
 

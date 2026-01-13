@@ -21,11 +21,11 @@ Procedure
 
 Ensure that the Realtek WiFi configuration app is installed on your mobile phone, it is available at:
 
--	Google Play Store: https://play.google.com/store/apps/details?id=com.rtk.btconfig
+- Google Play Store: https://play.google.com/store/apps/details?id=com.rtk.btconfig
 
--	Apple App Store: https://apps.apple.com/sg/app/easy-wifi-config/id1194919510
+- Apple App Store: https://apps.apple.com/sg/app/easy-wifi-config/id1194919510
 
-Open the example, ``"Files" -> "Examples" -> "AmebaBLE" -> "BLEWifiConfigService"``.
+Open the example, :guilabel:`Files -> Examples -> AmebaBLE -> BLEWifiConfigService`
 
 |image01|
 

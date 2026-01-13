@@ -23,7 +23,7 @@ In the Arduino IDE library manager, install the Arduino_LSM9DS1 library. This ex
 
 |image08|
 
-Open the example, "Files" → "Examples" → "AmebaTensorFlowLite" → "magic_wand".
+Open the example, :guilabel:`Files -> Examples -> AmebaTensorFlowLite -> magic_wand`
 
 |image09|
 

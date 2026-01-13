@@ -49,9 +49,9 @@ Commands are repeated every 45ms (measured from start to start) for as long as t
 
 |image07|
 
-After the connection is being set up correctly, we will move to the coding part for this example. First, make sure the correct Ameba development board is selected in Arduino IDE: "Tools" -> "Board".
+After the connection is being set up correctly, we will move to the coding part for this example. First, make sure the correct Ameba development board is selected in Arduino IDE :guilabel:`Tools -> Board`
 
-Open the "IRSendSONY" example in "File" -> "Examples" -> "AmebaIRDevice" -> "IRSendSONY" and upload to the board connected with IR Emitter:
+Open the "IRSendSONY" example in :guilabel:`File -> Examples -> AmebaIRDevice -> IRSendSONY` and upload to the board connected with IR Emitter:
 
 |image10|
 

@@ -20,7 +20,7 @@ Alternatively, connect the audio jack, potentiometers, and PDM Microphone as sho
 
 |image01pdm|
 
-Open the example in "File" -> "Examples" -> "AmebaMultimedia" -> "Audio" -> "EchoCancellation".
+Open the example in :guilabel:`File -> Examples -> AmebaMultimedia -> Audio -> EchoCancellation`
 
 |image02|
 
@@ -36,7 +36,7 @@ This example requires opening two VLC player windows, one for RTP audio streamin
 
 **RTP Audio Stream**
 
-On a computer connected to the same WiFi network, open VLC media player, and go to "Media" -> "Stream".
+On a computer connected to the same WiFi network, open VLC media player, and go to :guilabel:`Media -> Stream`
 
 |image04|
 
@@ -76,7 +76,7 @@ Plug in a pair of wired earbuds into the audio jack, and you should hear the aud
 
 **RTSP Audio Stream**
 
-On a computer connected to the same WiFi network, open VLC media player, and go to "Media" -> "Open Network Stream".
+On a computer connected to the same WiFi network, open VLC media player, and go to :guilabel:`Media -> Open Network Stream`
 
 |image13|
 

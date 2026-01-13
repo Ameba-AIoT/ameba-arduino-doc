@@ -23,9 +23,9 @@ In this example, we will use AmebaD as the BLE Peripheral device and the servo m
 Procedure
 ~~~~~~~~~
 
-1.	Establish BLE Connection
+1. Establish BLE Connection
 
-Open the example, "Files" -> "Examples" -> "AmebaBLE" -> "BLEV7RC_CAR":
+Open the example, :guilabel:`Files -> Examples -> AmebaBLE -> BLEV7RC_CAR`
 
 |image01|
 
@@ -51,20 +51,20 @@ Back to the V7RC home page, you can monitor the log printed data received when m
 
 |image06|
 
-2.	Setup Servo Motors
+2. Setup Servo Motors
 
 We will use two sets of servo motor to control the movement of the car upon the BLE connection has been established. The two servo motors will be connected to L9110S servo controller first using predefined MotoA_1A, MotoA_1B, MotoA_1B, and MotoA_1B pins.
 
-    -	1A pins are connected to GPIO pins, used for controlling the motor directions.
+    - 1A pins are connected to GPIO pins, used for controlling the motor directions.
 
-    -	1B pins are connected to PWM pins, used for controlling the motor speed.
+    - 1B pins are connected to PWM pins, used for controlling the motor speed.
 
 .. code:: c++
 
-    #define MotoA_1A  6  // Control MotorA moving Forward（HIGH）/Backward（LOW）
-    #define MotoA_1B  12 // Control MotorA’s from speed 0~255, or stop (LOW)
-    #define MotoB_1A    2 // Control MotorB moving Forward（HIGH）/Backward（LOW）
-    #define MotoB_1B    3 // Control MotorB’s speed from 0~255, or stop (LOW)
+    #define MotoA_1A  6  // Control MotorA moving Forward(HIGH)/Backward(LOW)
+    #define MotoA_1B  12 // Control MotorA's from speed 0~255, or stop (LOW)
+    #define MotoB_1A    2 // Control MotorB moving Forward(HIGH)/Backward(LOW)
+    #define MotoB_1B    3 // Control MotorB's speed from 0~255, or stop (LOW)
 
 In this example, we will use BW16 as a demonstration. A detailed connection pin map can be found below. Upon the connection being established, the user can remotely control the servo motors via the V7RC App BLE.
 

@@ -14,12 +14,7 @@ Example
 Introduction
 ------------
 
-In this example, Ameba Pro2 board will be used to connect to a Waveshare
-e-Paper module (2.9inch/ 4.2inch/ 7.5inch) to display images. The
-display uses the flexible substrate as base plate, with an interface and
-a reference system design. You may refer to the
-official `datasheet <https://www.waveshare.net/w/upload/b/b5/2.9inch_e-Paper_(D)_Specification.pdf>`__ to
-know more information about these modules.
+In this example, Ameba Pro2 board will be used to connect to a Waveshare e-Paper module (2.9inch/ 4.2inch/ 7.5inch) to display images. The display uses the flexible substrate as base plate, with an interface and a reference system design. You may refer to the official `datasheet <https://www.waveshare.net/w/upload/b/b5/2.9inch_e-Paper_(D)_Specification.pdf>`__ to know more information about these modules.
 
 Procedure
 ---------
@@ -40,17 +35,11 @@ Procedure
 
 7.5-inch e-Paper Module
 
-Do note that Display Config should be set to B and Interface Config
-should be set to 0.
+Do note that Display Config should be set to B and Interface Config should be set to 0.
 
 |image04|
 
-Firstly, prepare a picture/photo and resize the image based on the
-e-Paper display that you are using. You can look for a photo resizing
-tool online, for example, the `Online Image
-Resizer <https://resizeimage.net/>`__. Simply follow the instructions on
-the website to resize the picture and download the resized image in JPEG
-format.
+Firstly, prepare a picture/photo and resize the image based on the e-Paper display that you are using. You can look for a photo resizing tool online, for example, the `Online Image Resizer <https://resizeimage.net/>`__ Simply follow the instructions on the website to resize the picture and download the resized image in JPEG format.
 
 2.9" e-Paper module: 296x128 pixels
 
@@ -58,48 +47,33 @@ format.
 
 7.5" e-Paper module: 800x480 pixels
 
-Secondly,
-use `Image2LCD <http://www.waveshare.net/w/upload/3/36/Image2Lcd.7z>`__ tool
-to convert the resized JPEG image into hexadecimal codes. You can visit
-this `YouTube <https://www.youtube.com/watch?v=kAmnU5Y96MA&t=363s>`__ link
-to learn more about how to use the Image2LCD tool.
+Secondly, use `Image2LCD <http://www.waveshare.net/w/upload/3/36/Image2Lcd.7z>`__ tool to convert the resized JPEG image into hexadecimal codes. You can visit this `YouTube <https://www.youtube.com/watch?v=kAmnU5Y96MA&t=363s>`__ link to learn more about how to use the Image2LCD tool.
 
-Next, download the Eink zip library, AmebaEink.zip,
-at `https://github.com/ambiot/ambpro2_arduino/tree/dev/Arduino_zip_libraries <https://github.com/ambiot/ambpro2_arduino/tree/dev/Arduino_zip_libraries>`_
-Then install the AmebaEink.zip by navigating to "Sketch" -> "Include
-Library" -> "Add .ZIP Library…".
+Download the Eink zip library `AmebaEink.zip <https://github.com/Ameba-AIoT/ameba-arduino-pro2/tree/dev/Arduino_zip_libraries>`__
 
-Eink examples are categorised based on the size and modules of the
-e-Paper display.
+Then install the AmebaEink.zip by navigating to :guilabel:`Sketch -> Include Library -> Add .ZIP Library…`
+
+Eink examples are categorised based on the size and modules of the e-Paper display.
 
 |image05|
 
-Open one of the "EinkDisplayImages" examples. For example, "File" →
-"Examples" → "AmebaEink" → "EPD_2in9v2"-> "EinkDisplayImages":
+Open one of the "EinkDisplayImages" examples. For example, :guilabel:`File -> Examples -> AmebaEink -> EPD_2in9v2 -> EinkDisplayImages`
 
 |image06|
 
-You may choose any GPIO pins for Busy, Reset and DC pin. You can refer
-to for AMB82-Mini's `pinmap <https://www.amebaiot.com/en/amebapro2-amb82-mini-arduino-getting-started>`_.
+You may choose any GPIO pins for Busy, Reset and DC pin. You can refer to for AMB82-Mini's `pinmap <https://www.amebaiot.com/en/amebapro2-amb82-mini-arduino-getting-started>`__
 
 |image07|
 
-Upload the code to the board and press the reset button after uploading
-is done. Wait for around 1-2 seconds for the e-Paper module to refresh
-its screen. Images will start to loop on the e-Paper display, each image
-will be displaying for 4 seconds.
+Upload the code to the board and press the reset button after uploading is done. Wait for around 1-2 seconds for the e-Paper module to refresh its screen. Images will start to loop on the e-Paper display, each image will be displaying for 4 seconds.
 
 |image08|
 
 |image09|
 
-The 2.9-inch e-Paper Module (B) supports three colours—red, black, and
-white. You may refer to the example for 2.9-inch e-Paper Module (B) to
-learn how to display red images by navigating to "File" → "Examples" →
-"AmebaEink" → "EPD_2in9b"-> "EinkDisplayImages".
+The 2.9-inch e-Paper Module (B) supports three colours—red, black, and white. You may refer to the example for 2.9-inch e-Paper Module (B) to learn how to display red images by navigating to :guilabel:`File -> Examples -> AmebaEink -> EPD_2in9b -> EinkDisplayImages`
 
-Red image displaying on 2.9-inch Module (B) e-Paper display is shown
-below.
+Red image displaying on 2.9-inch Module (B) e-Paper display is shown below.
 
 |image10|
 

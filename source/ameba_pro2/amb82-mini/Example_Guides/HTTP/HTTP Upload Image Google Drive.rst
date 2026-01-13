@@ -55,15 +55,15 @@ The script processes a POST request, extracting variables like "myFoldername," "
 
 Based on the "myFoldername" parameter, the script locates or creates the corresponding folder in Google Drive. The image data is then stored in this folder. Lastly a summary containing the folder name, file name, image URL are returned.
 
-Upon the script is ready, select "Deploy" -> "New deployment" to initialize necessary configurations before script publishment:
+Upon the script is ready, select :guilabel:`Deploy -> New deployment` to initialize necessary configurations before script publishment:
 
 |image01|
 
 In the "Select type" under the "New deployment" configuration menu, choose to deploy your script as a "Web app" and grant the permission to "Anyone" who is using your script if it is a public project, then click "Deploy". Google requires to "Authorize access" by logging into your own Google Account credentials, so that the script could retrieve information from your Google Drive.
 
-Click "Advanced" -> "Go to amb82-doPost_test (unsafe)" that allows the Google Script to: "See, edit, create, and delete all of your Google Drive files". Upon deployment is finished, copy your "Deployment ID" into example code, and replace it into "myScript" variable.
+Click :guilabel:`Advanced -> Go to amb82-doPost_test (unsafe)` that allows the Google Script to: "See, edit, create, and delete all of your Google Drive files". Upon deployment is finished, copy your "Deployment ID" into example code, and replace it into "myScript" variable.
 
-Open "File" -> "Examples" -> "AmebaHTTP" -> "HttpUploadImageGoogleDrv".
+Open :guilabel:`File -> Examples -> AmebaHTTP -> HttpUploadImageGoogleDrv`
 
 |image02|
 

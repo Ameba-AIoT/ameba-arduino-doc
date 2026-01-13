@@ -16,7 +16,7 @@ Example
 
 In this example, we will be using Ameba Pro2 development board to stream JPEG using HTTP and apply MediaPipe Holistic Landmarker on the streaming page.
 
-Open MediaPipe Holistic Landmarker example in "File" -> "Examples" -> "AmebaNN" -> "MultimediaAI" -> "MediaPipe_Holistic_Landmarker".
+Open MediaPipe Holistic Landmarker example in :guilabel:`File -> Examples -> AmebaNN -> MultimediaAI -> MediaPipe_Holistic_Landmarker`
 
 |image01|
 

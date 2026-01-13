@@ -11,7 +11,7 @@ Example
 
 This example uses Ameba to securely retrieve information from the internet using SSL. SSL is an acronym for Secure Sockets Layer. It is a cryptographic protocol designed to provide communications security over a computer network, by encrypting the messages passed between server and client.
 
-Open the "WiFiSSLClient" example in "File" -> "Examples" -> "WiFi" -> " WiFiSSLClient ".
+Open the "WiFiSSLClient" example in :guilabel:`File -> Examples -> WiFi -> WiFiSSLClient`
 
 |image01|
 

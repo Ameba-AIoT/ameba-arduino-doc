@@ -4,9 +4,9 @@ Read and display HTML file from SD card
 Materials
 ---------
 
--  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
--  MicroSD card
+- MicroSD card x 1
 
 Example
 -------
@@ -22,7 +22,7 @@ Using a card reader, connect the SD card to a computer and copy `the HTML file <
 
 Then insert the MicroSD card into the SD card slot of the ameba board.
 
-Open the example, "Files" -> "Examples" -> "AmebaFileSystem" -> "ReadHTMLFile"
+Open the example, :guilabel:`Files -> Examples -> AmebaFileSystem -> ReadHTMLFile`
 
 In the sample code, modify "ssid" to the WiFi SSID to be connected to and "pass" to the network password.
 

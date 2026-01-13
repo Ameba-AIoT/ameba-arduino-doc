@@ -14,7 +14,7 @@ Example
 Procedure
 ~~~~~~~~~
 
-As AMB23 have a built in microphone on the board, there is no need for any external microphone. Copy a sample wav file into the MicroSD card for demo. (In this example, the sample name is `Test_Audio_48khz_16bit_stereo.wav <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/master/Ameba_misc/Example_Samples/Test_Audio_48khz_16bit_stereo.wav>`_) Then insert the MicroSD card into the adapter at the back of the board.
+As AMB23 have a built in microphone on the board, there is no need for any external microphone. Copy a sample wav file into the MicroSD card for demo. (In this example, the sample name is `Test_Audio_48khz_16bit_stereo.wav <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/master/Ameba_misc/Example_Samples/Test_Audio_48khz_16bit_stereo.wav>`__) Then insert the MicroSD card into the adapter at the back of the board.
 
   |image01|
 
@@ -24,7 +24,7 @@ If you wish to connect a digital microphone (PDM), you may refer to the followin
 
 **Example 01 - PlaybackWavFile**
 
-| Open the example, ``"Files" -> "Examples" -> "AmebaAudioCodec" -> "PlaybackWavFile"``.
+| Open the example, :guilabel:`Files -> Examples -> AmebaAudioCodec -> PlaybackWavFile`
 
   |image02|
 
@@ -33,7 +33,7 @@ Insert earphone/speaker into the onboard jack for playing the sample sound.
 
 **Example 02 - RecordWavFile**
 
-| Open the example, ``"Files" -> "Examples" -> "AmebaAudioCodec" -> "RecordWavFile"``.
+| Open the example, :guilabel:`Files -> Examples -> AmebaAudioCodec -> RecordWavFile`
 
   |image03|
 
@@ -43,7 +43,7 @@ Insert earphone/speaker into the onboard jack for playing the sample sound.
 
 **Example 03 - RecordPlaybackWav**
 
-| Open the example, ``"Files" -> "Examples" -> "AmebaAudioCodec" -> "RecordPlaybackWav"``.
+| Open the example, :guilabel:`Files -> Examples -> AmebaAudioCodec -> RecordPlaybackWav`
 
   |image04|
 

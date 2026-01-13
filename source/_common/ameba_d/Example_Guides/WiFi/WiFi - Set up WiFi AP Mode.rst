@@ -13,7 +13,7 @@ Example
 
 In this example, we turn on the AP mode of Ameba and connect station to Ameba.
 
-Open the WiFi AP example, "File" -> "Examples" -> "WiFi" -> "WiFiAPMode"
+Open the WiFi AP example, :guilabel:`File -> Examples -> WiFi -> WiFiAPMode`
 
 |image01|
 

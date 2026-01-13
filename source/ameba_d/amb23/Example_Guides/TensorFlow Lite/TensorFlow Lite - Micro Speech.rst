@@ -19,7 +19,7 @@ Connect the microphone and LEDs to the Ameba board according to the diagram belo
 
 .. note:: As AMB23 have a built in microphone on the board, there is no need for any external microphone. For the LEDs, we will only connect two LEDs and then use the two onboard LEDs (Blue and Green).
 
-Open the example, "Files" → "Examples" → "AmebaTensorFlowLite" → "micro_speech".
+Open the example, :guilabel:`Files -> Examples -> AmebaTensorFlowLite -> micro_speech`
 
 |image04|
 

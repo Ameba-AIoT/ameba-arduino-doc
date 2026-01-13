@@ -12,7 +12,8 @@ Example
 **Introduction**
 ~~~~~~~~~~~~~~~~
 
-MQTT (Message Queuing Telemetry Transport) is a protocol proposed by IBM and Eurotech. The introduction in `MQTT Official Website <https://mqtt.org/>`_:
+MQTT (Message Queuing Telemetry Transport) is a protocol proposed by IBM and Eurotech. The introduction in `MQTT Official Website <https://mqtt.org/>`__
+
 MQTT is a machine-to-machine (M2M)/"Internet of Things" connectivity protocol. It was designed as an extremely lightweight publish/subscribe messaging transport. We can say MQTT is a protocol designed for IoT. MQTT is based on TCP/IP and transmits/receives data via publish/subscribe.
 
 Please refer to the figure below:
@@ -29,18 +30,18 @@ In the operation of MQTT, there are several roles:
 
 In this page, there are 3 examples that connect Ameba to MQTT-Broker. Then send messages as publisher and receive messages from MQTT-Broker as subscriber.
 
-1.	MQTT_Basic
+1. MQTT_Basic
 
-2.	MQTT_Auth
+2. MQTT_Auth
 
-3.	MQTT_Publish_In_Callback
+3. MQTT_Publish_In_Callback
 
 **Procedure**
 ~~~~~~~~~~~~~
 
 **MQTT_Basic example**
 
-Open the MQTT example ``"File" → "Examples" → "AmebaMQTTClient" → "MQTT_Basic"``
+Open the MQTT example :guilabel:`File -> Examples -> AmebaMQTTClient -> MQTT_Basic`
 
 Please modify some WiFi-related parameter and some information related to MQTT:
 
@@ -84,7 +85,8 @@ Click "CONNECT". The "hello world" message show up at left side. At right side, 
 
 **MQTT_Auth example**
 
-Open the MQTT example "File" → "Examples" → "AmebaMQTTClient" → "MQTT_Auth"
+Open the MQTT example :guilabel:`File -> Examples -> AmebaMQTTClient -> MQTT_Auth`
+
 Please modify some WiFi-related parameter and some information related to MQTT:
 
 |image08|
@@ -116,7 +118,7 @@ Click "CONNECT". The "hello world" message show up at left side. At right side, 
 
 **MQTT_Publish_In_Callback example**
 
-Open the MQTT example "File" → "Examples" → "AmebaMQTTClient" → "MQTT_Publish_In_Callback"
+Open the MQTT example :guilabel:`File -> Examples -> AmebaMQTTClient -> MQTT_Publish_In_Callback`
 
 Please modify some WiFi-related parameter and some information related to MQTT:
 
@@ -136,7 +138,7 @@ Click "CONNECT". The "hello world" message show up at left side. At right side, 
 
 **MQTT_NonBlocking example**
 
-Open the MQTT example: "File" → "Examples" → "AmebaMQTTClient" → "MQTT_NonBlocking".
+Open the MQTT example: :guilabel:`File -> Examples -> AmebaMQTTClient -> MQTT_NonBlocking`
 
 This example demonstrates how to maintain a connection to the MQTT broker using a **non-blocking** reconnect approach. If the connection is lost, the board will attempt to reconnect **every 5 seconds**, without halting the rest of the loop operations.
 

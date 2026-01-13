@@ -11,9 +11,9 @@ Example
 
 This example demonstrates how to use the RTC library methods to create a RTC Alarm, so that to do some tasks when an alarm is matched. In particular, the RTC time is set at 16:00:00 and an alarm at 16:00:10. When the time matches, "Alarm Match" information will be printed on the serial monitor.
 
-First, select the correct Ameba development board from the Arduino IDE: "Tools" -> "Board".
+First, select the correct Ameba development board from the Arduino IDE :guilabel:`Tools -> Board`
 
-Then open the " RTCAlarm " example from: "File" -> "Examples" -> "RTC" -> "Simple_RTC_Alarm":
+Then open the "RTCAlarm" example from :guilabel:`File -> Examples -> RTC -> Simple_RTC_Alarm`
 
 |image01|
 

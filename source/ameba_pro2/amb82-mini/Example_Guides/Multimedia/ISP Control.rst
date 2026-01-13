@@ -17,7 +17,7 @@ The following examples are relevant to this guide.
 4. WhiteBalance
 5. WideDynamicRange
 
-Open one of the ISP Control examples in "File" -> "Examples" -> "AmebaMultimedia" -> "ISPControl".
+Open one of the ISP Control examples in :guilabel:`File -> Examples -> AmebaMultimedia -> ISPControl`
 
 |image01|
 
@@ -25,11 +25,11 @@ In the highlighted code snippet, fill in the "ssid" with your WiFi network SSID 
 
 |image02|
 
-Compile the code and upload it to Ameba. After pressing the Reset button, wait for the Ameba Pro 2 board to connect to the WiFi network. The board’s IP address and network port number for RTSP will be shown in the Serial Monitor.
+Compile the code and upload it to Ameba. After pressing the Reset button, wait for the Ameba Pro 2 board to connect to the WiFi network. The board's IP address and network port number for RTSP will be shown in the Serial Monitor.
 
 You may download VLC media player from the link here.
 
-Upon the completion of the software installation, open VLC media player, and go to "Media" -> "Open Network Stream".
+Upon the completion of the software installation, open VLC media player, and go to :guilabel:`Media -> Open Network Stream`
 
 |image03|
 

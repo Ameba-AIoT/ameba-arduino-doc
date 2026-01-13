@@ -38,7 +38,7 @@ Procedure
 
 1. Setup RTSP Streaming
 
-Open the example, "Files" -> "Examples" -> "AmebaBLE" -> "BLEV7RC_CAR_VIDEO":
+Open the example, :guilabel:`Files -> Examples -> AmebaBLE -> BLEV7RC_CAR_VIDEO`
 
 |image01|
 
@@ -145,9 +145,9 @@ MotoA_1B, MotoA_1B, and MotoA_1B pins.
 .. code:: c++
 
    #define MotoA_1A 16 // Control MotorA moving Forward(HIGH)/Backward(LOW)
-   #define MotoA_1B 7 // Control MotorA’s from speed 0~255, or stop (LOW)
+   #define MotoA_1B 7 // Control MotorA's from speed 0~255, or stop (LOW)
    #define MotoB_1A 17 // Control MotorB moving Forward(HIGH)/Backward(LOW)
-   #define MotoB_1B 8 // Control MotorB’s speed from 0~255, or stop (LOW)
+   #define MotoB_1B 8 // Control MotorB's speed from 0~255, or stop (LOW)
 
 In this example, we will use AMB82 MINI as a demonstration. A detailed
 connection pin map can be found below. Upon the connection being

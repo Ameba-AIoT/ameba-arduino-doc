@@ -11,7 +11,7 @@ Example
 
 This example will demonstrate how to retrieve the result string and length when QR code is placed in front of the camera of AMB82 MINI.
 
-Open the QR Code Scanner example "File" -> "Examples" -> "AmebaQR" -> "QRCodeScanner"
+Open the QR Code Scanner example :guilabel:`File -> Examples -> AmebaQR -> QRCodeScanner`
 
 |image01|
 

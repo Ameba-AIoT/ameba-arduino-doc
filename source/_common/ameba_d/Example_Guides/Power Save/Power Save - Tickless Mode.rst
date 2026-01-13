@@ -11,7 +11,7 @@ Example
 
 Ameba-D supports two low power modes which are deepsleep mode and sleep mode. The power consumptions of Tickless Sleep Mode is around 28uA to 30uA compared to normal state around 15mA. This example describes how to use freertos tickless with UART interruptible interface.
 
-Open "File" -> "Examples" -> "AmebaPowerSave" -> "TicklessMode"
+Open :guilabel:`File -> Examples -> AmebaPowerSave -> TicklessMode`
 
 |image01|
 

@@ -22,10 +22,9 @@ Do note that Display Config should be set to B and Interface Config should be se
 
 |image02|
 
-Download the Eink zip library, AmebaEink.zip, at https://github.com/Ameba-AIoT/ameba-arduino-d/tree/master/Arduino_zip_libraries.
-and install AmebaEink.zip on Arduino IDE. You may follow the instruction at https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries to install it.
+Download the Eink zip library, `AmebaEink.zip <https://github.com/Ameba-AIoT/ameba-arduino-d/tree/master/Arduino_zip_libraries>`__ Then install the AmebaEink.zip by navigating to :guilabel:`Sketch -> Include Library -> Add .ZIP Library…`
 
-After AmebaEink.zip is installed, Open the "Eink_7in5_Ebook" example by selecting "File" -> "Examples" -> "AmebaEink" -> "Eink_7in5_Ebook".
+After AmebaEink.zip is installed, Open the "Eink_7in5_Ebook" example by selecting :guilabel:`File -> Examples -> AmebaEink -> Eink_7in5_Ebook`
 
 |image03|
 

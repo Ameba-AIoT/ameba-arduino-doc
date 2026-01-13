@@ -19,7 +19,7 @@ In this example, the AmebaD board emulates a HID gamepad connected using BLE.
 Procedure
 ~~~~~~~~~
 
-Open the example, ``"Files" → "Examples" → "AmebaBLE" → BLEHIDGamepad``.
+Open the example, :guilabel:`Files -> Examples -> AmebaBLE -> BLEHIDGamepad`
 
 |image01|
 
@@ -39,7 +39,7 @@ On Android, ensure that "Input device" is enabled for the board.
 
 After the Bluetooth connection process is completed, the board is ready to send gamepad input to the host device. Connect digital pin 8 to 3.3V to start sending input, and connect to GND to stop.
 
-On Windows, gamepad input can also be viewed by going to "Control Panel" -> "Devices and Printers" -> "AMEBA_BLE_HID" -> "Game Controller Settings" -> "Properties". The buttons and axes should also show changing values here.
+On Windows, gamepad input can also be viewed by going to :guilabel:`Control Panel -> Devices and Printers -> AMEBA_BLE_HID -> Game Controller Settings -> Properties` The buttons and axes should also show changing values here.
 
 |image04|
 

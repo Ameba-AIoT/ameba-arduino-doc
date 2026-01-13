@@ -25,7 +25,7 @@ GenAISpeech_Whisper
 
 In this example, we will be using Ameba Pro2 development board to record and send audio recording to LLM server for voice transcription or translation.
 
-Open Generative AI Speech Whisper example in "File" -> "Examples" -> "AmebaNN" -> "MultimediaAI" -> "GenAISpeech_Whisper".
+Open Generative AI Speech Whisper example in :guilabel:`File -> Examples -> AmebaNN -> MultimediaAI -> GenAISpeech_Whisper`
 
 |image01|
 
@@ -62,7 +62,7 @@ Transcription or translation of the audio file will be printed out on serial mon
 GenAISpeech_Gemini
 ~~~~~~~~~~~~~~~~~~
 
-Open Generative AI Speech Gemini example in "File" -> "Examples" -> "AmebaNN" -> "MultimediaAI" -> "GenAISpeech_Gemini".
+Open Generative AI Speech Gemini example in :guilabel:`File -> Examples -> AmebaNN -> MultimediaAI -> GenAISpeech_Gemini`
 
 |image06|
 
@@ -89,7 +89,7 @@ Response from Gemini will be printed out on serial monitor.
 GenAISpeech_Gemini_LEDControl
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Open Generative AI Speech Gemini example in "File" -> "Examples" -> "AmebaNN" -> "MultimediaAI" -> "GenAISpeech_Gemini_LEDControl".
+Open Generative AI Speech Gemini example in :guilabel:`File -> Examples -> AmebaNN -> MultimediaAI -> GenAISpeech_Gemini_LEDControl`
 
 |image08|
 

@@ -35,7 +35,7 @@ subscriber.
 
 **MQTT_Auth example**
 
-| Open the MQTT example "File" -> "Examples" -> "AmebaMQTTClient" -> "MQTT_Auth"
+| Open the MQTT example :guilabel:`File -> Examples -> AmebaMQTTClient -> MQTT_Auth`
 | Please modify some WiFi-related parameter and some information related to MQTT:
 
 |image08|

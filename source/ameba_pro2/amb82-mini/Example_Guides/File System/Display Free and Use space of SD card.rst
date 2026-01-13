@@ -4,9 +4,9 @@ Display Free and Use space of SD card
 Materials
 ---------
 
--  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
--  MicroSD card
+- MicroSD card x 1
 
 Example
 -------
@@ -18,7 +18,7 @@ Procedure
 
 Insert a MicroSD card into the SD card slot of the AMB82 MINI board.
 
-Open the example, "Files" -> "Examples" -> "AmebaFileSystem" -> "GetFreeAndUseSpace".
+Open the example, :guilabel:`Files -> Examples -> AmebaFileSystem -> GetFreeAndUseSpace`
 
 |image01|
 

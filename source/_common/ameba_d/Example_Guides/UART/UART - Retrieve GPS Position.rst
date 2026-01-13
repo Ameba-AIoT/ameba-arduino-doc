@@ -43,7 +43,7 @@ Each field is separated by a comma.
 
 In this example, 2446.8181,N represents 24 degrees 46.8181 minutes north latitude, and 12059.7251,E represents 120 degrees 59.7251 minutes east longitude.
 
-We can search **+24 46.8181’, +120 59.7251’** in Google maps to check whether the position is correct.
+We can search **+24 46.8181', +120 59.7251'** in Google maps to check whether the position is correct.
 
 |image04|
 
@@ -111,7 +111,7 @@ We can search **+24 46.8181’, +120 59.7251’** in Google maps to check wheth
 
 .. only:: end amb26
 
-Open the example in ``"Files" → "Examples" → "AmebaSoftwareSerial" → "Adafruit_GPS_parsing"``.
+Open the example in :guilabel:`Files -> Examples -> AmebaSoftwareSerial -> Adafruit_GPS_parsing`
 
 Compile and upload to Ameba, then press the reset button.
 The result will be output to Serial Monitor:

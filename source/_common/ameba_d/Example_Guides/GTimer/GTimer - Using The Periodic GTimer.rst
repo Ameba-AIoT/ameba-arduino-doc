@@ -12,7 +12,7 @@ Example
 Ameba provides 4 hardware GTimer for users to use. The timers' resolutions are at microseconds scale.
 The timer can be set to be periodic or for single use. The periodic timers reset periodically, and the single-use timers do not.
 
-Open the example, ``"File" → "Examples" → "AmebaGTimer" → "TimerPeriodical"``. Compile and upload to Ameba, and press reset.
+Open the example, :guilabel:`File -> Examples -> AmebaGTimer -> TimerPeriodical` Compile and upload to Ameba, and press reset.
 In the Serial Monitor, you can see the counter value is increased periodically.
 
 Code Reference
@@ -26,7 +26,7 @@ The third argument specifies the function to call when the time is up. In the ex
 
     GTimer.begin(0, 1 * 1000 * 1000, myhandler);
 
-The GTimer is periodic by default, therefore "myhandler" function is called every second. When we want to stop the GTimer, use ``stop()``:
+The GTimer is periodic by default, therefore "myhandler" function is called every second. When we want to stop the GTimer, use ``stop()``
 
 .. code-block:: c++
 

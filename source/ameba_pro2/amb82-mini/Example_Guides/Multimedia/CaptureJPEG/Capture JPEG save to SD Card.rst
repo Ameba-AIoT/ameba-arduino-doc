@@ -15,7 +15,7 @@ The following examples shows different use cases for saving JPEG image to SD car
 1. SDCardSaveJPEG
 2. SDCardSaveJPEGWithNTPClient
 
-Open one of the CaptureJPEG examples in "File" -> "Examples" -> "AmebaMultimedia" -> "CaptureJPEG" -> "SDCardSaveJPEG".
+Open one of the CaptureJPEG examples in :guilabel:`File -> Examples -> AmebaMultimedia -> CaptureJPEG -> SDCardSaveJPEG`
 
 |image01|
 

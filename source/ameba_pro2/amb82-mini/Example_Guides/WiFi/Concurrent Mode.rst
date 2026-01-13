@@ -20,7 +20,7 @@ wireless network while providing wireless connectivity to other devices.
 Procedure
 ~~~~~~~~~
 
-First, open the example in "File" → "Examples" → "WiFi" → "ConcurrentMode".
+First, open the example in :guilabel:`File -> Examples -> WiFi -> ConcurrentMode`
 
 |image01|
 

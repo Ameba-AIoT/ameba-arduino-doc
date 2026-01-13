@@ -64,7 +64,7 @@ In a LED, the longer pin is the positive pole, and the shorter pin is the negati
 .. Note:
    For RTL8720DN(BW16) board, you may consider re-defining "LED_PIN" macro to 10 for built-in green LED, or 11 for blue built-in LED, or 12 for red built-in LED to avoid using extra components.
 
-Then open "File" -> "Examples" -> "WiFi" -> "SimpleWebServerWiFi"
+Then open :guilabel:`File -> Examples -> WiFi -> SimpleWebServerWiFi`
 
 |image08|
 

@@ -18,7 +18,7 @@ Example
 
 In this example, we will be using Ameba Pro2 development board to demonstrate text-to-speech application via Google Translate API.
 
-Open Text-to-Speech example in "File" -> "Examples" -> "AmebaNN" -> "MultimediaAI" -> "Text-to-Speech".
+Open Text-to-Speech example in :guilabel:`File -> Examples -> AmebaNN -> MultimediaAI -> Text-to-Speech`
 
 |image01|
 

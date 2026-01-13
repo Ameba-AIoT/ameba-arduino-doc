@@ -18,7 +18,7 @@ Procedure
 ~~~~~~~~~
 
 On the first board, upload the BLE UART service example code. Refer to the example guide for detailed instructions.
-For the second board, open the example, ``"Files" → "Examples" → "AmebaBLE" → "BLEUartClient"``.
+For the second board, open the example, :guilabel:`Files -> Examples -> AmebaBLE -> BLEUartClient`
 
 |image01|
 

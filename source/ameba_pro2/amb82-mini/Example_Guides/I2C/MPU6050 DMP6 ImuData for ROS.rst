@@ -29,7 +29,7 @@ Connect the MPU6050 to I2C_SDA and I2C_SCL of the board as shown in the diagram 
 
 |image01|
 
-Open the example in "File" -> "Examples" -> "AmebaWire" -> "MPU6050"-> "MPU6050_DMP6_ImuData_for_ROS.ino".
+Open the example in :guilabel:`File -> Examples -> AmebaWire -> MPU6050 -> MPU6050_DMP6_ImuData_for_ROS.ino`
 
 |image02|
 

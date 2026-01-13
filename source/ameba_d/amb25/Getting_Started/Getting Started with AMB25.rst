@@ -1,4 +1,3 @@
-
 Ameba ARDUINO with AMB25 (RTL8720DF)
 ====================================
 
@@ -104,13 +103,13 @@ Arduino IDE is used to develop applications on the board, and the Arduino basic 
 
 Arduino IDE can be downloaded in the Arduino website: https://www.arduino.cc/en/Main/Software
 
-When the installation is finished, open Arduino IDE. Go to :guilabel:`"File" -> "Preferences"`.
+When the installation is finished, open Arduino IDE. Go to :guilabel:`File -> Preferences`
 
-And paste the following URL into :guilabel:`"Additional Boards Manager URLs"` field::
+And paste the following URL into :guilabel:`Additional Boards Manager URLs` field::
 
    https://github.com/ambiot/ambd_arduino/raw/master/Arduino_package/package_realtek.com_amebad_index.json
 
-Next, go to :guilabel:`"Tools" -> "Board" -> "Boards Manager"`:
+Next, go to :guilabel:`Tools -> Board -> Boards Manager`
 
 |image03|
 
@@ -125,7 +124,7 @@ If there is downloading issue (Bad internet or GitHub access), please refer to t
 3. "AmebaD_Arduino_Source_Code", this section is optional. Download for the latest source code.
 https://www.amebaiot.com.cn/en/ameba-arduino-summary/
 Download the files selected, then unzip (patch1 and patch2 are compulsory). There are "Install.doc"/"Install.pdf" for you to refer to installation steps. According to your system, please run the installation tool in the "Offline_SDK_installation_tool" folder.
-After the installation, select AmebaD as current connected board in :guilabel:`"Tools" -> "Board" -> "Ameba ARM (32-bits) Boards" -> "AMB23 (RTL8722DM MINI)"`
+After the installation, select AmebaD as current connected board in :guilabel:`Tools -> Board -> Ameba ARM (32-bits) Boards -> AMB23 (RTL8722DM MINI)`
 
 |image05|
 
@@ -137,11 +136,11 @@ After connected, the USB driver will be automatically installed. If there is any
 
 |image06|
 
-Go to "Tools" -> "Port" and select the correct COM port.
+Go to :guilabel:`Tools -> Port` and select the correct COM port.
 
 |image07|
 
-Go to "Tools" -> "Serial Monitor", set the baud rate as "115200", and press the RST button to check the serial port connection.
+Go to :guilabel:`Tools -> Serial Monitor` set the baud rate as "115200", and press the RST button to check the serial port connection.
 
 |image08|
 
@@ -155,15 +154,18 @@ Depending on the batch of manufacturing, some boards require to erase first befo
 |image10|
 
 Then enter the enter the upload mode.
-•	Manually. Press and hold "Burn" button, press then release "RST" button and release "Burn" button.
-•	Auto. Select "Tools" -> "Auto Upload Mode" -> "Enable". Note that only boards with auto upload circuit built-in can use the Auto Upload Mode, otherwise it will back to normal upload mode and wait for 5 seconds.
-Next, Select "Sketch" -> "Upload". "Erase flash done." will show up.
+- Manually. Press and hold "Burn" button, press then release "RST" button and release "Burn" button.
+- Auto. Select :guilabel:`Tools -> Auto Upload Mode -> Enable`
+
+.. note:: Only boards with auto upload circuit built-in can use the Auto Upload Mode, otherwise it will back to normal upload mode and wait for 5 seconds.
+
+Next, Select :guilabel:`Sketch -> Upload`, "Erase flash done." will show up.
 
 |image11|
 
 |image12|
 
-Check the serial monitor and reset board by press RST button. If only "#" shows that means erase flash success. Remember to select "Tools" -> "Erase Flash" -> "Disable".
+Check the serial monitor and reset board by press RST button. If only "#" shows that means erase flash success. Remember to select :guilabel:`Tools -> Erase Flash -> Disable`
 
 |image13|
 
@@ -173,11 +175,9 @@ Try the First Example
 Step 1. Compile & Upload
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Arduino IDE provides many built-in examples, which can be compiled,
-uploaded and run directly on the boards. Here, we take the "Blink"
-example as the first try.
+Arduino IDE provides many built-in examples, which can be compiled, uploaded and run directly on the boards. Here, we take the "Blink" example as the first try.
 
-Open :guilabel:`"File" -> "Examples" -> "01.Basics" -> "Blink"`:
+Open :guilabel:`File -> Examples -> 01.Basics -> Blink`
 
 |image14|
 
@@ -191,11 +191,11 @@ Then connect an LED to board as show.
 
 |image17|
 
-Next, compile the sample code directly. "Sketch" -> "Verify/Compile". Then if there is no compile error, followed by "Sketch" -> "Upload".
+Next, compile the sample code directly. :guilabel:`Sketch -> Verify / Compile` Then if there is no compile error, followed by :guilabel:`Sketch -> Upload`
 
-*	Check and select "Tools" -> "Erase Flash" -> "Disable".
-*	Enter the Upload Mode. Manual or Auto. Select "Tools" -> "Auto Upload Mode" -> "Enable"/ "Disable".
-*	"Verify/Compile" and "Upload". "Upload" includes "Verify/Compile", "Verify/Compile" can be skipped.
+- Check and select :guilabel:`Tools -> Erase Flash -> Disable`
+- Enter the Upload Mode. Manual or Auto. Select :guilabel:`Tools -> Auto Upload Mode -> Enable / Disable`
+- "Verify/Compile" and "Upload". "Upload" includes "Verify/Compile", "Verify/Compile" can be skipped.
 
 Successful upload will show "All images are sent successfully!"
 
@@ -204,8 +204,7 @@ Successful upload will show "All images are sent successfully!"
 Step 2.Run the Blink example
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In each example, Arduino not only provides sample code, but also detailed documentation,
-including wiring diagram, sample code explanation, technical details, …etc. These examples can be directly used on AMB23.
+In each example, Arduino not only provides sample code, but also detailed documentation, including wiring diagram, sample code explanation, technical details, …etc. These examples can be directly used on AMB23.
 
 So, we find the detailed information of the Blink example: https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink
 

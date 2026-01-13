@@ -15,7 +15,7 @@ Insert a MicroSD card into the onboard SD card reader of RTL8722DM MINI board.
 Example 01 create_folder
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Open the example, "Files" -> "Examples" -> "AmebaFatfsSDIO" -> "create_folder".
+Open the example, :guilabel:`Files -> Examples -> AmebaFatfsSDIO -> create_folder`
 
 |image01|
 
@@ -30,7 +30,7 @@ Next, insert SD card into card reader, and check whether the operations succeede
 Example 02 file_read_write
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Open the example, "Files" -> "Examples" -> "AmebaFatfsSDIO" -> "file_read_write".
+Open the example, :guilabel:`Files -> Examples -> AmebaFatfsSDIO -> file_read_write`
 
 Upload the code and press the reset button on Ameba once the upload is finished. In the sample code, we create text file "test.txt" with content "hello world!". Read the file and print content to serial monitor.
 
@@ -43,7 +43,7 @@ Next, insert SD card into card reader, and check whether the operations succeede
 Example 03 get_file_attribute
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Open the example, "Files" -> "Examples" -> "AmebaFatfsSDIO" -> "get_file_attribute".
+Open the example, :guilabel:`Files -> Examples -> AmebaFatfsSDIO -> get_file_attribute`
 
 Upload the code and press the reset button on Ameba once the upload is finished. In the sample code, system will print put all file attribute to serial monitor.
 
@@ -54,7 +54,7 @@ Next, insert SD card into card reader, and check whether the operations succeede
 Example 04 last_modified_time
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Open the example, "Files" -> "Examples" -> "AmebaFatfsSDIO" -> "last_modified_time".
+Open the example, :guilabel:`Files -> Examples -> AmebaFatfsSDIO -> last_modified_time`
 
 Upload the code and press the reset button on Ameba once the upload is finished. In the sample code, system will print put the target file last modified time to serial monitor.
 
@@ -67,7 +67,7 @@ Next, insert SD card into card reader, and check whether the operations succeede
 Example 05 list_root_files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Open the example, "Files" -> "Examples" -> "AmebaFatfsSDIO" -> "list_root_files".
+Open the example, :guilabel:`Files -> Examples -> AmebaFatfsSDIO -> list_root_files`
 
 Upload the code and press the reset button on Ameba once the upload is finished. In the sample code, system will print put all root file to serial monitor.
 

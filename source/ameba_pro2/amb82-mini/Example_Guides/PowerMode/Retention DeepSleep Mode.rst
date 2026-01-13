@@ -45,8 +45,7 @@ The module and board power consumption report under Deep Sleep mode are listed i
 | AON GPIO   | 52.97                      | 4.74                       |
 +------------+----------------------------+----------------------------+
 
-Open example in "File" -> "Examples" -> "AmebaPowerMode" ->
-"RetentionDeepSleepMode".
+Open example in :guilabel:`File -> Examples -> AmebaPowerMode -> RetentionDeepSleepMode`
 
 |image01|
 

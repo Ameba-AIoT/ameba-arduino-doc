@@ -23,7 +23,7 @@ Connect the AMB82-mini to I2C_SDA, I2C_SCL, INT1 of the sensor as shown in the d
 
 |image01|
 
-Open the example in "File" -> "Examples" -> "AmebaWire" -> "BMI270" -> "SignificantMotion".
+Open the example in :guilabel:`File -> Examples -> AmebaWire -> BMI270 -> SignificantMotion`
 
 |image02|
 

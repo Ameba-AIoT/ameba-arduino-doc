@@ -23,15 +23,15 @@ In the highlighted code snippet, fill in the "ssid" with your WiFi network SSID 
 
 |image02|
 
-Compile the code and upload it to Ameba. After pressing the Reset button, wait for the Ameba Pro 2 board to connect to the WiFi network. The board’s IP address and network port number for RTSP will be shown in the Serial Monitor.
+Compile the code and upload it to Ameba. After pressing the Reset button, wait for the Ameba Pro 2 board to connect to the WiFi network. The board's IP address and network port number for RTSP will be shown in the Serial Monitor.
 
-You may download VLC media player from the link (`here <https://www.videolan.org/vlc/>`_).
+You may download VLC media player from the link (`here <https://www.videolan.org/vlc/>`__).
 
-Upon the completion of the software installation, open VLC media player, and go to "Media" -> "Open Network Stream".
+Upon the completion of the software installation, open VLC media player, and go to :guilabel:`Media -> Open Network Stream`
 
 |image03|
 
-Make sure your PC is connected to the same network as the Ameba Pro2 board for streaming. Since RTSP is used as the streaming protocol, key in `"rtsp://{IPaddress}:{port}"` as the Network URL in VLC media player, replacing {IPaddress} with the IP address of your Ameba Pro2 board, and {port} with the RTSP port shown in Serial Monitor `(e.g., "rtsp://192.168.1.154:554")`. The default RTSP port number is 554. In the case of two simultaneous RTSP streams, the second port number defaults to 555.
+Make sure your PC is connected to the same network as the Ameba Pro2 board for streaming. Since RTSP is used as the streaming protocol, key in ``rtsp://{IPaddress}:{port}`` as the Network URL in VLC media player, replacing {IPaddress} with the IP address of your Ameba Pro2 board, and {port} with the RTSP port shown in Serial Monitor ``e.g., rtsp://192.168.1.154:554``. The default RTSP port number is 554. In the case of two simultaneous RTSP streams, the second port number defaults to 555.
 
 |image04|
 
@@ -45,7 +45,7 @@ Next, click "Play" to start RTSP streaming. The video stream from the camera wil
 
 |image07|
 
-You may also view detailed information about the video stream in "Tools" -> "Codec Information".
+You may also view detailed information about the video stream in :guilabel:`Tools -> Codec Information`
 
 +-----------------------------------+--------------------------------------------------------------------+
 | **Example**                       | **Stream details**                                                 |

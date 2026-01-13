@@ -27,7 +27,7 @@ In the JSON, please look for your chat ID. For example,
 
 987654321 is your chat ID.
 
-Open "File" -> "Examples" -> "AmebaHTTP" -> "HttpUploadImageTelegram".
+Open :guilabel:`File -> Examples -> AmebaHTTP -> HttpUploadImageTelegram`
 
 |image01|
 

@@ -18,13 +18,13 @@ The naming style for the service follows the format: : **{Instance Name}.{Protoc
 
 For example, Arduino IDE adopts the naming for the mDNS service which is used in OTA as following: **MyAmeba._arduino._tcp.local**
 Among the naming example, "MyAmeba" can identify the Ameba device name and the name "MyAmeba" is changeable. "_arduino._tcp" is the protocol that Arduino IDE adopts, and the Domain is set as local in common.
-Open the example, "File" → "Examples" → "AmebaMDNS" → "mdns_on_arduino_ide"
+Open the example, :guilabel:`File -> Examples -> AmebaMDNS -> mdns_on_arduino_ide`
 You need to input ssid and password of the AP because the example will use WiFi connection.
 And you can find out the naming of the service at the place where it declares MDNS Service. The example uses the default name "MyAmeba" and the name is changeable.
 
 |image01|
 
-Next, go to ("Tools" → "Port"), and you can find out at least one Serial Port. This port is simulated by Ameba board via USB. Choose this port and upload the compiled code to Ameba.
+Next, go to :guilabel:`Tools -> Port` and you can find out at least one Serial Port. This port is simulated by Ameba board via USB. Choose this port and upload the compiled code to Ameba.
 
 |image02|
 
@@ -49,7 +49,7 @@ The program set up the mDNS service in the beginning, the first parameter is Ins
 
 .. code-block:: c++
 
-   MDNSService service("MyAmeba", "_arduino._tcp", "local", 5000);
+    MDNSService service("MyAmeba", "_arduino._tcp", "local", 5000);
 
 After connected to the network, we set up some text fields for the service. For the following example, "board" is the name of the field, "ameba_rtl8721d" is the value of the field. "board" is used to let Arduino IDE check installed SDK to see if it exists known device or not. We will use the name of the device if there is known device, users can change "ameba_rtl8721d" to "yun" or other names to find out what's the difference if interested.
 
@@ -57,25 +57,25 @@ After connected to the network, we set up some text fields for the service. For 
 
    service.addTxtRecord("board", strlen("ameba_rtl8721d"),"ameba_rtl8721d");
 
-Then we add three text fields ``"auth_upload"``, ``"tcp_check"``, and ``"ssh_upload"``, this example does not activate these services.
+Then we add three text fields ``auth_upload``, ``tcp_check``, and ``ssh_upload`` this example does not activate these services.
 
 .. code-block:: c++
 
-   service.addTxtRecord("auth_upload", strlen("no"), "no");
-   service.addTxtRecord("tcp_check", strlen("no"), "no");
-   service.addTxtRecord("ssh_upload", strlen("no"), "no");
+    service.addTxtRecord("auth_upload", strlen("no"), "no");
+    service.addTxtRecord("tcp_check", strlen("no"), "no");
+    service.addTxtRecord("ssh_upload", strlen("no"), "no");
 
 Next we activate MDNS
 
 .. code-block:: c++
 
-   MDNS.begin();
+    MDNS.begin();
 
 and register to the mDNS service.
 
 .. code-block:: c++
 
-   MDNS.registerService(service);
+    MDNS.registerService(service);
 
 .. |image01| image:: ../../../../_static/amebad/Example_Guides/MDNS/MDNS_Set_Up_MDNS_Client_On_Arduino_IDE/image01.png
    :width: 679

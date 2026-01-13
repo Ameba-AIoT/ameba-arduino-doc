@@ -17,7 +17,7 @@ Example
 
 In this example, we are doing a Post request with image and recorded audio file together to LLM Server. This example does not contain integration to the LLM server but integration to the HTTP server.
 
-Then open "File" -> "Examples" -> "AmebaHttp" -> "Capture_Image_HTTP_Post_Image_Llava_Server"
+Then open :guilabel:`File -> Examples -> AmebaHttp -> Capture_Image_HTTP_Post_Image_Llava_Server`
 
 |image01|
 

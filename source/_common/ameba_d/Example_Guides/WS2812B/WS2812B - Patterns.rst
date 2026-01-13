@@ -80,7 +80,7 @@ Firstly, connect the WS2812B to the Ameba board as shown in the following diagra
 
 To create different light patterns with many different colors, use**WS2812B_Patterns**.
 
-Open the example in ``"File" → "Example" → "AmebaWS2812B" → "WS2812B_Patterns"``
+Open the example in :guilabel:`File -> Example -> AmebaWS2812B -> WS2812B_Patterns`
 
 |image08|
 

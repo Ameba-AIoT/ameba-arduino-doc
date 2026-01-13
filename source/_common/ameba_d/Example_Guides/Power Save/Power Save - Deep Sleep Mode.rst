@@ -11,7 +11,7 @@ Example
 
 AmebaD supports 2 low power modes which are deep sleep mode and sleep mode. Deep Sleep mode turns off more power domain than sleep mode. The power consumptions of Deep Sleep mode is around 7μA to 8μA as compared to normal state which is around 22mA. This example describes how to enter Deep Sleep mode and configure the wakeup source.
 
-Open "File" -> "Examples" -> "AmebaPowerSave" -> "DeepSleepMode"
+Open :guilabel:`File -> Examples -> AmebaPowerSave -> DeepSleepMode`
 
 |image01|
 

@@ -9,10 +9,10 @@ Materials
 Example
 -------
 
-Ameba provides 4 hardware GTimer for users to use. The timers’ resolutions are at microseconds scale.
+Ameba provides 4 hardware GTimer for users to use. The timers' resolutions are at microseconds scale.
 The timer can be set to be periodic or for single use. The periodic timers reset periodically, and the single-use timers do not.
 
-Open the example, "File" -> "Examples" -> "AmebaGTimer" -> "TimerPeriodical". Compile and upload to Ameba, and press reset.
+Open the example, :guilabel:`File -> Examples -> AmebaGTimer -> TimerPeriodical` Compile and upload to Ameba, and press reset.
 In the Serial Monitor, you can see the counter value is increased periodically.
 
 Code Reference

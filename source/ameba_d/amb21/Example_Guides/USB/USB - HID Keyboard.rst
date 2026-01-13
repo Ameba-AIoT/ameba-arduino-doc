@@ -13,7 +13,7 @@ Example
 
 In this example, the RTL8722 board emulates a HID keyboard connected using USB.
 
-Open the example, "Files" -> "Examples" -> "AmebaUSB" -> "USBHIDKeyboard".
+Open the example, :guilabel:`Files -> Examples -> AmebaUSB -> USBHIDKeyboard`
 
 |image01|
 

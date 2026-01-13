@@ -12,7 +12,7 @@ Example
 In this example, we connect Ameba to WiFi and use Ameba as server to
 send message to connected client.
 
-First, open "File" -> "Examples" -> "WiFi" -> "SimpleHttpWeb" -> "ReceiveData":
+First, open :guilabel:`File -> Examples -> WiFi -> SimpleHttpWeb -> ReceiveData`
 
 |image01|
 

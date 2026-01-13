@@ -73,7 +73,7 @@ A USB to TTL adapter is required for this example. Ensure that you have the driv
 
 .. only:: end amb26
 
-Open the example in ``"File" → "Examples" → "AmebaSoftwareSerial" → "SoftwareSerial_Irq_Callback"``
+Open the example in :guilabel:`File -> Examples -> AmebaSoftwareSerial -> SoftwareSerial_Irq_Callback`
 
 |image08|
 

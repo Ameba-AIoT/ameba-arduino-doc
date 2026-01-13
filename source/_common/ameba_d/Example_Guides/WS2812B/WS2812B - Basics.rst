@@ -80,7 +80,7 @@ Firstly, connect the WS2812B to the Ameba board as shown in the following diagra
 
 To light up one individual LED or multiple LEDs with the same color, use **WS2812B_Basics**.
 
-Open the example in ``"File" → "Example" → "AmebaWS2812B" → "WS2812B_Basics"``
+Open the example in :guilabel:`File -> Example -> AmebaWS2812B -> WS2812B_Basics`
 
 |image08|
 

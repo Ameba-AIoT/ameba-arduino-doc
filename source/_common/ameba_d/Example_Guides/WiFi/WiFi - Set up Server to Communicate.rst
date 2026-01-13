@@ -13,9 +13,9 @@ Example
 
 In this example, we first connect Ameba to WiFi, then we use Ameba as server to communicate with client.
 
-First, we make sure the correct Ameba development board is set in "Tools" -> "Board"
+First, we make sure the correct Ameba development board is set in :guilabel:`Tools -> Board`
 
-Then, open the Simple WiFi Server example in "File" -> "Examples" -> "WiFi" -> "SimpleServerWiFi"
+Then, open the Simple WiFi Server example in :guilabel:`File -> Examples -> WiFi -> SimpleServerWiFi`
 
 In the sample code, modify the highlighted parameters and enter the ssid and password for your WiFi connection.
 
@@ -49,7 +49,7 @@ Code reference
 | https://www.arduino.cc/en/Reference/WiFiSSID
 | Use WiFi.RSSI() to get the signal strength of the connection.
 | https://www.arduino.cc/en/Reference/WiFiRSSI
-| Use WiFi.localIP() to get the Ameba WiFi shield’s IP address.
+| Use WiFi.localIP() to get the Ameba WiFi shield's IP address.
 | https://www.arduino.cc/en/Reference/WiFiLocalIP
 | Create server and transmitting data:
 | Use Server(port) to create a server that listens on the specified port.

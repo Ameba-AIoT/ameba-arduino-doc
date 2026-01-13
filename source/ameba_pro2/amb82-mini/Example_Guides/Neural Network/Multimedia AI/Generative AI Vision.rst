@@ -16,7 +16,7 @@ Example
 
 In this example, we will be using Ameba Pro2 development board to capture and send image to various LLM servers for visual analysis and understanding.
 
-Open Generative AI Vision example in "File" -> "Examples" -> "AmebaNN" -> "MultimediaAI" -> "GenAIVision".
+Open Generative AI Vision example in :guilabel:`File -> Examples -> AmebaNN -> MultimediaAI -> GenAIVision`
 
 |image01|
 

@@ -20,7 +20,7 @@ using BLE.
 Procedure
 ~~~~~~~~~
 
-Open the example, "Files" -> "Examples" -> "AmebaBLE" -> "BLEHIDGamepad".
+Open the example, :guilabel:`Files -> Examples -> AmebaBLE -> BLEHIDGamepad`
 
 |image01|
 
@@ -53,10 +53,9 @@ here, and some of the buttons and axes should show changing values.
 
 |image04|
 
-On Windows, gamepad input can also be viewed by going to "Control Panel"
--> "Devices and Printers" -> "AMEBA_BLE_HID" -> "Game Controller
-Settings" -> "Properties". The buttons and axes should also show
-changing values here.
+On Windows, gamepad input can also be viewed by going to :guilabel:`Control Panel -> Devices and Printers -> AMEBA_BLE_HID -> Game Controller`
+
+:guilabel:`Settings -> Properties` The buttons and axes should also show changing values here.
 
 |image05|
 

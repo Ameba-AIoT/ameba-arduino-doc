@@ -15,7 +15,7 @@ Connect the audio jack to the Ameba board as shown in the diagram.
 
 |image01|
 
-Open the example in "File" -> "Examples" -> "AmebaMultimedia" -> "Audio" -> "RTPAudioStream".
+Open the example in :guilabel:`File -> Examples -> AmebaMultimedia -> Audio -> RTPAudioStream`
 
 |image02|
 
@@ -27,7 +27,7 @@ Compile the code and upload it to Ameba.
 
 After pressing the Reset button, wait for the Ameba Pro 2 board to connect to the WiFi network.
 
-On a computer connected to the same WiFi network, open VLC media player, and go to "Media" -> "Stream".
+On a computer connected to the same WiFi network, open VLC media player, and go to :guilabel:`Media -> Stream`
 
 |image04|
 

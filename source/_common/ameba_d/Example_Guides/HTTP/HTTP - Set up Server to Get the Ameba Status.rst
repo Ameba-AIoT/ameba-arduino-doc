@@ -11,7 +11,7 @@ Example
 
 In this example, we connect Ameba to WiFi and use Ameba as server to send message to connected client.
 
-First, open  "File" -> "Examples" -> "WiFi" -> "WiFiWebServer"
+First, open  :guilabel:`File -> Examples -> WiFi -> WiFiWebServer`
 
 |image01|
 

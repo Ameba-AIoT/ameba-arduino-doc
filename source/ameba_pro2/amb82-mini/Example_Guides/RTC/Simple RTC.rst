@@ -11,9 +11,9 @@ Example
 
 This example demonstrates how to use the RTC library methods. This function describes how to use the RTC API. The RTC function is implemented by an independent BCD timer/counter.
 
-Select the correct Ameba development board from the Arduino IDE: "Tools" -> "Board".
+Select the correct Ameba development board from the Arduino IDE :guilabel:`Tools -> Board`
 
-Then open the "RTC" example from: "File" -> "Examples" -> "AmebaRTC" -> "Simple_RTC":
+Then open the "RTC" example from :guilabel:`File -> Examples -> AmebaRTC -> Simple_RTC`
 
 |image01|
 

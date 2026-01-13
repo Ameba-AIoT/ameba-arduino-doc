@@ -11,7 +11,7 @@ Example
 
 In this example, Ameba connect to a MQTT broker using TLS authentication. Then send messages as a publisher and receive messages as a subscriber.
 
-Open the MQTT example ``"File" → "Examples" →"AmebaMQTTClient" → "MQTT_TLS"``
+Open the MQTT example :guilabel:`File -> Examples -> AmebaMQTTClient -> MQTT_TLS`
 
 Please modify the WiFi-related parameters and MQTT parameters.
 
@@ -37,7 +37,7 @@ Next, compile the code and upload it to Ameba. Press the reset button, then open
 
 After Ameba is connected to MQTT server, it sends the message "hello world" to "outTopic". To see the message, use another MQTT client. Refer to the MQTT_Basic example guide on how to setup a PC-based MQTT client.
 
-In addition to use TLS client authentication to server authentication, it requires to generate an OpenSSL private key and obtain a signed certificate from the server. For testing purposes, signed certificates can be obtained from test.mosquitto.org by following the guide at https://test.mosquitto.org/ssl/.
+In addition to use TLS client authentication to server authentication, it requires to generate an OpenSSL private key and obtain a signed certificate from the server. For testing purposes, signed certificates can be obtained from test.mosquitto.org by following `guide <https://test.mosquitto.org/ssl/>`__
 
 Replace the character strings "certificateBuff" and "privateKeyBuff" with the signed certificate and OpenSSL private key, ensuring that they are formatted the same way as the shown in the example code. Set "MQTT_TLS_SERVER_AUTH" to be "1".
 

@@ -52,7 +52,7 @@ it is available at:
 
    * https://apps.apple.com/us/app/bluefruit-connect/id830125974
 
-Open the BLE example in "File" -> "Examples" -> "AmebaBLE" -> "DoorUnlockOverBLEUart".
+Open the BLE example in :guilabel:`File -> Examples -> AmebaBLE -> DoorUnlockOverBLEUart`
 
 |image02|
 

@@ -34,7 +34,7 @@ LightBlue is an alternative application that can also be used, but has less feat
 
 - iOS: https://apps.apple.com/us/app/lightblue/id557428110
 
-Open the example, ``"Files" → "Examples" → "AmebaBLE" → "BLEBatteryService"``
+Open the example, :guilabel:`Files -> Examples -> AmebaBLE -> BLEBatteryService`
 
 |image01|
 

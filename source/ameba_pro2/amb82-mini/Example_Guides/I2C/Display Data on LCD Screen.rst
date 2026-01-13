@@ -28,7 +28,7 @@ Procedure
 
 |image02|
 
-| Open the example in "File" -> "Examples" -> "AmebaWire" -> "LCD_HelloWorld".
+| Open the example in :guilabel:`File -> Examples -> AmebaWire -> LCD_HelloWorld`
 | Compile and upload to Ameba, then press the reset button.
 | You can now see "Hello World" in the first line, and "Ameba" in the second line displayed on the LCD screen.
 

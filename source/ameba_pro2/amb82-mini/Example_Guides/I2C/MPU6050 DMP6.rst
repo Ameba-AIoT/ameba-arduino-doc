@@ -36,7 +36,7 @@ diagram below.
 
 |image01|
 
-Open the example in "File" -> "Examples" -> "AmebaWire" -> "MPU6050"-> "MPU6050_DMP6" OR "MPU6050_DMP6_using_DMP_V6v12"
+Open the example in :guilabel:`File -> Examples -> AmebaWire -> MPU6050 -> MPU6050_DMP6 OR MPU6050_DMP6_using_DMP_V6v12`
 
 |image02|
 

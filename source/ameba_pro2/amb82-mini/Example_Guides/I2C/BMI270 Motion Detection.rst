@@ -23,7 +23,7 @@ Connect the BMI270 to I2C_SDA and I2C_SCL of the board as shown in the diagram b
 
 |image01|
 
-Open the example in "File" -> "Examples" -> "AmebaWire" -> "BMI270" -> "MotionDetection".
+Open the example in :guilabel:`File -> Examples -> AmebaWire -> BMI270 -> MotionDetection`
 
 |image02|
 

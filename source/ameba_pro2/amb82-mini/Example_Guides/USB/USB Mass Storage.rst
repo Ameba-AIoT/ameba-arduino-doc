@@ -13,7 +13,7 @@ Example
 In this example, the device is setup to function as a USB Mass Storage and uses SD card as its physical memory medium.
 USB host end can recognize device and write data to and read data from SD card via USB interface.
 
-Open the example in "File" -> "Examples" -> "AmebaUSB" -> "USB_Mass_Storage". Compile and upload to Ameba, then press the reset button.
+Open the example in :guilabel:`File -> Examples -> AmebaUSB -> USB_Mass_Storage` Compile and upload to Ameba, then press the reset button.
 
 |image01|
 

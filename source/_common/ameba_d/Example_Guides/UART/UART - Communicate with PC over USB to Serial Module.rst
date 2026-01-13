@@ -30,13 +30,13 @@ Afterwards, open your Device Manager. You can find the corresponding serial port
 
 **Executing the Example**
 
-Open the "SoftwareSerialExample" example in ``"File" → "Examples" → "AmebaSoftwareSerial" → "SoftwareSerial_Basic"``:
+Open the "SoftwareSerialExample" example in :guilabel:`File -> Examples -> AmebaSoftwareSerial -> SoftwareSerial_Basic`
 
 |image02|
 
 SoftwareSerial_DetailSetting
 
-Open the "SoftwareSerialExample" example in "File" → "Examples" → "AmebaSoftwareSerial" → "SoftwareSerial_DetailSetting":
+Open the "SoftwareSerialExample" example in :guilabel:`File -> Examples -> AmebaSoftwareSerial -> SoftwareSerial_DetailSetting`
 
 |image03|
 

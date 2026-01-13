@@ -1,4 +1,3 @@
-
 Ameba ARDUINO with AW-CU488 Thing Plus (RTL8721DM)
 ==================================================
 
@@ -104,13 +103,13 @@ Arduino IDE is used to develop applications on the board, and the Arduino basic 
 
 Arduino IDE can be downloaded in the Arduino website: https://www.arduino.cc/en/Main/Software
 
-When the installation is finished, open Arduino IDE. Go to :guilabel:`"File" -> "Preferences"`.
+When the installation is finished, open Arduino IDE. Go to :guilabel:`File -> Preferences`
 
-And paste the following URL into :guilabel:`"Additional Boards Manager URLs"` field::
+And paste the following URL into :guilabel:`Additional Boards Manager URLs` field::
 
    https://github.com/ambiot/ambd_arduino/raw/master/Arduino_package/package_realtek.com_amebad_index.json
 
-Next, go to :guilabel:`"Tools" -> "Board" -> "Boards Manager"`:
+Next, go to :guilabel:`Tools -> Board -> Boards Manager`
 
 |image03|
 
@@ -125,7 +124,7 @@ If there is downloading issue (Bad internet or GitHub access), please refer to t
 3. "AmebaD_Arduino_Source_Code", this section is optional. Download for the latest source code.
 https://www.amebaiot.com.cn/en/ameba-arduino-summary/
 Download the files selected, then unzip (patch1 and patch2 are compulsory). There are "Install.doc"/"Install.pdf" for you to refer to installation steps. According to your system, please run the installation tool in the "Offline_SDK_installation_tool" folder.
-After the installation, select AmebaD as current connected board in "Tools" → "Board" →"Ameba ARM (32-bits) Boards" → "AW-CU488 Thing Plus (RTL8721DM)":
+After the installation, select AmebaD as current connected board in :guilabel:`Tools -> Board -> Ameba ARM (32-bits) Boards -> AW-CU488 Thing Plus (RTL8721DM)`
 
 |image05|
 
@@ -140,11 +139,11 @@ After connected, the USB driver will be automatically installed. If there is any
 
 |image07|
 
-Go to "Tools" -> "Port" and select the correct COM port.
+Go to :guilabel:`Tools -> Port` and select the correct COM port.
 
 |image08|
 
-Go to "Tools" -> "Serial Monitor", set the baud rate as "115200", and press the RST button to check the serial port connection.
+Go to :guilabel:`Tools -> Serial Monitor` set the baud rate as "115200", and press the RST button to check the serial port connection.
 
 |image09|
 
@@ -158,7 +157,7 @@ Arduino IDE provides many built-in examples, which can be compiled,
 uploaded and run directly on the boards. Here, we take the "Blink"
 example as the first try.
 
-Open :guilabel:`"File" -> "Examples" -> "01.Basics" -> "Blink"`:
+Open :guilabel:`File -> Examples -> 01.Basics -> Blink`
 
 |image10|
 
@@ -166,7 +165,7 @@ Open :guilabel:`"File" -> "Examples" -> "01.Basics" -> "Blink"`:
 
 There are onboard LED on AW-CU488 Thing Plus, the default "LED_BUILTIN" is blue.
 
-Next, compile the sample code directly. "Sketch" -> "Verify/Compile". Then if there is no compile error, followed by "Sketch" -> "Upload".
+Next, compile the sample code directly. :guilabel:`Sketch -> Verify / Compile` Then if there is no compile error, followed by :guilabel:`Sketch -> Upload`
 
 |image12|
 
@@ -175,11 +174,11 @@ Arduino IDE prints the compiling message in the bottom area of the IDE window. W
 |image13|
 
 Afterwards, we will upload the compiled code to board.
-Remember to enable the Auto Upload Mode. In "Tools" → "Auto Upload Mode" → "Enable / Disable".
+Remember to enable the Auto Upload Mode. In :guilabel:`Tools -> Auto Upload Mode -> Enable / Disable`
 
 |image14|
 
-Please make sure the board is connected to your computer, then click "Sketch" → "Upload"
+Please make sure the board is connected to your computer, then click :guilabel:`Sketch -> Upload`
 Successful Upload will be shown with a message "All images are sent successfully!"
 
 |image15|
@@ -187,8 +186,7 @@ Successful Upload will be shown with a message "All images are sent successfully
 Step 2.Run the Blink example
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In each example, Arduino not only provides sample code, but also detailed documentation,
-including wiring diagram, sample code explanation, technical details, …etc. These examples can be directly used on AMB23.
+In each example, Arduino not only provides sample code, but also detailed documentation, including wiring diagram, sample code explanation, technical details, …etc. These examples can be directly used on AMB23.
 
 So, we find the detailed information of the Blink example: https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink
 

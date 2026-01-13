@@ -19,7 +19,7 @@ Note that this example only works after you have set up the server and then conf
 ~~~~~~~~~~~~~
 
 Step 1. IPv6TCPServer
-Open the example, ``"Files" → "Examples" → "WiFi" → "IPv6TCPServer"``.
+Open the example, :guilabel:`Files -> Examples -> WiFi -> IPv6TCPServer`
 
 |image01|
 
@@ -33,7 +33,7 @@ Open Serial Monitor and copy the IPv6 address of the Server (the highlighted are
 |image03|
 
 Step 2. IPv6TCPClient
-Now take the second Ameba D and open another example, ``"Files" → "Examples" → "WiFi" → "IPv6TCPClient"``.
+Now take the second Ameba D and open another example, :guilabel:`Files -> Examples -> WiFi -> IPv6TCPClient`
 
 |image04|
 

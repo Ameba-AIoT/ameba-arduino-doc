@@ -14,14 +14,14 @@ Introduction
 
 This example shows how Ameba can communicate on the local network using Internet Protocol version 6 over TCP.
 
-.. note ::  This example only works after you have set up the server and then configure the client accordingly.
+.. note:: This example only works after you have set up the server and then configure the client accordingly.
 
 Procedure
 ~~~~~~~~~~
 
 Step 1. IPv6TCPServer
 
-Open the example, "Files" → "Examples" → "WiFi" → "IPv6TCPServer".
+Open the example, :guilabel:`Files -> Examples -> WiFi -> IPv6TCPServer`
 
 |image01|
 
@@ -37,7 +37,7 @@ Open Serial Monitor and copy the IPv6 address of the Server for later use,
 
 Step 2. IPv6TCPClient
 
-Now take the second AMB82 Mini and open another example, "Files" → "Examples" → "WiFi" → "IPv6TCPClient".
+Now take the second AMB82 Mini and open another example, :guilabel:`Files -> Examples -> WiFi -> IPv6TCPClient`
 
 |image04|
 

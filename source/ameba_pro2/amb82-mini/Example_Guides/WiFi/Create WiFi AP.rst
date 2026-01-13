@@ -21,7 +21,7 @@ Ameba.
 Procedure
 ~~~~~~~~~
 
-Open example, "File" -> "Examples" -> "WiFi" -> "CreateWiFiAP"
+Open example, :guilabel:`File -> Examples -> WiFi -> CreateWiFiAP`
 
 |image01|
 

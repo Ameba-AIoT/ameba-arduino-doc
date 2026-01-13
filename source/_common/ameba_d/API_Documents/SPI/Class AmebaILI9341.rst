@@ -333,7 +333,7 @@ NA
 
 NA
 
-.. tip ：：Refer to "AmebaILI9341.h" for available colors.
+.. tip ::Refer to "AmebaILI9341.h" for available colors.
 
 .. note :: "AmebaILI9341.h" must be included to use the class function.
 

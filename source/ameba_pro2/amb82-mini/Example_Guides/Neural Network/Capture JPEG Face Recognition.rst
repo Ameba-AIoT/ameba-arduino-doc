@@ -25,7 +25,7 @@ In this example, we will be using Ameba Pro2 development board to create a simpl
 
 |image01|
 
-Open the Neural Network example in "File" -> "Examples" -> "AmebaNN" -> "CaptureJPEGFaceRecognition".
+Open the Neural Network example in :guilabel:`File -> Examples -> AmebaNN -> CaptureJPEGFaceRecognition`
 
 |image02|
 
@@ -58,15 +58,15 @@ Choose the customized option (e.g., CUSTOMIZED_YOLOV4TINY/ CUSTOMIZED_SCRFD/ CUS
 
 |image05|
 
-Compile the code and upload it to Ameba. After pressing the Reset button, wait for the Ameba Pro 2 board to connect to the WiFi network. The board’s IP address and network port number for RTSP will be shown in the Serial Monitor.
+Compile the code and upload it to Ameba. After pressing the Reset button, wait for the Ameba Pro 2 board to connect to the WiFi network. The board's IP address and network port number for RTSP will be shown in the Serial Monitor.
 
-The result can be validated using VLC. You may download VLC media player from the link `here <https://www.videolan.org/vlc/>`__.
+The result can be validated using VLC. You may download VLC media player from the link `here <https://www.videolan.org/vlc/>`__
 
-Upon the completion of the software installation, open VLC media player, and go to "Media" -> "Open Network Stream".
+Upon the completion of the software installation, open VLC media player, and go to :guilabel:`Media -> Open Network Stream`
 
 |image06|
 
-Make sure your PC is connected to the same network as the Ameba Pro2 board for streaming. Since RTSP is used as the streaming protocol, key in `"rtsp://{IPaddress}:{port}"`` as the Network URL in VLC media player, replacing {IPaddress} with the IP address of your Ameba Pro2 board, and {port} with the RTSP port shown in Serial Monitor `(e.g., "rtsp://192.168.1.154:554")`. The default RTSP port number is 554.
+Make sure your PC is connected to the same network as the Ameba Pro2 board for streaming. Since RTSP is used as the streaming protocol, key in ``rtsp://{IPaddress}:{port}`` as the Network URL in VLC media player, replacing {IPaddress} with the IP address of your Ameba Pro2 board, and {port} with the RTSP port shown in Serial Monitor ``e.g., rtsp://192.168.1.154:554`` The default RTSP port number is 554.
 
 Next, click "Play" to start RTSP streaming to see the result. The video stream from the camera will be shown in VLC media player.
 
@@ -80,7 +80,7 @@ Aim the camera at a face and enter the following commands in the Serial Monitor.
 
 **To register a face:**
 
-Note: Multiple faces can be registered. However, when registering a face, ensure that there is only one face in the frame.
+.. note:: Multiple faces can be registered. However, when registering a face, ensure that there is only one face in the frame.
 
 To register a face, aim the camera to a targeted face and enter **"REG={Name}"** to give the targeted face a name. For example, "REG=SAM".
 

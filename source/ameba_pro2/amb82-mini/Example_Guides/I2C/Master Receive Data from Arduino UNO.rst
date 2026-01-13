@@ -34,21 +34,21 @@ Procedure
 
 -  **Setting up Arduino Uno to be I2C Slave**
 
-| First, select Arduino in the Arduino IDE in "Tools" -> "Board" -> "Arduino Uno":
-| Open "Examples" -> "Wire" -> "slave_sender"
+| First, select Arduino in the Arduino IDE in :guilabel:`Tools -> Board -> Arduino Uno`
+| Open :guilabel:`Examples -> Wire -> slave_sender`
 
 |image01|
 
-Then click "Sketch" -> "Upload" to compile and upload the example to Arduino Uno.
+Then click :guilabel:`Sketch -> Upload` to compile and upload the example to Arduino Uno.
 
 -  **Setting up Ameba to be I2C Master**
 
-| Next, open another window of Arduino IDE, make sure to choose your Ameba development board in the IDE: "Tools" -> "Board"
-| Open "File" -> "Examples" -> "AmebaWire" -> "MasterReceiveData"
+| Next, open another window of Arduino IDE, make sure to choose your Ameba development board in the IDE :guilabel:`Tools -> Board`
+| Open :guilabel:`File -> Examples -> AmebaWire -> MasterReceiveData`
 
 |image02|
 
-Click "Sketch" -> "Upload" to compile and upload the example to Ameba.
+Click :guilabel:`Sketch -> Upload` to compile and upload the example to Ameba.
 
 -  **Wiring**
 
@@ -67,14 +67,14 @@ Click "Sketch" -> "Upload" to compile and upload the example to Ameba.
 
 |image04|
 
-| We select the port in "Tools" -> "Port" -> "COM15" (the port connected to Ameba)
-| Open the Arduino IDE window of the Ameba, go to "Tools" -> "Serial Monitor" to display the messages printed by Ameba.
+| We select the port in :guilabel:`Tools -> Port -> COM15`
+| Open the Arduino IDE window of the Ameba, go to :guilabel:`Tools -> Serial Monitor` to display the messages printed by Ameba.
 | Press the reset button on Arduino Uno, Arduino Uno now waits for connection from I2C master.
 | Then press the reset button on Ameba, Ameba will start to receive
   messages from Arduino Uno. And you can see the "hello" message
   printed every half second in serial monitor.
-| (NOTE: If the message does not show in the Serial Monitor of Ameba,
-  please close and open the serial monitor again.)
+
+.. note:: If the message does not show in the Serial Monitor of Ameba, please close and open the serial monitor again.
 
 |image05|
 

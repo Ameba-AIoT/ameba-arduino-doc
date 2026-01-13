@@ -11,7 +11,7 @@ Example
 
 AmebaPro2 ISP can support compressed (H264 / H265 / JPG) and uncompressed (NV16 / NV12) image through UVC (wired transmission), and user can check video on pc with PC applications (e.g., Potplayer).
 
-Connect the "Micro USB" into Arduino IDE device. Open the sample code in "File" -> "Examples" -> "AmebaUSB" -> "UVC_Device". Compile and upload to Ameba, then press the reset button. Connect the "USB OTG" via micro-USB cable to the target device such as PC, then use the Ameba device as a USB cam.
+Connect the "Micro USB" into Arduino IDE device. Open the sample code in :guilabel:`File -> Examples -> AmebaUSB -> UVC_Device` Compile and upload to Ameba, then press the reset button. Connect the "USB OTG" via micro-USB cable to the target device such as PC, then use the Ameba device as a USB cam.
 
 |image01|
 

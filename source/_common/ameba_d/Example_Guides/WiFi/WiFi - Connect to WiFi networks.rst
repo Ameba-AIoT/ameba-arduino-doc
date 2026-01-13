@@ -13,11 +13,11 @@ There are three common encryption type in WiFi connection. The first one is "OPE
 
 In the following, we will give a brief introduction on how to establish WiFi connection with these three types of encryption on Ameba.
 
-First, make sure the correct Ameba development board is selected in "Tools" -> "Board".
+First, make sure the correct Ameba development board is selected in :guilabel:`Tools -> Board`
 
 - Open (WiFi connection without password)
 
-Open the "ConnectNoEncryption" example in "File" -> "Examples" -> "WiFi" -> "ConnectWithWiFi" -> "ConnectNoEncryption"
+Open the "ConnectNoEncryption" example in :guilabel:`File -> Examples -> WiFi -> ConnectWithWiFi -> ConnectNoEncryption`
 
 |image01|
 
@@ -29,7 +29,7 @@ Next, upload the sample code, and press the reset button on Ameba. Then you will
 
 - WiFi connection with WPA encryption
 
-Open the "ConnectWithWPA" example in "File" -> "Examples" -> "WiFi" -> "ConnectWithWiFi" -> "ConnectWithWPA"
+Open the "ConnectWithWPA" example in :guilabel:`File -> Examples -> WiFi -> ConnectWithWiFi -> ConnectWithWPA`
 
 |image03|
 
@@ -39,15 +39,15 @@ If you prefer to enter your SSID & password in the Serial monitor while the prog
 
 |image04|
 
-Next, upload the sample code, and press the reset button on Ameba. Then you will see a message "You’re connected to the networkSSID: XXXXX", and the information of this WiFi connection is printed in the serial monitor every 10 seconds.
+Next, upload the sample code, and press the reset button on Ameba. Then you will see a message "You're connected to the networkSSID: XXXXX", and the information of this WiFi connection is printed in the serial monitor every 10 seconds.
 
-Note: If you enabled MANUAL_INPUT, after uploading the sample code and pressing the reset button on Ameba, input your SSID in the Serial monitor and press enter. Next, input your password, and press enter. Then you will see a message "You’re connected to the networkSSID: XXXXX", and the information of this WiFi connection is printed in the serial monitor every 10 seconds.
+Note: If you enabled MANUAL_INPUT, after uploading the sample code and pressing the reset button on Ameba, input your SSID in the Serial monitor and press enter. Next, input your password, and press enter. Then you will see a message "You're connected to the networkSSID: XXXXX", and the information of this WiFi connection is printed in the serial monitor every 10 seconds.
 
 |image05|
 
 - WiFi connection with WEP encryption
 
-Open the "ConnectWithWEP" example in "File" -> "Examples" -> "WiFi" -> "ConnectWithWiFi" -> "ConnectWithWEP"
+Open the "ConnectWithWEP" example in :guilabel:`File -> Examples -> WiFi -> ConnectWithWiFi -> ConnectWithWEP`
 
 |image06|
 
@@ -57,9 +57,9 @@ If you prefer to enter your SSID & password in the Serial monitor while the prog
 
 |image07|
 
-Next, upload the sample code, and press the reset button on Ameba. Then you will see a message "You’re connected to the networkSSID: XXXXX", and the information of this WiFi connection is printed in the IDE every 10 seconds.
+Next, upload the sample code, and press the reset button on Ameba. Then you will see a message "You're connected to the networkSSID: XXXXX", and the information of this WiFi connection is printed in the IDE every 10 seconds.
 
-Note: If you enabled MANUAL_INPUT, after uploading the sample code and pressing the reset button on Ameba, input your SSID in the Serial monitor and press enter. Next, input your key and press enter. Finally enter your password and press enter. Then you will see a message "You’re connected to the networkSSID: XXXXX", and the information of this WiFi connection is printed in the serial monitor every 10 seconds.
+Note: If you enabled MANUAL_INPUT, after uploading the sample code and pressing the reset button on Ameba, input your SSID in the Serial monitor and press enter. Next, input your key and press enter. Finally enter your password and press enter. Then you will see a message "You're connected to the networkSSID: XXXXX", and the information of this WiFi connection is printed in the serial monitor every 10 seconds.
 
 |image08|
 

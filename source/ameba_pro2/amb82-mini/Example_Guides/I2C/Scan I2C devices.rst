@@ -22,7 +22,7 @@ Procedure
 
 Connect any I2C device to I2C_SDA and I2C_SCL of the board.
 
-Open the example in "File" -> "Examples" -> "AmebaWire" -> "I2C_Scanner".
+Open the example in :guilabel:`File -> Examples -> AmebaWire -> I2C_Scanner`
 
 |image01|
 

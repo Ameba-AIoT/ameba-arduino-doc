@@ -19,7 +19,7 @@ Practically, LASS is based on MQTT protocol to collect all kinds of uploaded dat
 
 In this example, we use applications mentioned at our website, including:
 
-- MQTT: a MQTT-Broker to connect to LASS. The Client is "FT1_0XXXX", the XXXX are the four last digits of Ameba's Wi-Fi MAC, and the outTopic is "LASS/Test/Pm25Ameba/clientID", where clientID is the actual Ameba’s MQTT client ID.
+- MQTT: a MQTT-Broker to connect to LASS. The Client is "FT1_0XXXX", the XXXX are the four last digits of Ameba's Wi-Fi MAC, and the outTopic is "LASS/Test/Pm25Ameba/clientID", where clientID is the actual Ameba's MQTT client ID.
 
 - NTP: uploaded data must have time notation
 
@@ -28,7 +28,7 @@ In this example, we use applications mentioned at our website, including:
 **Procedure**
 ~~~~~~~~~~~~~
 
-Open the example. ``"File" → "Examples" → "AmebaMQTTClient" → "lass_basic"``
+Open the example. :guilabel:`File -> Examples -> AmebaMQTTClient -> lass_basic`
 
 LASS requires GPS information. There is no GPS sensor included in this example, so you must manually provide GPS information. Use Google Map to find the coordinates of where you plan to place your Ameba. You can see in this example that the latitude is 24.7814033, and the longitude is 120.9933676
 

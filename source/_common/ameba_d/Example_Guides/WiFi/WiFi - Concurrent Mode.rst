@@ -11,7 +11,7 @@ Example
 
 WiFi concurrent mode, also known as AP + Station mode, is a feature that allows devices to operate simultaneously as an Access point and a Station. In this example, the Ameba board can connect to an existing wireless network while providing wireless connectivity to other devices.
 
-First, open the example in "File" -> "Examples" -> "WiFi" -> "ConcurrentMode".
+First, open the example in :guilabel:`File -> Examples -> WiFi -> ConcurrentMode`
 
 In the sample code, fill in your SSID, PASSWORD, AP SSID, AP PASSWORD and CHANNEL.
 

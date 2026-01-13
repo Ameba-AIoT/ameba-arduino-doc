@@ -7,7 +7,7 @@ Is it possible to disable the continuously looping logs (e.g. YOLOv4t tick) in N
 
 Yes, it is possible.
 
-Navigate to "Tools" -> "System: Multimedia".
+Navigate to :guilabel:`Tools -> System: Multimedia`
 
 To view only video logs, select **Video/OSD logs only**. Otherwise, choose Disable all to turn off all logs.
 

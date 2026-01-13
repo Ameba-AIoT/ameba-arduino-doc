@@ -4,9 +4,9 @@ Retrieve Data from VL53L0X IR sensor
 Materials
 ---------
 
--  `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
+- `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
--  VL53L0X IR sensor x 1
+- VL53L0X IR sensor x 1
 
 Example
 -------
@@ -31,7 +31,7 @@ Connect the VL53L0X IR sensor to I2C_SDA and I2C_SCL of the board as shown in th
 
 |image01|
 
-Open the example in "File" -> "Examples" -> "AmebaWire" -> "VL53L0X" -> "Continuous" OR "Single".
+Open the example in :guilabel:`File -> Examples -> AmebaWire -> VL53L0X -> Continuous OR Single`
 
 |image02|
 

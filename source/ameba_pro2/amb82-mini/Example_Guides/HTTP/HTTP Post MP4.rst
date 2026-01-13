@@ -31,7 +31,7 @@ Connect the pushbutton and resistor to AMB82 Mini as shown below.
 
 |image02|
 
-Open "File"-> "Examples" -> "AmebaHTTP" -> "HTTP_Post_MP4_Whisper_Server" OR "RecordMP4_HTTP_Post_Whisper_Server".
+Open :guilabel:`File -> Examples -> AmebaHTTP -> HTTP_Post_MP4_Whisper_Server OR "RecordMP4_HTTP_Post_Whisper_Server`
 
 |image03|
 

@@ -28,7 +28,7 @@ Wiring Diagram:
 
 To light up individual LED or multiple LEDs with the same color,
 
-Open the example in ``"File" -> "Example" -> "AmebaWS2812B" -> "WS2812B_Basics"``
+Open the example in :guilabel:`File -> Example -> AmebaWS2812B -> WS2812B_Basics`
 
 Modify **TOTAL_NUM_OF_LEDS** to be the total number of LEDs on the WS2812B module, and modify **NUM_OF_LEDS** to be the number of LEDs that has connected.
 

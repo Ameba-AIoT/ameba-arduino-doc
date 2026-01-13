@@ -37,17 +37,17 @@ Procedure
 
 -  **Setting up Arduino Uno to be I2C Slave**
 
-| First, select Arduino in the Arduino IDE in "Tools" -> "Board" -> "Arduino Uno"
-| Open the "Slave Receiver" example in "Examples" -> "Wire" -> "slave_receiver":
+| First, select Arduino in the Arduino IDE in :guilabel:`Tools -> Board -> Arduino Uno`
+| Open the "Slave Receiver" example in :guilabel:`Examples -> Wire -> slave_receiver`
 
 |image01|
 
-Then click "Sketch" -> "Upload" to compile and upload the example to Arduino Uno.
+Then click :guilabel:`Sketch -> Upload` to compile and upload the example to Arduino Uno.
 
 -  **Setting up Ameba to be I2C Master**
 
-| Next, open another window of Arduino IDE, make sure to choose your Ameba development board in the IDE: "Tools" -> "Board"
-| Then open the "Master Writer" example in "File" -> "Examples" -> "AmebaWire" -> "MasterSendData"
+| Next, open another window of Arduino IDE, make sure to choose your Ameba development board in the IDE :guilabel:`Tools -> Board`
+| Then open the "Master Writer" example in :guilabel:`File -> Examples -> AmebaWire -> MasterSendData`
 
 |image02|
 
@@ -60,7 +60,7 @@ Then click "Sketch" -> "Upload" to compile and upload the example to Arduino Uno
 
 |image03|
 
-| Open the Arduino IDE of the Arduino Uno and open the serial monitor ("Tools" -> "Serial Monitor").
+| Open the Arduino IDE of the Arduino Uno and open the serial monitor :guilabel:`Tools -> Serial Monitor`
 | In the Serial Monitor, you can see the messages printed from Arduino Uno.
 | Next, press the reset button on Arduino Uno. Now the Arduino Uno is waiting for the connection from I2C Master.
 | We press the reset button on Ameba to start to send messages. Then observe the serial monitor, you can see the messages show up every half second.

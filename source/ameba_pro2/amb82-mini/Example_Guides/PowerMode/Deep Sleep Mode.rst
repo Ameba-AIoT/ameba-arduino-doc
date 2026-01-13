@@ -50,8 +50,7 @@ The module and board power consumption report under Deep Sleep mode are listed i
 | RTC        | 57.42                         | 3.31                       | 84.14                         | 5.18                       | 60.65                         | 5.67                       | 57.42                         | 3.31                       |
 +------------+-------------------------------+----------------------------+-------------------------------+----------------------------+-------------------------------+----------------------------+-------------------------------+----------------------------+
 
-Open example in "File" -> "Examples" -> "AmebaPowerMode" ->
-"DeepSleepMode".
+Open example in :guilabel:`File -> Examples -> AmebaPowerMode -> DeepSleepMode`
 
 |image01|
 

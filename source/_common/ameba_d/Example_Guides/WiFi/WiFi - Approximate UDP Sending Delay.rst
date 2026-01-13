@@ -30,7 +30,7 @@ This example uses Ameba to send UDP packets to a computer and calculates the UDP
 
 **Ameba Side**
 
-- Open the example in "File" -> "Examples" -> "WiFi" -> "UDP_Calculation" -> "UDP_CalculateSendDelay".
+- Open the example in :guilabel:`File -> Examples -> WiFi -> UDP_Calculation -> UDP_CalculateSendDelay`
 
 - Modify the ssid, password and key index (optional). Compile and upload the code from the Arduino IDE to Ameba and press the reset button when the upload is complete. Ameba should connect to the same network as the computer.
 

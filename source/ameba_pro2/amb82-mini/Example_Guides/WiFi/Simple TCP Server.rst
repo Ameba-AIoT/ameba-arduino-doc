@@ -15,9 +15,9 @@ Example
 In this example, we first connect Ameba to WiFi, then we use Ameba as
 server to communicate with client.
 
-First, we make sure the correct Ameba development board is set in "Tools" -> "Board"
+First, we make sure the correct Ameba development board is set in :guilabel:`Tools -> Board`
 
-Then, open the Simple WiFi Server example in "File" -> "Examples" -> "WiFi" -> "SimpleTCPServer":
+Then, open the Simple WiFi Server example in :guilabel:`File -> Examples -> WiFi -> SimpleTCPServer`
 
 |image01|
 
@@ -34,7 +34,9 @@ monitor.
 
 Next, we use the socket tool in the laptop to be the client and connect
 to the IP address of the Ameba board shown in the connection information
-at port 5000. (Note: The socket tool we used in this example is "sokit")
+at port 5000.
+
+.. note:: The socket tool we used in this example is "sokit".
 
 |image04|
 
