@@ -15,7 +15,7 @@ This example uses Ameba to receive UDP packets from a computer and calculates th
 
 **Ameba Side**
 
-- Open the example in "File" -> "Examples" -> "WiFi" -> "UDP_Calculation" -> "UDP_CalculateReceiveTimeout".
+- Open the example in :guilabel:`File -> Examples -> WiFi -> UDP_Calculation -> UDP_CalculateReceiveTimeout`
 
 - Modify the ssid, password and key index (optional). Compile and upload the code from the Arduino IDE to Ameba and press the reset button when the upload is complete. Ameba should connect to the same network as the computer.
 

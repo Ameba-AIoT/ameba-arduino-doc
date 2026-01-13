@@ -8,7 +8,7 @@ Materials
 Example
 -------
 
-In this example, we use an NTP client to sync with NTP servers using UDP and keep track of time locally.Open the example. "File" -> "Examples" -> "NTPClient" -> "Advanced"
+In this example, we use an NTP client to sync with NTP servers using UDP and keep track of time locally.Open the example. :guilabel:`File -> Examples -> NTPClient -> Advanced`
 
 |image01|
 
@@ -24,7 +24,7 @@ Code Reference
 --------------
 
 | Configure NTP client:
-| The NTPClient needs to use a UDP client for communications. A WiFiUDP client is declared and passed to the NTPClient constructor, along with an NTP server address, time zone offset in seconds, and update interval in milliseconds. If detailed configuration is not needed, just passing in the UDP client is also sufficient, refer to the "NTPClient" -> "Basic" example.
+| The NTPClient needs to use a UDP client for communications. A WiFiUDP client is declared and passed to the NTPClient constructor, along with an NTP server address, time zone offset in seconds, and update interval in milliseconds. If detailed configuration is not needed, just passing in the UDP client is also sufficient, refer to the :guilabel:`NTPClient -> Basic` example.
 
 .. code-block:: c++
 
@@ -36,8 +36,8 @@ Code Reference
 
 .. code-block:: c++
 
-  WiFiUDP ntpUDP;
-  timeClient.begin();
+    WiFiUDP ntpUDP;
+    timeClient.begin();
 
 | Get local time:
 | getFormattedTime() is used to format the received UTC time into the local time zone.
@@ -45,8 +45,8 @@ Code Reference
 
 .. code-block:: c++
 
-  timeClient.update();
-  timeClient.getFormattedTime();
+    timeClient.update();
+    timeClient.getFormattedTime();
 
 .. |image01| image:: ../../../../_static/amebapro2/Example_Guides/NTP/Retrieve_Universal_Time_(UTC)_by_NTPClient_library/image01.png
    :width:  904 px

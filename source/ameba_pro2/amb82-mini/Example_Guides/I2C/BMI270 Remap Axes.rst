@@ -23,7 +23,7 @@ Connect the AMB82-mini to I2C_SDA and I2C_SCL of the sensor as shown in the diag
 
 |image01|
 
-Open the example in "File" -> "Examples" -> "AmebaWire" -> "BMI270" -> "RemapAxes".
+Open the example in :guilabel:`File -> Examples -> AmebaWire -> BMI270 -> RemapAxes`
 
 |image02|
 

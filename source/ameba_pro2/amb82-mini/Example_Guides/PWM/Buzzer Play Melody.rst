@@ -24,7 +24,7 @@ In this example, we use PWM to control the buzzer to emit sound with desired ton
 
 |image02|
 
-| Open the example code in "Examples" -> "AmebaAnalog" -> "PWM_BuzzerPlayMelody"
+| Open the example code in :guilabel:`Examples -> AmebaAnalog -> PWM_BuzzerPlayMelody`
 | Compile and upload to Ameba, press the reset button. Then you can hear the buzzer playing music.
 
 Code Reference

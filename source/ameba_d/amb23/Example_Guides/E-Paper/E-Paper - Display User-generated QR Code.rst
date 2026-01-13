@@ -31,13 +31,13 @@ Do note that Display Config should be set to B and Interface Config should be se
 
 |image16|
 
-Download the Eink zip library, AmebaEink.zip, at https://github.com/Ameba-AIoT/ameba-arduino-d/tree/master/Arduino_zip_libraries. Then install the AmebaEink.zip by navigating to "Sketch" -> "Include Library" -> "Add .ZIP Library…".
+Download the Eink zip library, `AmebaEink.zip <https://github.com/Ameba-AIoT/ameba-arduino-d/tree/master/Arduino_zip_libraries>`__ Then install the AmebaEink.zip by navigating to :guilabel:`Sketch -> Include Library -> Add .ZIP Library…`
 
 Eink examples are categorised based on the size and modules of the e-Paper display.
 
 |image22|
 
-Open one of the "EinkDisplayQR" examples. For example, "File" → "Examples" → "AmebaEink" → "EPD_2in9v2" → "EinkDisplayQR":
+Open one of the "EinkDisplayQR" examples. For example, :guilabel:`File -> Examples -> AmebaEink -> EPD_2in9v2 -> EinkDisplayQR`
 
 |image23|
 

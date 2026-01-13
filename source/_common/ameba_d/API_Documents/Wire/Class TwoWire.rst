@@ -276,7 +276,7 @@ This function returns 0 if successful, else returns 1 indicating error.
 
 Example: `MasterWriter <https://github.com/ambiot/ambd_arduino/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterWriter/MasterWriter.ino>`_
 
-.. important :: Originally, ‘endTransmission’ was an f(void) function. It has been modified to take one parameter indicating whether a STOP should be performed on the bus. Calling endTransmission(false) allows a sketch to perform a repeated start.
+.. important :: Originally, 'endTransmission' was an f(void) function. It has been modified to take one parameter indicating whether a STOP should be performed on the bus. Calling endTransmission(false) allows a sketch to perform a repeated start.
 
 .. caution :: WARNING: Nothing in the library keeps track of whether the bus tenure has been properly ended with a STOP. It is very possible to leave the bus in a hung state if no call to endTransmission(true) is made. Some I2C devices will behave oddly if they do not see a STOP.
 

@@ -50,7 +50,7 @@ less features:
 
 -  iOS : https://apps.apple.com/us/app/lightblue/id557428110
 
-Open the example, "Files" -> "Examples" -> "AmebaBLE" -> "BLEBeacon"
+Open the example, :guilabel:`Files -> Examples -> AmebaBLE -> BLEBeacon`
 
 |image01|
 

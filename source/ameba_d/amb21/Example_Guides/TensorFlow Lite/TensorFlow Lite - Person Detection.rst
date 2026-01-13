@@ -28,7 +28,7 @@ Connect the camera and LEDs to the Ameba board according to the diagram below.
    //#define LOAD_SD_LIBRARY // Default SD Card library
    //#define LOAD_SDFAT_LIBRARY // Use SdFat library instead, so SD Card SPI can be bit bashed
 
-Open the example, "Files" → "Examples" → "AmebaTensorFlowLite" → "person_detection".
+Open the example, "Files -> Examples -> AmebaTensorFlowLite -> person_detection`
 
 |image08|
 

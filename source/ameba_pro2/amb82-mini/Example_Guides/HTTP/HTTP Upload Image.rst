@@ -19,7 +19,7 @@ Download "http-image-server" package from 'Ameba_misc' folder.
 
 Unzip "http-image-server" and run "docker compose up --build" command.
 
-Open "File" -> "Examples" -> "AmebaHTTP" -> "HttpUploadImage".
+Open :guilabel:`File -> Examples -> AmebaHTTP -> HttpUploadImage`
 
 |image01|
 

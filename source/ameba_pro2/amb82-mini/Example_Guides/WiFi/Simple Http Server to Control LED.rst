@@ -13,7 +13,7 @@ In this example, we connect Ameba to WiFi and use Ameba as server, the
 user can control the LED on/off through a webpage. The on-board LED will
 be used for this example.
 
-Then open "File" -> "Examples" -> "WiFi" -> "SimpleHttpWeb" -> "ControlLED"
+Then open :guilabel:`File -> Examples -> WiFi -> SimpleHttpWeb -> ControlLED`
 
 |image01|
 

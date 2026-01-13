@@ -41,7 +41,7 @@ available at:
 -  Apple App Store:
    https://apps.apple.com/us/app/bluefruit-connect/id830125974
 
-Open the example, "Files" -> "Examples" -> "AmebaBLE" -> "PWM_over_BLEUart".
+Open the example, :guilabel:`Files -> Examples -> AmebaBLE -> PWM_over_BLEUart`
 
 Upload the code and press the reset button on Ameba once the upload is
 finished.

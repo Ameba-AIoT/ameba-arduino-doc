@@ -16,7 +16,7 @@ calculates the UDP receive delay.
 
 **Ameba Side**
 
--  Open the example in "File" -> "Examples" -> "WiFi" -> "UDPCalculation" -> "ReceiveDelay".
+-  Open the example in :guilabel:`File -> Examples -> WiFi -> UDPCalculation -> ReceiveDelay`
 
 -  Modify the ssid, password and key index (optional). Compile and
    upload the code from the Arduino IDE to Ameba and press the reset

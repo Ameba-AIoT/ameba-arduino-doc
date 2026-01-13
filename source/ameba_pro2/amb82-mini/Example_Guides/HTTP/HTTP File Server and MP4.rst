@@ -13,7 +13,7 @@ Example
 
 In this example, we will use AmebaPro2 development board to establish a file server for mp4 recordings access.
 
-Open "File" -> "Examples" -> "AmebaHttp" -> "Http_fs_mp4".
+Open :guilabel:`File -> Examples -> AmebaHttp -> Http_fs_mp4`
 
 |image01|
 

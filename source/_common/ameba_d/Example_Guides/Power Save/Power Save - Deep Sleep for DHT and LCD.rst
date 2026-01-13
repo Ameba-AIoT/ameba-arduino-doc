@@ -100,7 +100,7 @@ There are 2 versions of DHT sensor, one with 4 pins and another one with 3 pins 
 
 .. only:: end aw-cu488
 
-Open "File" -> "Examples" -> "AmebaPowerSave" -> "DeepSleep_DHT_LCD_Example"
+Open :guilabel:`File -> Examples -> AmebaPowerSave -> DeepSleep_DHT_LCD_Example`
 
 |image15|
 

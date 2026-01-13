@@ -78,7 +78,7 @@ Connect the buzzer to the PWM output pin shown in the following diagrams.
 
 .. only:: end amb26
 
-Open the example code in ``"Examples" → "AmebaAnalog" → "TonePlayMelody"``
+Open the example code in :guilabel:`Examples -> AmebaAnalog -> TonePlayMelody`
 Compile and upload to Ameba, press the reset button. Then you can hear the buzzer playing music.
 
 Code Reference

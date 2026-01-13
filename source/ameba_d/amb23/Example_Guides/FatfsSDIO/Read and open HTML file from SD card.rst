@@ -10,12 +10,12 @@ Materials
 Example
 -------
 
-Insert the MicroSD card into your computer and copy the HTML file to your SD card (Note: put the file at outside and do not put it inside of any folder in the SD card). Here is a HTML sample for testing, `Web_test.html <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Ameba_misc/Example_Samples/Web_test.html>`_.
+Insert the MicroSD card into your computer and copy the HTML file to your SD card (Note: put the file at outside and do not put it inside of any folder in the SD card). Here is a HTML sample for testing, `Web_test.html <https://github.com/Ameba-AIoT/ameba-arduino-d/blob/dev/Ameba_misc/Example_Samples/Web_test.html>`__
 
 |image01|
 
 | Then insert the MicroSD card into the onboard SD card reader of RTL8722DM MINI board.
-| Open the example, "Files" -> "Examples" -> "AmebaFatfsSDIO" -> "read_html_from_SD_card"
+| Open the example, :guilabel:`Files -> Examples -> AmebaFatfsSDIO -> read_html_from_SD_card`
 | Upload the code and press the reset button on Ameba once the upload is finished. When the connection is established, you should be able to see the message "To see this page in action, open a browser to http://xxx.xxx.xxx.xxx" in the serial monitor as shown in the figure:
 
 |image02|

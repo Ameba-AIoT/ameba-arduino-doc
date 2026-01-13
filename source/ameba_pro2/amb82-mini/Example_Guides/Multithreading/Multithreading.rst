@@ -11,7 +11,7 @@ Example
 
 This example illustrates the implementation of multithreading on AmebaPro2.
 
-Open "File" -> "Examples" -> "AmebaMultithreading" -> "Multithreading".
+Open :guilabel:`File -> Examples -> AmebaMultithreading -> Multithreading`
 
 |image01|
 

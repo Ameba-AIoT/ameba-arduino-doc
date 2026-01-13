@@ -16,12 +16,7 @@ Example
 Introduction
 ------------
 
-In this example, Ameba Pro2 board will be used to connect to a Waveshare
-e-Paper module (2.9inch/ 4.2inch/ 7.5inch) to display texts. The display
-uses the flexible substrate as base plate, with an interface and a
-reference system design. You may refer to the
-official `datasheet <https://www.waveshare.net/w/upload/b/b5/2.9inch_e-Paper_(D)_Specification.pdf>`__ to
-know more information about these modules.
+In this example, Ameba Pro2 board will be used to connect to a Waveshare e-Paper module (2.9inch/ 4.2inch/ 7.5inch) to display texts. The display uses the flexible substrate as base plate, with an interface and a reference system design. You may refer to the official `datasheet <https://www.waveshare.net/w/upload/b/b5/2.9inch_e-Paper_(D)_Specification.pdf>`__ to know more information about these modules.
 
 Procedure
 ---------
@@ -42,23 +37,19 @@ Procedure
 
 7.5-inch e-Paper Module
 
-Do note that Display Config should be set to B and Interface Config
-should be set to 0.
+Do note that Display Config should be set to B and Interface Config should be set to 0.
 
 |image04|
 
-Next, download the Eink zip library, AmebaEink.zip,
-at `https://github.com/ambiot/ambpro2_arduino/tree/dev/Arduino_zip_libraries <https://github.com/ambiot/ambpro2_arduino/tree/dev/Arduino_zip_libraries>`_
-Then install the AmebaEink.zip by navigating to "Sketch" -> "Include
-Library" -> "Add .ZIP Library…".
+Download the Eink zip library `AmebaEink.zip <https://github.com/Ameba-AIoT/ameba-arduino-pro2/tree/dev/Arduino_zip_libraries>`__
+Then install the AmebaEink.zip by navigating to :guilabel:`Sketch -> Include Library -> Add .ZIP Library…`
 
 Eink examples are categorised based on the size and modules of the
 e-Paper display.
 
 |image05|
 
-Open one of the "EinkDisplayText" examples. For example, "File" →
-"Examples" → "AmebaEink" → "EPD_2in9v2"-> "EinkDisplayText":
+Open one of the "EinkDisplayText" examples. For example, :guilabel:`File -> Examples -> AmebaEink -> EPD_2in9v2 -> EinkDisplayText`
 
 |image06|
 

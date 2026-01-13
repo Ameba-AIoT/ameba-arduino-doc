@@ -25,7 +25,7 @@ GenAIVideo
 
 In this example, we will be using Ameba Pro2 development board to record and send video + audio recording to LLM server for analysis.
 
-Open Generative AI Video example in "File" -> "Examples" -> "AmebaNN" -> "MultimediaAI" -> "GenAIVideo".
+Open Generative AI Video example in :guilabel:`File -> Examples -> AmebaNN -> MultimediaAI -> GenAIVideo`
 
 Fill in the "ssid" with your WiFi network SSID and "pass" with the network password.
 

@@ -113,23 +113,23 @@ and the Arduino basic examples can run on AMB21/AMB22 too.
 
 Arduino IDE can be downloaded in the Arduino website: https://www.arduino.cc/en/Main/Software
 
-When the installation is finished, open Arduino IDE. To set up AMB21/AMB22 correctly in Arduino IDE, go to :guilabel:`"File" -> "Preferences"`.
+When the installation is finished, open Arduino IDE. To set up AMB21/AMB22 correctly in Arduino IDE, go to guilabel:`File -> Preferences`
 
 |image05|
 
-And paste the following URL into :guilabel:`"Additional Boards Manager URLs"` field::
+And paste the following URL into :guilabel:`Additional Boards Manager URLs` field::
 
    https://github.com/ambiot/ambd_arduino/raw/master/Arduino_package/package_realtek.com_amebad_index.json
 
-Next, go to :guilabel:`"Tools" -> "Board" -> "Boards Manager"`:
+Next, go to :guilabel:`Tools -> Board -> Boards Manager`
 
 |image06|
 
-The :guilabel:`"Boards Manager"` requires about 10~20 seconds to refresh all
+The :guilabel:`Boards Manager` requires about 10~20 seconds to refresh all
 hardware files (if the network is in bad condition, it may take longer).
 Every time the new hardware is connected, we need to reopen the Board
 Manager. So, we close the Boards Manager, and then open it again. Find
-**Realtek Ameba Boards** in the list, click :guilabel:`"Install"`, then the Arduino IDE
+**Realtek Ameba Boards** in the list, click :guilabel:`Install`, then the Arduino IDE
 starts to download required files.
 
 |image07|
@@ -147,12 +147,12 @@ There are "Install.doc"/"Install.pdf" for you to refer installation steps. Accor
 please run the installation tool in the "Offline_SDK_installation_tool" folder.
 
 After the installation tool running successfully, you may open Arduino
-IDE and proceed to :guilabel:`"Tools" -> "Board" -> "Boards Manager…"`. Try to find
+IDE and proceed to :guilabel:`Tools -> Board -> Boards Manager…` Try to find
 **Realtek Ameba Boards** in the list,
-click :guilabel:`"Install"`, then the Arduino IDE starts to download required files
+click :guilabel:`Install` then the Arduino IDE starts to download required files
 for AMB21/AMB22.
 
-Finally, we select board in "tools" -> "Board" -> "Ameba ARM (32-bits) Boards" -> "AMB21/AMB22 (RTL8722DM/CSM)"
+Finally, we select board in :guilabel:`tools -> Board -> Ameba ARM (32-bits) Boards -> AMB21/AMB22 (RTL8722DM/CSM)`
 
 |image08|
 
@@ -164,14 +164,13 @@ Step 1. Compile & Upload
 
 Arduino IDE provides many built-in examples, which can be compiled,
 uploaded and run directly on the boards. Here, we take the "Blink" example as the first try.
-Open :guilabel:`"File" -> "Examples" -> "01.Basics" -> "Blink"`:
+Open :guilabel:`File -> Examples -> 01.Basics -> Blink`
 
-|image09|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     %
+|image09|
 
 Arduino IDE opens a new window with the complete sample code.
 
-Next, we compile the sample code directly; click
-:guilabel:`"Sketch" -> "Verify/Compile"`
+Next, we compile the sample code directly, click :guilabel:`Sketch -> Verify/Compile`
 
 |image10|
 
@@ -181,7 +180,7 @@ Arduino IDE prints the compiling messages in the bottom area of the IDE window. 
 
 Afterwards, we will upload the compiled code to board.
 
-Please make sure board is connected to computer, then click "Sketch" -> "Upload".
+Please make sure board is connected to computer, then click :guilabel:`Sketch -> Upload`
 
 The Arduino IDE will compile first then upload. Users are required to enter the upload mode of the board.
 To enter upload mode, first press and hold the UART_DOWNLOAD button, then press and release the RESET button,

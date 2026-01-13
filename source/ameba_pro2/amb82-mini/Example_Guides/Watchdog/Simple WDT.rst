@@ -24,7 +24,7 @@ In layman terms, imagine in the situation while your micro-controller is confuse
 Feed the Dog
 ^^^^^^^^^^^^
 
-If you have a dog in your home. You need to feed that dog at a regular interval. if you can’t feed one day, it will bite you! And likewise, this is the working logic behind the watchdog timer.
+If you have a dog in your home. You need to feed that dog at a regular interval. if you can't feed one day, it will bite you! And likewise, this is the working logic behind the watchdog timer.
 
 |image01|
 
@@ -35,7 +35,7 @@ For the successful case, the watchdog is being refreshed/feed within 5 seconds, 
 Procedure
 ~~~~~~~~~
 
-Connect the board, then open the example from Arduino IDE, "File" -> "Examples" -> "AmebaWatchdog" -> "SimpleWDT".
+Connect the board, then open the example from Arduino IDE, :guilabel:`File -> Examples -> AmebaWatchdog -> SimpleWDT`
 
 |image02|
 

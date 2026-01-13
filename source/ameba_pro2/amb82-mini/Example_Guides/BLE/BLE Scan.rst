@@ -21,7 +21,7 @@ out the results to the serial monitor.
 Procedure
 ~~~~~~~~~
 
-Open the example, "Files" -> "Examples" -> "AmebaBLE" -> "BLEScan"
+Open the example, :guilabel:`Files -> Examples -> AmebaBLE -> BLEScan`
 
 |image01|
 

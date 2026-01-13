@@ -35,8 +35,7 @@ subscriber.
 
 **MQTT_Image example**
 
-Open the MQTT example "File" -> "Examples" -> "AmebaMQTTClient" ->
-"MQTT_Image"
+Open the MQTT example :guilabel:`File -> Examples -> AmebaMQTTClient -> MQTT_Image`
 
 Please modify WiFi SSID and password according to your network.
 

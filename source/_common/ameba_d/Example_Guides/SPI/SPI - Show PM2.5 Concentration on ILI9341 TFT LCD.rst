@@ -15,7 +15,7 @@ Materials
 
 This example extends previous PM2.5 example to show the PM2.5 concentration on the LCD.
 
-**QVGA 2.2″ TFT LCD Wiring Diagrams**
+**QVGA 2.2" TFT LCD Wiring Diagrams**
 
 .. only:: amb21
 
@@ -59,7 +59,7 @@ This example extends previous PM2.5 example to show the PM2.5 concentration on t
 
 .. only:: end aw-cu488
 
-**Adafruit 2.8″ TFT LCD touch shield Wiring Diagrams**
+**Adafruit 2.8" TFT LCD touch shield Wiring Diagrams**
 
 .. only:: amb21
 
@@ -103,7 +103,7 @@ This example extends previous PM2.5 example to show the PM2.5 concentration on t
 
 .. only:: end aw-cu488
 
-Open the example, "Files" → "Examples" → "AmebaSPI" → "ILI9341_TFT_LCD_PM2.5"
+Open the example, :guilabel:`Files -> Examples -> AmebaSPI -> ILI9341_TFT_LCD_PM2.5`
 
 |image15|
 

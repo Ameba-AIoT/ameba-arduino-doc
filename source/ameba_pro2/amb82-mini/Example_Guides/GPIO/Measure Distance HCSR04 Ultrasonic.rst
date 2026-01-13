@@ -13,13 +13,13 @@ Materials
 Example
 -------
 
-| HC-SR04 is a module that uses ultrasound to measure the distance. It looks like a pair of eyes in its appearance, therefore it’s often installed onto robot-vehicle or mechanical bugs to be their eyes.
+| HC-SR04 is a module that uses ultrasound to measure the distance. It looks like a pair of eyes in its appearance, therefore it's often installed onto robot-vehicle or mechanical bugs to be their eyes.
 | The way it works is that first we "toggle high" the TRIG pin (that is to pull high then pull low). The HC-SR04 would send eight 40kHz sound wave signal and pull high the ECHO pin. When the sound wave returns, it pull low the ECHO pin.
 
 |image01|
 
-| Assume the velocity of sound is 340 m/s, the time it takes for the sound to advance 1 cm in the air is 340*100*10^-6 = 29 us。
-| The sound wave travels twice the distance between HC-SR04 and the object, therefore the distance can be calculated by (time/29) / 2 = time / 58。
+| Assume the velocity of sound is 340 m/s, the time it takes for the sound to advance 1 cm in the air is 340*100*10^-6 = 29 us.
+| The sound wave travels twice the distance between HC-SR04 and the object, therefore the distance can be calculated by (time/29) / 2 = time / 58.
 | The working voltage of HC-SR04 is 5V. When we pull high the ECHO pin to 5V, the voltage might cause damage to the GPIO pin of Ameba. To avoid this situation, we need to drop the voltage as follows:
 
 **AMB82 MINI** Wiring Diagram:
@@ -33,7 +33,7 @@ Example
 
 |image03|
 
-Next, open the sample code in "File" -> "Examples" -> "AmebaGPIO" -> "HCSR04_Ultrasonic"
+Next, open the sample code in :guilabel:`File -> Examples -> AmebaGPIO -> HCSR04_Ultrasonic`
 
 |image04|
 

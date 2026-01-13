@@ -11,7 +11,7 @@ Example
 
 In this example, we will be connecting AMB82-mini to a MQTT-Broker that could display images, i.e. broker.mqttgo.io.
 
-Open Generative AI Vision with MQTT example in "File" -> "Examples" -> "AmebaMQTTClient" -> "MQTT_GenAIVision".
+Open Generative AI Vision with MQTT example in :guilabel:`File -> Examples -> AmebaMQTTClient -> MQTT_GenAIVision`
 
 |image01|
 

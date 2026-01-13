@@ -13,7 +13,7 @@ Example
 
 In this example, the RTL8722 board emulates a HID gamepad connected using USB.
 
-Open the example, "Files" -> "Examples" -> "AmebaUSB" -> "USBHIDGamepad".
+Open the example, :guilabel:`Files -> Examples -> AmebaUSB -> USBHIDGamepad`
 
 |image01|
 
@@ -27,7 +27,7 @@ To view the input, open a browser window and go to https://gamepad-tester.com/. 
 
 |image02|
 
-On Windows, gamepad input can also be viewed by going to "Control Panel" -> "Devices and Printers" -> "Realtek USB HID" -> "Game Controller Settings" -> "Properties". The buttons and axes should also show changing values here.
+On Windows, gamepad input can also be viewed by going to :guilabel:`Control Panel -> Devices and Printers -> Realtek USB HID -> Game Controller Settings -> Properties` The buttons and axes should also show changing values here.
 
 |image03|
 

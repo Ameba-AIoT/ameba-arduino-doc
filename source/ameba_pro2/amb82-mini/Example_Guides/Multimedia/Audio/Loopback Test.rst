@@ -21,7 +21,7 @@ Alternatively, connect the audio jack and PDM Microphone as shown in the diagram
 
 |image02|
 
-Open one of the Audio examples in "File" -> "Examples" -> "AmebaMultimedia" -> "Audio" -> "LoopbackTest".
+Open one of the Audio examples in :guilabel:`File -> Examples -> AmebaMultimedia -> Audio -> LoopbackTest`
 
 |image03|
 

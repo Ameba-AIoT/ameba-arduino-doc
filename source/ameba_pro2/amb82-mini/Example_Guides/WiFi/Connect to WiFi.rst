@@ -22,7 +22,7 @@ There are 4 encryption types of WiFi connection in this guide.
 
 - "WPA2-EAP", which IA a Wi-Fi WPA2-EAP connection (also known as WPA2-Enterprise) is a secure wireless network authentication method typically used in organizations, universities, and enterprises. Instead of a shared password, it uses the Extensible Authentication Protocol (EAP) to authenticate users individually through a RADIUS server. Each user logs in with a unique username and password (or digital certificate), ensuring stronger security and better access control compared to personal WPA2 networks. TLS, PEAP, and TTLS are different EAP (Extensible Authentication Protocol) methods used in WPA2-Enterprise Wi-Fi connections to securely authenticate users.
 
-    - EAP-TLS (Transport Layer Security): Uses digital certificates on both the server and client sides for mutual authentication. It’s highly secure but requires certificate management.
+    - EAP-TLS (Transport Layer Security): Uses digital certificates on both the server and client sides for mutual authentication. It's highly secure but requires certificate management.
 
     - PEAP (Protected EAP): Creates a TLS-encrypted tunnel between the client and the authentication server, then sends user credentials (like username/password) inside the tunnel. Commonly used with MSCHAPv2 for password-based logins.
 
@@ -30,13 +30,12 @@ There are 4 encryption types of WiFi connection in this guide.
 
 In the following, we will give a brief introduction on how to establish WiFi connection with all above types of encryptions on Ameba.
 
-First, make sure the correct Ameba development board is selected in
-"Tools" -> "Board".
+First, make sure the correct Ameba development board is selected in :guilabel:`Tools -> Board`
 
 Open (WiFi connection without password)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Open example in "File" -> "Examples" -> "WiFi" -> "ConnectToWiFi" -> "NoEncryption"
+Open example in :guilabel:`File -> Examples -> WiFi -> ConnectToWiFi -> NoEncryption`
 
 |image01|
 
@@ -53,8 +52,7 @@ every 10 seconds.
 WiFi connection with WPA encryption
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Open example in "File" -> "Examples" -> "WiFi" -> "ConnectToWiFi" ->
-"WPA_Security"
+Open example in :guilabel:`File -> Examples -> WiFi -> ConnectToWiFi -> WPA_Security`
 
 |image03|
 
@@ -84,8 +82,7 @@ serial monitor every 10 seconds.
 WiFi connection with WEP encryption
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Open example in "File" -> "Examples" -> "WiFi" -> "ConnectToWiFi" ->
-"WEP_Security"
+Open example in :guilabel:`File -> Examples -> WiFi -> ConnectToWiFi -> WEP_Security`
 
 |image06|
 
@@ -119,7 +116,7 @@ This example requires setting up both the server and the Wi-Fi network for WPA2-
 
 .. note :: This example only demonstrates how to use credentials to connect to a WPA2-EAP network. It does not cover setting up the EAP server or configuring the network
 
-Open example in "File" -> "Examples" -> "WiFi" -> "ConnectToWiFi" -> "WPA2_Enterprise"
+Open example in :guilabel:`File -> Examples -> WiFi -> ConnectToWiFi -> WPA2_Enterprise`
 
 In the sample code,
 

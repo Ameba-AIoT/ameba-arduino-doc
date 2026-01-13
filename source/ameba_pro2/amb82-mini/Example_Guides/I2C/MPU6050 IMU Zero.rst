@@ -23,7 +23,7 @@ Connect the MPU6050 to I2C_SDA and I2C_SCL of the board as shown in the diagram 
 
 |image01|
 
-Open the example in "File" -> "Examples" -> "AmebaWire" -> "MPU6050"-> "MPU6050_IMU_Zero"
+Open the example in :guilabel:`File -> Examples -> AmebaWire -> MPU6050 -> MPU6050_IMU_Zero`
 
 |image02|
 

@@ -13,7 +13,7 @@ Example
 
 In this example, the RTL8722 board emulates a HID mouse connected using USB.
 
-Open the example, "Files" -> "Examples" -> "AmebaUSB" -> "USBHIDMouse".
+Open the example, :guilabel:`Files -> Examples -> AmebaUSB -> USBHIDMouse`
 
 |image01|
 

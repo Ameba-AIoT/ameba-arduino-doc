@@ -99,7 +99,7 @@ Take note that if you are using a DHT sensor that is not mounted on a PCB, you w
 
 .. only:: end amb26
 
-Open the sample code in ``"Files" → "Examples" → "AmebaGPIO" → "DHT_Tester"``. Compile and upload to Ameba, then press the reset button. The result would be shown on the Serial Monitor.
+Open the sample code in :guilabel:`Files -> Examples -> AmebaGPIO -> DHT_Tester` Compile and upload to Ameba, then press the reset button. The result would be shown on the Serial Monitor.
 
 |image11|
 

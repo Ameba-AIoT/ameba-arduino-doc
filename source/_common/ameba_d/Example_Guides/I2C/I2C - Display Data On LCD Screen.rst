@@ -78,7 +78,7 @@ An LCD display can be equipped with an additional processing chip to process the
 
 .. only:: end amb26
 
-Open the example in ``"File" → "Examples" → "AmebaWire" → "LCD_HelloWorld"``.
+Open the example in :guilabel:`File -> Examples -> AmebaWire -> LCD_HelloWorld`
 Compile and upload to Ameba, then press the reset button.
 Then you can see "Hello World" in the first line, and "Ameba" in the
 second line displayed on the LCD screen.
@@ -108,7 +108,7 @@ And the setting parameters are as follows:
 
 .. code-block:: c++
 
-  LiquidCrystal_I2C lcd(0x27, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE); // Set the LCD I2C address
+    LiquidCrystal_I2C lcd(0x27, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE); // Set the LCD I2C address
 
 The first parameter 0x27 is the address of I2C. Each of the following 8 parameters represents the meaning of each bit in a byte, i.e., En is bit 2, Rw is bit 1, Rs is bit 0, d4 is bit 4, and so forth.
 

@@ -18,7 +18,7 @@ FreeRTOS uses a memory heap for dynamic memory allocation and creating threads. 
 
 Step 1. Open Example
 
-Open the example: ``"Files" → "Examples" → "AmebaSys" → "MemInfo"``
+Open the example: :guilabel:`Files -> Examples -> AmebaSys -> MemInfo`
 
 |image01|
 

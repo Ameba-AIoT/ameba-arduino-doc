@@ -17,7 +17,7 @@ Connect the microphone to the RTL8722 board following the diagram.
 
 As RTL8722DM MINI have a built in microphone on the board, there is no need for any external microphone.
 
-Next, Open the example, "Files" -> "Examples" -> "AmebaAudioCodec" -> "InputFFT".
+Next, Open the example, :guilabel:`Files -> Examples -> AmebaAudioCodec -> InputFFT`
 
 |image03|
 

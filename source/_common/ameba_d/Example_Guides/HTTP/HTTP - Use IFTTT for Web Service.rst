@@ -18,9 +18,7 @@ Materials
 
 |image01|
 
-.. Note::
-    Upon log in, there are several cloud and online services that
-    are integrated with IFTTT platforms.
+.. note:: Upon log in, there are several cloud and online services that are integrated with IFTTT platforms.
 
 Example
 --------
@@ -71,7 +69,7 @@ Under the template of Send me an Email, the contents of the email, such as subje
 
 Once the Applet is ready in the IFTTT dashboard, the example program can be flashed onto the Ameba board to post the HTTP request.
 
-Open the example code in "File" -> "Examples" -> "AmebaHttp" -> "HTTP_IFTTT_Post"
+Open the example code in :guilabel:`File -> Examples -> AmebaHttp -> HTTP_IFTTT_Post`
 
 |image11|
 

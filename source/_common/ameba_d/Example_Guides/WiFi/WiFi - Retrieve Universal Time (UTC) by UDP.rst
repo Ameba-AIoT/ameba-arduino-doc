@@ -11,7 +11,7 @@ Example
 
 In this example, we connect Ameba to WiFi. Then send NTP (Network Time Protocol, RFC 1305) request to NTP server using UDP. After receiving the NTP request, the NTP server replies current UTC (Coordinated Universal Time) packet. We will parse the UTC packet to show current UTC time in the serial monitor.
 
-Open the example. "File" -> "Examples" -> "WiFi" -> "WiFiUdpNtpClient"
+Open the example. :guilabel:`File -> Examples -> WiFi -> WiFiUdpNtpClient`
 
 |image01|
 

@@ -21,7 +21,7 @@ Procedure
 
 Step 1. IPv6UDPServer
 
-Open the example, "Files" → "Examples" → "WiFi" → "IPv6UDPServer".
+Open the example, :guilabel:`Files -> Examples -> WiFi -> IPv6UDPServer`
 
 |image01|
 
@@ -37,7 +37,7 @@ Open Serial Monitor and copy the IPv6 address of the Server for later use,
 
 Step 2. IPv6UDPClient
 
-Now take the second AMB82 Mini and open another example, "Files" → "Examples" → "WiFi" → "IPv6UDPClient".
+Now take the second AMB82 Mini and open another example, :guilabel:`Files -> Examples -> WiFi -> IPv6UDPClient`
 
 |image04|
 

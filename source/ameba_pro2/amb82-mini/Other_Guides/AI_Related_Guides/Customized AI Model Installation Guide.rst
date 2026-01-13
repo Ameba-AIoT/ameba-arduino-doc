@@ -48,9 +48,9 @@ For specific model selection please refer to the example guide and API documents
 Load Neural Network models via SD card
 --------------------------------------
 
-Open one of the Ameba Neural Network examples by navigating to "File" -> "Examples" -> "AmebaNN". Let’s take ObjectDetectionCallback as an example.
+Open one of the Ameba Neural Network examples by navigating to :guilabel:`File -> Examples -> AmebaNN` Let's take ObjectDetectionCallback as an example.
 
-After opening the example on Arduino IDE, navigate to "Tools" -> "NN Model Load from:" and select SD card as the option.
+After opening the example on Arduino IDE, navigate to :guilabel:`Tools -> NN Model Load from:` and select SD card as the option.
 
 |image01|
 

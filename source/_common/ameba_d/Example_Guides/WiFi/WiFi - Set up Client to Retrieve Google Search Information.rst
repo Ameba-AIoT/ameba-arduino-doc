@@ -12,9 +12,9 @@ Example
 --------
 
 In this example, we use Ameba to be a web client to retrieve information from the Internet.
-First, make sure the correct Ameba development board is selected in "Tools" -> "Board"
+First, make sure the correct Ameba development board is selected in :guilabel:`Tools -> Board`
 
-Then open "File" -> "Examples" -> "WiFi" -> "WiFiWebClient"
+Then open :guilabel:`File -> Examples -> WiFi -> WiFiWebClient`
 
 |image01|
 

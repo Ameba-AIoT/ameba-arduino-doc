@@ -13,7 +13,7 @@ Example
 
 In this example, we will be using Ameba Pro2 development board to demonstrate audio time and date report using NTP Client and Google Translate API.
 
-Open Text-to-Speech NTP example in "File" -> "Examples" -> "AmebaNN" -> "MultimediaAI" -> "Text-to-SpeechNTP".
+Open Text-to-Speech NTP example in :guilabel:`File -> Examples -> AmebaNN -> MultimediaAI -> Text-to-SpeechNTP`
 
 |image01|
 

@@ -21,7 +21,7 @@ In this example, we use a button to trigger interrupt and control the LED. When 
 Procedure
 ~~~~~~~~~
 
-Open the example, ``"Files" → "Examples" → "AmebaGPIO" → "LED_InterruptCtrl"``
+Open the example, :guilabel:`Files -> Examples -> AmebaGPIO -> LED_InterruptCtrl`
 
 .. only:: amb21
 

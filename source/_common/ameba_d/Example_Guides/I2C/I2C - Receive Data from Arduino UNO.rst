@@ -60,23 +60,23 @@ In the previous example `"I2C - Communicate with Arduino UNO via I2C" <https://a
 
 **Setting up Arduino Uno to be I2C Slave**
 
-First, select Arduino in the Arduino IDE in ``"Tools" → "Board" → "Arduino Uno"``:
+First, select Arduino in the Arduino IDE in :guilabel:`Tools -> Board -> Arduino Uno`
 
-Open ``"Examples" → "Wire" → "slave_sender"``
+Open :guilabel:`Examples -> Wire -> slave_sender`
 
 |image01|
 
-Then click "Sketch" → "Upload" to compile and upload the example to Arduino Uno.
+Then click :guilabel:`Sketch -> Upload` to compile and upload the example to Arduino Uno.
 
 **Setting up Ameba to be I2C Master**
 
-Next, open another window of Arduino IDE, make sure to choose your Ameba development board in the IDE: "Tools" → "Board"
+Next, open another window of Arduino IDE, make sure to choose your Ameba development board in the IDE: :guilabel:`Tools -> Board`
 
-Open ``"File" → "Examples" → "AmebaWire" → "MasterReader"``
+Open :guilabel:`File -> Examples -> AmebaWire -> MasterReader`
 
 |image02|
 
-Click "Sketch" → "Upload" to compile and upload the example to Ameba.
+Click :guilabel:`Sketch -> Upload` to compile and upload the example to Ameba.
 
 **Wiring**
 
@@ -140,18 +140,18 @@ Another important thing is that the GND pins of Arduino and Ameba should be conn
 .. only:: end amb26
 
 Next, we will observe the data received by Ameba in the Serial Monitor.
+
 .. note :: If you do not know which port the Ameba development board is connected to, please find it in the Device Manager of Windows first. Ameba is connected as "mbed Serial Port". For example, if you find mbed Serial Port (COM15), that means Ameba is connected to port COM15.
 
 |image10|
 
-We select the port in "Tools" → "Port" → "COM15" (the port connected to Ameba)
-Open the Arduino IDE window of the Ameba, go to "Tools" → "Serial
-Monitor" to display the messages printed by Ameba.
-Press the reset button on Arduino Uno, Arduino Uno now waits for
-connection from I2C master.
-Then press the reset button on Ameba, Ameba will start to receive
-messages from Arduino Uno. And you can see the "hello " message
-printed every half second in serial monitor.
+We select the port in :guilabel:`Tools -> Port -> COM15`
+
+Open the Arduino IDE window of the Ameba, go to :guilabel:`Tools -> Serial Monitor` to display the messages printed by Ameba.
+
+Press the reset button on Arduino Uno, Arduino Uno now waits for connection from I2C master.
+
+Then press the reset button on Ameba, Ameba will start to receive messages from Arduino Uno. And you can see the "hello " message printed every half second in serial monitor.
 
 .. note :: If the message does not show in the Serial Monitor of Ameba, please close and open the serial monitor again.
 

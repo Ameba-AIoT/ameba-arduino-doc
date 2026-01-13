@@ -1,7 +1,7 @@
 Class PubSubClient
 ==================
 
-.. note :: The Ameba MQTT related APIs and examples are works based on the PubSubClient libraries written by Nicholas O’Leary (http://pubsubclient.knolleary.net).
+.. note :: The Ameba MQTT related APIs and examples are works based on the PubSubClient libraries written by Nicholas O'Leary (http://pubsubclient.knolleary.net).
 
 .. note :: These include, PubSubClient.cpp and PubSubClient.h
 

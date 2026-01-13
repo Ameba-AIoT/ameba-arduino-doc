@@ -21,7 +21,7 @@ If Ameba OTA Web UI is set up successfully in your PC, you will see the webpage 
 
 |image01|
 
-To begin, open the OTA example in Arduino IDE. "File" -> "Examples" -> "AmebaOTA" -> "OTA_Http".
+To begin, open the OTA example in Arduino IDE. :guilabel:`File -> Examples -> AmebaOTA -> OTA_Http`
 
 |image02|
 
@@ -54,7 +54,7 @@ For the steps below, you may disconnect AmebaD from your PC and power up the boa
 
 |image07|
 
-In this tutorial, we will be uploading a NTPClient sketch via OTA.  Open the NTPClient example. "File" -> "Examples" -> "NTPClient" -> "Basic". Include the header file ``OTA.h`` and at the end of setup function, add in the API ``start_OTA_threads();``. Also modify the SSID and password according to your AP. Your PC and AMB82 Mini should be connecting to the same local network. Refer to the picture below for the modified NTPClient sketch.
+In this tutorial, we will be uploading a NTPClient sketch via OTA.  Open the NTPClient example. :guilabel:`File -> Examples -> NTPClient -> Basic` Include the header file ``OTA.h`` and at the end of setup function, add in the API ``start_OTA_threads();``. Also modify the SSID and password according to your AP. Your PC and AMB82 Mini should be connecting to the same local network. Refer to the picture below for the modified NTPClient sketch.
 
 |image08|
 

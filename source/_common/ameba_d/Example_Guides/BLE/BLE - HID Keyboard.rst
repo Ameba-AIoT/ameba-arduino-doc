@@ -19,7 +19,7 @@ In this example, the RTL8722 board emulates a HID keyboard connected using BLE.
 Procedure
 ~~~~~~~~~
 
-Open the example, ``"Files" -> "Examples" -> "AmebaBLE" -> BLEHIDKeyboard``.
+Open the example, :guilabel:`Files -> Examples -> AmebaBLE -> BLEHIDKeyboard`
 
 |image01|
 

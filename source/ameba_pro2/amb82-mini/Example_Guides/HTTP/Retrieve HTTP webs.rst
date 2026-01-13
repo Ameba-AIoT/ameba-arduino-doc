@@ -10,9 +10,9 @@ Example
 -------
 
 | In this example, the HttpClient library is used to retrieve a webpage using the HTTP protocol.
-| First, make sure that the correct Ameba development board is selected in "Tools" -> "Board".
+| First, make sure that the correct Ameba development board is selected in :guilabel:`Tools -> Board`
 
-Then open "File" -> "Examples" -> "AmebaHttp" -> "RetrieveHttpWebs".
+Then open :guilabel:`File -> Examples -> AmebaHttp -> RetrieveHttpWebs`
 
 |image01|
 

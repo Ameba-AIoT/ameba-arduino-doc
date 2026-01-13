@@ -55,7 +55,7 @@ The module and board power consumption report under Standby mode are listed in t
 | Gtimer0               | 55.59                 | 4.83                 |
 +-----------------------+-----------------------+----------------------+
 
-Open example in "File" -> "Examples" -> "AmebaPowerMode" -> "RetentionStandbyMode".
+Open example in :guilabel:`File -> Examples -> AmebaPowerMode -> RetentionStandbyMode`
 
 |Image01|
 

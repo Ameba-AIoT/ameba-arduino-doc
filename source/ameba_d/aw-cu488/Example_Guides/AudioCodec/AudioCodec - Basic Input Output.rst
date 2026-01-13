@@ -19,7 +19,7 @@ Connect the potentiometer, microphone and 3.5mm connector to the AW-CU488 Thing 
 
 |image03|
 
-Open the example, "Files" -> "Examples" -> "AmebaAudioCodec" -> "BasicInputOutput".
+Open the example, :guilabel:`Files -> Examples -> AmebaAudioCodec -> BasicInputOutput`
 
 |image04|
 

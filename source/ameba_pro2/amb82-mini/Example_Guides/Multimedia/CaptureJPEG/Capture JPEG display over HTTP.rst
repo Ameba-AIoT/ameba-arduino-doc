@@ -12,9 +12,9 @@ Example
 In this example, we will be using Ameba Pro2 development board to capture a JPEG image and send the image to a browser using HTTP.
 The following examples shows different use cases of capturing JPEG images.
 
-For the "HTTPDisplayJPEG" example, use any browser and key in the IP address of the board in browser’s address bar after the board is connected to the WiFi to view the image.
+For the "HTTPDisplayJPEG" example, use any browser and key in the IP address of the board in browser's address bar after the board is connected to the WiFi to view the image.
 
-Open the example in "File" -> "Examples" -> "AmebaMultimedia" -> "CaptureJPEG" -> "HTTPDisplayJPEG".
+Open the example in :guilabel:`File -> Examples -> AmebaMultimedia -> CaptureJPEG -> HTTPDisplayJPEG`
 
 |image01|
 
@@ -22,7 +22,7 @@ In the highlighted code snippet, fill in the "ssid" with your WiFi network SSID 
 
 |image02|
 
-Compile the code and upload it to Ameba. After pressing the Reset button, wait for the Ameba Pro 2 board to connect to the WiFi network. The board’s IP address will be shown in the Serial Monitor.
+Compile the code and upload it to Ameba. After pressing the Reset button, wait for the Ameba Pro 2 board to connect to the WiFi network. The board's IP address will be shown in the Serial Monitor.
 
 |image03|
 

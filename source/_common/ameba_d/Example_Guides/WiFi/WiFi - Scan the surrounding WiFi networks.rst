@@ -13,9 +13,9 @@ Example
 
 In this example, we use Ameba to scan available WiFi hotspots in the surroundings, and prints the SSID, encryption type, signal strength information of each detected hotspot.
 
-First, make sure the correct Ameba development board is selected in Arduino IDE: "Tools" -> "Board" ->
+First, make sure the correct Ameba development board is selected in Arduino IDE :guilabel:`Tools -> Board`
 
-Open the "ScanNetworks" example in "File" -> "Examples" -> "AmebaWiFi" -> "ScanNetworks":
+Open the "ScanNetworks" example in :guilabel:`File -> Examples -> AmebaWiFi -> ScanNetworks`
 
 |image01|
 

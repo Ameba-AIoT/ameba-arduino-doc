@@ -14,8 +14,8 @@ The following examples shows different use cases of capturing JPEG images.
 
 For both "HTTPDisplayJPEGContinuous" and "HTTPDisplayJPEGContinuousMultitask" example, use browser (e.g., Firefox) and key in the IP address of the board in browser address bar after the board is connected to the WiFi to view the image.
 
-Open the example in "File" -> "Examples" -> "AmebaMultimedia" -> "CaptureJPEG" -> "HTTPDisplayJPEGContinuous".
-Or open the example in "File" -> "Examples" -> "AmebaMultimedia" -> "CaptureJPEG" -> "HTTPDisplayJPEGContinuous".
+Open the example in :guilabel:`File -> Examples -> AmebaMultimedia -> CaptureJPEG -> HTTPDisplayJPEGContinuous`
+Or open the example in :guilabel:`File -> Examples -> AmebaMultimedia -> CaptureJPEG -> HTTPDisplayJPEGContinuous`
 
 |image01|
 
@@ -23,7 +23,7 @@ In the highlighted code snippet, fill in the "ssid" with your WiFi network SSID 
 
 |image02|
 
-Compile the code and upload it to Ameba. After pressing the Reset button, wait for the Ameba Pro 2 board to connect to the WiFi network. The board’s IP address will be shown in the Serial Monitor.
+Compile the code and upload it to Ameba. After pressing the Reset button, wait for the Ameba Pro 2 board to connect to the WiFi network. The board's IP address will be shown in the Serial Monitor.
 
 |image03|
 
@@ -41,7 +41,7 @@ Resolution
 
 **Common choices:**
 
-- **320×240 (QVGA)** – lightweight for IoT or monitoring where detail isn’t critical.
+- **320×240 (QVGA)** – lightweight for IoT or monitoring where detail isn't critical.
 - **640×480 (VGA)** – good balance between quality and bandwidth, widely supported.
 - **1280×720 (HD/720p)** – higher clarity but significantly more bandwidth.
 - **1920×1080 (Full HD/1080p)** – only if you have high network bandwidth and need detail.
@@ -83,7 +83,7 @@ Block vs Non-Block Mode
 
 **Non-block mode:**
 
-- The stream does not wait; it continues immediately if a frame isn’t ready.
+- The stream does not wait; it continues immediately if a frame isn't ready.
 - Reduces latency, but may skip frames under load.
 - Useful for real-time monitoring where *freshness* is more important than completeness.
 - Common in IoT/robotics where immediate feedback is critical.

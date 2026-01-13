@@ -49,8 +49,7 @@ less features:
 
 -  iOS : https://apps.apple.com/us/app/lightblue/id557428110
 
-Open the example, "Files" -> "Examples" -> "AmebaBLE" ->
-"BLEBatteryService".
+Open the example, :guilabel:`Files -> Examples -> AmebaBLE -> BLEBatteryService`
 
 |image01|
 

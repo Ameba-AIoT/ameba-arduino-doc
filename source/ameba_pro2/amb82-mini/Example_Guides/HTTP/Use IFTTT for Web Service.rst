@@ -71,7 +71,7 @@ action. Take note that Email service is offered to the email address registered 
 -  Post the Trigger via Ameba
 
 | Once the Applet is ready in the IFTTT dashboard, the example program can be flashed onto the Ameba board to post the HTTP request.
-| Open the example code in "File" -> "Examples" -> "AmebaHttp" -> "HTTP_IFTTT_Post".
+| Open the example code in :guilabel:`File -> Examples -> AmebaHttp -> HTTP_IFTTT_Post`
 
 |image11|
 

@@ -19,7 +19,7 @@ The following examples shows different use cases for MP4 recording.
 3. SingleVideoWithAudio
 4. DoubleVideoWithAudio
 
-Open one of the RecordMP4 examples in "File" -> "Examples" -> "AmebaMultimedia"-> "RecordMP4".
+Open one of the RecordMP4 examples in :guilabel:`File -> Examples -> AmebaMultimedia -> RecordMP4`
 
 |image01|
 
@@ -31,7 +31,7 @@ After the recording duration has passed, the MP4 file will stop recording.
 
 |image03|
 
-Disconnect power from the Ameba Pro 2 board, remove the SD card and connect it to a computer to view the contents. Depending on the compiled example, there will be either one or two MP4 videos. Using VLC to open the MP4 file, detailed information about the MP4 files can be obtained in "Tools" -> "Codec Information".
+Disconnect power from the Ameba Pro 2 board, remove the SD card and connect it to a computer to view the contents. Depending on the compiled example, there will be either one or two MP4 videos. Using VLC to open the MP4 file, detailed information about the MP4 files can be obtained in :guilabel:`Tools -> Codec Information`
 
 +--------------------------------+----------------------------------------------------------+
 | **Example**                    | **MP4 file details**                                     |

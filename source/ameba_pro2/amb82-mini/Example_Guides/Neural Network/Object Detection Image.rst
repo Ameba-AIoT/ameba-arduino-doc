@@ -13,7 +13,7 @@ Example
 
 In this example, we will be using Ameba Pro2 development board to detect 80 different kinds of objects such as person, bicycle, car, laptop on a single image saved on external SD card.
 
-Open Object Detection Image example in "File" -> "Examples" -> "AmebaNN" -> "ObjectDetectionImage".
+Open Object Detection Image example in :guilabel:`File -> Examples -> AmebaNN -> ObjectDetectionImage`
 
 |image01|
 

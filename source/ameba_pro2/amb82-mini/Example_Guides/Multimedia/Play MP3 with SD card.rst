@@ -29,7 +29,7 @@ Connect the audio jack to the Ameba board as shown in the diagram.
 
 Insert the MicroSD card into the SD card slot of the AMB82 MINI board.
 
-Open the example in "File" -> "Examples" -> "AmebaMultimedia" -> "SDCardPlayMP3".
+Open the example in :guilabel:`File -> Examples -> AmebaMultimedia -> SDCardPlayMP3`
 
 |image03|
 

@@ -30,8 +30,7 @@ Procedure
 On the first Ameba board, upload the BLEBatteryService example code and
 let it run.
 
-For the second Ameba board, open the example "Files" -> "Examples" ->
-"AmebaBLE" -> "BLEBatteryClient".
+For the second Ameba board, open the example :guilabel:`Files -> Examples -> AmebaBLE -> BLEBatteryClient`
 
 |image01|
 

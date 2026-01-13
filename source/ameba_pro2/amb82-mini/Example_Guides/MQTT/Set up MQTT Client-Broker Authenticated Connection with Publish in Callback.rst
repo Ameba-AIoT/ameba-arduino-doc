@@ -35,11 +35,9 @@ subscriber.
 
 **MQTT_Publish_In_Callback example**
 
-Open the MQTT example "File" -> "Examples" -> "AmebaMQTTClient" ->
-"MQTT_Publish_In_Callback"
+Open the MQTT example :guilabel:`File -> Examples -> AmebaMQTTClient -> MQTT_Publish_In_Callback`
 
-Please modify some WiFi-related parameter and some information related
-to MQTT:
+Please modify some WiFi-related parameter and some information related to MQTT:
 
 |image08|
 

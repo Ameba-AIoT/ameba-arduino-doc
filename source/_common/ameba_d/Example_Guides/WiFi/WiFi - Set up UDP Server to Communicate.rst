@@ -11,7 +11,7 @@ Example
 
 In this example, we connect Ameba to WiFi and use Ameba to be an UDP server. When Ameba receives a message from UDP client, it replies "acknowledged" message to client.
 
-Open the WiFi Web Server example. "File" -> "Examples" -> "WiFi" -> "WiFiUdpSendReceiveString"
+Open the WiFi Web Server example. :guilabel:`File -> Examples -> WiFi -> WiFiUdpSendReceiveString`
 
 |image01|
 

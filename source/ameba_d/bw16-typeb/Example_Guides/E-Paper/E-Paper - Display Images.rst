@@ -41,13 +41,13 @@ Firstly, prepare a picture/photo and resize the image based on the e-Paper displ
 
 Secondly, use `Image2LCD <http://www.waveshare.net/w/upload/3/36/Image2Lcd.7z>`__ tool to convert the resized JPEG image into hexadecimal codes. You can visit this `YouTube <https://www.youtube.com/watch?v=kAmnU5Y96MA&t=363s>`__ link to learn more about how to use the Image2LCD tool.
 
-Next, download the Eink zip library, AmebaEink.zip, at https://github.com/Ameba-AIoT/ameba-arduino-d/tree/master/Arduino_zip_libraries. Then install the AmebaEink.zip by navigating to "Sketch" -> "Include Library" -> "Add .ZIP Library…".
+Download the Eink zip library, `AmebaEink.zip <https://github.com/Ameba-AIoT/ameba-arduino-d/tree/master/Arduino_zip_libraries>`__ Then install the AmebaEink.zip by navigating to :guilabel:`Sketch -> Include Library -> Add .ZIP Library…`
 
 Eink examples are categorised based on the size and modules of the e-Paper display.
 
 |image22|
 
-Open one of the "EinkDisplayImages" examples. For example, "File" → "Examples" → "AmebaEink" → "EPD_2in9v2" → "EinkDisplayImages":
+Open one of the "EinkDisplayImages" examples. For example, :guilabel:`File -> Examples -> AmebaEink -> EPD_2in9v2 -> EinkDisplayImages`
 
 |image23|
 
@@ -61,7 +61,7 @@ Upload the code to the board and press the reset button after uploading is done.
 
 |image26|
 
-The 2.9-inch e-Paper Module (B) supports three colours—red, black, and white. You may refer to the example for 2.9-inch e-Paper Module (B) to learn how to display red images by navigating to "File" → "Examples" → "AmebaEink" → "EPD_2in9b"-> "EinkDisplayImages".
+The 2.9-inch e-Paper Module (B) supports three colours—red, black, and white. You may refer to the example for 2.9-inch e-Paper Module (B) to learn how to display red images by navigating to :guilabel:`File -> Examples -> AmebaEink -> EPD_2in9b -> EinkDisplayImages`
 
 Red image displaying on 2.9-inch Module (B) e-Paper display is shown below.
 

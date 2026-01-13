@@ -21,7 +21,7 @@ Alternatively, connect the audio jack, potentiometers, and PDM Microphone as sho
 
 |image02|
 
-Open one of the Audio examples in "File" -> "Examples" -> "AmebaMultimedia" -> "Audio" -> "AudioVolumeAdjust".
+Open one of the Audio examples in :guilabel:`File -> Examples -> AmebaMultimedia -> Audio -> AudioVolumeAdjust`
 
 |image03|
 

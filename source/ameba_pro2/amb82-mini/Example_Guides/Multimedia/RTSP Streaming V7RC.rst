@@ -16,7 +16,7 @@ Example
 -------
 In this example, the Ameba board is used to stream video from the on-board camera sensor (JXF37) to V7RC mobile app via RTSP (Real Time Streaming Protocol). V7RC is a remote controller APP that provides two kinds of control UI: 2 channels for RC cars, and 4 channels for tanks and bulldozers.
 
-Open the StreamRTSP example in "File" -> "Examples" -> "AmebaMultimedia" -> "StreamRTSP" -> "V7RC".
+Open the StreamRTSP example in :guilabel:`File -> Examples -> AmebaMultimedia -> StreamRTSP -> V7RC`
 
 |image01|
 
@@ -26,7 +26,7 @@ Since the video receiving end is mobile devices, in the highlighted code snippet
 
 Fill in the "ssid" with your WiFi network SSID and "pass" with the network password. Since the video streaming receiving end is mobile phone, it is suggested to use 5G network to features lower latency, higher capacity, and more bandwidth, that provides better video streaming quality.
 
-Compile and Upload. After pressing the Reset button, wait for the board to connect to the Wi-Fi network. The board’s IP address and network port number for RTSP will be shown in the Serial Monitor.
+Compile and Upload. After pressing the Reset button, wait for the board to connect to the Wi-Fi network. The board's IP address and network port number for RTSP will be shown in the Serial Monitor.
 
 |image03|
 

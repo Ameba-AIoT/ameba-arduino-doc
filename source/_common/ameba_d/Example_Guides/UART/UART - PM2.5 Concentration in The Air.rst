@@ -17,7 +17,7 @@ PMS3003 or PMS5003 is a sensor of air quality, it can detect the concentration o
 
 The PMS3003 or PMS5003 sensor detects the concentration value of PM 1.0, PM 2.5, PM 10 particles. For example, PM 2.5 stands for fine particles with a diameter of 2.5 micrometers or less.
 
-Open the example in ``"File" → "Examples" → "AmebaSoftwareSerial" → "PMS3003_AirQuality"``
+Open the example in :guilabel:`File -> Examples -> AmebaSoftwareSerial -> PMS3003_AirQuality`
 
 |image01|
 

@@ -12,7 +12,7 @@ In this example, we will be using Ameba Pro2 development board to detect motion 
 
 The following example shows how Motion Detection and the On-Screen Display is used, where the Motion Detection results are processed using a callback function.
 
-Open one of the Motion Detection examples in "File" -> "Example" -> "AmebaMultimedia" -> "MotionDetection" -> "CallbackPostProcessing".
+Open one of the Motion Detection examples in :guilabel:`File -> Example -> AmebaMultimedia -> MotionDetection -> CallbackPostProcessing`
 
 |image01|
 
@@ -20,13 +20,13 @@ In the highlighted code snippet, fill in the "ssid" with your WiFi network SSID 
 
 |image02|
 
-Compile the code and upload it to Ameba. After pressing the Reset button, wait for the Ameba Pro 2 board to connect to the WiFi network. The board’s IP address and network port number for RTSP will be shown in the Serial Monitor.
+Compile the code and upload it to Ameba. After pressing the Reset button, wait for the Ameba Pro 2 board to connect to the WiFi network. The board's IP address and network port number for RTSP will be shown in the Serial Monitor.
 
 |image03|
 
-You may download VLC media player from the link (`here <https://www.videolan.org/vlc/>`_).
+You may download VLC media player from the link (`here <https://www.videolan.org/vlc/>`__).
 
-Upon the completion of the software installation, open VLC media player, and go to "Media" -> "Open Network Stream".
+Upon the completion of the software installation, open VLC media player, and go to :guilabel:`Media -> Open Network Stream`
 
 |image04|
 

@@ -11,7 +11,7 @@ Materials
 Example
 -------
 
-Open the example, "Files" → "Examples" → "AmebaTensorFlowLite" → "hello_world".
+Open the example, "Files -> Examples -> AmebaTensorFlowLite -> hello_world`
 
 |image01|
 

@@ -21,7 +21,7 @@ Alternatively, connect the audio jack, potentiometers, and PDM Microphone as sho
 
 |image02|
 
-Open the example in "File" -> "Examples" -> "AmebaMultimedia" -> "Audio" -> "AudioEffect".
+Open the example in :guilabel:`File -> Examples -> AmebaMultimedia -> Audio -> AudioEffect`
 
 |image03|
 

@@ -76,14 +76,14 @@ To control the rotation angle, for example if 1ms-length pulse rotates the axis 
 
 .. only:: end amb26
 
-Open the example, ``"File" → "Examples" → "AmebaAnalog" → "ServoSweep"``
+Open the example, :guilabel:`File -> Examples -> AmebaAnalog -> ServoSweep`
 
 This example makes the servo to rotate from degree 0 to 180, and then rotate back to degree 0.
 
 Code Reference
 --------------
 
-The Servo API of Ameba is similar to the API of Arduino. To distinguish Ameba’s Servo API from the original API of Arduino, we name the header file "AmebaServo.h" and the Class "AmebaServo". Usage is identical to the Arduino API.
+The Servo API of Ameba is similar to the API of Arduino. To distinguish Ameba's Servo API from the original API of Arduino, we name the header file "AmebaServo.h" and the Class "AmebaServo". Usage is identical to the Arduino API.
 
 The default pulse bandwidth of Arduino Servo is 0.5ms~2.4ms, which is the same as Tower Pro SG90. Therefore, we set the attached pin directly:
 

@@ -11,8 +11,7 @@ In this example, we will be using Ameba Pro2 development board to detect
 521 different kinds of audio such as speech, animal sounds, alarms and
 many more.
 
-Open Audio Classification example in "File" -> "Examples" -> "AmebaNN"
--> "AudioClassification".
+Open Audio Classification example in :guilabel:`File -> Examples -> AmebaNN -> AudioClassification`
 
 |image01|
 

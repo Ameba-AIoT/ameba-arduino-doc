@@ -13,7 +13,7 @@ In this example, we connect Ameba to WiFi and use Ameba to be an UDP
 server. When Ameba receives a message from UDP client, it replies
 "acknowledged" message to client.
 
-Open the example. "File" -> "Examples" -> "WiFi" -> "SimpleUDP"
+Open the example. :guilabel:`File -> Examples -> WiFi -> SimpleUDP`
 
 |image01|
 

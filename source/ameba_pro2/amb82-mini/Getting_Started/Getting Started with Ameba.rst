@@ -6,7 +6,7 @@ Introduction
 
 Ameba is an easy-to-program platform for developing all kinds of IoT applications. AMB82 MINI is equipped with various peripheral interfaces, including WiFi, BLE, GPIO INT, I2C, UART, SPI, PWM, ADC. Through these interfaces, AMB82 MINI can connect with electronic components such as LED, switches, manometer, hygrometer, PM2.5 dust sensors, …etc. Besides, AMB82 MINI has 3 key features, Audio codec, Video codec and NN (build in NPU for AIoT). The collected data can be uploaded via WiFi and be utilized by applications on smart devices to realize IoT implementation.
 
-AMB82 mini is connected to the open-source world by one of the widest development environments, Arduino. For more information, HDK, SDK, API documents, Example Guides and so on, refer to `Ameba Arduino SDK page <https://www.amebaiot.com/en/ameba-arduino-summary/>`_
+AMB82 mini is connected to the open-source world by one of the widest development environments, Arduino. For more information, HDK, SDK, API documents, Example Guides and so on, refer to `Ameba Arduino SDK page <https://www.amebaiot.com/en/ameba-arduino-summary/>`__
 
 |image01|
 
@@ -114,11 +114,11 @@ Step 3. Set up Arduino IDE
 
 From version 1.6.5, Arduino IDE supports third-party hardware. Therefore, we can use Arduino IDE to develop applications, and the Arduino basic examples are supported. Arduino IDE can be downloaded in the Arduino website: https://www.arduino.cc/en/Main/Software
 
-When the installation is finished, open Arduino IDE. To set up correctly in Arduino IDE, go to "File" -> "Preferences"
+When the installation is finished, open Arduino IDE. To set up correctly in Arduino IDE, go to :guilabel:`File -> Preferences`
 
 |image05|
 
-And paste the following URL into "Additional Boards Manager URLs" field:
+And paste the following URL into :guilabel:`Additional Boards Manager URLs` field:
 
 +-------------+--------------------------+--------------------------------------------------------------------------------------------------------------------------------+
 | **Branch**  | **Usage**                | **Remarks**                                                                                                                    |
@@ -129,7 +129,7 @@ And paste the following URL into "Additional Boards Manager URLs" field:
 |             | & early release          | | https://ameba-doc-arduino-sdk-json.readthedocs-hosted.com/en/latest/_static/package_realtek_amebapro2_early_index_rtd.json   |
 +-------------+--------------------------+--------------------------------------------------------------------------------------------------------------------------------+
 
-Next, go to "Tools" -> "Board" -> "Boards Manager":
+Next, go to :guilabel:`Tools -> Board -> Boards Manager`
 
 |image06|
 
@@ -139,9 +139,9 @@ Every time the new hardware is connected, we need to reopen the Board Manager. F
 
 |image07|
 
-After the installation tool running successfully, you may open Arduino IDE and proceed to "tools" -> "Board" -> "Boards Manager…". Try to find "Realtek Ameba Boards" in the list, click "Install", then the Arduino IDE starts to download required files.
+After the installation tool running successfully, you may open Arduino IDE and proceed to :guilabel:`tools -> Board -> Boards Manager…` Try to find "Realtek Ameba Boards" in the list, click "Install", then the Arduino IDE starts to download required files.
 
-Finally, we select board in "tools" -> "Board" -> "AmebaPro2 ARM (32-bits) Boards" -> "AMB82-MINI"
+Finally, we select board in :guilabel:`tools -> Board -> AmebaPro2 ARM (32-bits) Boards -> AMB82-MINI`
 
 |image08|
 
@@ -249,13 +249,13 @@ Step 2. Compile
 
 Arduino IDE provides many built-in examples, which can be compiled, uploaded, and run directly on the boards. Here, we take the "Blink" example as the first try.
 
-Open "File" -> "Examples" -> "01.Basics" -> "Blink":
+Open :guilabel:`File -> Examples -> 01.Basics -> Blink`
 
 |image10|
 
 Arduino IDE opens a new window with the complete sample code.
 
-Next, we compile the sample code directly; click "Sketch" -> "Verify/Compile"
+Next, we compile the sample code directly; click :guilabel:`Sketch -> Verify/Compile`
 
 Arduino IDE prints the compiling messages in the bottom area of the IDE window. When the compilation is finished, you will get the message as following.
 
@@ -266,7 +266,7 @@ Afterwards, we will upload the compiled code to board.
 Step 3. Upload
 ~~~~~~~~~~~~~~
 
-Please make sure board is connected to computer, then click "Sketch" -> "Upload".
+Please make sure board is connected to computer, then click :guilabel:`Sketch -> Upload`
 
 The Arduino IDE will compile first then upload. Users are required to enter the upload mode of the board. To enter upload mode, first press and hold the UART_DOWNLOAD button, then press and release the RESET button, lastly release the UART_DOWNLOAD button.
 
@@ -294,28 +294,28 @@ Video Tutorials and Demos
 
 YouTube Channel:
 
-- `AMB82 Mini: Start Here! <https://youtube.com/playlist?list=PLEQfNjOZQRyP1dyegDVYqgw53_AORspMK&feature=shared>`_
+- `AMB82 Mini: Start Here! <https://youtube.com/playlist?list=PLEQfNjOZQRyP1dyegDVYqgw53_AORspMK&feature=shared>`__
 
-- `AMB82 Mini Tutorials <https://youtube.com/playlist?list=PLEQfNjOZQRyPnmXCuRqE1f5au2HT4E9CP&feature=shared>`_
+- `AMB82 Mini Tutorials <https://youtube.com/playlist?list=PLEQfNjOZQRyPnmXCuRqE1f5au2HT4E9CP&feature=shared>`__
 
-- `AMB82 Mini 教程 <https://youtube.com/playlist?list=PLEQfNjOZQRyOxXFV7X_2fIcnd_J6VBmyM&feature=shared>`_
+- `AMB82 Mini 教程 <https://youtube.com/playlist?list=PLEQfNjOZQRyOxXFV7X_2fIcnd_J6VBmyM&feature=shared>`__
 
-- `AMB82 mini Maker Projects <https://youtube.com/playlist?list=PLEQfNjOZQRyPWhySw16ZgBOPWnzLWDAjz&feature=shared>`_
+- `AMB82 mini Maker Projects <https://youtube.com/playlist?list=PLEQfNjOZQRyPWhySw16ZgBOPWnzLWDAjz&feature=shared>`__
 
-- `BiliBili Channel <https://space.bilibili.com/457777430>`_
+- `BiliBili Channel <https://space.bilibili.com/457777430>`__
 
 Useful Links
 ------------
 
-- `Ameba Arduino SDK page <https://www.amebaiot.com/en/ameba-arduino-summary/>`_
+- `Ameba Arduino SDK page <https://www.amebaiot.com/en/ameba-arduino-summary/>`__
 
-- `Forum <https://forum.amebaiot.com/>`_
+- `Forum <https://forum.amebaiot.com/>`__
 
-- `FAQ <https://forum.amebaiot.com/t/welcome-to-ameba-faq/1748>`_
+- `FAQ <https://forum.amebaiot.com/t/welcome-to-ameba-faq/1748>`__
 
-- `Facebook Group Chinese <https://www.facebook.com/groups/AmebaIoT>`_
+- `Facebook Group Chinese <https://www.facebook.com/groups/AmebaIoT>`__
 
-- `Facebook Group English <https://www.facebook.com/groups/amebaioten>`_
+- `Facebook Group English <https://www.facebook.com/groups/amebaioten>`__
 
 .. |image01| image:: ../../../_static/amebapro2/Getting_Started/Getting_Started_with_AMB82-mini/image01.png
    :width:  2000 px

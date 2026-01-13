@@ -23,7 +23,7 @@ For AMB23, connect the second USB cable to the USB port in the red box.
 
 |image01|
 
-Open the example, "Files" -> "Examples" -> "AmebaUSB" -> "USBCDCSerial".
+Open the example, :guilabel:`Files -> Examples -> AmebaUSB -> USBCDCSerial`
 
 |image05|
 

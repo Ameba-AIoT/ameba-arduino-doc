@@ -31,7 +31,7 @@ mobile phone, it is available at:
 -  Apple App Store:
    https://apps.apple.com/sg/app/easy-wifi-config/id1194919510
 
-Open the example, "Files" -> "Examples" -> "AmebaBLE" -> "BLEWifiConfigService".
+Open the example, :guilabel:`Files -> Examples -> AmebaBLE -> BLEWifiConfigService`
 
 |image01|
 

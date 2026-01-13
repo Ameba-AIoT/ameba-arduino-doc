@@ -33,7 +33,7 @@ the UDP sending delay.
 
 **Ameba Side**
 
--  Open the example in "File" -> "Examples" -> "WiFi" -> "UDPCalculation" -> "SendDelay".
+-  Open the example in :guilabel:`File -> Examples -> WiFi -> UDPCalculation -> SendDelay`
 
 -  Modify the ssid, password and key index (optional). Compile and
    upload the code from the Arduino IDE to Ameba and press the reset

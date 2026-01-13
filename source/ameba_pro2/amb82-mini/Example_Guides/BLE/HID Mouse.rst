@@ -20,7 +20,7 @@ using BLE.
 Procedure
 ~~~~~~~~~
 
-Open the example, "Files" -> "Examples" -> "AmebaBLE" -> "BLEHIDMouse".
+Open the example, :guilabel:`Files -> Examples -> AmebaBLE -> BLEHIDMouse`
 
 |image01|
 

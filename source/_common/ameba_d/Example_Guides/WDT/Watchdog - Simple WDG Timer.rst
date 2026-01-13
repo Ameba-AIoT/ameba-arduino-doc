@@ -28,8 +28,8 @@ For the successful case, the watchdog is being refreshed/feed within 5 seconds, 
 
 Then we move to the coding part for this example, for this example, you will only need the RTL8722CSM/RTL8722DM/RTL8722DM MINI Board itself.
 
-Firstly, make sure the correct Ameba development board is selected in Arduino IDE: ``"Tools" → "Board" → "RTL8722CSM/RTL8722DM" (or "RTL8722DM MINI")``.
-Then open the "Watchdog Timer" example in ``"File" → "Examples" → "AmebaWatchdog" → "Watchdog Timer"``:
+Firstly, make sure the correct Ameba development board is selected in Arduino IDE: :guilabel:`Tools -> Board -> RTL8722CSM/RTL8722DM (or RTL8722DM MINI)`
+Then open the "Watchdog Timer" example in :guilabel:`File -> Examples -> AmebaWatchdog -> Watchdog Timer`
 
 |image02|
 

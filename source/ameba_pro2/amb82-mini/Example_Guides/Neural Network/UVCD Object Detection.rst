@@ -13,7 +13,7 @@ In this example, we will be using Ameba Pro2 development board to detect 80 diff
 
 The following examples show how Object Detection and On-Screen Display is used.
 
-Open the example, "File" -> "Examples" -> "AmebaNN" -> "UVCDObjectDetectionLoop".
+Open the example, :guilabel:`File -> Examples -> AmebaNN -> UVCDObjectDetectionLoop`
 
 |image01|
 
@@ -33,7 +33,7 @@ Valid Face Detection model: DEFAULT_SCRFD, CUSTOMIZED_SCRFD
 
 Valid Face Recognition model: DEFAULT_MOBILEFACENET, CUSTOMIZED_MOBILEFACENET
 
-Choose the customized option (e.g., CUSTOMIZED_YOLOV4TINY/ CUSTOMIZED_SCRFD/ CUSTOMIZED_MOBILEFACENET) if you would like to use your own NN model. To learn about the process of converting an AI model, refer to https://www.amebaiot.com/en/amebapro2-ai-convert-model/ . Additionally, refer to https://www.amebaiot.com/en/amebapro2-apply-ai-model-docs/ to understand how to install and use the converted model.
+Choose the customized option (e.g., CUSTOMIZED_YOLOV4TINY/ CUSTOMIZED_SCRFD/ CUSTOMIZED_MOBILEFACENET) if you would like to use your own NN model. To learn about the process of converting an AI model, refer to https://www.amebaiot.com/en/amebapro2-ai-convert-model/ Additionally, refer to https://www.amebaiot.com/en/amebapro2-apply-ai-model-docs/ to understand how to install and use the converted model.
 
 Note that for Yolov7 object detection training from pytorch, you will need to perform an additional step for reparameterization. For this reparameterization step, Realtek has provided two scripts in the folder Yolov7_reparam_scripts, under ~/NeuralNetwork/Yolov7_reparam_scripts.
 
@@ -51,9 +51,9 @@ Review the USB cam driver as following picture.
 
 |image04|
 
-The result of detected objects can be validated using Potplayer. You may download Potplayer from the link `here <https://potplayer.org/en/potplayer-zip.html>`__.
+The result of detected objects can be validated using Potplayer. You may download Potplayer from the link `here <https://potplayer.org/en/potplayer-zip.html>`__
 
-Upon the completion of the software installation, open Potplayer, and go to "PotPlayer" -> "Open" -> "Device Settings".
+Upon the completion of the software installation, open Potplayer, and go to :guilabel:`PotPlayer -> Open -> Device Settings`
 
 |image05|
 

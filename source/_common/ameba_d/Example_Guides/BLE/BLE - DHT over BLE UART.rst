@@ -92,7 +92,7 @@ https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_ter
 
 https://apps.apple.com/us/app/bluefruit-connect/id830125974
 
-Open the example, ``"Files" → "Examples" → "AmebaBLE" → "DHT_over_BLEUart"``.
+Open the example, :guilabel:`Files -> Examples -> AmebaBLE -> DHT_over_BLEUart`
 
 |image07|
 

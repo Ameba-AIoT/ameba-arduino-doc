@@ -19,7 +19,7 @@ To control the rotation angle, for example if 1ms-length pulse rotates the axis 
 
 |image01|
 
-| Open the example, "File" -> "Examples" -> "AmebaAnalog" -> "PWM_ServoControl"
+| Open the example, :guilabel:`File -> Examples -> AmebaAnalog -> PWM_ServoControl`
 | This example makes the servo to rotate from degree 0 to 180, and then rotate back to degree 0.
 
 Code Reference

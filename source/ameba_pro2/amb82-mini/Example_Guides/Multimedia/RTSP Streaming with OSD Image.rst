@@ -10,7 +10,7 @@ Example
 -------
 In this example, we will use the Ameba Pro2 board to stream video from the on-board camera sensor (JX-F37P) and overlay image OSD on the video stream.
 
-Open the VideoOSDImage example in "File" -> "Examples" -> "AmebaMultimedia" -> "VideoOSDImage".
+Open the VideoOSDImage example in :guilabel:`File -> Examples -> AmebaMultimedia -> VideoOSDImage`
 
 |image01|
 
@@ -18,7 +18,7 @@ In the highlighted code snippet, fill in the "ssid" with your WiFi network SSID 
 
 |image02|
 
-You can use this (`Python script <https://github.com/Ameba-AIoT/ameba-arduino-pro2>`_) to convert the image you want to overlay onto the video stream into an array and then save it in osd_pict.h.
+You can use this (`Python script <https://github.com/Ameba-AIoT/ameba-arduino-pro2>`__) to convert the image you want to overlay onto the video stream into an array and then save it in osd_pict.h.
 
 |image03|
 
@@ -26,11 +26,11 @@ Refer to the highlighted section for codes on scaling images and displaying it o
 
 |image04|
 
-Compile the code and upload it to Ameba. After pressing the Reset button, wait for the Ameba Pro 2 board to connect to the WiFi network. The board’s IP address and network port number for RTSP will be shown in the Serial Monitor.
+Compile the code and upload it to Ameba. After pressing the Reset button, wait for the Ameba Pro 2 board to connect to the WiFi network. The board's IP address and network port number for RTSP will be shown in the Serial Monitor.
 
-You may download VLC media player from the link (`here <https://www.videolan.org/vlc/>`_).
+You may download VLC media player from the link (`here <https://www.videolan.org/vlc/>`__).
 
-Upon the completion of the software installation, open VLC media player, and go to "Media" -> "Open Network Stream".
+Upon the completion of the software installation, open VLC media player, and go to :guilabel:`Media -> Open Network Stream`
 
 |image05|
 

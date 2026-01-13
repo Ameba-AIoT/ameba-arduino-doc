@@ -109,20 +109,20 @@ From version 1.6.5, Arduino IDE supports third-party hardware.
 Therefore, we can use Arduino IDE to develop applications on
 AMB23, and the examples of Arduino can run on AMB23
 too. Refer to `basic example link
-<https://www.amebaiot.com.cn/amebad-mini-arduino-compatible-ex/>`__.
+<https://www.amebaiot.com.cn/amebad-mini-arduino-compatible-ex/>`__
 
 Arduino IDE can be downloaded in the Arduino website: https://www.arduino.cc/en/Main/Software
 
 When the installation is finished, open Arduino IDE. To set up
-AMB23 correctly in Arduino IDE, go to :guilabel:`"File" -> "Preferences"`.
+AMB23 correctly in Arduino IDE, go to :guilabel:`File -> Preferences`
 
 |image05|
 
-And paste the following URL into :guilabel:`"Additional Boards Manager URLs"` field::
+And paste the following URL into :guilabel:`Additional Boards Manager URLs` field::
 
    https://github.com/ambiot/ambd_arduino/raw/master/Arduino_package/package_realtek.com_amebad_index.json
 
-Next, go to :guilabel:`"Tools" -> "Board" -> "Boards Manager"`:
+Next, go to :guilabel:`Tools -> Board -> Boards Manager`
 
 |image06|
 
@@ -145,13 +145,12 @@ There are "Install.doc"/"Install.pdf" for you to refer installation steps. Accor
 please run the installation tool in the "Offline_SDK_installation_tool" folder.
 
 After the installation tool running successfully, you may open Arduino
-IDE and proceed to :guilabel:`"Tools" -> "Board" -> "Boards Manager…"`. Try to find
-:guilabel:`"Realtek Ameba Boards (32-bits ARM Cortex-M33 @200MHz)"`` in the list,
-click :guilabel:`"Install"`, then the Arduino IDE starts to download required files
+IDE and proceed to :guilabel:`Tools -> Board -> Boards Manager…` Try to find
+:guilabel:`Realtek Ameba Boards (32-bits ARM Cortex-M33 @200MHz)` in the list,
+click :guilabel:`Install`, then the Arduino IDE starts to download required files
 for AMB23.
 
-Finally, we select AmebaD as current connected board in
-:guilabel:`"Tools" -> "Board" -> "Ameba ARM (32-bits) Boards" -> "AMB23 (RTL8722DM MINI)"`：
+Finally, we select AmebaD as current connected board in :guilabel:`Tools -> Board -> Ameba ARM (32-bits) Boards -> AMB23 (RTL8722DM MINI)`
 
 |image08|
 
@@ -165,7 +164,7 @@ Arduino IDE provides many built-in examples, which can be compiled,
 uploaded and run directly on the boards. Here, we take the "Blink"
 example as the first try.
 
-Open :guilabel:`"File" -> "Examples" -> "01.Basics" -> "Blink"`:
+Open guilabel:`File -> Examples -> 01.Basics -> Blink`
 
 |image09|
 
@@ -175,7 +174,7 @@ Change "LED_BUILTIN" to "LED_B" or "LED_G" for different colours (blue and green
 
 |image10|
 
-Next, we compile the sample code directly; click "Sketch" -> "Verify/Compile"
+Next, we compile the sample code directly; click :guilabel:`Sketch -> Verify/Compile`
 
 |image11|
 
@@ -185,7 +184,7 @@ When the compilation is finished, you will get the message as following.
 |image12|
 
 Afterwards, we will upload the compiled code to board.
-Please make sure the board is connected to computer, then click "Sketch" -> "Upload".
+Please make sure the board is connected to computer, then click :guilabel:`Sketch -> Upload`
 The Arduino IDE will compile first then upload. Users are required to enter the upload mode of the board.
 To enter upload mode, first press and hold the UART_DOWNLOAD button, then press and release the RESET button,
 lastly release the UART_DOWNLOAD button. There is a 5-seconds count down set as a reminder to enter the upload mode.

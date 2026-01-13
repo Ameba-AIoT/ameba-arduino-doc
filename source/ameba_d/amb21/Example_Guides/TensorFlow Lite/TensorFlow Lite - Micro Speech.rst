@@ -17,7 +17,7 @@ Connect the microphone and LEDs to the Ameba board according to the diagram belo
 
 |image01|
 
-Open the example, "Files" → "Examples" → "AmebaTensorFlowLite" → "micro_speech".
+Open the example, "Files -> Examples -> AmebaTensorFlowLite -> micro_speech`
 
 |image04|
 

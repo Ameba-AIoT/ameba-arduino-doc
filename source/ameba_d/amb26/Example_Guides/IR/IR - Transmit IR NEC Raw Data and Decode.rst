@@ -77,13 +77,13 @@ Figure 6: Sample of a Full NEC RAW Data (in us)
 
 |image18|
 
-After the connection is being set up correctly, we will move to the coding part for this example. First, make sure the correct Ameba development board is selected in Arduino IDE: "Tools" → "Board".
+After the connection is being set up correctly, we will move to the coding part for this example. First, make sure the correct Ameba development board is selected in Arduino IDE :guilabel:`Tools -> Board`
 
-Open the "IRSendRAW" example in "File" → "Examples" → "AmebaIRDevice" → "IRSendRAW" and upload to 1st board connected with IR Emitter:
+Open the "IRSendRAW" example in :guilabel:`File -> Examples -> AmebaIRDevice -> IRSendRAW` and upload to 1st board connected with IR Emitter:
 
 |image19|
 
-After successfully upload the sample code for IRSendRaw, you might need to upload the IRRecvNEC example for the 2nd board connected with IR Receiver from "File" → "Examples" → "AmebaIRDevice" → "IRRecvNEC".
+After successfully upload the sample code for IRSendRaw, you might need to upload the IRRecvNEC example for the 2nd board connected with IR Receiver from :guilabel:`File -> Examples -> AmebaIRDevice -> IRRecvNEC`
 
 After opening the serial monitor on the IR Receiver side and press the reset buttons on two boards, the data "48" will be received every 3 seconds (due to the delays () function, not compulsory to wait). After decoding the signal from the receiving Pin D8 and transmitting Pin D9 with Logic Analyser and Pulse View, the result is also shown
 as "48" after decoding the receiving data with IR NEC Protocol.
