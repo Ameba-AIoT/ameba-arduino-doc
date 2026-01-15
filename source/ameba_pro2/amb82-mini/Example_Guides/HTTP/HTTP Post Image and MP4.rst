@@ -33,7 +33,7 @@ Go to ``command prompt/terminal`` at ``libraries/Http/src`` folder. The files ar
     pip install --upgrade pip
     pip install -r requirements.txt
 
-    # Chose 1 of the py file to run accroding to the example
+    # Chose 1 of the py file to run according to the example
     python3 whisper_server_test_2_endpoints.py
     # or
     python3 whisper_server_test_2_endpoints_fastapi.py

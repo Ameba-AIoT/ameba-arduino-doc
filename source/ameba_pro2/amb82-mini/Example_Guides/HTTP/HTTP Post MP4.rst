@@ -47,7 +47,7 @@ python3 whisper_llm_server.py
     pip install --upgrade pip
     pip install -r requirements.txt
 
-    # Chose 1 of the py file to run accroding to the example
+    # Chose 1 of the py file to run according to the example
     python3 whisper_llm_server.py
     # or
     python3 whisper_llm_server_fastapi.py
