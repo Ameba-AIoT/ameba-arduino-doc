@@ -38,6 +38,7 @@ Go to ``command prompt/terminal`` at ``libraries/Http/src`` folder. The files ar
 python3 whisper_llm_server.py
 
 .. code-block:: bash
+
     # Setup env for running py file
     python3 -m venv .venv
     source .venv/bin/activate

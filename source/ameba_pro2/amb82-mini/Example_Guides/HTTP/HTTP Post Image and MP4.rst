@@ -24,6 +24,7 @@ Set up the HTTP server by locating the python script called ``whisper_server_tes
 Go to ``command prompt/terminal`` at ``libraries/Http/src`` folder. The files are located in the ``libraries/Http/src directory`` You will need to navigate to this folder before running the Python. Execute following code.
 
 .. code-block:: bash
+
     # Setup env for running py file
     python3 -m venv .venv
     source .venv/bin/activate
