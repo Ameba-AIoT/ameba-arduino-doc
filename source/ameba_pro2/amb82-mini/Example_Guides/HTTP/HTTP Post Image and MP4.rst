@@ -17,7 +17,10 @@ Example
 
 In this example, we are doing a Post request with image and recorded audio file together to LLM Server. This example does not contain integration to the LLM server but integration to the HTTP server.
 
-.. note:: This server can only be run on Linux OS. Mac OS and Windows have not been supported yet.
+.. note::
+
+    This server can only be run on Linux OS. Mac OS and Windows have not been supported yet.
+    For fastapi examples, server setup may require that NVIDIA GPU and drivers.
 
 Set up the HTTP server by locating the python script called ``whisper_server_test_2_endpoints.py`` or ``whisper_server_test_2_endpoints_fastapi.py``
 

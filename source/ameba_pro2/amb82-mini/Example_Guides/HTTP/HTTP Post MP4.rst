@@ -29,7 +29,10 @@ This is the block diagram for the example flow.
 
 |image01|
 
-.. note:: This server can only be run on Linux OS. Mac OS and Windows have not been supported yet.
+.. note::
+
+    This server can only be run on Linux OS. Mac OS and Windows have not been supported yet.
+    For fastapi examples, server setup may require that NVIDIA GPU and drivers.
 
 Set up the HTTP server by locating the python script called ``whisper_server_test_2_endpoints.py``, ``whisper_server_test_2_endpoints_fastapi.py``, ``whisper_llm_server.py`` or ``whisper_llm_server_fastapi.py`` in ``libraries/Http/src`` folder.
 
