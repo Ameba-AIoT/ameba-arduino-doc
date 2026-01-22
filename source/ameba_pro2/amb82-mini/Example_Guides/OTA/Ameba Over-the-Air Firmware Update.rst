@@ -88,6 +88,8 @@ Click "Start OTA" to begin OTA transfer. You will see the change of OTA state wh
 
 |image14|
 
+.. note:: There is a hidden check value called ``timestamp`` The OTA firmware must be newer than the currently running firmware; otherwise, the OTA process will fail and roll back to the original firmware.
+
 The board will automatically reboot with the OTA transferred firmware (i.e. modified NTPClient in this example) once download progress is completed.
 
 You will see the output generated on serial monitor after reboot.
