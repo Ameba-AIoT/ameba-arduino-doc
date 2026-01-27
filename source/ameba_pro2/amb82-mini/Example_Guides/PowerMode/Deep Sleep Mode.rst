@@ -50,6 +50,24 @@ The module and board power consumption report under Deep Sleep mode are listed i
 | RTC        | 57.42                         | 3.31                       | 84.14                         | 5.18                       | 60.65                         | 5.67                       | 57.42                         | 3.31                       |
 +------------+-------------------------------+----------------------------+-------------------------------+----------------------------+-------------------------------+----------------------------+-------------------------------+----------------------------+
 
+.. note ::  The USB‑UART bridge (CH340) and indicator LEDs (D1, D2, D3 with resistors R85, R101) were originally included to provide a better user experience. However, to achieve improved power consumption results, we eliminated these non‑essential current paths so that the measured values reflect only the SoC and essential circuitry.
+
++------------+-------------------------------+----------------------------+-------------------------------+----------------------------+-------------------------------+----------------------------+--------------------------------+---------------------------+
+| **Wake-up  | **Development board power                                  | **Development board power                                  | **Development board power                                  | **Development board power                                  |
+| source**   | consumption Approximate                                    | consumption Approximate                                    | consumption Approximate                                    | consumption Approximate                                    |
+|            | measurement after removing CH340 and LEDs                  | measurement after removing CH340 and LEDs                  | measurement after removing CH340 and LEDs                  | measurement after removing CH340 and LEDs                  |
+|            | (mA)                                                       | (mA)                                                       | (mA)                                                       | (mA)                                                       |
+|            | Voltage source : pin V_USB(5V)**                           | Voltage source : pin V_USB(3V)**                           | Voltage source : USB CH340(MicroUSB)**                     | Voltage source : USB OTG**                                 |
++============+===============================+============================+===============================+============================+===============================+============================+===============================+============================+
+|            | Normal Mode                   | DeepSleep Mode             | Normal Mode                   | DeepSleep Mode             | Normal Mode                   | DeepSleep Mode             | Normal Mode                   | DeepSleep Mode             |
++------------+-------------------------------+----------------------------+-------------------------------+----------------------------+-------------------------------+----------------------------+-------------------------------+----------------------------+
+| AON timer  | 53                            | 0.2                        | 81                            | 0.9                        | 54                            | 0.2                        | 55                            | 0.2                        |
++------------+-------------------------------+----------------------------+-------------------------------+----------------------------+-------------------------------+----------------------------+-------------------------------+----------------------------+
+| AON GPIO   | 53                            | 0.2                        | 81                            | 0.9                        | 54                            | 0.2                        | 55                            | 0.2                        |
++------------+-------------------------------+----------------------------+-------------------------------+----------------------------+-------------------------------+----------------------------+-------------------------------+----------------------------+
+| RTC        | 53                            | 0.2                        | 81                            | 0.9                        | 54                            | 0.2                        | 55                            | 0.2                        |
++------------+-------------------------------+----------------------------+-------------------------------+----------------------------+-------------------------------+----------------------------+-------------------------------+----------------------------+
+
 Open example in :guilabel:`File -> Examples -> AmebaPowerMode -> DeepSleepMode`
 
 |image01|
