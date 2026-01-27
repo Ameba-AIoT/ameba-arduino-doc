@@ -97,7 +97,6 @@ Step 3: Re-Taring for Verification
 Step 4: Calibration Complete
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 After completing all three steps, your scale is now calibrated! The Serial Monitor will continuously display weight readings every second.
     
     1. Now, place you 2nd known weight to test if the calibrated setup is accurate.
