@@ -56,7 +56,7 @@ The calibration process here involves three main steps:
 |image03|
 
 Step 1: Taring the Scale
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Purpose:** Zero out the scale to remove any initial offset or bias.
 
@@ -69,7 +69,7 @@ Step 1: Taring the Scale
 **What's happening:** The HX711 takes multiple readings and sets this as the zero point (baseline). Any future measurements will be relative to this baseline.
 
 Step 2: Measuring Known Weight
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Purpose:** Calculate the calibration factor by comparing raw sensor readings to a known weight.
 
@@ -84,7 +84,7 @@ Step 2: Measuring Known Weight
 **What's happening:** The code reads the raw and amplified signal from the HX711 and divides it by your known mass to determine how many raw units equal one gram. This ratio is your calibration factor.
 
 Step 3: Re-Taring for Verification
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Purpose:** Verify that the scale correctly reads 0g when empty after calibration.
 
@@ -95,7 +95,7 @@ Step 3: Re-Taring for Verification
 **What's happening:** This ensures that after calibration, the scale still properly zeros out when empty.
 
 Step 4: Calibration Complete
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 After completing all three steps, your scale is now calibrated! The Serial Monitor will continuously display weight readings every second.
     
