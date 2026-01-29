@@ -40,7 +40,7 @@ subscriber.
 
 |image08|
 
--  "mqttServer" refers to the MQTT-Broker. The MQTT auth host setup may rquest service from online paied service. There is also local server setup for testing, refer to 3rd party `Tutorials <https://m-ichae-l.github.io/Public-tutorial/docs/local_emqx_mqtt_server.html>`__
+-  "mqttServer" refers to the MQTT-Broker. The MQTT auth host setup may request service from online paid service. There is also local server setup for testing, refer to 3rd party `Tutorials <https://m-ichae-l.github.io/Public-tutorial/docs/local_emqx_mqtt_server.html>`__
 
 -  "clientId" is an identifier for MQTT-Broker to identify the connected
    device. In this case, it is the registered device name.
