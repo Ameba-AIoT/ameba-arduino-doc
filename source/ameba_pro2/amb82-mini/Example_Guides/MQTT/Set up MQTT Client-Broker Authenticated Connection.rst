@@ -40,13 +40,10 @@ subscriber.
 
 |image08|
 
--  "mqttServer" refers to the MQTT-Broker, there is free MQTT auth host
-   provided by amebaiot homepage "cloud.amebaiot.com". Please visit
-   https://www.amebaiot.com/en/cloud-getting-started/ for account setup.
+-  "mqttServer" refers to the MQTT-Broker. The MQTT auth host setup may request service from online paid service. There is also local server setup for testing, refer to 3rd party `Tutorials <https://m-ichae-l.github.io/Public-tutorial/docs/local_emqx_mqtt_server.html>`__
 
 -  "clientId" is an identifier for MQTT-Broker to identify the connected
-   device. In this case, it is the registered device name. Refer to
-   https://www.amebaiot.com/en/cloud-service/.
+   device. In this case, it is the registered device name.
 
 -  "clientUser" is the authentication username. In this case, it is the
    login username of Realtek IoT/Wi-Fi MCU Solutions website. Note, it
@@ -61,7 +58,7 @@ Next, compile the code and upload it to Ameba. Press the reset button, then open
 
 Start the MQTT Explore, and setup the auth connection.
 
-Click "Connections" at top left to start a new connection setup. "Name" can be customized. Set "Host" as "cloud.amebaiot.com". "Username" and "Password" are same as "clientUser" and "clientPass".
+Click "Connections" at top left to start a new connection setup. "Name" can be customized. Set "Host" as the server IP address (or domain name). "Username" and "Password" are same as "clientUser" and "clientPass".
 
 |image09|
 
