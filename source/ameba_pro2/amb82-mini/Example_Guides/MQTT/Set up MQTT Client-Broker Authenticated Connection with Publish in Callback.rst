@@ -30,7 +30,7 @@ In the operation of MQTT, there are several roles:
    choose messages of which topics they want to receive.
 
 This example shows how to connect Ameba to MQTT-Broker with authentication.
-Then, send messages as publisher and receive messages from MQTT-Broker as
+Then send messages as publisher and receive messages from MQTT-Broker as
 subscriber.
 
 **MQTT_Publish_In_Callback example**
