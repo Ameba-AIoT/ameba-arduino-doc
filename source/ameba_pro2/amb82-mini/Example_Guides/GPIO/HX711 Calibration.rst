@@ -47,11 +47,13 @@ Open the example in :guilabel:`File -> Examples -> AmebaGPIO -> HXH711 -> Calibr
 
 |image02|
 
-The calibration process here involves three main steps:
+The calibration process here involves 3 main steps:
 
     1. **Taring (Zeroing)** - Remove any offset to ensure the scale reads 0g when empty.
     2. **Calibration** - Use a known weight to calculate the calibration factor.
-    3. **Verification** - Re-tare to confirm accurate 0g reading.
+    3. **Verification** - Use another known weight to verify if the scale is accurate.
+
+Compile and run the example.
 
 |image03|
 
@@ -76,21 +78,21 @@ Step 2: Measuring Known Weight
 **Procedure:**
 
     1. Place your 1st known weight (e.g., 200g) on the Load Cell.
-    2. When prompted, enter the weight in grams in the Serial Monitor (e.g., ``200.0`` for 200g).
-    3. Press Enter to send the value.
+    2. When prompted, type the weight in grams in the Serial Monitor (e.g., ``200.0`` for 200g).
+    3. Press ``Enter`` to send the value.
     4. The system will take 30 readings and calculate the calibration factor.
-    5. Note down the **NEW CALIBRATION VALUE** displayed in the Serial Monitor.
+    5. Note down the ``NEW CALIBRATION VALUE`` displayed in the Serial Monitor.
 
-**What's happening:** The code reads the raw and amplified signal from the HX711 and divides it by your known mass to determine how many raw units equal one gram. This ratio is your calibration factor.
+**What's happening:** The code reads the raw and amplified signal from the HX711 and divides it by your known weight to determine how many raw units equal one gram. This ratio is your calibration factor.
 
-Step 3: Re-Taring for Verification
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 3: Re-Taring for Verification (Optional But Recommended)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Purpose:** Verify that the scale correctly reads 0g when empty after calibration.
 
-    1. Remove the known mass from the Load Cell.
+    1. Remove the known weight from the Load Cell.
     2. When prompted, send ``t`` from the Serial Monitor.
-    3. Wait for confirmation: "✓ Scale zeroed! Empty scale now reads 0g".
+    3. Wait for confirmation: ``✓ Scale zeroed! Empty scale now reads 0g``.
 
 **What's happening:** This ensures that after calibration, the scale still properly zeros out when empty.
 
@@ -106,7 +108,7 @@ After completing all three steps, your scale is now calibrated! The Serial Monit
         * ``r`` - Run the full calibration procedure again
         * ``c`` - Manually change the calibration factor
 
-**Tips:** Use heavier calibration weights (200g-1000g) as they provide more reliable calibration factors.
+.. tip:: Use heavier calibration weights (200g-1000g) as they provide more reliable calibration factors.
 
 
 .. |image01| image:: ../../../../_static/amebapro2/Example_Guides/GPIO/HX711_Calibration/image01.png
