@@ -34,3 +34,10 @@ I2C
    BMI270 Significant Motion
    BMI270 Step Counter
    BMI270 Wrist Gestures
+   NAU7802 Basic Reading
+   NAU7802 Complete Scale
+   NAU7802 External Calibration
+   NAU7802 Gain Sample Rate
+   NAU7802 Interrupt
+   NAU7802 Low Power
+   NAU7802 Advanced I2C
