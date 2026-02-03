@@ -1,1 +1,50 @@
-/* Adjust the content width */.wy-nav-content {    max-width: 80%;  /* Adjust the percentage as needed. max-width: 940px; */    /* margin: 0 auto; */}/* Optionally adjust the sidebar *//*.wy-side-nav-search {*//*    width: 300px;  */ /* Adjust the sidebar width as needed *//*}*/.table-transparent {    background-color: transparent !important;    /* color: white; */ /* word color */    /* font-size: 1.2em; increases the font size by 20%. You can adjust this value or use other units like px, pt, or % as needed.*/    font-size: 120% !important;}.table-transparent td, .table-transparent th {    background-color: transparent !important;}/* Center-align content in the first column header *//* .table-transparent th:nth-child(1), *//* Center-align content in the first column cells *//* .table-transparent td:nth-child(1) { *//*     text-align: center !important; *//*     vertical-align: middle !important; *//* } *//* Center-align content in the first cell */.table-transparent tr:first-child th:first-child,.table-transparent tr:first-child td:first-child {    text-align: center !important;    vertical-align: middle !important;}
+/* Adjust the content width */
+.wy-nav-content {
+    max-width: 80%;  /* Adjust the percentage as needed. max-width: 940px; */
+    /* margin: 0 auto; */
+}
+
+/* Center all images */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Center all tables (RTD-safe) */
+.wy-table-responsive table,
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Optionally adjust the sidebar */
+/*.wy-side-nav-search {*/
+/*    width: 300px;  */ /* Adjust the sidebar width as needed */
+/*}*/
+
+.table-transparent {
+    background-color: transparent !important;
+    /* color: white; */ /* word color */
+    /* font-size: 1.2em; increases the font size by 20%. You can adjust this value or use other units like px, pt, or % as needed.*/
+    font-size: 120% !important;
+}
+
+.table-transparent td, .table-transparent th {
+    background-color: transparent !important;
+}
+
+/* Center-align content in the first column header */
+/* .table-transparent th:nth-child(1), */
+/* Center-align content in the first column cells */
+/* .table-transparent td:nth-child(1) { */
+/*     text-align: center !important; */
+/*     vertical-align: middle !important; */
+/* } */
+
+/* Center-align content in the first cell */
+.table-transparent tr:first-child th:first-child,
+.table-transparent tr:first-child td:first-child {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
