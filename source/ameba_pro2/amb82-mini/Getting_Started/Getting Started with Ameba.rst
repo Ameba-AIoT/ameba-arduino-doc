@@ -324,7 +324,7 @@ Useful Links
 .. |image02| image:: ../../../_static/amebapro2/Getting_Started/Getting_Started_with_AMB82-mini/image02.png
    :width:  4765 px
    :height:  1498 px
-   :scale: 10%
+   :scale: 25%
 .. |image03| image:: ../../../_static/amebapro2/Getting_Started/Getting_Started_with_AMB82-mini/image03.png
    :width:  687 px
    :height:  671 px
