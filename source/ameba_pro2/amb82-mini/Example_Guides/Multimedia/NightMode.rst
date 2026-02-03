@@ -23,7 +23,7 @@ You can find this particular example under :guilabel:`Files -> Examples -> Strea
 The adapter board has a power enable pin which we will be connecting with the GPIO Pin F2 on the AMB82-mini. The IR cut and LED will both be controlled by GPIO Pins F12 and F13 respectively. Pin F12 will connect to the pin TP1 and F13 will connect to pin TP2 on the adapter board.
 
 +-----------------------------------------------------+
-| **Hareware Connections**                            |
+| **Hardware Connections**                            |
 +===========================+=========================+
 | **Adapter board pins**    | **Ameba board pins**    |
 +---------------------------+-------------------------+
