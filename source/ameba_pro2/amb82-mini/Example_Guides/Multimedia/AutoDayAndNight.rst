@@ -16,6 +16,8 @@ The adapter board used in this example is to solely connect our camera sensor to
 
 Our Amebapro LED board has a built-in hardware Ambient Light Sensor (ALS) so if you are using your own IR LED light source, you will need to have your own hardware ALS for the HW ALS mode. Otherwise, you will have to default to using our implementation of software ALS which depends on the camera sensor's ISP parameters.
 
+.. note:: Amebapro LED board must connect to sensor adapter board, if there is no customize hardware ASL. 
+
 You can find this particular example under :guilabel:`Files -> Examples -> StreamRTSP -> AutoDayAndNight` from the top left corner of the ArduinoIDE.
 
 |image01|
@@ -213,4 +215,5 @@ The difference in detail can be seen after the LED's brightness is lowered in th
 .. |image13| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image13.jpg
 .. |image14| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image14.jpg
 .. |image15| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image15.jpg
+
 
