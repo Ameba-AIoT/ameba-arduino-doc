@@ -11,8 +11,9 @@ Materials
 
 Example
 -------
-In this example, we will use the AmebaPro2 board to stream video in both day and night modes. This capability requires a camera that has an IR cut filter that can be toggled on and off along with an IR LED light source (or any IR light source).
-The adapter board used in this example is to solely connect our camera sensor to the AmebaPro2 board. You may ignore the adapter board requirement if you have alternatives to connect your IR-cut-equipped camera to the AmebaPro2 board.
+In this example, we will use the Ameba board to stream video in both day and night modes. This capability requires a camera that has an IR cut filter that can be toggled on and off along with an IR LED light source (or any IR light source).
+The adapter board used in this example is to solely connect our camera sensor to the Ameba board. You may ignore the adapter board requirement if you have alternatives to connect your IR-cut-equipped camera to the Ameba board.
+
 Our Amebapro LED board has a built-in hardware Ambient Light Sensor (ALS) so if you are using your own IR LED light source, you will need to have your own hardware ALS for the HW ALS mode. Otherwise, you will have to default to using our implementation of software ALS which depends on the camera sensor's ISP parameters.
 
 You can find this particular example under :guilabel:`Files -> Examples -> StreamRTSP -> AutoDayAndNight` from the top left corner of the ArduinoIDE.
@@ -20,6 +21,21 @@ You can find this particular example under :guilabel:`Files -> Examples -> Strea
 |image01|
 
 The adapter board has a power enable pin which we will be connecting with the GPIO Pin F2 on the AMB82-mini. The IR cut and LED will both be controlled by GPIO Pins F12 and F13 respectively. Pin F12 will connect to the pin TP1 and F13 will connect to pin TP2 on the adapter board.
+
++-----------------------------------------------------+
+| **Hardware Connections**                            |
++===========================+=========================+
+| **Adapter board pins**    | **Ameba board pins**    |
++---------------------------+-------------------------+
+| power enable pin          | Pin 9 (PF2)             |
+|                           |                         |
++---------------------------+-------------------------+
+| pin TP1                   | Pin 5 (PF12)            |
+|                           |                         |
++---------------------------+-------------------------+
+| pin TP2                   | Pin 6 (PF13)            |
+|                           |                         |
++---------------------------+-------------------------+
 
 |image02|
 
@@ -46,18 +62,45 @@ If you are using the adapter board ensure that this is in the example before run
 
 |image04|
 
-When using the hardware ALS, you need to connect them to the AMB82-mini on GPIO Pin E4 for the SDA line and GPIO Pin E3 for the SCL line. If your HW ALS is mounted on the camera sensor module like the one above, you may follow the pin connections accordingly.
+There are 2 ALS demos in this example. The default is using software ALS.
+
+When using the hardware ALS, configure both the software and hardware as described below.
+
+For software setup, initialize the ALS with `HW_ALS` instead of `SW_ALS`.
+
+.. code:: cpp
+
+   AmbientLightSensor ALS(HW_ALS);
+
+For hardware setup, connect them to the AMB82-mini on GPIO Pin E4 for the SDA line and GPIO Pin E3 for the SCL line. If your HW ALS is mounted on the camera sensor module like the one above, you may follow the pin connections accordingly.
+
++-----------------------------------------------------+
+| **Hardware Connections**                            |
++===========================+=========================+
+| **Adapter board pins**    | **Ameba board pins**    |
++---------------------------+-------------------------+
+| SDA                       | Pin 12 (PE4)            |
+|                           |                         |
++---------------------------+-------------------------+
+| SCL                       | Pin 13 (PE3)            |
+|                           |                         |
++---------------------------+-------------------------+
 
 |image05|
+
 |image06|
 
 In the highlighted code snippet, fill in the "ssid" with your WiFi network SSID and "pass" with the network password.
 
 |image07|
 
-Compile the code and upload it to Ameba. After pressing the Reset button, wait for the AmebaPro2 board to connect to the WiFi network. The board's IP address and network port number for RTSP will be shown in the Serial Monitor.
+Select the camera module that going to use from :guilabel:`Tools -> Camera Options`
 
-You may download VLC media player from the link (`here <https://www.videolan.org/vlc/>`__).
+.. note:: Please make sure the camera is supported otherwise system will returns "senesor ID error" or "VOE not init".
+
+Compile the code and upload it to Ameba. After pressing the Reset button, wait for the Ameba board to connect to the WiFi network. The board's IP address and network port number for RTSP will be shown in the Serial Monitor.
+
+You may download VLC media player from the `link <https://www.videolan.org/vlc/>`__
 
 Upon the completion of the software installation, open VLC media player, and go to :guilabel:`Media -> Open Network Stream`
 
@@ -80,7 +123,7 @@ Next, click "Play" to start RTSP streaming. The video stream from the camera wil
 Code Reference
 --------------
 
-The Infrared class controls all the manual IR features of the AmebaPro2 while the AmbientLightSensor class controls the software and hardware ALS for auto mode switching. You will need to the following lines before you can begin using any IR and ALS features.
+The Infrared class controls all the manual IR features of the Ameba while the AmbientLightSensor class controls the software and hardware ALS for auto mode switching. You will need to the following lines before you can begin using any IR and ALS features.
 
 .. code:: c
 
@@ -154,16 +197,13 @@ The difference in detail can be seen after the LED's brightness is lowered in th
 .. |image03| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image03.jpg
 .. |image04| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image04.jpg
 .. |image05| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image05.jpg
-   :width:  700 px
    :height:  600 px
 
 .. |image06| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image06.jpg
-   :width:  700 px
    :height:  600 px
 
 .. |image07| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image07.jpg
    :width:  700 px
-   :height:  600 px
 
 .. |image08| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image08.jpg
 .. |image09| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/AutoDayAndNight/image09.jpg

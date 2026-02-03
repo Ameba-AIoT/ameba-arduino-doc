@@ -13,14 +13,29 @@ Example
 -------
 This example is built on the `StreamRTSP -> VideoOnly <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_pro2/amb82-mini/Example_Guides/Multimedia/RTSP%20Streaming.html>`__ Please refer to the "VideoOnly" example for more information on how to set up an RTSP stream.
 
-In this example, we will use the AmebaPro2 board to stream video in night mode. This capability requires a camera that has an IR cut filter that can be toggled on and off along with an IR LED light source (or any IR light source).
-The adapter board used in this example is to solely connect our camera sensor to the AmebaPro2 board. You may ignore the adapter board requirement if you have alternatives to connect your IR-cut-equipped camera to the AmebaPro2 board.
+In this example, we will use the Ameba board to stream video in night mode. This capability requires a camera that has an IR cut filter that can be toggled on and off along with an IR LED light source (or any IR light source).
+The adapter board used in this example is to solely connect our camera sensor to the Ameba board. You may ignore the adapter board requirement if you have alternatives to connect your IR-cut-equipped camera to the Ameba board.
 
 You can find this particular example under :guilabel:`Files -> Examples -> StreamRTSP -> NightMode` from the top left corner of the ArduinoIDE.
 
 |image01|
 
 The adapter board has a power enable pin which we will be connecting with the GPIO Pin F2 on the AMB82-mini. The IR cut and LED will both be controlled by GPIO Pins F12 and F13 respectively. Pin F12 will connect to the pin TP1 and F13 will connect to pin TP2 on the adapter board.
+
++-----------------------------------------------------+
+| **Hardware Connections**                            |
++===========================+=========================+
+| **Adapter board pins**    | **Ameba board pins**    |
++---------------------------+-------------------------+
+| power enable pin          | Pin 9 (PF2)             |
+|                           |                         |
++---------------------------+-------------------------+
+| pin TP1                   | Pin 5 (PF12)            |
+|                           |                         |
++---------------------------+-------------------------+
+| pin TP2                   | Pin 6 (PF13)            |
+|                           |                         |
++---------------------------+-------------------------+
 
 |image02|
 
@@ -42,11 +57,16 @@ If you are using the adapter board ensure that this is in the example before run
 |image04|
 
 In the highlighted code snippet, fill in the "ssid" with your WiFi network SSID and "pass" with the network password.
+
 |image05|
 
-Compile the code and upload it to Ameba. After pressing the Reset button, wait for the AmebaPro2 board to connect to the WiFi network. The board's IP address and network port number for RTSP will be shown in the Serial Monitor.
+Select the camera module that going to use from :guilabel:`Tools -> Camera Options`
 
-You may download VLC media player from the link (`here <https://www.videolan.org/vlc/>`_).
+.. note:: Please make sure the camera is supported otherwise system will returns "senesor ID error" or "VOE not init".
+
+Compile the code and upload it to Ameba. After pressing the Reset button, wait for the Ameba board to connect to the WiFi network. The board's IP address and network port number for RTSP will be shown in the Serial Monitor.
+
+You may download VLC media player from the `link <https://www.videolan.org/vlc/>`__
 
 Upon the completion of the software installation, open VLC media player, and go to :guilabel:`Media -> Open Network Stream`
 
@@ -68,7 +88,7 @@ Next, click "Play" to start RTSP streaming. The video stream from the camera wil
 
 Code Reference
 --------------
-The Infrared class controls all the manual IR features of the AmebaPro2. You will need to the following lines before you can begin using any IR features.
+The Infrared class controls all the manual IR features of the Ameba. You will need to the following lines before you can begin using any IR features.
 
 .. code:: cpp
 
