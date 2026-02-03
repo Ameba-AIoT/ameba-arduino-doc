@@ -16,6 +16,8 @@ This example is built on the `StreamRTSP -> VideoOnly <https://ameba-doc-arduino
 In this example, we will use the Ameba board to stream video in night mode. This capability requires a camera that has an IR cut filter that can be toggled on and off along with an IR LED light source (or any IR light source).
 The adapter board used in this example is to solely connect our camera sensor to the Ameba board. You may ignore the adapter board requirement if you have alternatives to connect your IR-cut-equipped camera to the Ameba board.
 
+.. note:: Amebapro LED board must connect to sensor adapter board, if there is no customize hardware for IR. 
+
 You can find this particular example under :guilabel:`Files -> Examples -> StreamRTSP -> NightMode` from the top left corner of the ArduinoIDE.
 
 |image01|
@@ -122,4 +124,5 @@ It is also important to remember to set the camera to grayscale mode for better 
 .. |image08| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image08.jpg
 .. |image09| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image09.jpg
 .. |image10| image::  ../../../../_static/amebapro2/Example_Guides/Multimedia/NightMode/image10.jpg
+
 
