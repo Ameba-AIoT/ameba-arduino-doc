@@ -6,7 +6,7 @@ Materials
 
 - `AMB82-mini <https://www.amebaiot.com/en/where-to-buy-link/#buy_amb82_mini>`__ x 1
 
--  Waveshare E-Paper [7.5-inch E-Ink display HAT] x1
+-  Waveshare E-Paper [7.5-inch E-Ink display HAT V2.1] x1
 
 -  Button x 1
 
