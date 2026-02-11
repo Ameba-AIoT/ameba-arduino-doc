@@ -9,6 +9,8 @@ Materials
 - MicroSD card x 1
 - Waveshare 7.5-inch E-Ink display HAT x 1
 
+.. note:: The ``Universal E-Paper Driver HAT`` using for all E-Papers is compatible with version V2.1 only.
+
 Example
 -------
 

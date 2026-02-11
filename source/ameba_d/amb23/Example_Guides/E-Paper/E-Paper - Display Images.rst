@@ -7,6 +7,8 @@ Materials
 
 - Waveshare E-Paper [2.9inch E-Paper HAT (D)/ 2.9inch E-Paper V2/ 2.9inch e-Paper Module (B)/ 4.2inch e-Paper Module/ 4.2inch v2 e-Paper Module/ 7.5-inch E-Ink display HAT] x1
 
+.. note:: The ``Universal E-Paper Driver HAT`` using for all E-Papers is compatible with version V2.1 only.
+
 Example
 -------
 
@@ -18,7 +20,7 @@ In this example, AmebaD boards will be used to connect to a Waveshare e-Paper mo
 
 |image02|
 
-2.9inch E-Paper v2 e-Paper Module/ 2.9inch e-Paper Module (B)
+2.9inch E-Paper V2 e-Paper Module/ 2.9inch e-Paper Module (B)
 
 |image02v2|
 
@@ -61,7 +63,7 @@ Upload the code to the board and press the reset button after uploading is done.
 
 |image26|
 
-The 2.9-inch e-Paper Module (B) supports three colours—red, black, and white. You may refer to the example for 2.9-inch e-Paper Module (B) to learn how to display red images by navigating to :guilabel:`File -> Examples -> AmebaEink -> EPD_2in9b"-> "EinkDisplayImages`
+The 2.9-inch e-Paper Module (B) supports three colours—red, black, and white. You may refer to the example for 2.9-inch e-Paper Module (B) to learn how to display red images by navigating to :guilabel:`File -> Examples -> AmebaEink -> EPD_2in9b -> EinkDisplayImages`
 
 Red image displaying on 2.9-inch Module (B) e-Paper display is shown below.
 
