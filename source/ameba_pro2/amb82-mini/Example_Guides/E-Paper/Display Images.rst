@@ -8,6 +8,8 @@ Materials
 
 -  Waveshare E-Paper [2.9inch E-Paper HAT (D)/ 2.9inch E-Paper V2/ 2.9inch e-Paper Module (B)/ 4.2inch e-Paper Module/ 7.5-inch E-Ink display HAT] x1
 
+.. note:: The ``Universal E-Paper Driver HAT`` using for all E-Papers is coccmpatiable with version V2.1 only.
+
 Example
 -------
 
