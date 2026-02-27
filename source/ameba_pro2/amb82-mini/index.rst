@@ -51,7 +51,13 @@ AMB82-mini Arduino
 SDK Source Code
 ---------------
 
-* |image03| `ameba-arduino-pro2 <https://github.com/Ameba-AIoT/ameba-arduino-pro2>`_
+* |image03| `ameba-arduino-pro2 <https://github.com/Ameba-AIoT/ameba-arduino-pro2>`__
+
+HW Reference Design Guide
+--------------------------
+
+* `Realtek AmebaPro2 HW design Guide <https://ameba-doc-rtos-pro2-sdk.readthedocs-hosted.com/en/latest/hw_design/index.html>`__
+
 
 .. _link01: https://www.seeedstudio.com/AMB82-MINI-RTL8735B-IoT-AI-Camera-Dev-Board-p-5584.html?queryID=2d6a1efaccf480c882fe1e119a4e6468&objectID=5584&indexName=bazaar_retailer_products
 
