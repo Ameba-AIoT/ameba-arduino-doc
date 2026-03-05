@@ -43,8 +43,7 @@ Getting Started
 
 .. note:: Please make sure the camera is supported otherwise system will returns "senesor ID error" or "VOE not init".
 
-- Compile and upload the code into AMB82-Mini and reset the board to start running the POC example. After pressing the Reset button, wait for the Ameba board to connect 
-to the WiFi network. The board's IP address and network port number for RTSP will be shown in the Serial Monitor. 
+- Compile and upload the code into AMB82-Mini and reset the board to start running the POC example. After pressing the Reset button, wait for the Ameba board to connect to the WiFi network. The board's IP address and network port number for RTSP will be shown in the Serial Monitor. 
 
 |image04|
 
@@ -82,8 +81,7 @@ to the WiFi network. The board's IP address and network port number for RTSP wil
 
 Optional
 --------
-- The default example is set to capture images of the bird(s) when object detection count is at least ONE. It will also draw boundary boxes for the areas containing the bird(s) as seen in the previous section. You may wish to train
-your bird detection model so that the image files will contain the bird's species instead of just 'bird' in its file name. Please refer to this example on how to change the model used in this example `Example for Changing Object Detection Model <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_pro2/amb82-mini/Example_Guides/Neural%20Network/Object%20Detection.html>`_.
+- The default example is set to capture images of the bird(s) when object detection count is at least ONE. It will also draw boundary boxes for the areas containing the bird(s) as seen in the previous section. You may wish to train your bird detection model so that the image files will contain the bird's species instead of just 'bird' in its file name. Please refer to this example on how to change the model used in this example `Example for Changing Object Detection Model <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_pro2/amb82-mini/Example_Guides/Neural%20Network/Object%20Detection.html>`_.
 
 |image14|
 

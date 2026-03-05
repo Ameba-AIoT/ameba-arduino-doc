@@ -42,9 +42,7 @@ Getting Started (MCU_A)
 
 |image04| 
 
-- The motion detection algorithm will be set up and there is no RTSP stream to run or connect to for viewing. Whenever motion is detected it will run the section of code as shown below. User may edit to include more functions
-based on their own use case. When at least one part of the scene is detected to be moving, the MCU_A will send a character 'D' = Detected and output HIGH from its GPIO Pin 0. Otherwise when there is no activity, it will send 
-a character 'N' = Nothing.
+- The motion detection algorithm will be set up and there is no RTSP stream to run or connect to for viewing. Whenever motion is detected it will run the section of code as shown below. User may edit to include more functions based on their own use case. When at least one part of the scene is detected to be moving, the MCU_A will send a character 'D' = Detected and output HIGH from its GPIO Pin 0. Otherwise when there is no activity, it will send a character 'N' = Nothing.
 
 |image05|
 
@@ -67,11 +65,9 @@ Getting Started (MCU_B)
 
 |image07| 
 
-- When MCU_B is awake and has received the character 'D', it will begin recording for up to 1 hour. If activity persists, it will continue recording in another file. This means each video recording mp4 file is only up to 1 hour of video but
-the MCU_B may continue recording for as long as possible.
+- When MCU_B is awake and has received the character 'D', it will begin recording for up to 1 hour. If activity persists, it will continue recording in another file. This means each video recording mp4 file is only up to 1 hour of video but the MCU_B may continue recording for as long as possible.
 
-- After a brief period of no activity, the MCU_B will stop any recording and send a character 'S' to tell MCU_A that it is entering standby mode. The default delay before recording is stopped is approximately 5 seconds, you may change
-this delay by adjusting the value as highlighted. It is in multiples of 100ms.
+- After a brief period of no activity, the MCU_B will stop any recording and send a character 'S' to tell MCU_A that it is entering standby mode. The default delay before recording is stopped is approximately 5 seconds, you may change this delay by adjusting the value as highlighted. It is in multiples of 100ms.
 
 |image08|
 
