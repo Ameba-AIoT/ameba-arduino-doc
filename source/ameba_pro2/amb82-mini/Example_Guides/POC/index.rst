@@ -5,6 +5,6 @@ POC
    :maxdepth: 1
 
    AC-Powered Camera
-   Battery-Powered camera
+   Battery-Powered Camera
    Birdfeeder
    Low Latency Endoscope
