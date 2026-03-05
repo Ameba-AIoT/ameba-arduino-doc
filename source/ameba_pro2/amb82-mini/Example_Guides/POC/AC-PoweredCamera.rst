@@ -68,6 +68,3 @@ The default model is able to detect up to 80 separate objects as described in th
 .. |image06| image::  ../../../../_static/amebapro2/Example_Guides/POC/AC-PoweredCamera/image06.jpg
 .. |image07| image::  ../../../../_static/amebapro2/Example_Guides/POC/AC-PoweredCamera/image07.jpg
 .. |image08| image::  ../../../../_static/amebapro2/Example_Guides/POC/AC-PoweredCamera/image08.jpg
-
-
-

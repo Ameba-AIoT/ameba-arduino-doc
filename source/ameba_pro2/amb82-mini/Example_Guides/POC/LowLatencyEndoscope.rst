@@ -57,4 +57,3 @@ Getting Started
 .. |image05| image::  ../../../../_static/amebapro2/Example_Guides/POC/LowLatencyEndoscope/image05.jpg
 .. |image06| image::  ../../../../_static/amebapro2/Example_Guides/POC/LowLatencyEndoscope/image06.jpg
 .. |image07| image::  ../../../../_static/amebapro2/Example_Guides/POC/LowLatencyEndoscope/image07.jpg
-

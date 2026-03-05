@@ -84,3 +84,4 @@ this delay by adjusting the value as highlighted. It is in multiples of 100ms.
 .. |image07| image::  ../../../../_static/amebapro2/Example_Guides/POC/Battery-PoweredCamera/image07.jpg
 .. |image08| image::  ../../../../_static/amebapro2/Example_Guides/POC/Battery-PoweredCamera/image08.jpg
 .. |image09| image::  ../../../../_static/amebapro2/Example_Guides/POC/Battery-PoweredCamera/image09.jpg
+   
