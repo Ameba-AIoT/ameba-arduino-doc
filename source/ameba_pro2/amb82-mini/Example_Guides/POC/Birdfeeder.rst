@@ -27,7 +27,7 @@ landscape and portrait modes for optimal viewing and image capturing during runt
 
 Getting Started
 ---------------
-- Insert the SD card into AMB82-Mini 
+- Insert the SD card into AMB82-Mini.
 |image01|
 
 - Find the POC example under "Files" -> "Examples" -> "POC" -> "Birdfeeder" from the top left corner of the ArduinoIDE.
@@ -73,7 +73,7 @@ to the WiFi network. The board's IP address and network port number for RTSP wil
 Optional
 --------
 - The default example is set to capture images of the bird(s) when object detection count is at least ONE. It will also draw boundary boxes for the areas containing the bird(s) as seen in the previous section. You may wish to train
-your bird detection model so that the image files will contain the bird's species instead of just 'bird' in its file name. Please refer to this example on how to change the model used in this example `Example for Changing Object Detection Model <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_pro2/amb82-mini/Example_Guides/Neural%20Network/Object%20Detection.html>`_
+your bird detection model so that the image files will contain the bird's species instead of just 'bird' in its file name. Please refer to this example on how to change the model used in this example `Example for Changing Object Detection Model <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_pro2/amb82-mini/Example_Guides/Neural%20Network/Object%20Detection.html>`_.
 |image14|
 
 The code section handling the process upon detecting a bird is here.
@@ -112,4 +112,3 @@ You may edit the file name in this particular section of the code.
 .. |image14| image::  ../../../../_static/amebapro2/Example_Guides/POC/Birdfeeder/image14.jpg
 .. |image15| image::  ../../../../_static/amebapro2/Example_Guides/POC/Birdfeeder/image15.jpg
 .. |image16| image::  ../../../../_static/amebapro2/Example_Guides/POC/Birdfeeder/image16.jpg
-   

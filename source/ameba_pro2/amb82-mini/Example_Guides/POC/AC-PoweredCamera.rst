@@ -27,7 +27,7 @@ recording into the SD card. Each recording will have an event name and timestamp
 Getting Started
 ---------------
 
-- Insert the SD card into AMB82-Mini 
+- Insert the SD card into AMB82-Mini.
 |image01|
 
 - Find the POC example under "Files" -> "Examples" -> "AmebaPOC" -> "AC-PoweredCamera" from the top left corner of the ArduinoIDE.
