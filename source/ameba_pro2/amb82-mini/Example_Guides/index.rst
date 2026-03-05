@@ -19,6 +19,7 @@ Example Guides
    Neural Network/index
    NTP/index
    OTA/index
+   POC/index
    PowerMode/index
    PWM/index
    QR Code Scanner/index
