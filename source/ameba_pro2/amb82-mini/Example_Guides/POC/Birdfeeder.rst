@@ -28,12 +28,15 @@ landscape and portrait modes for optimal viewing and image capturing during runt
 Getting Started
 ---------------
 - Insert the SD card into AMB82-Mini.
+
 |image01|
 
 - Find the POC example under "Files" -> "Examples" -> "POC" -> "Birdfeeder" from the top left corner of the ArduinoIDE.
+
 |image02|
 
 - Edit the WiFi network ID and Password in the following sections. Your viewing device will have to be connected to the same WiFi network to watch the stream later.
+
 |image03| 
 
 - Select the camera module that going to use from `Tools -> Camera Options`
@@ -42,6 +45,7 @@ Getting Started
 
 - Compile and upload the code into AMB82-Mini and reset the board to start running the POC example. After pressing the Reset button, wait for the Ameba board to connect 
 to the WiFi network. The board's IP address and network port number for RTSP will be shown in the Serial Monitor. 
+
 |image04|
 
 - Make sure your PC is connected to the same network as the Ameba Pro2 board for streaming. Since RTSP is used as the streaming protocol, key in `"rtsp://{IPaddress}:{port}"` as the Network URL in VLC media player, replacing {IPaddress} with the IP address of your Ameba Pro2 board, and {port} with the RTSP port shown in Serial Monitor `(e.g., "rtsp://192.168.1.154:554")`. The default RTSP port number is 554. In the case of two simultaneous RTSP streams, the second port number defaults to 555.
@@ -59,27 +63,36 @@ to the WiFi network. The board's IP address and network port number for RTSP wil
 |image08|
 
 - After opening the RTSP stream, you can test the GPIO pins (0, 1, 2, 3) for the rotation into various landscape and portrait modes. Connect the four Female-to-Female jumper wires to the four GPIO pins.
+
 |image09|
 
 - In order to test the functions, only use one of the jumper wires to plug in and out of the VDD33 pin or GND pin to trigger the rotation.
+
 |image10|
 
 - The following images are the landscape/portrait video and image settings for GPIO pins 0, 1, 2 and 3 respectively.
+
 |image08|
+
 |image11|
+
 |image12|
+
 |image13|
 
 Optional
 --------
 - The default example is set to capture images of the bird(s) when object detection count is at least ONE. It will also draw boundary boxes for the areas containing the bird(s) as seen in the previous section. You may wish to train
 your bird detection model so that the image files will contain the bird's species instead of just 'bird' in its file name. Please refer to this example on how to change the model used in this example `Example for Changing Object Detection Model <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_pro2/amb82-mini/Example_Guides/Neural%20Network/Object%20Detection.html>`_.
+
 |image14|
 
 The code section handling the process upon detecting a bird is here.
+
 |image15|
 
 You may edit the file name in this particular section of the code.
+
 |image16|
 
 

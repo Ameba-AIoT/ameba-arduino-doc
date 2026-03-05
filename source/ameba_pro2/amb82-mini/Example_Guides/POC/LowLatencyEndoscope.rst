@@ -28,24 +28,31 @@ Getting Started
 ---------------
 
 - Find the POC example under "Files" -> "Examples" -> "AmebaPOC" -> "LowLatencyEndoscope" from the top left corner of the ArduinoIDE.
+
 |image01|
 
 - Update the WiFi AP network ID and Password in the following sections. This will be the network to connect to later.
+
 |image02| 
 
 - If you are using an external WiFi network, update these sections instead so that AMB82-Mini may connect to it.
+
 |image03|
 
 - Edit the GPIO pins to match the ones to activate the camera's flashlight in the following sections.
+
 |image04|
+
 |image05|
 
 - Compile and upload the code into AMB82-Mini and reset the board to start running the POC example.
 
 - For live viewing of the video stream, first connect to AMB82-Mini's WiFi using the network SSID and password that you have defined earlier.
+
 |image06|
 
 - Open your browser and connect to the following IP Address: http://192.168.1.1/.
+
 |image07|
 
 

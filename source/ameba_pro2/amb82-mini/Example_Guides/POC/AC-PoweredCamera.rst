@@ -28,27 +28,35 @@ Getting Started
 ---------------
 
 - Insert the SD card into AMB82-Mini.
+
 |image01|
 
 - Find the POC example under "Files" -> "Examples" -> "AmebaPOC" -> "AC-PoweredCamera" from the top left corner of the ArduinoIDE.
+
 |image02|
 
 - Update the WiFi AP network ID and Password in the following sections. This will be the network to connect to later.
+
 |image03| 
 
 - Compile and upload the code into AMB82-Mini and reset the board to start running the POC example.
 
 - Once the example is running, you may move into the frame and it should begin recording. You will see the following message when recording has started.
+
 |image04| 
 
 - After about 10 seconds of non-event, the recording will be stopped automatically with the following message being printed out.
+
 |image05| 
 
 - For live viewing of the video stream, first connect to AMB82-Mini's WiFi using the network SSID and password that you have defined earlier.
+
 |image03|
+
 |image06|
 
 - Open your browser and connect to the following IP Address: http://192.168.1.1/.
+
 |image07| 
 
 Optional:
@@ -57,6 +65,7 @@ Optional:
 The object detection model can be changed out to your preferred model by following this example - `Example for Changing Object Detection Model <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/ameba_pro2/amb82-mini/Example_Guides/Neural%20Network/Object%20Detection.html>`_ 
 
 The default model is able to detect up to 80 separate objects as described in the "objectClassList.h". This can be edited to restrict the model to only detect objects of interest for your use case.
+
 |image08|
 
 
