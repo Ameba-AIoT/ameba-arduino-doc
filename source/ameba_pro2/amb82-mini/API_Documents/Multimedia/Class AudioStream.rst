@@ -89,6 +89,10 @@ A class used to configure and initialize the on-board Audio Codec to generate an
 | Audio::printInfo           | Print out current configuration of      |
 |                            | audio channels.                         |
 +----------------------------+-----------------------------------------+
+| Audio::micLevel            | Get mic input audio level.              |
++----------------------------+-----------------------------------------+
+| Audio::setHPFc             | Set HPF cutoff frequency.               |
++----------------------------+-----------------------------------------+
 
 **Audio::configAudio**
 ----------------------
@@ -595,5 +599,69 @@ NA
 ~~~~~~~~~~~~~~~~
 
 Example: `StreamRTSP/SingleVideoWithAudio <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/StreamRTSP/SingleVideoWithAudio/SingleVideoWithAudio.ino>`_
+
+.. note :: "AudioStream.h" must be included to use the class function.
+
+**Audio::micLevel**
+-------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+To detect microphone input audio level.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    int micLevel();
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+NA
+
+**Returns**
+~~~~~~~~~~~
+
+Audio input level detected on microphone.
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+Example: `AudioTriggerRecording <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Multimedia/examples/Audio/AudioTriggerRecording/AudioTriggerRecording.ino>`_
+
+.. note :: "AudioStream.h" must be included to use the class function.
+
+**Audio::setHPFc**
+------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+To set high pass filter value to lower background noise.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    void setHPFc(uint8_t fc);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+fc: 0 to 7, cutoff freq ~= 5e-3 / (fc + 1) * fs
+
+**Returns**
+~~~~~~~~~~~
+
+NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
 
 .. note :: "AudioStream.h" must be included to use the class function.

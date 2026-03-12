@@ -6,6 +6,7 @@ Multimedia
 
    Audio/index
    CaptureJPEG/index
+   CaptureRaw/index
    ISP Control
    Motion Detection/index
    MP4 Recording
