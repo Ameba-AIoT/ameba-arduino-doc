@@ -27,6 +27,7 @@ and the object in front of it to simulate how a vehicle may respond when reading
 Getting Started
 ---------------
 - Find the POC example under "Files" -> "Examples" -> "AmebaPOC" -> "AntiCollision" from the top left corner of the ArduinoIDE.
+
 |image01|
 
 - Edit the WiFi network ID and Password in the following sections. Your viewing device will have to be connected to the same WiFi network to watch the stream later.
