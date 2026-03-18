@@ -46,8 +46,7 @@ Getting Started
 
 |image04|
 
-- Compile and upload the code into AMB82-Mini and reset the board to start running the POC example. After pressing the Reset button, wait for the Ameba board to connect 
-to the WiFi network. The board's IP address and network port number for RTSP will be shown in the Serial Monitor. 
+- Compile and upload the code into AMB82-Mini and reset the board to start running the POC example. After pressing the Reset button, wait for the Ameba board to connect to the WiFi network. The board's IP address and network port number for RTSP will be shown in the Serial Monitor. 
 
 |image05|
 
