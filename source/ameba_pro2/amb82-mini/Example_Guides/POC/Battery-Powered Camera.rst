@@ -69,11 +69,9 @@ Getting Started (MCU_B)
 
 |image07| 
 
-- When MCU_B is awake and has received the character 'D', it will begin recording for up to 1 hour. If activity persists, it will continue recording in another file. This means each video recording mp4 file is only up to 1 hour of video but
-the MCU_B may continue recording for as long as possible.
+- When MCU_B is awake and has received the character 'D', it will begin recording for up to 1 hour. If activity persists, it will continue recording in another file. This means each video recording mp4 file is only up to 1 hour of video but the MCU_B may continue recording for as long as possible.
 
-- After a brief period of no activity, the MCU_B will stop any recording and send a character 'S' to tell MCU_A that it is entering standby mode. The default delay before recording is stopped is approximately 5 seconds, you may change
-this delay by adjusting the value as highlighted. It is in multiples of 100ms.
+- After a brief period of no activity, the MCU_B will stop any recording and send a character 'S' to tell MCU_A that it is entering standby mode. The default delay before recording is stopped is approximately 5 seconds, you may change this delay by adjusting the value as highlighted. It is in multiples of 100ms.
 
 |image08|
 
