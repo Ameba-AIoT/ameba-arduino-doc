@@ -14,6 +14,7 @@ Materials
 
 Introduction
 ------------
+
 This proof of concept example is meant to demonstrate the first steps toward avoiding collisions while navigating with an autonomous vehicle. It combines the use of a distance sensor like the Time-of-Flight sensor along with an
 object detection model to identify potential obstacles in its path. The example is developed as a general use demonstration and will require further development to realise its full potential in actual applications.
 
@@ -25,7 +26,6 @@ and the object in front of it to simulate how a vehicle may respond when reading
 
 Getting Started
 ---------------
-
 - Find the POC example under "Files" -> "Examples" -> "AmebaPOC" -> "AntiCollision" from the top left corner of the ArduinoIDE.
 |image01|
 
@@ -47,29 +47,27 @@ to the WiFi network. The board's IP address and network port number for RTSP wil
 |image05|
 
 - Make sure your PC is connected to the same network as the Ameba Pro2 board for streaming. Since RTSP is used as the streaming protocol, key in `"rtsp://{IPaddress}:{port}"` as the Network URL in VLC media player, replacing {IPaddress} with the IP address of your Ameba Pro2 board, and {port} with the RTSP port shown in Serial Monitor `(e.g., "rtsp://192.168.1.154:554")`. The default RTSP port number is 554. In the case of two simultaneous RTSP streams, the second port number defaults to 555.
-
 |image06|
 
 - You may choose to change the caching time in "Show more options". A lower cache time will result in reduced video latency but may introduce playback stuttering in the case of poor network conditions.
-
 |image07|
 
 - Next, click "Play" to start RTSP streaming. The video stream from the camera will be shown in VLC media player. Meanwhile, in your Serial Monitor, the message "rtp started (UDP)" will appear.
-
 |image08|
-
 |image09|
 
 -  After you are able see the RTSP stream, it is highly recommended to calibrate your ToF sensor's resolution relative to the camera's resolution by editing the following parts in the code.
 |image10|
-
 |image11|
+
 
 Optional
 --------
-
 - You may change the proximity thresholds along with the distance texts' colors in lines 161-164
 |image12|
+
+
+
 
 .. |image01| image::  ../../../../_static/amebapro2/Example_Guides/POC/AntiCollision/image01.jpg
 .. |image02| image::  ../../../../_static/amebapro2/Example_Guides/POC/AntiCollision/image02.jpg
@@ -89,3 +87,5 @@ Optional
 .. |image10| image::  ../../../../_static/amebapro2/Example_Guides/POC/AntiCollision/image10.jpg
 .. |image11| image::  ../../../../_static/amebapro2/Example_Guides/POC/AntiCollision/image11.jpg
 .. |image12| image::  ../../../../_static/amebapro2/Example_Guides/POC/AntiCollision/image12.jpg
+
+
