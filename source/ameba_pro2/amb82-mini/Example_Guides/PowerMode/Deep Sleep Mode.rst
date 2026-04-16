@@ -72,7 +72,34 @@ Open example in :guilabel:`File -> Examples -> AmebaPowerMode -> DeepSleepMode`
 
 |image01|
 
-| Next is setting up the system and entering the power mode. Please refer to the following steps for entering Deep Sleep mode.
+Next is setting up the system and entering the power mode. Please refer to the following steps for entering Deep Sleep mode.
+
+Use the ``USE_MULTIPLE_WAKEUP_SOURCES`` configuration flag to set for multiple or single wakeup sources.
+
+| 0: single 
+| 1: multiple
+
+Multiple Wake-up Sources
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+You can use bitwise OR to setup multiple wakeup sources for ``MULTI_WAKEUP_SOURCE``
+
+| ``DS_AON_TIMER`` (BIT0) - AON Timer wakeup
+| ``DS_AON_GPIO``  (BIT1) - AON GPIO wakeup
+| ``DS_RTC``       (BIT2) - RTC wakeup
+| ``DS_COMP``      (BIT3) - COMP wakeup
+
+For AON timer, please set ``CLOCK`` value to 0 or 1, 0:100kHz, 1:4MHz, ``SLEEP_DURATION`` unit is in seconds.
+
+For AON GPIO, please set the ``AON_GPIO_PIN`` value to 21 or 22.
+
+|image02|
+
+For RTC, please set the value for ``ALARM_DAY``, ``ALARM_HOUR``, ``ALARM_MIN``, or ``ALARM_SEC``. All alarm values set the duration of RTC wake-up. The range is "1day, 0h, 0m, 0s" to "365day, 23h, 59min, 59s".
+
+Single Wake-up Sources
+~~~~~~~~~~~~~~~~~~~~~~
+
 | Step 1. Ensure RETENTION is "#define RETENTION 0" in this example.
 | Step 2. Set up the "WAKEUP_SOURCE", AON timer: 0; AON GPIO: 1; RTC: 2.
 | Step 3. Set up the wake-up source setting. There are 3 wake-up sources, each one has its own settings.

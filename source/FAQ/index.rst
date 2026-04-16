@@ -60,3 +60,7 @@ Ameba FAQ
    watchdog_option
 
    wifi_optimal_performance
+
+   usb_cdc_ecm_adapter
+
+   usb_uvcd_settings
