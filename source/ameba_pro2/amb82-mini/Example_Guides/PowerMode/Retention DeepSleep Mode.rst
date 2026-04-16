@@ -49,7 +49,34 @@ Open example in :guilabel:`File -> Examples -> AmebaPowerMode -> RetentionDeepSl
 
 |image01|
 
-| Next is setting up the system and entering the power mode. Please refer to the following steps for entering Deep Sleep mode.
+Next is setting up the system and entering the power mode. Please refer to the following steps for entering Deep Sleep mode.
+
+Use the ``USE_MULTIPLE_WAKEUP_SOURCES`` configuration flag to set for multiple or single wakeup sources.
+
+| 0: single 
+| 1: multiple
+
+Multiple Wake-up Sources
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+You can use bitwise OR to setup multiple wakeup sources for ``MULTI_WAKEUP_SOURCE``
+
+| ``DS_AON_TIMER`` (BIT0) - AON Timer wakeup
+| ``DS_AON_GPIO``  (BIT1) - AON GPIO wakeup
+
+For AON timer, please set ``CLOCK`` value to 0 or 1, 0:100kHz, 1:4MHz, ``SLEEP_DURATION`` unit is in seconds.
+
+For AON GPIO, please set the ``AON_GPIO_PIN`` value to 21 or 22.
+
+|image02|
+
+To define retention variables, please refer to the following diagram.
+
+|image04|
+
+Single Wake-up Sources
+~~~~~~~~~~~~~~~~~~~~~~
+
 | Step 1. Ensure RETENTION is "#define RETENTION 1" in this example.
 | Step 2. Set up the "WAKEUP_SOURCE", AON timer: 0; AON GPIO: 1.
 | Step 3. Set up the wake-up source setting. There are 2 wake-up sources, each one has its own settings.

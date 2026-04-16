@@ -57,9 +57,49 @@ The module and board power consumption report under Standby mode are listed in t
 
 Open example in :guilabel:`File -> Examples -> AmebaPowerMode -> RetentionStandbyMode`
 
-|Image01|
+|image01|
 
-| Next is setting up the system and entering the power mode. Please refer to the following steps for entering Standby mode.
+Next is setting up the system and entering the power mode. Please refer to the following steps for entering Standby mode.
+
+Use the ``USE_MULTIPLE_WAKEUP_SOURCES`` configuration flag to set for multiple or single wakeup sources.
+
+| 0: single 
+| 1: multiple
+
+Multiple Wake-up Sources
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+You can use bitwise OR to setup multiple wakeup sources for ``MULTI_WAKEUP_SOURCE``
+
+| ``SLP_AON_TIMER`` (BIT0) - AON Timer wakeup
+| ``SLP_AON_GPIO``  (BIT1) - AON GPIO wakeup
+| ``SLP_PON_GPIO``  (BIT4) - PON GPIO wakeup
+| ``SLP_GTIMER``    (BIT7) - GTimer wakeup
+
+.. note ::
+   SLP_RTC is not supported with retention
+   SLP_GTIMER is automatically added when retention is enabled
+
+For AON timer, please set ``CLOCK`` value to 0 or 1, 0:100kHz, 1:4MHz, ``SLEEP_DURATION`` unit is in seconds.
+
+For AON GPIO, please set the ``AON_GPIO_PIN`` value to 21 or 22.
+
+|image02|
+
+
+For PON GPIO, please set the ``PON_GPIO_PIN`` to value between 0 and 11. The GPIO pin is set to active high, please refer to the following connection.
+
+|image03|
+
+For GTimer, please set the value for ``GTIMER_DURATION``, the timer sleep duration in seconds.
+
+To define retention variables, please refer to the following diagram.
+
+|image05|
+
+Single Wake-up Sources
+~~~~~~~~~~~~~~~~~~~~~~
+
 | Step 1. Ensure RETENTION is "#define RETENTION 1" in this example.
 | Step 2. Set up the "WAKEUP_SOURCE", AON timer: 0; AON GPIO: 1; PON GPIO: 2, Gtimer0: 3.
 | Step 3. Set up the wake-up source setting. There are 4 wake-up sources, each one has its own settings.
