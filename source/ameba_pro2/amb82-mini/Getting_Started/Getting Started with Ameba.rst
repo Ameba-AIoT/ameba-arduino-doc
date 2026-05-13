@@ -302,7 +302,7 @@ Step 2. Compile and Get the library
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Refer to `ameba-rtos-pro2 <https://github.com/Ameba-AIoT/ameba-rtos-pro2/blob/main/tools/arduino_libarduino_tool/Readme.md>`__
-Excute the exe file and get the linarduino.a
+Execute the exe file and get the linarduino.a
 
 Step 3. Replace the libarduino.a into Arudino SDK
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
