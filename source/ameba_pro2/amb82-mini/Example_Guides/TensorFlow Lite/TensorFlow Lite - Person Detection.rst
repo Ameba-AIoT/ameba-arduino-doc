@@ -41,7 +41,7 @@ Code Reference
 
 More information on TensorFlow Lite for Microcontrollers can be found at: https://www.tensorflow.org/lite/microcontrollers
 
-.. |image09| image:: ../../../../_static/amebapro2/Example_Guides/Person_Detection/image09.png
+.. |image09| image:: ../../../../_static/amebapro2/Example_Guides/TensorFlowLite/Person_Detection/image09.png
    :width: 639
    :height: 477
    :scale: 100 %

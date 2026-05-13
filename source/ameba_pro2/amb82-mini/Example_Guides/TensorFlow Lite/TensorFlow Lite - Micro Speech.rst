@@ -39,7 +39,7 @@ Code Reference
 
 More information on TensorFlow Lite for Microcontrollers can be found at: https://www.tensorflow.org/lite/microcontrollers
 
-.. |image05| image:: ../../../../_static/amebapro2/Example_Guides/Micro_Speech/image05.png
+.. |image05| image:: ../../../../_static/amebapro2/Example_Guides/TensorFlowLite/Micro_Speech/image05.png
    :width: 607
    :height: 379
    :scale: 100 %
