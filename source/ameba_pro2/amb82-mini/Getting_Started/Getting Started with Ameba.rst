@@ -289,6 +289,27 @@ In short, this example makes on-board LED blinks.
 
 |image14|
 
+Build/Customize library into SDK
+--------------------------------
+
+Step 1. Setup Freertos SDK
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Refer to `ameba-rtos-pro2 <https://github.com/Ameba-AIoT/ameba-rtos-pro2>`__
+Setup and update the source code of the library.
+
+Step 2. Compile and Get the library
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Refer to `ameba-rtos-pro2 <https://github.com/Ameba-AIoT/ameba-rtos-pro2/blob/main/tools/arduino_libarduino_tool/Readme.md>`__
+Execute the exe file and get the linarduino.a
+
+Step 3. Replace the libarduino.a into Arudino SDK
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Refer to `ameba-rtos-pro2 <https://github.com/Ameba-AIoT/ameba-rtos-pro2/blob/main/tools/arduino_libarduino_tool/Readme.md>`__
+Open the path with old libarduino.a use the new new libarduino.a to replace it. Compile and run under Arduino IDE to check if the library update successfully.
+
 Video Tutorials and Demos
 -------------------------
 

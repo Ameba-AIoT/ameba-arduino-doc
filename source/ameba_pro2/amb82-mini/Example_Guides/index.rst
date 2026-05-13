@@ -25,6 +25,7 @@ Example Guides
    QR Code Scanner/index
    RTC/index
    SPI/index
+   TensorFlow Lite/index
    USB/index
    Watchdog/index
    WiFi/index
