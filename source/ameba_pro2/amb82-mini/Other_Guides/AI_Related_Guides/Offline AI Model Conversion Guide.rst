@@ -13,7 +13,7 @@ Acuity Toolkit Download
 
 - `Manual installation guide <https://ameba-doc-ai-video-analytics-doc.readthedocs-hosted.com/en/latest/user_manual/Acuity_tool/Acuity_installation_manual.html>`__ (supported on Ubuntu 20.04 or 22.04 only)
 
-.. note ::
-   ​To access offline AI model conversion tools, please contact AmebaAIoT@realtek.com with the subject line **"Offline AI Model"**. Ensure that you use your **official company, institution, or educational organization email account** for this request. This will help to verify your affiliation and process your inquiry more efficiently.
-
-   Once approved, please sign in to your GitHub account to download the files
+.. note :: 
+   To access offline AI model conversion tools, please fill up this  `Form <https://forms.cloud.microsoft/r/ME5sTbximx>`__ with your **official company, institution, or educational organization email account**. This will help us to verify your application and process your inquiry more efficiently. 
+   
+   Once approved, please sign in to your GitHub account to download the files.
