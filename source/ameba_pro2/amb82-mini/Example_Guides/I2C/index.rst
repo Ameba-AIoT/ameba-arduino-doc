@@ -5,8 +5,12 @@ I2C
    :maxdepth: 1
 
    Display Data on LCD Screen
+   Dual Board I2C Master
+   Dual Board I2C Slave
    Master Receive Data from Arduino UNO
    Master Send Data to Arduino UNO
+   Slave Receive Data from Arduino UNO
+   Slave Send Data to Arduino UNO
    MPU6050 DMP6
    MPU6050 DMP6 ImuData for ROS
    MPU6050 IMU Zero

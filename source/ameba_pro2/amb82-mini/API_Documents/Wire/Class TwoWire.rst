@@ -19,42 +19,48 @@ A class of I2C API.
 **Members**
 ~~~~~~~~~~~
 
-+----------------------------+----------------------------------------+
-| **Public Constructors**                                             |
-+============================+========================================+
-| TwoWire::TwoWire           | Constructs a TwoWire object            |
-+----------------------------+----------------------------------------+
-| **Public Methods**                                                  |
-+----------------------------+----------------------------------------+
-| TwoWire::begin             | Initialize I2C master/slave            |
-+----------------------------+----------------------------------------+
-| TwoWire::end               | Deinitialize I2C master/slave          |
-+----------------------------+----------------------------------------+
-| TwoWire::setClock          | Set I2C clock frequency                |
-+----------------------------+----------------------------------------+
-| TwoWire::beginTransmission | Begin I2C transmission                 |
-+----------------------------+----------------------------------------+
-| TwoWire::endTransmission   | Stop I2C transmission                  |
-+----------------------------+----------------------------------------+
-| TwoWire::requestFrom       | Set I2C requestFrom                    |
-+----------------------------+----------------------------------------+
-| TwoWire::write             | Write data to I2C                      |
-+----------------------------+----------------------------------------+
-| TwoWire::available         | Check if I2C is available              |
-+----------------------------+----------------------------------------+
-| TwoWire::read              | Read data from I2C                     |
-+----------------------------+----------------------------------------+
-| TwoWire::peek              | Read peek from I2C                     |
-+----------------------------+----------------------------------------+
-| TwoWire::flush             | Do nothing, use, and transmission(..)  |
-|                            | to force data transfer                 |
-+----------------------------+----------------------------------------+
-| TwoWire::onReceive         | Callback function when I2C on receive  |
-+----------------------------+----------------------------------------+
-| TwoWire::onRequest         | Callback function when I2C on request  |
-+----------------------------+----------------------------------------+
-| TwoWire::slaveWrite        | Send data as a slave device            |
-+----------------------------+----------------------------------------+
++---------------------------------+----------------------------------------+
+| **Public Constructors**                                                  |
++=================================+========================================+
+| TwoWire::TwoWire                | Constructs a TwoWire object            |
++---------------------------------+----------------------------------------+
+| **Public Methods**                                                       |
++---------------------------------+----------------------------------------+
+| TwoWire::begin                  | Initialize I2C master/slave            |
++---------------------------------+----------------------------------------+
+| TwoWire::end                    | Deinitialize I2C master/slave          |
++---------------------------------+----------------------------------------+
+| TwoWire::setClock               | Set I2C clock frequency                |
++---------------------------------+----------------------------------------+
+| TwoWire::beginTransmission      | Begin I2C transmission                 |
++---------------------------------+----------------------------------------+
+| TwoWire::endTransmission        | Stop I2C transmission                  |
++---------------------------------+----------------------------------------+
+| TwoWire::requestFrom            | Set I2C requestFrom                    |
++---------------------------------+----------------------------------------+
+| TwoWire::write                  | Write data to I2C                      |
++---------------------------------+----------------------------------------+
+| TwoWire::available              | Check if I2C is available              |
++---------------------------------+----------------------------------------+
+| TwoWire::read                   | Read data from I2C                     |
++---------------------------------+----------------------------------------+
+| TwoWire::peek                   | Read peek from I2C                     |
++---------------------------------+----------------------------------------+
+| TwoWire::flush                  | Do nothing, use, and transmission(..)  |
+|                                 | to force data transfer                 |
++---------------------------------+----------------------------------------+
+| TwoWire::onReceive              | Callback function when I2C on receive  |
++---------------------------------+----------------------------------------+
+| TwoWire::onRequest              | Callback function when I2C on request  |
++---------------------------------+----------------------------------------+
+| TwoWire::slaveWrite             | Send data as a slave device            |
++---------------------------------+----------------------------------------+
+| TwoWire::setWireTimeout         | Set a user-defined timeout             |
++---------------------------------+----------------------------------------+
+| TwoWire::getWireTimeoutFlag     | Check for a user-defined timeout       |
++---------------------------------+----------------------------------------+
+| TwoWire::clearWireTimeoutFlag   | Clear a user-defined timeout           |
++---------------------------------+----------------------------------------+
 
 **TwoWire::TwoWire**
 --------------------
@@ -89,6 +95,7 @@ NA
 ~~~~~~~~~~~~~~~~
 
 Example: `MasterSendData <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Wire/examples/MasterSendData/MasterSendData.ino>`_
+Example: `SlaveSendData <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Wire/examples/SlaveSendData/SlaveSendData.ino>`_
 
 .. note :: "Wire.h" must be included to use the class function.
 
@@ -550,32 +557,118 @@ NA
 **Description**
 ~~~~~~~~~~~~~~~
 
-Send data as a slave device, note that this API only work when device is configured as I2C slave (see begin()).
+Send data as a slave device.
 
 **Syntax**
 ~~~~~~~~~~
 
 .. code-block:: c++
 
-    size_t slaveWrite(int buffer);
-    size_t slaveWrite(char *buffer);
-    size_t slaveWrite(uint8_t *buffer, size_t len);
+    void slaveWrite(void);
 
 **Parameters**
 ~~~~~~~~~~~~~~
 
-buffer: Data container that can be an integer or a character pointer.
-
-Len: The length of the data buffer.
+NA
 
 **Returns**
 ~~~~~~~~~~~
 
-This function returns true if successful, else returns false.
+NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+Example: `SlaveSendData <https://github.com/Ameba-AIoT/ameba-arduino-pro2/blob/dev/Arduino_package/hardware/libraries/Wire/examples/SlaveSendData/SlaveSendData.ino>`_
+
+.. note :: "Wire.h" must be included to use the class function. This function can only be called if the device is in slave mode and after user has registered a requestEvent using onRequest().
+
+**TwoWire::setWireTimeout**
+---------------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+Set a user-defined timeout. The actual timeouts are not fixed in seconds, they are data-dependent where the maximum default timeout is 128s for TX and 6400s for RX, it can be lesser for small data transmission. User may choose to use this function to introduce additional timeout value for their application.
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    void setWireTimeout(uint32_t timeout);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+timeout: timeout value (us) set by user
+
+**Returns**
+~~~~~~~~~~~
+
+NA
 
 **Example Code**
 ~~~~~~~~~~~~~~~~
 
 NA
 
-.. note :: "Wire.h" must be included to use the class function. This function can only be called if the device is in slave mode and after user has registered a requestEvent using onRequest().
+**TwoWire::getWireTimeoutFlag**
+-------------------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+Check for a user-defined timeout 
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    bool getWireTimeout(void);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+NA
+
+**Returns**
+~~~~~~~~~~~
+
+NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA
+
+**TwoWire::clearWireTimeoutFlag**
+---------------------------------
+
+**Description**
+~~~~~~~~~~~~~~~
+
+Clear a user-defined timeout
+
+**Syntax**
+~~~~~~~~~~
+
+.. code-block:: c++
+
+    void clearWireTimeoutFlag(void);
+
+**Parameters**
+~~~~~~~~~~~~~~
+
+NA
+
+**Returns**
+~~~~~~~~~~~
+
+NA
+
+**Example Code**
+~~~~~~~~~~~~~~~~
+
+NA

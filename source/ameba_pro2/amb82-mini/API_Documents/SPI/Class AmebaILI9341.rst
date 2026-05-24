@@ -90,7 +90,7 @@ The main class constructor when using AmebaILI9341 SPI display modules.
 
 .. code-block:: c++
 
-    AmebaILI9341(int csPin, int dcPin, int resetPin);
+    AmebaILI9341(int csPin, int dcPin, int resetPin, SPIClass *spi);
 
 **Parameters**
 ~~~~~~~~~~~~~~
@@ -100,6 +100,8 @@ csPin: the Chip Select pin
 dcPin: the Data Command pin
 
 resetPin: the Reset pin
+
+\*spi: pointer to SPI 0 or 1 instance (default is set to 0)
 
 **Returns**
 ~~~~~~~~~~~
