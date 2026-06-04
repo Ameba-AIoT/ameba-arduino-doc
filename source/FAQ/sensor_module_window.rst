@@ -35,13 +35,11 @@ Manufacturing Contact Points
 
 For inquiries, customization, or procurement, please contact the following manufacturers:
 
-- `Taiyee <taiyee.sales@taiyee2000.com.tw>`__ 
+- `Realtek <AmebaAIoT@realtek.com>`__
 
-|image01|
+- `Taiyee <taiyee.sales@taiyee2000.com.tw>`__
 
 - `Cbritech <https://cbritech.com/contact/>`__
-
-- `Realtek <AmebaAIoT@realtek.com>`__
 
 Camera Sensors Available
 ----------------------------
@@ -55,105 +53,105 @@ The following table summarizes available camera sensors, manufacturers, and curr
 |                  +------------------+-------------------------------+
 |                  | Taiyee           | Tested, available             |
 |                  +------------------+-------------------------------+
-|                  | CBRITECH         | Supported (not verified)      |
+|                  | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| GC4653           | CBRITECH         | Tested, available             |
+| GC4653           | Cbritech         | Tested, available             |
 +------------------+------------------+-------------------------------+
-| SC2336           | CBRITECH         | Supported (not verified)      |
+| SC2336           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| GC2053           | CBRITECH         | Supported (not verified)      |
+| GC2053           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| IMX327           | CBRITECH         | Supported (not verified)      |
+| IMX327           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| F51              | CBRITECH         | Supported (not verified)      |
+| F51              | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| PS5258           | CBRITECH         | Supported (not verified)      |
+| PS5258           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| SC301            | CBRITECH         | Supported (not verified)      |
+| SC301            | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| IMX307           | CBRITECH         | Supported (not verified)      |
+| IMX307           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| SC2333           | CBRITECH         | Supported (not verified)      |
+| SC2333           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| GC4023           | CBRITECH         | Supported (not verified)      |
+| GC4023           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| PS5420           | CBRITECH         | Supported (not verified)      |
+| PS5420           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| PS5270           | CBRITECH         | Supported (not verified)      |
+| PS5270           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| GC5035           | CBRITECH         | Supported (not verified)      |
+| GC5035           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| PS5268           | CBRITECH         | Supported (not verified)      |
+| PS5268           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| SC2310           | CBRITECH         | Supported (not verified)      |
+| SC2310           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| F53              | CBRITECH         | Supported (not verified)      |
+| F53              | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| F55              | CBRITECH         | Supported (not verified)      |
+| F55              | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| GC4663           | CBRITECH         | Supported (not verified)      |
+| GC4663           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| K351             | CBRITECH         | Supported (not verified)      |
+| K351             | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| OV50A40          | CBRITECH         | Supported (not verified)      |
+| OV50A40          | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| OS04A10          | CBRITECH         | Supported (not verified)      |
+| OS04A10          | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| GC1084           | CBRITECH         | Supported (not verified)      |
+| GC1084           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| SC5356           | CBRITECH         | Supported (not verified)      |
+| SC5356           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| F38              | CBRITECH         | Supported (not verified)      |
+| F38              | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| PS5262           | CBRITECH         | Supported (not verified)      |
+| PS5262           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| K05              | CBRITECH         | Supported (not verified)      |
+| K05              | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| MIS2008          | CBRITECH         | Supported (not verified)      |
+| MIS2008          | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| NT99236          | CBRITECH         | Supported (not verified)      |
+| NT99236          | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| VD550G           | CBRITECH         | Supported (not verified)      |
+| VD550G           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| GC3003           | CBRITECH         | Supported (not verified)      |
+| GC3003           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| IMX662           | CBRITECH         | Supported (not verified)      |
+| IMX662           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| GC2083           | CBRITECH         | Supported (not verified)      |
+| GC2083           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| OV2735           | CBRITECH         | Supported (not verified)      |
+| OV2735           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| SC400AI          | CBRITECH         | Supported (not verified)      |
+| SC400AI          | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| OV9734           | CBRITECH         | Supported (not verified)      |
+| OV9734           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| CV2003           | CBRITECH         | Supported (not verified)      |
+| CV2003           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| GC2093           | CBRITECH         | Supported (not verified)      |
+| GC2093           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| F35              | CBRITECH         | Supported (not verified)      |
+| F35              | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| OV5693           | CBRITECH         | Supported (not verified)      |
+| OV5693           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| SC3336           | CBRITECH         | Supported (not verified)      |
+| SC3336           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| K06A             | CBRITECH         | Supported (not verified)      |
+| K06A             | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| K306P            | CBRITECH         | Supported (not verified)      |
+| K306P            | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| IMX471           | CBRITECH         | Supported (not verified)      |
+| IMX471           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| IMX681           | CBRITECH         | Supported (not verified)      |
+| IMX681           | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| FIXP_5M          | CBRITECH         | Supported (not verified)      |
+| FIXP_5M          | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| FIXP_2K          | CBRITECH         | Supported (not verified)      |
+| FIXP_2K          | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| OS02H10          | CBRITECH         | Supported (not verified)      |
+| OS02H10          | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| OV13B10          | CBRITECH         | Supported (not verified)      |
+| OV13B10          | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
-| OV12890          | CBRITECH         | Supported (not verified)      |
+| OV12890          | Cbritech         | Supported (not verified)      |
 +------------------+------------------+-------------------------------+
 
 .. |image01| image:: ../_static/FAQ/sensor_module_window/Taiyee_logo.png
