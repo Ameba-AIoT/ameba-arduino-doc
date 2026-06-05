@@ -39,9 +39,7 @@ For inquiries, customization, or procurement, please contact:
 
   - `Taiyee <mailto:taiyee.sales@taiyee2000.com.tw>`__
 
-  - `ICshop onoine <https://www.icshop.com.tw/products/368030502361>`__
-  
-  |image01|
+  - `ICshop online <https://www.icshop.com.tw/products/368030502361>`__
 
 - Other manufacturer
 
