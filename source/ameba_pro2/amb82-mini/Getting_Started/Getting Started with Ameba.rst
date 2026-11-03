@@ -101,20 +101,20 @@ First, connect AMB82 MINI to the computer via Micro USB:
 
 |image03|
 
-If this is the first time connects board to computer, the USB driver for board will be automatic installed.
+When connecting the board to a computer for the first time, the required USB driver will be installed automatically.
 
-If you have driver issue of connect board to computer please go to http://www.wch-ic.com/downloads/CH341SER_ZIP.html for USB driver.
+If you encounter any driver issues when connecting the board to your computer, download and install the USB driver from http://www.wch-ic.com/downloads/CH341SER_ZIP.html for USB driver.
 
-Check the COM port number in Device Manager of computer:
+To identify the COM port assigned to the board, open Device Manager on your computer and check the port number under Ports (COM & LPT).
 
 |image04|
 
 Step 3. Set up Arduino IDE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-From version 1.6.5, Arduino IDE supports third-party hardware. Therefore, we can use Arduino IDE to develop applications, and the Arduino basic examples are supported. Arduino IDE can be downloaded in the Arduino website: https://www.arduino.cc/en/Main/Software
+Starting from version 1.6.5, the Arduino IDE supports third-party hardware, allowing users to develop applications and run basic Arduino examples. The Arduino IDE can be downloaded from the official Arduino website: https://www.arduino.cc/en/Main/Software
 
-When the installation is finished, open Arduino IDE. To set up correctly in Arduino IDE, go to :guilabel:`File -> Preferences`
+Once the installation is complete, launch the Arduino IDE and navigate to :guilabel:`File -> Preferences`.
 
 |image05|
 
@@ -129,165 +129,217 @@ And paste the following URL into :guilabel:`Additional Boards Manager URLs` fiel
 |             | & early release          | | https://ameba-doc-arduino-sdk-json.readthedocs-hosted.com/en/latest/_static/package_realtek_amebapro2_early_index_rtd.json   |
 +-------------+--------------------------+--------------------------------------------------------------------------------------------------------------------------------+
 
-Next, go to :guilabel:`Tools -> Board -> Boards Manager`
+Next, navigate to :guilabel:`Tools -> Board -> Boards Manager`:
+
+Select the version you would like to install, then click “Install” to download and install the required files.
 
 |image06|
 
-The "Boards Manager" requires about 10~20 seconds to refresh all hardware files (if the network is in bad condition, it may take longer).
-
-Every time the new hardware is connected, we need to reopen the Board Manager. Find "Realtek Ameba Boards" in the list, click "Install", then the Arduino IDE starts to download required files.
-
-|image07|
-
-After the installation tool running successfully, you may open Arduino IDE and proceed to :guilabel:`tools -> Board -> Boards Manager…` Try to find "Realtek Ameba Boards" in the list, click "Install", then the Arduino IDE starts to download required files.
-
-Finally, we select board in :guilabel:`tools -> Board -> AmebaPro2 ARM (32-bits) Boards -> AMB82-MINI`
+After the installation is completed, select the AMB82-MINI board by navigating to Tools → Board → AmebaPro2 ARM (32-bits) Boards → AMB82-MINI-V1 or AMB82-MINI-V2 or AMB82-Zero.
 
 |image08|
 
-Try the First Example
----------------------
+Differences Between AMB82-MINI V1 and V2
+----------------------------------------
 
-Step 1. Selection Ameba Modes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The AMB82-MINI board is available in two versions: V1 and V2.
+The main difference between these versions is the default
+camera sensor.
 
-There are many different Modes for user to select for different settings of compile and upload. Please refer to the following picture and table.
+Users should select the corresponding board version in
+Arduino IDE based on their hardware.
+
+.. list-table::
+   :header-rows: 1
+   :widths: 30 35 35
+
+   * - Feature
+     - AMB82-MINI-V1
+     - AMB82-MINI-V2
+   * - Default Camera Sensor
+     - JFX37
+     - K306P
+
+Configure Ameba Board Options
+-------------------------------
+
+There are many different modes for users to select from, depending on their compilation and upload settings. Please refer to the following figure and table for more details.
 
 |image09|
 
-+----------------------------------+-----------------------------------------------------------------------------------------+-------------+
-| **Mode Name**                    | **Usage**                                                                               | **Remarks** |
-+==================================+=========================================================================================+=============+
-| \* Auto Flash Mode               | | **Disable** - Manual process to enter flash mode.                                     |             |
-|                                  | |                                                                                       |             |
-|                                  | | **Enable** - Auto process to enter flash mode.                                        |             |
-+----------------------------------+-----------------------------------------------------------------------------------------+-------------+
-| \* Upload Speed                  | | **2000000** - Upload baud rate set as 2000000.                                        |             |
-|                                  | |                                                                                       |             |
-|                                  | | **1000000** - Upload baud rate set as 1000000.                                        |             |
-|                                  | |                                                                                       |             |
-|                                  | | **230400** - Upload baud rate set as 230400.                                          |             |
-+----------------------------------+-----------------------------------------------------------------------------------------+-------------+
-| \* Erase All Flash Memory (16MB) | | **Disable** - No erash flash process.                                                 |             |
-|                                  | |                                                                                       |             |
-|                                  | | **Erase only** - Erase entire flash.                                                  |             |
-|                                  | |                                                                                       |             |
-|                                  | | **Erase then Upload** - Erase entire flash then upload the current application.       |             |
-+----------------------------------+-----------------------------------------------------------------------------------------+-------------+
-| \* Camera Options                | | **JFX37** - Use the camera sensor JFX37.                                              |             |
-|                                  | |                                                                                       |             |
-|                                  | | **JFX53** - Use the camera sensor JFX53.                                              |             |
-|                                  | |                                                                                       |             |
-|                                  | | **GC2053** - Use the camera sensor GC2053.                                            |             |
-|                                  | |                                                                                       |             |
-|                                  | | **GC4653** - Use the camera sensor GC4653.                                            |             |
-|                                  | |                                                                                       |             |
-|                                  | | **GC5035** - Use the camera sensor GC5035.                                            |             |
-|                                  | |                                                                                       |             |
-|                                  | | **IMX307** - Use the camera sensor IMX307.                                            |             |
-|                                  | |                                                                                       |             |
-|                                  | | **IMX327** - Use the camera sensor IMX327.                                            |             |
-|                                  | |                                                                                       |             |
-|                                  | | **IMX662** - Use the camera sensor IMX662.                                            |             |
-|                                  | |                                                                                       |             |
-|                                  | | **PS5268** - Use the camera sensor PS5268.                                            |             |
-|                                  | |                                                                                       |             |
-|                                  | | **OV9734** - Use the camera sensor OV9734.                                            |             |
-|                                  | |                                                                                       |             |
-|                                  | | **SC2336** - Use the camera sensor SC2336.                                            |             |
-+----------------------------------+-----------------------------------------------------------------------------------------+-------------+
-| \* Camera FCS Mode               | | **Disable** - No Camera FCS mode process.                                             |             |
-|                                  | |                                                                                       |             |
-|                                  | | **Enable** - Enable Camera FCS mode, if the camera sensor has FCS mode.               |             |
-+----------------------------------+-----------------------------------------------------------------------------------------+-------------+
-| \* NN Model Load From            | | **Flash** - Load the Neural Network AI model from flash memory.                       |             |
-|                                  | |                                                                                       |             |
-|                                  | | **SD Card** - Load the Neural Network AI model from SD card memory. Total size of the |             |
-|                                  | | models depend on the total size of the SD card.                                       |             |
-+----------------------------------+-----------------------------------------------------------------------------------------+-------------+
-| \* OTA Mode                      | | **Disable** - No OTA mode process.                                                    |             |
-|                                  | |                                                                                       |             |
-|                                  | | **Enable** - Enable OTA mode.                                                         |             |
-+----------------------------------+-----------------------------------------------------------------------------------------+-------------+
-| \* Standard Lib                  | | **Arduino_STD_PRINTF** - Choose the standard library function for compile and upload. |             |
-|                                  | |                                                                                       |             |
-|                                  | | **Disable** - No standard library function.                                           |             |
-+----------------------------------+-----------------------------------------------------------------------------------------+-------------+
-| \* Arduino: API logs             | | **Enable all**  - Activates all available Arduino API logs, including error,          |             |
-|                                  | | info, and debug messages.                                                             |             |
-|                                  | |                                                                                       |             |
-|                                  | | **Error logs**  - Displays only error messages.                                       |             |
-|                                  | |                                                                                       |             |
-|                                  | | **Info logs**   - Displays general informational messages.                            |             |
-|                                  | |                                                                                       |             |
-|                                  | | **Disable all** - Turns off all Arduino API logs.                                     |             |
-+----------------------------------+-----------------------------------------------------------------------------------------+-------------+
-| \* System: Multimedia logs       | | **Enable all** - Enables all multimedia logs.                                         |             |
-|                                  | |                                                                                       |             |
-|                                  | | **Video/OSD logs only** - Enables logs for Video and OSD components only.             |             |
-|                                  | |                                                                                       |             |
-|                                  | | **NN/OSD logs only** - Enables logs for Neural Network (NN) and OSD components only.  |             |
-|                                  | |                                                                                       |             |
-|                                  | | **Disable all** - Turns off NN, Video, and OSD logs.                                  |             |
-+----------------------------------+-----------------------------------------------------------------------------------------+-------------+
-| \* System: WiFi logs             | | **Enable** - Turns on WiFi driver logging.                                            |             |
-|                                  | |                                                                                       |             |
-|                                  | | **Disable** - Turns off WiFi driver logging.                                          |             |
-+----------------------------------+-----------------------------------------------------------------------------------------+-------------+
-| \* All logs: Hard mute           | | **Disable** - Keeps the logging system active.                                        |             |
-|                                  | |                                                                                       |             |
-|                                  | | **Enable** - Completely disables all logs, including printf. Not recommended if you   |             |
-|                                  | | still need debugging capabilities.                                                    |             |
-+----------------------------------+-----------------------------------------------------------------------------------------+-------------+
-| \* Watchdog                      | | **Disable** - Turn off the watchdog function.                                         |             |
-|                                  | |                                                                                       |             |
-|                                  | | **Enable** - Activate watchdog function                                               |             |
-+----------------------------------+-----------------------------------------------------------------------------------------+-------------+
+.. list-table::
+   :header-rows: 1
+   :widths: 25 55 20
 
-Step 2. Compile
-~~~~~~~~~~~~~~~
+   * - Mode Name
+     - Usage
+     - Remarks
 
-Arduino IDE provides many built-in examples, which can be compiled, uploaded, and run directly on the boards. Here, we take the "Blink" example as the first try.
+   * - Auto Flash Mode
+     - | **Disable** - Manual process to enter flash mode.
+       | **Enable** - Auto process to enter flash mode.
+     -
 
-Open :guilabel:`File -> Examples -> 01.Basics -> Blink`
+   * - Upload Speed
+     - | **2000000** - Upload baud rate set as 2000000.
+       | **1000000** - Upload baud rate set as 1000000.
+       | **230400** - Upload baud rate set as 230400.
+     -
+
+   * - Erase All Flash Memory (16MB)
+     - | **Disable** - No erase flash process.
+       | **Erase only** - Erase entire flash.
+       | **Erase then Upload** - Erase entire flash then upload the current application.
+     -
+
+   * - Camera Options
+     - | **JFX37**
+       | **JFX53**
+       | **GC2053**
+       | **GC4653**
+       | **GC4663**
+       | **GC5035**
+       | **GC02M1**
+       | **IMX307**
+       | **IMX327**
+       | **IMX662**
+       | **IMX681**
+       | **IMX681_5M**
+       | **IMX681_12M**
+       | **IMX681_12M_SEQ**
+       | **K306P**
+       | **K306P_HD**
+       | **OV50A40**
+       | **OV50A40_50M**
+       | **OV5647**
+       | **OV7251**
+       | **OV9734**
+       | **OV9734_SD**
+       | **PS5268**
+       | **SC2336**
+       | **FIXP_2K**
+       | **FIXP_5M**
+     -
+
+   * - Camera FCS Mode
+     - | **Disable** - No Camera FCS mode process.
+       | **Enable** - Enable Camera FCS mode, if the camera sensor has FCS mode.
+     -
+
+   * - NN Model Load From
+     - | **Flash** - Load the Neural Network AI model from flash memory.
+       | **SD Card** - Load the Neural Network AI model from SD card memory. Total size of the models depends on the total size of the SD card.
+     -
+
+   * - OTA Mode
+     - | **Disable** - No OTA mode process.
+       | **Enable** - Enable OTA mode.
+     -
+
+   * - Standard Lib
+     - | **Arduino_STD_PRINTF** - Choose the standard library function for compile and upload.
+       | **Disable** - No standard library function.
+     -
+
+   * - Arduino: API logs
+     - | **Enable all** - Activates all available Arduino API logs, including error, info, and debug messages.
+       | **Error logs** - Displays only error messages.
+       | **Info logs** - Displays general informational messages.
+       | **Disable all** - Turns off all Arduino API logs.
+     -
+
+   * - System: Multimedia logs
+     - | **Enable all** - Enables all multimedia logs.
+       | **Video/OSD logs only** - Enables logs for Video and OSD components only.
+       | **NN/OSD logs only** - Enables logs for Neural Network (NN) and OSD components only.
+       | **Disable all** - Turns off NN, Video, and OSD logs.
+     -
+
+   * - System: WiFi logs
+     - | **Enable** - Turns on WiFi driver logging.
+       | **Disable** - Turns off WiFi driver logging.
+     -
+
+   * - All logs: Hard mute
+     - | **Disable** - Keeps the logging system active.
+       | **Enable** - Completely disables all logs, including printf. Not recommended if you still need debugging capabilities.
+     -
+
+   * - Watchdog
+     - | **Disable** - Turn off the watchdog function.
+       | **Enable** - Activate watchdog function.
+     -
+
+   * - BMP to HPP Img Conv
+     - | **Disable** - Disable BMP image conversion to an HPP header file.
+       | **Enable** - Enable BMP image conversion to an HPP header file.
+     -
+
+Select the Camera Sensor
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Once the AmebaPro2 Arduino SDK board package has been installed,
+follow the steps below to select your desired camera sensor.
+
+1. Navigate to :guilabel:`Tools -> Board -> Realtek Ameba Boards (32-bit Arm v8M @500MHz)`.
+
+2. Select your board, such as :guilabel:`AMB82-MINI-V1/AMB82-MINI-V2/AMB82-ZERO`.
+
+3. Navigate to :guilabel:`Tools -> Camera Options`.
+
+4. Select the camera sensor you wish to use from the available options.
 
 |image10|
 
-Arduino IDE opens a new window with the complete sample code.
+Get Started with the Blink Example
+-----------------------------------
 
-Next, we compile the sample code directly; click :guilabel:`Sketch -> Verify/Compile`
+Step 1. Compile
+~~~~~~~~~~~~~~~
 
-Arduino IDE prints the compiling messages in the bottom area of the IDE window. When the compilation is finished, you will get the message as following.
+Arduino IDE provides many built-in examples that can be compiled, uploaded, and run directly on the boards. Here, we will use the “Blink” example as our first demonstration.
+
+Open :guilabel:`File -> Examples -> 01.Basics -> Blink`
 
 |image11|
 
-Afterwards, we will upload the compiled code to board.
+Arduino IDE opens a new window containing the complete sample code.
 
-Step 3. Upload
-~~~~~~~~~~~~~~
+Next, compile the sample code by clicking :guilabel:`Sketch → Verify/Compile`.
 
-Please make sure board is connected to computer, then click :guilabel:`Sketch -> Upload`
-
-The Arduino IDE will compile first then upload. Users are required to enter the upload mode of the board. To enter upload mode, first press and hold the UART_DOWNLOAD button, then press and release the RESET button, lastly release the UART_DOWNLOAD button.
-
-Additionally, if the board has the hardware updates and enabled "Auto Flash Mode", please ignore above instruction.
+Arduino IDE displays the compilation messages in the bottom area of the IDE window. Once the compilation is complete, you will see a message similar to the one shown below.
 
 |image12|
 
-It is optional for users to check if the board entered the upload mode. Open serial monitor/terminal and check the following information,.
+After the compilation is completed successfully, we can proceed to upload the compiled code to the board.
+
+Step 2. Upload
+~~~~~~~~~~~~~~
+
+Please make sure the board is connected to your computer, then click :guilabel:`Sketch -> Upload` to upload the compiled code to the board.
+
+Arduino IDE will first compile the code before uploading it to the board. Users are required to put the board into upload mode before proceeding.
+
+To enter upload mode, press and hold the UART_DOWNLOAD button, then press and release the RESET button. Finally, release the UART_DOWNLOAD button.
+
+However, if your board has the updated hardware and “Auto Flash Mode” is enabled, you may skip the steps above.
 
 |image13|
 
-When upload completed, the "Done uploading" message is printed.
+Users may optionally verify whether the board has entered upload mode by opening a serial monitor or terminal and checking for the following information.
 
-Step 4. Run the Blink example
+|image14|
+
+Once the upload is complete, the “Done uploading” message will be displayed.
+
+Step 3. Run the Blink example
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In each example, Arduino not only provides sample code, but also detailed documentation, including wiring diagram, sample code explanation, technical details, …etc. Please refer the detailed information of the Blink example: https://www.arduino.cc/en/Tutorial/Blink
 
-In short, this example makes on-board LED blinks.
+In short, this example makes onboard LED blink.
 
-|image14|
+|image15|
 
 Build/Customize library into SDK
 --------------------------------
@@ -296,19 +348,29 @@ Step 1. Setup Freertos SDK
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Refer to `ameba-rtos-pro2 <https://github.com/Ameba-AIoT/ameba-rtos-pro2>`__
-Setup and update the source code of the library.
+repository to set up the FreeRTOS SDK.
+
+Once the SDK is set up, update the library source code
+according to your requirements.
 
 Step 2. Compile and Get the library
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Refer to `ameba-rtos-pro2 <https://github.com/Ameba-AIoT/ameba-rtos-pro2/blob/main/tools/arduino_libarduino_tool/Readme.md>`__
-Execute the exe file and get the linarduino.a
+Refer to `ameba-rtos-pro2 <https://github.com/Ameba-AIoT/ameba-rtos-pro2/blob/main/tools/arduino_libarduino_tool/Readme.md>`__ for instructions on compiling and generating the library.
+Execute the provided tool to generate the ``libarduino.a`` file.
 
-Step 3. Replace the libarduino.a into Arudino SDK
+Step 3. Replace the libarduino.a into Arduino SDK
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Refer to `ameba-rtos-pro2 <https://github.com/Ameba-AIoT/ameba-rtos-pro2/blob/main/tools/arduino_libarduino_tool/Readme.md>`__
-Open the path with old libarduino.a use the new new libarduino.a to replace it. Compile and run under Arduino IDE to check if the library update successfully.
+Refer to the `Arduino Library Tool README
+<https://github.com/Ameba-AIoT/ameba-rtos-pro2/blob/main/tools/arduino_libarduino_tool/Readme.md>`_
+to locate the existing ``libarduino.a`` file.
+
+Replace the existing ``libarduino.a`` file in the Arduino SDK
+with the newly generated version.
+
+Finally, compile and upload an example using Arduino IDE
+to verify that the updated library works correctly.
 
 Video Tutorials and Demos
 -------------------------
@@ -350,36 +412,39 @@ Useful Links
    :width:  687 px
    :height:  671 px
 .. |image04| image:: ../../../_static/amebapro2/Getting_Started/Getting_Started_with_AMB82-mini/image04.png
-   :width:  602 px
-   :height:  438 px
+   :width:  774 px
+   :height:  562 px
 .. |image05| image:: ../../../_static/amebapro2/Getting_Started/Getting_Started_with_AMB82-mini/image05.png
-   :width:  478 px
-   :height:  587 px
+   :width:  595 px
+   :height:  631 px
 .. |image06| image:: ../../../_static/amebapro2/Getting_Started/Getting_Started_with_AMB82-mini/image06.png
-   :width:  660 px
-   :height:  854 px
+   :width:  663 px
+   :height:  631 px
 .. |image07| image:: ../../../_static/amebapro2/Getting_Started/Getting_Started_with_AMB82-mini/image07.png
    :width:  778 px
    :height:  435 px
 .. |image08| image:: ../../../_static/amebapro2/Getting_Started/Getting_Started_with_AMB82-mini/image08.png
-   :width:  773 px
-   :height:  600 px
+   :width:  1069 px
+   :height:  577 px
 .. |image09| image:: ../../../_static/amebapro2/Getting_Started/Getting_Started_with_AMB82-mini/image09.png
    :width:  350 px
-   :height:  666 px
+   :height:  688 px
 .. |image10| image:: ../../../_static/amebapro2/Getting_Started/Getting_Started_with_AMB82-mini/image10.png
-   :width:  555 px
-   :height:  605 px
+   :width:  618 px
+   :height:  750 px
 .. |image11| image:: ../../../_static/amebapro2/Getting_Started/Getting_Started_with_AMB82-mini/image11.png
+   :width:  553 px
+   :height:  649 px
+.. |image12| image:: ../../../_static/amebapro2/Getting_Started/Getting_Started_with_AMB82-mini/image12.png
    :width:  669 px
    :height:  70 px
-.. |image12| image:: ../../../_static/amebapro2/Getting_Started/Getting_Started_with_AMB82-mini/image12.png
-   :width:  1040 px
-   :height:  758 px
-   :scale: 80%
 .. |image13| image:: ../../../_static/amebapro2/Getting_Started/Getting_Started_with_AMB82-mini/image13.png
-   :width:  854 px
-   :height:  367 px
+   :width:  1352 px
+   :height:  1031 px
+   :scale: 60%
 .. |image14| image:: ../../../_static/amebapro2/Getting_Started/Getting_Started_with_AMB82-mini/image14.png
+   :width:  498 px
+   :height:  189 px
+.. |image15| image:: ../../../_static/amebapro2/Getting_Started/Getting_Started_with_AMB82-mini/image15.png
    :width:  403 px
    :height:  666 px
