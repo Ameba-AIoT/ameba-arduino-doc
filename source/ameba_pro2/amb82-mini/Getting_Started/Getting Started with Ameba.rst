@@ -135,7 +135,7 @@ Select the version you would like to install, then click “Install” to downlo
 
 |image06|
 
-After the installation is completed, select the AMB82-MINI board by navigating to Tools → Board → AmebaPro2 ARM (32-bits) Boards → AMB82-MINI-V1 or AMB82-MINI-V2 or AMB82-Zero.
+After the installation is completed, select the AMB82-MINI board by navigating to Tools → Board → AmebaPro2 ARM (32-bits) Boards → AMB82-MINI-V1 or AMB82-MINI-V2 or AMB82-ZERO.
 
 |image08|
 
@@ -324,13 +324,13 @@ To enter upload mode, press and hold the UART_DOWNLOAD button, then press and re
 
 However, if your board has the updated hardware and “Auto Flash Mode” is enabled, you may skip the steps above.
 
-|image13|
-
 Users may optionally verify whether the board has entered upload mode by opening a serial monitor or terminal and checking for the following information.
 
 |image14|
 
-Once the upload is complete, the “Done uploading” message will be displayed.
+Once the upload is completed, the following message will be displayed.
+
+|image13|
 
 Step 3. Run the Blink example
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
