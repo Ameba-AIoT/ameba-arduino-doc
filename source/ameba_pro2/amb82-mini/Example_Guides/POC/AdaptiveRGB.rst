@@ -2,8 +2,8 @@ AdaptiveRGB
 ===========
 
 .. contents::
-  :local:
-  :depth: 2
+   :local:
+   :depth: 2
 
 Materials
 ---------
@@ -58,15 +58,15 @@ Getting Started
 |image08|
 
 
-.. |image01| image::  ../../../../_static/amebapro2/Example_Guides/POC/AdaptiveRGB/image01.jpg
-   :height:  600 px
-   :width:  450px
-.. |image02| image::  ../../../../_static/amebapro2/Example_Guides/POC/AdaptiveRGB/image02.jpg
-.. |image03| image::  ../../../../_static/amebapro2/Example_Guides/POC/AdaptiveRGB/image03.jpg
-.. |image04| image::  ../../../../_static/amebapro2/Example_Guides/POC/AdaptiveRGB/image04.jpg
-.. |image05| image::  ../../../../_static/amebapro2/Example_Guides/POC/AdaptiveRGB/image05.jpg
-   :height:  600 px
-   :width:  450px
-.. |image06| image::  ../../../../_static/amebapro2/Example_Guides/POC/AntiCollision/image06.jpg
-.. |image07| image::  ../../../../_static/amebapro2/Example_Guides/POC/AntiCollision/image07.jpg
-.. |image08| image::  ../../../../_static/amebapro2/Example_Guides/POC/AntiCollision/image08.jpg
+.. |image01| image:: ../../../../_static/amebapro2/Example_Guides/POC/AdaptiveRGB/image01.jpg
+   :height: 600 px
+   :width: 450px
+.. |image02| image:: ../../../../_static/amebapro2/Example_Guides/POC/AdaptiveRGB/image02.jpg
+.. |image03| image:: ../../../../_static/amebapro2/Example_Guides/POC/AdaptiveRGB/image03.jpg
+.. |image04| image:: ../../../../_static/amebapro2/Example_Guides/POC/AdaptiveRGB/image04.jpg
+.. |image05| image:: ../../../../_static/amebapro2/Example_Guides/POC/AdaptiveRGB/image05.jpg
+   :height: 600 px
+   :width: 450px
+.. |image06| image:: ../../../../_static/amebapro2/Example_Guides/POC/AntiCollision/image06.jpg
+.. |image07| image:: ../../../../_static/amebapro2/Example_Guides/POC/AntiCollision/image07.jpg
+.. |image08| image:: ../../../../_static/amebapro2/Example_Guides/POC/AntiCollision/image08.jpg
