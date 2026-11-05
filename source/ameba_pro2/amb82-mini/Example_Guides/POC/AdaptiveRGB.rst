@@ -1,5 +1,5 @@
 AdaptiveRGB
-==========
+===========
 
 .. contents::
   :local:
