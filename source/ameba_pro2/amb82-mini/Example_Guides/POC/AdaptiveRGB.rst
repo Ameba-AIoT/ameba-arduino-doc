@@ -26,16 +26,16 @@ The idea is to use a substream of smaller resolution and virtually splitting it 
 Getting Started
 ---------------
 - Connect the respective pins on the AMB82-Mini to the WS2812B LED strip using the jumper wires. "+5V" to "V_USB", "DIN" to "SPI_MOSI", "GND" to "GND".
-|image01|
+   |image01|
 
 - Find the POC example under "Files" -> "Examples" -> "POC" -> "AdaptiveRGB" from the top left corner of the ArduinoIDE.
-|image02|
+   |image02|
 
 - Update NUM_LEDS to match the number of LEDs on the WS2812B strip.
-|image03| 
+   |image03| 
 
 - When ENABLE_RTSP is set to 1, edit the WiFi network ID and Password in the following sections. Your viewing device will have to be connected to the same WiFi network to watch the stream later.
-|image04|
+   |image04|
 
 - Select the camera module that going to use from `Tools -> Camera Options`
 
@@ -44,18 +44,17 @@ Getting Started
 - Compile and upload the code into AMB82-Mini and reset the board to start running the POC example. After pressing the Reset button, wait for the Ameba board to connect to the WiFi network. The board's IP address and network port number for RTSP will be shown in the Serial Monitor. 
 
 - Simply point the camera at various objects or scenes to watch it change colors.
-|image05|
+   |image05|
 
 - Make sure your PC is connected to the same network as the Ameba Pro2 board for streaming. Since RTSP is used as the streaming protocol, key in `"rtsp://{IPaddress}:{port}"` as the Network URL in VLC media player, replacing {IPaddress} with the IP address of your Ameba Pro2 board, and {port} with the RTSP port shown in Serial Monitor `(e.g., "rtsp://192.168.1.154:554")`. The default RTSP port number is 554.
-|image06|
+   |image06|
 
 - You may choose to change the caching time in "Show more options". A lower cache time will result in reduced video latency but may introduce playback stuttering in the case of poor network conditions.
-|image07|
+   |image07|
 
 
 - Next, click "Play" to start RTSP streaming. The video stream from the camera will be shown in VLC media player. Meanwhile, in your Serial Monitor, the message "rtp started (UDP)" will appear.
-
-|image08|
+   |image08|
 
 
 .. |image01| image:: ../../../../_static/amebapro2/Example_Guides/POC/AdaptiveRGB/image01.jpg
