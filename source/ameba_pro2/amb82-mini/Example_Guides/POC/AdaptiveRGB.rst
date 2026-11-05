@@ -25,13 +25,7 @@ The idea is to use a substream of smaller resolution and virtually splitting it 
 
 Getting Started
 ---------------
-- Connect the respective pins on the AMB82-Mini to the WS2812B LED strip using the jumper wires. \
-
-"+5V" <-> "V_USB" 
-
-"DIN" <-> "SPI_MOSI"
-
-"GND" <-> "GND"
+- Connect the respective pins on the AMB82-Mini to the WS2812B LED strip using the jumper wires. "+5V" to "V_USB", "DIN" to "SPI_MOSI", "GND" to "GND".
 |image01|
 
 - Find the POC example under "Files" -> "Examples" -> "POC" -> "AdaptiveRGB" from the top left corner of the ArduinoIDE.
