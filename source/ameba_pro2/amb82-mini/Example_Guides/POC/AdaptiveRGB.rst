@@ -19,15 +19,20 @@ This proof of concept example aims to control the WS2812B LED strip by changing 
 
 How it Works
 ------------
-AMB82-Mini set ups an SPI MOSI pin to send data to the WS2812B LED to change its colors and brightness along with an optional RTSP video stream over WiFi.
-Two separate channels are used. Channel 0 is used to output the RTSP video stream while channel 3 is used to by the module_rgbled to read the RGB888 data gotten from
-the camera sensor itself. The idea is to use a substream of smaller resolution and virtually splitting it into four equal quadrants. The midpoint of each quadrant will be
-used to drive the colors of each one-quarter of the LED strip. For example a WS2812B with 17 LEDs, the colors for the LEDs [0:3, 4:7, 8:11, 11:16] will take on the midpoint
-pixel value of the quadrants [TopLeft, TopRight, BottomLeft, BottomRight].
+AMB82-Mini set ups an SPI MOSI pin to send data to the WS2812B LED to change its colors and brightness along with an optional RTSP video stream over WiFi. Two separate channels are used. Channel 0 is used to output the RTSP video stream while channel 3 is used to by the module_rgbled to read the RGB888 data gotten from the camera sensor itself. 
+
+The idea is to use a substream of smaller resolution and virtually splitting it into four equal quadrants. The midpoint of each quadrant will be used to drive the colors of each one-quarter of the LED strip. For example a WS2812B with 17 LEDs, the colors for the LEDs [0:3, 4:7, 8:11, 11:16] will take on the midpoint pixel value of the quadrants [TopLeft, TopRight, BottomLeft, BottomRight].
 
 Getting Started
 ---------------
-- Connect the respective pins on the AMB82-Mini to the WS2812B LED strip using the jumper wires. The connections are "+5V" <-> "V_USB", "DIN" <-> "SPI_MOSI", "GND" <-> "GND". 
+- Connect the respective pins on the AMB82-Mini to the WS2812B LED strip using the jumper wires. 
+
+"+5V" <-> "V_USB" 
+
+"DIN" <-> "SPI_MOSI"
+
+"GND" <-> "GND"
+
 |image01|
 
 - Find the POC example under "Files" -> "Examples" -> "POC" -> "AdaptiveRGB" from the top left corner of the ArduinoIDE.
@@ -43,8 +48,7 @@ Getting Started
 
 .. note:: Please make sure the camera is supported otherwise system will returns "senesor ID error" or "VOE not init".
 
-- Compile and upload the code into AMB82-Mini and reset the board to start running the POC example. After pressing the Reset button, wait for the Ameba board to connect 
-to the WiFi network. The board's IP address and network port number for RTSP will be shown in the Serial Monitor. 
+- Compile and upload the code into AMB82-Mini and reset the board to start running the POC example. After pressing the Reset button, wait for the Ameba board to connect to the WiFi network. The board's IP address and network port number for RTSP will be shown in the Serial Monitor. 
 
 - Simply point the camera at various objects or scenes to watch it change colors.
 |image05|
@@ -60,15 +64,16 @@ to the WiFi network. The board's IP address and network port number for RTSP wil
 
 |image08|
 
-|image09|
-
 
 .. |image01| image::  ../../../../_static/amebapro2/Example_Guides/POC/AdaptiveRGB/image01.jpg
+   :height:  600 px
+   :width:  450px
 .. |image02| image::  ../../../../_static/amebapro2/Example_Guides/POC/AdaptiveRGB/image02.jpg
 .. |image03| image::  ../../../../_static/amebapro2/Example_Guides/POC/AdaptiveRGB/image03.jpg
 .. |image04| image::  ../../../../_static/amebapro2/Example_Guides/POC/AdaptiveRGB/image04.jpg
 .. |image05| image::  ../../../../_static/amebapro2/Example_Guides/POC/AdaptiveRGB/image05.jpg
+   :height:  600 px
+   :width:  450px
 .. |image06| image::  ../../../../_static/amebapro2/Example_Guides/POC/AntiCollision/image06.jpg
 .. |image07| image::  ../../../../_static/amebapro2/Example_Guides/POC/AntiCollision/image07.jpg
 .. |image08| image::  ../../../../_static/amebapro2/Example_Guides/POC/AntiCollision/image08.jpg
-.. |image09| image::  ../../../../_static/amebapro2/Example_Guides/POC/AntiCollision/image09.jpg
