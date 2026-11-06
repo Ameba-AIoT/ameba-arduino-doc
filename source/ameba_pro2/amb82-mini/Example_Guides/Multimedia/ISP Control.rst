@@ -16,6 +16,7 @@ The following examples are relevant to this guide.
 3. Mode
 4. WhiteBalance
 5. WideDynamicRange
+6. 3DNR
 
 Open one of the ISP Control examples in :guilabel:`File -> Examples -> AmebaMultimedia -> ISPControl`
 
@@ -139,6 +140,14 @@ LDC=1
 | Enter "**LEVEL={value}**" to set preferred WDR level. (Range from 50 to 100).
 | Enter "**LEVEL**" to get the value of WDR level.
 
+| **"3DNR" example**
+| 3D Noise Reduction (3DNR) helps reduce image noise by
+  processing information across multiple video frames,
+  improving image quality, especially in low-light conditions.
+| **To enable or disable 3DNR:**
+| Enter "**3DNR={value}**" to enable or disable 3D Noise Reduction. (0: Disable, 1: Enable).
+| Enter "**3DNR**" to get the current 3DNR setting.
+
 | **To reset all the ISP Control value to default:**
 | Enter "**RESET**" to set all the values to default value.
 
@@ -158,8 +167,8 @@ You may adjust the video bitrate based on your WiFi network quality, by uncommen
 |image13|
 
 .. |image01| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/ISP_Control/image01.png
-   :width:  811 px
-   :height: 934 px
+   :width:  758 px
+   :height: 1028 px
 
 .. |image02| image:: ../../../../_static/amebapro2/Example_Guides/Multimedia/ISP_Control/image02.png
    :width:  811 px
