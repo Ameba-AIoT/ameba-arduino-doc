@@ -47,7 +47,9 @@ Note that for Yolov7 object detection training from pytorch, you will need to pe
 
 Command to run is:
 
-python reparam_yolov7-tiny.py --weights weights/best.pt --custom_yaml custom/yolov7-tiny-deploy.yaml --output best_reparam.pt
+.. code-block:: bash
+
+   python reparam_yolov7-tiny.py --weights weights/best.pt --custom_yaml custom/yolov7-tiny-deploy.yaml --output best_reparam.pt
 
 |image03|
 
