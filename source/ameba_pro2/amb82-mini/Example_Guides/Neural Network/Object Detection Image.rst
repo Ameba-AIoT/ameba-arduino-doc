@@ -37,7 +37,7 @@ Additionally, refer to https://www.amebaiot.com/en/amebapro2-apply-ai-model-docs
   under ~/NeuralNetwork/Yolov7_reparam_scripts.
 
   Command to run is:
-  ``python reparam_yolov7-tiny.py -weights weights/best.pt -custom_yaml custom/yolov7-tiny-deploy.yaml -output best_reparam.pt``
+  ``python reparam_yolov7-tiny.py --weights weights/best.pt --custom_yaml custom/yolov7-tiny-deploy.yaml --output best_reparam.pt``
 
 Next, create a text file named "image_list.txt" or rename it as you wish.
 
