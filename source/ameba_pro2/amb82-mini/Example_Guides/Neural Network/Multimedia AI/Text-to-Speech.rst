@@ -1,10 +1,19 @@
 Text-to-Speech
 ==============
 
-.. note ::
-   |image_3rd_party| "Text-to-Speech" is jointly developed by RTKSG SD3 and `ChungYi Fu (Kaohsiung, Taiwan) <https://github.com/fustyles>`_
+.. rubric:: Acknowledgments
 
-   |image_ameba_iot| Special thanks and credits to the efforts and contributions for all developers.
+.. list-table::
+   :widths: 1 9
+   :width: 100%
+
+   * - .. image:: ../../../../../_static/3rd_party_logo.png
+          :width: 40px
+     - "Generative AI Speech" is jointly developed by RTKSG SD3 and `ChungYi Fu (Kaohsiung, Taiwan) <https://github.com/fustyles>`_.
+
+   * - .. image:: ../../../../../_static/ameba_iot_logo.png
+          :width: 40px
+     - Special thanks to all developers for their contributions.
 
 Materials
 ---------
@@ -75,10 +84,4 @@ Resources
 .. |image03| image:: ../../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Text-to-Speech/image03.png
    :width:  737 px
    :height:  265 px
-
-.. |image_ameba_iot| image:: ../../../../../_static/ameba_iot_logo.png
-   :scale: 40%
-
-.. |image_3rd_party| image:: ../../../../../_static/3rd_party_logo.png
-   :scale: 10%
 

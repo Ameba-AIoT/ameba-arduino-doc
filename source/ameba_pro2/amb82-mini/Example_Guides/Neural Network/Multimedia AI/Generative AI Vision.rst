@@ -1,10 +1,19 @@
 Generative AI Vision
 ====================
 
-.. note ::
-   |image_3rd_party| "Generative AI Vision" is jointly developed by RTKSG SD3 and `ChungYi Fu (Kaohsiung, Taiwan) <https://github.com/fustyles>`_
+.. rubric:: Acknowledgments
 
-   |image_ameba_iot| Special thanks and credits to the efforts and contributions for all developers.
+.. list-table::
+   :widths: 1 9
+   :width: 100%
+
+   * - .. image:: ../../../../../_static/3rd_party_logo.png
+          :width: 40px
+     - "Generative AI Speech" is jointly developed by RTKSG SD3 and `ChungYi Fu (Kaohsiung, Taiwan) <https://github.com/fustyles>`_.
+
+   * - .. image:: ../../../../../_static/ameba_iot_logo.png
+          :width: 40px
+     - Special thanks to all developers for their contributions.
 
 Materials
 ---------
@@ -49,11 +58,14 @@ Various online servers and LLM models featured in the SDK:
 +======================================+===================================================+=============================+=================================+
 | openAI platform                      | gpt-4o-mini                                       | 500 RPM                     | Chargeable (Tier 1)             |
 +--------------------------------------+---------------------------------------------------+-----------------------------+---------------------------------+
-| Google AI Studio                     | gemini-2.5-flash                                  | 15 RPM                      | Free of charge                  |
+| Google AI Studio                     | gemini-flash-latest                               | 15 RPM                      | Free of charge                  |
 +--------------------------------------+---------------------------------------------------+-----------------------------+---------------------------------+
 | GroqCloud                            | meta-llama/llama-4-scout-17b-16e-instruct         | 15 RPM                      | Free of charge                  |
 +--------------------------------------+---------------------------------------------------+-----------------------------+---------------------------------+
 
+.. tip::
+   Please consider changing model if there is a high demand or no response from the LLM endpoint. Refer to the resources section below for the latest models online. 
+   
 **Rate Limit References**
 
 openAI: https://platform.openai.com/docs/guides/rate-limits?context=tier-one#usage-tiers
@@ -89,9 +101,3 @@ Resources
 .. |image04| image:: ../../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Vision/image04.png
    :width:  589 px
    :height:  503 px
-
-.. |image_ameba_iot| image:: ../../../../../_static/ameba_iot_logo.png
-   :scale: 40%
-
-.. |image_3rd_party| image:: ../../../../../_static/3rd_party_logo.png
-   :scale: 10%
