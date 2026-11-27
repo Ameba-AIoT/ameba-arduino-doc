@@ -73,9 +73,3 @@ Resources
    :width:  729 px
    :height:  344 px
 
-.. |image_ameba_iot| image:: ../../../../../_static/ameba_iot_logo.png
-   :scale: 40%
-
-.. |image_3rd_party| image:: ../../../../../_static/3rd_party_logo.png
-   :scale: 10%
-

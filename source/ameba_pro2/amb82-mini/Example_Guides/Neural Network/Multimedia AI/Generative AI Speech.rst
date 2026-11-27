@@ -1,10 +1,19 @@
 Generative AI Speech
 ====================
 
-.. note ::
-   |image_3rd_party| "Generative AI Speech" is jointly developed by RTKSG SD3 and `ChungYi Fu (Kaohsiung, Taiwan) <https://github.com/fustyles>`_
+.. rubric:: Acknowledgments
 
-   |image_ameba_iot| Special thanks and credits to the efforts and contributions for all developers.
+.. list-table::
+   :widths: 1 9
+   :width: 100%
+
+   * - .. image:: ../../../../../_static/3rd_party_logo.png
+          :width: 40px
+     - "Generative AI Speech" is jointly developed by RTKSG SD3 and `ChungYi Fu (Kaohsiung, Taiwan) <https://github.com/fustyles>`_.
+
+   * - .. image:: ../../../../../_static/ameba_iot_logo.png
+          :width: 40px
+     - Special thanks to all developers for their contributions.
 
 Materials
 ---------
@@ -125,8 +134,11 @@ Various online servers and LLM models featured in the SDK:
 +------------------------------------+----------------------------------+----------------------------------+-----------------------------------------------+-----------------------------+---------------------------------+
 | api.groq.com                       |  /openai/v1/audio/transcriptions |  /openai/v1/audio/translations   | whisper-large-v3-turbo or whisper-large-v3    | 20 RPM                      | Free of charge                  |
 +------------------------------------+----------------------------------+----------------------------------+-----------------------------------------------+-----------------------------+---------------------------------+
-| generativelanguage.googleapis.com  |  /v1beta/models/<model>                                             | gemini-2.0-flash                              | 15 RPM                      | Free of charge                  |
+| generativelanguage.googleapis.com  |  /v1beta/models/<model>                                             | gemini-flash-latest                           | 15 RPM                      | Free of charge                  |
 +------------------------------------+----------------------------------+----------------------------------+-----------------------------------------------+-----------------------------+---------------------------------+
+
+.. tip::
+   Please consider changing model if there is a high demand or no response from the LLM endpoint. Refer to the resources section below for the latest models online. 
 
 **Rate Limit References**
 
@@ -190,9 +202,3 @@ Resources
 .. |image09| image:: ../../../../../_static/amebapro2/Example_Guides/Neural_Network/Neural_Network_-_Generative_AI_Speech/image09.png
    :width:  813 px
    :height:  152 px
-
-.. |image_ameba_iot| image:: ../../../../../_static/ameba_iot_logo.png
-   :scale: 40%
-
-.. |image_3rd_party| image:: ../../../../../_static/3rd_party_logo.png
-   :scale: 10%
